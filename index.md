@@ -9,4 +9,4 @@ The Yo-Kai Watch documentation site.
 
 ## Credits
 
-- Woganog: Site creator
+- Woganog: Site creator and owner
