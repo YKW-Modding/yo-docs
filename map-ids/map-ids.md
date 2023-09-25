@@ -1,6 +1,7 @@
 ---
 title: Map IDs
 layout: default
+has_children: true
 ---
 
 # Map IDs
