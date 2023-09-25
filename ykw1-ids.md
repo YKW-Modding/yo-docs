@@ -3,7 +3,11 @@ title: YKW1 IDs
 layout: default
 ---
 
-# Maps (unfinished, only added for testing, info taken from tcrf)
+# Maps *(Unfinished)*
+
+*Credit for IDs: [The Cutting Room Floor](https://tcrf.net/Notes:Yo-kai_Watch_(Nintendo_3DS)#Map_names)*
+
+## "Big" Maps
 
 |Map ID |Map name|
 |-------|-------|
