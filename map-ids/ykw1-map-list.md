@@ -5,7 +5,7 @@ parent: Map IDs
 nav_order: 1
 ---
 
-# YKW1 Map List *(Unfinished)*
+# YKW1 Map List *(Unfinished, layout subject to change)*
 
 *Credit: [The Cutting Room Floor](https://tcrf.net/Notes:Yo-kai_Watch_(Nintendo_3DS)#Map_names)*
 
