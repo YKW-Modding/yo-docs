@@ -2,6 +2,8 @@ title: Yo-Docs
 description: The Yo-Kai Watch documentation site.
 theme: just-the-docs
 
+color_scheme: dark
+
 url: https://ykw-modding.github.io
 
 aux_links:
