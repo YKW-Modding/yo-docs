@@ -4,7 +4,8 @@ theme: just-the-docs
 
 color_scheme: dark
 
-url: https://ykw-modding.github.io
+baseurl: "/yo-docs"
+url: "https://ykw-modding.github.io"
 
 aux_links:
   The Yo-Kai Watch Modding Discord: https://discord.gg/TbmKf6Ujq3
