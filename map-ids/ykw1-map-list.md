@@ -2,6 +2,7 @@
 title: YKW1 Map List
 layout: default
 parent: Map IDs
+nav_order: 1
 ---
 
 # YKW1 Map List *(Unfinished)*
