@@ -1,11 +1,12 @@
 ---
-title: YKW1 IDs
+title: YKW1 Map List
 layout: default
+parent: Map IDs
 ---
 
-# Maps *(Unfinished)*
+# YKW1 Map List *(Unfinished)*
 
-*Credit for IDs: [The Cutting Room Floor](https://tcrf.net/Notes:Yo-kai_Watch_(Nintendo_3DS)#Map_names)*
+*Credit: [The Cutting Room Floor](https://tcrf.net/Notes:Yo-kai_Watch_(Nintendo_3DS)#Map_names)*
 
 ## "Big" Maps
 
