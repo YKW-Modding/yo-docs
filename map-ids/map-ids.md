@@ -20,8 +20,8 @@ This character is always a number. It is the zone that the map is in. The zone n
 
 |Number|Zone|
 |------|----|
-|1     |Overworld|
-|2     |The Yo-Kai World|
+|1     |Everything except for the Yo-Kai World's Big Map|
+|2     |The Yo-Kai World's Big Map|
 
 **YKW2:**
 
