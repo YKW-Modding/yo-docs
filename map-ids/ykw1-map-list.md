@@ -104,7 +104,7 @@ The list is in alphabetical order.
 | t103b07  |Byrd House|Battle Background|
 | t103b21  |Old Mansion|Battle Background|
 | t103b23  |Old Mansion (Attic)|Battle Background|
-| t103b31  |nfinite Inferno|Battle Background|
+| t103b31  |Infinite Inferno|Battle Background|
 | t103b35  |Infinite Inferno (Boss)|Battle Background|
 | t103d01  |Trucked Away Lot|Dungeon|
 | t103d03  |Hidden Side Street|Dungeon|
