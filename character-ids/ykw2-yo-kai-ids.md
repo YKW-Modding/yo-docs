@@ -1,3 +1,16 @@
+---
+title: YKW2 Yo-kai IDs
+layout: default
+parent: Character IDs
+nav_order: 2
+---
+
+# YKW2 Yo-kai IDs
+
+The list is in alphabetical order.
+
+*Special thanks to the [YKW2 naming project](https://gamebanana.com/tools/11464).*
+
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
 | y00100  | Whisper                                                              |
