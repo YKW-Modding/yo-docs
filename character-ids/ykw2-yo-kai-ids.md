@@ -11,6 +11,8 @@ The list is in alphabetical order.
 
 *Special thanks to the [YKW2 naming project](https://gamebanana.com/tools/11464).*
 
+## Normal Yo-kai
+
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
 | y00100  | Whisper                                                              |
