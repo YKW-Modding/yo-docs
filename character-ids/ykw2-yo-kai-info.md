@@ -13,15 +13,15 @@ The list is in alphabetical order.
 
 ## Normal Yo-kai
 
-|Folder ID| Yo-kai                                                               | ParamID  | BaseID   |
-| ------- | -------------------------------------------------------------------- | -------- | -------- |
-| y001000 | Whisper                                                              | 
-| y001001 | Whisper                                                              |
-| y001800 | Nonuttin                                                             |
-| y006000 | Pandle                                                               |
-| y060000 | Patrolye                                                             |
-| y101000 | Pandle                                                               |
-| y101600 | Pandull (Yo-criminal)                                                |
+|Folder ID| Yo-kai                                                               | ParamID  | BaseID   | Tribe  | Rank | Money  | EXP   | Exp. Up | Item Drops                       | HP (Min/Max) | STR (Min/Max) | SPR (Min/Max) | DEF (Min/Max) | SPD (Min/Max) | Attribute Damage Multiplier | Attack               | Technique              | Inspirit              | Soultimate             | Skill              |
+| ------- | -------------------------------------------------------------------- | -------- | -------- | ------ | ---- | ------ | ----- | ------- | -------------------------------- | ------------ | ------------- | ------------- | ------------- | ------------- | --------------------------- | -------------------- | ---------------------- | --------------------- | ---------------------- | ------------------ |
+| y001000 | Whisper                                                              | N/A      |
+| y001001 | Whisper                                                              | N/A      |
+| y001800 | Nonuttin                                                             | N/A      |
+| y006000 | Pandle                                                               | N/A      |
+| y060000 | Patrolye                                                             | N/A      |
+| y101000 | Pandle                                                               | 79F3AA36 |
+| y101600 | Pandull (Yo-criminal)                                                | 
 | y102000 | Undy                                                                 |
 | y102010 | Tanbo                                                                |
 | y103000 | D'wanna                                                              |
@@ -47,19 +47,19 @@ The list is in alphabetical order.
 | y113010 | Quaken                                                               |
 | y113020 | Siro                                                                 |
 | y113600 | Blazioff (Yo-criminal)                                               |
-| y114000 | Beetler (Bony Spirits (no difference to the other, but it exists))   |
-| y114050 | Beetler (Fleshy Souls (no difference to the other, but it exists))   |
+| y114000 | Beetler (Bony Spirits)                                               |
+| y114050 | Beetler (Fleshy Souls)                                               |
 | y114600 | Cheatler (Yo-criminal)                                               |
-| y115000 | Betall (Bony Spirits (no difference to the other, but it exists))    |
+| y115000 | Beetall (Bony Spirits)                                               |
 | y115010 | Cruncha                                                              |
-| y115050 | Betall (Fleshy Souls (no difference to the other, but it exists))    |
+| y115050 | Beetall (Fleshy Souls)                                               |
 | y116000 | Benkei                                                               |
 | y116010 | B3-NK1                                                               |
 | y117000 | Zerberker                                                            |
 | y117010 | Snartle                                                              |
 | y117600 | Zeroberker (Yo-criminal)                                             |
 | y118000 | Snotsolong                                                           |
-| yy118010 | Duchoo                                                               |
+| y118010 | Duchoo                                                               |
 | y119000 | Espy                                                                 |
 | y119010 | Infour                                                               |
 | y119600 | Falspy (Yo-criminal)                                                 |
@@ -117,12 +117,12 @@ The list is in alphabetical order.
 | y143000 | Armsman                                                              |
 | y144000 | Mad Mountain                                                         |
 | y144010 | Lava Lord                                                            |
-| y145000 | Rhinoggin (Bony Spirits (no difference to the other, but it exists)) |
-| y145050 | Rhinoggin (Fleshy Souls (no difference to the other, but it exists)) |
+| y145000 | Rhinoggin (Bony Spirits)                                             |
+| y145050 | Rhinoggin (Fleshy Souls)                                             |
 | y145600 | Rhinopposite                                                         |
 | y146000 | Rhinormous (Bony Spirits/round horn)                                 |
 | y146010 | Hornaplenty                                                          |
-| y146050 | Rhinormous (Fleshy Souls/ sharp horn)                                |
+| y146050 | Rhinormous (Fleshy Souls/sharp horn)                                 |
 | y147000 | Castelius I                                                          |
 | y147010 | Castelius III                                                        |
 | y147020 | Castelius II                                                         |
@@ -235,7 +235,7 @@ The list is in alphabetical order.
 | y187050 | Rockabelly (Fleshy Souls/different belly face)                       |
 | y188000 | Chatalie                                                             |
 | y188010 | Nagatha                                                              |
-| y188050 | Nagatha (there was another one with different coloured teeth)        |
+| y188050 | Nagatha (different coloured teeth)                                   |
 | y189000 | Roughraff                                                            |
 | y189600 | Roughraffony (Yo-Criminal)                                           |
 | y190000 | Badude                                                               |
