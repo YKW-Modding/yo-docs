@@ -13,13 +13,13 @@ The list is in alphabetical order.
 
 ## Normal Yo-kai
 
-|Folder ID| Yo-kai                                                               |
-| ------- | -------------------------------------------------------------------- |
-| y001000 | Whisper                                                              |
+|Folder ID| Yo-kai                                                               | ParamID  | BaseID   |
+| ------- | -------------------------------------------------------------------- | -------- | -------- |
+| y001000 | Whisper                                                              | 
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
 | y006000 | Pandle                                                               |
-| y060000 | Terror time patroler                                                 |
+| y060000 | Patrolye                                                             |
 | y101000 | Pandle                                                               |
 | y101600 | Pandull (Yo-criminal)                                                |
 | y102000 | Undy                                                                 |
