@@ -15,7 +15,7 @@ The list is in alphabetical order.
 
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
-| y00100  | Whisper                                                              |
+| y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
 | y006000 | Pandle                                                               |
