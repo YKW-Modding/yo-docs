@@ -1,4 +1,4 @@
-# Yo-Docs
+# Yo-docs
 
 The Yo-Kai Watch documentation site.
 
