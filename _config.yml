@@ -1,4 +1,4 @@
-title: Yo-Docs
+title: Yo-docs
 description: The Yo-Kai Watch documentation site.
 remote_theme: just-the-docs/just-the-docs
 
@@ -8,8 +8,8 @@ baseurl: "/yo-docs"
 url: "https://ykw-modding.github.io"
 
 aux_links:
-  The Yo-Kai Watch Modding Discord: https://discord.gg/TbmKf6Ujq3
-  The Yo-Kai Watch Speedrunning Discord: https://discord.gg/eZsQ9Zts7d
+  The Yo-kai Watch Modding Discord: https://discord.gg/TbmKf6Ujq3
+  The Yo-kai Watch Speedrunning Discord: https://discord.gg/eZsQ9Zts7d
 
 aux_links_new_tab: true
 
