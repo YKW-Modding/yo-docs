@@ -18,7 +18,7 @@ The list is in alphabetical order.
 | y001000 | Whisper                                                              | N/A        | 0x54A489A6 |
 | y001001 | Whisper (cutscene?)                                                  | N/A        | 
 | y001800 | Whispocrates/Nonuttin                                                | N/A        |
-| y006000 | Pandle                                                               | N/A        |
+| y006000 | Pandle (??)                                                          | N/A        |
 | y060000 | Patrolye                                                             | N/A        |
 | y101000 | Pandle                                                               | 0x79F3AA36 |
 | y101600 | Pandull (Yo-criminal)                                                | 0x7D7ED684 |
