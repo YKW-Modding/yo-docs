@@ -3,6 +3,7 @@ title: How to fix models so they work on Yo-kai Watch 1Sw/Sm
 layout: default
 parent: Modding Guides
 ---
+
 # How to fix models so they work on Yo-kai Watch 1Sw/Sm
 **original guide by @heartyalexii on discord**
 
