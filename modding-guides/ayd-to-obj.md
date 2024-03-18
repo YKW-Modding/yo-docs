@@ -1,5 +1,5 @@
 ---
-title: Convert an ayd files to obj
+title: AYD to OBJ
 layout: default
 parent: Modding Guides
 ---
