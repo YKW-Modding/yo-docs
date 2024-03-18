@@ -11,7 +11,7 @@ parent: Modding Guides
 ## Required tools
 CfgBinEditor
 
-Kurrimu2
+Kuriimu2
 
 ArchiveL5
 ## The Guide
