@@ -3,6 +3,7 @@ title: How to edit map warp zones in Yo-kai Watch 3 and 2
 layout: default
 parent: Modding Guides
 ---
+
 # How to edit map warp zones in Yo-kai Watch 3 and 2
 **original guide by @lit_8 on Discord**
 
