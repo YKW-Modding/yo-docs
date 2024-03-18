@@ -1,8 +1,9 @@
 ---
-title: XQ Resource
+title: XQ Mega Guide
 layout: default
 parent: Modding Guides
 ---
+
 **Original guide by @komazuraaa. Guide INCOMPLETE.**
 # Guide 0 - Setting up the decompiler
 Step 1. Get XtractQuery from [here](https://github.com/onepiecefreak3/XtractQuery/releases/latest).
