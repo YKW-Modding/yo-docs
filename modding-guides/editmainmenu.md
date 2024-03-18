@@ -3,6 +3,7 @@ title: Editing the main menu!
 layout: default
 parent: Modding Guides
 ---
+
 # Editing the main menu!
 **original guide by @komazuraaa on discord**
 
