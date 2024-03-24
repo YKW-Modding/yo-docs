@@ -5,6 +5,6 @@ has_children: true
 nav_order: 5
 ---
 
-# Modding guides
+# Modding Guides
 
-## All of the guides here were posted in the guides thread in the Yo-kai Watch Modding Zone Discord server. Each guide has the original author listed. If I get any wrong, make sure to ping me (@komazuraaa) on the YKW Modding Zone Discord.
+Some of the guides here were posted in the guides thread in the Yo-kai Watch Modding Zone Discord server. Each guide from there has the original author listed. If any are wrong, make sure to ping @komazuraaa on the YKW Modding Zone Discord.
