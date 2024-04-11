@@ -8,7 +8,7 @@ parent: Modding Guides
 
 ### Prerequisites
 
-If the mod is just a .fa file (maybe multiple, or maybe with folders called `mov` or `snd`), then take the all the files and put them inside a folder called `romfs`.
+If the mod is just a .fa file (maybe multiple, or maybe with folders called `mov` or `snd`), then take all of the files and put them inside a folder called `romfs`.
 
 ## Citra
 
