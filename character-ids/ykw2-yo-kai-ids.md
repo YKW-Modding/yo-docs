@@ -2,7 +2,6 @@
 title: YKW2 Yo-kai IDs
 layout: default
 parent: Character IDs
-nav_order: 2
 ---
 
 # YKW2 Yo-kai IDs
