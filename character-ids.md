@@ -24,4 +24,14 @@ nav_order: 2
 |y     |Yo-kai|
 |z     |*???*|
 
+**YKW4:**
+
+|Letter|Character Type|
+|------|--------------|
+|c     |Humans and Animals|
+|i     |Items|
+|w     |Special Yo-kai|
+|x     |Boss and Misc. Yo-kai|
+|y     |Yo-kai|
+
 ***unfinished***
