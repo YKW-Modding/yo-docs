@@ -2,7 +2,6 @@
 title: YKW4 Yo-kai IDs
 layout: default
 parent: Character IDs
-nav_order: 4
 ---
 
 # YKW4 Yo-kai IDs
