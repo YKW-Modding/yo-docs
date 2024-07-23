@@ -4,7 +4,6 @@ remote_theme: just-the-docs/just-the-docs
 
 color_scheme: dark
 
-baseurl: ""
 url: "https://ykw-modding.github.io"
 
 aux_links:
