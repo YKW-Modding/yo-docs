@@ -1,14 +1,14 @@
 ---
-title: | YKW1 | Yo-Kai IDs
+title: YKW1 Yo-kai IDs
 layout: default
 parent: Character IDs
 ---
 
-# | yKW1 | yo-kai IDs
+# YKW1 Yo-kai IDs
 
 The list is in alphabetical order.
 
-## Normal | yo-kai
+## Normal Yo-kai
 
 | Folder ID | Yo-kai               |
 | --------- | -------------------- |
