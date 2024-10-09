@@ -6,7 +6,7 @@ parent: Modding Guides
 
 # Playing/Testing Mods
 
-# 3DS/Switch
+## 3DS/Switch
 
 ### Prerequisites
 
@@ -72,3 +72,12 @@ This is a method that involves taking multiple mods that you want to use and mer
    `Viola.exe pack "C:\Users\Light\AppData\Roaming\Ryujinx\sdcard\atmosphere\contents\010086C00AF7C000\Merged\romfs"`
 5. Once your mod has finished packing, there will be a folder called `romfs_output_mod` around where you specified it to pack. Copy the `data` folder inside this folder, and paste it in the `romfs` folder for the mod. If there is no romfs folder for the mod, make it.
 6. Whichever mod you used to put your merged stuff in is the one you should then enable when loading mods. The only other mods you should have enabled aside from your merged one are code mods, such as 60FPS and 120FPS mods, or the Fullwidth Patch mod.
+
+
+# Smartphone (ANDROID)
+
+### Prerequisites
+
+[Smartphone Mod Tools](https://github.com/StringsVR/YKW1-Smartphone-Mod-Tools)
+
+Download SMT (Smartphone Mod Tools), extract the contents of the zip file into a folder and open "YKW1S-Mod-Tools.exe" from inside that folder. You must now extract your .APKS file from your android device. You can either extract it via your own means (Lucky Patcher, APK Extractor, etc) and move it to your PC. Or you can grab via ADB, to do this you have to have USB Debugging turned on and have a USB connected from your phone to your device. All you have to do is click File -> Install ADB & File -> Import .APKS from ADB. After click decompile. When that is done click "Open Modding Panel", then import your .YKM (the standard mod file for smartphone), after importing just click inject on your specific mod and boom its injected. Then just Build, Merge, Sign and export!
