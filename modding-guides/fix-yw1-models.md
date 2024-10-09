@@ -7,9 +7,7 @@ parent: Modding Guides
 # How to fix models so they work on Yo-kai Watch 1Sw/Sm
 **original guide by @heartyalexii on discord**
 
-Here’s a Model Porting Guide
-
-How to put New Models in YKW1 HD
+## How to port New Models in YKW1 HD
 
 Step 1. 
 Get the model you want to put in, Whether it be a port, or a custom one made with Level5BlenderAddon
