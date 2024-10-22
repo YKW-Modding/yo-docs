@@ -13,4 +13,4 @@ aux_links:
 aux_links_new_tab: true
 
 nav_sort: case_sensitive
-theme: "just-the-docs"
+#theme: "just-the-docs"
