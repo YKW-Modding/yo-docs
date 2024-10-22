@@ -11,6 +11,8 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
+    google-protobuf (4.26.1-x64-mingw-ucrt)
+      rake (>= 13)
     google-protobuf (4.26.1-x86_64-linux)
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -64,6 +66,8 @@ GEM
     rexml (3.2.6)
     rouge (4.2.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.75.0-x64-mingw-ucrt)
+      google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.75.0-x86_64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
     terminal-table (3.0.2)
@@ -72,11 +76,12 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3.3)
-  just-the-docs (= 0.8.2)
+  just-the-docs
 
 BUNDLED WITH
    2.3.26
