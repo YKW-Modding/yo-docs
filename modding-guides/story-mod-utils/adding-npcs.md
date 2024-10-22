@@ -62,7 +62,7 @@ Let's go over every value in the TOML template!
 
 **MapID** - On which map ID are you adding your NPC to?
 
-**OnTalk** - The XQ code to be executed when your interact with your NPC. You can learn how to code in XQ [here](/modding-guides/script-editing.html).
+**OnTalk** - The XQ code to be executed when your interact with your NPC. You can learn how to code in XQ [here](/modding-guides/xq-editing.html).
 
 **AppearCond** - A cond string that dictates when your NPC will be visible. Can be copied from other NPCs, be smart and edit a cond to your liking or leave as 0 for your NPC to be visible at all times.
 
