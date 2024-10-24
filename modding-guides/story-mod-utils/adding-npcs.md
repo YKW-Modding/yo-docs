@@ -1,11 +1,11 @@
 ---
-title: Adding NPCs (YW2 & 3)
+title: Adding NPCs (YW1, 2 & 3)
 layout: default
 parent: Create your own post game stories
 grand_parent: Modding Guides
 ---
 
-# Adding NPCs (YW2 & 3)
+# Adding NPCs (YW1, 2 & 3)
 
 **Original author on Discord: @z.u.ra**
 
@@ -40,7 +40,7 @@ Open NPCMake and click the "Generate a template for npcmake TOML" button. This w
 
 ## Step 2: Fill out your NPCMake TOML
 
-**NOTE: This step explains the values on the TOML from NPCMake v1.1.0. I cannot guarantee this will work on future versions of NPCMake, but you should still try it, as I don't plan to change the TOML format much.**
+**NOTE: This step explains the values on the TOML from NPCMake v1.2.0. I cannot guarantee this will work on future versions of NPCMake, but you should still try it, as I don't plan to change the TOML format much.**
 
 Let's go over every value in the TOML template!
 
@@ -66,6 +66,13 @@ Let's go over every value in the TOML template!
 
 **AppearCond** - A cond string that dictates when your NPC will be visible. Can be copied from other NPCs, be smart and edit a cond to your liking or leave as 0 for your NPC to be visible at all times.
 
+**IsYw1** - A boolean variable that specifies if you are adding your NPC to Yo-kai Watch 1. Leave as false if you are working with 2 or 3 - otherwise, change to true.
+
+**NpcType** - Dictates what icons NPCs have on the bottom screen map. The built in NPC types are the following:
+* Human
+* Yokai
+
+Simply type one of these as a string in the value of NpcType for it to work. Alternatively, if you want to use a NpcType that is not included, replace the value with an integer value representing your NPCType.
 
 ## Step 3. Compile your NPC
 
@@ -73,8 +80,8 @@ Open NPCMake and click "Make from NPCMake TOML"
 
 Click "Pick NPCMake TOML" and pick the TOML we created in step 2.
 
-Click "Pick map folder with required files" and `data/res/map/[your map ID]` from the game's FA.
+Click "Pick map folder with required files" and pick a folder containing your extracted FA.
 
 Click "Make NPC".
 
-We are almost done! You should find the output files at `[Npc Name]_output` next to your TOML. The files inside are files from `data/res/map/[your map id]`, so simply replace the files there with the edited ones and you are golden!
+We are almost done! You should find the output files at `[Npc Name]_output` next to your TOML. The files inside are a skeleton of the FA structure, but only containing the edited files! To include these in your mod, simply paste all the folders in `[Npc Name]_output` into your mod folder and it should merge the folders correctly.

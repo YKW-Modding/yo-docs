@@ -33,5 +33,3 @@ parent: Modding Resources
 |w     |Special Yo-kai|
 |x     |Boss and Misc. Yo-kai|
 |y     |Yo-kai|
-
-***unfinished***
