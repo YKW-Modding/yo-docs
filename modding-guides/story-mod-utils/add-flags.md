@@ -9,7 +9,7 @@ grand_parent: Modding Guides
 **Original author on Discord: @z_u_ra**
 
 
-**NOTE: IN YOKAI WATCH 2, THIS CRASHES THE GAME DUE TO A BUG WITH THE ENGINE! ONLY USE THIS IN 3, B1 OR B2**
+**NOTE: IN YOKAI WATCH 2, THIS CRASHES THE GAME DUE TO A BUG WITH THE ENGINE! ONLY USE THIS IN 1, 3, B1 OR B2**
 1. Open `data/res/sys/flag_config_0.01.cfg.bin`
 2. Increment the value in FLAG_INFO_0 (child count)
 3. Duplicate a child in FLAG_INFO_0
