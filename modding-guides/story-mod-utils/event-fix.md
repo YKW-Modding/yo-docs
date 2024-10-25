@@ -1,11 +1,11 @@
 ---
-title: Make custom events work properly
+title: Making Custom Events Work Properly
 layout: default
-parent: Create your own post game stories
+parent: Creating Your Own Postgame Stories
 grand_parent: Modding Guides
 ---
 
-# Make custom events work properly
+# Making Custom Events Work Properly
 **Original author on Discord: @z_u_ra**
 
 
