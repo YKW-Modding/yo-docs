@@ -44,11 +44,11 @@ This character is always a number. It is the zone that the map is in. The zone n
 |4     |BBQ|
 |5     |Blasters T Maps|
 
-### Third and fourth characters
+### Third and Fourth Characters
 
 Together, these two characters form a two digit number which defines the place that the map is intended for (e.g: `01` for Uptown Springdale).
 
-### Fifth character
+### Fifth Character
 
 This can either be `g`, `i`, `d`, `w` or `b`.
 
@@ -60,6 +60,6 @@ This can either be `g`, `i`, `d`, `w` or `b`.
 |w     |Watchmap|
 |b     |Battle background|
 
-### Sixth and seventh characters
+### Sixth and Seventh Characters
 
 Together, these two characters form a two digit number which simply is used to order the maps.
