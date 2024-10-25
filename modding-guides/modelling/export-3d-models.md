@@ -14,7 +14,7 @@ Hello, today I'm explaining you how you can export 3D models from the games (Cur
 
 ## Software:
 
-__**For This You'll Need: **__
+__**For This You'll Need:**__
 - [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2)
 - [Metanoia (fork by Tiniifan)](https://github.com/Tiniifan/Metanoia/)
 - An extracted RomFS, if not, check this [guide](https://discord.com/channels/1053460697754898432/1146817437526929528) by Woganog
@@ -39,7 +39,7 @@ __**Step 2: Exporting the Model**__
 
 ## Software:
 
-__**For This You'll Need :**__
+__**For This You'll Need:**__
 - [Noesis](https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91)
 - [CriFsLibGUI](https://github.com/Sewer56/CriFsV2Lib/releases)
 - [This Noesis Addon](https://cdn.discordapp.com/attachments/1053460755833426061/1196766889028882442/yokai_watch_4_switch.py?ex=6602a705&is=65f03205&hm=0793df581a9ed770d50f77b923d26f088c91e160b3d619c55067c4d8b5574d3c&)
