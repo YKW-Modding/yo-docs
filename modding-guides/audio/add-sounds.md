@@ -5,7 +5,7 @@ grand_parent: Modding Guides
 parent: Audio
 ---
 
-# How to add sounds
+# How to Add Sounds
 **original guide by @whisperito on discord**
 
 
