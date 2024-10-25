@@ -1,5 +1,5 @@
 ---
-title: Common_Item_Table IDs
+title: CommonItemTable IDs
 layout: default
 has_children: true
 parent: Modding Resources
