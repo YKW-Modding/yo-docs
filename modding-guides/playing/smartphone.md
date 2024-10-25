@@ -2,7 +2,7 @@
 title: Playing YKW1 Mobile Mods (Android)
 layout: default
 grand_parent: Modding Guides
-parent: Playing mods
+parent: Playing Mods
 ---
 
 # Playing YKW1 Mobile Mods (Android)
