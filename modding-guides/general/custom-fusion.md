@@ -1,14 +1,14 @@
 ---
-title: How to make a custom fusion ?
+title: How to Make a Custom Fusion?
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: General Modding
 ---
 **Original guide by @whisperito on discord**
 
 *This guide works with most 3DS games but B1 and B2*
 
-__**Step 0 : Getting tools :**__
+__**Step 0: Getting Tools**__
 
 You'll need :
 
@@ -20,12 +20,12 @@ or
 
 *Not __necessaries__ but recommendeds :* [The latest MyTags](https://discord.com/channels/1053460697754898432/1207616278051946516)
 
-__**Step 1 : Extracting necessary files**__
+__**Step 1: Extracting Necessary Files**__
 
 1. Open your main fa `yw[?]_a.fa` (there may not be a caracter instead of ?) using Kuriimu2
 2. Go to `data/res/shop` and extract `combine_config.cfg.bin` (you should also need to extract `chara_param[???].cfg.bin` in `data/res/character`(always take the heaviest one if there are multiples ones)
 
-__**Step 2 : Editing the files **__
+__**Step 2: Editing the Files**__
 
 *0. If you chose to use the tags, please make sure that you've put the downloaded tags into the same folder as the CfgBinEditor executable*
 *1. First, make sure your Yo-Kai is fusable, for this, open the `chara_param[???].cfg.bin` using your CfgBinEditor, choose the tags for your game and go to the CHARA_PARAM entry of your yo-kai, scroll down and look for an `IsFusable` value (or if you're not using the tags, it's one of the last values generally, it's a boolean), make sure this value is `1`.*
@@ -38,7 +38,7 @@ __**Step 2 : Editing the files **__
 7. I actually don't know what's `FusionIsItem`, I'll update the guide if I figure out!
 8. Click on your entry list, (in this case it's `COMBINE_CONFIG_BEGIN_0`) (`_BEGIN_0` may or may not happen depending on your CfgBinEditor) and increase the value you see at the right by the number of entries you added! Then, you can save without any problems your `.cfg.bin`
 
-__**Step 3 : Saving, and, testing.**__
+__**Step 3: Saving and Testing.**__
 
 1. Replace the files you edited using Kuriimu2
 2. Save your `.fa`

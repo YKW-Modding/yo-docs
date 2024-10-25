@@ -1,42 +1,42 @@
 ---
-title: How to convert Mp4 to Moflex
+title: How to Convert MP4 to Moflex
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: General Modding
 ---
 
 
-# How to convert Mp4 to Moflex
-**original guide by @komazuraaa on discord**
+# How to Convert MP4 to Moflex
+**Original guide by @komazuraaa on discord**
 
 
-**make sure your video is exported to 480p before doing this!!!**
+**Make sure your video is exported to 480p before doing this!!!**
 
 1. Get mobiclip multicore encoder.
 
-2. get runasdate
+2. Get runasdate
 
-3. run mobiclip enocder inside runasdate and set the date to earlier than 2023
+3. Run mobiclip enocder inside runasdate and set the date to earlier than 2023
 
 4. Give hte program the license file that it comes with
 
-5.  load up the mgraph attached at the end of this message.
+5. Load up the mgraph attached at the end of this message.
 
-6. double click the video files block.
+6. Double-click the video files block.
 
-7. change the input video to your video.
+7. Change the input video to your video.
 
-8.  double click the encoder block.
+8. Double click the encoder block.
 
-9. change the output dir to your desired output directory.
+9. Change the output dir to your desired output directory.
 
-10. click queue job.
+10. Click queue job.
 
-11. find your output MOFLEX in your output directory.
+11. Find your output MOFLEX in your output directory.
 
-12. replace any moflex in the game with your video!
+12. Replace any moflex in the game with your video!
 
-# mgraph (copy and paste into a 'graph.mpgrah` file and load it in the program):
+# Mgraph (Copy and paste into a 'graph.mpgrah` file and load it in the program):
 ```json
 [
    {

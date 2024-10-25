@@ -5,12 +5,12 @@ grand_parent: Modding Guides
 parent: Audio
 ---
 
-# How to add sounds
-**original guide by @whisperito on discord**
+# How to Add Sounds
+**Original guide by @whisperito on discord**
 
 
 
-## Hello, in this guide, I will explain you how you can add sounds to the games
+## Hello, in this guide, I will explain how to add sounds to the games
 
 *Please note that this guide assumes that you already have the `.bcstm` sound you want to add to the game.*
 
@@ -18,7 +18,7 @@ parent: Audio
 
 - An extracted RomFS. If you don't have one.
 
-# __For adding a music/theme to the `.bcsar`:__
+# __Adding Music/Themes to the `.bcsar`:__
 
 1. Open your `.bcsar` in BCSARView, it should be in the `snd/folder` of the RomFS
 2. In the "Create" menu, select "External Sound"
@@ -29,7 +29,7 @@ parent: Audio
      - In "Template", selecting any theme/music should work. 
 4. Save your `.bcsar`. It should now work. Don't forget to put your `.bcstm` in the folder you specified in "Path"
 
-# __For adding a  voice (medallium) to the `.bcsar`:__
+# __Adding Voices (Medallium) to the `.bcsar`:__
 
 1. Open your `.bcsar` in BCSARView, it should be in the `snd/folder` of the RomFS
 2. In the "Create" menu, select "External Sound"
@@ -40,4 +40,4 @@ parent: Audio
      - In "Template", selecting any voice should work. 
 4. Save your `.bcsar`. It should now work. Don't forget to put your `.bcstm` in the folder you specified in "Path"
 
-***If it doesn't work, please tell me, like this, I will be able to fix the guide!***
+***If it doesn't work, please tell me, and I will be able to fix the guide!***
