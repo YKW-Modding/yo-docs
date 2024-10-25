@@ -2,7 +2,7 @@
 title: How to make a battle with custom team (like kin and gin vs nathaniel)
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: Yo-kai and battles
 ---
 # How to make a battle with custom team (like kin and gin vs nathaniel)
 **original guide by @pqr29 on Discord**
