@@ -10,11 +10,8 @@ grand_parent: Modding Guides
 **Original author on Discord: @z.u.ra**
 
 ## Required tools
-CfgBinEditor
 
-Kuriimu2
-
-NPCMake
+[NPCMake](https://github.com/SuperTavor/NPCMake)
 
 Have XtractQuery installed **GLOBALLY**. You can find a text guide of this process [here](/modding-guides/xq-editing/g1.html) (at step 3). You can find a video version of the same guide [here](https://www.youtube.com/watch?v=30hn6VrURUs).
 
