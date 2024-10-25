@@ -2,7 +2,7 @@
 title: Add battles
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: Yo-kai and battles
 ---
 
 # How to add battles

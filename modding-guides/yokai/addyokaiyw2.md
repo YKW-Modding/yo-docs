@@ -2,7 +2,7 @@
 title: Adding Yo-kai (YW2) (CfgBinEditor method)
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: Yo-kai and battles
 ---
 
 
