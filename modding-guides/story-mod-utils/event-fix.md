@@ -17,4 +17,4 @@ Sometimes, when you add an event XQ and try to do stuff like spawning models or 
 4. Activate Yw2 tags
 5. in the EventID field, put your hashed event ID. You can hash your event ID here: https://emn178.github.io/online-tools/crc32.html
 6. Change all the documented variables to your liking and leave all of the undocumented variables as is.
-8.  Enjoy.
+7. Enjoy.
