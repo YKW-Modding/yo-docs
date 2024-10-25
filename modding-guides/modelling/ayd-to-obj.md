@@ -1,15 +1,15 @@
 ---
 title: AYD to OBJ
 layout: default
-parent: Models And Animations
+parent: Models and Animations
 grand_parent: Modding Guides
 ---
-# Convert an ayd files to obj
+# Converting Ayd Files to Obj
 
-**original guide by @web.83 on discord**
+**Original guide by @web.83 on discord**
 
-Hello, I will explain you how to convert an ayd (file from Puni Puni) to obj (usable for porting)
-__Tools you will need:__
+Hello, I will explain how to convert an Ayd (File from Puni Puni) to Obj (Usable for porting)
+__Tools You will Need:__
 https://github.com/simontime/fictional-couscous/releases/latest
 https://github.com/Tiniifan/YKWPPModelConverter/releases/latest (Windows GUI is recommended)
 __Step 1__
