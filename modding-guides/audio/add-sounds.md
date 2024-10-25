@@ -6,7 +6,7 @@ parent: Audio
 ---
 
 # How to Add Sounds
-**original guide by @whisperito on discord**
+**Original guide by @whisperito on discord**
 
 
 
