@@ -2,7 +2,7 @@
 title: Adding New Missions to Blasters T
 layout: default
 grand_parent: Modding Guides
-parent: Busters T
+parent: Blasters T
 ---
 
 # Adding New Missions to Blasters T
@@ -60,7 +60,7 @@ Do the same with the ..._enemy_0.01t.cfg.bin inside (rename it with your `Missio
 
 Set your `EnemyParamIDs` and your `BossParamID`
 
-**Step 5 - Making your boss' AI work**
+**Step 5 - Making Your Boss' AI Work**
 
 Open res/character/hackslash
 
@@ -68,6 +68,6 @@ Find the ParamID of an existing Mini Boss (example: Bastenyan)
 
 Duplicate the HACKSLASH_BOSS_CHARA_PARAM_INFO_LIST entry of the Mini Boss and set your Mission's Boss ParamID
 
-**Step 6 - Create a second Param ID for your boss with more HP and Stats**
+**Step 6 - Create a Second ParamID for Your Boss with More HP and Stats**
 
 The title says it all, Make sure to put the stats in `Min` and `Max` in charaparam
