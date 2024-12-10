@@ -1,14 +1,14 @@
 ---
-title: How to edit map warp zones in Yo-kai Watch 3 and 2
+title: How to Edit Map Warp Zones in Yo-kai Watch 2 and 3
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: General Modding
 ---
 
-# How to edit map warp zones in Yo-kai Watch 3 and 2
-**original guide by @lit_8 on Discord**
+# How to Edit Map Warp Zones in Yo-kai Watch 2 and 3
+**Original guide by @lit_8 on Discord**
 
-Note: This only works on map and basic door warp zones, so no doors that require items, no elevators and no trains.
+Note: This only works on map and basic door warp zones, so no doors that require items, no elevators, and no trains.
 1- Open your map config folder, so it should be the file /data/map/yourmapid/mapenv.pck
 
 2- Export that file and open it.

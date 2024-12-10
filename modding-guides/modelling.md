@@ -1,5 +1,5 @@
 ---
-title: Models And Animations
+title: Models and Animations
 layout: default
 parent: Modding Guides
 has_children: true

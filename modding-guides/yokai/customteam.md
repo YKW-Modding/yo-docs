@@ -1,11 +1,11 @@
 ---
-title: How to make a battle with custom team (like kin and gin vs nathaniel)
+title: How to Make a Battle with a Custom Team
 layout: default
 grand_parent: Modding Guides
-parent: Yo-kai and battles
+parent: Yo-kai and Battles
 ---
-# How to make a battle with custom team (like kin and gin vs nathaniel)
-**original guide by @pqr29 on Discord**
+# How to Make a Battle with a Custom Team
+**Original guide by @pqr29 on Discord**
 
 ## 0. Dump your romfs with Citra
 

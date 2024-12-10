@@ -1,12 +1,12 @@
 ---
-title: Editing the title screen
+title: Editing the Title Screen
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: General Modding
 ---
 
-# Editing the title screen!
-**original guide by @komazuraaa on discord**
+# Editing the Title Screen!
+**Original guide by @komazuraaa on discord**
 
 Tested with YKW1 EUR in English.
 

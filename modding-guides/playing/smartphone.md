@@ -1,11 +1,11 @@
 ---
-title: Playing 1 Smartphone mods (Android)
+title: Playing YKW1 Mobile Mods (Android)
 layout: default
 grand_parent: Modding Guides
-parent: Playing mods
+parent: Playing Mods
 ---
 
-# Playing 1 Smartphone mods (Android)
+# Playing YKW1 Mobile Mods (Android)
 
 ### Prerequisites
 

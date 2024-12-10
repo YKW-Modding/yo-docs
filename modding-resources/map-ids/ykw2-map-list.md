@@ -3,7 +3,6 @@ title: YKW2 Map List
 layout: default
 parent: Map IDs
 grand_parent: Modding Resources
-nav_order: 1
 ---
 
 # YKW2 Map List

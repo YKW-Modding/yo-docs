@@ -1,11 +1,11 @@
 ---
-title: How to import models to Yo-kai Watch (VIDEO TUTORIAL)
+title: How to Import Models to Yo-kai Watch (VIDEO TUTORIAL)
 layout: default
-parent: Models And Animations
+parent: Models and Animations
 grand_parent: Modding Guides
 
 ---
-# How to import models to Yo-kai Watch (VIDEO TUTORIAL)
+# How to Import Models to Yo-kai Watch (VIDEO TUTORIAL)
 
 # **NOTE: EXPORT TO XC INSTEAD OF PRM**
 

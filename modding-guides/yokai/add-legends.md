@@ -1,11 +1,11 @@
 ---
-title: How to add legendary Yokai
+title: How to Add Legendary Yo-kai
 layout: default
 grand_parent: Modding Guides
-parent: Yo-kai and battles
+parent: Yo-kai and Battles
 ---
-# How to add legendary Yokai
-**original guide by @stringsbutalt on Discord**
+# How to Add Legendary Yo-kai
+**Original guide by @stringsbutalt on Discord**
 
 For this you will need CfgBinEditor & MyTags.
 
