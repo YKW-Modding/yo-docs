@@ -1,11 +1,11 @@
 ---
-title: Adding flags
+title: Adding Flags
 layout: default
-parent: Create your own post game stories
+parent: Creating Your Own Postgame Stories
 grand_parent: Modding Guides
 ---
 
-# Adding flags
+# Adding Flags
 **Original author on Discord: @z_u_ra**
 
 

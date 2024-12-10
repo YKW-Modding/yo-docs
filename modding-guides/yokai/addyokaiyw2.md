@@ -1,13 +1,13 @@
 ---
-title: Adding Yo-kai (YW2) (CfgBinEditor method)
+title: Adding Yo-kai (YKW2) (CfgBinEditor Method)
 layout: default
 grand_parent: Modding Guides
-parent: Yo-kai and battles
+parent: Yo-kai and Battles
 ---
 
 
-# Adding Yo-kai (YW2) (CfgBinEditor method)
-**original guide by reese on discord**
+# Adding Yo-kai (YW2) (CfgBinEditor Method)
+**Original guide by reese on discord**
 
 
 This guide will be updated as time goes on!
@@ -26,7 +26,7 @@ Head to data > res > character and extract these two files:
 > chara-param-0.03a.cfg.bin
 Install Tiniifan's Level-5 Blender Addon (to export the model)
 
-# Step 1 (Getting the custom Yo-Kai ready)
+# Step 1 (Getting the Custom Yo-Kai Ready)
 
 Open **Kuriimu** and get the data for your preferred Yo-kai and extract the folder.
 With this, you will open the **Metanoia** application, look for the **import** option, and import the folder. The "Folder" we're looking for is the .xc that you extracted earlier. Once that is imported, export it as a .obj and edit it in Blender. The next step is to export the model as a .xc. 
@@ -50,7 +50,7 @@ Replace the p00 file by your exported model file, and **save as** the folder in 
 For replacement,
 Go to the folder of your custom yo-kai and replace it with your seperate folder and save your changes.
 
-# Step 3 (CharaBase editing, adding in your new Yo-Kai)
+# Step 3 (CharaBase Editing, Adding in your New Yo-Kai)
 
 Open CfgBinEditor and import  "chara-base-0.04c.cfg.bin"
 For the template, select YKW2.
@@ -102,7 +102,7 @@ IsRare, IsLegendary, and IsClassic:
 
 CharacterBase is now fully configured!
 
-# Part 4 (CharaParam editing)
+# Step 4 (CharaParam Editing)
 
 Generate a ParamID using the previous website.
 On the BaseID line, use the BaseID value you used earlier.

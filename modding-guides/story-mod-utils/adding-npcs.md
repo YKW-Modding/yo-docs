@@ -1,15 +1,15 @@
 ---
-title: Adding NPCs (YW1, 2 & 3)
+title: Adding NPCs (YW1, 2, & 3)
 layout: default
-parent: Create your own post game stories
+parent: Creating Your Own Postgame Stories
 grand_parent: Modding Guides
 ---
 
-# Adding NPCs (YW1, 2 & 3)
+# Adding NPCs (YW1, 2, & 3)
 
 **Original author on Discord: @z.u.ra**
 
-## Required tools
+## Required Tools
 
 [NPCMake](https://github.com/SuperTavor/NPCMake)
 
@@ -35,7 +35,7 @@ Here's how you can generate your very own template!
 
 Open NPCMake and click the "Generate a template for npcmake TOML" button. This will open an explorer window where you can save your TOML file. Save this file anywhere you'd like! Just remember where it is, because we're gonna edit it in the next step-
 
-## Step 2: Fill out your NPCMake TOML
+## Step 2: Fill Out your NPCMake TOML
 
 **NOTE: This step explains the values on the TOML from NPCMake v1.2.0. I cannot guarantee this will work on future versions of NPCMake, but you should still try it, as I don't plan to change the TOML format much.**
 

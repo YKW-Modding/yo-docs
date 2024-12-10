@@ -1,14 +1,14 @@
 ---
-title: Add items
+title: Adding Items
 layout: default
 grand_parent: Modding Guides
-parent: General modding
+parent: General Modding
 ---
 
-# How to add items
-**original guide by @stringsbutalt on discord**
+# How to Add Items
+**Original guide by @stringsbutalt on discord**
 
-**CONFIRMED TO WORK ON YOKAI 1.**
+**CONFIRMED TO WORK ON YO-KAI WATCH 1.**
 
 There are 2 types of items you can add first is equipment & consumables. The guide will vary a tad bit for all of them
 

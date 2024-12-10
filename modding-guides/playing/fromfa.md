@@ -1,11 +1,11 @@
 ---
-title: Playing FA mods (legacy)
+title: Playing FA Mods (Legacy)
 layout: default
 grand_parent: Modding Guides
-parent: Playing mods
+parent: Playing Mods
 ---
 
-# Playing FA mods (legacy)
+# Playing FA Mods (Legacy)
 
 ### Prerequisites
 
