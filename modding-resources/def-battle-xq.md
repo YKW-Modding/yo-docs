@@ -11,7 +11,7 @@ You can attach this to any battle in the encount table, then add your XQ code th
 
 *Tip: Click the copy button on the top right*
 
-```
+```php
 
 BattleEventInit()
 {
