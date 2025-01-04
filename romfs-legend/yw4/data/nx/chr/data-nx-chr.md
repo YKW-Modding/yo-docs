@@ -1,7 +1,10 @@
 ---
-title: Modding Resources
+title: data/nx/chr
 layout: default
-has_children: true
+parent: nx
+grand_parent: RomFS Legend
 ---
-# Modding Resources
-Various useful resources for modders!
+
+# data/nx/chr
+
+This directory contains the texture for all of the chr models in the game. There are a lot of IDs, so they won't be listed here, but you can find the list of IDs in the Modding Resources section.
