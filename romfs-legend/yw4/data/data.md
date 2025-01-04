@@ -1,7 +1,7 @@
 ---
 title: data
 layout: default
-parent: yw4
+parent: Yo-kai Watch 4 RomFS Legend
 grand_parent: RomFS Legend
 ---
 
