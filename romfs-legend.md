@@ -1,7 +1,7 @@
 ---
-title: Modding Resources
+title: RomFS Legend
 layout: default
 has_children: true
 ---
-# Modding Resources
-Various useful resources for modders!
+# RomFS Legend
+A list of the RomFS directories for each game and what they contain.
