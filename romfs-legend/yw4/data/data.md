@@ -1,6 +1,7 @@
 ---
 title: data
 layout: default
+has_children: true
 parent: Yo-kai Watch 4 RomFS Legend
 grand_parent: RomFS Legend
 ---
