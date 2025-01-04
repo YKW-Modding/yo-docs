@@ -1,6 +1,7 @@
 ---
 title: data/nx
 layout: default
+has_children: true
 parent: data
 grand_parent: Romfs Legend
 ---
