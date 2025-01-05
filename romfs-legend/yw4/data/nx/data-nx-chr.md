@@ -1,8 +1,8 @@
 ---
 title: data/nx/chr
 layout: default
-parent: nx
-grand_parent: RomFS Legend
+parent: data/nx
+grand_parent: data
 ---
 
 # data/nx/chr

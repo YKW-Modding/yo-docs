@@ -3,7 +3,7 @@ title: data/nx
 layout: default
 has_children: true
 parent: data
-grand_parent: Romfs Legend
+grand_parent: Yo-kai Watch 4 RomFS Legend
 ---
 
 # data/nx
