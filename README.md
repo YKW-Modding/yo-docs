@@ -1,6 +1,6 @@
 # Yo-docs
 
-The Yo-Kai Watch documentation site. 
+The Yo-kai Watch documentation site. 
 
 ## Planned info:
 
