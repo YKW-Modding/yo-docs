@@ -10,12 +10,24 @@ parent: General Modding
 
 **CONFIRMED TO WORK ON YO-KAI WATCH 2.**
 
+You will Need:
+* `CfgBin Editor`.
+  * Preferably the latest copy of `MyTags.txt`.
+* The source code of `QRBel` - to test out/generate the QRs. This is available  [here](https://github.com/n123git/qrbel). Just click Code then Download Zip and extract the downloaded zip.
+* A text or code editor - these come with any somewhat-modern OS i.e. Notepad for Windows.
+
 There are 3 QR code files. The 1st is for V1 QR codes (mainly used in YW1), V2 QR Codes, and Korean-Exclusive QR Codes. This guide will focus on V2 codes.
 
 **Creating QRs**
-  1. Get your ItemID of choice - if it's a negative number click Ctrl+Shift+I in your web browser of choice then click console and paste `[ItemID] >>> 0` where [ItemID] is your ItemID and you should get a `uint32` version.
+  1. Get your ItemID of choice.
+  2. Open the 2nd `cfg.bin` in `yw2.a_fa/data/res/qr` - not `qr_config.cfg.bin` or `qr_config_ko_0.06c.cfg.bin` the `cfg.bin` is usually called `qr_config_0.04b.cfg.bin`.
+  3. Click `QR2_INFO_LIST` - DO NOT open the dropdown yet.
+  4. You should see a number - increase that number.
 
 **Editing Random QRs**
+
+
+Note: `0x9A89BF7C`.
 
 **Testing/Generating QRs**
 
