@@ -16,7 +16,7 @@ You will Need:
 * The source code of `QRBel` - to test out/generate the QRs. This is available  [here](https://github.com/n123git/qrbel). Just click Code then Download Zip and extract the downloaded zip.
 * A text or code editor - these come with any somewhat-modern OS i.e. Notepad for Windows.
 
-There are 3 QR code files. The 1st is for V1 QR codes (mainly used in YW1), V2 QR Codes, and Korean-Exclusive QR Codes. This guide will focus on V2 codes.
+There are 3 QR code files. The 1st is for V1 QR codes (mainly used in YW1), the 2nd for V2 QR Codes, and the 3rd for Korean-Exclusive QR Codes. This guide will focus on V2 codes.
 
 **Creating QRs**
   1. Get your ItemID of choice.
