@@ -23,7 +23,9 @@ There are 3 QR code files. The 1st is for V1 QR codes (mainly used in YW1), V2 Q
   2. Open the 2nd `cfg.bin` in `yw2.a_fa/data/res/qr` - not `qr_config.cfg.bin` or `qr_config_ko_0.06c.cfg.bin` the `cfg.bin` is usually called `qr_config_0.04b.cfg.bin`.
   3. Click `QR2_INFO_LIST` - DO NOT open the dropdown yet.
   4. You should see a number - increase that number by 1.
-  5. Create a new entry and look at the previous entry (used to be the last) pick the biggest number after it and add one - this will be an important number. Now in your new entry set the first 2 numbers to that number and the 3rd to your `ItemID`. Then get your number and run it through [here](https://www.unitconverters.net/numbers/base-10-to-base-36.htm) you should get a 1-3 digit combination of capital letters, numbers or both. This is your `type`. You will need this for the next section: *Testing/Generating QRs*.
+  5. Create a new entry and look at the previous entry (used to be the last) pick the biggest number after it and add one - this will be an important number.
+  6. Now in your new entry set the first 2 numbers to that number and the 3rd to your `ItemID`.
+  7. Then get your number and run it through [here](https://www.unitconverters.net/numbers/base-10-to-base-36.htm), you should get a 1-3 digit combination of capital letters, numbers or both. This is your `type`. You will need this for the next section: *Testing/Generating QRs*.
 
 **Testing/Generating QRs**
 
