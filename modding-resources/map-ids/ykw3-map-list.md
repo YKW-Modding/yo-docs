@@ -254,4 +254,4 @@ The list is in alphabetical order.
 | t301g00       | Sawayama Castle Town                 |
 | t302g00       | Inside Sawayama Castle               |
 | t302i01       | Banquet Hall                         |
-| t303g00       | Sekigahara Stronghold                |](ykw2-map-list.md)
+| t303g00       | Sekigahara Stronghold                |
