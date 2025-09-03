@@ -120,9 +120,9 @@ The list is in alphabetical order.
 | y145000 | Rhinoggin (Bony Spirits)                                             |
 | y145050 | Rhinoggin (Fleshy Souls)                                             |
 | y145600 | Rhinopposite                                                         |
-| y146000 | Rhinormous (Bony Spirits/round horn)                                 |
+| y146000 | Rhinormous (Bony Spirits; Round horn)                                 |
 | y146010 | Hornaplenty                                                          |
-| y146050 | Rhinormous (Fleshy Souls/ sharp horn)                                |
+| y146050 | Rhinormous (Fleshy Souls; Sharp horn)                                |
 | y147000 | Castelius I                                                          |
 | y147010 | Castelius III                                                        |
 | y147020 | Castelius II                                                         |
@@ -150,16 +150,16 @@ The list is in alphabetical order.
 | y156020 | Emenyan                                                              |
 | y156030 | Rubinyan                                                             |
 | y156040 | Topanyan                                                             |
-| y157000 | Walkappa Bony Spirits/bottle red)                                    |
-| y157050 | Walkappa (Fleshy Souls/bottle red, white points)                     |
+| y157000 | Walkappa (Bony Spirits; Plain Orange Bottle)                         |
+| y157050 | Walkappa (Fleshy Souls; Orange Polk-Dot Bottle)                      |
 | y157600 | Watkappa (Yo-criminal)                                               |
-| y158000 | Appak (Bony Spirits/stone on necklace blue)                          |
+| y158000 | Appak (Bony Spirits; Blue Necklace Stone)                            |
 | y158010 | Supyo                                                                |
-| y158050 | Appak (Fleshy Souls/stone on necklace yellow/orange)                 |
+| y158050 | Appak (Fleshy Souls; Yellow Necklace Stone)                          |
 | y158600 | Pakka (Yo-criminal)                                                  |
 | y159000 | Komasan                                                              |
-| y159010 | Komajiro (Bony Spirits/normal swirls)                                |
-| y159050 | Komajiro (Fleshy Souls/rotated swirls)                               |
+| y159010 | Komajiro (Bony Spirits; Counter-Clockwise Swirls)                    |
+| y159050 | Komajiro (Fleshy Souls; Clockwise Swirls)                            |
 | y159600 | Komasham (Yo-criminal)                                               |
 | y159900 | Komasan (in cutscene)                                                |
 | y159910 | Komajiro (in cutscene)                                               |
@@ -170,8 +170,8 @@ The list is in alphabetical order.
 | y161000 | Daiz                                                                 |
 | y161010 | Confuze                                                              |
 | y161600 | Daizn't (Yo-criminal)                                                |
-| y162000 | Pupsicle (Bony Spirits/eyebrow normal)                               |
-| y162050 | Pupsicle (Fleshy Souls/eyebrow slightly smaller)                     |
+| y162000 | Pupsicle (Bony Spirits; Heart-Shaped Forehead Markings)              |
+| y162050 | Pupsicle (Fleshy Souls; Normal-Shaped Forehead Markings)             |
 | y163000 | Chilhuahua (Bony Spirits/eyebrow normal)                             |
 | y163010 | Swelterrier                                                          |
 | y163050 | Chilhuahua (Fleshy Souls/eyebrow slightly smaller)                   |
@@ -235,7 +235,7 @@ The list is in alphabetical order.
 | y187050 | Rockabelly (Fleshy Souls/different belly face)                       |
 | y188000 | Chatalie                                                             |
 | y188010 | Nagatha                                                              |
-| y188050 | Nagatha (there was another one with different coloured teeth)        |
+| y188050 | Nagatha                                                              |
 | y189000 | Roughraff                                                            |
 | y189600 | Roughraffony (Yo-Criminal)                                           |
 | y190000 | Badude                                                               |
