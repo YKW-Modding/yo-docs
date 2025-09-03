@@ -7,7 +7,7 @@ parent: Modding Resources
 
 This page is a list of Conds (Conditions) and the game they were discovered (Most conds usually work between games; so using others *should be fine*):
 * Note: Some conds are customisable, in that case the raw bytes will be linked, use a website like [this](https://cryptii.com/pipes/hex-to-base64) to convert it to base64.
-* `0` - Always True. (Global)
+* `0` - Always True / Null Cond. (Global)
   * `1` - Used in place of a Cond in certain situations. (Yo-kai Watch 2)
 * `AAAAAA8FNRCxQJYAAQAyAAAAAXg=` - Main Story Completion (Yo-kai Watch 2). Obtained from Jungle Hunter (`shop_shopT001_0.01n.cfg.bin`)
 * `00 00 00 00 0f XX 35 10 b1 40 96 00 01 00 32 00 00 00 01 78` - Rank XX or higher Cond (Yo-kai Watch 2; replace XX with the rank, 00 = E, ... 05 = S). Obtained from Jungle Hunter (`shop_shopT001_0.01n.cfg.bin`).
