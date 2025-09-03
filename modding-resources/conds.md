@@ -5,7 +5,8 @@ has_children: false
 parent: Modding Resources
 ---
 
-This page is a list of Conds (Conditions) and the game they were discovered (Most conds usually work between games; so using others *should be fine*):
+This page is a list of Conds (Conditions) and the game they were discovered (Most conds usually work between games; so using others *should be fine*).
+Conds are binary data (stored in base64 strings) which controls conditions for everything from NPCs, Quests, Trophies and even what items are available in shops.
 * Note: Some conds are customisable, in that case the raw bytes will be linked, use a website like [this](https://cryptii.com/pipes/hex-to-base64) to convert it to base64.
 * `0` - Always True / Null Cond. (Global)
   * `1` - Used in place of a Cond in certain situations. (Yo-kai Watch 2)
