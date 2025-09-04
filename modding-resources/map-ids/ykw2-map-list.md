@@ -167,7 +167,7 @@ The list is in alphabetical order.
 | t105i35       | Whatta Find                          |
 | t105i37       | Sushi Springdale                     |
 | t106d11       | Rugged Path (Yo-kai Watch 1)         |
-| t106d11c      | Rugged Path (Yo-kai Watch 1) (Copy?) |
+| t106d11c      | Mystery Way - Service Road           |
 | t106d31       | Gourd Pond Museum 1F                 |
 | t106d32       | Gourd Pond Museum 2F                 |
 | t106d33       | Gourd Pond Museum Vault              |

@@ -19,7 +19,7 @@ The list is in alphabetical order.
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
 | y006000 | Pandle                                                               |
-| y060000 | Terror time patroler                                                 |
+| y060000 | Patrol (Terror Time/Blasters)                                        |
 | y101000 | Pandle                                                               |
 | y101600 | Pandull (Yo-criminal)                                                |
 | y102000 | Undy                                                                 |
@@ -47,19 +47,19 @@ The list is in alphabetical order.
 | y113010 | Quaken                                                               |
 | y113020 | Siro                                                                 |
 | y113600 | Blazioff (Yo-criminal)                                               |
-| y114000 | Beetler (Bony Spirits (no difference to the other, but it exists))   |
-| y114050 | Beetler (Fleshy Souls (no difference to the other, but it exists))   |
+| y114000 | Beetler (Bony Spirits)                                               | 
+| y114050 | Beetler (Fleshy Souls)                                               |
 | y114600 | Cheatler (Yo-criminal)                                               |
-| y115000 | Betall (Bony Spirits (no difference to the other, but it exists))    |
+| y115000 | Betall (Bony Spirits)                                                |
 | y115010 | Cruncha                                                              |
-| y115050 | Betall (Fleshy Souls (no difference to the other, but it exists))    |
+| y115050 | Betall (Fleshy Souls)                                                |
 | y116000 | Benkei                                                               |
 | y116010 | B3-NK1                                                               |
 | y117000 | Zerberker                                                            |
 | y117010 | Snartle                                                              |
 | y117600 | Zeroberker (Yo-criminal)                                             |
 | y118000 | Snotsolong                                                           |
-| yy118010 | Duchoo                                                               |
+| yy118010| Duchoo                                                               |
 | y119000 | Espy                                                                 |
 | y119010 | Infour                                                               |
 | y119600 | Falspy (Yo-criminal)                                                 |
@@ -80,8 +80,8 @@ The list is in alphabetical order.
 | y125600 | Tattletwin (Yo-criminal)                                             |
 | y126000 | Tattlecast                                                           |
 | y127000 | Baku                                                                 |
-| y127010 | Whapir (Blue eyes/Bony Spirits)                                      |
-| y127050 | Whapir (Yellow eyes/Fleshy Souls)                                    |
+| y127010 | Whapir (Bony Spirits; Blue eyes)                                     |
+| y127050 | Whapir (Fleshy Souls; Yellow eyes)                                   |
 | y128000 | Signibble                                                            |
 | y129000 | Signiton                                                             |
 | y129010 | Statiking                                                            |
@@ -107,22 +107,22 @@ The list is in alphabetical order.
 | y138600 | Dullabel (Yo-criminal)                                               |
 | y139000 | Rattelle                                                             |
 | y139010 | Skelebella                                                           |
-| y140000 | Noway (Yellow eyes and mouth/Bony Spirits)                           |
-| y140050 | Noway (Blue eyes and mouth/Fleshy Souls)                             |
-| y141000 | Impass (Yellow eyes and mouth/Bony Spirits)                          |
+| y140000 | Noway (Bony Spirits; Yellow eyes and mouth)                          |
+| y140050 | Noway (Fleshy Souls; Blue eyes and mouth)                            |
+| y141000 | Impass (Bony Spirits; Yellow eyes and mouth)                         |
 | y141010 | Wallidin                                                             |
-| y141050 | Impass (Blue eyes and mouth/Fleshy Souls)                            |
+| y141050 | Impass (Fleshy Souls; Blue eyes and mouth)                           |
 | y142000 | Blowkade                                                             |
 | y142010 | Ledballoon                                                           |
 | y143000 | Armsman                                                              |
 | y144000 | Mad Mountain                                                         |
 | y144010 | Lava Lord                                                            |
-| y145000 | Rhinoggin (Bony Spirits (no difference to the other, but it exists)) |
-| y145050 | Rhinoggin (Fleshy Souls (no difference to the other, but it exists)) |
+| y145000 | Rhinoggin (Bony Spirits)                                             |
+| y145050 | Rhinoggin (Fleshy Souls)                                             |
 | y145600 | Rhinopposite                                                         |
-| y146000 | Rhinormous (Bony Spirits/round horn)                                 |
+| y146000 | Rhinormous (Bony Spirits; Round horn)                                 |
 | y146010 | Hornaplenty                                                          |
-| y146050 | Rhinormous (Fleshy Souls/ sharp horn)                                |
+| y146050 | Rhinormous (Fleshy Souls; Sharp horn)                                |
 | y147000 | Castelius I                                                          |
 | y147010 | Castelius III                                                        |
 | y147020 | Castelius II                                                         |
@@ -150,16 +150,16 @@ The list is in alphabetical order.
 | y156020 | Emenyan                                                              |
 | y156030 | Rubinyan                                                             |
 | y156040 | Topanyan                                                             |
-| y157000 | Walkappa Bony Spirits/bottle red)                                    |
-| y157050 | Walkappa (Fleshy Souls/bottle red, white points)                     |
+| y157000 | Walkappa (Bony Spirits; Plain Orange Bottle)                         |
+| y157050 | Walkappa (Fleshy Souls; Orange Polk-Dot Bottle)                      |
 | y157600 | Watkappa (Yo-criminal)                                               |
-| y158000 | Appak (Bony Spirits/stone on necklace blue)                          |
+| y158000 | Appak (Bony Spirits; Blue Necklace Stone)                            |
 | y158010 | Supyo                                                                |
-| y158050 | Appak (Fleshy Souls/stone on necklace yellow/orange)                 |
+| y158050 | Appak (Fleshy Souls; Yellow Necklace Stone)                          |
 | y158600 | Pakka (Yo-criminal)                                                  |
 | y159000 | Komasan                                                              |
-| y159010 | Komajiro (Bony Spirits/normal swirls)                                |
-| y159050 | Komajiro (Fleshy Souls/rotated swirls)                               |
+| y159010 | Komajiro (Bony Spirits; Counter-Clockwise Swirls)                    |
+| y159050 | Komajiro (Fleshy Souls; Clockwise Swirls)                            |
 | y159600 | Komasham (Yo-criminal)                                               |
 | y159900 | Komasan (in cutscene)                                                |
 | y159910 | Komajiro (in cutscene)                                               |
@@ -170,8 +170,8 @@ The list is in alphabetical order.
 | y161000 | Daiz                                                                 |
 | y161010 | Confuze                                                              |
 | y161600 | Daizn't (Yo-criminal)                                                |
-| y162000 | Pupsicle (Bony Spirits/eyebrow normal)                               |
-| y162050 | Pupsicle (Fleshy Souls/eyebrow slightly smaller)                     |
+| y162000 | Pupsicle (Bony Spirits; Heart-Shaped Forehead Markings)              |
+| y162050 | Pupsicle (Fleshy Souls; Normal-Shaped Forehead Markings)             |
 | y163000 | Chilhuahua (Bony Spirits/eyebrow normal)                             |
 | y163010 | Swelterrier                                                          |
 | y163050 | Chilhuahua (Fleshy Souls/eyebrow slightly smaller)                   |
@@ -235,7 +235,7 @@ The list is in alphabetical order.
 | y187050 | Rockabelly (Fleshy Souls/different belly face)                       |
 | y188000 | Chatalie                                                             |
 | y188010 | Nagatha                                                              |
-| y188050 | Nagatha (there was another one with different coloured teeth)        |
+| y188050 | Nagatha                                                              |
 | y189000 | Roughraff                                                            |
 | y189600 | Roughraffony (Yo-Criminal)                                           |
 | y190000 | Badude                                                               |
