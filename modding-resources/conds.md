@@ -5,7 +5,7 @@ has_children: false
 parent: Modding Resources
 ---
 
-Conds are structured, binary structure representing a **boolean condition** in Yo-kai Watch games. They are stored as base64 strings in `cfg.bin`s and control conditions for everything from NPCs to Quests and even what items are available in shops!
+Conds are structured, binary data representing a **boolean condition** in Yo-kai Watch games. They are stored as base64 strings in `cfg.bin`s and control conditions for everything from NPCs to Quests and even what items are available in shops!
 This page is a list of Conds (Conditions), where they are found along with format documentation (*Yo-kai Watch 2 Conds DO NOT always work in other games i.e. Yo-kai Watch 3 - although they may. Please test this yourself*).
 
 # Documented Useful Conds List
@@ -27,6 +27,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 * Stored as a Base64 string in `cfg.bin`s. Convert to hex before handling.
 * Can include **nested or extended parameter blocks**.
 * Always ends with a **terminator** (`0x78` or `0x71`)??.
+* All types are implicit: `00 00 00 01` could mean `1`, `true`, or the equivalent float.
 
 
 ## 2. **Basic Cond Layout**
