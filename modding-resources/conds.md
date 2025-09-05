@@ -1,5 +1,5 @@
 ---
-title: Conds
+title: Conds (Conditions)
 layout: default
 has_children: false
 parent: Modding Resources
