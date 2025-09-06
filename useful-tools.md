@@ -31,9 +31,6 @@ A blender plugin to add support for Level5 Models and Animations, it can be foun
 ### **Metanoia**
 Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found[here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
 
-### **Albatros**
-A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now. It can be found [here](https://github.com/Tiniifan/Albatross).
-
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
 
@@ -50,6 +47,12 @@ Mobius may give you an error or a corrupted output if you don't configure the co
 `<add key="options" value="-preset ultrafast -crf 16"/>`
 This should fix the corrupted output issue.
 Mobius can be found [here](https://github.com/AdibSurani/Mobius).
+
+## General Tools
+
+### **Albatros**
+A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now. It can be found [here](https://github.com/Tiniifan/Albatross).
+
 
 lorem ipsum dolar sit amet: if you see this call me an idiot
 😔
