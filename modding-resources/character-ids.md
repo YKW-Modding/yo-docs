@@ -6,7 +6,7 @@ parent: Modding Resources
 ---
 
 # Character IDs
-
+* **Note: These IDs are used to reference models, NOT any Yo-kai themselves. Go to [Param IDs](./param-ids.html) for that.**
 ## Format
 
 ### First Character
