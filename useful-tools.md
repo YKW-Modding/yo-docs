@@ -44,11 +44,13 @@ Citric Composer is another tool that can do this - Tiniifans fork, which is up-t
 BCSAR-View is a tool that can also be used for sound files although this is unrecommended due to being older, no longer maintained and having less customisability/utility compared to [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter). BCSar-View can still be found [here](https://github.com/thane98/BCSAR-View) however.
 
 ### Mobius
-Mobius is a tool used for viewing and modifying `moflex` files that are found in Yo-kai Watch 3DS titles. 
-To use this tool you must have `ffmpeg.exe` in the same folder as the executable. FFMPeg can be found [here](https://ffmpeg.org/download.html)
+Mobius is a tool used for viewing and modifying `moflex` files that are found in Yo-kai Watch 3DS titles.
+To use this tool you must have `ffmpeg.exe` in the same folder as the executable. FFMPeg can be found [here](https://ffmpeg.org/download.html).
+
 Mobius may give you an error or a corrupted output if you don't configure the config right, try opening the .config in notepad and using this line instead of the old one: 
 `<add key="options" value="-preset ultrafast -crf 16"/>`
 This should fix the corrupted output issue.
+
 Mobius can be found [here](https://github.com/AdibSurani/Mobius).
 
 ## General Tools
