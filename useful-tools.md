@@ -34,6 +34,9 @@ Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch mo
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
 
+### Citric Composer
+Citric Composer is another tool that can do this - Tiniifans fork, which is up-to-date and fixes a bug in the original can be found [here](https://github.com/Tiniifan/Citric-Composer).
+
 ### BCSAR-View
 BCSAR-View is a tool that can also be used for sound files although this is unrecommended due to being older, no longer maintained and having less customisability/utility compared to [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter). BCSar-View can still be found [here](https://github.com/thane98/BCSAR-View) however.
 
