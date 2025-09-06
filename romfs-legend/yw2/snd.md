@@ -8,4 +8,4 @@ grand_parent: RomFS Legend
 # snd/
 
 This contains:
-* `product/` - A folder containing the `bcsar`s for all of the game audio!
+* `product/` - A folder containing the archives for all of the game audio!
