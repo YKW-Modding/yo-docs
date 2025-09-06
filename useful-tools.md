@@ -22,6 +22,9 @@ Pingouin is a tool to extract archives (XFSA, XPCK, XFSP and even good ol' ZIP).
 ### **CfgBin Editor**
 This tool allows you to read, modify and export/import the `cfg.bin` (Binary config) format used by the games to store serialised JSON-like data. Some files namely `npcbin` and `mapenv.bin` stil use this format despite the name. The current tool by onepiecefreak can be found [here](https://github.com/onepiecefreak3/CfgBinEditor) - the predecesor by Tiniifan can be found [here](https://github.com/Tiniifan/CfgBinEditor) and the original version by Togenyan can be found [here](https://github.com/togenyan/CfgBinEditor).
 
+### **XtractQuery**
+XtractQuery is a command-line decompiler for Level5's `.xq` scripts (XQSEQ/XQ32) by onepiecefreak. It can be found [here](https://github.com/onepiecefreak3/XtractQuery/releases).
+
 ### **Nyanko**
 Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
 
