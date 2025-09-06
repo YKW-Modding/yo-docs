@@ -35,7 +35,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 [OPCODE 2B]
 35                    ; Section Start
 [RESOURCE ID 4B]      ; ???
-[EXTENSION]            ; Usually 3B: 00 01 00 (or 00 0D 0A 01 for extended due to null padding)
+[EXTENSION CTYPE]            ; Usually 3B: 00 01 00 (or 00 0D 0A 01 for extended due to null padding)
 [EXTENSION DELIMITER]  ; 28 (optional, separates extension header from parameters)
 [CTYPE 3B]             ; Comparison type / selector
 32                     ; Section End
@@ -49,7 +49,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 | Field  | Example       | Meaning (Theorized)                                   |
 | ------ | ------------- | ----------------------------------------------------- |
 | HEADER | `00 00 00 00` | Reserved / start of Cond                              |
-| OPCODE | `0F 05`       | Compare >= (constant comparison)                      |
+| OPCODE | `0F 05`       | Compare >= (constant comparison)?                     |
 | OPCODE | `18 05`       | Flag comparison maybe >=??                            |
 
 ## 4. **Sections and Delimiters**
@@ -57,12 +57,13 @@ It can check things like flag states, inventory items, watch rank, or story prog
 | Byte | Meaning                                                              |
 | ---- | -------------------------------------------------------------------- |
 | `35` | Section Start / block delimiter                                      |
-| `28` | Extension delimiter?? (separates extension header from sub-params)   |
 | `32` | Section End / block terminator                                       |
+| `28` | Extension delimiter?? (separates extension header from sub-params)   |
+| `34` | Nest delimiter??                                                     |
 
 * *Multiple* `35` markers can represent nested sections, being often used in more complex conds like flag state checks.
 
-## 5. **Extension Block**
+## 5. **CType**
 
 * Usually starts as `00 01 00` for a simple check.
 * Extended mode uses `00 0A 01` - adding a 3rd seems to pad a `00` (null termination) for unknown reasons:
@@ -72,6 +73,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
   * Second byte (`0A`) = AND / OR / combinator (most likely)
   * Third byte (`01`) = standard
 * **Flags may be added together bitwise** to construct the final check value - but this is weird and iffy.
+* Flag checks usually use the Ctype: `00 06 02`
 
 ## 6. **Resource IDs**
 * Resource ID = 4 bytes identifying *something*.
@@ -113,4 +115,18 @@ It can check things like flag states, inventory items, watch rank, or story prog
      * `00 00 00 01` - Comparison Value in this case `0x00000001` (1) for `true`.
      * `78` - Basic Terminator.
 
-  * Advanced (State Conds):
+* Advanced (State Conds):
+  * Unknown Flag Cond (YW4):
+    * `00 00 00 00 18 05 35 2a 3d 45 43 00 0a 01 28 00 06 02 34 2c b8 6a 25 32 00 00 00 01 78`
+    * `00 00 00 00` - Header.
+    * `18 05` - Opcode; Seems to be flag comparison.
+    * `35` - Section Delimiter.
+    * `2a 3d 45 43` - Resource ID A.
+    * `00 0a 01` - Ctype (This Ctype is for Extended Format).
+    * `28` - Extension Delimiter.
+    * `00 06 02` - Ctype B.
+    * `34` - Nest Delimiter??
+    * `2c b8 6a 25` - Ressource ID B.
+    * `32` - Section End Delimiter.
+    * `00 00 00 01` - Comparison Value (`0x00000001` aka in this case `true`; remember types are implicit).
+    * `78` - `0x78` Terminator.
