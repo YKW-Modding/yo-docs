@@ -17,9 +17,9 @@ This page is a list of Conds (Conditions), where they are found along with forma
 * `00 00 00 00 18 05 35 8d 76 66 d8 00 0a 01 28 00 06 02 XX XX XX XX 00 32 00 00 00 01 78` - Has Item Cond. (Obtained from @z.u.ra on discord; replace XX XX XX XX with the ItemID in hex - remember to place the bytes from right to left).
   * Level5Condition.exe can also generate this Cond.
 
- # Conds Documentation/Specification
+# Conds Documentation/Specification
 
-## 1. **Cond Overview**
+## 1. **Cond Description**
 
 A **Cond** is a little-endian binary structure representing a **boolean condition** in Yo-kai Watch games.
 It can check things like flag states, inventory items, watch rank, or story progress.
