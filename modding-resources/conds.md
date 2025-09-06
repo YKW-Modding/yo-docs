@@ -27,7 +27,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 * Stored as a Base64 string in `cfg.bin`s. Convert to hex before handling.
 * Can include **nested or extended parameter blocks**.
 * Always ends with a **terminator** (`0x78` or `0x71`)??.
-* All types are implicit: `00 00 00 01` could mean `1`, `true`, or the equivalent float.
+* All types are implicit: `00 00 00 01` could mean `1`, `true`, the "`SOH`" character, or the equivalent float.
 
 
 ## 2. **Basic Cond Layout**
@@ -62,7 +62,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 | `28` | Extension delimiter?? (separates extension header from sub-params)   |
 | `32` | Section End / block terminator                                       |
 
-* **Multiple `35` markers** prove nested sections are actually a thing and are often used in more complex conds like flag state checks.
+* *Multiple* `35` markers can represent nested sections, being often used in more complex conds like flag state checks.
 
 ## 5. **Extension Block**
 
