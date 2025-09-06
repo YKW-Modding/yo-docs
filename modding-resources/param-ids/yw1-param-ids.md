@@ -4,7 +4,7 @@ layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
-The Below IDs are shown in hex format for convenience:</br>
+The Below IDs are shown in hex format for convenience:
 
 | Yokai | ID (Hex) |
 |---|---|
