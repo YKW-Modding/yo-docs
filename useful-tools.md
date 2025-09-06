@@ -25,6 +25,9 @@ This tool allows you to read, modify and export/import the `cfg.bin` (Binary con
 ### **XtractQuery**
 XtractQuery is a command-line decompiler for Level5's `.xq` scripts (XQSEQ/XQ32) by onepiecefreak. It can be found [here](https://github.com/onepiecefreak3/XtractQuery/releases).
 
+### **LuaDeobfuscator**
+LuaDeobfuscator is a command line tool to deobfuscate decompiled `.lua` files from Level5 mobile games. The tool expects decompilations from `.lua.bin` files by `unluac`. LuaDeobfuscator can be found [here](https://github.com/onepiecefreak3/LuaDeobfuscator).
+
 ### **Nyanko**
 Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
 
