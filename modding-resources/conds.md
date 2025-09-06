@@ -4,9 +4,7 @@ layout: default
 has_children: false
 parent: Modding Resources
 ---
-
-Conds are structured, binary data representing a **boolean condition** in Yo-kai Watch games. They are stored as base64 strings in `cfg.bin`s and control conditions for everything from NPCs to Quests and even what items are available in shops!
-This page is a list of Conds (Conditions), where they are found along with format documentation (*Yo-kai Watch 2 Conds DO NOT always work in other games i.e. Yo-kai Watch 3 - although they may. Please test this yourself*).
+This page is a list of Conds (Conditions), where they are found along with format documentation aka what they are (*Yo-kai Watch Conds DO NOT always work across games i.e. Yo-kai Watch 3 - although they may. Please test this yourself*).
 
 # Documented Useful Conds List
 * Note: ***Some conds are customisable, in that case the raw bytes will be linked, use a website like [this](https://cryptii.com/pipes/hex-to-base64) to convert it to base64.***
