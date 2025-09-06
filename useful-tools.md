@@ -32,7 +32,7 @@ A blender plugin to add support for Level5 Models and Animations, it can be foun
 Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found[here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
 
 ### **Albatros**
-A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now.
+A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now. It can be found [here](https://github.com/Tiniifan/Albatross).
 
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
