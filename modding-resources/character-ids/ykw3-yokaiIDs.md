@@ -9,7 +9,8 @@ grand_parent: Modding Resources
 
 The list is in alphabetical order.
 
-*Special thanks to the [TCRF Page](https://tcrf.net/index.php?title=Notes:Yo-kai_Watch_3/Characters).*
+*Special thanks to the [TCRF Page](https://tcrf.net/index.php?title=Notes:Yo-kai_Watch_3/Characters).*</br>
+
 | Internal Name | Character Name |
 | --- | --- |
 | Character Section |  |
