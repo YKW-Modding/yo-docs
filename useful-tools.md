@@ -32,7 +32,7 @@ Nyanko is a version of CfgBin Editor that *only supports text editing* as it is 
 A blender plugin to add support for Level5 Models and Animations, it can be found [here](https://github.com/Tiniifan/studio_eleven) and is the current best way to edit them (despite it having some bugs here and there).
 
 ### **Metanoia**
-Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found[here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
+Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found [here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
 
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
