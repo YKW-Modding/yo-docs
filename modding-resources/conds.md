@@ -41,7 +41,7 @@ It can check things like flag states, inventory items, watch rank, or story prog
 [EXTENSION DELIMITER]  ; 28 (optional, separates extension header from parameters)
 [CTYPE 3B]             ; Comparison type / selector
 32                     ; Section End
-[COMPARISON VALUE 4B]  ; Value to compare in hex (e.g., 1 = `true`, `1` or the equivalent float).
+[COMPARISON VALUE 4B]  ; Value to compare in hex (e.g., 0x00000001 = true, 1, "SOH" or the equivalent float).
 [TERMINATOR 1B]        ; End of cond
 ```
 
