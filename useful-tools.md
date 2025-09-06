@@ -25,9 +25,6 @@ This tool allows you to read, modify and export/import the `cfg.bin` (Binary con
 ### **XtractQuery**
 XtractQuery is a command-line decompiler for Level5's `.xq` scripts (XQSEQ/XQ32) by onepiecefreak. It can be found [here](https://github.com/onepiecefreak3/XtractQuery/releases).
 
-### **LuaDeobfuscator**
-LuaDeobfuscator is a command line tool to deobfuscate decompiled `.lua` files from Level5 mobile games. The tool expects decompilations from `.lua.bin` files by `unluac`. LuaDeobfuscator can be found [here](https://github.com/onepiecefreak3/LuaDeobfuscator).
-
 ### **Nyanko**
 Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
 
@@ -58,6 +55,10 @@ Mobius can be found [here](https://github.com/AdibSurani/Mobius).
 
 ### **Albatros**
 A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now. It can be found [here](https://github.com/Tiniifan/Albatross).
+
+### **LuaDeobfuscator**
+LuaDeobfuscator is a command line tool to deobfuscate decompiled `.lua` files from Level5 mobile games. The tool expects decompilations from `.lua.bin` files by `unluac`. LuaDeobfuscator can be found [here](https://github.com/onepiecefreak3/LuaDeobfuscator).
+
 
 
 lorem ipsum dolar sit amet: if you see this call me an idiot
