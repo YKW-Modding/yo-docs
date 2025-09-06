@@ -18,8 +18,12 @@ Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. Thes
 
 ### **Pinguoin**
 Pingouin is a tool to extract archives (XFSA, XPCK, XFSP and even good ol' ZIP). It can be found [here](https://github.com/Tiniifan/Pingouin) although Kuriimu2 should be used instead.
+
 ### **CfgBin Editor**
 This tool allows you to read, modify and export/import the `cfg.bin` (Binary config) format used by the games to store serialised JSON-like data. Some files namely `npcbin` and `mapenv.bin` stil use this format despite the name. The current tool by onepiecefreak can be found [here](https://github.com/onepiecefreak3/CfgBinEditor) - the predecesor by Tiniifan can be found [here](https://github.com/Tiniifan/CfgBinEditor) and the original version by Togenyan can be found [here](https://github.com/togenyan/CfgBinEditor).
+
+### **Nyanko**
+Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
 
 ### **Studio Eleven**
 A blender plugin to add support for Level5 Models and Animations, it can be found [here](https://github.com/Tiniifan/studio_eleven) and is the current best way to edit them (despite it having some bugs here and there).
