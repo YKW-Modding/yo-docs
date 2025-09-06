@@ -14,7 +14,7 @@ It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) 
 > *Note: Kuriimu2 dosent support text editing as of yet but its predecesor Kuriimu does!*
 
 ### **Kuriimu**
-Kuriimu, Karamaru, and Kukuii combined form the predecesor to **Kuriimu2** - which have the benefit of text editing! It can be found [here](https://github.com/IcySon55/Kuriimu).
+Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
 
 lorem ipsum dolar sit amet: if you see this call me an idiot
 😔
