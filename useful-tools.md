@@ -16,6 +16,12 @@ It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) 
 ### **Kuriimu**
 Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
 
+### Looping Audio Converter
+Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
+
+### BCSAR-View
+BCSAR-View is a tool that can also be used for sound files although this is unrecommended due to being older, no longer maintained and having less customisability/utility compared to [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter). BCSar-View can still be found [here](https://github.com/thane98/BCSAR-View) however.
+
 ### Mobius
 Mobius is a tool used for viewing and modifying `moflex` files that are found in Yo-kai Watch 3DS titles. 
 To use this tool you must have `ffmpeg.exe` in the same folder as the executable. FFMPeg can be found [here](https://ffmpeg.org/download.html)
