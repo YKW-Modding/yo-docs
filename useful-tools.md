@@ -16,8 +16,16 @@ It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) 
 ### **Kuriimu**
 Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
 
+### **Pinguoin**
+Pingouin is a tool to extract archives (XFSA, XPCK, XFSP and even good ol' ZIP). It can be found [here](https://github.com/Tiniifan/Pingouin) although Kuriimu2 should be used instead.
 ### **CfgBin Editor**
 This tool allows you to read, modify and export/import the `cfg.bin` (Binary config) format used by the games to store serialised JSON-like data. Some files namely `npcbin` and `mapenv.bin` stil use this format despite the name. The current tool by onepiecefreak can be found [here](https://github.com/onepiecefreak3/CfgBinEditor) - the predecesor by Tiniifan can be found [here](https://github.com/Tiniifan/CfgBinEditor) and the original version by Togenyan can be found [here](https://github.com/togenyan/CfgBinEditor).
+
+### **Studio Eleven**
+A blender plugin to add support for Level5 Models and Animations, it can be found [here](https://github.com/Tiniifan/studio_eleven) and is the current best way to edit them (despite it having some bugs here and there).
+
+### **Metanoia**
+Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found[here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
 
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
