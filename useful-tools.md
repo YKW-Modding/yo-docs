@@ -16,6 +16,9 @@ It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) 
 ### **Kuriimu**
 Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
 
+### **CfgBin Editor**
+This tool allows you to read, modify and export/import the `cfg.bin` (Binary config) format used by the games to store serialised JSON-like data. Some files namely `npcbin` and `mapenv.bin` stil use this format despite the name. The current tool by onepiecefreak can be found [here](https://github.com/onepiecefreak3/CfgBinEditor) - the predecesor by Tiniifan can be found [here](https://github.com/Tiniifan/CfgBinEditor) and the original version by Togenyan can be found [here](https://github.com/togenyan/CfgBinEditor).
+
 ### Looping Audio Converter
 Looping Audio Converter allows you to read and modify `BCSTM` files - used by the game to store its audio: [Looping Audio Converter](https://github.com/libertyernie/LoopingAudioConverter).
 
