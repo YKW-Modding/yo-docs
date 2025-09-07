@@ -12,4 +12,5 @@ ItemIDs are used to reprsent Items. There are the following item types:
 * `Equipment` - Non-Soul Equippables.
 * `Consume` - Everything Else.
 * `Element` - Shards and such (B1/B2 only!!).
-Not to be confused with `InventorySort` or `ItemType`.
+* `Auras` - I dont remember if Blasters Auras are items - but theyll be included here anyway!
+Not to be confused with `InventorySort` or `ItemType`. 
