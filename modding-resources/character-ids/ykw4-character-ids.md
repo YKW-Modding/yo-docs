@@ -5,7 +5,7 @@ parent: Character IDs
 grand_parent: Modding Resources
 ---
 
-# YKW4 Character IDs
+# YO-KAI WATCH 4 Character IDs
 
 The list is in alphabetical order.
 
