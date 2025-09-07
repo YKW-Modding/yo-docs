@@ -51,4 +51,7 @@ There are 3 ways to show colors:
 
 ## Data
 
-`<NAME>` `<GENDER>`
+### General
+* `<NAME>` returns the current player's (ingame) name.
+* `<GENDER>` returns the current player's (ingame) gender.
+ 
