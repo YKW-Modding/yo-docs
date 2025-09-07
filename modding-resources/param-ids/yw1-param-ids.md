@@ -4,6 +4,8 @@ layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
+# YW1 Param IDs
+
 The Below IDs are shown in hex format for convenience:
 
 | Yokai | ID (Hex) |
