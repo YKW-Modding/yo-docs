@@ -385,7 +385,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Dark Bell | 0x7BF24C3B |
 
 ## Equipment
-| Item  | ItemID (Hex) |
+| Item Name | ItemID (Hex) |
 |---|---|
 | Worn Bangle | 0x4511AA26 |
 | Cheap Bracelet | 0xDB753F85 |
@@ -463,7 +463,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Lt.'s Medal | 0x847175E7 |
 
 ## Souls
-| Item | ItemID (Hex) |
+| Item Name | ItemID (Hex) |
 |---|---|
 | Pandle | 0x10F16846 |
 | Undy | 0x67F658D0 |
@@ -884,7 +884,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Creature
 (Critters)
 
-| Item | ItemID (Hex) |
+| Item Name | ItemID (Hex) |
 |---|---|
 | Green Cicada | 0xD03E27FE |
 | ★Green Cicada | 0x6882409B |
