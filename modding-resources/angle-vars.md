@@ -5,7 +5,7 @@ has_children: false
 parent: Modding Resources
 ---
 # Angle Variables
-> **Note: Thank you to @GotaZ for documenting the <C0> through <C30> vars!**
+> **Note: Thank you to @GotaZ for documenting C0 through C30!**
 
 In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT<SOMETHING>`. These are called Angle Variables and have a multitude of effects.
 
