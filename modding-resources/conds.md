@@ -131,3 +131,17 @@ It can check things like flag states, inventory items, watch rank, or story prog
     * `32` - Section End Delimiter.
     * `00 00 00 01` - Comparison Value (`0x00000001` aka in this case `true`; remember types are implicit).
     * `78` - `0x78` Terminator.
+  * Has Beating the Tunnel XX times (YW2):
+    * `00 00 00 00 18 05 35 9e 99 84 8c 00 0a 01 28 00 06 02 34 89 20 ff e7 32 00 00 00 XX 78`
+    * `00 00 00 00` - Header.
+    * `18 05` - Opcode; Seems to be flag comparison.
+    * `35` - Section Delimiter.
+    * `9e 99 84 8c` - Resource ID A.
+    * `00 0a 01` - Ctype (This Ctype is for Extended Format).
+    * `28` - Extension Delimiter.
+    * `00 06 02` - Ctype B.
+    * `34` - Nest Delimiter??
+    * `89 20 ff e7` - Ressource ID B.
+    * `32` - Section End Delimiter.
+    * `00 00 00 XX` - Comparison Value (`0x000000XX`).
+    * `78` - `0x78` Terminator.
