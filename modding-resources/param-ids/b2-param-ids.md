@@ -761,7 +761,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | 閻魔猫王マタタビ (Enma Neko'ou Matatabi/Enma Nekoō Matatabi) |0x6ABC35EE|749|
 | 閻魔竜王ミズチ (Enma Ryuuou Mizuchi/Enma Ryūō Mizuchi) |0xD200528B|750|
 | 閻魔羅王テッカク (Enma Raou Tekkaku/Enma Raō Tekkaku) |0xC0B5FD65|751|
-| 不動明王 (TODO; DO THIS TODO; DO THIS DO THI-LMAO) |0xAF081D01|752|
+| 不動明王 (Lord Acala/Fudou Myouou) |0xAF081D01|752|
 | ガラクタリアン (Junkernaut) |0x279019DF|901|
 | スーパー店長 (Supermanager) |0xEB3A1941|902|
 | プリズンブレイカー (Mass Mutterer) |0x3A33840|903|
