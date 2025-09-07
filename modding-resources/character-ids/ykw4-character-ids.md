@@ -1,11 +1,11 @@
 ---
-title: YKW4 Yo-kai IDs
+title: YW4 Character IDs
 layout: default
 parent: Character IDs
 grand_parent: Modding Resources
 ---
 
-# YKW4 Yo-kai IDs
+# YKW4 Character IDs
 
 The list is in alphabetical order.
 
@@ -28,68 +28,68 @@ The list is in alphabetical order.
  | c00000270 | 
  | c00000280 | 
  | c00000290 | 
- | c00010000 | Touma Tsukinami | Touma Tsukinami | School Uniform | 
- | c00010010 | Touma Tsukinami | Touma Tsukinami | Casual Clothes | 
- | c00010030 | Touma Tsukinami | Touma Tsukinami | Rain Jacket | 
- | c00010060 | Touma Tsukinami | Touma Tsukinami | Swimsuit | 
- | c00020000 | Natsume Amano | Summer Adams | School Uniform | 
- | c00020010 | Natsume Amano | Summer Adams | Casual Clothes | 
- | c00020030 | Natsume Amano | Summer Adams | Rain Jacket | 
- | c00020040 | Natsume Amano | Summer Adams | Pajamas | 
- | c00020060 | Natsume Amano | Summer Adams | Swimsuit | 
+ | c00010000 | Tsukinami Touma | Touma Tsukinami | School Uniform | 
+ | c00010010 | Tsukinami Touma | Touma Tsukinami | Casual Clothes | 
+ | c00010030 | Tsukinami Touma | Touma Tsukinami | Rain Jacket | 
+ | c00010060 | Tsukinami Touma | Touma Tsukinami | Swimsuit | 
+ | c00020000 | Amano Natsume | Summer Adams | School Uniform | 
+ | c00020010 | Amano Natsume | Summer Adams | Casual Clothes | 
+ | c00020030 | Amano Natsume | Summer Adams | Rain Jacket | 
+ | c00020040 | Amano Natsume | Summer Adams | Pajamas | 
+ | c00020060 | Amano Natsume | Summer Adams | Swimsuit | 
  | c00020090 | 
  | c00021000 | Oni-hime Natsume | Oni Princess Summer | 
- | c00030000 | Akinori Arihoshi | Akinori Arihoshi | Hakama | 
- | c00030060 | Akinori Arihoshi | Akinori Arihoshi | Swimsuit | 
- | c00031000 | Akinori Arihoshi | Akinori Arihoshi | Slim Hakama | 
- | c00040000 | Shin Shimomachi | Shin Shimomachi | Casual Clothes | 
- | c00040010 | Shin Shimomachi | Shin Shimomachi | Winter Clothes | 
- | c00040060 | Shin Shimomachi | Shin Shimomachi | Swimsuit | 
- | c00050000 | Keita Amano | Nate Adams | BBQ Clothes | 
- | c00050010 | Keita Amano | Nate Adams | Casual Clothes | 
- | c00050030 | Keita Amano | Nate Adams | Rain Jacket | 
- | c00050040 | Keita Amano | Nate Adams | Pajamas | 
- | c00050060 | Keita Amano | Nate Adams | Swimsuit | 
- | c00080000 | Fumika Kodama | Katie Forester | Casual Clothes | 
- | c00080030 | Fumika Kodama | Katie Forester | Rain Jacket | 
- | c00080040 | Fumika Kodama | Katie Forester | Pajamas | 
- | c00080060 | Fumika Kodama | Katie Forester | Swimsuit | 
+ | c00030000 | Arihoshi Akinori | Akinori Arihoshi | Hakama | 
+ | c00030060 | Arihoshi Akinori | Akinori Arihoshi | Swimsuit | 
+ | c00031000 | Arihoshi Akinori | Akinori Arihoshi | Slim Hakama | 
+ | c00040000 | Shimomachi Shin | Shin Shimomachi | Casual Clothes | 
+ | c00040010 | Shimomachi Shin | Shin Shimomachi | Winter Clothes | 
+ | c00040060 | Shimomachi Shin | Shin Shimomachi | Swimsuit | 
+ | c00050000 | Amano Keita | Nate Adams | BBQ Clothes | 
+ | c00050010 | Amano Keita | Nate Adams | Casual Clothes | 
+ | c00050030 | Amano Keita | Nate Adams | Rain Jacket | 
+ | c00050040 | Amano Keita | Nate Adams | Pajamas | 
+ | c00050060 | Amano Keita | Nate Adams | Swimsuit | 
+ | c00080000 | Kodama Fumika | Katie Forester | Casual Clothes | 
+ | c00080030 | Kodama Fumika | Katie Forester | Rain Jacket | 
+ | c00080040 | Kodama Fumika | Katie Forester | Pajamas | 
+ | c00080060 | Kodama Fumika | Katie Forester | Swimsuit | 
  | c00510000 | Magurodon | Neptuna | 
- | c01030000 | Keita Amano | Nate Adams | Future Casual | 
- | c01030010 | Keita Amano | Nate Adams | Future Suit | 
- | c01030040 | Keita Amano | Nate Adams | Future Pajamas | 
- | c01040000 | Fumika Kodama | Katie Forester | Future Casual | 
- | c01040040 | Fumika Kodama | Katie Forester | Future Pajamas | 
- | c01050000 | Keisuke Amano | Tate Adams | Casual Clothes | 
- | c01050010 | Keisuke Amano | Tate Adams | Winter Clothes | 
- | c01050040 | Keisuke Amano | Tate Adams | Pajamas | 
+ | c01030000 | Amano Keita | Nate Adams | Future Casual | 
+ | c01030010 | Amano Keita | Nate Adams | Future Suit | 
+ | c01030040 | Amano Keita | Nate Adams | Future Pajamas | 
+ | c01040000 | Amano Fumika | Katie Adams | Future Casual | 
+ | c01040040 | Amano Fumika | Katie Adams | Future Pajamas | 
+ | c01050000 | Amano Keisuke | Tate Adams | Casual Clothes | 
+ | c01050010 | Amano Keisuke | Tate Adams | Winter Clothes | 
+ | c01050040 | Amano Keisuke | Tate Adams | Pajamas | 
  | c01050090 | 
- | c01060000 | Mitsue Arihoshi | Grandma | 
+ | c01060000 | Arihoshi Mitsue, Grandma | Mitsue Arihoshi, Grandma | 
  | c01070000 | 
- | c01080000 | Tanku | Tank | 
+ | c01080000 | Tank | Tank | 
  | c01090000 | Koji | Archie | 
- | c01110000 | Haruya Sakami | Haruya Sakami | 
- | c01120000 | Ayame Himeno | Ayame Himeno | Casual Clothes | 
- | c01120010 | Ayame Himeno | Ayame Himeno | Jacket | 
- | c01210000 | Itsuki Takashiro | Itsuki Takashiro | 
- | c01220000 | Tae Arihoshi | Tae Arihoshi | 
+ | c01110000 | Sakami Haruya | Haruya Sakami | 
+ | c01120000 | Himeno Ayame | Ayame Himeno | Casual Clothes | 
+ | c01120010 | Himeno Ayame | Ayame Himeno | Jacket | 
+ | c01210000 | Takashiro Itsuki | Itsuki Takashiro | 
+ | c01220000 | Arihoshi Tae | Tae Arihoshi | 
  | c01230000 | Usuta-san | Usuta | 
- | c01240000 | Shin no Haha | Jack's Mom | 
- | c01250000 | Itsuki no Onee-san | Alistair's Sister | 
- | c01310000 | Kumashima Gorota | Barnaby Bernstein/Bear | 
- | c01320000 | Imada Kanchi | Edward Archer/Eddie | 
- | c01330000 | Keta no Chichi | Aaron Adams/Nate's Dad | Casual Clothes | 
- | c01330010 | Keta no Chichi | Aaron Adams/Nate's Dad | Business Suit | 
- | c01330040 | Keta no Chichi | Aaron Adams/Nate's Dad | Pajamas | 
- | c01340000 | Keta no Haha | Lily Adams/Nate's Mom | Casual Clothes | 
- | c01340040 | Keta no Haha | Lily Adams/Nate's Mom | Pajamas | 
- | c01350000 | Fumi-chan no Chichi | Jason Forester/Katie's Dad | Business Suit | 
- | c01350040 | Fumi-chan no Chichi | Jason Forester/Katie's Dad | Pajamas | 
- | c01360000 | Fumi-chan no Haha | Rebecca Forester/Katie's Mom | Casual Clothes | 
- | c01360040 | Fumi-chan no Haha | Rebecca Forester/Katie's Mom | Pajamas | 
- | c01410000 | Inaho Misora | Hailey Anne Thomas | 
- | c01510000 | Jinpei Jiba | Jinpei Jiba | 
- | c02010000 | Manami Yoshina | Manami Yoshina | 
+ | c01240000 | Shin's Mom | Shin's Mom | 
+ | c01250000 | Itsuki's Sister | Itsuki's Sister | 
+ | c01310000 | Kumashima Gorota | Barnaby Bernstein, Bear | 
+ | c01320000 | Imada Kanchi | Edward Archer, Eddie | 
+ | c01330000 | Keita's Dad | Aaron Adams, Nate's Dad | Casual Clothes | 
+ | c01330010 | Keita's Dad | Aaron Adams, Nate's Dad | Business Suit | 
+ | c01330040 | Keita's Dad | Aaron Adams, Nate's Dad | Pajamas | 
+ | c01340000 | Keita's Mom | Lily Adams, Nate's Mom | Casual Clothes | 
+ | c01340040 | Keita's Mom | Lily Adams, Nate's Mom | Pajamas | 
+ | c01350000 | Fumi's Dad | Jason Forester, Katie's Dad | Business Suit | 
+ | c01350040 | Fumi's Dad | Jason Forester, Katie's Dad | Pajamas | 
+ | c01360000 | Fumi's Mom | Rebecca Forester, Katie's Mom | Casual Clothes | 
+ | c01360040 | Fumi's Mom | Rebecca Forester, Katie's Mom | Pajamas | 
+ | c01410000 | Misora Inaho | Hailey Anne Thomas | 
+ | c01510000 | Jiba Jinpei | Jinpei Jiba | 
+ | c02010000 | Yoshina Manami | Manami Yoshina | 
  | c03010000 | 
  | c03020000 | 
  | c03030000 | 
@@ -99,15 +99,15 @@ The list is in alphabetical order.
  | c03060000 | 
  | c03070000 | 
  | c03080000 | 
- | c03100000 | Toreja Tanaka |  | Treasure Tanaka | 
+ | c03100000 | Treasure Tanaka |  | Treasure Tanaka | 
  | c03110000 | 
- | c03120000 | Shotenji Osho | Mr. Zen | 
- | c03130000 | Sentou no Oji-san | Hot Springs Old Man | 
+ | c03120000 | Shotenji Monk | Mr. Zen | 
+ | c03130000 | Hot Springs Old Man | Hot Springs Old Man | 
  | c03140000 | 
- | c03210000 | Ma Touma | Horse Touma | 
- | c03220000 | Mashounen | Horse Boy | 
- | c03230000 | Mashounen | Horse Boy 2 | 
- | c03240000 | Ma Fumika | Horse Katie | 
+ | c03210000 | Horse Touma | Horse Touma | 
+ | c03220000 | Horse Boy | Horse Boy | 
+ | c03230000 | Horse Boy 2 | Horse Boy 2 | 
+ | c03240000 | Horse Fumika | Horse Katie | 
  | c05010000 | 
  | c05010010 | 
  | c05020000 | 
@@ -214,24 +214,24 @@ The list is in alphabetical order.
  | c06150000 | 
  | c06150010 | 
  | c06160000 | 
- | c09010000 | Inu | Dog | 
- | c09010010 | Inu | Dog | 
- | c09020000 | Inu | Dog | 
- | c09030000 | Inu | Dog | 
- | c09030000_tori | Inu | Dog | 
- | c09030010 | Inu | Dog | 
- | c09030010_tori | Inu | Dog | 
- | c09040000 | Inu | Dog | 
- | c09040000_tori | Inu | Dog | 
- | c09110000 | Neko | Cat | 
- | c09110010 | Neko | Cat | 
- | c09120000 | Ondori | Rooster | 
- | c09130000 | Usagi | Rabbit | 
- | c09130010 | Usagi | Rabbit | 
- | c09140000 | Kamo | Duck | 
- | c09140010 | Kamo | Duck | 
- | c09150000 | Furamingo | Flamingo | 
- | i03010010 | Youkai Yamakasa | Yo-kai Festival | 
+ | c09010000 | Dog | Dog | 
+ | c09010010 | Dog | Dog | 
+ | c09020000 | Dog | Dog | 
+ | c09030000 | Dog | Dog | 
+ | c09030000_tori | Dog | Dog | 
+ | c09030010 | Dog | Dog | 
+ | c09030010_tori | Dog | Dog | 
+ | c09040000 | Dog | Dog | 
+ | c09040000_tori | Dog | Dog | 
+ | c09110000 | Cat | Cat | 
+ | c09110010 | Cat | Cat | 
+ | c09120000 | Rooster | Rooster | 
+ | c09130000 | Rabbit | Rabbit | 
+ | c09130010 | Rabbit | Rabbit | 
+ | c09140000 | Duck | Duck | 
+ | c09140010 | Duck | Duck | 
+ | c09150000 | Flamingo | Flamingo | 
+ | i03010010 | Yo-kai Festival | Yo-kai Festival | 
  | w00010000 | Fudo Myoo | Lord Acala | 
  | w00010020 | Fudo Myoo Ten | Divine Acala | 
  | w00010030 | Fudo Myoo Kai | Acala Exalted | 
@@ -244,7 +244,7 @@ The list is in alphabetical order.
  | w00080000 | Goemon | Goemon | 
  | w00090000 | Benkei | Benkei | 
  | w00100000 | Suzaku | Suzaku | Celestial | 
- | w00100010 | Ookina Tori | Large Bird | 
+ | w00100010 | Large Bird | Large Bird | 
  | w00110000 | Genbu | Genbu | Celestial | 
  | w00120000 | Byakko | Byakko | Celestial | 
  | w00130000 | Kirin | Kyryn | 
@@ -256,7 +256,7 @@ The list is in alphabetical order.
  | w00170000 | Yami Enma | Dark Enma | 
  | w00180000 | Yasha Enma | Yasha Enma | 
  | w00190000 | Kaibyo Kamaitachi | Kaibyo Kamaitachi | 
- | w00200000 | Neko'o Basuteto | Neko'o Bastet | 
+ | w00200000 | Neko'o Bastet | Neko'o Bastet | 
  | w00210000 | Kappa'o Sagojo | Kappa'o Sagojo | 
  | w00220000 | Tengu'o Kurama | Tengu'o Kurama | 
  | w00230000 | Gunshin Susano'o | Gunshin Susano'o | 
@@ -293,26 +293,26 @@ The list is in alphabetical order.
  | x10010000_01 | Soranaki | Overseer | Super | 
  | x10010000_02 | Soranaki | Overseer | Ultra | 
  | x10010000_03 | Soranaki | Overseer | Infernal | 
- | x10020000 | Soranaki's Ute | Overseer's Right Hand | 
- | x10030000 | Soranaki's Sate | Overseer's Left Hand | 
- | x10040000 | Aya Suishou | Bewitched Crystal | 
+ | x10020000 | Soranaki's Right Hand | Overseer's Right Hand | 
+ | x10030000 | Soranaki's Left Hand | Overseer's Left Hand | 
+ | x10040000 | Bewitched Crystal | Bewitched Crystal | 
  | x12010000 | Maten Soranaki | Maten Overseer | 
  | x12010000_01 | Maten Soranaki | Maten Overseer | Super | 
  | x12010000_02 | Maten Soranaki | Maten Overseer | Ultra | 
  | x12010000_03 | Maten Soranaki | Maten Overseer | Infernal | 
  | x12020000 | 
- | x12030000 | Youkai Gasha | Crank-a-Kai | 
- | x21010000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21010000_01 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | Super | 
- | x21010000_02 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | UItra | 
- | x21010000_03 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | Infernal | 
- | x21020000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21030000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21040000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21050000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21060000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21070000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
- | x21910000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou/Shinma Fukurou | 
+ | x12030000 | Yo-kai Gasha | Crank-a-Kai | 
+ | x21010000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21010000_01 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | Super | 
+ | x21010000_02 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | UItra | 
+ | x21010000_03 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | Infernal | 
+ | x21020000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21030000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21040000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21050000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21060000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21070000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
+ | x21910000 | Shinmagunshin Fukurou | Shinma Warlord Fukurou, Shinma Fukurou | 
  | x22010000 | Jorogumo | Lady Arachnia | 
  | x22010000_01 | Jorogumo | Lady Arachnia | Super | 
  | x22010000_02 | Jorogumo | Lady Arachnia | Ultra | 
@@ -320,18 +320,18 @@ The list is in alphabetical order.
  | x26010000 | Raidenryu | Raidenryu | 
  | x26010000_01 | Raidenryu | Raidenryu | Super | 
  | x26010000_02 | Raidenryu | Raidenryu | Ultra | 
- | x26020000 | Gyouji | Referee | 
- | x26030000 | Oozumou Uketsuke/Oozumou Kakariin | Sumo Receptionist/Sumo Staff | 
+ | x26020000 | Referee | Referee | 
+ | x26030000 | Sumo Receptionist, Sumo Staff | Sumo Receptionist, Sumo Staff | 
  | x30010000 | Gashadokuro | Gutsy Bones | 
  | x30010010 | Gashadokuro G | Goldy Bones | 
  | x30010020 | Giyaman Dokuro | Glitzy Bones | 
- | y00010000 | Wisupa | Whisper | Future | 
- | y00020000 | Wisupa | Whisper | Present | 
- | y00110000 | Nabiwan | Naviwoof | 
+ | y00010000 | Whisper | Whisper | Future | 
+ | y00020000 | Whisper | Whisper | Present | 
+ | y00110000 | Naviwan | Naviwoof | 
  | y00520000 | Konsaru | Soulmian | 
- | y00530000 | Youma Kai Gosuto | Yo-kai World Ghost | Normal | 
- | y00530010 | Youma Kai Gosuto | Yo-kai World Ghost | Horns | 
- | y00530020 | Youma Kai Gosuto | Yo-kai World Ghost | Ears | 
+ | y00530000 | Yo-kai World Ghost | Yo-kai World Ghost | Normal | 
+ | y00530010 | Yo-kai World Ghost | Yo-kai World Ghost | Horns | 
+ | y00530020 | Yo-kai World Ghost | Yo-kai World Ghost | Ears | 
  | y00540000 | Mikakunin | Mikakunin | 
  | y00550000 | 
  | y00550010 | 
@@ -357,10 +357,10 @@ The list is in alphabetical order.
  | y01061010 | Inugami | Frostail | Shadowside | 
  | y01070000 | Seiryu | Azure Dragon | Lightside | 
  | y01071000 | Seiryu | Azure Dragon | Shadowside | 
- | y01071000_qsa0040 | Senda Seiryu | Past Azure Dragon | 
+ | y01071000_qsa0040 | Past Seiryu | Past Azure Dragon | 
  | y01071010 | Soryu | Soryu | Celestial | 
- | y01080000 | Robonyan Daburu OO | Tidynator | Lightside | 
- | y01081000 | Robonyan Daburu OO | Tidynator | Shadowside | 
+ | y01080000 | Robonyan OO | Robonyan OO | Lightside | 
+ | y01081000 | Robonyan OO | Robonyan OO | Shadowside | 
  | y01090000 | Rai Oton | Papa Bolt | Lightside | 
  | y01091000 | Rai Oton | Papa Bolt | Shadowside | 
  | y01100000 | Jinta | Jinta | Lightside | 
@@ -371,15 +371,15 @@ The list is in alphabetical order.
  | y01110000 | Bancho | Bancho | Lightside | 
  | y01111000 | Borei Bancho | Basher | Shadowside | 
  | y01111000_virus | Borei Bancho | Basher | Shinma | 
- | y01130000 | Semikoron | Semicolon | Lightside | 
- | y01131000 | Semirongu | Bugaboo | Shadowside | 
- | y01131000_virus | Semirongu | Bugaboo | Shinma | 
+ | y01130000 | Semicolon | Semicolon | Lightside | 
+ | y01131000 | Semilong | Bugaboo | Shadowside | 
+ | y01131000_virus | Semilong | Bugaboo | Shinma | 
  | y01140000 | Pakkun | Pakkun | Lightside | 
- | y01141000 | Gaburieru | Gaburiel | Shadowside | 
- | y01141000_virus | Gaburieru | Gaburiel | Shinma | 
+ | y01141000 | Gaburiel | Gaburiel | Shadowside | 
+ | y01141000_virus | Gaburiel | Gaburiel | Shinma | 
  | y01150000 | Ogu, Togu, and Mogu | Ogu, Togu, and Mogu | 
  | y01160000 | Fukurou | Fukurou | 
- | y01170000 | Jabo | Jabow | 
+ | y01170000 | Jabo | Jabo | 
  | y01180000 | Himojii | Hungramps | Lightside | 
  | y01181000 | Himojii | Hungramps | Shadowside | 
  | y01181000_virus | Himojii | Hungramps | Shinma | 
@@ -390,11 +390,11 @@ The list is in alphabetical order.
  | y01221000 | Inaiinaiba | Inaiinaiba | Shadowside | 
  | y01230000 | Hare-onna | Hare-onna | Lightside | 
  | y01231000 | Ame-onna | Drizzelda | Shadowside | 
- | y01250000 | Danieru | Daniel | Lightside | 
- | y01251000 | Biggu Dani | Big Danny | Shadowside | 
+ | y01250000 | Daniel | Daniel | Lightside | 
+ | y01251000 | Big Dani | Big Danny | Shadowside | 
  | y01270000 | Itashikatanashi | Itashikatanashi | Lightside | 
  | y01271000 | Yamuwoen | Yamuwoen | Shadowside | 
- | y01280000 | Chokki | Choky | Lightside | 
+ | y01280000 | Chokki | Chokki | Lightside | 
  | y01281000 | Shiomaneki | Shiomaneki | Shadowside | 
  | y01290000 | Saya | Saya | Lightside | 
  | y01291000 | Makenki | Makenki | Shadowside | 
@@ -423,14 +423,14 @@ The list is in alphabetical order.
  | y01380000 | Rai-chan | Rai-chan | Lightside | 
  | y01381000 | Raijin | Raijin | Shadowside | 
  | y01381000_virus | Raijin | Raijin | Shinma | 
- | y01390000 | Hamuhamu | Hamham | Lightside | 
- | y01391000 | Aburahamu | Aburaham | Shadowside | 
+ | y01390000 | Hamham | Hamham | Lightside | 
+ | y01391000 | Aburaham | Aburaham | Shadowside | 
  | y01420000 | Doyapon | Doyapon | Lightside | 
  | y01421000 | Dodanuki | Dodanuki | Shadowside | 
  | y01430000 | Uribou | Uribou | Lightside | 
  | y01431000 | Inosasaou | Inosasaou | Shadowside | 
- | y01450000 | Chari | Charlie | Lightside | 
- | y01451000 | Gosutosaikuru | Ghostcycle | Shadowside | 
+ | y01450000 | Charlie | Charlie | Lightside | 
+ | y01451000 | Ghostcycle | Ghostcycle | Shadowside | 
  | y01460000 | Kezurin | Kezurin | Lightside | 
  | y01461000 | Jinkotsukezuri | Jinkotsukezuri | Shadowside | 
  | y01470000 | Zundomaru | Hot Pot | Lightside | 
@@ -445,10 +445,10 @@ The list is in alphabetical order.
  | y01531000_virus | Jihanki | Jihanki | Shinma | 
  | y01550000 | Shurakoma | Komashura | Lightside | 
  | y01551000 | Shurakoma | Komashura | Shadowside | 
- | y01560000 | Junia | Junior | Lightside | 
- | y01561000 | Baningu Doragon | Burning Dragon | Shadowside | 
- | y01610000 | Dameboi | Dameboy | Lightside | 
- | y01611000 | Zettai Gadoman | Zettai Guardman | Shadowside | 
+ | y01560000 | Junior | Junior | Lightside | 
+ | y01561000 | Burning Dragon | Burning Dragon | Shadowside | 
+ | y01610000 | Dameboy | Dameboy | Lightside | 
+ | y01611000 | Zettai Guardman | Zettai Guardman | Shadowside | 
  | y01640000 | Becchan | Becchan | Lightside | 
  | y01641000 | Nuttarabeccha | Nuttarabeccha | Shadowside | 
  | y01650000 | Hinoshin | Hinozall | Lightside | 
@@ -457,7 +457,7 @@ The list is in alphabetical order.
  | y01651000_02 | Hinoshin | Hinozall | Ultra | 
  | y01660000 | Kitaro | Kitaro | 
  | y01661000 | Medama-Oyaji | Daddy Eyeball | 
- | y01670000 | Haipa Micchi | Super Sly | Lightside | 
+ | y01670000 | Hyper Micchi | Super Sly | Lightside | 
  | y01671000 | Mitsumata Gidora | Slyju | Shadowside | 
  | y01680000 | Enma | Enma | 
  | y01690000 | Jao Kaira | Lord Ananta | 
@@ -471,7 +471,7 @@ The list is in alphabetical order.
  | y01729999 | 
  | y01730000 | Kuuten | Saros | 
  | y01760000 | Nurarihyon | Zazel | 
- | y01770000 | Fudo Myoo Boi | Lil' Acala | 
+ | y01770000 | Fudo Myoo Boy | Acala Boy | 
  | y02010000 | Himojii | Hungramps | Present | 
  | y02020000 | Jimii | Dimmy | 
  | y02030000 | Bakuroba | Tattletell | 
@@ -592,7 +592,7 @@ The list is in alphabetical order.
  | y03010000_02 | Shien | Shien | Ultra | 
  | y03010000_03 | Shien | Shien | Infernal | 
  | y03010000_friend | Shien | Shien | Friend | 
- | y03020000 | Sendai Enma Daio | Lord Enma/Ancient Enma | 
+ | y03020000 | Sendai Enma Daio | Lord Enma, Ancient Enma | 
  | y03030000 | Yamambaa | Yamamba | 
  | y03030000_01 | Yamambaa | Yamamba | Super | 
  | y03030000_02 | Yamambaa | Yamamba | Ultra | 
