@@ -2,7 +2,7 @@
 title: data
 layout: default
 has_children: true
-parent: Yo-kai Watch 2 RomFS Legend
+parent: Yo-kai Watch 2 RomFS Legend!
 grand_parent: RomFS Legend
 ---
 # yw2_a.fa
