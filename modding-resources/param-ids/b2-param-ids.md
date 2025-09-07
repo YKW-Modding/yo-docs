@@ -4,6 +4,8 @@ layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
+# B2 Param IDs
+
 The Below IDs are shown in hex format for convenience. Note that the names are in Japanese due to the game never being officially localised, but in brackets the *official* english name is present if ever localised:
 
 | Yokai |ID (Hex)|Index|
