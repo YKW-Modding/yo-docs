@@ -7,4 +7,8 @@ grand_parent: yw2_a.fa
 ---
 # res/
 
-lorem ipsum dolar sit amet
+This folder contains the majority of `cfg.bins`. The folder includes:
+* `qr/` - QR Code config:
+  * `qr_config.cfg.bin` - Old Config.
+  * `qr_config_0.04b.cfg.bin` - Main Config. Follow [this guide](../../../../modding-guides/general/qr.md) to add custom QR Codes using this file!
+  * `qr_config_ko_0.06c.cfg.bin` - KOR-exclusive config.
