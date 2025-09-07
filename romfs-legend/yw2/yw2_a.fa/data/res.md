@@ -9,13 +9,26 @@ grand_parent: yw2_a.fa
 
 This folder contains the majority of `cfg.bins`. The folder includes:
 * `battle/` - TODO
-* `capsule/` - TODO
+* `capsule/` - Crank-a-kai Data:
+  * `capsule_config_0.03.cfg.bin` - Crank-a-kai Loot Tables. Includes the Oni Crank-a-kai.
+  * `capsule_machine_config_0.03.cfg.bin` - Crank-a-kai Machine Data. Links each to machine and input (Item/Playcoin) to a loot table.
 * `character/` - Yo-kai Related configs:
   * `chara_base_0.04c.cfg.bin` - Character Base data. Includes Bosses and some NPCs
   * `chara_ability_0.01b.cfg.bin` - Ability/Skill Config.
   * `chara_collision_0.01a.cfg.bin` - Character Collision Data.
+  * `chara_param_0.03a.cfg.bin` - Yo-kai Data/Config
+  * `chara_scale_0.03m.cfg.bin` - Character Scaling
+  * `legend_config_0.01b.cfg.bin` - Legend Seal Config
+  * `skill_table_0.01.cfg.bin` - Empty. `chara_ability` is used instead.
 * `chart/` - TODO
-* `eff/` - TODO
+* `eff/` - Yo-kai Watch Model Effects/Auras
+  * `effect_config.cfg.bin`
+  * `effect_define_command.cfg.bin`
+  * `effect_define_foot.cfg.bin`
+  * `effect_define_locus.cfg.bin`
+  * `effect_define_placing.cfg.bin`
+  * `effect_define_placing_0.02l.cfg.bin`
+  * `effect_define_status.cfg.bin`
 * `enen_tunnel/` - TODO
 * `event/` - TODO
 * `face/` - TODO
