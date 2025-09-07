@@ -29,7 +29,8 @@ This folder contains the majority of `cfg.bins`. The folder includes:
   * `effect_define_placing.cfg.bin`
   * `effect_define_placing_0.02l.cfg.bin`
   * `effect_define_status.cfg.bin`
-* `enen_tunnel/` - TODO
+* `enen_tunnel/` - Infinite Tunnel Config. Contains:
+  * `enen_tunnel_event.cfg.bin` - Infinite Tunnel Data.
 * `event/` - TODO
 * `face/` - TODO
 * `friendbook/` - TODO
@@ -42,7 +43,8 @@ This folder contains the majority of `cfg.bins`. The folder includes:
 * `motevent/` - TODO
 * `music_game/` - TODO
 * `ogre/` - TODO
-* `password/` - TODO
+* `password/` - Passwords.
+  * `password_config_0.01b.cfg.bin` - Password Config.
 * `phs/` - TODO
 * `qr/` - QR Code config:
   * `qr_config.cfg.bin` - Old Config.
