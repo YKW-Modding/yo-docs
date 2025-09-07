@@ -1,7 +1,7 @@
 ---
 title: data
 layout: default
-has_children: true
+has_children: false
 parent: yw2_a.fa
 grand_parent: Yo-kai Watch 2 RomFS Legend
 ---
