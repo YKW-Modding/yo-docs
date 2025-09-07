@@ -1,5 +1,5 @@
 ---
-title: data
+title: ctr/
 layout: default
 has_children: false
 parent: yw2_a.fa
