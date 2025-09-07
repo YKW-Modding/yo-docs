@@ -1,5 +1,5 @@
 ---
-title: data
+title: snd/
 layout: default
 has_children: false
 parent: Yo-kai Watch 2 RomFS Legend!
