@@ -73,6 +73,10 @@ This folder contains the majority of `cfg.bins`. The folder includes:
 * `text/` - TODO
 * `title/` - TODO
 * `train/` - TODO
-* `view_app/` - TODO
+* `view_app/` - Yo-kai Pad App Configs:
+  * `film_app.cfg.bin`
+  * `movie_app.cfg.bin`
+  * `movie_app_0.01.cfg.bin`
+  * `music_app.cfg.bin`
 * `weather/` - TODO
   
