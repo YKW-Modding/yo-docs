@@ -1,15 +1,15 @@
 ---
-title: YKW2 Yo-kai IDs
+title: YW2 Yo-kai IDs
 layout: default
 parent: Character IDs
 grand_parent: Modding Resources
 ---
 
-# YKW2 Yo-kai IDs
+# YW2 Yo-kai IDs
 
 The list is in alphabetical order.
 
-*Special thanks to the [YKW2 naming project](https://gamebanana.com/tools/11464).*
+*Special thanks to the [YW2 naming project](https://gamebanana.com/tools/11464).*
 
 ## Normal Yo-kai
 
