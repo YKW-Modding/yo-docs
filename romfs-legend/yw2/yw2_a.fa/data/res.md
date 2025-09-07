@@ -36,8 +36,12 @@ This folder contains the majority of `cfg.bins`. The folder includes:
 * `friendbook/` - TODO
 * `gym/` - TODO
 * `help/` - TODO
-* `item/` - TODO
-* `keyboard/` - TODO
+  * `help_order_config.cfg.bin` - Help Text Config
+* `item/` - Item Config
+  * `creature_dictionary.cfg.bin` - Critter Config.
+  * `item_config_0.04b.cfg.bin` - General Item Config.
+* `keyboard/` - Keyboard settings
+  * `keyboard_setting.cfg.bin` - Keyboard settings.
 * `lottery/` - TODO
 * `map/` - TODO
 * `motevent/` - TODO
