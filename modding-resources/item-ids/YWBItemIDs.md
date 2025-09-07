@@ -254,3 +254,253 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Random Record | 0x37EDB3EE |
 | IOF Challenge Tkt | 0x40EA8378 |
 | SK Challenge Tkt | 0xAEE4E254 |
+
+## Element
+| Item Name | ItemID (Hex) |
+|---|---|
+| Brave Shard | 0x9A89BF7C |
+| Mysterious Shard | 0x7487DE50 |
+| Tough Shard | 0x9DE47B65 |
+| Charming Shard | 0x73EA1A49 |
+| Heartful Shard | 0xE35507D8 |
+| Shady Shard | 0xEAE34BF3 |
+| Eerie Shard | 0x4ED2ADF |
+| Slippery Shard | 0x380EEC6 |
+| Brave Essence | 0x9452374E |
+| Myster. Essence | 0x83928E3D |
+| Tough Essence | 0x6D9CEF11 |
+| Charming Essence | 0x84FF4A24 |
+| Heartful Essence | 0x1DF61B9E |
+| Shady Essence | 0x1A9BDF87 |
+| Eerie Essence | 0xF3F87AB2 |
+| Slippery Essence | 0xF495BEAB |
+| Brave Crystal | 0x6AF12B08 |
+| Mysterious Crystal | 0x8D49060F |
+| Tough Crystal | 0xA8BFDDFE |
+| Charming Crystal | 0x46B1BCD2 |
+| Heartful Crystal | 0xD8D52971 |
+| Shady Crystal | 0xDFB8ED68 |
+| Eerie Crystal | 0x31B68C44 |
+| Slippery Crystal | 0xFA4E3699 |
+| Brave Orb | 0xAFD219E7 |
+| Mysterious Orb | 0x41DC78CB |
+| Tough Orb | 0xA66455CC |
+| Charming Orb | 0xB1A4ECBF |
+| Heartful Orb | 0x28ADBD05 |
+| Shady Orb | 0xD163655A |
+| Eerie Orb | 0xC6A3DC29 |
+| Slippery Orb | 0x36DB485D |
+| Sproink Bucket | 0x5FAA8D93 |
+| Sproink Rope | 0xC1CE1830 |
+| Crafted Pigbucket | 0xB6C928A6 |
+| Straw Rope | 0x2FC0791C |
+| Metal Pigbucket | 0x58C7498A |
+| Fine Rope | 0xC878541B |
+| Gutsy's Pelvis | 0xBF7F648D |
+| Gutsy's Tooth | 0x89E24AEE |
+| Gutsy's Spine | 0xFEE57A78 |
+| Gutsy's Ribcage | 0x67EC2BC2 |
+| Gutsy's Skull | 0x10EB1B54 |
+| Gutsy's Heart | 0x8E8F8EF7 |
+| Tattleterror Towel | 0xF988BE61 |
+| Tattleterror Teeth | 0x6081EFDB |
+| Gold Tattletowel | 0x1786DF4D |
+| Tattledentures | 0x8739C2DC |
+| Turbo Tattletowel | 0xF03EF24A |
+| Fine Tattledentures | 0x90F97BAF |
+| Snaggerjag Hook | 0xE7FE4B39 |
+| Snaggerjag Ship | 0x7EF71A83 |
+| Big Snaggerjag Hk | 0x9F02A15 |
+| Ghost Snaggership | 0x9794BFB6 |
+| Snaggerjag Rod | 0xE0938F20 |
+| Treasure Ship | 0x799ADE9A |
+| Slimatongue | 0xE9DEE0C |
+| Slimamander Eye | 0x9E22F39D |
+| Super Slimatongue | 0xE925C30B |
+| Large Slimy Eye | 0xBBD4286C |
+| Ult. Slimatongue | 0xCCD318FA |
+| Black Slimy Eye | 0x55DA4940 |
+| Gargaros Horn | 0x22DD79D6 |
+| Gargaros Spike | 0xBCB9EC75 |
+| S. Gargaros Horn | 0xCBBEDCE3 |
+| S. Gargaros Spike | 0x52B78D59 |
+| U. Gargaros Horn | 0x25B0BDCF |
+| U. Gargaros Spike | 0xB50FA05E |
+| Goldy's Pelvis | 0xC20890C8 |
+| Goldy's Tooth | 0xA2CF192D |
+| Goldy's Spine | 0xD5C829BB |
+| Goldy's Ribcage | 0x4CC17801 |
+| Goldy's Skull | 0x3BC64897 |
+| Goldy's Heart | 0xA5A2DD34 |
+| Demuncher Tooth | 0xD2A5EDA2 |
+| Demuncher Beads | 0x4BACBC18 |
+| Demuncher Fang | 0x3CAB8C8E |
+| Blue Demunchbead | 0xAC14911F |
+| Demuncher Molar | 0xDB13A189 |
+| Demuncher Pearls | 0x255705E2 |
+| Ogralus Horn | 0x52503574 |
+| Ogralus Spike | 0xCB5964CE |
+| S. Ogralus Horn | 0xBC5E5458 |
+| S. Ogralus Spike | 0x223AC1FB |
+| U. Ogralus Horn | 0x553DF16D |
+| U. Ogralus Spike | 0xCC34A0D7 |
+| Mass Muttercloth | 0xBB339041 |
+| Mass Mutterchain | 0x2B8C8DD0 |
+| Fine Muttercloth | 0x5C8BBD46 |
+| Strong Mutterchain | 0x3C4C34A3 |
+| Fancy Muttercloth | 0x4B4B0435 |
+| Flashy Mutterchain | 0xD242558F |
+| Devourer Tooth | 0xA5456519 |
+| Devourer Beads | 0x3B21F0BA |
+| Devourer Fang | 0x4C26C02C |
+| Red Devourbeads | 0xD52F9196 |
+| Devourer Molar | 0xA228A100 |
+| Evil Devourbeads | 0x3297BC91 |
+| Hoggles Bucket | 0x45908C07 |
+| Hoggles Rope | 0xEC4CE5DD |
+| Crafted Hogbucket | 0x9B4BD54B |
+| Rough Rope | 0x24284F1 |
+| Shiny Hogbucket | 0x7545B467 |
+| Dark Rope | 0xEB2121C4 |
+| Wobblewok Pot | 0x9C261152 |
+| Wobblewok Gunk | 0x52F40E8 |
+| Black Wobblepot | 0x7228707E |
+| Evil Wobblegunk | 0xE2976DEF |
+| Gold Wobblepot | 0x95905D79 |
+| Great Wobblegunk | 0xF557D49C |
+| Styx Hook | 0x8250E40A |
+| Styx Ship | 0x1B59B5B0 |
+| Big Styx Hook | 0x6C5E8526 |
+| Styx Ghost Ship | 0xF23A1085 |
+| Styx Fishing Rod | 0x853D2013 |
+| Styx Battleship | 0x1C3471A9 |
+| Eyedra Tongue | 0x6B33413F |
+| Eyedra Eye | 0xFB8C5CAE |
+| S. Eyedra Tongue | 0x8C8B6C38 |
+| Huge Eyedra Eye | 0xDE7A875F |
+| U. Eyedra Tongue | 0xA97DB7C9 |
+| Golden Eyedra Eye | 0x3074E673 |
+| Hound Pouch | 0x4773D6E5 |
+| Hound Bomb | 0xD9174346 |
+| Fine Hound Pouch | 0xAE1073D0 |
+| Huge Hound Bomb | 0x3719226A |
+| Great Hound Pouch | 0x401E12FC |
+| Hound Skull Bomb | 0xD0A10F6D |
+| Rubeus J Fang | 0xA7A63FFB |
+| Rubeus J Bead | 0xC761B61E |
+| S. Rubeus J Fang | 0xB0668688 |
+| S. Rubeus J Bead | 0x296FD732 |
+| U. Rubeus J Fang | 0x5E68E7A4 |
+| U. Rubeus J Bead | 0xC00C7207 |
+| Robonyan Motor | 0xB70B4291 |
+| Robonyan Battery | 0x2E02132B |
+| S. Robonyan Motor | 0x590523BD |
+| S. Robobattery | 0xC9BA3E2C |
+| U. Robonyan Motor | 0xBEBD0EBA |
+| U. Robobattery | 0x882020D9 |
+| Kat Kraydel Yarn | 0xFF27104F |
+| Kat Kraydel Gem | 0x662E41F5 |
+| Kat Kraydel Web | 0x11297163 |
+| Kat Kraydel Crystal | 0x8F4DE4C0 |
+| Kat Kraydel Gold | 0xF84AD456 |
+| Kat Kraydel Ruby | 0x614385EC |
+| McKraken Ink | 0x1644B57A |
+| McKraken Tentacle | 0x86FBA8EB |
+| Thick McKraken Ink | 0xF1FC987D |
+| Tough McKraktacle | 0x913B1198 |
+| Solid McKraken Ink | 0xE63C210E |
+| Grand McKraktacle | 0x7F3570B4 |
+| Whisp Cream Puff | 0x8324022 |
+| Whispoplasm | 0x9656D581 |
+| Dbl Whisp Cream | 0xE151E517 |
+| S. Whispoplasm | 0x7858B4AD |
+| Trpl Whisp Cream | 0xF5F843B |
+| U. Whispoplasm | 0x9FE099AA |
+| Kabuking Mask | 0xE8E7A93C |
+| Kabuking Lantern | 0xBA16425B |
+| Lg Kabuking Mask | 0xCD1172CD |
+| L. Kabuking Lantern | 0x54182377 |
+| Kabuking Bag | 0x231F13E1 |
+| Kabuking Pipe | 0xBD7B8642 |
+| Glitzy's Pelvis | 0xCA7CB6D4 |
+| Glitzy's Tooth | 0x5375E76E |
+| Glitzy's Spine | 0x2472D7F8 |
+| Glitzy's Ribcage | 0xB4CDCA69 |
+| Glitzy's Skull | 0xC3CAFAFF |
+| Glitzy's Heart | 0xA30D731A |
+| Dire Dame Down | 0xD40A438C |
+| Dire Dame Heart | 0x4D031236 |
+| Dismal Down | 0x3A0422A0 |
+| Dismal Dame Heart | 0xA460B703 |
+| Delight Down | 0xD3678795 |
+| Wistful Dame Heart | 0x4A6ED62F |
+| Orcanos Horn | 0x3D69E6B9 |
+| Orcanos Spike | 0xADD6FB28 |
+| S. Orcanos Horn | 0xDAD1CBBE |
+| S. Orcanos Spike | 0x24956FD5 |
+| U. Orcanos Horn | 0x53925F43 |
+| U. Orcanos Spike | 0xCA9B0EF9 |
+| Hinozall's Plan | 0xBD9C3E6F |
+| Hinozall Underling | 0x23F8ABCC |
+| Hinozall's Scheme | 0x54FF9B5A |
+| Hinozall's Servant | 0xCDF6CAE0 |
+| Hinozall's Mstr Plan | 0xBAF1FA76 |
+| Hinozall's Sidekick | 0x2A4EE7E7 |
+| Swirlious Claw | 0x5D49D771 |
+| Swirlious Orb | 0x3D8E5E94 |
+| Swirlious Necklace | 0x4A896E02 |
+| Evil Swirlious Orb | 0xD3803FB8 |
+| Swirlious Fang | 0xA4870F2E |
+| Gold Swirlious Orb | 0x3AE39A8D |
+| Red Paws Claw | 0x4DE4AA1B |
+| Bronze Paws Coin | 0xD4EDFBA1 |
+| Red Paws Necklace | 0xA3EACB37 |
+| Silver Paws Coin | 0x3355D6A6 |
+| Red Paws Whisker | 0x4452E630 |
+| Gold Paws Coin | 0xEE0A5B84 |
+| Zazelmare Claw | 0x990D6B12 |
+| Zazelmare Horn | 0x43AA8 |
+| S. Zazelmare Claw | 0x77030A3E |
+| S. Zazelmare Horn | 0xE9679F9D |
+| U. Zazelmare Claw | 0x9E60AF0B |
+| U. Zazelmare Horn | 0x769FEB1 |
+| Thunder Helmet | 0x706ECE27 |
+| Thunder Rocket | 0xE0D1D3B6 |
+| Thunder Visor | 0x97D6E320 |
+| S. Thunder Rocket | 0xF7116AC5 |
+| U. Thunder Helmet | 0x80165A53 |
+| U. Thunder Rocket | 0x191F0BE9 |
+| King Bauble | 0x6E183B7F |
+| King Gauntlets | 0xF07CAEDC |
+| S. King Bauble | 0x877B9E4A |
+| S. King Gauntlets | 0x1E72CFF0 |
+| U. King Bauble | 0x6975FF66 |
+| U. King Gauntlets | 0xF9CAE2F7 |
+| King Moon Bauble | 0x136FCF3A |
+| King Moon Gauntlet | 0x8D0B5A99 |
+| Awoken Crown | 0x8ECDD261 |
+| Awoken Underling | 0xDC3C3906 |
+| S. Awoken Crown | 0xAB3B0990 |
+| Awoken Sidekick | 0x3232582A |
+| U. Awoken Crown | 0x453568BC |
+| Awoken Dx Card | 0xDB51FD1F |
+| Robo 3000 Motor | 0xAC56CD89 |
+| Robo 3000 Battery | 0x355F9C33 |
+| Super Motor 3000 | 0x4258ACA5 |
+| Super Battery 3000 | 0xD2E7B134 |
+| Strong Horn | 0xA5E081A2 |
+| Tornado Spinner | 0xC5270847 |
+| Swirlious 18K Fang | 0xB22038D1 |
+| Swirlious Lucky Orb | 0x2B29696B |
+| Swirlious 24K Fang | 0x5C2E59FD |
+| Swirlious Holy Orb | 0xC24ACC5E |
+| Swirlious Gold Claw | 0xB54DFCC8 |
+| Swirlious Gold Orb | 0x2C44AD72 |
+| Golden Thick Rope | 0x5B439DE4 |
+| Golden Lucky Coin | 0xCBFC8075 |
+| Victory Rope | 0xBCFBB0E3 |
+| Gold Amulet Coin | 0x8A669E80 |
+| Treasure Rope | 0xFD61AE16 |
+| Super Lucky Coin | 0x6468FFAC |
+| Moonstone | 0xFA0C6A0F |
+
