@@ -4,7 +4,7 @@ The Yo-kai Watch documentation site.
 
 ## Planned info:
 
-- all IDs for yo-kai, items, events and maps, including hex ids
-- naming scheme documentation
-- filesystem documentation
+- Item IDs, Event IDs etc
+- Naming Schema docs
+- RomFS Legends
 - all stats and item information
