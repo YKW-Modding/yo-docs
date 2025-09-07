@@ -1,5 +1,5 @@
 ---
-title: Item IDs! (And B1 Auras!)
+title: Item IDs!
 layout: default
 has_children: true
 parent: Modding Resources
@@ -12,6 +12,6 @@ ItemIDs are used to reprsent Items. There are the following item types:
 * `Equipment` - Non-Soul Equippables.
 * `Consume` - Everything Else.
 * `Element` - Shards and such (B1/B2 only!!).
-* `Auras` - I dont remember if Blasters Auras are items - but theyll be included here anyway!
+* `Auras` - Blasters 1 Auras (Only B1 Auras are shown here).
 
 Not to be confused with `InventorySort` or `ItemType`. 
