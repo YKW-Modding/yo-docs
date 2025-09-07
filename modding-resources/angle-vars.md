@@ -88,3 +88,6 @@ These only work in certain `cfg.bins`:
 * `<V"tr0401">`
 * `<TRAIN_ROUTE>`
 * `<TRAIN_TYPE>`
+* `<Y10>"<CG><QUEST_NAME></C>" started!`
+* `<ROM>`
+* `<PNAME>`
