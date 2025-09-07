@@ -334,7 +334,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ひも爺 (Hungramps) |0xD3D8004A|322|
 | くいい爺 (Hungorge) |0x8BBB101C|323|
 | こめ爺 (Grainpa) |0xCAC3310B|324|
-| しょうりん爺 |0xE1EE62C8|325|
+| しょうりん爺 (Shōrinjī) |0xE1EE62C8|325|
 | ハングリーＧ (Supersize G.) |0x6358217D|326|
 | キズナメコ (Tongus) |0xD0903C31|327|
 | キズナース (Nurse Tongus) |0xF8C9636B|328|
@@ -345,7 +345,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | アフロ１３ (Afronaut) |0xCD950C89|333|
 | テンテコ米 (Cereal Spiller) |0x75296BEC|334|
 | あしたガール (Tomorrow Gal) |0x2D4A7BBA|335|
-| らいせガール |0x34514AFB|336|
+| らいせガール (Raisegirl/Raise gāru) |0x34514AFB|336|
 | どっちつかず (Swaycorn) |0xE5CC53D3|337|
 | ポチッ (Push Pup) |0xA6A8CC7C|338|
 | ウキウキビ (Happycane) |0x31354DE9|339|
@@ -435,14 +435,14 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ネクラマテング (Tengloom) |0x62B0E021|423|
 | ヨミテング (Nird) |0x7BABD160|424|
 | まてんし (K'mon-K'mon) |0x7D152DBE|425|
-| かてんし |0x640E1CFF|426|
+| かてんし (Katenshi) |0x640E1CFF|426|
 | リー夫人 (Snobetty) |0x37C39206|427|
 | ガブニャン (Dracunyan) |0x8C876C58|428|
 | カッパー (Lil Kappa) |0xCEFF5205|429|
 | ダリス (Horizontail) |0xF921A237|430|
-| ふてくさる |0x23B0343A|431|
+| ふてくさる (Futekusaru) |0x23B0343A|431|
 | ＵＳＡピョン (Usapyon) |0xCA19D58D|432|
-| ＴーＵＳＡピョン |0x17162E4E|433|
+| ＴーＵＳＡピョン (Treasure Usapyon) |0x17162E4E|433|
 | ＵＳＡピョン (Usapyon) |0xD302E4CC|434|
 | ＵＳＡピョン (Usapyon) |0xF82FB70F|435|
 | ＵＳＡピョン (Usapyon) |0xE134864E|436|
@@ -452,10 +452,10 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ミツマタノヅチ (Slimamander) |0x8F7FF563|440|
 | 魔ガサス (Negasus) |0x74E3C847|441|
 | ウ魔 (Neighfarious) |0x6DF8F906|442|
-| 徳川マイゾウ |0xA628FAA1|443|
-| アレ・バッチーノ |0x36890770|444|
+| 徳川マイゾウ (Maizo Tokugawa/Tokugawa Maizō) |0xA628FAA1|443|
+| アレ・バッチーノ (Are Bacchino/Are Bacchīno) |0x36890770|444|
 | ガシャどくろ (Gutsy Bones) |0xBFBDFAA|445|
-| ガシャどくろＴ |0x12E0EEEB|446|
+| ガシャどくろＴ (Gashadokuro Treasure/Gashado kuro Torejā) |0x12E0EEEB|446|
 | デビビル (Timidevil) |0x826F9712|447|
 | デビビラン (Beelzebold) |0x3AD3F077|448|
 | 虫歯伯爵 (Count Cavity) |0x23C8C136|449|
@@ -468,7 +468,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ゼロ博士 (Dr. E. Raser) |0xA142B261|456|
 | Ｄｒ．カゲムラ (Dr. Nocturne) |0xB8598320|457|
 | 魔天王 (Tut 'n' K'mon) |0xE12AD45B|458|
-| カネクイヒメ |0xE5DEA2B9|459|
+| カネクイヒメ (Kanekui Hime) |0xE5DEA2B9|459|
 | かえりタイ (Tie-red) |0x4B231CD0|460|
 | やぶレター (Love-Torn) |0x6E48430C|461|
 | てのひらがえし (Shakey) |0xD6F42469|462|
@@ -496,7 +496,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | たいこモチ (Pergushin) |0xF39F7BB5|484|
 | ごまスリー (Percrushionists) |0x91545EB9|485|
 | 認ＭＥＮ (Nosirs) |0x3E5FB0F|486|
-| あきらＭＥＮ |0x1AFECA4E|487|
+| あきらＭＥＮ (AkiraMEN) |0x1AFECA4E|487|
 | 黄ばんドール (Grubbles) |0xC4418B87|488|
 | ふあんかん (Nervous Rex) |0x7CFDECE2|489|
 | たらいまわし (Rinsin Repete) |0x249EFCB4|490|
@@ -552,7 +552,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | 笑ウツボ (Heheheel) |0xCBD37626|540|
 | 歌ウナギ (Croonger) |0xD2C84767|541|
 | 大蛇のツボ (Urnaconda) |0xF9E514A4|542|
-| 思ウツボ |0xE0FE25E5|543|
+| 思ウツボ (Omoutsubo) |0xE0FE25E5|543|
 | たこやっ鬼 (Takoyakid) |0xEC8A136A|544|
 | たこや鬼神 (Takoyaking) |0xACE27550|545|
 | キライギョ (Fishpicable) |0x4D65667F|546|
@@ -568,7 +568,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | にんぎょ (Mermaidyn) |0x4EFB585D|556|
 | 八百比丘尼 (Mermadonna) |0x6B900781|557|
 | イザナミ (Mermother) |0x728B36C0|558|
-| ナーガラージャ |0x59A66503|559|
+| ナーガラージャ (Naga Raja/Nāgarāja) |0x59A66503|559|
 | ダイナシー (T-Wrecks) |0xAC347709|560|
 | Ｄ‐レックス (D-Stroy) |0xCA104F7|561|
 | ドジラ (Clodzilla) |0x15BA35B6|562|
@@ -579,8 +579,8 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ひっぱりダコ (Flocktopus) |0x29CA5B2B|567|
 | たこうらみ (Bitter Batter) |0x83C393A0|568|
 | ボー坊 (Daiz) |0xF6B35F96|569|
-| ドヤガリ族 |0x6D742904|570|
-| ドヤ・オサ |0x57DC1C5E|571|
+| ドヤガリ族 (Doyagari-zoku) |0x6D742904|570|
+| ドヤ・オサ (Doya Osa) |0x57DC1C5E|571|
 | しどろもどろ (Confuze) |0xEFA86ED7|572|
 | ミチクサメ (Chummer) |0xE76CAEF4|573|
 | トーシロザメ (Shrook) |0xFE779FB5|574|
@@ -598,7 +598,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | まむし行司 (Slitheref) |0x2400DDDC|586|
 | つられたろう丸 (SV Snaggerjag) |0xCCEF0A62|587|
 | おれリュウ (Mython) |0x1E14AB19|588|
-| バスコダ・ガマ |0x9C80CFFB|589|
+| バスコダ・ガマ (Vascoda Gama/Basukoda Gama)|0x9C80CFFB|589|
 | オロチ (Venoct) |0x85A78BF8|590|
 | 影オロチ (Shadow Venoct) |0x9CBCBAB9|591|
 | センポクカンポク (Frogetmenot) |0xB41D6392|592|
@@ -634,7 +634,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ダーウィン (Starwin) |0xAF1AEC6B|622|
 | ブシニャン (Shogunyan) |0x97122416|623|
 | ラストブシニャン (Last Nyanmurai) |0xD6D6469E|624|
-| Ｃブシニャン |0xCA0B24E7|625|
+| Ｃブシニャン (Crystal Shogunyan/Kurisutaru Bushinyan) |0xCA0B24E7|625|
 | キラコマ (Koma Star) |0x7CDF8E15|626|
 | プラチナ鬼 (Platinos) |0xC463E970|627|
 | ブルジョワＧ (Flash T. Cash) |0xF3BD1942|628|
@@ -652,7 +652,7 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ヒーローニャン (Supernyan) |0xD56A1A4B|640|
 | フユニャンＳ (Hovernyan S) |0x2AC1A17E|641|
 | フユニャン曹操 (Hover. Cao Cao) |0xA20A8E1A|642|
-| ぷにフユ |0x17B47A64|643|
+| ぷにフユ (Punifuyu) |0x17B47A64|643|
 | ひとりよがり (Yoganalisten) |0x4203FB70|644|
 | ウォール・ガイ (Judgebrick) |0x69E6F8FF|645|
 | ガランドゥ (Urnfulfilled) |0x10DE32A4|646|
@@ -666,11 +666,11 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ミーフー (Mee 2) |0x581E357|654|
 | コアラニャン (Koalanyan) |0xEBB66F2E|655|
 | Ｔジバニャン (Jibanyan T) |0x14EEB775|656|
-| ＴジバニャンＧ |0x4569B3B0|657|
-| Ｄジバニャン |0x4FD76A32|658|
+| ＴジバニャンＧ (Treasure Jibanyan Gold/Torejā Jibanyan Gōrudo) |0x4569B3B0|657|
+| Ｄジバニャン (Doyagari Jibanyan) |0x4FD76A32|658|
 | Ｔコマさん (Komasan T) |0xAC52D010|659|
-| ＴコマさんＧ |0x6002EC6C|660|
-| Ｄコマさん |0xF76B0D57|661|
+| ＴコマさんＧ (Gold Komasan T) |0x6002EC6C|660|
+| Ｄコマさん (Doyagari Komasan) |0xF76B0D57|661|
 | 卵の君 (Eggcelency) |0x8AE37400|662|
 | ワルノリン (Deadcool) |0x325F1365|663|
 | サニーレタスさん (Sweattuce) |0x9132F9A0|664|
@@ -720,48 +720,48 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ふぶきちゃん (Blizzie) |0x9A4949D5|708|
 | ＫＪ (KJ) |0x73AEA575|709|
 | インディ・Ｊ (Indiana Jaws) |0x4C495410|710|
-| インディ・ＪＧ |0xD8BE8B09|711|
-| シンディ・Ｊ |0x243CA89E|712|
+| インディ・ＪＧ (Gold Indiana Jaws) |0xD8BE8B09|711|
+| シンディ・Ｊ (Cindy Jaws/Shindi Jōzu) |0x243CA89E|712|
 | Ｍｒ．スコップ (Shovulcan) |0x5EFCFBFE|713|
-| Ｍｒ.スコップＧ |0x72B74382|714|
+| Ｍｒ.スコップＧ (Gold Shovulcan) |0x72B74382|714|
 | ゾン・ビー・Ｃ (Zomboy) |0xF4F53375|715|
-| ゾン・ビー・ＣＧ |0xFDD5D4D5|716|
+| ゾン・ビー・ＣＧ (Gold Zomboy) |0xFDD5D4D5|716|
 | ネコ２世 (Nyanses II) |0x69220BCC|717|
-| ネコ２世Ｇ |0xEF607B3B|718|
+| ネコ２世Ｇ (Gold Nyanses II) |0xEF607B3B|718|
 | クレクレパトラ (Meopatra) |0xD19E6CA9|719|
 | ヤマトボケル (Fitwit) |0x23F4B474|720|
 | エルドラゴーン (El Dorago) |0x7B97A422|721|
 | 日ノ鳥 (The Hinix) |0xC32BC347|722|
-| ヨーデルセン |0xDB20B52B|723|
-| ナルシス２世 |0x639CD24E|724|
-| ザッパドキア |0x71297DA0|725|
-| マドモアイゼル |0xC9951AC5|726|
-| ロゼッタストーン |0x5442227C|727|
-| ドエスカリバー |0xECFE4519|728|
-| アンコールデッド |0xFE4BEAF7|729|
-| アーマーテラス |0x46F78D92|730|
-| ダンドリー |0xA8C001EB|731|
-| スパット |0xBA75AE05|732|
-| タント |0x2C9C960|733|
-| キレーネ |0x9F1EF1D9|734|
-| トランカ |0x27A296BC|735|
-| キャトリーヌ |0x8DAB5E37|736|
-| グスタフ |0xD5C84E61|737|
-| ゴーウィン |0x35173952|738|
-| 聖霊バンバラヤー |0x60208E9B|739|
+| ヨーデルセン (Yodelson/Yōderusen) |0xDB20B52B|723|
+| ナルシス２世 (Narcis II/Narushisu Nisei) |0x639CD24E|724|
+| ザッパドキア (Zappadokia) |0x71297DA0|725|
+| マドモアイゼル (Mademoaiselle/Madomoaizeru) |0xC9951AC5|726|
+| ロゼッタストーン (Rosetta Stone/Rozetta Sutōn) |0x5442227C|727|
+| ドエスカリバー (Doescalibur/Doesukaribā)|0xECFE4519|728|
+| アンコールデッド (Encore Dead/Ankōrudeddo) |0xFE4BEAF7|729|
+| アーマーテラス (Armorterasu/Āmāterasu) |0x46F78D92|730|
+| ダンドリー (Dandory/Dandorī) |0xA8C001EB|731|
+| スパット (Spatto/Supatto) |0xBA75AE05|732|
+| タント (Tanto) |0x2C9C960|733|
+| キレーネ (Kirene/Kirēne) |0x9F1EF1D9|734|
+| トランカ (Toranka) |0x27A296BC|735|
+| キャトリーヌ (Catleen/Kyatorīnu) |0x8DAB5E37|736|
+| グスタフ (Gustaf/Gusutafu) |0xD5C84E61|737|
+| ゴーウィン (Gowin/Gōwin) |0x35173952|738|
+| 聖霊バンバラヤー (Seirei Banbarayar/Seirei Banbarayā) |0x60208E9B|739|
 | エンマ大王 (Lord Enma) |0x31172F1E|740|
 | 先代閻魔大王 (Ancient Enma) |0x95027C71|741|
 | 覚醒エンマ (Enma Awk.) |0xE296888E|742|
 | 太陽神エンマ (Solar Enma) |0x1D8A953B|743|
 | 時空神エンマ (Infinite Enma) |0xF3F3AD5|744|
 | 暗黒神エンマ (Umbral Enma) |0xB7835DB0|745|
-| 闇エンマ |0x78099A00|746|
-| 蛇王カイラ |0x926834B1|747|
-| 閻魔冥王マカ |0x2AD453D4|748|
-| 閻魔猫王マタタビ |0x6ABC35EE|749|
-| 閻魔竜王ミズチ |0xD200528B|750|
-| 閻魔羅王テッカク |0xC0B5FD65|751|
-| 不動明王 |0xAF081D01|752|
+| 闇エンマ (Yami Enma) |0x78099A00|746|
+| 蛇王カイラ (Lord Anata/Jaō Kaira) |0x926834B1|747|
+| 閻魔冥王マカ (Enma Meiou Maka/Enma Meiō Maka) |0x2AD453D4|748|
+| 閻魔猫王マタタビ (Enma Neko'ou Matatabi/Enma Nekoō Matatabi) |0x6ABC35EE|749|
+| 閻魔竜王ミズチ (Enma Ryuuou Mizuchi/Enma Ryūō Mizuchi) |0xD200528B|750|
+| 閻魔羅王テッカク (Enma Raou Tekkaku/Enma Raō Tekkaku) |0xC0B5FD65|751|
+| 不動明王 (TODO; DO THIS TODO; DO THIS DO THI-LMAO) |0xAF081D01|752|
 | ガラクタリアン (Junkernaut) |0x279019DF|901|
 | スーパー店長 (Supermanager) |0xEB3A1941|902|
 | プリズンブレイカー (Mass Mutterer) |0x3A33840|903|
@@ -787,39 +787,39 @@ The Below IDs are shown in hex format for convenience. Note that the names are i
 | ゴゴゴＴドラゴン (The Goldfather) |0x780B03F8|923|
 | 豪鉄鬼 (IcarOS) |0x2FA416B7|924|
 | ガシャどくろ (Gutsy Bones) |0xB581C9F2|925|
-| ガシャどくろＧ |0x88E1E042|926|
-| ギヤマンどくろ |0xCF419A92|927|
+| ガシャどくろＧ (Goldy Bones) |0x88E1E042|926|
+| ギヤマンどくろ (Glitzy Bones) |0xCF419A92|927|
 | つられたろう丸 (SV Snaggerjag) |0xD952E609|928|
-| 第八三途丸 |0xE432CFB9|929|
+| 第八三途丸 (Styx Mk. VI)|0xE432CFB9|929|
 | ミツマタノヅチ (Slimamander) |0xA94183F6|930|
-| 地獄大山椒 |0x9421AA46|931|
+| 地獄大山椒 (Eyedra) |0x9421AA46|931|
 | 鬼食い (Demuncher) |0xF89AA2E8|932|
 | いのちとり (Devourer) |0xC5FA8B58|933|
 | どんどろ (Wobblewok) |0x8438FA5F|934|
-| ウィスマロマン |0x1E1D251A|935|
-| スベテ・ウバウネ |0x792BC96C|936|
-| あやとりさま |0x5452B0C5|937|
+| ウィスマロマン (Whisped Cream)|0x1E1D251A|935|
+| スベテ・ウバウネ (Dame Demona) |0x792BC96C|936|
+| あやとりさま (Kat Kraydel) |0x5452B0C5|937|
 | カブキロイド (Kabuking) |0x178FADBC|938|
 | キャプテンサンダー (Cpt. Thunder) |0x56FD2B7E|939|
 | キャプテンサンダー (Cpt. Thunder) |0xD8722C9D|940|
-| ピンクエンペラー |0xEC3511DF|941|
-| ロボニャン３０００ |0xC1F9F422|942|
-| 犬まろデロン |0xCC5EB961|943|
-| 猫きよペロン |0x157EABCD|944|
+| ピンクエンペラー (Pink Emperor) |0xEC3511DF|941|
+| ロボニャン３０００ (Robonyan 3000) |0xC1F9F422|942|
+| 犬まろデロン (Duke Drooly) |0xCC5EB961|943|
+| 猫きよペロン (Alicktokat) |0x157EABCD|944|
 | ぬらりひょん (Zazel) |0x4814B79B|945|
-| 大妖魔ぬらねいら |0x42D1BE82|946|
+| 大妖魔ぬらねいら (Zazelmare) |0x42D1BE82|946|
 | ブシ王 (Shogun King) |0x1523E31|947|
 | ラストブシ王 (Lastest Nyan.) |0x3C321781|948|
 | あなほりモグ蔵 (Holey Moley) |0x23F8C2D3|949|
-| 血魔ツリー |0xAD77C530|950|
-| バイＫＩＮＧ |0x61DDC5AE|951|
-| ミイラーボール |0x6B18CCB7|952|
-| カニ坊主 |0xA7B2CC29|953|
-| オリファルコン |0x293DCBCA|954|
-| 輪ＮＥＷ道 |0x3483D690|955|
-| ダークマスター |0xBA0CD173|956|
-| さすらいのビリー |0x7C63D8F4|957|
-| ゴーウィン |0xB0C9D86A|958|
-| カナエンデス |0x76A6D1ED|959|
-| 魔人バンバラヤー |0xF2ECDF17|960|
-| ヨーデルセン |0x3E46DF89|961|
+| 血魔ツリー (Chi Ma Tree/Chimatsurī) |0xAD77C530|950|
+| バイＫＩＮＧ (BaiKING/Baikingu) |0x61DDC5AE|951|
+| ミイラーボール (Boogiemum/Mīrābōru) |0x6B18CCB7|952|
+| カニ坊主 (Kanibouzu/Kanibōzu)|0xA7B2CC29|953|
+| オリファルコン (Orifalcon/Orifarukon) |0x293DCBCA|954|
+| 輪ＮＥＷ道 (WaNEWdou/Wanyūdō)|0x3483D690|955|
+| ダークマスター (Dark Master/Dākumasutā) |0xBA0CD173|956|
+| さすらいのビリー (Sasurai no Billy/Sasurai no Birī) |0x7C63D8F4|957|
+| ゴーウィン (Gowin/Gōwin) |0xB0C9D86A|958|
+| カナエンデス (Kanaendesu/Kanaendesu)|0x76A6D1ED|959|
+| 魔人バンバラヤー (Majin Banbarayar/Majin Banbarayā) |0xF2ECDF17|960|
+| ヨーデルセン (Yodelsen/Yōderusen) |0x3E46DF89|961|
