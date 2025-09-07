@@ -12,7 +12,7 @@ In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` 
 ## Colors
 
 There are 4 ways to display colors:
-* 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>`, `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1) and `<CN>IDK</C>` (Confirmed to work in Yo-kai Watch 2 and later).
+* 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>`, `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1) and `<CN>IDR</C>` (Confirmed to work in Yo-kai Watch 2 and later).
 * 2. RGB888: `<C#RGB888>` codes can be used i.e. for the color `#123456` that would be `<C#123456>`
 * 3. RGB776: This is more complicated to visualise but takes the format `<C"RGB776>`. Both RGB888 and RGB776 codes can be generated from the website [YWColor](https://n123git.github.io/yw-color/).
 * 4. Fixed Numerical Color Codes there are 31 color codes (0-30) that give a fixed color:
@@ -68,3 +68,4 @@ These only work in certain `cfg.bins`:
 * `<ITEM_NAME1>` - Name of the first item recieved when there are multiple.
 * `<ITEM_NAME2>` - Name of the second item recieved when there are multiple.
 * `<YOKAI_NAME>` - Name of yokai
+* `<STATION_NAME>` - Name of station.
