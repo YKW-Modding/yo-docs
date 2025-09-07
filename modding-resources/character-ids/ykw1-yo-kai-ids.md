@@ -1,11 +1,11 @@
 ---
-title: YKW1 Yo-kai IDs
+title: YW1 Yo-kai IDs
 layout: default
 parent: Character IDs
 grand_parent: Modding Resources
 ---
 
-# YKW1 Yo-kai IDs
+# YW1 Yo-kai IDs
 
 The list is in alphabetical order.
 
