@@ -9,9 +9,8 @@ grand_parent: Modding Resources
 
 The list is in alphabetical order.
 
-| Map Name | Hashed ID | Map ID |
-|---|---|---|
 | Map Name | Hashed ID (CRC32) | TODO |
+|---|---|---|
 | New Yo-kai City | 0xDC80D053 | TODO |
 | Uptown Springdale | 0x17DC03F6 | TODO |
 | Mt. Wildwood | 0x569AC18 | TODO |
