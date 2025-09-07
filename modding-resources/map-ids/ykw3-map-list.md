@@ -7,28 +7,28 @@ grand_parent: Modding Resources
 
 # YKW3 Map List
 
-The list is in alphabetical order.
+The list is in alphabetical order. Brackets will be used to denote names for certain maps i.e. the unused Old Springdale map.
 
-| Map Name | Hashed ID (CRC32) | TODO |
+| Map Name | Hashed ID (CRC32) | Map ID |
 |---|---|---|
-| New Yo-kai City | 0xDC80D053 | TODO |
-| Uptown Springdale | 0x17DC03F6 | TODO |
-| Mt. Wildwood | 0x569AC18 | TODO |
-| Blossom Heights | 0xBDD5CB7D | TODO |
-| Downtown Springdale | 0x2002F3C4 | TODO |
-| Shopper's Row | 0x98BE94A1 | TODO |
-| Breezy Hills | 0x8A0B3B4F | TODO |
-| Excellent Tower | 0x32B75C2A | TODO |
-| Sparkopolis | 0x6AD44C7C | TODO |
-| Greenfields Station | 0xD2682B19 | TODO |
-| San Fantastico | 0x6D1C5096 | TODO |
-| Harrisville | 0x507C7926 | TODO |
-| Harrisville Station Plaza | 0x42C9D6C8 | TODO |
-| t201g00 | 0x91487158 | TODO |
-| t202g00 | 0x83FDDEB6 | TODO |
-| t206g00 | 0xC9F49E1 | TODO |
-| t231g00 | 0xD6E80B88 | TODO |
-| t232g00 | 0xC45DA466 | TODO |
+| New Yo-kai City | 0xDC80D053 | t001g00 |
+| Uptown Springdale | 0x17DC03F6 | t101g00 |
+| Mt. Wildwood | 0x569AC18 | t102g00 |
+| Blossom Heights | 0xBDD5CB7D | t103g00 |
+| Downtown Springdale | 0x2002F3C4 | t104g00 |
+| Shopper's Row | 0x98BE94A1 | t105g00 |
+| Breezy Hills | 0x8A0B3B4F | t106g00 |
+| Excellent Tower | 0x32B75C2A | t107g00 |
+| Sparkopolis | 0x6AD44C7C | t108g00 |
+| Greenfields Station | 0xD2682B19 | t109g00 |
+| San Fantastico | 0x6D1C5096 | t121g00 |
+| Harrisville | 0x507C7926 | t131g00 |
+| Harrisville Station Plaza | 0x42C9D6C8 | t132g00 |
+| t201g00 (Old Springdale) | 0x91487158 | t201g00 |
+| t202g00 (Old Mt. Wildwood) | 0x83FDDEB6 | t202g00 |
+| t206g00 (Gourd Pond) | 0xC9F49E1 | t206g00 |
+| t231g00 (Old Harrisville) | 0xD6E80B88 | t231g00 |
+| t232g00 (Old Harrisville Station Plaza) | 0xC45DA466 | t232g00 |
 | Southmond | 0x47119245 | TODO |
 | Northbeech | 0x55A43DAB | TODO |
 | East Pine | 0xED185ACE | TODO |
