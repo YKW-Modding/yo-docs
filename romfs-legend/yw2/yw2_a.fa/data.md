@@ -9,5 +9,5 @@ grand_parent: Yo-kai Watch 2 RomFS Legend
 This contains:
 * `spr/chr_icn/` - This folder tree contains a `chr_icon.xc` for every language. Inside is a spritesheet of interaction icons.
 ![Yo-kai Watch 2 Interaction Bubble Spritesheet](chr_icn.png)
-* d
+* `character/` - Contains all the models in the game. Go to [Yo-kai Watch 2 Model IDs]() for a list.
 
