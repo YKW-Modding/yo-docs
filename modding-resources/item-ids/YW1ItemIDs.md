@@ -1,7 +1,7 @@
 ---
 title: YW1 Item IDs
 layout: default
-parent: Item IDs!
+parent: Item IDs! (And B1 Auras!)
 grand_parent: Modding Resources
 ---
 # YW1 Item IDs!
