@@ -5,10 +5,11 @@ has_children: true
 parent: Modding Resources
 ---
 
-ItemIDs are used to reprsent Items. In Yo-kai Watch 2 there are 5 item types:
-* `Creature` - Critters
-* `Important` - Key Items
-* `Soul` - Souls
-* `Equipment` - Non-Soul Equippables
+ItemIDs are used to reprsent Items. There are the following item types:
+* `Creature` - Critters (Mainline only).
+* `Important` - Key Items.
+* `Soul` - Souls (YW2 onwards).
+* `Equipment` - Non-Soul Equippables.
 * `Consume` - Everything Else.
+* `Element` - Shards and such (B1/B2 only!!).
 Not to be confused with `InventorySort` or `ItemType`.
