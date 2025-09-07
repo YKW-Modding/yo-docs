@@ -7,14 +7,15 @@ parent: Modding Resources
 # Angle Variables
 > **Note: Thank you to @GotaZ for documenting C0 through C30!**
 
-In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT<SOMETHING>`. These are called Angle Variables and have a multitude of effects.
+In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` or just `<SOMETHING>`. These are called Angle Variables and have a multitude of effects.
 
 ## Colors
 
-There are 3 ways to show colors:
-* 1. RGB888: `<C#RGB888>` codes can be used i.e. for the color #123456 that would be <C#123456>
-* 2. RGB776: This is more complicated to visualise but takes the format `<C"RGB776>`. Both RGB888 and RGB776 codes can be generated from the website [YWColor](https://n123git.github.io/yw-color/).
-* 3. Fixed Color Codes there are 31 color codes (0-30) that give a fixed color:
+There are 4 ways to display colors:
+* 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>` and `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1)
+* 2. RGB888: `<C#RGB888>` codes can be used i.e. for the color `#123456` that would be `<C#123456>`
+* 3. RGB776: This is more complicated to visualise but takes the format `<C"RGB776>`. Both RGB888 and RGB776 codes can be generated from the website [YWColor](https://n123git.github.io/yw-color/).
+* 4. Fixed Numerical Color Codes there are 31 color codes (0-30) that give a fixed color:
 ```xml
 <C0>: Fluorescent green
 <C1>: Black
