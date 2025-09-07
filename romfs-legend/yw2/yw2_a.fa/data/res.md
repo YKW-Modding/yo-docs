@@ -10,7 +10,10 @@ grand_parent: yw2_a.fa
 This folder contains the majority of `cfg.bins`. The folder includes:
 * `battle/` - TODO
 * `capsule/` - TODO
-* `character/` - TODO
+* `character/` - Yo-kai Related configs:
+  * `chara_base_0.04c.cfg.bin` - Character Base data. Includes Bosses and some NPCs
+  * `chara_ability_0.01b.cfg.bin` - Ability/Skill Config.
+  * `chara_collision_0.01a.cfg.bin` - Character Collision Data.
 * `chart/` - TODO
 * `eff/` - TODO
 * `enen_tunnel/` - TODO
