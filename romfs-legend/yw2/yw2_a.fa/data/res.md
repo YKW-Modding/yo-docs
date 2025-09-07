@@ -20,7 +20,7 @@ This folder contains the majority of `cfg.bins`. The folder includes:
   * `chara_scale_0.03m.cfg.bin` - Character Scaling
   * `legend_config_0.01b.cfg.bin` - Legend Seal Config
   * `skill_table_0.01.cfg.bin` - Empty. `chara_ability` is used instead.
-* `chart/` - TODO
+* `chart/` - These `chartbin` and `cfg.bin` files are related to the minigames and can be opened using CfgBin Editor.
 * `eff/` - Yo-kai Watch Model Effects/Auras
   * `effect_config.cfg.bin`
   * `effect_define_command.cfg.bin`
