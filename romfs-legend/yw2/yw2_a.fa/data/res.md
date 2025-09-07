@@ -42,7 +42,8 @@ This folder contains the majority of `cfg.bins`. The folder includes:
   * `item_config_0.04b.cfg.bin` - General Item Config.
 * `keyboard/` - Keyboard settings
   * `keyboard_setting.cfg.bin` - Keyboard settings.
-* `lottery/` - TODO
+* `lottery/` - Lottery Config
+  * `lottery_config_0.02.cfg.bin` - Lottery Config
 * `map/` - TODO
 * `motevent/` - TODO
 * `music_game/` - TODO
