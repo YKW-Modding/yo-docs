@@ -15,3 +15,5 @@ ItemIDs are used to reprsent Items. There are the following item types:
 * `Auras` - Blasters 1 Auras (Only B1 Auras are shown here).
 
 Not to be confused with `InventorySort` or `ItemType`. 
+
+Also for Yo-kai Watch 3: `Blasters T Equipment` and `Blasters T Hidden Treasure` will be documented here despite not being normal items. Enjoy!
