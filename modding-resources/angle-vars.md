@@ -15,6 +15,7 @@ There are 3 ways to show colors:
 * 1. RGB888: `<C#RGB888>` codes can be used i.e. for the color #123456 that would be <C#123456>
 * 2. RGB776: This is more complicated to visualise. Both RGB888 and RGB776 codes can be generated from the website [YWColor](https://n123git.github.io/yw-color/).
 * 3. Fixed Color Codes there are 31 color codes (0-30) that give a fixed color:
+```xml
 <C0>: Fluorescent green
 <C1>: Black
 <C2>: White
@@ -46,3 +47,4 @@ There are 3 ways to show colors:
 <C28>: Black
 <C29>: Black
 <C30>: Black
+```
