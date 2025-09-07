@@ -1,5 +1,5 @@
 ---
-title: data
+title: yw2_a.fa
 layout: default
 has_children: true
 parent: Yo-kai Watch 2 RomFS Legend!
