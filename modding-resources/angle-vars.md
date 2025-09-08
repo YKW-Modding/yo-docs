@@ -93,11 +93,14 @@ These only work in certain `cfg.bins`:
 * `<ROM>`
 * `<PNAME>`
 ## Cube Glyphs
-These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin
+These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin:
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
-  * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins.
+  * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
 * `[key]` - Confirmed to work in Yo-kai Watch 2
+  * This key glyph is used to signify "Key Quests" in the game.
 * `[next_arrow]` - Confirmed to work in Yo-kai Watch 2
+* `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
+* `[misn_arrow2]` - Confirmed to work in Yo-kai Watch 2
 * `[watch]` - Confirmed to work in Yo-kai Watch 2
 * `[mission]` - Confirmed to work in Yo-kai Watch 2
 * `[mission2]` - Confirmed to work in Yo-kai Watch 2
@@ -105,5 +108,5 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 * `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_a_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_x]` - Confirmed to work in Yo-kai Watch 2
-* `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
-* `[misn_arrow2]` - Confirmed to work in Yo-kai Watch 2
+
+> Note: CfgBin Editor supports `\n` for new-lines aka multi-line strings. The games use multi-line strings very frequently.
