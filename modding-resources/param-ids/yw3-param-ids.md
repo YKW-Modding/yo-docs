@@ -4,6 +4,9 @@ layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
+
+# YW3 Param IDs
+
 The Below IDs are shown in hex format for convenience. Note that Boss Forms have their own IDs:
 
 | Yokai | ID (Hex) | Index |

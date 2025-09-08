@@ -9,27 +9,47 @@ grand_parent: yw2_a.fa
 
 This folder contains the majority of `cfg.bins`. The folder includes:
 * `battle/` - TODO
-* `capsule/` - TODO
+* `capsule/` - Crank-a-kai Data:
+  * `capsule_config_0.03.cfg.bin` - Crank-a-kai Loot Tables. Includes the Oni Crank-a-kai.
+  * `capsule_machine_config_0.03.cfg.bin` - Crank-a-kai Machine Data. Links each to machine and input (Item/Playcoin) to a loot table.
 * `character/` - Yo-kai Related configs:
   * `chara_base_0.04c.cfg.bin` - Character Base data. Includes Bosses and some NPCs
   * `chara_ability_0.01b.cfg.bin` - Ability/Skill Config.
   * `chara_collision_0.01a.cfg.bin` - Character Collision Data.
-* `chart/` - TODO
-* `eff/` - TODO
-* `enen_tunnel/` - TODO
+  * `chara_param_0.03a.cfg.bin` - Yo-kai Data/Config
+  * `chara_scale_0.03m.cfg.bin` - Character Scaling
+  * `legend_config_0.01b.cfg.bin` - Legend Seal Config
+  * `skill_table_0.01.cfg.bin` - Empty. `chara_ability` is used instead.
+* `chart/` - These `chartbin` and `cfg.bin` files are related to the minigames and can be opened using CfgBin Editor.
+* `eff/` - Yo-kai Watch Model Effects/Auras
+  * `effect_config.cfg.bin`
+  * `effect_define_command.cfg.bin`
+  * `effect_define_foot.cfg.bin`
+  * `effect_define_locus.cfg.bin`
+  * `effect_define_placing.cfg.bin`
+  * `effect_define_placing_0.02l.cfg.bin`
+  * `effect_define_status.cfg.bin`
+* `enen_tunnel/` - Infinite Tunnel Config. Contains:
+  * `enen_tunnel_event.cfg.bin` - Infinite Tunnel Data.
 * `event/` - TODO
 * `face/` - TODO
 * `friendbook/` - TODO
 * `gym/` - TODO
 * `help/` - TODO
-* `item/` - TODO
-* `keyboard/` - TODO
-* `lottery/` - TODO
+  * `help_order_config.cfg.bin` - Help Text Config
+* `item/` - Item Config
+  * `creature_dictionary.cfg.bin` - Critter Config.
+  * `item_config_0.04b.cfg.bin` - General Item Config.
+* `keyboard/` - Keyboard settings
+  * `keyboard_setting.cfg.bin` - Keyboard settings.
+* `lottery/` - Lottery Config
+  * `lottery_config_0.02.cfg.bin` - Lottery Config
 * `map/` - TODO
 * `motevent/` - TODO
 * `music_game/` - TODO
 * `ogre/` - TODO
-* `password/` - TODO
+* `password/` - Passwords.
+  * `password_config_0.01b.cfg.bin` - Password Config.
 * `phs/` - TODO
 * `qr/` - QR Code config:
   * `qr_config.cfg.bin` - Old Config.
@@ -53,6 +73,10 @@ This folder contains the majority of `cfg.bins`. The folder includes:
 * `text/` - TODO
 * `title/` - TODO
 * `train/` - TODO
-* `view_app/` - TODO
+* `view_app/` - Yo-kai Pad App Configs:
+  * `film_app.cfg.bin`
+  * `movie_app.cfg.bin`
+  * `movie_app_0.01.cfg.bin`
+  * `music_app.cfg.bin`
 * `weather/` - TODO
   
