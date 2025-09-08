@@ -97,7 +97,9 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
   * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
 * `[key]` - Confirmed to work in Yo-kai Watch 2
-  * This key glyph is used to signify "Key Quests" in the game.
+  * This key glyph is used to signify "Key Quests" in the game - and is used in nearly half the phase text cfg.bins!.
+* `[home]` - Confirmed to work in Yo-kai Watch 2
+  * This is only used in one text file in the game - the text that appears after you have successfully saved the game.
 * `[next_arrow]` - Confirmed to work in Yo-kai Watch 2
 * `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
 * `[misn_arrow2]` - Confirmed to work in Yo-kai Watch 2
