@@ -6,6 +6,7 @@ parent: Modding Resources
 ---
 # Angle Variables and Cube Glyphs
 ## Cube Glyphs
+> Note: Even though 3DS fonts support up to the BMP (65k codepoints) - including the standard font: "rodin NTLG" - the custom rasterised in-game fonts do not. The BMP is also quite restrictive not allowing most glyphs or any emojis.
 These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin:
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
   * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
@@ -108,7 +109,6 @@ They support control characters using the ASCII LF (`\n` in CfgBin Editor) for n
 * `%c` - Single Char Placeholder
 
 etc, for brevity reasons only a few are listed above.
-
 # TEMP NOTES; YOU SHOULD NOT SEE THIS
 * `<GZ><SH><X120><Y18>[mj_o][mj_h][mj_h][mj_h][mk_em][mk_em]` - what is this..........
   * `<GZ><SH><X23><Y18>[mj_i][mk_sp][mj_j][mj_u][mj_s][mj_t][mk_sp][mj_r][mj_e][mj_m][mj_e][mj_m][mj_b][mj_e][mj_r][mj_e][mj_d][mk_em][mk_em]` - this too...............
