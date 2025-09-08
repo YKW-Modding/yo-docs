@@ -92,4 +92,13 @@ These only work in certain `cfg.bins`:
 * `<ROM>`
 * `<PNAME>`
 # Cube Glyphs
+These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
+  * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins.
+* `[key]` - Confirmed to work in Yo-kai Watch 2
+* `[next_arrow]` - Confirmed to work in Yo-kai Watch 2
+* `[watch]` - Confirmed to work in Yo-kai Watch 2
+* `[mission]` - Confirmed to work in Yo-kai Watch 2
+* `[mission2]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
