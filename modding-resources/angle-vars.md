@@ -113,3 +113,7 @@ These only work in certain `cfg.bins`:
 * `<PNAME>`
 
 > Note: CfgBin Editor supports `\n` for new-lines aka multi-line strings. The games use multi-line strings very frequently.
+
+# TEMP NOTES; YOU SHOULD NOT SEE THIS
+* `<GZ><SH><X120><Y18>[mj_o][mj_h][mj_h][mj_h][mk_em][mk_em]` - what is this..........
+  * `<GZ><SH><X23><Y18>[mj_i][mk_sp][mj_j][mj_u][mj_s][mj_t][mk_sp][mj_r][mj_e][mj_m][mj_e][mj_m][mj_b][mj_e][mj_r][mj_e][mj_d][mk_em][mk_em]` - this too...............
