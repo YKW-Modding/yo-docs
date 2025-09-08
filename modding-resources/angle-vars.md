@@ -78,33 +78,39 @@ There are 4 ways to display colors:
 #### Special
 These only work in certain `cfg.bins`:
 * `<APP_NAME>` - returns the Yo-kai Pad App unlocked.
+* `<ITEM_NAME>` - Name of Item.
+* `<ITEM_NUM>` - Quantity of Item.
+* `<ITEM_NAME1>` - Name of the first item recieved when there are multiple.
+* `<ITEM_NAME2>` - Name of the second item recieved when there are multiple.
+* `<QUEST_NAME>` - Quest Name
+* `%d` - Integer Placeholder (Used in Play-Coin Remaining text for Yo-kai Watch 2)
+* `%s` - String Placeholder
+* `%f` - Float Placeholder
+* `%x` - Hex Int Placeholder
+* `%c` - Single Char Placeholder
+* `<PERSONAL_LOAF>`
+* `<PERSONAL_AI>`
+* `<YOKAI_NAME>` - Name of yokai
+* `<STATION_NAME>` - Name of station.
+* `<TRAIN_VOICE>`
+* `<ROUTE_NAME>`
+* `<MAP_NAME>`
+ 
 * `<SEL0005/1>` - ??? (`system_text_engb.cfg.bin` - Yo-kai Watch 2)
 * `<SEL0005/2>` - ??? (`system_text_engb.cfg.bin` - Yo-kai Watch 2)
 * `<SEL0024/1>` - Eyepo/Medallium/Mirapo/StampRally related?? (`system_text_engb.cfg.bin` - Yo-kai Watch 2)
 * `<SEL0001/1/2>` - ??? (`system_text_engb.cfg.bin` - Yo-kai Watch 2)
 * `<SEL0003/1/3>` - ???
 * `<O34>Crank the Crank-a-kai?<SEL0003/2/3>`
-* `<PERSONAL_LOAF>`
-* `<PERSONAL_AI>`
-* `<ITEM_NAME>` - Name of Item.
-* `<ITEM_NUM>` - Quantity of Item.
-* `<ITEM_NAME1>` - Name of the first item recieved when there are multiple.
-* `<ITEM_NAME2>` - Name of the second item recieved when there are multiple.
-* `<YOKAI_NAME>` - Name of yokai
-* `<STATION_NAME>` - Name of station.
+
 * `<O34>` - ??? Watch Rank Gate Dialogue
 * `<QVAL#qr0011/#ruby_hiki>` - ???
 * `<QVAL#qr0012/#ruby_hiki>` - ???
 * `<J"\"J_07\"\">` - ???
-* `<QUEST_NAME>` - Quest Name
-* `%d`
 * `<O34>Get <VAL#tmp_seek_num> within <VALMMSS#tmp_quest_time> min.`
 * `<POSSESS_NUM>` - Amount of something possessed i.e. Gate Globes
 * `<INSERT_NUM>`
 * `Win <VAL#tmp_gate_rest_enemy> battle(s)!`
-* `<TRAIN_VOICE>`
-* `<ROUTE_NAME>`
-* `<MAP_NAME>`
 * `<V"tr0401">`
 * `<TRAIN_ROUTE>`
 * `<TRAIN_TYPE>`
