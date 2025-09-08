@@ -27,10 +27,10 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 ## Angle Variables
 > **Note: Thank you to @GotaZ for documenting C0 through C30!**
 
-In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` or just `<SOMETHING>`. These are called Angle Variables and have a multitude of effects.
+In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` or just `<SOMETHING>`. These are called Angle Variables and have a multitude of effects. 
 
 ### Colors
-
+> Note: Color Tags are **not** self closing; for obvious reasons you dont just do `<CR>TEXT` you do `<CR>TEXT</C>` so the game knows which portion to color. All other Angle Variables documented here ***are** self-closing.
 There are 4 ways to display colors:
 * 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>`, `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1) and `<CN>IDR</C>` (Confirmed to work in Yo-kai Watch 2 and later).
 * 2. RGB888: `<C#RGB888>` codes can be used i.e. for the color `#123456` that would be `<C#123456>`
