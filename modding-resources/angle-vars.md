@@ -5,6 +5,25 @@ has_children: false
 parent: Modding Resources
 ---
 # Angle Variables and Cube Glyphs
+## Cube Glyphs
+These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin:
+* `[g_coin]` - Confirmed to work in Yo-kai Watch 2
+  * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
+* `[key]` - Confirmed to work in Yo-kai Watch 2
+  * This key glyph is used to signify "Key Quests" in the game - and is used in nearly half the phase text cfg.bins!.
+* `[home]` - Confirmed to work in Yo-kai Watch 2
+  * This is only used in one text file in the game - the text that appears after you have successfully saved the game.
+* `[next_arrow]` - Confirmed to work in Yo-kai Watch 2
+* `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
+* `[misn_arrow2]` - Confirmed to work in Yo-kai Watch 2
+* `[watch]` - Confirmed to work in Yo-kai Watch 2
+* `[mission]` - Confirmed to work in Yo-kai Watch 2
+* `[mission2]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_a_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_x]` - Confirmed to work in Yo-kai Watch 2
+
 ## Angle Variables
 > **Note: Thank you to @GotaZ for documenting C0 through C30!**
 
@@ -92,23 +111,5 @@ These only work in certain `cfg.bins`:
 * `<Y10>"<CG><QUEST_NAME></C>" started!`
 * `<ROM>`
 * `<PNAME>`
-## Cube Glyphs
-These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin:
-* `[g_coin]` - Confirmed to work in Yo-kai Watch 2
-  * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
-* `[key]` - Confirmed to work in Yo-kai Watch 2
-  * This key glyph is used to signify "Key Quests" in the game - and is used in nearly half the phase text cfg.bins!.
-* `[home]` - Confirmed to work in Yo-kai Watch 2
-  * This is only used in one text file in the game - the text that appears after you have successfully saved the game.
-* `[next_arrow]` - Confirmed to work in Yo-kai Watch 2
-* `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
-* `[misn_arrow2]` - Confirmed to work in Yo-kai Watch 2
-* `[watch]` - Confirmed to work in Yo-kai Watch 2
-* `[mission]` - Confirmed to work in Yo-kai Watch 2
-* `[mission2]` - Confirmed to work in Yo-kai Watch 2
-* `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
-* `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
-* `[btn_a_w]` - Confirmed to work in Yo-kai Watch 2
-* `[btn_x]` - Confirmed to work in Yo-kai Watch 2
 
 > Note: CfgBin Editor supports `\n` for new-lines aka multi-line strings. The games use multi-line strings very frequently.
