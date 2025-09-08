@@ -4,12 +4,13 @@ layout: default
 has_children: false
 parent: Modding Resources
 ---
-# Angle Variables
+# Angle Variables and Cube Glyphs
+## Angle Variables
 > **Note: Thank you to @GotaZ for documenting C0 through C30!**
 
 In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` or just `<SOMETHING>`. These are called Angle Variables and have a multitude of effects.
 
-## Colors
+### Colors
 
 There are 4 ways to display colors:
 * 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>`, `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1) and `<CN>IDR</C>` (Confirmed to work in Yo-kai Watch 2 and later).
@@ -50,12 +51,12 @@ There are 4 ways to display colors:
 <C30>: Black
 ```
 
-## Data
+### Data
 
-### General
+#### General
 * `<NAME>` returns the current player's (ingame) name.
 * `<GENDER>` returns the current player's (ingame) gender.
-### Special
+#### Special
 These only work in certain `cfg.bins`:
 * `<APP_NAME>` - returns the Yo-kai Pad App unlocked.
 * `<SEL0005/1>` - ??? (`system_text_engb.cfg.bin` - Yo-kai Watch 2)
@@ -91,7 +92,7 @@ These only work in certain `cfg.bins`:
 * `<Y10>"<CG><QUEST_NAME></C>" started!`
 * `<ROM>`
 * `<PNAME>`
-# Cube Glyphs
+## Cube Glyphs
 These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
   * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins.
@@ -102,4 +103,5 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 * `[mission2]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_a_w]` - Confirmed to work in Yo-kai Watch 2
 * `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
