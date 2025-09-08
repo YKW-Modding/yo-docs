@@ -77,7 +77,7 @@ These only work in certain `cfg.bins`:
 * `<QVAL#qr0012/#ruby_hiki>` - ???
 * `<J"\"J_07\"\">` - ???
 * `<QUEST_NAME>` - Quest Name
-* `[g_coin] x %d`
+* `%d`
 * `<O34>Get <VAL#tmp_seek_num> within <VALMMSS#tmp_quest_time> min.`
 * `<POSSESS_NUM>` - Amount of something possessed i.e. Gate Globes
 * `<INSERT_NUM>`
@@ -92,3 +92,4 @@ These only work in certain `cfg.bins`:
 * `<ROM>`
 * `<PNAME>`
 # Cube Glyphs
+* `[g_coin]`
