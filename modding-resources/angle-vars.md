@@ -98,7 +98,9 @@ These only work in certain `cfg.bins`:
 * `<PNAME>`
 
 ## String Formatting
-Strings are multi-line bodies of shift-jis/utf8/cp932 text depending on the `cfg.bin` which is affected by game and reigon among other factors. They support control chatacters using LF (`\n` in CfgBin Editor) for new-lines. As shown above they support Angle Variables and Cube Glyphs for glyphs and dynamic insertion. However they also support basic C formatting:
+Strings are multi-line bodies of shift-jis/utf8/cp932 text depending on the `cfg.bin`.
+
+They support control characters using the ASCII LF (`\n` in CfgBin Editor) for new-lines. As shown above they support Angle Variables and Cube Glyphs for glyphs and dynamic insertion. However they also support basic C formatting:
 * `%d` - Integer Placeholder (Used in Play-Coin Remaining text for Yo-kai Watch 2)
 * `%s` - String Placeholder
 * `%f` - Float Placeholder
