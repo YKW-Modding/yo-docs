@@ -104,4 +104,5 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 * `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_a_w]` - Confirmed to work in Yo-kai Watch 2
+* `[btn_x]` - Confirmed to work in Yo-kai Watch 2
 * `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
