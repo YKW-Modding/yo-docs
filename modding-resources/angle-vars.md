@@ -74,6 +74,7 @@ There are 4 ways to display colors:
 ### Data
 
 #### General
+These work in all text `cfg.bins` - even some that reference filenames! (namely for the `<GENDER>` exclusive scenes and such)
 * `<NAME>` returns the current player's (ingame) name.
 * `<GENDER>` returns the current player's (ingame) gender.
 #### Special
