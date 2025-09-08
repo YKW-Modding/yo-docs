@@ -36,6 +36,10 @@ The list is in alphabetical order.
 | c001021 | Nate (Used in Cutscenes; Has Raincoat)                               |
 | c001030 | Nate (Fixed Expressions; Has Blue Pajamas)                           |
 | c001031 | Nate (Used in Cutscenes; Has Blue Pajamas)                           |
+| c001080 | Nate (Fixed Expressions; Has Spa Clothing)                           |
+| c001100 | Nate (Fixed Expressions; Has Moxie Costume)                          |
+| c001200 | Nate (Fixed Expressions; Is faceless; From Infinite Tunnel)          |
+| c001500 | Nate (Fixed Expressions; Appears normal like `c001000`?)             |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
