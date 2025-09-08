@@ -92,4 +92,4 @@ These only work in certain `cfg.bins`:
 * `<ROM>`
 * `<PNAME>`
 # Cube Glyphs
-* `[g_coin]`
+* `[g_coin]` - Confirmed to work in Yo-kai Watch 2
