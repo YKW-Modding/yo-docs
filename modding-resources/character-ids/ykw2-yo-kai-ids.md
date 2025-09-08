@@ -15,6 +15,25 @@ The list is in alphabetical order.
 
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
+| c000010 | ??? (Has no textures)                                                |
+| c000020 | ??? (Has no textures)                                                |
+| c000110 | ??? (Has no textures)                                                |
+| c000120 | ??? (Has no textures)                                                |
+| c000130 | ??? (Has no textures)                                                |
+| c000140 | ??? (Has no textures)                                                |
+| c000150 | ??? (Has no textures)                                                |
+| c000160 | ??? (Has no textures)                                                |
+| c000170 | ??? (Has no textures)                                                |
+| c000180 | ??? (Has no textures)                                                |
+| c000190 | ??? (Has no textures)                                                |
+| c000200 | ??? (Has no textures)                                                |
+| c000210 | ??? (Has no textures)                                                |
+| c001000 | Nate (Default; Fixed Expression)                                     |
+| c001001 | Nate (Has Expressions; No Watch)                                     |
+| c001004 | Nate (Has Expresssions; Has Yo-kai Watch)                            |
+| c001006 | Nate (Has Expresssions; Has Model Zero)                              |
+| c001020 | Nate (Fixed Expressions; Seems nearly identical to `c001000`)        |
+| c001021 | Nate (Has Expressions; Similar to `c001020`)                         |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
