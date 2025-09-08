@@ -1,5 +1,5 @@
 ---
-title: Angle Variables and Cube Glyphs
+title: Angle Variables, Cube Glyphs and String Formatting
 layout: default
 has_children: false
 parent: Modding Resources
@@ -96,14 +96,15 @@ These only work in certain `cfg.bins`:
 * `<INSERT_NUM>`
 * `<ROM>`
 * `<PNAME>`
+
+## String Formatting
+Strings are multi-line bodies of shift-jis/utf8/cp932 text depending on the `cfg.bin` which is affected by game and reigon among other factors. They support control chatacters using LF (`\n` in CfgBin Editor) for new-lines. As shown above they support Angle Variables and Cube Glyphs for glyphs and dynamic insertion. However they also support basic C formatting:
 * `%d` - Integer Placeholder (Used in Play-Coin Remaining text for Yo-kai Watch 2)
 * `%s` - String Placeholder
 * `%f` - Float Placeholder
-* `%x` - Hex Int Placeholder
+* `%x` - Hex Int Placeholder (Most likely never used in public releases)
 * `%c` - Single Char Placeholder
- 
-
-> Note: CfgBin Editor supports `\n` for new-lines aka multi-line strings. The games use multi-line strings very frequently.
+etc, for brevity reasons only a few are listed above.
 
 # TEMP NOTES; YOU SHOULD NOT SEE THIS
 * `<GZ><SH><X120><Y18>[mj_o][mj_h][mj_h][mj_h][mk_em][mk_em]` - what is this..........
