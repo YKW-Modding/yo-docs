@@ -104,6 +104,7 @@ Strings are multi-line bodies of shift-jis/utf8/cp932 text depending on the `cfg
 * `%f` - Float Placeholder
 * `%x` - Hex Int Placeholder (Most likely never used in public releases)
 * `%c` - Single Char Placeholder
+
 etc, for brevity reasons only a few are listed above.
 
 # TEMP NOTES; YOU SHOULD NOT SEE THIS
