@@ -29,11 +29,13 @@ The list is in alphabetical order.
 | c000200 | ??? (Has no textures)                                                |
 | c000210 | ??? (Has no textures)                                                |
 | c001000 | Nate (Default; Fixed Expression)                                     |
-| c001001 | Nate (Has Expressions; No Watch)                                     |
-| c001004 | Nate (Has Expresssions; Has Yo-kai Watch)                            |
-| c001006 | Nate (Has Expresssions; Has Model Zero)                              |
-| c001020 | Nate (Fixed Expressions; Seems nearly identical to `c001000`)        |
-| c001021 | Nate (Has Expressions; Similar to `c001020`)                         |
+| c001001 | Nate (Used in Cutscenes; No Watch)                                   |
+| c001004 | Nate (Used in Cutscenes; Has Yo-kai Watch)                           |
+| c001006 | Nate (Used in Cutscenes; Has Model Zero)                             |
+| c001020 | Nate (Fixed Expressions; Has Raincoat)                               |
+| c001021 | Nate (Used in Cutscenes; Has Raincoat)                               |
+| c001030 | Nate (Fixed Expressions; Has Blue Pajamas)                           |
+| c001031 | Nate (Used in Cutscenes; Has Blue Pajamas)                           |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
