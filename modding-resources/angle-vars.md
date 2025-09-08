@@ -102,3 +102,4 @@ These display icons/glyphs in text, similar to emojis such as play coins! They c
 * `[mission2]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_l_w]` - Confirmed to work in Yo-kai Watch 2
 * `[btn_r_w]` - Confirmed to work in Yo-kai Watch 2
+* `[misn_arrow]` - Confirmed to work in Yo-kai Watch 2
