@@ -1,5 +1,5 @@
 ---
-title: Angle Variables
+title: Angle Variables and Cube Glyphs
 layout: default
 has_children: false
 parent: Modding Resources
@@ -91,3 +91,4 @@ These only work in certain `cfg.bins`:
 * `<Y10>"<CG><QUEST_NAME></C>" started!`
 * `<ROM>`
 * `<PNAME>`
+# Cube Glyphs
