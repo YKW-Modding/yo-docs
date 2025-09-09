@@ -65,6 +65,7 @@ The list is in alphabetical order.
 | c002710 | Greyscale Katie (Fixed Expressions; Blue Shirt)                      |
 | c002730 | Greyscale Katie (Fixed Expressions; Yellow Shirt)                    |
 | c002730 | Greyscale Katie (Fixed Expressions; Green Shirt)                     |
+| c102000 | Eddie                                                                |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
