@@ -40,6 +40,31 @@ The list is in alphabetical order.
 | c001100 | Nate (Fixed Expressions; Has Moxie Costume)                          |
 | c001200 | Nate (Fixed Expressions; Is faceless; From Infinite Tunnel)          |
 | c001500 | Nate (Fixed Expressions; Appears normal like `c001000`?)             |
+| c001610 | Nate (Fixed Expressions; Blue Shirt)                                 |
+| c001620 | Nate (Fixed Expressions; Yellow Shirt)                               |
+| c001630 | Nate (Fixed Expressions; Green Shirt)                                |
+| c001700 | Greyscale Nate (Fixed Expressions)                                   |
+| c001710 | Greyscale Nate (Fixed Expressions; Blue Shirt)                       |
+| c001730 | Greyscale Nate (Fixed Expressions; Yellow Shirt)                     |
+| c001730 | Greyscale Nate (Fixed Expressions; Green Shirt)                      |
+| c002000 | Katie (Default; Fixed Expression)                                    |
+| c002001 | Katie (Used in Cutscenes; No Watch)                                  |
+| c002004 | Katie (Used in Cutscenes; Has Yo-kai Watch)                          |
+| c002006 | Katie (Used in Cutscenes; Has Model Zero)                            |
+| c002020 | Katie (Fixed Expressions; Has Raincoat)                              |
+| c002021 | Katie (Used in Cutscenes; Has Raincoat)                              |
+| c002030 | Katie (Fixed Expressions; Has Blue Pajamas)                          |
+| c002031 | Katie (Used in Cutscenes; Has Blue Pajamas)                          |
+| c002080 | Katie (Fixed Expressions; Has Spa Clothing)                          |
+| c002100 | Katie (Fixed Expressions; Has Moxie Costume)                         |
+| c002200 | Katie (Fixed Expressions; Is faceless; From Infinite Tunnel)         |
+| c002500 | Katie (Fixed Expressions; Appears normal like `c001000`?)            |
+| c002610 | Katie (Fixed Expressions; Blue Shirt)                                | **note: c002620 does not exist, this isnt a mistake!**
+| c002630 | Katie (Fixed Expressions; Green Shirt)                               |
+| c002700 | Greyscale Katie (Fixed Expressions)                                  |
+| c002710 | Greyscale Katie (Fixed Expressions; Blue Shirt)                      |
+| c002730 | Greyscale Katie (Fixed Expressions; Yellow Shirt)                    |
+| c002730 | Greyscale Katie (Fixed Expressions; Green Shirt)                     |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
