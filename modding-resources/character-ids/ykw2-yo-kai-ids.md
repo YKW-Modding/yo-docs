@@ -59,7 +59,8 @@ The list is in alphabetical order.
 | c002100 | Katie (Fixed Expressions; Has Moxie Costume)                         |
 | c002200 | Katie (Fixed Expressions; Is faceless; From Infinite Tunnel)         |
 | c002500 | Katie (Fixed Expressions; Appears normal like `c002000`?)            |
-| c002610 | Katie (Fixed Expressions; Blue Shirt)                                | **note: c002620 does not exist, this isnt a mistake!**
+| c002610 | Katie (Fixed Expressions; Blue Shirt)                                | 
+**note: c002620 does not exist, this isnt a mistake!**
 | c002630 | Katie (Fixed Expressions; Green Shirt)                               |
 | c002700 | Greyscale Katie (Fixed Expressions)                                  |
 | c002710 | Greyscale Katie (Fixed Expressions; Blue Shirt)                      |
@@ -79,6 +80,14 @@ The list is in alphabetical order.
 | c104000 | Nate's Dad (Fixed Expressions)                                       |
 | c104010 | Nate's Dad (Fixed Expressions; Green Shirt)                          |
 | c104031 | Nate's Dad (Used in Cutscenes; Has Blue Pajamas)                     |
+| c104500 | Nate's Dad (Fixed Expressions; Appears normal like `c104010`?)       |
+| c104501 | Nate's Dad (Used in Cutscenes; Appears normal like `c104010`?)       |
+| c105000 | Nate's Mom (Fixed Expressions)                                       |
+**note: the gaps here are intentional, the models inbetween DO NOT exist!**
+| c105031 | Nate's Mom (Used in Cutscenes; Has Yellow Pajamas?)                  |
+| c105500 | Nate's Mom (Fixed Expressions; Appears normal like `c105000`?)       |
+| c105501 | Nate's Mom (Used in Cutscenes; Appears normal like `c105000`?)       |
+| c201000 | [note]       |
 | ...     | .... Documentation in progress!                                      |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
