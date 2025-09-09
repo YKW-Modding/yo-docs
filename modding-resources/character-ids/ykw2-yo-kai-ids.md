@@ -58,7 +58,7 @@ The list is in alphabetical order.
 | c002080 | Katie (Fixed Expressions; Has Spa Clothing)                          |
 | c002100 | Katie (Fixed Expressions; Has Moxie Costume)                         |
 | c002200 | Katie (Fixed Expressions; Is faceless; From Infinite Tunnel)         |
-| c002500 | Katie (Fixed Expressions; Appears normal like `c001000`?)            |
+| c002500 | Katie (Fixed Expressions; Appears normal like `c002000`?)            |
 | c002610 | Katie (Fixed Expressions; Blue Shirt)                                | **note: c002620 does not exist, this isnt a mistake!**
 | c002630 | Katie (Fixed Expressions; Green Shirt)                               |
 | c002700 | Greyscale Katie (Fixed Expressions)                                  |
@@ -69,6 +69,17 @@ The list is in alphabetical order.
 | c102001 | Eddie (Used in Cutscenes)                                            |
 | c102020 | Eddie (Fixed Expressions; Has Raincoat)                              |
 | c102320 | Eddie (Fixed Expressions; Has Mega-Watches)                          |
+| c102500 | Eddie (Fixed Expressions; Appears normal like `c102000`?)            |
+| c103000 | Bear (Fixed Expressions)                                             |
+| c103001 | Bear (Used in Cutscenes)                                             |
+| c103020 | Bear (Fixed Expressions; Has Raincoat)                               |
+| c103300 | Bear (Fixed Expressions; Has Bear Boy/Moximus Mask)                  |
+| c103320 | Bear (Fixed Expressions; Has Mega-Watches)                           |
+| c103500 | Bear (Fixed Expressions; Appears normal like `c103000`?)             |
+| c104000 | Nate's Dad (Fixed Expressions)                                       |
+| c104010 | Nate's Dad (Fixed Expressions; Green Shirt)                          |
+| c104031 | Nate's Dad (Used in Cutscenes; Has Blue Pajamas)                     |
+| ...     | .... Documentation in progress!                                      |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |
