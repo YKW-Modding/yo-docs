@@ -8,6 +8,7 @@ parent: Modding Resources
 ## Cube Glyphs
 > Note: Even though 3DS fonts support up to the BMP (65k codepoints) - including the standard font: "rodin NTLG" - the custom rasterised in-game fonts do not. The BMP is also quite restrictive not allowing most glyphs or any emojis.
 These display icons/glyphs in text, similar to emojis such as play coins! They can be placed in any text cfg.bin:
+
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
   * Named after ゲームコイン (Gēmukoin) aka game coin - the Japanese term for Playcoins. Used for the Crank-a-kai.
 * `[key]` - Confirmed to work in Yo-kai Watch 2
@@ -33,10 +34,12 @@ In Yo-kai Watch, you may notice some strings have `<SOMETHING>TEXT</SOMETHING>` 
 ### Colors
 > Note: Color Tags are **not** self closing; for obvious reasons you dont just do `<CR>TEXT` you do `<CR>TEXT</C>` so the game knows which portion to color. All other Angle Variables documented here ***are** self-closing.
 There are 4 ways to display colors:
+
 * 1. Fixed Alphabetical Color Codes i.e. `<CR>RED</C>`, `<CG>GREEN</C>` (Confirmed to work in all games since Yo-kai Watch 1) and `<CN>IDR</C>` (Confirmed to work in Yo-kai Watch 2 and later).
 * 2. RGB888: `<C#RGB888>` codes can be used i.e. for the color `#123456` that would be `<C#123456>`
 * 3. RGB776: This is more complicated to visualise but takes the format `<C"RGB776>`. Both RGB888 and RGB776 codes can be generated from the website [YWColor](https://n123git.github.io/yw-color/).
 * 4. Fixed Numerical Color Codes there are 31 color codes (0-30) that give a fixed color i.e. `<C3>RED TEXT</C>`:
+
 ```xml
 <C0>: Fluorescent green
 <C1>: Black
