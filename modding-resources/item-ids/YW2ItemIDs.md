@@ -8,6 +8,8 @@ grand_parent: Modding Resources
 These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consumables
+
+
 | Item Name | ItemID (Hex) |
 |---|---|
 | Chocobar | 0x8162B121 |
@@ -385,6 +387,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Dark Bell | 0x7BF24C3B |
 
 ## Equipment
+
 | Item Name | ItemID (Hex) |
 |---|---|
 | Worn Bangle | 0x4511AA26 |
@@ -463,6 +466,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Lt.'s Medal | 0x847175E7 |
 
 ## Souls
+
 | Item Name | ItemID (Hex) |
 |---|---|
 | Pandle | 0x10F16846 |
