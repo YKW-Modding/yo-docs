@@ -408,6 +408,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | 刺身船盛り | 0xDCD4E238 |  |
 
 ## Equipment
+
 | Item Name | ItemID (Hex) | enchant |
 |---|---|---|
 | 見習いの刀 | 0x18D34D8F | 10 |
