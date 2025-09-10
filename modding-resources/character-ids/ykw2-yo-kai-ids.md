@@ -13,6 +13,7 @@ The list is in alphabetical order.
 
 ## Normal Yo-kai
 
+
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
 | c000010 | ??? (Has no textures)                                                |
