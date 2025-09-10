@@ -8,6 +8,7 @@ grand_parent: Modding Resources
 These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consume
+
 | Item Name | ItemID (Hex) |
 |---|---|
 | Red Coin | 0x15EB282B |
@@ -256,6 +257,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | SK Challenge Tkt | 0xAEE4E254 |
 
 ## Element
+
 | Item Name | ItemID (Hex) |
 |---|---|
 | Brave Shard | 0x9A89BF7C |
