@@ -15,6 +15,80 @@ The list is in alphabetical order.
 
 |Folder ID| Yo-kai                                                               |
 | ------- | -------------------------------------------------------------------- |
+| c000010 | ??? (Has no textures)                                                |
+| c000020 | ??? (Has no textures)                                                |
+| c000110 | ??? (Has no textures)                                                |
+| c000120 | ??? (Has no textures)                                                |
+| c000130 | ??? (Has no textures)                                                |
+| c000140 | ??? (Has no textures)                                                |
+| c000150 | ??? (Has no textures)                                                |
+| c000160 | ??? (Has no textures)                                                |
+| c000170 | ??? (Has no textures)                                                |
+| c000180 | ??? (Has no textures)                                                |
+| c000190 | ??? (Has no textures)                                                |
+| c000200 | ??? (Has no textures)                                                |
+| c000210 | ??? (Has no textures)                                                |
+| c001000 | Nate (Default; Fixed Expression)                                     |
+| c001001 | Nate (Used in Cutscenes; No Watch)                                   |
+| c001004 | Nate (Used in Cutscenes; Has Yo-kai Watch)                           |
+| c001006 | Nate (Used in Cutscenes; Has Model Zero)                             |
+| c001020 | Nate (Fixed Expressions; Has Raincoat)                               |
+| c001021 | Nate (Used in Cutscenes; Has Raincoat)                               |
+| c001030 | Nate (Fixed Expressions; Has Blue Pajamas)                           |
+| c001031 | Nate (Used in Cutscenes; Has Blue Pajamas)                           |
+| c001080 | Nate (Fixed Expressions; Has Spa Clothing)                           |
+| c001100 | Nate (Fixed Expressions; Has Moxie Costume)                          |
+| c001200 | Nate (Fixed Expressions; Is faceless; From Infinite Tunnel)          |
+| c001500 | Nate (Fixed Expressions; Appears normal like `c001000`?)             |
+| c001610 | Nate (Fixed Expressions; Blue Shirt)                                 |
+| c001620 | Nate (Fixed Expressions; Yellow Shirt)                               |
+| c001630 | Nate (Fixed Expressions; Green Shirt)                                |
+| c001700 | Greyscale Nate (Fixed Expressions)                                   |
+| c001710 | Greyscale Nate (Fixed Expressions; Blue Shirt)                       |
+| c001730 | Greyscale Nate (Fixed Expressions; Yellow Shirt)                     |
+| c001730 | Greyscale Nate (Fixed Expressions; Green Shirt)                      |
+| c002000 | Katie (Default; Fixed Expression)                                    |
+| c002001 | Katie (Used in Cutscenes; No Watch)                                  |
+| c002004 | Katie (Used in Cutscenes; Has Yo-kai Watch)                          |
+| c002006 | Katie (Used in Cutscenes; Has Model Zero)                            |
+| c002020 | Katie (Fixed Expressions; Has Raincoat)                              |
+| c002021 | Katie (Used in Cutscenes; Has Raincoat)                              |
+| c002030 | Katie (Fixed Expressions; Has Blue Pajamas)                          |
+| c002031 | Katie (Used in Cutscenes; Has Blue Pajamas)                          |
+| c002080 | Katie (Fixed Expressions; Has Spa Clothing)                          |
+| c002100 | Katie (Fixed Expressions; Has Moxie Costume)                         |
+| c002200 | Katie (Fixed Expressions; Is faceless; From Infinite Tunnel)         |
+| c002500 | Katie (Fixed Expressions; Appears normal like `c002000`?)            |
+| c002610 | Katie (Fixed Expressions; Blue Shirt)                                | 
+**note: c002620 does not exist, this isnt a mistake!**
+| c002630 | Katie (Fixed Expressions; Green Shirt)                               |
+| c002700 | Greyscale Katie (Fixed Expressions)                                  |
+| c002710 | Greyscale Katie (Fixed Expressions; Blue Shirt)                      |
+| c002730 | Greyscale Katie (Fixed Expressions; Yellow Shirt)                    |
+| c002730 | Greyscale Katie (Fixed Expressions; Green Shirt)                     |
+| c102000 | Eddie (Fixed Expressions)                                            |
+| c102001 | Eddie (Used in Cutscenes)                                            |
+| c102020 | Eddie (Fixed Expressions; Has Raincoat)                              |
+| c102320 | Eddie (Fixed Expressions; Has Mega-Watches)                          |
+| c102500 | Eddie (Fixed Expressions; Appears normal like `c102000`?)            |
+| c103000 | Bear (Fixed Expressions)                                             |
+| c103001 | Bear (Used in Cutscenes)                                             |
+| c103020 | Bear (Fixed Expressions; Has Raincoat)                               |
+| c103300 | Bear (Fixed Expressions; Has Bear Boy/Moximus Mask)                  |
+| c103320 | Bear (Fixed Expressions; Has Mega-Watches)                           |
+| c103500 | Bear (Fixed Expressions; Appears normal like `c103000`?)             |
+| c104000 | Nate's Dad (Fixed Expressions)                                       |
+| c104010 | Nate's Dad (Fixed Expressions; Green Shirt)                          |
+| c104031 | Nate's Dad (Used in Cutscenes; Has Blue Pajamas)                     |
+| c104500 | Nate's Dad (Fixed Expressions; Appears normal like `c104010`?)       |
+| c104501 | Nate's Dad (Used in Cutscenes; Appears normal like `c104010`?)       |
+| c105000 | Nate's Mom (Fixed Expressions)                                       |
+**note: the gaps here are intentional, the models inbetween DO NOT exist!**
+| c105031 | Nate's Mom (Used in Cutscenes; Has Yellow Pajamas?)                  |
+| c105500 | Nate's Mom (Fixed Expressions; Appears normal like `c105000`?)       |
+| c105501 | Nate's Mom (Used in Cutscenes; Appears normal like `c105000`?)       |
+| c201000 | [note]       |
+| ...     | .... Documentation in progress!                                      |
 | y001000 | Whisper                                                              |
 | y001001 | Whisper                                                              |
 | y001800 | Nonuttin                                                             |

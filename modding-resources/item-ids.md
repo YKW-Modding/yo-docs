@@ -1,5 +1,5 @@
 ---
-title: Item IDs!
+title: Item IDs! (And B1 Auras!)
 layout: default
 has_children: true
 parent: Modding Resources

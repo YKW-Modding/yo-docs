@@ -60,8 +60,3 @@ A general modding tool for Yo-kai Watch. It hasnt been updated in a while and on
 
 ### **LuaDeobfuscator**
 LuaDeobfuscator is a command line tool to deobfuscate decompiled `.lua` files from Level5 mobile games. The tool expects decompilations from `.lua.bin` files by `unluac`. LuaDeobfuscator can be found [here](https://github.com/onepiecefreak3/LuaDeobfuscator).
-
-
-
-lorem ipsum dolar sit amet: if you see this call me an idiot
-😔

@@ -4,7 +4,7 @@ The Yo-kai Watch documentation site.
 
 ## Planned info:
 
-- Item IDs, Event IDs etc
+- IDs such as Event IDs
 - Naming Schema docs
 - RomFS Legends
 - all stats and item information

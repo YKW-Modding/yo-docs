@@ -1,5 +1,5 @@
 ---
-title: data
+title: data/
 layout: default
 has_children: true
 parent: yw2_a.fa
