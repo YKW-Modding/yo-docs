@@ -3,6 +3,7 @@ title: Decompiled XQs
 layout: default
 has_children: true
 parent: Modding Resources
+nav_exclude: true
 ---
 
 # Decompiled XQs
