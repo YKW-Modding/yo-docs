@@ -10,8 +10,8 @@ grand_parent: Modding Resources
 
 | Hex Value     | Description                                     | Notes                                                                               |
 |---------------|-------------------------------------------------|-------------------------------------------------------------------------------------|
-| `0x63CB0BBA`  | Present/Main? (Will check later)                | Includes Playcoins and Select-a-Coin+ but not Select-a-Coin.                        |
-| `0x752F5D3C`  | Past? (Can’t be bothered to check rn)           | -                                                                                   |
+| `0x63CB0BBA`  | Present+Main Crank-a-kai                        | Includes Playcoins and Select-a-Coin+ but not Select-a-Coin.                        |
+| `0x752F5D3C`  | Past Crank-a-kai                                | -                                                                                   |
 | `0x1176EE41`  | Standard Mystery Way Machine (Mystery Coin)     | -                                                                                   |
 | `0x887FBFFB`  | Bony Spirits Way Machine (Boar Mystery Coin)    | -                                                                                   |
 | `0xFF788F6D`  | Fleshy Souls Way Machine (Deer Mystery Coin)    | -                                                                                   |
