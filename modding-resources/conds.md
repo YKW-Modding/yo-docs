@@ -12,7 +12,7 @@ This page is a list of Conds (Conditions), where they are found along with forma
   * `1` - Used in place of a Cond in certain situations. (Yo-kai Watch 2)
 * `AAAAAA8FNRCxQJYAAQAyAAAAAXg=` - Main Story Completion (Yo-kai Watch 2). Obtained from Jungle Hunter (`shop_shopT001_0.01n.cfg.bin`)
 * `00 00 00 00 0f 05 35 dd 77 26 95 00 01 00 32 00 00 00 XX 71` - Rank XX or higher Cond (Yo-kai Watch 2; replace XX with the rank, 00 = E, ... 05 = S). Obtained from Jungle Hunter (`shop_shopT001_0.01n.cfg.bin`).
-* `00 00 00 00 18 05 35 8d 76 66 d8 00 0a 01 28 00 06 02 XX XX XX XX 00 32 00 00 00 01 78` - Has Item Cond. (Obtained from @z.u.ra on discord; replace XX XX XX XX with the ItemID in hex - remember to place the bytes from right to left).
+* `00 00 00 00 18 05 35 8d 76 66 d8 00 0a 01 28 00 06 02 34 XX XX XX XX 32 00 00 00 01 78` - Has Item Cond. (Obtained from @z.u.ra on discord; replace XX XX XX XX with the ItemID in hex - remember to place the bytes from right to left).
   * Level5Condition.exe can also generate this Cond.
 * `00 00 00 00 18 05 35 9e 99 84 8c 00 0a 01 28 00 06 02 34 89 20 ff e7 32 00 00 00 XX 78` - Has beaten the tunnel XX times (Yo-kai Watch 2; Obtained from `enen_tunnel_event.cfg.bin`.
 
