@@ -10,7 +10,18 @@ These are generated via the standard CRC-32 algorithm (ISO 3309/ISO-HDLC) which 
 Have you ever wondered what pattern yw games use do they just use a random valid CRC-32? No, there are actual patterns although the game dosent check for them (meaning you dont *need to follow this ever*) - this is a list of the patterns for common IDs:
 
 ## Item IDs
-This is the most complicated one:
+This is the most complicated one. ItemIDs are the CRC-32 of the following sequence:
+> `<type><ItemNum>`
+
+The `<type>` can be found in the `cfg.bin` although the placing is unknown, here is the list of `<type>`s:
+* `ifd` for *food* consumables.
+* `itl` for Talismans, Exporbs, Staminums, Books etc aka all non-food consumables
+* `ilv` for Critters aka Insects & Fish.
+* `ieq` for Equipment.
+* `soul` for Souls.
+* `iky` for Key items.
+
+The `<ItemNum>` can be found in the `cfg.bin` using the latest `MyTags.txt`.
 
 ## Base IDs
 ### YW1
