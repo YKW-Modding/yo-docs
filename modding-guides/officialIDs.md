@@ -32,5 +32,7 @@ For Yo-kai Watch 2 and later, it's the CRC-32 of the *whole file name* i.e. `y13
 ## Param IDs
 ParamIDs are the exact same as BaseIDs but with a `para_` added at the start (the missing m is intentional!).
 
+# EffectIDs
+[lorem ipsum]
 ## Map IDs, VisualEffectIDs and others
 Other IDs, (such as Map IDs!) are simply the CRC-32 of the *file name*. i.e. the CRC-32 of "`t101g00`" would be the Map ID for that map.
