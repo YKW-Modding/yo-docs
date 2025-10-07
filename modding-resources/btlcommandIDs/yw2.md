@@ -7,18 +7,18 @@ grand_parent: Modding Resources
 
 | BtlCommandID | Name |
 | --- | --- |
-| 0x61930F85 | 防御 |
-| 0xF89A5E3F | さぼり |
-| 0x8F9D6EA9 | ためる |
-| 0x11F9FB0A | 逃げる |
-| 0x66FECB9C | デフォルト攻撃 |
-| 0xFFF79A26 | 仲間入替開始 |
-| 0x88F0AAB0 | 仲間入替 |
-| 0x184FB721 | 仲間入替キャンセル |
-| 0x6F4887B7 | ポーズ |
-| 0x0F8F0E52 (0xF8F0E52) | ポーズ解除 |
-| 0x78883EC4 | 行動不能 |
-| 0xE1816F7E | 混乱攻撃 |
+| 0x61930F85 | 防御 (Guard) |
+| 0xF89A5E3F | さぼり (Loaf) |
+| 0x8F9D6EA9 | ためる (Charge Soultimate) |
+| 0x11F9FB0A | 逃げる (Flee) |
+| 0x66FECB9C | デフォルト攻撃 (Attack) |
+| 0xFFF79A26 | 仲間入替開始 (Begin Switching Ally) |
+| 0x88F0AAB0 | 仲間入替 (Switch Ally) |
+| 0x184FB721 | 仲間入替キャンセル (Cancel Allay Switch) |
+| 0x6F4887B7 | ポーズ (Pause) |
+| 0x0F8F0E52 (0xF8F0E52) | ポーズ解除 (Unpause) |
+| 0x78883EC4 | 行動不能 (Cannot act/Fainted) |
+| 0xE1816F7E | 混乱攻撃 (Confusion attack aka attack while confused) |
 | 0x96865FE8 | バラマキ |
 | 0x08E2CA4B (0x8E2CA4B) | たべもの |
 | 0x7FE5FADD | おはらい |
