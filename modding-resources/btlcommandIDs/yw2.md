@@ -19,49 +19,49 @@ grand_parent: Modding Resources
 | 0x0F8F0E52 (0xF8F0E52) | ポーズ解除 (Unpause) |
 | 0x78883EC4 | 行動不能 (Cannot act/Fainted) |
 | 0xE1816F7E | 混乱攻撃 (Confusion attack aka attack while confused) |
-| 0x96865FE8 | バラマキ |
-| 0x08E2CA4B (0x8E2CA4B) | たべもの |
-| 0x7FE5FADD | おはらい |
-| 0xE6ECAB67 | 良とりつき解除 |
-| 0x91EB9BF1 | HP一定変化 |
-| 0x01548660 (0x1548660) | 逃走 |
-| 0x7653B6F6 | モードチェンジ0 |
-| 0x24A25D91 | モードチェンジ1 |
-| 0x53A56D07 | モードチェンジ2 |
-| 0xCAAC3CBD | モードチェンジ0_味方全体 |
-| 0xBDAB0C2B | オートHP回復 |
-| 0x23CF9988 | ためるキャンセル |
-| 0x3DB96CD0 | リジェネ回復 |
-| 0x4ABE5C46 | ダウン |
-| 0xD3B70DFC | ダウン中 |
-| 0xA4B03D6A | 良状態異常解除 |
-| 0x3AD4A8C9 | リジェネ中 |
-| 0x4DD3985F | 選択待ち中 |
-| 0xD4DAC9E5 | モードチェンジ1_味方全体 |
+| 0x96865FE8 | バラマキ (Scatter, could be item scatter, money, orbs etc?) |
+| 0x08E2CA4B (0x8E2CA4B) | たべもの (Use Food) |
+| 0x7FE5FADD | おはらい (Purify) |
+| 0xE6ECAB67 | 良とりつき解除 (Remove Positive Inspirit) |
+| 0x91EB9BF1 | HP一定変化 (Set HP) |
+| 0x01548660 (0x1548660) | 逃走 (Also Flee) |
+| 0x7653B6F6 | モードチェンジ0 (Mode Change 0) |
+| 0x24A25D91 | モードチェンジ1 (Mode Change 1) |
+| 0x53A56D07 | モードチェンジ2 (Mode Change 2) |
+| 0xCAAC3CBD | モードチェンジ0_味方全体 (Mode Change 0, All Allies) |
+| 0xBDAB0C2B | オートHP回復 (Auto HP recovery) |
+| 0x23CF9988 | ためるキャンセル (Also Cancel Charge Soultimate?) |
+| 0x3DB96CD0 | リジェネ回復 (Regenerate) |
+| 0x4ABE5C46 | ダウン (Apply Debuff) |
+| 0xD3B70DFC | ダウン中 (While Down) |
+| 0xA4B03D6A | 良状態異常解除 (Remove Buff) |
+| 0x3AD4A8C9 | リジェネ中 (Regenerat*ing*) |
+| 0x4DD3985F | 選択待ち中 (Waiting for Input) |
+| 0xD4DAC9E5 | モードチェンジ1_味方全体 (Mode Change 1; All Allies) |
 | 0xA3DDF973 | 妖気溜め中 |
-| 0x3362E4E2 | サドンデス　カウントダウン |
-| 0x4465D474 | サドンデス　突入 |
-| 0x72F8FA17 | 怪魔登場 |
-| 0x05FFCA81 (0x5FFCA81) | 何もしない |
-| 0x9CF69B3B | 隣接HP吸収 |
-| 0xEBF1ABAD | 行動回数半減 |
-| 0x75953E0E | 行動後 |
-| 0x02920E98 (0x2920E98) | 理不尽回復 |
-| 0x9B9B5F22 | レベル吸収回復 |
-| 0xEC9C6FB4 | パラメータ吸収回復 |
-| 0x7C237225 | パラメータ吸収解除 |
-| 0x0B2442B3 (0xB2442B3) | つつくお金 |
-| 0x6BE3CB56 | つつく入手率 |
-| 0x1CE4FBC0 | つつくようきダメージ |
-| 0x82806E63 | つつけようき吸収 |
-| 0x85EDAA7A | つつくダメージ |
-| 0xF2EA9AEC | つつく即死 |
-| 0x6C8E0F4F | 手動演出 |
-| 0x1B893FD9 | 怪魔登場待ち |
-| 0xF5875EF5 | 戦闘開始 |
-| 0x65384364 | オブジェ変化（かくれんぼ） |
-| 0x123F73F2 | 行動キープ |
-| 0x40CE9895 | 行動キープチャージ |
+| 0x3362E4E2 | サドンデス　カウントダウン (Sudden Death Countdown) |
+| 0x4465D474 | サドンデス　突入 (Enter Sudden Death) |
+| 0x72F8FA17 | 怪魔登場 (Enemy Appears) |
+| 0x05FFCA81 (0x5FFCA81) | 何もしない (Do Nothing?) |
+| 0x9CF69B3B | 隣接HP吸収 (Adjacent HP Absorb) |
+| 0xEBF1ABAD | 行動回数半減 (Halve Action Count) |
+| 0x75953E0E | 行動後 (After Acting) |
+| 0x02920E98 (0x2920E98) | 理不尽回復 (Absurd Recovery; probably a dev cheat) |
+| 0x9B9B5F22 | レベル吸収回復 (Level Absorb Heal?) |
+| 0xEC9C6FB4 | パラメータ吸収回復 (Stat Absorb Heal) |
+| 0x7C237225 | パラメータ吸収解除 (Cancel Stat Absorb) |
+| 0x0B2442B3 (0xB2442B3) | つつくお金 (Poke Money) |
+| 0x6BE3CB56 | つつく入手率 (Poke Drop Rate) |
+| 0x1CE4FBC0 | つつくようきダメージ (Poke Soul Damage?) |
+| 0x82806E63 | つつけようき吸収 (Poke Soul Absorb) |
+| 0x85EDAA7A | つつくダメージ (Poke Damage) |
+| 0xF2EA9AEC | つつく即死 (Poke Instant Death?) |
+| 0x6C8E0F4F | 手動演出 (Manual Animation?) |
+| 0x1B893FD9 | 怪魔登場待ち (Waiting for Enemy Appearance) |
+| 0xF5875EF5 | 戦闘開始 (Start Battle) |
+| 0x65384364 | オブジェ変化（かくれんぼ）(Object Change; Hide and Seek - no idea why "Hide and Seek" keeps popping up)|
+| 0x123F73F2 | 行動キープ (Keep Action; don’t cancel queued action)|
+| 0x40CE9895 | 行動キープチャージ (Keep Charge; retain charging state)|
 | 0x8854C4A1 | dummy |
 | 0x115D951B | dummy |
 | 0x665AA58D | dummy |
