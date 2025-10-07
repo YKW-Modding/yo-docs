@@ -5,6 +5,7 @@ parent: Map Modding
 grand_parent: Modding Guides
 has_children: true
 nav_order: 1
+hide: true
 ---
 
 # Map Porting
