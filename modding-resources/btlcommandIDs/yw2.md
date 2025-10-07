@@ -4,6 +4,7 @@ parent: BtlCommand IDs
 grand_parent: Modding Resources
 ---
 # YW2 BtlCommand IDs
+
 | BtlCommandID | Name |
 | --- | --- |
 | 0x61930F85 | 防御 |
