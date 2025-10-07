@@ -6,7 +6,7 @@ parent: General Modding
 ---
 
 # How to Add Items
-**Original guide by @stringsbutalt on discord**
+**Original guide by @stringsbutalt on discord, modified by @n123original**
 
 **CONFIRMED TO WORK ON YO-KAI WATCH 1.**
 

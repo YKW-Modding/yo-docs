@@ -4,7 +4,7 @@ layout: default
 has_children: false
 parent: Modding Resources
 ---
-This page is a list of Conds (Conditions), where they are found along with format documentation aka what they are (*Yo-kai Watch Conds DO NOT always work across games i.e. Yo-kai Watch 3 - although they may. Please test this yourself*).
+This page is a list of Conds (Conditions), along with where they are found (*Yo-kai Watch Conds DO NOT always work across games i.e. Yo-kai Watch 3 - although they may. Please test this yourself*).
 
 # Documented Useful Conds List
 * Note: ***Some conds are customisable, in that case the raw bytes will be linked, use a website like [this](https://cryptii.com/pipes/hex-to-base64) to convert it to base64.***
@@ -16,82 +16,7 @@ This page is a list of Conds (Conditions), where they are found along with forma
   * Level5Condition.exe can also generate this Cond.
 * `00 00 00 00 18 05 35 9e 99 84 8c 00 0a 01 28 00 06 02 34 89 20 ff e7 32 00 00 00 XX 78` - Has beaten the tunnel XX times (Yo-kai Watch 2; Obtained from `enen_tunnel_event.cfg.bin`.
 
-# Conds Documentation/Specification
-
-## 1. **Cond Description**
-
-A **Cond** is a little-endian binary structure representing a **boolean condition** in Yo-kai Watch games.
-It can check things like flag states, inventory items, watch rank, or story progress.
-* **Note: For the sake of simplicity and ease of access the hex here will be big-endian. The linked tool handles this appropriately.**
-* Stored as a Base64 string in `cfg.bin`s. Convert to hex before handling.
-* Can include **nested or extended parameter blocks**.
-* Always ends with a **terminator** (`0x78` or `0x71`)??.
-* All types are implicit: `00 00 00 01` could mean `1`, `true`, the "`SOH`" character, or the equivalent float.
-
-
-## 2. **Basic Cond Layout**
-* Note: Examples are at the end.
-```c
-[HEADER 4B]
-[OPCODE 2B]
-35                    ; Section Start
-[RESOURCE ID 4B]      ; ???
-[EXTENSION CTYPE]            ; Usually 3B: 00 01 00 (or 00 0D 0A 01 for extended due to null padding)
-[EXTENSION DELIMITER]  ; 28 (optional, separates extension header from parameters)
-[CTYPE 3B]             ; Comparison type / selector
-32                     ; Section End
-[COMPARISON VALUE 4B]  ; Value to compare in hex (e.g., 0x00000001 = true, 1, "SOH" or the equivalent float).
-[TERMINATOR 1B]        ; End of cond
-```
-
-
-## 3. **Headers and Opcodes**
-
-| Field  | Example       | Meaning (Theorized)                                   |
-| ------ | ------------- | ----------------------------------------------------- |
-| HEADER | `00 00 00 00` | Reserved / start of Cond                              |
-| OPCODE | `0F 05`       | Compare >= (constant comparison)?                     |
-| OPCODE | `18 05`       | Flag comparison maybe >=??                            |
-
-## 4. **Sections and Delimiters**
-
-| Byte | Meaning                                                              |
-| ---- | -------------------------------------------------------------------- |
-| `35` | Section Start / block delimiter                                      |
-| `32` | Section End / block terminator                                       |
-| `28` | Extension delimiter?? (separates extension header from sub-params)   |
-| `34` | Nest delimiter??                                                     |
-
-* *Multiple* `35` markers can represent nested sections, being often used in more complex conds like flag state checks.
-
-## 5. **CType**
-
-* Usually starts as `00 01 00` for a simple check.
-* Extended mode uses `00 0A 01` - adding a 3rd seems to pad a `00` (null termination) for unknown reasons:
-  * Proven by a weird variant which uses `00 0D 0A 01`:
-
-  * First byte (`0D`) = extended flags count / special mode???????
-  * Second byte (`0A`) = AND / OR / combinator (most likely)
-  * Third byte (`01`) = standard
-* **Flags may be added together bitwise** to construct the final check value - but this is weird and iffy.
-* Flag checks usually use the Ctype: `00 06 02`
-
-## 6. **Resource IDs**
-* Resource ID = 4 bytes identifying *something*.
-* Example: `A1 7D 35 34` 
-> Note: `34`......
-
-
-## 7. **Comparison Value**
-* Always 4 bytes after the final section ends (`32`).
-* Indicates the value to compare against.
-  * `00 00 00 01` -> `0x00000001` aka `1` or `true`.
-  * Another example is `00 00 00 05` aka `5` or Watch Rank S.
-
-## 8. **Terminator**
-* Usually `0x78` or `0x71`.
-* Marks the end of the Cond.
-
+<!--
 ## Examples:
 
 * Basic Conds:
@@ -145,3 +70,5 @@ It can check things like flag states, inventory items, watch rank, or story prog
     * `32` - Section End Delimiter.
     * `00 00 00 XX` - Comparison Value (`0x000000XX`).
     * `78` - `0x78` Terminator.
+
+-->
