@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: BtlCommand IDs
 grand_parent: Modding Resources
 ---
 
