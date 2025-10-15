@@ -9,7 +9,7 @@ grand_parent: Modding Resources
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when it the ID is padded!)
 
-## FLAG_INFO_0 (2559)
+## FLAG_INFO_0 (0)
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -2573,7 +2573,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x3070CFD6 | 2558 | - |
 | 0x2E4FCD24 | 2559 | - |
 
-## FLAG_INFO_1 (581)
+## FLAG_INFO_1 (6)
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -3159,7 +3159,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x-2B9A76B0 | 638 | - |
 | 0x4A011CF3 | 639 | - |
 
-## FLAG_INFO_2 (552)
+## FLAG_INFO_2 (1)
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -3716,7 +3716,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x-4941BD81 | 556 | - |
 | 0x-29863466 | 557 | - |
 
-## FLAG_INFO_3 (164)
+## FLAG_INFO_3 (7)
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -3885,7 +3885,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x-3F2646FA | 180 | - |
 | 0x59D0E8BC | 181 | - |
 
-## FLAG_INFO_4 (67)
+## FLAG_INFO_4 (8)
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
