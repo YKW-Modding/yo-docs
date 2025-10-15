@@ -2643,7 +2643,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x90091C2B | 68 | - |
 | 0x4463988F | 71 | - |
 | 0x3DDE318A | 72 | - |
-| 0x8920FFE7 | 73 | - |
+| 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? |
 | 0x760AB692 | 76 | - |
 | 0xABD3BC2C | 77 | - |
 | 0x0CE98A12 (0xCE98A12) | 78 | - |
