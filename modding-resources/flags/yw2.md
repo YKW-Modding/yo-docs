@@ -2931,7 +2931,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xBF2034F7 | 386 | - |
 | 0x266FFC2B | 388 | - |
 | 0x6BCA3A4C | 389 | - |
-| 0x56DF3158 | 390 | - |
+| 0x56DF3158 | 390 | Amount of times Gargaros has been beaten in Psychic Blasters. |
 | 0x2B3321EA | 391 | - |
 | 0x862D33AD | 392 | - |
 | 0xA33F0D1D | 393 | - |
