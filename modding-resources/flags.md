@@ -14,4 +14,5 @@ In Yo-kai Watch 2:
 * `FLAG_INFO_2` flags have an unknown purpose.
 * `FLAG_INFO_3` flags have an unknown purpose.
 * `FLAG_INFO_4` flags have an unknown purpose.
-Note: Flags with the same ID can be in several `_INFO_*`'s. The most common example are `FlagID`s present in both `FLAG_INFO_0` and FLAG_INFO_1`.
+
+Note: Flags with the same ID can be in several `_INFO_*` list's. The most common example are `FlagID`s present in both `FLAG_INFO_0` and FLAG_INFO_1`.
