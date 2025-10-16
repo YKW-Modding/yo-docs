@@ -2116,7 +2116,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x7CB364CB | 2101 | - |
 | 0xE2D7F168 | 2102 | - |
 | 0xEABBFC54 | 2103 | - |
-| 0xAA9CE0F4 | 2104 | - |
+| 0xAA9CE0F4 | 2104 | Has Jibanyan-S been met. |
 | 0x527C1B03 | 2105 | - |
 | 0x9ED61B9D | 2106 | - |
 | 0x34CA0E53 | 2107 | - |
