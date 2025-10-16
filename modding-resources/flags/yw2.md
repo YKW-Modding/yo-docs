@@ -1334,7 +1334,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xDD1E7758 | 1319 | - |
 | 0xF637FAF2 | 1320 | - |
 | 0x6F3EAB48 | 1321 | - |
-| 0xC5C25E05 | 1322 | - |
+| 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. |
 | 0x2D374578 | 1323 | - |
 | 0x3997F743 | 1324 | - |
 | 0x6E5ED0A9 | 1325 | - |
