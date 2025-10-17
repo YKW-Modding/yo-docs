@@ -2881,7 +2881,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x360271DB | 335 | - |
 | 0x1CC6C4A4 | 336 | - |
 | 0xBE28C919 | 337 | - |
-| 0xC754C30E | 338 | - |
+| 0xC754C30E | 338 | 1 when Soba Delivery Driver should appear (Global for all areas that have him!). Other values are unknown. |
 | 0xC182B4BA | 339 | - |
 | 0xB9C98CFE | 340 | - |
 | 0x82FDB31D | 341 | - |
