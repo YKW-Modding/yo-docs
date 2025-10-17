@@ -2599,7 +2599,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x0646F45E (0x646F45E) | 20 | - |
 | 0x81B5A9FC | 21 | - |
 | 0xB5891C2B | 22 | - |
-| 0xA938C2D5 | 23 | - |
+| 0xA938C2D5 | 23 | Wanted Criminal Data. Set it to 19-24 to make a Yo-Criminal appear in Shopper's Row, 1-6 for Uptown Springdale, etc and 0 for None. The specific number changes which Yo-Criminal spawns. |
 | 0x9076E662 | 24 | - |
 | 0xAB951AD4 | 25 | - |
 | 0x329C4B6E | 26 | - |
@@ -2874,7 +2874,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x45F8B732 | 328 | - |
 | 0xEBB229AB | 329 | - |
 | 0xF84DA5F1 | 330 | - |
-| 0x3DEBCAB6 | 331 | - |
+| 0x3DEBCAB6 | 331 | Leadoni Data. |
 | 0x28BDB64B | 332 | - |
 | 0x9A75ECDD | 333 | - |
 | 0xA0C8FC9D | 334 | - |
