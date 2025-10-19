@@ -6,6 +6,7 @@ grand_parent: Modding Resources
 ---
 
 # Known YW2 Phase Boundaries
+Increases of 10,000 (`0x2710`) occur for major progression, while increases of 10 (`0xA`) occur for minor progression.
 
 | **Phase (Decimal)** | **Phase (Hex)** | **Notes**                                                                                                |
 | ------------------- | --------------- | -------------------------------------------------------------------------------------------------------- |
