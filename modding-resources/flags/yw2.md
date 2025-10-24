@@ -135,11 +135,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xAD965705 | 119 | - |
 | 0x839256DB | 120 | - |
 | 0xD5AEB5C5 | 121 | - |
-| 0xD62A61AB | 122 | - |
+| 0xD62A61AB | 122 | Checks if the story scene mv_photo06a/mv_photo06b/ev01_1600 has been seen. (The scene where Nate/Katie chucks a capsule holding Whisper at the start of the game) |
 | 0xD7E80B9C | 123 | - |
 | 0xDCB44CA1 | 124 | - |
 | 0xDD762696 | 125 | - |
-| 0xC012B2F7 | 126 | - |
+| 0xC012B2F7 | 126 | Checks if the story scene mv_photo07a/mv_photo07b/ev01_200 has been seen. (The scene where Jibanyan gets run over) |
 | 0xC1D0D8C0 | 127 | - |
 | 0xC3966699 | 128 | - |
 | 0xC2540CAE | 129 | - |
