@@ -10,10 +10,10 @@ parent: General Modding
 
 First, we need to find the shop you want to edit, navigate over to `data/res/shop` and find the shop you want to edit. 
 There are special shops and normal shops, this guide will cover both. A list of the special shops in Yo-kai Watch 2 can be found below:
-* `another_shop.cfg.bin` - This depends on the game but for Yo-kai Watch 2, it's the bicycle shop.
-* `combine_config.cfg.bin` - This controls fusions and will not be covered here as a seperate tutorial covers this.
 * `creature_reward_config.cfg.bin` - This controls Jungle Hunter milestones and will also be covered here.
 * `def_shoplist.cfg.bin` - Holds the list of shops - to add a new one increase the `ChildCount` in `SHOP_LIST`, duplicate a new `SHOP_LIST_INFO` and add your new `ShopID` to it (the CRC-32 of the Shop Name).
+  * `combine_config.cfg.bin` - This controls fusions and will not be covered here as a seperate tutorial covers this.
+* `another_shop.cfg.bin` - This depends on the game but for Yo-kai Watch 2, it's the bicycle shop; the bicycle shop will not be covered here as it's too complicated.
 Normal Shops will be in the format `shop_<shopName>_0.01n.cfg.bin` - DO NOT edit the ones without `_0.01n` as they are older, use a different format and will be ignored by the game.
 A normal shop's `ShopName` is in the following format:
 * `shp<type><index>`
