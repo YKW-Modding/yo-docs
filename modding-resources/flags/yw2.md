@@ -9,7 +9,7 @@ grand_parent: Modding Resources
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when it the ID is padded!)
 
-## FLAG_INFO_0 (0, 2559)
+## FLAG_INFO_0 (0, 2559) - GlobalBitFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -2573,7 +2573,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x3070CFD6 | 2558 | - |
 | 0x2E4FCD24 | 2559 | - |
 
-## FLAG_INFO_1 (6, 581)
+## FLAG_INFO_1 (6, 581) - GlobalByteFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -3716,7 +3716,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xB6BE427F | 556 | - |
 | 0xD679CB9A | 557 | - |
 
-## FLAG_INFO_3 (7, 164)
+## FLAG_INFO_3 (7, 164) - TempBitFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
