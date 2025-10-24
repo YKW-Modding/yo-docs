@@ -114,7 +114,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x768A8E93 | 98 | - |
 | 0x6BD9104B | 99 | - |
 | 0x699FAE12 | 100 | - |
-| 0x14E85A57 | 101 | - |
+| 0x14E85A57 | 101 | Checks if the story scene mv_photo05a/mv_photo05b/ev01_0200/ev01_0250 has been seen. (The Kin/Gin/Bronzlow scene at the start of the game) |
 | 0x685DC425 | 102 | - |
 | 0x152A3060 | 103 | - |
 | 0x6D12D2A0 | 104 | - |
