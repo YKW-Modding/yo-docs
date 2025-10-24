@@ -139,14 +139,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xD7E80B9C | 123 | - |
 | 0xDCB44CA1 | 124 | - |
 | 0xDD762696 | 125 | - |
-| 0xC012B2F7 | 126 | Checks if the story scene mv_photo07a/mv_photo07b/ev01_200 has been seen. (The scene where Jibanyan gets run over) |
+| 0xC012B2F7 | 126 | Checks if the story scene mv_photo07a/mv_photo07b/ev01_2000 has been seen. (The scene where Jibanyan gets run over) |
 | 0xC1D0D8C0 | 127 | - |
 | 0xC3966699 | 128 | - |
 | 0xC2540CAE | 129 | - |
 | 0xBF23F8EB | 130 | - |
 | 0x75FA5433 | 131 | - |
 | 0xC71B1A2B | 132 | - |
-| 0xC6D9701C | 133 | - |
+| 0xC6D9701C | 133 | Checks if the story scene mv_photo08a/mv_photo08b/ev01_2500 has been seen. (The scene where Nate summons Jibanyan against Brushido) |
 | 0xC49FCE45 | 134 | - |
 | 0xE490507C | 135 | - |
 | 0xC55DA472 | 136 | - |
@@ -208,11 +208,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x99A47EF9 | 192 | - |
 | 0x9BE2C0A0 | 193 | - |
 | 0x9A20AA97 | 194 | - |
-| 0x917CEDAA | 195 | - |
+| 0x917CEDAA | 195 | Checks if the story scene mv_photo09/ev03_1800 has been seen. (The scene where Gargaros appears in Terror Time; occurs first during the story after Whatta Find is first entered) |
 | 0x90BE879D | 196 | - |
 | 0x8DDA13FC | 197 | - |
 | 0xF0ADE7B9 | 198 | - |
-| 0x8C1879CB | 199 | - |
+| 0x8C1879CB | 199 | Checks if the story scene mv_photo10a/mv_photo10b/ev03_2100 has been seen. (The scripted scene where Gargaros chases the player to the exit; only occurs during the story after Whatta Find is first entered) |
 | 0x8E5EC792 | 200 | - |
 | 0x8F9CADA5 | 201 | - |
 | 0xF2EB59E0 | 202 | - |
