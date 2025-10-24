@@ -6,10 +6,12 @@ parent: yw2_a.fa
 grand_parent: Yo-kai Watch 2 RomFS Legend!
 ---
 # fnt/
+> Note: Even though the folder itself is called `fnt` the files inside here are called `ft`. Additionally, this does not hold all fonts used by the game as many fonts that are only used for a preset selecton of words just have the words baked into the textures.
+
 This contains:
-* `fnt_nrm.xf` -
+* `ft_nrm.xf` - An X font file - this is really just an XPCK archive which holds a `xi` (shown below) for the *rasterised font* and a `FNT.bin`. 
 
-![fnt_nrm.xf](fnt_nrm.xf.png)
-* `fnt_sml.xf` - The same as `banner.icn`. Even though Kuriimu2 has `.ctpk` support - this does not include Icon CTPKs which are headerless and use a specific format. Therefore you must use CTPKtool for this.
+![ft_nrm.xf](ft_nrm.xf.png)
+* `ft_sml.xf` - Similar to the `ft_nrm.xf`.
 
-![fnt_sml.xf](fnt_sml.xf.png)
+![ft_sml.xf](ft_sml.xf.png)
