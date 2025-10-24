@@ -7,7 +7,8 @@ grand_parent: RomFS Legend
 ---
 # yw2_a.fa
 This is the main game archive containing all assets and data that dosent change across localisations. 
-> **Note: Some Exceptions such as Wanted Criminal `cfg.bin`s and KOR QR Codes are still stored in this archive for developement reasons.**
+> **Note: Some purely-data `cfg.bin`s such as Wanted Criminal data and KOR QR Codes are still stored in this archive for developement reasons.**
+
 It contains:
 * `ctr/` - Game Icons.
 * `sky/` - A folder containing `default.xk`, an archive of skybox data.
