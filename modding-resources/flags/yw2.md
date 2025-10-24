@@ -1432,7 +1432,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x50C8406E | 1417 | - |
 | 0x510A2A59 | 1418 | - |
 | 0x4C6EBE38 | 1419 | - |
-| 0x4DACD40F | 1420 | - |
+| 0x4DACD40F | 1420 | Checks if the bonus quest scene mv_photo77/yw2_evec_2100 has been seen. |
 | 0xFEBE2DC5 | 1421 | - |
 | 0xFCF8939C | 1422 | - |
 | 0xFD3AF9AB | 1423 | - |
@@ -1453,7 +1453,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x49D3712F | 1438 | - |
 | 0x48111B18 | 1439 | - |
 | 0x55758F79 | 1440 | - |
-| 0x54B7E54E | 1441 | - |
+| 0x54B7E54E | 1441 | Checks if the bonus quest scene mv_photo78/yw2_evec_2110 has been seen. |
 | 0xD5937E06 | 1442 | - |
 | 0xD7D5C05F | 1443 | - |
 | 0xD617AA68 | 1444 | - |
@@ -1474,7 +1474,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x62FE22EC | 1459 | - |
 | 0x633C48DB | 1460 | - |
 | 0x7E58DCBA | 1461 | - |
-| 0x7F9AB68D | 1462 | - |
+| 0x7F9AB68D | 1462 | Checks if the bonus quest scene mv_photo79/yw2_evec_2120 has been seen. |
 | 0x84E69E77 | 1463 | - |
 | 0xF3E1AEE1 | 1464 | - |
 | 0x6AE8FF5B | 1465 | - |
