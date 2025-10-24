@@ -45,6 +45,17 @@ First, in the `SHOP_CONFIG_INFO` tree, increase `ChildCount` by 1. Then:
 
 ### Adding a new Shop (W.I.P)
 > This section has not been tested yet, and may not work.
+> Additionally, this section is for Normal Shops; you cannot create new Special Shops, only edit/delete ones that are already programmed into the game.
+
+First, create a shop name i.e. `shpN005` for the 5th normal shop; *this name must not already be taken*. Then:
+* Go to `def_shoplist.cfg.bin`, click on `SHOP_LIST` and increase `ChildCount` by 1.
+* Then duplicate the last `SHOP_LIST_INFO` and select the newly created `SHOP_LIST_INFO`.
+* Type your `ShopName` into a website like [this](https://emn178.github.io/online-tools/crc/), and set the `ShopID` to the output the website gives you.
+* Then find a `_0.01n` `cfg.bin` that's similar to your shop.
+  * Duplicate it and rename it to your shop name, following the pattern of all the other Normal Shops.
+* In the `SHOP_CONFIG_INFO` of your new shop change the old `ShopID` to the `ShopID` of the new shop you placed in `def_shoplist` earlier.
+* Change all the `ShopSlotID`s to unique random CRC-32s, you can get them by going to a website like [this](https://emn178.github.io/online-tools/crc/) and typing anything into the textbox there.
+* Finally, save your changes.
 
 ## Special Shops
 
@@ -58,3 +69,4 @@ In `data/res/shop`, open `creature_reward_config.cfg.bin`. Then:
     * Tip: If you want to make it give you 2 Items, create 2 Milestones with the same `Milestone` requirement.
   * Set `Quantity` to the amount of the Item it should give.
   * Set `UnkID` to a random CRC-32, you can do this by going to a website like [this](https://emn178.github.io/online-tools/crc/) and typing anything into the textbox there.
+  * Finally, save your changes. 
