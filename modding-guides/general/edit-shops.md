@@ -8,13 +8,13 @@ parent: General Modding
 # Editing Shops (YW2)
 > This tutorial is made for YW2, params *will* change between games so this won't accurately apply to other games.
 
-First, we need to find the shop you want to edit, navigate over to `data/res/shop` and find the shop you want to edit. 
-There are special shops and normal shops, this guide will cover both. A list of the special shops in Yo-kai Watch 2 can be found below:
+First, we need to find the shop you want to edit, navigate over to `data/res/shop` and open the correct `cfg.bin`. 
+There are two kinds of shops: special shops and normal shops. This guide will cover both. A list of the special shops in Yo-kai Watch 2 can be found below:
 * `creature_reward_config.cfg.bin` - This controls Jungle Hunter milestones and will also be covered here.
 * `def_shoplist.cfg.bin` - Holds the list of shops - to add a new one increase the `ChildCount` in `SHOP_LIST`, duplicate a new `SHOP_LIST_INFO` and add your new `ShopID` to it (the CRC-32 of the Shop Name).
   * `combine_config.cfg.bin` - This controls fusions and will not be covered here as a seperate tutorial covers this.
 * `another_shop.cfg.bin` - This depends on the game but for Yo-kai Watch 2, it's the bicycle shop; the bicycle shop will not be covered here as it's too complicated.
-Normal Shops will be in the format `shop_<shopName>_0.01n.cfg.bin` - DO NOT edit the ones without `_0.01n` as they are older, use a different format and will be ignored by the game.
+Normal Shops will be in the format `shop_<shopName>_0.01n.cfg.bin` - DO NOT edit the ones without `_0.01n` as they are use a different format, are older, and will be ignored by the game.
 A normal shop's `ShopName` is in the following format:
 * `shp<type><index>`
   * `<index>` is a 3-digit number used to distinguish between shops of the same type.
@@ -22,7 +22,7 @@ A normal shop's `ShopName` is in the following format:
     * `N` is used for normal shops - this is the most common shop type.
     * `M` is used for Vending Machines - there are only a handful of these.
     * `KP` is used exclusively for the BP (Battle Points) shop.
-    * `TVM` is used exclusively for the Day Pass shop.
+    * `TVM` is used exclusively for the Day Pass "shop".
     * `B`
     * `BB`
     * `BC`
