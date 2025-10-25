@@ -9,7 +9,7 @@ grand_parent: Modding Resources
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when it the ID is padded!)
 
-## FLAG_INFO_0 (0, 2559)
+## FLAG_INFO_0 (0, 2559) - GlobalBitFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -114,7 +114,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x768A8E93 | 98 | - |
 | 0x6BD9104B | 99 | - |
 | 0x699FAE12 | 100 | - |
-| 0x14E85A57 | 101 | - |
+| 0x14E85A57 | 101 | Checks if the story scene mv_photo05a/mv_photo05b/ev01_0200/ev01_0250 has been seen. (The Kin/Gin/Bronzlow scene at the start of the game) |
 | 0x685DC425 | 102 | - |
 | 0x152A3060 | 103 | - |
 | 0x6D12D2A0 | 104 | - |
@@ -135,18 +135,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xAD965705 | 119 | - |
 | 0x839256DB | 120 | - |
 | 0xD5AEB5C5 | 121 | - |
-| 0xD62A61AB | 122 | - |
+| 0xD62A61AB | 122 | Checks if the story scene mv_photo06a/mv_photo06b/ev01_1600 has been seen. (The scene where Nate/Katie chucks a capsule holding Whisper at the start of the game) |
 | 0xD7E80B9C | 123 | - |
 | 0xDCB44CA1 | 124 | - |
 | 0xDD762696 | 125 | - |
-| 0xC012B2F7 | 126 | - |
+| 0xC012B2F7 | 126 | Checks if the story scene mv_photo07a/mv_photo07b/ev01_2000 has been seen. (The scene where Jibanyan gets run over) |
 | 0xC1D0D8C0 | 127 | - |
 | 0xC3966699 | 128 | - |
 | 0xC2540CAE | 129 | - |
 | 0xBF23F8EB | 130 | - |
 | 0x75FA5433 | 131 | - |
 | 0xC71B1A2B | 132 | - |
-| 0xC6D9701C | 133 | - |
+| 0xC6D9701C | 133 | Checks if the story scene mv_photo08a/mv_photo08b/ev01_2500 has been seen. (The scene where Nate summons Jibanyan against Brushido) |
 | 0xC49FCE45 | 134 | - |
 | 0xE490507C | 135 | - |
 | 0xC55DA472 | 136 | - |
@@ -208,11 +208,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x99A47EF9 | 192 | - |
 | 0x9BE2C0A0 | 193 | - |
 | 0x9A20AA97 | 194 | - |
-| 0x917CEDAA | 195 | - |
+| 0x917CEDAA | 195 | Checks if the story scene mv_photo09/ev03_1800 has been seen. (The scene where Gargaros appears in Terror Time; occurs first during the story after Whatta Find is first entered) |
 | 0x90BE879D | 196 | - |
 | 0x8DDA13FC | 197 | - |
 | 0xF0ADE7B9 | 198 | - |
-| 0x8C1879CB | 199 | - |
+| 0x8C1879CB | 199 | Checks if the story scene mv_photo10a/mv_photo10b/ev03_2100 has been seen. (The scripted scene where Gargaros chases the player to the exit; only occurs during the story after Whatta Find is first entered) |
 | 0x8E5EC792 | 200 | - |
 | 0x8F9CADA5 | 201 | - |
 | 0xF2EB59E0 | 202 | - |
@@ -1432,7 +1432,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x50C8406E | 1417 | - |
 | 0x510A2A59 | 1418 | - |
 | 0x4C6EBE38 | 1419 | - |
-| 0x4DACD40F | 1420 | - |
+| 0x4DACD40F | 1420 | Checks if the bonus quest scene mv_photo77/yw2_evec_2100 has been seen. |
 | 0xFEBE2DC5 | 1421 | - |
 | 0xFCF8939C | 1422 | - |
 | 0xFD3AF9AB | 1423 | - |
@@ -1453,7 +1453,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x49D3712F | 1438 | - |
 | 0x48111B18 | 1439 | - |
 | 0x55758F79 | 1440 | - |
-| 0x54B7E54E | 1441 | - |
+| 0x54B7E54E | 1441 | Checks if the bonus quest scene mv_photo78/yw2_evec_2110 has been seen. |
 | 0xD5937E06 | 1442 | - |
 | 0xD7D5C05F | 1443 | - |
 | 0xD617AA68 | 1444 | - |
@@ -1474,7 +1474,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x62FE22EC | 1459 | - |
 | 0x633C48DB | 1460 | - |
 | 0x7E58DCBA | 1461 | - |
-| 0x7F9AB68D | 1462 | - |
+| 0x7F9AB68D | 1462 | Checks if the bonus quest scene mv_photo79/yw2_evec_2120 has been seen. |
 | 0x84E69E77 | 1463 | - |
 | 0xF3E1AEE1 | 1464 | - |
 | 0x6AE8FF5B | 1465 | - |
@@ -2573,7 +2573,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x3070CFD6 | 2558 | - |
 | 0x2E4FCD24 | 2559 | - |
 
-## FLAG_INFO_1 (6, 581)
+## FLAG_INFO_1 (6, 581) - GlobalByteFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
@@ -3716,7 +3716,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xB6BE427F | 556 | - |
 | 0xD679CB9A | 557 | - |
 
-## FLAG_INFO_3 (7, 164)
+## FLAG_INFO_3 (7, 164) - TempBitFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
