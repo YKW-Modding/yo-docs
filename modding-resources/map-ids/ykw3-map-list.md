@@ -424,28 +424,28 @@ The list is in alphabetical order. Brackets will be used to denote names for cer
 | Enma Palace | 0x84E0EC86 | t592o10 |
 | t592o11 | 0xF3E7DC10 | t592o11 |
 | t592o12 | 0x6AEE8DAA | t592o12 |
-| Springdale Central | 0xC3485FA9 | t100s01 |
-| Green St (Sparkopolis) | 0x5A410E13 | t100s02 |
-| Hibarly Hills | 0x2D463E85 | t100s03 |
-| Petal Peak | 0xB322AB26 | t100s04 |
-| Factory Row | 0xC4259BB0 | t100s05 |
-| Sweet Meadow | 0x5D2CCA0A | t100s06 |
-| Fortune Place | 0x2A2BFA9C | t100s07 |
-| Skybridge | 0xBA94E70D | t100s08 |
-| Dreamer's Field | 0xCD93D79B | t100s09 |
-| Ridgemont | 0xAD545E7E | t100s10 |
-| Bayside | 0xDA536EE8 | t100s11 |
-| San Fantastico | 0x435A3F52 | t100s12 |
-| Greenfields | 0x345D0FC4 | t100s13 |
-| Temple Park | 0xAA399A67 | t100s14 |
-| Dingle Falls | 0xDD3EAAF1 | t100s15 |
-| Harrisville | 0x4437FB4B | t100s16 |
-| Spring | 0x3330CBDD | t100s17 |
-| Sunshine | 0xA38FD64C | t100s18 |
-| Little Haven | 0xD488E6DA | t100s19 |
-| Scarfit Downs | 0x86790DBD | t100s20 |
-| Cherry Hill | 0xF17E3D2B | t100s21 |
-| Whimsy Valley | 0x68776C91 | t100s22 |
+| Springdale Central Station | 0xC3485FA9 | t100s01 |
+| Green St Station (Sparkopolis) | 0x5A410E13 | t100s02 |
+| Hibarly Hills Station | 0x2D463E85 | t100s03 |
+| Petal Peak Station | 0xB322AB26 | t100s04 |
+| Factory Row Station | 0xC4259BB0 | t100s05 |
+| Sweet Meadow Station | 0x5D2CCA0A | t100s06 |
+| Fortune Place Station | 0x2A2BFA9C | t100s07 |
+| Skybridge Station | 0xBA94E70D | t100s08 |
+| Dreamer's Field Station | 0xCD93D79B | t100s09 |
+| Ridgemont Station | 0xAD545E7E | t100s10 |
+| Bayside Station | 0xDA536EE8 | t100s11 |
+| San Fantastico Station | 0x435A3F52 | t100s12 |
+| Greenfields Station | 0x345D0FC4 | t100s13 |
+| Temple Park Station | 0xAA399A67 | t100s14 |
+| Dingle Falls Station | 0xDD3EAAF1 | t100s15 |
+| Harrisville Station | 0x4437FB4B | t100s16 |
+| Spring Station | 0x3330CBDD | t100s17 |
+| Sunshine Station | 0xA38FD64C | t100s18 |
+| Little Haven Station | 0xD488E6DA | t100s19 |
+| Scarfit Downs Station | 0x86790DBD | t100s20 |
+| Cherry Hill Station | 0xF17E3D2B | t100s21 |
+| Whimsy Valley Station | 0x68776C91 | t100s22 |
 | t001t01 | 0xB5E7FDEC | t001t01 |
 | t001t03 | 0x5BE99CC0 | t001t03 |
 | t001t04 | 0xC58D0963 | t001t04 |
