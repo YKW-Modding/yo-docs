@@ -8,6 +8,7 @@ grand_parent: Modding Resources
 # YKW3 Map List
 
 The list is in alphabetical order. Brackets will be used to denote names for certain maps i.e. the unused Old Springdale map.
+
 | Location | Map ID | Map Name |
 | - | - | - |
 | New Yo-kai City | 0xDC80D053 | t001g00 |
