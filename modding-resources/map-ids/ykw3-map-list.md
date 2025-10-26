@@ -795,6 +795,13 @@ The list is in alphabetical order. Brackets will be used to denote names for cer
 | e300g013 | 0x3AEE3DDC | e300g013 |
 | e300g014 | 0xA48AA87F | e300g014 |
 | e300g920 | 0x871B042A | e300g920 |
+| t100t00 | 0xB10079BA | Train Interior #1 (Default) |
+| t100t01 | 0xC607492C | Train Interior #2 |
+| t100t02 | 0x5F0E1896 | Train Interior #3 | 
+| t100t03 | 0x28092800 | Train Interior #4 |
+| t100t04 | 0xB66DBDA3 | Train Interior #5 |
+| t100t05 | 0xC16A8D35 | Train Interior #6 |
+| t100t06 | 0x5863DC8F | Train Interior #7 |
 | testmap | 0xEBB16BD2 | testmap |
 | testmappl | 0x438CB286 | TODO |
 | testmappl02 | 0x1EFEDB6D | TODO |
