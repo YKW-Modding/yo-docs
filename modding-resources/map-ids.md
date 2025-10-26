@@ -50,15 +50,17 @@ Together, these two characters form a two digit number which defines the place t
 
 ### Fifth Character
 
-This can either be `g`, `i`, `d`, `w` or `b`.
+This can either be `g`, `i`, `d`, `w`, `s`, `t`, or `b`.
 
-|Letter|Meaning|
-|------|----|
-|g     |"Big" maps|
-|i     |Interiors|
-|d     |Dungeon|
-|w     |Watchmap|
-|b     |Battle background|
+| Letter | Meaning           |
+| ------ | ----------------  |
+| g      | "Big" maps        |
+| i      | Interiors         |
+| d      | Dungeon           |
+| w      | Watchmap          |
+| b      | Battle background |
+| s      | Train station     |
+| t      | Train interior    |
 
 ### Sixth and Seventh Characters
 
