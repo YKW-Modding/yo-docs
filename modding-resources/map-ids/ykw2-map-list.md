@@ -255,3 +255,11 @@ The list is in alphabetical order.
 | t302g00 | Inside Sawayama Castle | 0x48A10D13 |
 | t302i01 | Banquet Hall | 0x3538108F |
 | t303g00 | Sekigahara Stronghold | 0xF01D6A76 |
+| t100t00 | Train Interior #1 (Default) | 0xB10079BA |
+| t100t01 | Train Interior #2 | 0xC607492C |
+| t100t02 | Train Interior #3 | 0x5F0E1896 |
+| t100t03 | Train Interior #4 | 0x28092800 |
+| t100t04 | Train Interior #5 | 0xB66DBDA3 |
+| t100t05 | Train Interior #6 | 0xC16A8D35 |
+| t100t06 | Train Interior #7 | 0x5863DC8F |
+| t100t07 | Train Interior #8 | 0x2F64EC19 |
