@@ -36,7 +36,7 @@ First, in the `SHOP_CONFIG_INFO` tree, increase `ChildCount` by 1. Then:
 * Change the `ShopSlotID` to a random CRC-32, you can do this by going to a website like [this](https://emn178.github.io/online-tools/crc/) and typing anything into the textbox there.
 * Change the `ItemID` to whatever Item you want it to give, a list of `ItemID`s can be found [here](https://ykw-modding.github.io/yo-docs/modding-resources/item-ids/YW2ItemIDs.html).
   * If you want this item to have a limited number of purchases per in-game day, set `HasLimitedStock` to 1 and edit `Stock`, otherwise set `HasLimitedStock` to 0.
-* Increase `shpIndex` by 1 and set the last param (`HasCond`) to 1.
+* Set `ShopValidConditionStartPos` to the previous entrys `ShopValidConditionStartPos` + `ShopValidConditionLength` and set the last param (`ShopValidConditionLength`) to 1.
 * Next, increase the `ChildCount` of `SHOP_VALID_CONDITION`; if it dosen't have this then you are editing the wrong shop.
 * Duplicate the last `SHOP_VALID_CONDITION`.
 * Now, in this new `SHOP_VALID_CONDITION`, change the `Price` to the price of the item.
