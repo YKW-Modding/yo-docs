@@ -3141,7 +3141,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x5EEECB46 | 600 | - |
 | 0xF6855B16 | 601 | - |
 | 0xC5DB8BB5 | 602 | - |
-| 0x1BA5DF5D | 603 | - |
+| 0x1BA5DF5D | 603 | Scratch-Off Data |
 | 0x99F5488C | 604 | - |
 | 0x1A6E5A66 | 605 | - |
 | 0x6C75EE4C | 606 | - |
