@@ -2099,7 +2099,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xB1BD38EC | 2084 | - |
 | 0xC6BA087A | 2085 | - |
 | 0x5FB359C0 | 2086 | - |
-| 0x7D24ED7D | 2087 | - |
+| 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount |
 | 0xE42DBCC7 | 2088 | - |
 | 0x932A8C51 | 2089 | - |
 | 0xD52078AB | 2090 | - |
@@ -3141,7 +3141,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x5EEECB46 | 600 | - |
 | 0xF6855B16 | 601 | - |
 | 0xC5DB8BB5 | 602 | - |
-| 0x1BA5DF5D | 603 | - |
+| 0x1BA5DF5D | 603 | Scratch-Off Data |
 | 0x99F5488C | 604 | - |
 | 0x1A6E5A66 | 605 | - |
 | 0x6C75EE4C | 606 | - |
