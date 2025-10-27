@@ -2099,7 +2099,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xB1BD38EC | 2084 | - |
 | 0xC6BA087A | 2085 | - |
 | 0x5FB359C0 | 2086 | - |
-| 0x7D24ED7D | 2087 | - |
+| 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount |
 | 0xE42DBCC7 | 2088 | - |
 | 0x932A8C51 | 2089 | - |
 | 0xD52078AB | 2090 | - |
