@@ -39,7 +39,7 @@ First, in the `SHOP_CONFIG_INFO` tree, increase `ChildCount` by 1. Then:
 * Set `ShopValidConditionStartPos` to the previous entrys `ShopValidConditionStartPos` + `ShopValidConditionLength` and set the last param (`ShopValidConditionLength`) to 1.
 * Next, increase the `ChildCount` of `SHOP_VALID_CONDITION`; if it dosen't have this then you are editing the wrong shop.
 * Duplicate the last `SHOP_VALID_CONDITION`.
-* Now, in this new `SHOP_VALID_CONDITION`, change the `Price` to the price of the item.
+* Now, in this new `SHOP_VALID_CONDITION`, change the `Price` to either the price of the item or `-1` to make it use the item's `DefaultBuyPrice` (this trick known as Implicit Pricing dosen't work for critters aka bugs, insects and fish).
   * This is usually in the main currency (internally always yen, so $/£/€1.10 = 110yen, 250w = 100y), although sometimes it's non-primary currencies such as JP, BP/KP etc.
 * Finally, change the `Cond` to the Cond you want for the shop item - if you always want it to be available set the `Cond` to 0 (make sure it's an Integer!) and save your changes.
 
