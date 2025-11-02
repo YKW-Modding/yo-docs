@@ -1,5 +1,5 @@
 ---
-title: YW2 Phase Boundaries
+title: YW2 Shops
 layout: default
 parent: Shops
 grand_parent: Modding Resources
