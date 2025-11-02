@@ -36,3 +36,4 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN014`           | Greene's Greens (Shoppers Row)                                                                                               |
 | `shpN015`           | Frank's (Shoppers Row)                                                                                                       |
 | `shpN016`           | Whatta Find                                                                                                                  |
+| `shpN017`           | Settle In Bookstore                                                                                                          |
