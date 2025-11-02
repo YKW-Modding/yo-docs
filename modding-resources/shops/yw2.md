@@ -23,4 +23,5 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN002`           | Everymart - Blossom Heights                                                                                                  |
 | `shpN003`           | Everymart - Downtown Springdale                                                                                              |
 | `shpN004`           | Everymart - Shopper's Row                                                                                                    |
-| `shpN006`           | Banter Bakery.                                                                                                               |
+| `shpN006`           | Banter Bakery                                                                                                                |
+| `shpN007`           | Fish Place                                                                                                                   |
