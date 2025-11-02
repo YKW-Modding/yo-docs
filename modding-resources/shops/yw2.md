@@ -32,3 +32,6 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN010`           | Nom Burger                                                                                                                   |
 | `shpN011`           | Chloro-Phill Good                                                                                                            |
 | `shpN012`           | North-Wind Ramen                                                                                                             |
+| `shpN013`           | Sun Pavillion                                                                                                                |
+| `shpN014`           | Greene's Greens (Shoppers Row)                                                                                               |
+| `shpN015`           | Frank's (Shoppers Row)                                                                                                       |
