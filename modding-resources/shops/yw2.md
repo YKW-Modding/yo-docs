@@ -8,6 +8,8 @@ grand_parent: Modding Resources
 # YW2 Shops
 IDs will be padded to 32-bit integers, with the unpadded variants in brackets when neeeded.
 
+## Normal Shops
+
 | **Shop Name**       |  **Description**                                                                                                             |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `shpKP001`          | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP".              |
