@@ -2184,7 +2184,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x9E502DF4 | 2169 | - |
 | 0xCF8FEFA4 | 2170 | - |
 | 0x5686BE1E | 2171 | - |
-| 0xF92EB4EC | 2172 | - |
+| 0xF92EB4EC | 2172 | Has Master Oden's Baffle Board been activated. |
 | 0xFE13A95A | 2173 | - |
 | 0xBBF62CB8 | 2174 | - |
 | 0xF3842C8C | 2175 | - |

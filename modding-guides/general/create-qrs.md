@@ -6,10 +6,10 @@ parent: General Modding
 ---
 
 # Adding Custom QR Codes
-> **Disclaimer: This guide will roughly work on Yo-kai Watch 2 and 3, but not Yo-kai Watch 1 as this guide generates V2 QR Codes - it also wont teach you how to make random color coins as im lazy.**
+> **Disclaimer: This guide will work for Yo-kai Watch 2 and 3, but not Yo-kai Watch 1 as this guide generates V2 QR Codes - it also wont teach you how to make random color coins as im lazy.**
 
 ## Yo-kai Watch 2
-First, navigate over to `data/res/qr`. You should see 3 files (in this case `_*` means something such as `_0.04b`):
+First, navigate over to `data/res/qr`. You should see 3 files (in this case `_*` means a version prefix such as `_0.04b`):
 * `qr_config_ko_*.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS**.
 * `qr_config_*.cfg.bin` - This is for V1 and V2 Codes. This is the file you want to edit.
 * `qr_config.cfg.bin` - This is an old file. **DO NOT USE THIS**.
@@ -21,7 +21,7 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which w
 * Increase `StartTypeDec` to the previous entries `EndTypeDec` + 1, and `EndTypeDec` to the new `StartTypeDec` + 1.
 * Then change the `ItemID` to whatever you want :P
 * Finally, lets generate some QRs for distribution: Get the `StartTypeDec` and convert it to base36 using a website like [this](https://www.unitconverters.net/numbers/decimal-to-base-36.htm).
-* Then Go to [QRTool](https://n123git.github.io/QRTool/) - and type the result under V2 type (Make sure the letters are capitalised!).
+* Then open [QRTool](https://n123git.github.io/QRTool/) - and type the result under "V2 type" (Make sure the letters are capitalised!).
 * Then select the amount of QRs to generate and enjoy!
 
 ## Yo-kai Watch 3
@@ -34,8 +34,8 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which w
 * Increase `StartTypeDec` to the previous entries `EndTypeDec` + 1, and `EndTypeDec` to the new `StartTypeDec` + 1.
 * Then decide if you want the QR Code to give the player 1 or 2 items:
   * If you want 1 item, set the `Item2ID` to `0`.
-* Configure the rest of the params as you wish, `Flag1ID` and `Flag2ID` are `GlobalBitFlag`s that will be activated once the QR Code has been scanned.
+* Configure the rest of the params as you wish, `Flag1ID` and `Flag2ID` are `GlobalBitFlag`s that will be activated (set to `1`) once the QR Code has been scanned.
 * Set `RandomQRTable` to 0
 * Finally, lets generate some QRs for distribution: Get the `StartTypeDec` and convert it to base36 using a website like [this](https://www.unitconverters.net/numbers/decimal-to-base-36.htm).
-* Then Go to [QRTool](https://n123git.github.io/QRTool/) - and type the result under V2 type (Make sure the letters are capitalised!).
+* Then open [QRTool](https://n123git.github.io/QRTool/) - and type the result under "V2 type" (Make sure the letters are capitalised!).
 * Then select the amount of QRs to generate and enjoy!

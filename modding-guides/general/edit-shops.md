@@ -36,11 +36,15 @@ First, in the `SHOP_CONFIG_INFO` tree, increase `ChildCount` by 1. Then:
 * Change the `ShopSlotID` to a random CRC-32, you can do this by going to a website like [this](https://emn178.github.io/online-tools/crc/) and typing anything into the textbox there.
 * Change the `ItemID` to whatever Item you want it to give, a list of `ItemID`s can be found [here](https://ykw-modding.github.io/yo-docs/modding-resources/item-ids/YW2ItemIDs.html).
   * If you want this item to have a limited number of purchases per in-game day, set `HasLimitedStock` to 1 and edit `Stock`, otherwise set `HasLimitedStock` to 0.
+  * If you set the `ItemID` to that of a critter (bugs, fish and insects) the game occasionally let you buy more than 1 at a time - this can be quite infuriating so you might want to avoid this.
 * Set `ShopValidConditionStartPos` to the previous entrys `ShopValidConditionStartPos` + `ShopValidConditionLength` and set the last param (`ShopValidConditionLength`) to 1.
 * Next, increase the `ChildCount` of `SHOP_VALID_CONDITION`; if it dosen't have this then you are editing the wrong shop.
 * Duplicate the last `SHOP_VALID_CONDITION`.
-* Now, in this new `SHOP_VALID_CONDITION`, change the `Price` to the price of the item.
+* Now, in this new `SHOP_VALID_CONDITION`, change the `Price` to either the price of the item or `-1` to make it use the item's `DefaultBuyPrice`.
+  * This trick known as Implicit Pricing dosen't work for critters aka bugs, insects and fish; it will just get treated as the `Price`.
   * This is usually in the main currency (internally always yen, so $/£/€1.10 = 110yen, 250w = 100y), although sometimes it's non-primary currencies such as JP, BP/KP etc.
+  * Negative pricing works; granting the player money but will be incorrectly formatted i.e. `-1` would be mistakenly formated as `$0.-1`, `£0.-1` or `€0.-1` in localised versions.
+    * Additionally the game rounds under the limit so if you have `999998` and you buy an item with a Price of `-2`; it won't go above `999999`. 
 * Finally, change the `Cond` to the Cond you want for the shop item - if you always want it to be available set the `Cond` to 0 (make sure it's an Integer!) and save your changes.
 
 ### Adding a new Shop (W.I.P)
