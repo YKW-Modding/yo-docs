@@ -27,3 +27,4 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN007`           | Fish Place                                                                                                                   |
 | `shpN008`           | Candy Shop (Blossom Heights)                                                                                                 |
 | `shpN009`           | Hot Spring's Milk Shop                                                                                                       |
+| `shpN010`           | Nom Burger                                                                                                                   |
