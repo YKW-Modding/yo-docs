@@ -34,7 +34,7 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which w
 * Increase `StartTypeDec` to the previous entries `EndTypeDec` + 1, and `EndTypeDec` to the new `StartTypeDec` + 1.
 * Then decide if you want the QR Code to give the player 1 or 2 items:
   * If you want 1 item, set the `Item2ID` to `0`.
-* Configure the rest of the params as you wish, `Flag1ID` and `Flag2ID` are `GlobalBitFlag`s that will be activated once the QR Code has been scanned.
+* Configure the rest of the params as you wish, `Flag1ID` and `Flag2ID` are `GlobalBitFlag`s that will be activated (set to `1`) once the QR Code has been scanned.
 * Set `RandomQRTable` to 0
 * Finally, lets generate some QRs for distribution: Get the `StartTypeDec` and convert it to base36 using a website like [this](https://www.unitconverters.net/numbers/decimal-to-base-36.htm).
 * Then Go to [QRTool](https://n123git.github.io/QRTool/) - and type the result under V2 type (Make sure the letters are capitalised!).
