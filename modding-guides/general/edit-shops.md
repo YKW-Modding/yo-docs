@@ -44,6 +44,7 @@ First, in the `SHOP_CONFIG_INFO` tree, increase `ChildCount` by 1. Then:
   * This trick known as Implicit Pricing dosen't work for critters aka bugs, insects and fish
   * This is usually in the main currency (internally always yen, so $/£/€1.10 = 110yen, 250w = 100y), although sometimes it's non-primary currencies such as JP, BP/KP etc.
   * Negative pricing works; granting the player money but will be incorrectly formatted i.e. `-1` would be mistakenly formated as `$0.-1`, `£0.-1` or `€0.-1` in localised versions.
+    * Additionally the game rounds under the limit so if you have `999998` and you buy an item with a Price of `-2`; it won't go above `999999`. 
 * Finally, change the `Cond` to the Cond you want for the shop item - if you always want it to be available set the `Cond` to 0 (make sure it's an Integer!) and save your changes.
 
 ### Adding a new Shop (W.I.P)
