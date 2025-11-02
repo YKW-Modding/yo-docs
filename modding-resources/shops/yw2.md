@@ -21,3 +21,5 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpM003`           | Vending Machine #3; Soul Tea & Spiritizer Y                                                                                  |
 | `shpN001`           | Everymart - Uptown Springdale                                                                                                |
 | `shpN002`           | Everymart - Blossom Heights                                                                                                  |
+| `shpN003`           | Everymart - ???                                                                                                              |
+| `shpN004`           | Everymart - Shopper's Row                                                                                                    |
