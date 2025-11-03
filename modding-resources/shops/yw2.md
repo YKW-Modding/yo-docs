@@ -39,3 +39,4 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN017`           | Settle In Bookstore                                                                                                          |
 | `shpN018`           | Old Talisman Seller (Mt. Wildwood)                                                                                           |
 | `shpN019`           | Jungle Hunter's Black Syrup Seller                                                                                           |
+| `shpN020`           | Belly Buster Curry                                                                                                           |
