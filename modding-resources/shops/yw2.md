@@ -12,7 +12,7 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 
 | **Shop Name**       |  **Description**                                                                                                             |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `shpKP001`          | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP".              |
+| `shpKP001`          | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP").             |
 | `shpB001`           | Unused blank shop.                                                                                                           |
 | `shpB002`           | Unused blank shop.                                                                                                           |
 | `shpBB001`          | Unused blank shop.                                                                                                           |
@@ -31,3 +31,12 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN009`           | Hot Spring's Milk Shop                                                                                                       |
 | `shpN010`           | Nom Burger                                                                                                                   |
 | `shpN011`           | Chloro-Phill Good                                                                                                            |
+| `shpN012`           | North-Wind Ramen                                                                                                             |
+| `shpN013`           | Sun Pavillion                                                                                                                |
+| `shpN014`           | Greene's Greens (Shoppers Row)                                                                                               |
+| `shpN015`           | Frank's (Shoppers Row)                                                                                                       |
+| `shpN016`           | Whatta Find                                                                                                                  |
+| `shpN017`           | Settle In Bookstore                                                                                                          |
+| `shpN018`           | Old Talisman Seller (Mt. Wildwood)                                                                                           |
+| `shpN019`           | Jungle Hunter's Black Syrup Seller                                                                                           |
+| `shpN020`           | Belly Buster Curry                                                                                                           |
