@@ -45,3 +45,15 @@ There are several types of flags with the most common type being `GlobalBitFlags
 * Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
 * Save and Enjoy!
 
+## Creating TempMapBitFlags
+* Navigate over to `data/res/map/` and open `<mapName>.pck`.
+* Open `<mapName>_flag.cfg.bin`
+  * If it is not there; the map has no TempMapBitFlags and you must copy the `cfg.bin` from another map.
+* Click on `FLAG_INFO_0`.
+  * Increase the `ChildCount` by 1.
+* Duplicate the last entry in `FLAG_INFO_0` and select the newly created entry.
+* Increase the `FlagSlot` by 1.
+* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
+* Save and Enjoy!
+* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
+* Save and Enjoy!
