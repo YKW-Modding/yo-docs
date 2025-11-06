@@ -16,4 +16,5 @@ In Yo-kai Watch 2:
 * `FLAG_INFO_4` flags have an unknown purpose.
 
 > Note: Flags with the same ID can be in several `_INFO_*` list's. The most common example are `FlagID`s present in both `FLAG_INFO_0` and `FLAG_INFO_1`.
-> Note: This resource will **NOT** cover map-specific flags; just Global flags accessible in the global cfg.bin at `data/res/sys/flag_config_0.01.cfg.bin`
+
+> Note: This resource will **NOT** cover map-specific flags; just Global flags accessible in the global cfg.bin present at `data/res/sys/flag_config_0.01.cfg.bin`
