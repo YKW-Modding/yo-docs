@@ -3159,32 +3159,32 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xD4658950 | 638 | - |
 | 0x4A011CF3 | 639 | - |
 
-## FLAG_INFO_2 (1, 552)
+## FLAG_INFO_2 (1, 552) - GlobalTBoxFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
 | 0x4FF4F23F | 0 | - |
-| 0x213DF173 | 1 | - |
-| 0xB834A0C9 | 2 | - |
-| 0xCF33905F | 3 | - |
-| 0x515705FC | 4 | - |
-| 0x2650356A | 5 | - |
-| 0xBF5964D0 | 6 | - |
-| 0xC85E5446 | 7 | - |
-| 0x58E149D7 | 8 | - |
-| 0x2FE67941 | 9 | - |
-| 0x4F21F0A4 | 10 | - |
-| 0x3826C032 | 11 | - |
-| 0x33885E9D | 12 | - |
-| 0xAA810F27 | 13 | - |
-| 0xDD863FB1 | 14 | - |
-| 0x43E2AA12 | 15 | - |
-| 0x34E59A84 | 16 | - |
-| 0xADECCB3E | 17 | - |
-| 0xDAEBFBA8 | 18 | - |
-| 0x4A54E639 | 19 | - |
-| 0x3D53D6AF | 20 | - |
-| 0x5D945F4A | 21 | - |
+| 0x213DF173 | 1 | Uptown Springdale - Treasure Chest #1 |
+| 0xB834A0C9 | 2 | Uptown Springdale - Treasure Chest #2  |
+| 0xCF33905F | 3 | Uptown Springdale - Treasure Chest #3 |
+| 0x515705FC | 4 | Uptown Springdale - Treasure Chest #4 |
+| 0x2650356A | 5 | Uptown Springdale - Treasure Chest #5 |
+| 0xBF5964D0 | 6 | Uptown Springdale - Treasure Chest #6 |
+| 0xC85E5446 | 7 | Uptown Springdale - Treasure Chest #7 |
+| 0x58E149D7 | 8 | Uptown Springdale - Treasure Chest #8 |
+| 0x2FE67941 | 9 | Uptown Springdale - Treasure Chest #9 |
+| 0x4F21F0A4 | 10 | Uptown Springdale - Treasure Chest #10 |
+| 0x3826C032 | 11 | Uptown Springdale - Treasure Chest #11 |
+| 0x33885E9D | 12 | Uptown Springdale - Treasure Chest #12 |
+| 0xAA810F27 | 13 | Uptown Springdale - Treasure Chest #13 |
+| 0xDD863FB1 | 14 | Uptown Springdale - Treasure Chest #14 |
+| 0x43E2AA12 | 15 | Uptown Springdale - Treasure Chest #15 |
+| 0x34E59A84 | 16 | Uptown Springdale - Treasure Chest #16 |
+| 0xADECCB3E | 17 | Uptown Springdale - Treasure Chest #17 |
+| 0xDAEBFBA8 | 18 | Uptown Springdale - Treasure Chest #18 |
+| 0x4A54E639 | 19 | Uptown Springdale - Treasure Chest #19 |
+| 0x3D53D6AF | 20 | Uptown Springdale - Treasure Chest #20 |
+| 0x5D945F4A | 21 | Uptown Springdale - Treasure Chest #21 |
 | 0x64EE2535 | 22 | - |
 | 0x765B8ADB | 23 | - |
 | 0xE27A579B | 24 | - |
@@ -3650,7 +3650,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xF2352FB2 | 485 | - |
 | 0x0E8EE170 (0xE8EE170) | 486 | - |
 | 0x9787B0CA | 487 | - |
-| 0x2A936FDC | 488 | - |
+| 0x2A936FDC | 488 | Uptown Springdale - Treasure Chest #22 |
 | 0x7188BBDA | 489 | - |
 | 0xC2AB0EDC | 490 | - |
 | 0xCC431D5A | 491 | - |
