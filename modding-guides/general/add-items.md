@@ -47,23 +47,25 @@ parent: General Modding
 
 1. Open `data/res/item/item_config_0.05d.cfg.bin` in CfgBinEditor
 
-2. On the entry group of your item type add 1 to the value. If your making a consumable the entry group will be `ITEM_CONSUME`, if your making equipment it'll be `ITEM_EQUIPMENT`.
+2. On the entry root entry of your Item's category and increase the `ChildCount` by 1.
+  * If your making a consumable (Food and misc. Items) the entry group will be `ITEM_CONSUME`, if your making Equipment it'll be `ITEM_EQUIPMENT`, Key Items are under `ITEM_IMPORTANT` and Critters (Bugs/Fish/Insects) are under `ITEM_CREATURE`.
 
-3. Open your entry group.
+4. Open your root entry.
 
-4. Duplicate one of the entries.
+5. Duplicate one of the child entries.
 
-5. Set your tags to `YW1`
+6. Set your tags to `YW1`
 
-6. Generate a ItemID from a crc website https://emn178.github.io/online-tools/crc/. Put anything you'd like it should turn out smth like 0x50ED2AAD. Now add that as your ItemID
+7. Generate a ItemID from a CRC-32 website such as [this](https://emn178.github.io/online-tools/crc/)
+* Tyoe anything you'd like it should turn out as something like `0x50ED2AAD` (this example website dosen't show the `0x` but add it anyway). Now add that as your `ItemID`
 
-7. Add The NameID we made in the previous step.
+9. Add The `NounTextID` we made in the previous step.
 
-8. Add The Inventory Sort. this is the category your item will go in.
+10. Add The `InventorySort`. this (and the item category i.e. `ITEM_CONSUME`) determine the category your item will be sorted in within the game's UI.
 Yo-kai Watch 1 `InventorySort`(s):
 * `10`: Food
 * `20`: Misc Items
-* `30`: Critters  (Bugs & Fish)
+* `30`: Critters (Bugs & Fish)
 * `40`: Equipment
 * `50`: Key Items
 
@@ -100,15 +102,17 @@ Yo-kai Watch 1 `ItemType`(s):
  * Set `ItemNum` to the the number of the previous item + 1
  * Set `GlobalItemIndex` to the number of your item xi. So item_309.xi would be 309.
 
-13. Set your CarryCap (Max amount of items you can have in a stack. Usually is 99)
+13. Set your `CarryCap` (Maximum amount of items you can have in a stack. This is usually 99)
 
-14. Set your SellPrice & PurchasePrice. 
+14. Set your `SellPrice` and `DefaultBuyPrice`. 
 
 15. Set `CanBeBought`, `CanBeSold` and `IsFusable`:
-* 0 - No (False)
-* 1 - Yes (True)
+* `0` - No (False)
+* `1` - Yes (True)
 
-16. Set the offsets for `ItemPosX` & `ItemPosY`. It should be how far across is the item and how far down in `item_icon.xi` (note: it's zero indexed meaning row 0 is the 1st, row 1 is the 2nd etc; same for columns). Find this based on what we did on the last step.
+16. Set the offsets for `ItemPosX` and `ItemPosY`.
+* It should be how far across is the item and how far down in `item_icon.xi`
+> Note: This is *zero-indexed* meaning an `IconPosY` of `0` refers to the first row, `1` refers to the second row etc; same for columns aka `IconPosX`.
 
 16. Set your `InvMenuTextID` and `NounTextID` to the `TextID` you made for your item in the previous step.
 
