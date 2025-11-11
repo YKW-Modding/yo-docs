@@ -6,29 +6,33 @@ parent: General Modding
 ---
 
 # How to Add Items
-**Original guide by @stringsbutalt on discord, modified by @n123original**
+**Original guide by @stringsbutalt on discord, rewritten, and improved by @n123original**
 
-**CONFIRMED TO WORK ON YO-KAI WATCH 1.**
+**CONFIRMED TO WORK ON YO-KAI WATCH 1 & 2.**
 
-There are 2 types of items you can add first is equipment & consumables. The guide will vary a tad bit for all of them
+# Yo-kai Watch 1
 
-**Making the Item Name & Description**
-1. Open `data/res/text/item_text_ja.cfg.bin`
-(Set )
+## **Making the Item Name & Description**
+1. Open `data/res/text/item_text_<language>.cfg.bin`; where `<language>` is the language you want to make the name for. For example:
+* `ja` for Japanese
+* `fr` for French
+* `en` for American English
+* `engb` for European English
+* `it` for Italian, etc
 
-2. Add 2 to the value of entry group `TEXT_INFO`
+3. Add 2 to the value of entry group `TEXT_INFO`
 
-3. Duplicate 2 entries.
+4. Duplicate 2 entries.
 
-4. In the duplicated entries generate a new CRC. Set it as the TextID. You should have 2 now. One for the Item Name & Item Description.
+5. In the duplicated entries generate a new CRC. Set it as the TextID. You should have 2 now. One for the Item Name & Item Description.
 
-5. Now for your name entry set the "Text" field to your items name. In description entry set the "Text" to your items description.
+6. Now for your name entry set the "Text" field to your items name. In description entry set the "Text" to your items description.
 
-6. Remember your Name TextID & Description TextID. you'll need em 4 later
+7. Remember your Name TextID & Description TextID. you'll need em 4 later
 
 
-**Making the Item Icon**
-1. Open ``data/menu/item/item_icon.xi`` in k2
+## **Making the Item Icon**
+1. Open ``data/menu/item_icon.xi`` in K2
 
 2. Open the png, extract the png. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
 
@@ -39,7 +43,7 @@ There are 2 types of items you can add first is equipment & consumables. The gui
 5. Change the texture to your custom items texture
 
 
-**Adding the Item**
+## **Registering the Item**
 
 1. Open `data/res/item/item_config_0.05d.cfg.bin` in CfgBinEditor
 
@@ -56,38 +60,76 @@ There are 2 types of items you can add first is equipment & consumables. The gui
 7. Add The NameID we made in the previous step.
 
 8. Add The Inventory Sort. this is the category your item will go in.
-10 = Food
-20 = Item
-30 = Creature
-40 = Soul
-50 = Equipment
-60 = Key Item
-61 = Key Item with Image
+Yo-kai Watch 1 `InventorySort`(s):
+* `10`: Food
+* `20`: Misc Items
+* `30`: Critters  (Bugs & Fish)
+* `40`: Equipment
+* `50`: Key Items
 
-9. Add the ItemType. (I haven't documented them so gl). 
+9. Add the ItemType:
+Yo-kai Watch 1 `ItemType`(s):
+* `0`: Misc Items
+* `1`: Rice Balls
+* `2`: Bread
+* `3`: Candy
+* `4`: Milk
+* `5`: Juice
+* `6`: Burgers
+* `8`: Ramen
+* `10`: Chinese Food
+* `12`: Vegetables
+* `13`: Meat
+* `14`: Fish (Food)
+* `20`: Fish (Critters)
+* `21`: Bugs/Insects
+* `30`: Equipment
+* `40`: Key Items
+* `41`: Trophies
+* `50`: Talismans
+* `51`: Medicine
+* `52`: Getaway Plush
+* `53`: Staminums
+* `54`: Exporb
+* `55`: Move level Books
+* `56`: Attitude Books
+* `57`: Loaf Books
+* `70`: Crank-a-kai Coins
 
-10. Set your Offsets. Set Offset2 to the number of your item xi. So item_309.xi would be 309.
+11. Set your Offsets.
+ * Set `ItemNum` to the the number of the previous item + 1
+ * Set `GlobalItemIndex` to the number of your item xi. So item_309.xi would be 309.
 
-11. Set your CarryCap (Max amount of items you can have in a stack. Usually is 99)
+13. Set your CarryCap (Max amount of items you can have in a stack. Usually is 99)
 
-12. Set your SellPrice & PurchasePrice. 
+14. Set your SellPrice & PurchasePrice. 
 
-13. Set the offset of the ItemPosX & Y. It should be how far across is the item and how far down. Find this based on what we did on the last step.
+15. Set `CanBeBought`, `CanBeSold` and `IsFusable`:
+* 0 - No (False)
+* 1 - Yes (True)
 
-14. Set your DescriptionID to the textID you made for your item in the previous step.
+16. Set the offsets for `ItemPosX` & `ItemPosY`. It should be how far across is the item and how far down in `item_icon.xi` (note: it's zero indexed meaning row 0 is the 1st, row 1 is the 2nd etc; same for columns). Find this based on what we did on the last step.
 
-15. Open ItemIndex and add 1 to the entry group value.
+16. Set your `InvMenuTextID` and `NounTextID` to the `TextID` you made for your item in the previous step.
 
-16. Duplicate a entry. Set the ItemID to the ItemID u created. Set the ItemSort to your ItemSort.
+17. Open `ItemIndex` and add 1 to the entry group value (`ChildCount` of the tree).
 
+18. Duplicate a entry. Set the `ItemID` to the `ItemID` you created. Set the `InventorySort` to your `InventorySort`, and the `MainItemIndex` to the last entry's `MainItemIndex` + 1.
 
-
-there are also Item Equipment and Item Consume Conditions
-
-but i have no clue how those work lmao
-
-ik how u call them but idk how to make them. so i left that out
-
+If it's an equipment: 
+* Set `STRBuff` and the Buff's for all the other stat's to the stat changes you want i.e. 5 = +5, -5 = -5, 0 = unchanged.
+* Optionally, set `SkillIDA` (and `SkillIDB` if you need two) to the `SkillID`s for the special effect you want your equipment to have.
+If it's a consumable:
+* Set `EffectA` to the effect type and `EffectAValue` to it's value. Same for `EffectB` if you need a 2nd effect. I.e. set `EffectA` to `Infinite Stamina (Seconds)` and `EffectAValue` to 30:
+Yo-kai Watch 1 Consumable `Effect`(s):
+* `0` - N/A
+* `1` - Run BtlCommandID
+* `2` - Heal HP
+* `3` - Raise XP
+* `4` - Raise Attack/Technique/Soultimate level by 1,  3 increases Soultimate Level, 2 increases Technique Level and  1 increases Attack Level.
+* `5` - Edits a Yo-kais Move Attitude, NOT loaf attitude.
+* `6` - Infinite Stamina (Seconds)
+* `7` - Raise Attitude Points
 **BASE ITEM IMAGE:**
 
-![Base item image](https://i.imgur.com/MnvvCkL.png)
+![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
