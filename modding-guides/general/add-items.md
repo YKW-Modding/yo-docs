@@ -6,7 +6,7 @@ parent: General Modding
 ---
 
 # How to Add Items
-**Original guide by @stringsbutalt on discord. Rewritten, expanded on and improved by @n123original**
+**Original guide by @stringsbutalt on discord. Rewritten, and expanded on by @n123original**
 
 **CONFIRMED TO WORK ON YO-KAI WATCH 1 & 2.**
 
@@ -38,7 +38,7 @@ parent: General Modding
 
 3. Copy a item like item_002.xi for example
 
-4. rename it to the next available item number in my case 309. (this'll be your Offset2 in item step)
+4. Rename it to the next available item number in my case 309. (this'll be your `GlobalItemIndex` in the item step)
 
 5. Change the texture to your custom items texture
 
