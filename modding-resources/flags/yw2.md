@@ -3885,7 +3885,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xC0D9B906 | 180 | - |
 | 0x59D0E8BC | 181 | - |
 
-## FLAG_INFO_4 (8, 67)
+## FLAG_INFO_4 (8, 67) - TempByteFlag
 
 | FLAG_ID | Slot | Notes |
 |---------|------|-------|
