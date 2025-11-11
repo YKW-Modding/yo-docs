@@ -122,14 +122,14 @@ If it's an equipment:
 If it's a consumable:
 * Set `EffectA` to the effect type and `EffectAValue` to it's value. Same for `EffectB` if you need a 2nd effect. I.e. set `EffectA` to `Infinite Stamina (Seconds)` and `EffectAValue` to 30:
 Yo-kai Watch 1 Consumable `Effect`(s):
-* `0` - N/A
-* `1` - Run BtlCommandID
+* `0` - N/A  (No Effect)
+* `1` - Run BtlCommandID (Used for special effects such as feeding enemies for befriending)
 * `2` - Heal HP
 * `3` - Raise XP
 * `4` - Raise Attack/Technique/Soultimate level by 1,  3 increases Soultimate Level, 2 increases Technique Level and  1 increases Attack Level.
 * `5` - Edits a Yo-kais Move Attitude, NOT loaf attitude.
 * `6` - Infinite Stamina (Seconds)
-* `7` - Raise Attitude Points
+* `7` - Raise Attitude Points (used for EV developement; aka stat buffs)
 **BASE ITEM IMAGE:**
 
 ![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
