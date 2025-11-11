@@ -27,6 +27,5 @@ Next open `CfgBin Editor` for the next steps:
 * Click on [this](/item_config_0.05d.cfg.bin) link and click the download button to download this example `cfg.bin` (to be specific it's YW1 EUR's `item_config`.)
 * Optionally click on Settings > Languages and Settings > Themes to adjust the tool to your liking.
 * Then, open the file in `CfgBin Editor` using File > Open (or the shortcut Ctrl+O)
-* 
-
-Next Open
+You should then see something like this:
+![Screenshot of cfg.bin editor; rather unfortunate if you needed this alt text...](assets/mainShot2.png)
