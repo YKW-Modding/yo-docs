@@ -71,4 +71,10 @@ Let's add a new entry to `ITEM_INDEX`:
 * Now click on the newly created `ITEM_INDEX` we are going to edit the values/params
 * Increase the `MainItemIndex` by 1.
 
-Now that you have an Extracted RomFS and a basic idea on how to use `CfgBin Editor`, go and follow a different guide to start modding!
+## Generating CRCs
+Alot of guide's will ask you to generate a CRC32 for an ID i.e. `ItemID`s.
+You can do this by going to a website like [this](https://emn178.github.io/online-tools/crc/) and typing literally anything.
+* You should end up with something like `940fdaec`, in `CfgBin Editor` you should add a `0x` to the beginning so `0x940fdaec`.
+> Note: if you type the same thing in the website, you'll end up with the same CRC32 and since IDs should be unique I'd recommend random keyboard spam like "dfhdsiuhudshodsh" (ofcourse don't break your keyboard :P )
+
+Now that you have an Extracted RomFS and a basic idea on how to use `CfgBin Editor` and generate CRCs, go and follow a different guide to start modding!
