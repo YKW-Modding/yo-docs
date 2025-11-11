@@ -6,7 +6,7 @@ parent: General Modding
 ---
 
 # How to Add Items
-**Original guide by @stringsbutalt on discord, rewritten, and improved by @n123original**
+**Original guide by @stringsbutalt on discord. Rewritten, expanded on and improved by @n123original**
 
 **CONFIRMED TO WORK ON YO-KAI WATCH 1 & 2.**
 
@@ -116,9 +116,7 @@ Yo-kai Watch 1 `ItemType`(s):
 
 18. Duplicate a entry. Set the `ItemID` to the `ItemID` you created. Set the `InventorySort` to your `InventorySort`, and the `MainItemIndex` to the last entry's `MainItemIndex` + 1.
 
-If it's an equipment: 
-* Set `STRBuff` and the Buff's for all the other stat's to the stat changes you want i.e. 5 = +5, -5 = -5, 0 = unchanged.
-* Optionally, set `SkillIDA` (and `SkillIDB` if you need two) to the `SkillID`s for the special effect you want your equipment to have.
+
 If it's a consumable:
 * Set `EffectA` to the effect type and `EffectAValue` to it's value. Same for `EffectB` if you need a 2nd effect. I.e. set `EffectA` to `Infinite Stamina (Seconds)` and `EffectAValue` to 30:
 Yo-kai Watch 1 Consumable `Effect`(s):
@@ -130,6 +128,37 @@ Yo-kai Watch 1 Consumable `Effect`(s):
 * `5` - Edits a Yo-kais Move Attitude, NOT loaf attitude.
 * `6` - Infinite Stamina (Seconds)
 * `7` - Raise Attitude Points (used for EV developement; aka stat buffs)
+If it's an equipment: 
+* Set `STRBuff` and the Buff's for all the other stat's to the stat changes you want i.e. 5 = +5, -5 = -5, 0 = unchanged.
+* Optionally, set `SkillIDA` (and `SkillIDB` if you need two) to the `SkillID`s for the special effect you want your equipment to have.
+Finally, if you don't want your equipment to have any requirements set `EquipRequirement` to 0, otherwise follow the steps below:
+
+### Equipment Requirements
+If the game has already registered a requirement you want to use for an item use one of the following, otherwise continue to create custom requirements:
+Yo-kai Watch 1 Vanilla Equip Requirements:
+* `0` - N/A
+* `1` - D-rank or lower Yo-kai
+* `2` - Cicada Yo-kai (Cadin, Cadable and Singcada)
+* `3` - Cat Yo-kai (Jibanyan, Thornyan, Baddinyan, Robonyan, Goldenyan, Dianyan, Sapphinyan, Emenyan, Rubinyan, Topanyan, Shogunyan)
+* `4` - Kappa Yo-kai (Walkappa, Appak and Supyo)
+* `5` - Tengu Yo-kai (Tengu and Flengu)
+* `6` - Wiglin, Steppa and Rhyth
+* `7` - Badude and Bruff
+If none of these suit your goals; it's time to make some custom requirements!
+* Click on the top-level tree `ITEM_EQUIP_COND` and increase `ChildCount` by 1
+* Then duplicate an `ITEM_EQUIP_COND`, if you want your equipment to have a Maximum Rank the yo-kai can be set the `MaximumRank` to that rank:
+YW1 Ranks:
+* `0`: E
+* `1`: D
+* `2`: C
+* `3`: B
+* `4`: A
+* `5`: S
+* If you want other conditions in Yo-kai Watch 1 you unfortunately have to whitelist specific yokai
+  * If you **DONT** want to do this set `StartBoundary` and `BoundaryLength` to 0.
+* To do this set `StartBoundary` to the amount of `ITEM_EQUIP_COND_CHARA`(s) for example if there's 10 the last one will be called `ITEM_EQUIP_COND_CHARA_9` in CfgBin Editor.
+* Then set `BoundaryLength` to the amount of Yo-kai you want to whitelist.
+* Then duplicate `BoundaryLength` `ITEM_EQUIP_COND_CHARA`(s) (and increase `ChildCount` of the main/root entry `BoundaryLength` times) and for each `ITEM_EQUIP_COND_CHARA` you've duplicated, set the `BaseID` to the `BaseID` of a Yo-kai you want to whitelist.
 **BASE ITEM IMAGE:**
 
 ![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
