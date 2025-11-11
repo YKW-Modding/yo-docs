@@ -29,3 +29,9 @@ Next open `CfgBin Editor` for the next steps:
 * Then, open the file in `CfgBin Editor` using File > Open (or the shortcut Ctrl+O)
 You should then see something like this:
 ![Screenshot of cfg.bin editor; rather unfortunate if you needed this alt text...](assets/mainShot2.png)
+Now lets practice a few edits!
+First and most importantly of all, let's activate MyTags; this file is from Yo-kai Watch 1 so select YW1 under the MyTags select.
+
+* Click "Add Root Entry" (under the search bar)
+* Now type the name of the entry you wish to create, for this example i'll type "hello!"
+* Click "Ok".
