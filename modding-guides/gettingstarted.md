@@ -58,3 +58,16 @@ Additionally, if an error occurs (i.e. you try to open something that isn't a `c
 
 Next you can right click an entry to see a list of buttons, I wont cover them as they are very self-explanatory, but I will show a picture!
 ![Screenshot of cfg.bin editor](assets/entryControls.png)
+
+Now lets do something practical!
+
+Let's add a new entry to `ITEM_INDEX`:
+* Click on the `ITEM_INDEX` root entry
+* Increase `ChildCount` by 1
+* Now we are going to add a child to the tree
+* Click on the arrow to expand the tree
+* Scroll down to the last entry (`ITEM_INDEX_380` meaning the 381st `ITEM_INDEX`).
+* Right click it and click Duplicate
+* Now click on the newly created `ITEM_INDEX` we are going to edit the values/params
+* Increase the `MainItemIndex` by 1
+Now that you have an Extracted RomFS and a basic idea on how to use `CfgBin Editor`, go and follow a different guide to start modding!
