@@ -69,5 +69,6 @@ Let's add a new entry to `ITEM_INDEX`:
 * Scroll down to the last entry (`ITEM_INDEX_380` meaning the 381st `ITEM_INDEX`).
 * Right click it and click Duplicate
 * Now click on the newly created `ITEM_INDEX` we are going to edit the values/params
-* Increase the `MainItemIndex` by 1
+* Increase the `MainItemIndex` by 1.
+
 Now that you have an Extracted RomFS and a basic idea on how to use `CfgBin Editor`, go and follow a different guide to start modding!
