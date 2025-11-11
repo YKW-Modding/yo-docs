@@ -12,7 +12,7 @@ parent: General Modding
 
 # Yo-kai Watch 1
 
-## **Making the Item Name & Description**
+## **Registering the Item Name & Description**
 1. Open `data/res/text/item_text_<language>.cfg.bin`; where `<language>` is the language you want to make the name for. For example:
 * `ja` for Japanese
 * `fr` for French
@@ -20,21 +20,21 @@ parent: General Modding
 * `engb` for European English
 * `it` for Italian, etc
 
-3. Add 2 to the value of entry group `TEXT_INFO`
+3. Add 2 to the value of entry group `TEXT_INFO`.
 
 4. Duplicate 2 entries.
 
-5. In the duplicated entries generate a new CRC. Set it as the TextID. You should have 2 now. One for the Item Name & Item Description.
+5. In the duplicated entries generate a new CRC32. Set it as the `TextID`. You should have 2 now. One for the Item Name and one for the Item Description.
 
-6. Now for your name entry set the "Text" field to your items name. In description entry set the "Text" to your items description.
+6. Now for your name entry set the "`Text`" field to your items name. In description entry set the "`Text`" to your item's description.
 
-7. Remember your Name TextID & Description TextID. you'll need these for later
+7. Remember (or note down) your `NounTextID` & Description `TextID`. you'll need these for later.
 
 
-## **Making the Item Icon**
+## **Creating the Item Icon**
 1. Open ``data/menu/item_icon.xi`` in K2
 
-2. Open the png, extract the png. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
+2. Open and extract the PNG,. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
 
 3. Copy a item like item_002.xi for example
 
