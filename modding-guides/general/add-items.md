@@ -12,7 +12,7 @@ parent: General Modding
 
 # Yo-kai Watch 1
 
-## **Making the Item Name & Description**
+## **Registering the Item Name & Description**
 1. Open `data/res/text/item_text_<language>.cfg.bin`; where `<language>` is the language you want to make the name for. For example:
 * `ja` for Japanese
 * `fr` for French
@@ -20,21 +20,21 @@ parent: General Modding
 * `engb` for European English
 * `it` for Italian, etc
 
-3. Add 2 to the value of entry group `TEXT_INFO`
+3. Add 2 to the value of entry group `TEXT_INFO`.
 
 4. Duplicate 2 entries.
 
-5. In the duplicated entries generate a new CRC. Set it as the TextID. You should have 2 now. One for the Item Name & Item Description.
+5. In the duplicated entries generate a new CRC32. Set it as the `TextID`. You should have 2 now. One for the Item Name and one for the Item Description.
 
-6. Now for your name entry set the "Text" field to your items name. In description entry set the "Text" to your items description.
+6. Now for your name entry set the "`Text`" field to your items name. In description entry set the "`Text`" to your item's description.
 
-7. Remember your Name TextID & Description TextID. you'll need em 4 later
+7. Remember (or note down) your `NounTextID` & Description `TextID`. you'll need these for later.
 
 
-## **Making the Item Icon**
+## **Creating the Item Icon**
 1. Open ``data/menu/item_icon.xi`` in K2
 
-2. Open the png, extract the png. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
+2. Open and extract the PNG,. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
 
 3. Copy a item like item_002.xi for example
 
@@ -62,6 +62,7 @@ parent: General Modding
 9. Add The `NounTextID` we made in the previous step.
 
 10. Add The `InventorySort`. this (and the item category i.e. `ITEM_CONSUME`) determine the category your item will be sorted in within the game's UI.
+
 Yo-kai Watch 1 `InventorySort`(s):
 * `10`: Food
 * `20`: Misc Items
@@ -70,6 +71,7 @@ Yo-kai Watch 1 `InventorySort`(s):
 * `50`: Key Items
 
 9. Add the ItemType:
+
 Yo-kai Watch 1 `ItemType`(s):
 * `0`: Misc Items
 * `1`: Rice Balls
@@ -123,6 +125,7 @@ Yo-kai Watch 1 `ItemType`(s):
 
 If it's a consumable:
 * Set `EffectA` to the effect type and `EffectAValue` to it's value. Same for `EffectB` if you need a 2nd effect. I.e. set `EffectA` to `Infinite Stamina (Seconds)` and `EffectAValue` to 30:
+
 Yo-kai Watch 1 Consumable `Effect`(s):
 * `0` - N/A  (No Effect)
 * `1` - Run BtlCommandID (Used for special effects such as feeding enemies for befriending)
@@ -132,13 +135,16 @@ Yo-kai Watch 1 Consumable `Effect`(s):
 * `5` - Edits a Yo-kais Move Attitude, NOT loaf attitude.
 * `6` - Infinite Stamina (Seconds)
 * `7` - Raise Attitude Points (used for EV developement; aka stat buffs)
+
 If it's an equipment: 
 * Set `STRBuff` and the Buff's for all the other stat's to the stat changes you want i.e. 5 = +5, -5 = -5, 0 = unchanged.
 * Optionally, set `SkillIDA` (and `SkillIDB` if you need two) to the `SkillID`s for the special effect you want your equipment to have.
 Finally, if you don't want your equipment to have any requirements set `EquipRequirement` to 0, otherwise follow the steps below:
 
 ### Equipment Requirements
+
 If the game has already registered a requirement you want to use for an item use one of the following, otherwise continue to create custom requirements:
+
 Yo-kai Watch 1 Vanilla Equip Requirements:
 * `0` - N/A
 * `1` - D-rank or lower Yo-kai
@@ -151,6 +157,7 @@ Yo-kai Watch 1 Vanilla Equip Requirements:
 If none of these suit your goals; it's time to make some custom requirements!
 * Click on the top-level tree `ITEM_EQUIP_COND` and increase `ChildCount` by 1
 * Then duplicate an `ITEM_EQUIP_COND`, if you want your equipment to have a Maximum Rank the yo-kai can be set the `MaximumRank` to that rank:
+
 YW1 Ranks:
 * `0`: E
 * `1`: D
@@ -158,6 +165,7 @@ YW1 Ranks:
 * `3`: B
 * `4`: A
 * `5`: S
+ 
 * If you want other conditions in Yo-kai Watch 1 you unfortunately have to whitelist specific yokai
   * If you **DONT** want to do this set `StartBoundary` and `BoundaryLength` to 0.
 * To do this set `StartBoundary` to the amount of `ITEM_EQUIP_COND_CHARA`(s) for example if there's 10 the last one will be called `ITEM_EQUIP_COND_CHARA_9` in CfgBin Editor.
