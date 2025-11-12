@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - |
 | 0x63394E2A | 79 | - |
 | 0xFD5DDB89 | 80 | - |
-| 0xC939DE59 | 110 | - |
+| 0xC939DE59 | 110 | Used in Battle AI ACT Conds |
 | 0x594E57E6 | 111 | - |
 | 0xC047065C | 112 | - |
 | 0xB74036CA | 113 | - |
