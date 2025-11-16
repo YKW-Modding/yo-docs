@@ -2515,7 +2515,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA2923F1A | 2500 | - |
 | 0x2882A63D | 2501 | - |
 | 0xE6392FD7 | 2502 | - |
-| 0x404E2463 | 2503 | - |
+| 0x404E2463 | 2503 | Unlocks Groovalicious in the Friends/Contacts app. |
 | 0xB2E1EF95 | 2504 | - |
 | 0x4EF18959 | 2505 | - |
 | 0x0112CCBA (0x112CCBA) | 2506 | - |
@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - |
 | 0x63394E2A | 79 | - |
 | 0xFD5DDB89 | 80 | - |
-| 0xC939DE59 | 110 | - |
+| 0xC939DE59 | 110 | Used in Battle AI ACT Conds |
 | 0x594E57E6 | 111 | - |
 | 0xC047065C | 112 | - |
 | 0xB74036CA | 113 | - |
