@@ -568,9 +568,9 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x6575A0E8             | 0                | 0x37E50DD (0x037E50DD) |
 | ???                           | 0x661FFE64             | 0                | 0x140E51 (0x00140E51) |
 | ???                           | 0x663D9C93             | 0                | 0x366CA6 (0x00366CA6) |
-| ???                           | 0x6A28AD15             | 100              | 0xF8CD532D |
+| Blowkade (Boss)              | 0x6A28AD15             | 100              | 0xF8CD532D |
 | ???                           | 0x6A3562A4             | 0                | 0x248E6B57 |
-| ???                           | 0x6B40B55D             | 107              | 0xCC5B9F64 |
+| Swelton (Boss)               | 0x6B40B55D             | 107              | 0xCC5B9F64 |
 | ???                           | 0x6C6238E6             | 0                | 0xA69C8D3 (0x0A69C8D3) |
 | ???                           | 0x6C834511             | 0                | 0xA88B524 (0x0A88B524) |
 | ???                           | 0x6C965848             | 0                | 0xA9DA87D (0x0A9DA87D) |
@@ -578,7 +578,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x6D6C2A9B             | 0                | 0xC671923E |
 | ???                           | 0x6D83FDCD             | 0                | 0xC437BB7D |
 | ???                           | 0x6ED2E6F2             | 0                | 0x85293D73 |
-| ???                           | 0x6ED78FB5             | 223              | 0x3E758257 |
+| Yoink (Boss)                  | 0x6ED78FB5             | 223              | 0x3E758257 |
 | ???                           | 0x6F84A937             | 0                | 0xB3E78A6C |
 | ???                           | 0x6FE91B9D             | 0                | 0x9E2EBA8 (0x09E2EBA8) |
 | ???                           | 0x702A711B             | 0                | 0x1621812E |
@@ -594,10 +594,10 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x76C55572             | 0                | 0x10CEA547 |
 | ???                           | 0x77C00F06             | 0                | 0x11CBFF33 |
 | ???                           | 0x793DF6EA             | 0                | 0x33F134FE |
-| ???                           | 0x795AC97D             | 172              | 0x5644BB37 |
+| Sandmeh (Stand Still, Boss?)  | 0x795AC97D             | 172              | 0x5644BB37 |
 | ???                           | 0x7AD06D77             | 0                | 0x1CDB9D42 |
 | ???                           | 0x7BA51601             | 0                | 0x3F1B2319 |
-| ???                           | 0x7CA93D62             | 322              | 0xF119D423 |
+| Shogunyan (Boss 1?)           | 0x7CA93D62             | 322              | 0xF119D423 |
 | ???                           | 0x7D7ED684             | 0                | 0x1B7526B1 |
 | ???                           | 0x7E148808             | 0                | 0x181F783D |
 | ???                           | 0x7E36EAFF             | 0                | 0x183D1ACA |
@@ -609,7 +609,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x84E058F8             | 0                | 0xC437BB7D |
 | ???                           | 0x85AAD7DB             | 0                | 0xE3A127EE |
 | ???                           | 0x86E2EBA0             | 0                | 0xE0E91B95 |
-| ???                           | 0x87779FCC             | 163              | 0x9A067621 |
+| Wiglin (Boss?)                | 0x87779FCC             | 163              | 0x9A067621 |
 | ???                           | 0x88BAB5AA             | 0                | 0xEEB1459F |
 | ???                           | 0x88DC12B3             | 0                | 0xEED7E286 |
 | ???                           | 0x89D1F104             | 0                | 0xB49F33C6 |
@@ -623,13 +623,13 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x955DCDB7             | 0                | 0x3CA77FCC |
 | ???                           | 0x95A2BF02             | 0                | 0x18DC673D |
 | ???                           | 0x95AB772D             | 0                | 0x3F1B2319 |
-| ???                           | 0x95CA9857             | 322              | 0xF119D423 |
+| Shogunyan (Boss 2?)           | 0x95CA9857             | 322              | 0xF119D423 |
 | ???                           | 0x971A9DD5             | 0                | 0x90E42B37 |
 | ???                           | 0x986C644B             | 0                | 0x4C0FF777 |
 | ???                           | 0x99218126             | 0                | 0xFF2A7113 |
 | ???                           | 0x99230E88             | 0                | 0x33F134FE |
 | ???                           | 0x9A44A285             | 0                | 0xC697465A |
-| ???                           | 0x9A98ABA6             | 227              | 0xB1171500 |
+| Count Zapaway (Boss?)         | 0x9A98ABA6             | 227              | 0xB1171500 |
 | ???                           | 0x9ABFBF04             | 0                | 0xFCB44F31 |
 | ???                           | 0x9AF4F430             | 0                | 0x1C7567C (0x01C7567C) |
 | ???                           | 0x9B8B89BC             | 0                | 0x9DF44946 |
@@ -638,7 +638,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x9D29669C             | 0                | 0xC697465A |
 | ???                           | 0x9F01A052             | 0                | 0x4C0FF777 |
 | ???                           | 0xA14BA4C3             | 0                | 0x3CA77FCC |
-| ???                           | 0xA344BE53             | 264              | 0x65EE0B3A |
+| Nosirs (Boss)                 | 0xA344BE53             | 264              | 0x65EE0B3A |
 | ???                           | 0xA7123E45             | 0                | 0x716FDEC7 |
 | ???                           | 0xA72BF61A             | 0                | 0xC120062F |
 | ???                           | 0xA794DD80             | 0                | 0x18DC673D |
@@ -650,7 +650,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xAEEA6C4D             | 0                | 0xC8E19C78 |
 | ???                           | 0xB1C26F13             | 0                | 0x89FF1A76 |
 | ???                           | 0xB4A8FFF0             | 0                | 0xFE2F2B67 |
-| ???                           | 0xB557B258             | 29               | 0x9A2414D6 |
+| Snee (Boss?)                  | 0xB557B258             | 29               | 0x9A2414D6 |
 | ???                           | 0xB59E59F4             | 0                | 0xD395A9C1 |
 | ???                           | 0xB6AFAB0A             | 0                | 0x89FF1A76 |
 | ???                           | 0xB7F15D0C             | 0                | 0xD1FAAD39 |
@@ -667,8 +667,8 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xC896167E             | 0                | 0xAE9DE64B |
 | ???                           | 0xC9B3A61B             | 0                | 0x5514C636 |
 | ???                           | 0xC9F3A283             | 0                | 0x8E87A3DC |
-| ???                           | 0xCA129C95             | 71               | 0xF9FF76F7 |
-| ???                           | 0xCAA7D0FB             | 231              | 0x51C86233 |
+| Mircle (Boss?)                | 0xCA129C95             | 71               | 0xF9FF76F7 |
+| Snobetty (Boss?)              | 0xCAA7D0FB             | 231              | 0x51C86233 |
 | ???                           | 0xCB9AEFEB             | 0                | 0xAD911FDE |
 | ???                           | 0xCBDE2A05             | 0                | 0xADD5DA30 |
 | ???                           | 0xCD310E6C             | 0                | 0xAB3AFE59 |
@@ -685,12 +685,12 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xD992B966             | 0                | 0xBF994953 |
 | ???                           | 0xD9EE8A59             | 0                | 0xBAF8DA7 (0x0BAF8DA7) |
 | ???                           | 0xDA677C7E             | 0                | 0xBC6C8C4B |
-| ???                           | 0xDD2A9633             | 133              | 0x39F95B53 |
+| Jumbelina (Boss?)             | 0xDD2A9633             | 133              | 0x39F95B53 |
 | ???                           | 0xDDEBA57A             | 0                | 0xBBE0554F |
 | ???                           | 0xE01DAD43             | 0                | 0x90E42B37 |
 | ???                           | 0xE034A750             | 0                | 0x33F134FE |
 | ???                           | 0xE2C6EAC5             | 0                | 0x84CD1AF0 |
-| ???                           | 0xE2CDA8C1             | 322              | 0xF119D423 |
+| Shogunyan (Boss 3?)           | 0xE2CDA8C1             | 322              | 0xF119D423 |
 | ???                           | 0xE3E1D246             | 0                | 0x85EA2273 |
 | ???                           | 0xE5C183A2             | 0                | 0x3F1B2319 |
 | ???                           | 0xE6D0D4CF             | 0                | 0xED5CC1FD |
@@ -714,6 +714,6 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xF6FAC65B             | 0                | 0x90F1366E |
 | ???                           | 0xF880FAA6             | 0                | 0x9E8B0A93 |
 | ???                           | 0xF92F9611             | 0                | 0x33F134FE |
-| ???                           | 0xFE7F8B35             | 146              | 0x405356BF |
+| Baku (Boss)                  | 0xFE7F8B35             | 146              | 0x405356BF |
 | ???                           | 0xFED6C192             | 0                | 0xB49F33C6 |
 | ???                           | 0xFF0C23A2             | 0                | 0x9907D397 |
