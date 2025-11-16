@@ -570,7 +570,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x663D9C93             | 0                | 0x366CA6 (0x00366CA6) |
 | ???                           | 0x6A28AD15             | 100              | 0xF8CD532D |
 | ???                           | 0x6A3562A4             | 0                | 0x248E6B57 |
-| ???                           | 0x6B40B55D             | 107              | 0xCC5B9F64 |
+| Swelton (Boss?)               | 0x6B40B55D             | 107              | 0xCC5B9F64 |
 | ???                           | 0x6C6238E6             | 0                | 0xA69C8D3 (0x0A69C8D3) |
 | ???                           | 0x6C834511             | 0                | 0xA88B524 (0x0A88B524) |
 | ???                           | 0x6C965848             | 0                | 0xA9DA87D (0x0A9DA87D) |
