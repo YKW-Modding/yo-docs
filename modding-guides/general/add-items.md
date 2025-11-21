@@ -34,13 +34,16 @@ parent: General Modding
 ## **Creating the Item Icon**
 1. Open ``data/menu/item_icon.xi`` in K2
 
-2. Open and extract the PNG,. Edit the png to add a new item to the next slot in the array (image below to make it easier for yw1)
+2. Open and extract the PNG. Edit the png to add a new item to the next slot in the spritesheet (yw1 image below for reference)
+![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
 
-3. Copy a item like item_002.xi for example
 
-4. Rename it to the next available item number in my case 309. (this'll be your `GlobalItemIndex` in the item step)
+3. To start off, copy a different item icon i.e. `item_002.xi`.
 
-5. Change the texture to your custom items texture
+4. The number can be calculated with the formula `(16 * IconPosY) + IconPosX + 1` padded to 3 digits i.e. 2 would be `item_icon_002.xi` *not* `item_icon_2.xi`.
+  * `IconPosX` is how far to the right it is in `item_icon.xi` starting at 0; so an `IconPosX` of 0 means the leftmost items, `IconPosY` is how far **down** it is so an `IconPosX` and `IconPosY` of 0,0 means top-left corner.
+
+6. Change the texture to your custom items texture
 
 
 ## **Registering the Item**
@@ -171,6 +174,4 @@ YW1 Ranks:
 * To do this set `StartBoundary` to the amount of `ITEM_EQUIP_COND_CHARA`(s) for example if there's 10 the last one will be called `ITEM_EQUIP_COND_CHARA_9` in CfgBin Editor.
 * Then set `BoundaryLength` to the amount of Yo-kai you want to whitelist.
 * Then duplicate `BoundaryLength` `ITEM_EQUIP_COND_CHARA`(s) (and increase `ChildCount` of the main/root entry `BoundaryLength` times) and for each `ITEM_EQUIP_COND_CHARA` you've duplicated, set the `BaseID` to the `BaseID` of a Yo-kai you want to whitelist.
-**BASE ITEM IMAGE:**
 
-![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
