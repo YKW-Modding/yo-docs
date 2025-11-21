@@ -159,7 +159,8 @@ Yo-kai Watch 1 Vanilla Equip Requirements:
 * `7` - Badude and Bruff
 If none of these suit your goals; it's time to make some custom requirements!
 * Click on the top-level tree `ITEM_EQUIP_COND` and increase `ChildCount` by 1
-* Then duplicate an `ITEM_EQUIP_COND`, if you want your equipment to have a Maximum Rank the yo-kai can be set the `MaximumRank` to that rank:
+* Then duplicate an `ITEM_EQUIP_COND` and set `StartBoundary` and `BoundaryLength` to 0.
+* If you want your equipment to have a Maximum Rank the yo-kai can be set the `MaximumRank` to that rank:
 
 YW1 Ranks:
 * `0`: E
@@ -170,8 +171,8 @@ YW1 Ranks:
 * `5`: S
  
 * If you want other conditions in Yo-kai Watch 1 you unfortunately have to whitelist specific yokai
-  * If you **DONT** want to do this set `StartBoundary` and `BoundaryLength` to 0.
-* To do this set `StartBoundary` to the amount of `ITEM_EQUIP_COND_CHARA`(s) for example if there's 10 the last one will be called `ITEM_EQUIP_COND_CHARA_9` in CfgBin Editor.
-* Then set `BoundaryLength` to the amount of Yo-kai you want to whitelist.
-* Then duplicate `BoundaryLength` `ITEM_EQUIP_COND_CHARA`(s) (and increase `ChildCount` of the main/root entry `BoundaryLength` times) and for each `ITEM_EQUIP_COND_CHARA` you've duplicated, set the `BaseID` to the `BaseID` of a Yo-kai you want to whitelist.
+  * To do this set `StartBoundary` to the amount of `ITEM_EQUIP_COND_CHARA`(s) for example if there's 10 the last one will be called `ITEM_EQUIP_COND_CHARA_9` in CfgBin Editor.
+  * Then set `BoundaryLength` to the amount of Yo-kai you want to whitelist.
+  * Then duplicate an `ITEM_EQUIP_COND_CHARA` `BoundaryLength` times (and increase `ChildCount` of the main/root entry by `BoundaryLength`)
+  * Then for each `ITEM_EQUIP_COND_CHARA` you've duplicated, set the `BaseID` to the `BaseID` of a Yo-kai you want to whitelist.
 
