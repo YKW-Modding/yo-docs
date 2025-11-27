@@ -460,9 +460,9 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | Glitzy Bones                  | 0xA07A620B             | 424              | 0xC671923E |
 | Hans Galore                   | 0xCCF74B18             | 425              | 0xAAFCBB2D |
 | Retinado                      | 0x55FAC4CB             | 426              | 0x33F134FE |
-| Gargaros                      | 0x14D87227             | 427              | 0x72D38212 |
-| Ogralus                       | 0x66DDDC9 (0x066DDDC9) | 428              | 0x60662DFC |
-| Orcanos                       | 0xBED1BAAC             | 429              | 0xD8DA4A99 |
+| Gargaros (Boss)               | 0x14D87227             | 427              | 0x72D38212 |
+| Ogralus (Boss)                | 0x66DDDC9 (0x066DDDC9) | 428              | 0x60662DFC |
+| Orcanos (Boss)                | 0xBED1BAAC             | 429              | 0xD8DA4A99 |
 | Snottle                       | 0x56D24CC6             | 430              | 0x30D9BCF3 |
 | Moximous N                    | 0xCB05747F             | 431              | 0xAD0E844A |
 | Moximous K                    | 0x73B9131A             | 432              | 0x15B2E32F |
@@ -471,9 +471,9 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | Komajiro S                    | 0x626D0767             | 435              | 0x466F752 (0x0466F752) |
 | Darkyubi                      | 0x3BBB4256             | 436              | 0x5DB0B263 |
 | Illuminoct                    | 0xB791E97A             | 437              | 0xD19A194F |
-| Gargaros (Boss)               | 0x3C799F8 (0x03C799F8) | 438              | 0x65CC69CD |
-| Ogralus (Boss)                | 0xBB7BFE9D             | 439              | 0xDD700EA8 |
-| Orcanos (Boss)                | 0xA9CE5173             | 440              | 0xCFC5A146 |
+| Gargaros                      | 0x3C799F8 (0x03C799F8) | 438              | 0x65CC69CD |
+| Ogralus                       | 0xBB7BFE9D             | 439              | 0xDD700EA8 |
+| Orcanos                       | 0xA9CE5173             | 440              | 0xCFC5A146 |
 | Rubeus J                      | 0xC8E94AE1             | 441              | 0xAEE2BAD4 |
 | Hardy Hound                   | 0xF5896351             | 442              | 0x93829364 |
 | Hinozall                      | 0x7AC996F1             | 443              | 0x1CC266C4 |
