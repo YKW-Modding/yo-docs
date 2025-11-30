@@ -557,7 +557,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x5837EBAF             | 0                | 0x3E3C1B9A |
 | ???                           | 0x58A1CA26             | 0                | 0x89FF1A76 |
 | ???                           | 0x58C38B01             | 0                | 0x3EC87B34 |
-| ???                           | 0x596098C9             | 7                | 0xCC79FD93 |
+| Brushido (Boss)               | 0x596098C9             | 7                | 0xCC79FD93 |
 | ???                           | 0x5A7A8DA0             | 0                | 0x3C717D95 |
 | ???                           | 0x5E6CB3AA             | 0                | 0xF447F0BC |
 | ???                           | 0x5FCC0E3F             | 0                | 0x89FF1A76 |
