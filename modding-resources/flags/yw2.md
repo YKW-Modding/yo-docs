@@ -2588,7 +2588,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x78002D2E | 8 | - |
 | 0x74CAA867 | 9 | - |
 | 0xDF0B0383 | 11 | - |
-| 0xA6D7BB27 | 12 | - |
+| 0xA6D7BB27 | 12 | In Psychic Specters, this shows which side you have picked 0 = Undecided, 1 = Bony, 2 = Fleshy |
 | 0xEE5E8CA9 | 13 | - |
 | 0x5CAB924C | 14 | - |
 | 0x3ABC5212 | 15 | - |
