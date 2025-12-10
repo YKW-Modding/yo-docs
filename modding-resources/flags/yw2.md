@@ -1359,10 +1359,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x7A430B47 | 1344 | - |
 | 0xEF24E3E5 | 1345 | - |
 | 0xB3BB0432 | 1346 | - |
-| 0xB739EA01 | 1347 | - |
-| 0xA042FE42 | 1348 | - |
-| 0x99CFC287 | 1349 | - |
-| 0x8EB4D6C4 | 1350 | - |
+| 0xB739EA01 | 1347 | Is the Yo-kai Pad Wallpaper "Hearts and Fluff" unlocked? |
+| 0xA042FE42 | 1348 | Is the Yo-kai Pad Wallpaper "Classic Gold" unlocked? |
+| 0x99CFC287 | 1349 | Is the Yo-kai Pad Wallpaper "Up All Night" unlocked? |
+| 0x8EB4D6C4 | 1350 | Is the Yo-kai Pad Wallpaper "Oh My Swirls! Pattern" unlocked? |
 | 0x0569AC18 (0x569AC18) | 1351 | - |
 | 0xBDD5CB7D | 1352 | - |
 | 0x2002F3C4 | 1353 | - |
