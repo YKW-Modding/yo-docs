@@ -3742,8 +3742,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA495485C | 19 | - |
 | 0x606B51C8 | 20 | - |
 | 0xA494B844 | 21 | - |
-| 0x6242919A | 22 | - |
-| 0x209E3EB5 | 23 | Download Menu Data |
+| 0x6242919A | 22 | Download Menu Data #1 |
+| 0x209E3EB5 | 23 | Download Menu Data #2 |
 | 0x141DC04D | 24 | - |
 | 0xC79E50EF | 25 | - |
 | 0x2F21650A | 26 | - |
