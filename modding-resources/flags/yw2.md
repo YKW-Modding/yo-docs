@@ -1763,17 +1763,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x8630A17E | 1748 | - |
 | 0x00E91114 (0xE91114) | 1749 | - |
 | 0x99E040AE | 1750 | - |
-| 0x5A640058 | 1751 | - |
-| 0xB307A56D | 1752 | - |
-| 0x1F55524C | 1753 | - |
-| 0xBE1AA5A7 | 1754 | - |
-| 0xFF80BB52 | 1755 | - |
-| 0x18389655 | 1756 | - |
-| 0xE8400221 | 1757 | - |
-| 0xAC41E390 | 1758 | - |
-| 0x14FD84F5 | 1759 | - |
-| 0x5B52FBEB | 1760 | - |
-| 0x5C3F3FF2 | 1761 | - |
+| 0x5A640058 | 1751 | Is the Nate's House Mirapo unlocked (Warp #00) |
+| 0xB307A56D | 1752 | Is the Katie's House Mirapo unlocked (Warp #01) |
+| 0x1F55524C | 1753 | Is the Evermart Uptown Mirapo unlocked (Warp #02) |
+| 0xBE1AA5A7 | 1754 | Is the Springdale Elementary 1F South Mirapo unlocked (Warp #06) |
+| 0xFF80BB52 | 1755 | Is the Lambert Post Office Mirapo unlocked (Warp #04) |
+| 0x18389655 | 1756 | Is the Piggleston Bank Mirapo unlocked (Warp #03) |
+| 0xE8400221 | 1757 | Is the Jungle Hunter Mirapo unlocked (Warp #05) |
+| 0xAC41E390 | 1758 | Is the Mt. Wildwood Mirapo unlocked (Warp #07) |
+| 0x14FD84F5 | 1759 | Is the Blossom Heights Mirapo unlocked (Warp #09) |
+| 0x5B52FBEB | 1760 | Is the Timers & More Mirapo unlocked (Warp #10) |
+| 0x5C3F3FF2 | 1761 | Is the Everymart Blossom Heights Mirapo unlocked (Warp #11) |
 | 0x4249CAAA | 1762 | - |
 | 0x05D0CF3E (0x5D0CF3E) | 1763 | - |
 | 0x3190933F | 1764 | - |
@@ -1793,7 +1793,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xEBE19940 | 1778 | - |
 | 0x6485D410 | 1779 | - |
 | 0xFD8C85AA | 1780 | - |
-| 0x40093CE5 | 1781 | - |
+| 0x40093CE5 | 1781 | Is the Mt. Wildwood Summit Mirapo unlocked (Warp #08) |
 | 0x7566A379 | 1782 | - |
 | 0x621BD94D | 1783 | - |
 | 0xACF880B6 | 1784 | - |
