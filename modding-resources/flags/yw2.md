@@ -1774,12 +1774,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x14FD84F5 | 1759 | Is the Blossom Heights Mirapo unlocked (Warp #09) |
 | 0x5B52FBEB | 1760 | Is the Timers & More Mirapo unlocked (Warp #10) |
 | 0x5C3F3FF2 | 1761 | Is the Everymart Blossom Heights Mirapo unlocked (Warp #11) |
-| 0x4249CAAA | 1762 | - |
-| 0x05D0CF3E (0x5D0CF3E) | 1763 | - |
-| 0x3190933F | 1764 | - |
-| 0x36FD5726 | 1765 | - |
-| 0xA2E90656 | 1766 | - |
-| 0x3196DB29 | 1767 | - |
+| 0x4249CAAA | 1762 | Is the Shoten Temple Mirapo unlocked (Warp #12) |
+| 0x05D0CF3E (0x5D0CF3E) | 1763 | Is the Infinite Inferno 1st Circle Mirapo unlocked (Warp #13) |
+| 0x3190933F | 1764 | Is the Everymart Downtown Springdale Mirapo unlocked (Warp #14) |
+| 0x36FD5726 | 1765 | Is the Springdale Sports Club 1F Mirapo unlocked (Warp #15) |
+| 0xA2E90656 | 1766 | Is the Springdale Central Station Mirapo unlocked (Warp #16) |
+| 0x3196DB29 | 1767 | Is the Shopper's Row Mirapo unlocked (Warp #17) |
 | 0x7954602E | 1768 | - |
 | 0x604F516F | 1769 | - |
 | 0x232374C7 | 1770 | - |
