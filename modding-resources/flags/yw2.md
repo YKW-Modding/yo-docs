@@ -3897,8 +3897,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x0646643E (0x646643E) | 6 | - |
 | 0xA50927A3 | 7 | - |
 | 0x88B8AF7B | 8 | - |
-| 0x619DE8E8 | 9 | - |
-| 0x20F64979 | 10 | - |
+| 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. |
+| 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. |
 | 0x26BF0B6E | 11 | - |
 | 0x8D489757 | 12 | - |
 | 0x4833746A | 13 | - |
@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - |
 | 0x63394E2A | 79 | - |
 | 0xFD5DDB89 | 80 | - |
-| 0xC939DE59 | 110 | Used in Battle AI ACT Conds |
+| 0xC939DE59 | 110 | Used in Battle AI Act Conds |
 | 0x594E57E6 | 111 | - |
 | 0xC047065C | 112 | - |
 | 0xB74036CA | 113 | - |
