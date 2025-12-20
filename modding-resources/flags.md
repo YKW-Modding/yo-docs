@@ -14,6 +14,7 @@ In Yo-kai Watch 1, 2, and B1:
 * `FLAG_INFO_2` flags are boolean; `FLAG_INFO_2` entries are internally referred to as `GlobalTBoxFlag`s; Cond's do have a CExpression Function called `GetGlobalTBoxFlag` although it seems to be no-opped (atleast in yw1).
 * `FLAG_INFO_3` flags are similar to `FLAG_INFO_0` but are deemed "temporary". These can be read in conds via the CExpression function: `GetTempBitFlag`.
 * `FLAG_INFO_4` flags are similar to `FLAG_INFO_3` but are *8-bit unsigned integers* (meaning a number from 0-255). These can be read in conds via the CExpression function: `GetTempByteFlag`.
+
 In Yo-kai Watch 3:
 * `FLAG_INFO_5` is unknown;
 * `FLAG_INFO_6` flags are boolean bit flags (`0`/`1`) that reset every day, in CExpressions (Conds) these can be get/set using `GetOneDayBitFlag` and `SetOneDayBitFlag`.
