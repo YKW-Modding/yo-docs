@@ -1,11 +1,11 @@
 ---
-title: YKW3 Map List
+title: YW3 Map List
 layout: default
 parent: Map IDs
 grand_parent: Modding Resources
 ---
 
-# YKW3 Map List
+# YW3 Map List
 
 The list is in alphabetical order. Brackets will be used to denote names for certain maps i.e. the unused Old Springdale map.
 
