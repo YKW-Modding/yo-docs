@@ -6,7 +6,7 @@ grand_parent: Modding Resources
 ---
 
 # Known YW2 Phase Boundaries
-Increments of 10,000 (`0x2710`) occur after every chapter, while increments of 5 and 10 (`0x5` and `0xA`) occur for minor progression.
+Increments of 10,000 (`0x2710`) occur after every chapter, while increments of 1 occur for changes in SubPhase.
 
 | **Phase (Decimal)** | **Phase (Hex)** | **Notes**                                                                                                                    |
 | ------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |

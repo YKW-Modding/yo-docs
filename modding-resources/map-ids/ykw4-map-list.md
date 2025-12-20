@@ -1,12 +1,12 @@
 ---
-title: YKW4 Map List
+title: YW4 Map List
 layout: default
 parent: Map IDs
 grand_parent: Modding Resources
 
 ---
 
-# YKW4 Map List
+# YW4 Map List
 
 
 **AUTHOR: @8227light**

@@ -1,10 +1,10 @@
 ---
-title: B1 Param IDs
+title: YWB1 Param IDs
 layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
-# B1 Param IDs
+# YWB1 Param IDs
 
 The Below IDs are shown in hex format for convenience:
 

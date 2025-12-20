@@ -1359,10 +1359,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x7A430B47 | 1344 | - |
 | 0xEF24E3E5 | 1345 | - |
 | 0xB3BB0432 | 1346 | - |
-| 0xB739EA01 | 1347 | - |
-| 0xA042FE42 | 1348 | - |
-| 0x99CFC287 | 1349 | - |
-| 0x8EB4D6C4 | 1350 | - |
+| 0xB739EA01 | 1347 | Is the Yo-kai Pad Wallpaper "Hearts and Fluff" unlocked? |
+| 0xA042FE42 | 1348 | Is the Yo-kai Pad Wallpaper "Classic Gold" unlocked? |
+| 0x99CFC287 | 1349 | Is the Yo-kai Pad Wallpaper "Up All Night" unlocked? |
+| 0x8EB4D6C4 | 1350 | Is the Yo-kai Pad Wallpaper "Oh My Swirls! Pattern" unlocked? |
 | 0x0569AC18 (0x569AC18) | 1351 | - |
 | 0xBDD5CB7D | 1352 | - |
 | 0x2002F3C4 | 1353 | - |
@@ -1763,23 +1763,23 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x8630A17E | 1748 | - |
 | 0x00E91114 (0xE91114) | 1749 | - |
 | 0x99E040AE | 1750 | - |
-| 0x5A640058 | 1751 | - |
-| 0xB307A56D | 1752 | - |
-| 0x1F55524C | 1753 | - |
-| 0xBE1AA5A7 | 1754 | - |
-| 0xFF80BB52 | 1755 | - |
-| 0x18389655 | 1756 | - |
-| 0xE8400221 | 1757 | - |
-| 0xAC41E390 | 1758 | - |
-| 0x14FD84F5 | 1759 | - |
-| 0x5B52FBEB | 1760 | - |
-| 0x5C3F3FF2 | 1761 | - |
-| 0x4249CAAA | 1762 | - |
-| 0x05D0CF3E (0x5D0CF3E) | 1763 | - |
-| 0x3190933F | 1764 | - |
-| 0x36FD5726 | 1765 | - |
-| 0xA2E90656 | 1766 | - |
-| 0x3196DB29 | 1767 | - |
+| 0x5A640058 | 1751 | Is the Nate's House Mirapo unlocked (Warp #00) |
+| 0xB307A56D | 1752 | Is the Katie's House Mirapo unlocked (Warp #01) |
+| 0x1F55524C | 1753 | Is the Evermart Uptown Mirapo unlocked (Warp #02) |
+| 0xBE1AA5A7 | 1754 | Is the Springdale Elementary 1F South Mirapo unlocked (Warp #06) |
+| 0xFF80BB52 | 1755 | Is the Lambert Post Office Mirapo unlocked (Warp #04) |
+| 0x18389655 | 1756 | Is the Piggleston Bank Mirapo unlocked (Warp #03) |
+| 0xE8400221 | 1757 | Is the Jungle Hunter Mirapo unlocked (Warp #05) |
+| 0xAC41E390 | 1758 | Is the Mt. Wildwood Mirapo unlocked (Warp #07) |
+| 0x14FD84F5 | 1759 | Is the Blossom Heights Mirapo unlocked (Warp #09) |
+| 0x5B52FBEB | 1760 | Is the Timers & More Mirapo unlocked (Warp #10) |
+| 0x5C3F3FF2 | 1761 | Is the Everymart Blossom Heights Mirapo unlocked (Warp #11) |
+| 0x4249CAAA | 1762 | Is the Shoten Temple Mirapo unlocked (Warp #12) |
+| 0x05D0CF3E (0x5D0CF3E) | 1763 | Is the Infinite Inferno 1st Circle Mirapo unlocked (Warp #13) |
+| 0x3190933F | 1764 | Is the Everymart Downtown Springdale Mirapo unlocked (Warp #14) |
+| 0x36FD5726 | 1765 | Is the Springdale Sports Club 1F Mirapo unlocked (Warp #15) |
+| 0xA2E90656 | 1766 | Is the Springdale Central Station Mirapo unlocked (Warp #16) |
+| 0x3196DB29 | 1767 | Is the Shopper's Row Mirapo unlocked (Warp #17) |
 | 0x7954602E | 1768 | - |
 | 0x604F516F | 1769 | - |
 | 0x232374C7 | 1770 | - |
@@ -1793,7 +1793,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xEBE19940 | 1778 | - |
 | 0x6485D410 | 1779 | - |
 | 0xFD8C85AA | 1780 | - |
-| 0x40093CE5 | 1781 | - |
+| 0x40093CE5 | 1781 | Is the Mt. Wildwood Summit Mirapo unlocked (Warp #08) |
 | 0x7566A379 | 1782 | - |
 | 0x621BD94D | 1783 | - |
 | 0xACF880B6 | 1784 | - |
@@ -3742,8 +3742,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA495485C | 19 | - |
 | 0x606B51C8 | 20 | - |
 | 0xA494B844 | 21 | - |
-| 0x6242919A | 22 | - |
-| 0x209E3EB5 | 23 | - |
+| 0x6242919A | 22 | Download Menu Data #1 |
+| 0x209E3EB5 | 23 | Download Menu Data #2 |
 | 0x141DC04D | 24 | - |
 | 0xC79E50EF | 25 | - |
 | 0x2F21650A | 26 | - |
@@ -3897,8 +3897,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x0646643E (0x646643E) | 6 | - |
 | 0xA50927A3 | 7 | - |
 | 0x88B8AF7B | 8 | - |
-| 0x619DE8E8 | 9 | - |
-| 0x20F64979 | 10 | - |
+| 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. |
+| 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. |
 | 0x26BF0B6E | 11 | - |
 | 0x8D489757 | 12 | - |
 | 0x4833746A | 13 | - |
@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - |
 | 0x63394E2A | 79 | - |
 | 0xFD5DDB89 | 80 | - |
-| 0xC939DE59 | 110 | Used in Battle AI ACT Conds |
+| 0xC939DE59 | 110 | Used in Battle AI Act Conds |
 | 0x594E57E6 | 111 | - |
 | 0xC047065C | 112 | - |
 | 0xB74036CA | 113 | - |

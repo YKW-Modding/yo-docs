@@ -566,11 +566,11 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x612EDE03             | 0                | 0x7252E36 (0x07252E36) |
 | ???                           | 0x62DB1B1B             | 0                | 0x4D0EB2E (0x04D0EB2E) |
 | ???                           | 0x6575A0E8             | 0                | 0x37E50DD (0x037E50DD) |
-| ???                           | 0x661FFE64             | 0                | 0x140E51 (0x00140E51) |
+| Blabeye (Yo-Criminal)         | 0x661FFE64             | 0                | 0x140E51 (0x00140E51) |
 | ???                           | 0x663D9C93             | 0                | 0x366CA6 (0x00366CA6) |
-| Blowkade (Boss)              | 0x6A28AD15             | 100              | 0xF8CD532D |
+| Blowkade (Boss)               | 0x6A28AD15             | 100              | 0xF8CD532D |
 | ???                           | 0x6A3562A4             | 0                | 0x248E6B57 |
-| Swelton (Boss)               | 0x6B40B55D             | 107              | 0xCC5B9F64 |
+| Swelton (Boss)                | 0x6B40B55D             | 107              | 0xCC5B9F64 |
 | ???                           | 0x6C6238E6             | 0                | 0xA69C8D3 (0x0A69C8D3) |
 | ???                           | 0x6C834511             | 0                | 0xA88B524 (0x0A88B524) |
 | ???                           | 0x6C965848             | 0                | 0xA9DA87D (0x0A9DA87D) |
@@ -646,7 +646,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xA8C296B2             | 0                | 0x1C7567C (0x01C7567C) |
 | ???                           | 0xAA2397B9             | 0                | 0x1C7567C (0x01C7567C) |
 | ???                           | 0xAD952F98             | 0                | 0xCB9EDFAD |
-| ???                           | 0xADB74D6F             | 0                | 0xCBBCBD5A |
+| Impistol (Yo-Criminal)        | 0xADB74D6F             | 0                | 0xCBBCBD5A |
 | ???                           | 0xAEEA6C4D             | 0                | 0xC8E19C78 |
 | ???                           | 0xB1C26F13             | 0                | 0x89FF1A76 |
 | ???                           | 0xB4A8FFF0             | 0                | 0xFE2F2B67 |

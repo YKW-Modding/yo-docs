@@ -1,11 +1,11 @@
 ---
-title: YKW2 Map List
+title: YW2 Map List
 layout: default
 parent: Map IDs
 grand_parent: Modding Resources
 ---
 
-# YKW2 Map List
+# YW2 Map List
 
 The list is in alphabetical order.
 
