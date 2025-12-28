@@ -40,3 +40,10 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN018`           | Old Talisman Seller (Mt. Wildwood)                                                                                           |
 | `shpN019`           | Jungle Hunter's Black Syrup Seller                                                                                           |
 | `shpN020`           | Belly Buster Curry                                                                                                           |
+| `shpN021`           | Cafe Shanista                                                                                                                |
+| `shpN022`           | Sushi Springdale                                                                                                             |
+| `shpN023`           | Rusty's Mart                                                                                                                 |
+| `shpN024`           | Mountain Market                                                                                                              |
+| `shpN025`           | Old Lady - Old Springdale                                                                                                    |
+| `shpN026`           | Greene's Greens (Old Springdale)                                                                                             |
+| `shpN027`           | Man - Old Springdale, Shopper's Row                                                                                          |
