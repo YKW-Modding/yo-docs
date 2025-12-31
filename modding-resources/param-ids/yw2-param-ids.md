@@ -505,7 +505,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0x0F4D3A69             | 0                | 0x6946CA5C  | 0x00000000 |
 | ???                           | 0x10D8A0BE             | 0                | 0xB49F33C6  | 0x00000000 |
 | ???                           | 0x129FF0DC             | 0                | 0x18DC673D  | 0x00000000 |
-| ???                           | 0x150B2A0A             | 0                | 0x7300DA3F  | 0x00000000 |
+| Sushinoma (Yo-Criminal)       | 0x150B2A0A             | 0                | 0x7300DA3F  | 0x00000000 |
 | ???                           | 0x16560B28             | 0                | 0x705DFB1D  | 0x00000000 |
 | ???                           | 0x16DBDC92             | 0                | 0x60662DFC  | 0x00000000 |
 | ???                           | 0x17B564A7             | 0                | 0xB49F33C6  | 0x00000000 |
@@ -654,7 +654,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xB59E59F4             | 0                | 0xD395A9C1  | 0x00000000 |
 | ???                           | 0xB6AFAB0A             | 0                | 0x89FF1A76  | 0x00000000 |
 | ???                           | 0xB7F15D0C             | 0                | 0xD1FAAD39  | 0x00000000 |
-| ???                           | 0xB8CAFE6B             | 0                | 0xDEC10E5E  | 0x00000000 |
+| Shin (Yo-Criminal)            | 0xB8CAFE6B             | 0                | 0xDEC10E5E  | 0x00000000 |
 | ???                           | 0xB9D95294             | 0                | 0x5514C636  | 0x00000000 |
 | ???                           | 0xBB82C210             | 0                | 0xDD893225  | 0x00000000 |
 | ???                           | 0xBE8FECC1             | 0                | 0x18DC673D  | 0x00000000 |
