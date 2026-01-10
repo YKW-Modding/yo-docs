@@ -8,7 +8,7 @@ grand_parent: Modding Resources
 These will contain most of the data in the main `QUEST_CONFIG_*` tree with IDs in hex for convenience.
 > Note: Due to the amount of params you'll have to scroll to the right to see all of them, sorry! 
 
-| QuestName | QuestID | QuestType | PerQuestTypeIndex | GlobalQuestIndex | GlobalByteFlagID | XPGained | FavourMoney | DescriptionID | RecommendedLevel | IsKeyQuest? | MinRank | Cond |
+| QuestName | QuestID | QuestType | PerQuestTypeIndex | GlobalQuestIndex | GlobalByteFlagID | XPGained | FavourMoney | DescriptionID | RecommendedLevel | IsKeyQuest | MinRank | Cond |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | C-1 Grand Prix A | 0xCE51696C | 2 | 36 | 34 | 0xCFEF43C8 | 684 | 0 | 0x64F51DB2 | 24 | 0 | 3 | AAAAAB4LNbkZNtoAAQAyAAE4inE13XcmlQABADIAAAADcY8= |
 | A Card-Carrying Liar | 0xCD97E194 | 2 | 49 | 69 | 0xCC29CB30 | 382 | 0 | 0x6733954A | 19 | 0 | 2 | AAAAAGYdNbkZNtoAAQAyAAERenE13XcmlQABADIAAAACcY81vgSlmAAKASgABgI02ldY5zIAAAD/eI81Kj1FQwAKASgABgI0d0Xh6DIAAAABeY81Kj1FQwAKASgABgI07kywUjIAAAABeY8= |
@@ -36,7 +36,7 @@ These will contain most of the data in the main `QUEST_CONFIG_*` tree with IDs i
 | The Heartthrobs | 0xEF0CFE7C | 2 | 52 | 55 | 0xEEB2D4D8 | 391 | 0 | 0x45A88AA2 | 20 | 0 | 2 | AAAAAE4XNbkZNtoAAQAyAAERenE13XcmlQABADIAAAACcY81vgSlmAAKASgABgI0mAvO6jIAAAD/eI81Kj1FQwAKASgABgI0HjQkJjIAAAABeY8= |
 | The Final Gate | 0xECCA7684 | 2 | 10 | 8 | 0xED745C20 | 4000 | 0 | 0x00000000 (0x0) | 60 | 0 | 4 | 0 |
 | Seal No Evil | 0xED081CB3 | 2 | 85 | 108 | 0xECB63617 | 850 | 0 | 0x47AC686D | 27 | 0 | 2 | AAAAADYRNbkZNtoAAQAyAADqanE13XcmlQABADIAAAACcY81npmEjAAKASgABgI0s+lJTzIAAAABeI8= |
-| Reach Your Potential! | 0x9A408512 | 2 | 22 | 172 | 0x12345678 | 99999 | 99999 | 0x47E3C15A | 99 | 1 | 6 | 0 |
+| Reach Your Potential! | 0xED47B584 | 3 | 20 | 170 | 0xECF99F20 | 6000 | 8000 | 0x47E3C15A | 34 | 0 | 5 | AAAAACcLNSo9RUMACgEoAAYCNBdvVrsyAAAAAXg13XcmlQABADIAAAAFeI8= |
 | Treasure Hunters Pt. 2 | 0xE8613A65 | 2 | 46 | 51 | 0xE9DF10C1 | 533 | 0 | 0x42C54EBB | 22 | 0 | 2 | AAAAAE4XNbkZNtoAAQAyAADqanE13XcmlQABADIAAAACcY81vgSlmAAKASgABgI0n2YK8zIAAAD/eI81Kj1FQwAKASgABgI0gFCxhTIAAAABeY8= |
 | Independent Study, Pt. 1 | 0xE6BAB257 | 2 | 100 | 59 | 0xE70498F3 | 240 | 0 | 0x4C1EC689 | 17 | 0 | 1 | AAAAAB4LNbkZNtoAAQAyAADDvnE13XcmlQABADIAAAABcY8= |
 | Oden of the Soul Pt. 1 | 0xE4BE5098 | 2 | 81 | 104 | 0xE5007A3C | 113 | 0 | 0x4E1A2446 | 11 | 0 | 1 | AAAAAB4LNbkZNtoAAQAyAACcx3E13XcmlQABADIAAAABcY8= |
