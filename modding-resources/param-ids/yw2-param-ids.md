@@ -459,7 +459,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | Goldy Bones                   | 0x8B5731C8             | 423              | 0xED5CC1FD  | 0x00000000 |
 | Glitzy Bones                  | 0xA07A620B             | 424              | 0xC671923E  | 0x00000000 |
 | Hans Galore                   | 0xCCF74B18             | 425              | 0xAAFCBB2D  | 0x00000000 |
-| Retinado                      | 0x55FAC4CB             | 426              | 0x33F134FE  | 0x00000000 |
+| Retinado (Main Section)       | 0x55FAC4CB             | 426              | 0x33F134FE  | 0x00000000 |
 | Gargaros (Boss)               | 0x14D87227             | 427              | 0x72D38212  | 0x00000000 |
 | Ogralus (Boss)                | 0x66DDDC9 (0x066DDDC9) | 428              | 0x60662DFC  | 0x00000000 |
 | Orcanos (Boss)                | 0xBED1BAAC             | 429              | 0xD8DA4A99  | 0x00000000 |
@@ -482,29 +482,29 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | Infinipea                     | 0xB2291981             | 446              | 0xD422E9B4  | 0x00000000 |
 | Headasteam                    | 0x47A9BF41             | 447              | 0x21A24F74  | 0x00000000 |
 | Kabuking                      | 0x9C591 (0x0009C591)   | 448              | 0x660235A4  | 0x00000000 |
-| ???                           | 0x002A5F32             | 0                | 0x33F134FE  | 0x00000000 |
-| ???                           | 0x0076990E             | 0                | 0x667D693B  | 0x00000000 |
-| ???                           | 0x016535F1             | 0                | 0x4C0FF777  | 0x00000000 |
-| ???                           | 0x019DBE77             | 67               | 0x4987D1B1  | 0x00000000 |
-| ???                           | 0x02C2DC9E             | 0                | 0x46672CAC  | 0x00000000 |
-| ???                           | 0x034DF33F             | 0                | 0xC697465A  | 0x00000000 |
-| ???                           | 0x03FDA58A             | 0                | 0x1C7567C (0x01C7567C)  | 0x00000000 |
-| ???                           | 0x0417C468             | 0                | 0x621C345D  | 0x00000000 |
-| ???                           | 0x0435A69F             | 0                | 0x7B2567EB  | 0x00000000 |
-| ???                           | 0x06B89C0B             | 49               | 0xC49F5F47  | 0x00000000 |
-| ???                           | 0x079CE713             | 0                | 0x61971726  | 0x00000000 |
-| ???                           | 0x097E0876             | 0                | 0x90E42B37  | 0x00000000 |
-| ???                           | 0x09A21E00             | 0                | 0x6FA9EE35  | 0x00000000 |
-| ???                           | 0x0AEA227B             | 0                | 0x6CE1D24E  | 0x00000000 |
-| ???                           | 0x0BCFE28E             | 0                | 0x3F1B2319  | 0x00000000 |
-| ???                           | 0x0C149895             | 0                | 0xE7341A26  | 0x00000000 |
-| ???                           | 0x0CA22697             | 0                | 0x3F1B2319  | 0x00000000 |
-| ???                           | 0x0CABEEB8             | 0                | 0x18DC673D  | 0x00000000 |
-| ???                           | 0x0DD65E3F             | 0                | 0x6BDDAE0A  | 0x00000000 |
-| ???                           | 0x0E13CC6F             | 0                | 0x90E42B37  | 0x00000000 |
-| ???                           | 0x0F4D3A69             | 0                | 0x6946CA5C  | 0x00000000 |
-| ???                           | 0x10D8A0BE             | 0                | 0xB49F33C6  | 0x00000000 |
-| ???                           | 0x129FF0DC             | 0                | 0x18DC673D  | 0x00000000 |
+| Retinado Part                 | 0x002A5F32             | 0                | 0x33F134FE  | 0x00000000 |
+| Chaninverse (Yo-Criminal)     | 0x0076990E             | 0                | 0x667D693B  | 0x00000000 |
+| Phantasmurai Part             | 0x016535F1             | 0                | 0x4C0FF777  | 0x00000000 |
+| Falian (Boss?)                | 0x019DBE77             | 67               | 0x4987D1B1  | 0x00000000 |
+| Dame Demona Part              | 0x02C2DC9E             | 0                | 0x46672CAC  | 0x00000000 |
+| Infinipea Part                | 0x034DF33F             | 0                | 0xC697465A  | 0x00000000 |
+| Eyeclone Part                 | 0x03FDA58A             | 0                | 0x1C7567C (0x01C7567C)  | 0x00000000 |
+| Stake (Malice Part?)          | 0x0417C468             | 0                | 0x621C345D  | 0x00000000 |
+| ??? (Papa Windbag Model?)     | 0x0435A69F             | 0                | 0x7B2567EB  | 0x00000000 |
+| Dummkap (Boss?)               | 0x06B89C0B             | 49               | 0xC49F5F47  | 0x00000000 |
+| Rhinopposite (Yo-Criminal)    | 0x079CE713             | 0                | 0x61971726  | 0x00000000 |
+| Squisker Part 1               | 0x097E0876             | 0                | 0x90E42B37  | 0x00000000 |
+| Eyeclops (Yo-Criminal)        | 0x09A21E00             | 0                | 0x6FA9EE35  | 0x00000000 |
+| Ol' Slap Stick (Yo-Criminal)  | 0x0AEA227B             | 0                | 0x6CE1D24E  | 0x00000000 |
+| Duwheel Part 1                | 0x0BCFE28E             | 0                | 0x3F1B2319  | 0x00000000 |
+| Clipso Part                   | 0x0C149895             | 0                | 0xE7341A26  | 0x00000000 |
+| Duwheel Part 2                | 0x0CA22697             | 0                | 0x3F1B2319  | 0x00000000 |
+| Eyephoon Part 1               | 0x0CABEEB8             | 0                | 0x18DC673D  | 0x00000000 |
+| Fake-inhand (Yo-Criminal)     | 0x0DD65E3F             | 0                | 0x6BDDAE0A  | 0x00000000 |
+| Squisker Part 2               | 0x0E13CC6F             | 0                | 0x90E42B37  | 0x00000000 |
+| ??? (Grumpus not Grumps Khan?)| 0x0F4D3A69             | 0                | 0x6946CA5C  | 0x00000000 |
+| Wobblewok (Boss; Part 1?)     | 0x10D8A0BE             | 0                | 0xB49F33C6  | 0x00000000 |
+| Eyephoon Part 2               | 0x129FF0DC             | 0                | 0x18DC673D  | 0x00000000 |
 | Sushinoma (Yo-Criminal)       | 0x150B2A0A             | 0                | 0x7300DA3F  | 0x00000000 |
 | ???                           | 0x16560B28             | 0                | 0x705DFB1D  | 0x00000000 |
 | ???                           | 0x16DBDC92             | 0                | 0x60662DFC  | 0x00000000 |
@@ -714,6 +714,6 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xF6FAC65B             | 0                | 0x90F1366E  | 0x00000000 |
 | ???                           | 0xF880FAA6             | 0                | 0x9E8B0A93  | 0x00000000 |
 | ???                           | 0xF92F9611             | 0                | 0x33F134FE  | 0x00000000 |
-| Baku (Boss)                  | 0xFE7F8B35             | 146              | 0x405356BF  | 0x00000000 |
+| Baku (Boss)                   | 0xFE7F8B35             | 146              | 0x405356BF  | 0x00000000 |
 | ???                           | 0xFED6C192             | 0                | 0xB49F33C6  | 0x00000000 |
 | ???                           | 0xFF0C23A2             | 0                | 0x9907D397  | 0x00000000 |
