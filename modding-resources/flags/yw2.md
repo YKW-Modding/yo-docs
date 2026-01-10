@@ -42,7 +42,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA4F31422 | 26 | - |
 | 0x1E40B827 | 27 | - |
 | 0xE39F2A32 | 28 | - |
-| 0x7D24EA33 | 29 | - |
+| 0x7D24EA33 | 29 | Has the player unlocked fishing yet. |
 | 0x169C1EA3 | 30 | - |
 | 0x1DAB1698 | 31 | - |
 | 0xFE232B46 | 32 | - |
