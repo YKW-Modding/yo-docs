@@ -1,23 +1,29 @@
 ---
-title: Playing FA Mods (Legacy)
+title: Playing fa Mods (Legacy)
 layout: default
 grand_parent: Modding Guides
 parent: Playing Mods
 ---
 
-# Playing FA Mods (Legacy)
+# Playing fa Mods (Legacy)
 
 ### Prerequisites
+If the mod contains just these (and nothing else):
+* `.fa` files
+* `mov` folder
+* `snd` folder
+> Note: It may contain one or more of these - the important thing is that it doesn't contain any *other* files/folders not listed above.
 
-If the mod is just a .FA file (Maybe multiple, or maybe with folders called `mov` or `snd`), this guide is for you. Take all of the files and put them inside a folder called `romfs`.
-Since Yo-kai Watch 1 for Nintendo Switch also uses .FA, a guide for it will be listed here.
+Then this guide is for you! Take all of the files and place them inside a folder called `romfs`.
+> Note: It must be called "`romfs`" exactly. No capital letters, spaces or other characters.
 
-## Citra
+Since Yo-kai Watch 1 for Nintendo Switch also uses `.fa` files, a guide for it will be listed here.
 
+## Citra/Azahar/AzaharPlus
 This is quite simple!
 
-1. Ok, so you have your mod files in your `romfs` folder. Copy the folder.
-2. Open Citra and right click the game you are using. Select "Open Mods Directory".
+1. You should have your mod files in your `romfs` folder. Copy the folder.
+2. Open your emulator and right click the game you are using. Select "Open Mods Directory".
 3. Paste your `romfs` folder here.
 4. Launch your mod!
 
@@ -33,11 +39,12 @@ This one is a lot more annoying.
 
 1. Make sure your 3DS console is modded. To do so, go to [this website](https://3ds.hacks.guide).
 2. Insert your 3DS SD Card into your PC.
-3. Go to `luma/titles`.
-4. Go to [3dsdb](http://3dsdb.com) and search the title of your game to find its Title ID.
-5. In `luma/titles` make a folder and name it the Title ID.
-6. Copy your `romfs` folder and paste it in the folder you just made. You can now reinsert your SD card into the console.
-7. Hold SELECT while booting your console.
-8. Use the DPad to navigate down to `( ) Enable Game Patching` and press A. It should now be `(x) Enable Game Patching`.
-9. Press START to save and reboot.
-10. Launch your mod!
+3. Go to the `luma` folder and the `titles` folder within it (If any of these folders do not exist, create them).
+4. Go to [3dsdb](http://3dsdb.com) and search the title of your game to find its Title ID for example EUR Psychic Specters the TitleID is `00040000001B2900`.
+> Remember TitleIDs are *reigon dependant* e.g. the European vs American games will have different Title IDs.
+6. In `luma/titles` (where you should be) make a folder and name it the Title ID i.e. a folder called `00040000001B2900`.
+7. Copy your `romfs` folder and paste it in the folder you just made. You can now reinsert your SD card into the console.
+8. Hold SELECT while booting your console.
+9. Use the DPad to navigate down to `( ) Enable Game Patching` and press A. It should now be `(x) Enable Game Patching`.
+10. Press START to save and reboot.
+11. Launch your mod!
