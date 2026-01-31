@@ -9,7 +9,6 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consumables
 
-
 | Item Name | ItemID (Hex) |
 |---|---|
 | Chocobar | 0x8162B121 |
@@ -107,7 +106,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Li'l Angel Heals | 0x6224C137 |
 | Bye, Li'l Angel | 0x1523F1A1 |
 | The Pest's Quest | 0x75E47844 |
-| The Perfect Pest | 0x2E348D2 |
+| The Perfect Pest | 0x02E348D2 (0x2E348D2) |
 | Support Life #7 | 0x9BEA1968 |
 | Support Special | 0xECED29FE |
 | Str. Talisman | 0x15EB282B |
@@ -143,7 +142,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Snowstorm Cloak | 0x14E19B96 |
 | Love Scepter | 0x74261273 |
 | Glacial Clip | 0xF359B691 |
-| Buff Weight | 0x32122E5 |
+| Buff Weight | 0x032122E5 (0x32122E5) |
 | Shard of Evil | 0x734BD66A |
 | Ageless Powder | 0xED2F43C9 |
 | Dragon Orb | 0x9D45B746 |
@@ -153,13 +152,13 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Cursed Journal | 0xD874E552 |
 | Horn | 0x48CBF8C3 |
 | Mem-o-Vac | 0x3FCCC855 |
-| Mermaid Pearl | 0x951E636 |
+| Mermaid Pearl | 0x0951E636 (0x951E636) |
 | Love-Packed Rice Ball | 0x69966FD3 |
 | Broken Bell | 0x7E56D6A0 |
 | Battered Blade | 0x793B12B9 |
 | Rough Whetstone | 0xE0324303 |
 | Sinister Whetstone | 0x97357395 |
-| Sublime Whetstone | 0x78A6E04 |
+| Sublime Whetstone | 0x078A6E04 (0x78A6E04) |
 | Carved Bear | 0x104AD777 |
 | Goldfish Lantern | 0x674DE7E1 |
 | Master's Lantern | 0xFE44B65B |
@@ -171,13 +170,13 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Red Hibiscus | 0x1E915F45 |
 | Healing Herb | 0xE75F871A |
 | Stinky Herb | 0x9058B78C |
-| Bitter Herb | 0xE3C222F |
+| Bitter Herb | 0x0E3C222F (0xE3C222F) |
 | Red Coin | 0x9A89BF7C |
-| Yellow Coin | 0x380EEC6 |
+| Yellow Coin | 0x0380EEC6 (0x380EEC6) |
 | Orange Coin | 0x7487DE50 |
 | Pink Coin | 0xEAE34BF3 |
 | Green Coin | 0x9DE47B65 |
-| Blue Coin | 0x4ED2ADF |
+| Blue Coin | 0x04ED2ADF (0x4ED2ADF) |
 | Purple Coin | 0x73EA1A49 |
 | Light-Blue Coin | 0xE35507D8 |
 | Five-Star Coin | 0xCB567D2C |
@@ -198,11 +197,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Traveler's Coin West | 0x69DF023F |
 | Traveler's Coin Mountain | 0x1ED832A9 |
 | Traveler's Coin South | 0x7E1FBB4C |
-| Traveler's Coin Midwest | 0x9188BDA |
+| Traveler's Coin Midwest | 0x09188BDA (0x9188BDA) |
 | Traveler's Coin Island | 0x9011DA60 |
 | Mystery Coin | 0xE716EAF6 |
 | Boar Mystery Coin | 0x79727F55 |
-| Deer Mystery Coin | 0xE754FC3 |
+| Deer Mystery Coin | 0x0E754FC3 (0xE754FC3) |
 | Butterfly Mystery Coin | 0x977C1E79 |
 | Cheerful Coin | 0xE07B2EEF |
 | Red Coin Fragment | 0xDCFFD1F6 |
@@ -217,6 +216,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Gate Globe | 0x46452D56 |
 | Noko Orb | 0x883C1092 |
 | Kyubi Orb | 0x11354128 |
+
 
 ## Important
 (Key Items)
@@ -239,15 +239,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Sakura Cycle | 0x60ED9FB5 |
 | Forest Cycle | 0x17EAAF23 |
 | Cirrus Cycle | 0x772D26C6 |
-| Sunshine Cycle | 0x2A1650 |
+| Sunshine Cycle | 0x002A1650 (0x2A1650) |
 | Splendid Cycle | 0x992347EA |
 | Sinister Cycle | 0xEE24777C |
 | Sparkling Cycle | 0x7040E2DF |
-| Sunset Cycle | 0x747D249 |
+| Sunset Cycle | 0x0747D249 (0x747D249) |
 | Seaside Cycle | 0x9E4E83F3 |
 | Sakura Cycle | 0xE949B365 |
 | Forest Cycle | 0x79F6AEF4 |
-| Cirrus Cycle | 0xEF19E62 |
+| Cirrus Cycle | 0x0EF19E62 (0xEF19E62) |
 | Sunshine Cycle | 0xF0B53A09 |
 | Splendid Cycle | 0x87B20A9F |
 | Sinister Cycle | 0x1EBB5B25 |
@@ -273,13 +273,13 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Milk Bottle Tops | 0x5C007505 |
 | Moximous Game | 0x2B074593 |
 | Shack Key | 0xE454B3AF |
-| Mega Watch | 0xD37169A |
+| Mega Watch | 0x0D37169A (0xD37169A) |
 | Hose | 0x3F017418 |
-| Back Door Key | 0xA5AD283 |
+| Back Door Key | 0x0A5AD283 (0xA5AD283) |
 | Large Fancy Key | 0x6446D354 |
 | Small Fancy Key | 0xFD4F82EE |
 | Yo-kai World Key | 0xE33977B6 |
-| Spooky Key | 0x4815AB1 |
+| Spooky Key | 0x04815AB1 (0x4815AB1) |
 | Boar Key | 0x77CA9EEB |
 | Deer Key | 0xE775837A |
 | Butterfly Key | 0x73866A27 |
@@ -311,11 +311,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Famous Frock | 0x896982AD |
 | Otterina | 0xE9AE0B48 |
 | Y-Cola Bottle | 0x9EA93BDE |
-| Waddle Potty | 0x7A06A64 |
+| Waddle Potty | 0x07A06A64 (0x7A06A64) |
 | Snap-Turtle Doll | 0x70A75AF2 |
 | Nyaight Scroll | 0xEEC3CF51 |
 | Victory Scroll | 0x99C4FFC7 |
-| Nyext Scroll | 0xCDAE7D |
+| Nyext Scroll | 0x00CDAE7D (0xCDAE7D) |
 | Bun of Oneness | 0xF7D7E7F2 |
 | Critical Lost Item | 0x6EDEB648 |
 | Ghostly Goo | 0x87BD137D |
@@ -327,11 +327,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | New Retro Robot | 0x99CBE625 |
 | Old Retro Robot | 0xEECCD6B3 |
 | Treasure Map | 0x77C58709 |
-| Soggy Map | 0xC2B79F |
+| Soggy Map | 0x00C2B79F (0xC2B79F) |
 | Crumpled Map | 0x9EA6223C |
 | Stained Map | 0xE9A112AA |
 | New Treasure Map | 0x70A84310 |
-| Treasure Room Key | 0x7AF7386 |
+| Treasure Room Key | 0x07AF7386 (0x7AF7386) |
 | Final Treasure Map | 0x97106E17 |
 | Strange Handle | 0xE0175E81 |
 | B&W Camera | 0xB2E6B5E6 |
@@ -342,11 +342,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Fluffy Towel | 0xC28C4169 |
 | Sharp-Toothed Comb | 0xE562481C |
 | Dance Revolution | 0x7C6B19A6 |
-| Hexpress Pass | 0xB6C2930 |
+| Hexpress Pass | 0x0B6C2930 (0xB6C2930) |
 | Gera Gera Land Ticket | 0x9508BC93 |
 | Paradise Springs Ticket | 0xE20F8C05 |
 | Wolfit Down Ticket | 0x7B06DDBF |
-| Heavenly Bath Pass | 0xC01ED29 |
+| Heavenly Bath Pass | 0x0C01ED29 (0xC01ED29) |
 | Mountain Bath Pass | 0x9CBEF0B8 |
 | Hill Bath Pass | 0xEBB9C02E |
 | Wanderer's Bath Pass | 0x8B7E49CB |
@@ -379,11 +379,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Draggie Cog | 0xBED17ED4 |
 | F-Series Bell | 0x2E6E6345 |
 | Sailor Bell | 0x596953D3 |
-| Macho Bell | 0xB98B8B4 |
+| Macho Bell | 0x0B98B8B4 (0xB98B8B4) |
 | Wonderer's Bell | 0x7C9F8822 |
 | Jet Bell | 0xE596D998 |
 | Boo Bundle | 0x9291E90E |
-| Keepsake Cap | 0xCF57CAD |
+| Keepsake Cap | 0x0CF57CAD (0xCF57CAD) |
 | Dark Bell | 0x7BF24C3B |
 
 ## Equipment
@@ -479,15 +479,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Minochi | 0x8E95FDE5 |
 | Cutta-nah | 0x1E2AE074 |
 | Cutta-nah-nah | 0x692DD0E2 |
-| Slacka-slash | 0x9EA5907 |
+| Slacka-slash | 0x09EA5907 (0x9EA5907) |
 | Chansin | 0x7EED6991 |
 | Sheen | 0xE7E4382B |
 | Gleam | 0x90E308BD |
-| Snee | 0xE879D1E |
+| Snee | 0x0E879D1E (0xE879D1E) |
 | Helmsman | 0x7980AD88 |
 | Reuknight | 0xE089FC32 |
 | Corptain | 0x978ECCA4 |
-| Blazion | 0x731D135 |
+| Blazion | 0x0731D135 (0x731D135) |
 | Quaken | 0x7036E1A3 |
 | Siro | 0x22C70AC4 |
 | Beetler | 0x55C03A52 |
@@ -510,15 +510,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Kapunki | 0x3507B3B7 |
 | Cupistol | 0x42008321 |
 | Casanuva | 0x749DAD42 |
-| Casanono | 0x39A9DD4 |
+| Casanono | 0x039A9DD4 (0x39A9DD4) |
 | Tattletell | 0x9A93CC6E |
 | Skranny | 0xED94FCF8 |
 | Tattlecast | 0x73F0695B |
-| Baku | 0x4F759CD |
+| Baku | 0x04F759CD (0x4F759CD) |
 | Whapir | 0x9DFE0877 |
 | Signibble | 0xEAF938E1 |
 | Signiton | 0x7A462570 |
-| Statiking | 0xD4115E6 |
+| Statiking | 0x0D4115E6 (0xD4115E6) |
 | Mirapo | 0x6D869C03 |
 | Mircle | 0x1A81AC95 |
 | Illoo | 0x8388FD2F |
@@ -579,15 +579,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Komiger | 0x8F5797D2 |
 | Daiz | 0x1FE88A43 |
 | Confuze | 0x68EFBAD5 |
-| Pupsicle | 0x8283330 |
+| Pupsicle | 0x08283330 (0x8283330) |
 | Chilhuahua | 0x7F2F03A6 |
 | Swelterrier | 0xE626521C |
 | Fidgephant | 0x9121628A |
-| Touphant | 0xF45F729 |
+| Touphant | 0x0F45F729 (0xF45F729) |
 | Rollen | 0x7842C7BF |
 | Dubbles | 0xE14B9605 |
 | Tengu | 0x964CA693 |
-| Flengu | 0x6F3BB02 |
+| Flengu | 0x06F3BB02 (0x6F3BB02) |
 | Hungramps | 0x71F48B94 |
 | Grainpa | 0x230560F3 |
 | Hungorge | 0x54025065 |
@@ -610,15 +610,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Happierre | 0x34C5D980 |
 | Reversa | 0x43C2E916 |
 | Reversette | 0x755FC775 |
-| Ol' Saint Trick | 0x258F7E3 |
+| Ol' Saint Trick | 0x0258F7E3 (0x258F7E3) |
 | Ol' Fortune | 0x9B51A659 |
 | Mama Aura | 0xEC5696CF |
 | Auntie Heart | 0x7232036C |
-| Papa Bolt | 0x53533FA |
+| Papa Bolt | 0x053533FA (0x53533FA) |
 | Uncle Infinite | 0x9C3C6240 |
 | Ake | 0xEB3B52D6 |
 | Payn | 0x7B844F47 |
-| Agon | 0xC837FD1 |
+| Agon | 0x0C837FD1 (0xC837FD1) |
 | Negatibuzz | 0x6C44F634 |
 | Moskevil | 0x1B43C6A2 |
 | Scritchy | 0x824A9718 |
@@ -679,15 +679,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Tunatic | 0x8D11298B |
 | Chummer | 0x1DAE341A |
 | Shrook | 0x6AA9048C |
-| Spenp | 0xA6E8D69 |
+| Spenp | 0x0A6E8D69 (0xA6E8D69) |
 | Almi | 0x7D69BDFF |
 | Babblong | 0xE460EC45 |
 | Bananose | 0x9367DCD3 |
-| Copperled | 0xD034970 |
+| Copperled | 0x0D034970 (0xD034970) |
 | Slitheref | 0x7A0479E6 |
 | Cynake | 0xE30D285C |
 | Venoct | 0x940A18CA |
-| Shad. Venoct | 0x4B5055B |
+| Shad. Venoct | 0x04B5055B (0x4B5055B) |
 | Shogunyan | 0x73B235CD |
 | Komashura | 0x2143DEAA |
 | Dandoodle | 0x5644EE3C |
@@ -710,15 +710,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Devourer | 0x368367D9 |
 | Brokenbrella | 0x4184574F |
 | Smogling | 0x7719792C |
-| So-Sorree | 0x1E49BA |
+| So-Sorree | 0x001E49BA (0x1E49BA) |
 | Mimikin | 0x99171800 |
 | Failian | 0xEE102896 |
 | Houzzat | 0x7074BD35 |
-| Smogmella | 0x7738DA3 |
+| Smogmella | 0x07738DA3 (0x7738DA3) |
 | Badsmella | 0x9E7ADC19 |
 | Master Oden | 0xE97DEC8F |
 | Bowminos | 0x79C2F11E |
-| Miradox | 0xEC5C188 |
+| Miradox | 0x0EC5C188 (0xEC5C188) |
 | Chymera | 0x6E02486D |
 | Kingmera | 0x190578FB |
 | Terrorpotta | 0x800C2941 |
@@ -779,15 +779,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Allnyta | 0x8CD343BC |
 | Wobblewok | 0x1C6C5E2D |
 | Furgus | 0x6B6B6EBB |
-| Feargus | 0xBACE75E |
+| Feargus | 0x0BACE75E (0xBACE75E) |
 | Nosirs | 0x7CABD7C8 |
 | Papa Windbag | 0xE5A28672 |
 | Toiletta | 0x92A5B6E4 |
-| Ben Tover | 0xCC12347 |
+| Ben Tover | 0x0CC12347 (0xCC12347) |
 | Robbinyu | 0x7BC613D1 |
 | Sproink | 0xE2CF426B |
 | Rawry | 0x95C872FD |
-| Furdinand | 0x5776F6C |
+| Furdinand | 0x05776F6C (0x5776F6C) |
 | Foiletta | 0x72705FFA |
 | Arachnus | 0x2081B49D |
 | Arachnia | 0x5786840B |
@@ -810,15 +810,15 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Mermother | 0x37410DEE |
 | Spoilerina | 0x40463D78 |
 | Poofessor | 0x76DB131B |
-| Slurpent | 0x1DC238D |
+| Slurpent | 0x01DC238D (0x1DC238D) |
 | Unfairy | 0x98D57237 |
 | Unkaind | 0xEFD242A1 |
 | Untidy | 0x71B6D702 |
-| Unpleasant | 0x6B1E794 |
+| Unpleasant | 0x06B1E794 (0x6B1E794) |
 | Unkeen | 0x9FB8B62E |
 | Tyrat | 0xE8BF86B8 |
 | Apelican | 0x78009B29 |
-| Darknyan | 0xF07ABBF |
+| Darknyan | 0x0F07ABBF (0xF07ABBF) |
 | Buchinyan | 0x6FC0225A |
 | Verygoodsir | 0x18C712CC |
 | Robonyan F | 0x81CE4376 |
@@ -879,11 +879,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Snow Soul | 0x9A7B6DA1 |
 | Squall Soul | 0xED7C5D37 |
 | Supernatural Soul | 0x74750C8D |
-| Sinister Soul | 0x3723C1B |
+| Sinister Soul | 0x03723C1B (0x3723C1B) |
 | Shielding Soul | 0x9D16A9B8 |
 | Summoner's Soul | 0xEA11992E |
 | Surrender Soul | 0x7318C894 |
-| Superstar Soul | 0x41FF802 |
+| Superstar Soul | 0x041FF802 (0x41FF802) |
 
 ## Creature
 (Critters)
@@ -925,11 +925,11 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Blue Emperor | 0xAD49D3BB |
 | ★Blue Emperor | 0x15F5B4DE |
 | Big Dragonfly | 0xB0F9AE1B |
-| ★Big Dragonfly | 0x845C97E |
+| ★Big Dragonfly | 0x0845C97E (0x845C97E) |
 | Firefly | 0xBE222629 |
-| ★Firefly | 0x69E414C |
+| ★Firefly | 0x069E414C (0x69E414C) |
 | Ladybug | 0xB94FE230 |
-| ★Ladybug | 0x1F38555 |
+| ★Ladybug | 0x01F38555 (0x1F38555) |
 | Grasshopper | 0x395D82CB |
 | ★Grasshopper | 0x81E1E5AE |
 | Rice Grasshopper | 0x5741831C |
@@ -940,7 +940,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | ★Cricket | 0x2ADED696 |
 | Bell Cricket | 0x7C6CD0DF |
 | ★Bell Cricket | 0xC4D0B7BA |
-| Bush Cricket | 0xC062450 |
+| Bush Cricket | 0x0C062450 (0xC062450) |
 | ★Bush Cricket | 0xB4BA4335 |
 | Asian Mantis | 0x5D3147CF |
 | ★Asian Mantis | 0xE58D20AA |
@@ -965,8 +965,8 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Diving Beetle | 0xF5C8FC0F |
 | ★Diving Beetle | 0x4D749B6A |
 | Water Bug | 0xB452E2FA |
-| ★Water Bug | 0xCEE859F |
-| Jewel Beetle | 0xB6BE049 |
+| ★Water Bug | 0x0CEE859F (0xCEE859F) |
+| Jewel Beetle | 0x0B6BE049 (0xB6BE049) |
 | ★Jewel Beetle | 0xB3D7872C |
 | Grass Lizard | 0xECD3CD4E |
 | ★Grass Lizard | 0x546FAA2B |
@@ -990,7 +990,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | ★Turtle | 0x69402AAC |
 | Softshell Turtle | 0xC63CF4BA |
 | ★Softshell Turtle | 0x7E8093DF |
-| Crab | 0xDC44E67 |
+| Crab | 0x0DC44E67 (0xDC44E67) |
 | ★Crab | 0xB5782902 |
 | Crayfish | 0x94CD1FDD |
 | ★Crayfish | 0x2C7178B8 |
@@ -999,7 +999,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Shrimp | 0xC5FA7C42 |
 | ★Shrimp | 0x7D461B27 |
 | Starfish | 0xB2FD4CD4 |
-| ★Starfish | 0xA412BB1 |
+| ★Starfish | 0x0A412BB1 (0xA412BB1) |
 | Sea Horse | 0x14DF7F26 |
 | ★Sea Horse | 0xAC631843 |
 | Carp | 0xA196B946 |
@@ -1011,14 +1011,14 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Cherry Salmon | 0x93A0DBC4 |
 | ★Cherry Salmon | 0x2B1CBCA1 |
 | Koi | 0xB13BC42C |
-| ★Koi | 0x987A349 |
+| ★Koi | 0x0987A349 (0x987A349) |
 | Black Bass | 0x48F51C73 |
 | ★Black Bass | 0xF0497B16 |
 | Salmon | 0x7AC37EF1 |
 | ★Salmon | 0xC27F1994 |
 | Giant Huchen | 0x3FF22CE5 |
 | ★Giant Huchen | 0x874E4B80 |
-| Sardine | 0xAA98A7E |
+| Sardine | 0x0AA98A7E (0xAA98A7E) |
 | ★Sardine | 0xB215ED1B |
 | Mackerel | 0x389FE8FC |
 | ★Mackerel | 0x80238F99 |
@@ -1065,7 +1065,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Eel | 0xE3CA2F4B |
 | ★Eel | 0x5B76482E |
 | Catfish | 0xB88D8807 |
-| ★Catfish | 0x31EF62 |
+| ★Catfish | 0x0031EF62 (0x31EF62) |
 | Jellyfish | 0xC8E77C88 |
 | ★Jellyfish | 0x705B1BED |
 | Octopus | 0x63D84FB0 |
@@ -1077,7 +1077,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Firefly Squid | 0x51EE2D32 |
 | ★Firefly Squid | 0xE9524A57 |
 | Squid | 0xB59088CD |
-| ★Squid | 0xD2CEFA8 |
+| ★Squid | 0x0D2CEFA8 (0xD2CEFA8) |
 | Spear Squid | 0x3582E836 |
 | ★Spear Squid | 0x8D3E8F53 |
 | Anglerfish | 0x4285D8A0 |
@@ -1085,7 +1085,6 @@ These will be sorted into the different types - with IDs in hex for convenience.
 | Stingray | 0x9A1697EF |
 | ★Stingray | 0x22AAF08A |
 | Marlin | 0xBFE04C1E |
-| ★Marlin | 0x75C2B7B |
+| ★Marlin | 0x075C2B7B (0x75C2B7B) |
 | Tuna | 0x830DA6AE |
 | ★Tuna | 0x3BB1C1CB |
-
