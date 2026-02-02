@@ -3887,73 +3887,73 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_4 (8, 67) - TempByteFlag
 
-| FLAG_ID | Slot | Notes |
-|---------|------|-------|
-| 0x98CE5C36 | 0 | - |
-| 0x9FF789D8 | 1 | - |
-| 0xC99C90E8 | 3 | - |
-| 0xADBA2641 | 4 | - |
-| 0xDEDC17BC | 5 | - |
-| 0x0646643E (0x646643E) | 6 | - |
-| 0xA50927A3 | 7 | - |
-| 0x88B8AF7B | 8 | - |
-| 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. |
-| 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. |
-| 0x26BF0B6E | 11 | - |
-| 0x8D489757 | 12 | - |
-| 0x4833746A | 13 | - |
-| 0xFE216783 | 14 | - |
-| 0x67283639 | 15 | - |
-| 0x102F06AF | 16 | - |
-| 0x90F2EA2A | 18 | - |
-| 0x5D130AE2 | 19 | - |
-| 0x974BB3D3 | 21 | - |
-| 0x386B243E | 23 | - |
-| 0xE5D4C20D | 24 | - |
-| 0x1331193D | 27 | - |
-| 0x8A0BE7F0 | 30 | - |
-| 0x578FE84E | 31 | - |
-| 0x4436A697 | 32 | - |
-| 0xECE60CF2 | 33 | - |
-| 0x99DCDE6D | 34 | - |
-| 0xCC2D2166 | 35 | - |
-| 0x1EEFFF35 | 36 | - |
-| 0x363A9ADE | 37 | - |
-| 0xAE70FC1B | 38 | - |
-| 0x8CEC6677 | 39 | - |
-| 0xCD119711 | 40 | - |
-| 0xDE31ADB1 | 41 | - |
-| 0xF023B5B1 | 42 | - |
-| 0x8379C8D6 | 43 | - |
-| 0x72CC0C86 | 45 | - |
-| 0xE2EECD77 | 46 | - |
-| 0xE65769F4 | 49 | - |
-| 0x50D97E20 | 50 | - |
-| 0x08BAAEBB (0x8BAAEBB) | 51 | - |
-| 0x91B3FF01 | 52 | - |
-| 0x7D260B33 | 55 | - |
-| 0xB9F63984 | 64 | - |
-| 0x20FF683E | 65 | - |
-| 0x57F858A8 | 66 | - |
-| 0xC99CCD0B | 67 | - |
-| 0xD797E46B | 68 | - |
-| 0xEEC4744B | 69 | - |
-| 0xA3BEB26B | 70 | - |
-| 0xB8C58433 | 72 | - |
-| 0x8AD93348 | 75 | - |
-| 0x8D372F06 | 77 | - |
-| 0x143E7EBC | 78 | - |
-| 0x63394E2A | 79 | - |
-| 0xFD5DDB89 | 80 | - |
-| 0xC939DE59 | 110 | Used in Battle AI Act Conds |
-| 0x594E57E6 | 111 | - |
-| 0xC047065C | 112 | - |
-| 0xB74036CA | 113 | - |
-| 0x2924A369 | 114 | - |
-| 0x5E2393FF | 115 | - |
-| 0xC72AC245 | 116 | - |
-| 0xB02DF2D3 | 117 | - |
-| 0x2092EF42 | 118 | - |
-| 0x5795DFD4 | 119 | - |
-| 0xBDEBD63B | 120 | - |
+| FLAG_ID | Slot | Notes | Name |
+|---------|------|-------| ---- |
+| 0x98CE5C36 | 0 | - | - |
+| 0x9FF789D8 | 1 | - | - |
+| 0xC99C90E8 | 3 | - | - |
+| 0xADBA2641 | 4 | - | - |
+| 0xDEDC17BC | 5 | - | - |
+| 0x0646643E (0x646643E) | 6 | - | - |
+| 0xA50927A3 | 7 | - | - |
+| 0x88B8AF7B | 8 | - | - |
+| 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. | - |
+| 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. | - |
+| 0x26BF0B6E | 11 | - | - |
+| 0x8D489757 | 12 | - | - |
+| 0x4833746A | 13 | - | - |
+| 0xFE216783 | 14 | - | - |
+| 0x67283639 | 15 | - | - |
+| 0x102F06AF | 16 | - | - |
+| 0x90F2EA2A | 18 | - | - |
+| 0x5D130AE2 | 19 | - | - |
+| 0x974BB3D3 | 21 | - | - |
+| 0x386B243E | 23 | - | - |
+| 0xE5D4C20D | 24 | - | - |
+| 0x1331193D | 27 | - | - |
+| 0x8A0BE7F0 | 30 | - | - |
+| 0x578FE84E | 31 | - | - |
+| 0x4436A697 | 32 | - | - |
+| 0xECE60CF2 | 33 | - | - |
+| 0x99DCDE6D | 34 | - | - |
+| 0xCC2D2166 | 35 | - | - |
+| 0x1EEFFF35 | 36 | - | - |
+| 0x363A9ADE | 37 | - | - |
+| 0xAE70FC1B | 38 | - | - |
+| 0x8CEC6677 | 39 | - | - |
+| 0xCD119711 | 40 | - | - |
+| 0xDE31ADB1 | 41 | - | - |
+| 0xF023B5B1 | 42 | - | - |
+| 0x8379C8D6 | 43 | - | - |
+| 0x72CC0C86 | 45 | - | - |
+| 0xE2EECD77 | 46 | - | - |
+| 0xE65769F4 | 49 | - | - |
+| 0x50D97E20 | 50 | - | - |
+| 0x08BAAEBB (0x8BAAEBB) | 51 | - | - |
+| 0x91B3FF01 | 52 | - | - |
+| 0x7D260B33 | 55 | - | - |
+| 0xB9F63984 | 64 | - | `tmp_gacha_coin_1` |
+| 0x20FF683E | 65 | - | `tmp_gacha_coin_2` |
+| 0x57F858A8 | 66 | - | `tmp_gacha_coin_3` |
+| 0xC99CCD0B | 67 | - | `tmp_gacha_coin_4` |
+| 0xD797E46B | 68 | Temp Playcoin spent counter | - |
+| 0xEEC4744B | 69 | Capsule Data: 0 = Success, 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | - |
+| 0xA3BEB26B | 70 | - | - |
+| 0xB8C58433 | 72 | - | - |
+| 0x8AD93348 | 75 | - | - |
+| 0x8D372F06 | 77 | - | `tmp_gacha_prize_1` |
+| 0x143E7EBC | 78 | - | `tmp_gacha_prize_2` |
+| 0x63394E2A | 79 | - | `tmp_gacha_prize_3` |
+| 0xFD5DDB89 | 80 | - | `tmp_gacha_prize_4` |
+| 0xC939DE59 | 110 | Used in Battle AI Act Conds | - |
+| 0x594E57E6 | 111 | - | - |
+| 0xC047065C | 112 | - | - |
+| 0xB74036CA | 113 | - | - |
+| 0x2924A369 | 114 | - | - |
+| 0x5E2393FF | 115 | - | - |
+| 0xC72AC245 | 116 | - | - |
+| 0xB02DF2D3 | 117 | - | - |
+| 0x2092EF42 | 118 | - | - |
+| 0x5795DFD4 | 119 | - | - |
+| 0xBDEBD63B | 120 | - | - |
 
