@@ -3932,19 +3932,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x08BAAEBB (0x8BAAEBB) | 51 | - | - |
 | 0x91B3FF01 | 52 | - | - |
 | 0x7D260B33 | 55 | - | - |
-| 0xB9F63984 | 64 | - | - |
-| 0x20FF683E | 65 | - | - |
-| 0x57F858A8 | 66 | - | - |
-| 0xC99CCD0B | 67 | - | - |
-| 0xD797E46B | 68 | - | - |
+| 0xB9F63984 | 64 | - | `tmp_gacha_coin_1` |
+| 0x20FF683E | 65 | - | `tmp_gacha_coin_2` |
+| 0x57F858A8 | 66 | - | `tmp_gacha_coin_3` |
+| 0xC99CCD0B | 67 | - | `tmp_gacha_coin_4` |
+| 0xD797E46B | 68 | Temp Playcoin spent counter | - |
 | 0xEEC4744B | 69 | Capsule Data: 0 = Success, 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | - |
 | 0xA3BEB26B | 70 | - | - |
 | 0xB8C58433 | 72 | - | - |
 | 0x8AD93348 | 75 | - | - |
-| 0x8D372F06 | 77 | - | - |
-| 0x143E7EBC | 78 | - | - |
-| 0x63394E2A | 79 | - | - |
-| 0xFD5DDB89 | 80 | - | - |
+| 0x8D372F06 | 77 | - | `tmp_gacha_prize_1` |
+| 0x143E7EBC | 78 | - | `tmp_gacha_prize_2` |
+| 0x63394E2A | 79 | - | `tmp_gacha_prize_3` |
+| 0xFD5DDB89 | 80 | - | `tmp_gacha_prize_4` |
 | 0xC939DE59 | 110 | Used in Battle AI Act Conds | - |
 | 0x594E57E6 | 111 | - | - |
 | 0xC047065C | 112 | - | - |
