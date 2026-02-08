@@ -3937,7 +3937,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x57F858A8 | 66 | - | `tmp_gacha_coin_3` |
 | 0xC99CCD0B | 67 | - | `tmp_gacha_coin_4` |
 | 0xD797E46B | 68 | Temp Playcoin spent counter | - |
-| 0xEEC4744B | 69 | Capsule Data: 0 = Success, 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | - |
+| 0xEEC4744B | 69 | Capsule Data: 0 = Success, 1 = Oni Crank-a-kai? 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | - |
 | 0xA3BEB26B | 70 | - | - |
 | 0xB8C58433 | 72 | - | - |
 | 0x8AD93348 | 75 | - | - |
