@@ -642,7 +642,7 @@ The Below IDs are shown in hex format for convenience. Note that Type Rares and 
 | ???                           | 0xA7123E45             | 0                | 0x716FDEC7  | 0x00000000 |
 | ???                           | 0xA72BF61A             | 0                | 0xC120062F  | 0x00000000 |
 | ???                           | 0xA794DD80             | 0                | 0x18DC673D  | 0x00000000 |
-| ???                           | 0xA7CA8BED             | 0                | 0xC1C17BD8  | 0x00000000 |
+| Orcanos (Boss 2?)             | 0xA7CA8BED             | 0                | 0xC1C17BD8  | 0x00000000 |
 | ???                           | 0xA8C296B2             | 0                | 0x1C7567C (0x01C7567C)  | 0x00000000 |
 | ???                           | 0xAA2397B9             | 0                | 0x1C7567C (0x01C7567C)  | 0x00000000 |
 | ???                           | 0xAD952F98             | 0                | 0xCB9EDFAD  | 0x00000000 |
