@@ -47,7 +47,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x1DAB1698 | 31 | -  | - |
 | 0xFE232B46 | 32 | -  | - |
 | 0x91B9489C | 33 | -  | - |
-| 0x6E9A22CF | 34 | -  | - |
+| 0x6E9A22CF | 34 | Decides which watch mode is currently active in the overworld. 0 = Clock, 1 = Radar.  | - |
 | 0xEB822ABC | 35 | -  | - |
 | 0x67B99C8E | 36 | -  | - |
 | 0x7E34D611 | 37 | -  | - |
@@ -2266,25 +2266,25 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x4E8A9E52 | 2251 | -  | - |
 | 0x398DAEC4 | 2252 | -  | - |
 | 0xA084FF7E | 2253 | -  | - |
-| 0x21CC01E4 | 2254 | -  | - |
-| 0xB8C5505E | 2255 | -  | - |
-| 0xCFC260C8 | 2256 | -  | - |
-| 0x51A6F56B | 2257 | -  | - |
-| 0x26A1C5FD | 2258 | -  | - |
-| 0xBFA89447 | 2259 | -  | - |
-| 0xC8AFA4D1 | 2260 | -  | - |
-| 0x5810B940 | 2261 | -  | - |
-| 0x2F1789D6 | 2262 | -  | - |
-| 0x4FD00033 | 2263 | -  | - |
-| 0x38D730A5 | 2264 | -  | - |
-| 0xA1DE611F | 2265 | -  | - |
-| 0xD6D95189 | 2266 | -  | - |
-| 0x48BDC42A | 2267 | -  | - |
-| 0x3FBAF4BC | 2268 | -  | - |
-| 0xA6B3A506 | 2269 | -  | - |
-| 0xD1B49590 | 2270 | -  | - |
-| 0x410B8801 | 2271 | -  | - |
-| 0x4AE86950 | 2272 | -  | - |
+| 0x21CC01E4 | 2254 | Obtained the Springdale Central Station Stamp (Stamp Rally). | `station_stamp_t100s01` |
+| 0xB8C5505E | 2255 | Obtained the Green Street Station Stamp (Stamp Rally).      | `station_stamp_t100s02` |
+| 0xCFC260C8 | 2256 | Obtained the Hibarly Hills Station Stamp (Stamp Rally).     | `station_stamp_t100s03` |
+| 0x51A6F56B | 2257 | Obtained the Petal Peak Station Stamp (Stamp Rally).        | `station_stamp_t100s04` |
+| 0x26A1C5FD | 2258 | Obtained the Factory Row Station Stamp (Stamp Rally).       | `station_stamp_t100s05` |
+| 0xBFA89447 | 2259 | Obtained the Sweet Meadow Station Stamp (Stamp Rally).      | `station_stamp_t100s06` |
+| 0xC8AFA4D1 | 2260 | Obtained the Fortune Place Station Stamp (Stamp Rally).     | `station_stamp_t100s07` |
+| 0x5810B940 | 2261 | Obtained the Skybridge Station Stamp (Stamp Rally).         | `station_stamp_t100s08` |
+| 0x2F1789D6 | 2262 | Obtained the Dreamer’s Field Station Stamp (Stamp Rally).   | `station_stamp_t100s09` |
+| 0x4FD00033 | 2263 | Obtained the Ridgemont Station Stamp (Stamp Rally).         | `station_stamp_t100s10` |
+| 0x38D730A5 | 2264 | Obtained the Bayside Station Stamp (Stamp Rally).           | `station_stamp_t100s11` |
+| 0xA1DE611F | 2265 | Obtained the San Fantastico Station Stamp (Stamp Rally).    | `station_stamp_t100s12` |
+| 0xD6D95189 | 2266 | Obtained the Greenfields Station Stamp (Stamp Rally).       | `station_stamp_t100s13` |
+| 0x48BDC42A | 2267 | Obtained the Temple Park Station Stamp (Stamp Rally).       | `station_stamp_t100s14` |
+| 0x3FBAF4BC | 2268 | Obtained the Dingle Falls Station Stamp (Stamp Rally).      | `station_stamp_t100s15` |
+| 0xA6B3A506 | 2269 | Obtained the Harrisville Station Stamp (Stamp Rally).       | `station_stamp_t100s16` |
+| 0xD1B49590 | 2270 | Obtained the Spring Station Stamp (Stamp Rally).            | `station_stamp_t100s17` |
+| 0x410B8801 | 2271 | Obtained the Sunshine Station Stamp (Stamp Rally).          | `station_stamp_t100s18` |
+| 0x4AE86950 | 2272 | Collected all Stamp Rally Stamps.  | `station_stamp_complete` |
 | 0x69CC7255 | 2273 | -  | - |
 | 0x123304A7 | 2274 | -  | - |
 | 0xE6DEEF0D | 2275 | -  | - |
@@ -3794,7 +3794,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA1747699 | 71 | - | - |
 | 0x9F29FF19 | 72 | - | - |
 | 0xC9B326BF | 73 | - | - |
-| 0xC1D4315F | 74 | - | - |
+| 0xC1D4315F | 74 | - | `tmp_yokaispot_battle_encount` |
 | 0x1EAA97D1 | 75 | - | - |
 | 0x49EBC157 | 76 | - | - |
 | 0x7765AB6A | 77 | - | - |
