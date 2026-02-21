@@ -3923,7 +3923,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x8CEC6677 | 39 | - | - |
 | 0xCD119711 | 40 | - | - |
 | 0xDE31ADB1 | 41 | - | - |
-| 0xF023B5B1 | 42 | - | - |
+| 0xF023B5B1 | 42 | - | `tmp_train_event_type` |
 | 0x8379C8D6 | 43 | - | - |
 | 0x72CC0C86 | 45 | - | - |
 | 0xE2EECD77 | 46 | - | - |
