@@ -62,52 +62,41 @@ After decompression, the resulting stream is used as the actual table data.
 ### JS
 ```js
 /**
- * Decompresses a Uint8Array compressed via Nintendo's LZ10 algorithm.
+ * Decompresses a Uint8Array compressed according to Level5's handling of Nintendo's LZ10 algorithm.
  * 
  * @param {Uint8Array} compUint8 - Uint8Array of the compressed data.
  * @param {Number} expectedSize - Expected size of the decompressed output.
  * @returns {Uint8Array} - Decompressed output.
  */
 function lxp_uncompress_lz10(compUint8, expectedSize) {
-  if (!compUint8 || compUint8.length === 0) return new Uint8Array(0); // Early exit for empty input
+  if (!compUint8?.length) throw new RangeError("LZ10 Decompression Error: Expected a Uint8Array of size > 3 but found", compUint8); // ideally treat malformed input strictly
   let inPos = 0;
-  const input = compUint8;
-  if (input.length >= 4) inPos = 4; // Skip compressionHeader
+  const [ input , compressionHeaderSize ] = [ compUint8, 4 ];
+  if (input.length >= 4) inPos = compressionHeaderSize; // skip the compressionHeader
   
   const output = new Uint8Array(expectedSize); // pre-allocate a buffer for the output with size expectedSize
   let outPos = 0;
-
   while (outPos < expectedSize) {
-    if (inPos >= input.length) break;
+    if (inPos >= input.length) throw new RangeError("LZ10 Decompression Error: attempted to read-past allocated buffer."); // ideally treat malformed input strictly
 
-    // Read a flag byte at position inPos and jump past it where each bit can be a 0 (representing a literal) or a 1 (representing a compressed pair)
+    // Read a flag byte at position inPos where each bit can be a 0 (representing a literal) or a 1 (representing a compressed pair) then jump past it
     const flag = input[inPos++];
 
     // Process each bit within the flag byte starting from the MSB (leftmost/largest bit) 
     for (let bit = 7; bit >= 0; bit--) { // for each bit
-      if (outPos >= expectedSize) break;
-      const isCompressed = (flag >> bit) & 1; // grab it
+      if (outPos >= expectedSize) throw new RangeError("LZ10 Decompression Error: attempted to read-past allocated buffer.");
 
-      if (isCompressed) { // and if it's 1 make sure there's enough bytes for a compressed pair
-        if (inPos + 1 >= input.length) { // if not
-          console.warn('LZ10: truncated compressed pair'); // warn
-          break; // and skip
-        }
-
+      if ((flag >> bit) & 1) { // grab it and if it's 1 make sure there's enough bytes for a compressed pair
+        if (inPos + 1 >= input.length) throw new SyntaxError("LZ10 Decompression Error: truncated compressed pair."); // // if not remember ideally, you should treat malformed input strictly
         const [ b1, b2 ] = [ input[inPos++], input[inPos++] ];
         const length = (b1 >> 4) + 3; // the length of the repeated sequence can be calculated as the upper nibble + 3
-        const disp = ((b1 & 0x0F) << 8) | b2; // get the displacement (distance back to copy from)
+        const disp = ((b1 & 0x0F) << 8) | b2; // get the displacement (aka the distance back to copy from)
         let src = outPos - (disp + 1);
-        if (src < 0) src = 0; // here I clamped src to zero so it can't accidentally read before the start of the buffer.
-
-        // Copy the sequence from already decompressed data
-        for (let k = 0; k < length && outPos < expectedSize; k++) output[outPos++] = output[src++];
+        if (src < 0) throw new RangeError("LZ10 Decompression Error: invalid displacement:", src); // ideally treat malformed input strictly
+        for (let k = 0; k < length && outPos < expectedSize; k++) output[outPos++] = output[src++]; // Copy the sequence from the displacement region
       } else {
-        // if it's 0 aka it represents a literal byte then copy it directly from I->O
-        if (inPos >= input.length) { // safety because yes
-          console.warn('LZ10: truncated literal');
-          break;
-        }
+        // if it's 0 (aka it represents a literal byte) then copy it directly from I->O
+        if (inPos >= input.length) throw new SyntaxError("LZ10 Decompression Error: truncated literal."); // for safety, treat malformed input strictly
         output[outPos++] = input[inPos++]; // copy from input to output while advancing (did I spell that right - looks off) both outPos and inPos
       }
     }
@@ -116,6 +105,7 @@ function lxp_uncompress_lz10(compUint8, expectedSize) {
   return output;
 }
 ```
+
 ## RLE
 ### JS
 ```js
@@ -134,7 +124,7 @@ function lxp_uncompress_rle(compUint8, expectedSize) { // works
 
     if (flag & 0x80) { // read the high bit to check if it's a repeat run or a literal run
       // if it's a repeat run then,
-      if (inPos >= input.length) break; // (just to be safe lol)
+      if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
       const val = input[inPos++]; // read the value @ inPos (the byte we're repeating) and advance the ptr
       const repetitions = (flag & 0x7F) + 3; // number of times to repeat next byte (val)
       const remaining = expectedSize - outPos;
@@ -146,7 +136,7 @@ function lxp_uncompress_rle(compUint8, expectedSize) { // works
       const remaining = expectedSize - outPos;
       const count = Math.min(length, remaining);
       for (let i = 0; i < count; i++) { // loop over count times
-        if (inPos >= input.length) break; // (checking for safety ofc)
+        if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
         out[outPos++] = input[inPos++]; // and filling in count bytes from inPos to outPos, while advancing both ptrs ofc
       }
     }
