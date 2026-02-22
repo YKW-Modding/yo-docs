@@ -53,6 +53,8 @@ The lower 3 bits represent the compression method whereas the remaining (upper 2
 | 6  | Invalid       |
 | 7  | Invalid       |
 
+> Compression method IDs 6 and 7 are considered invalid and should not appear in valid containers. Implementations should ideally treat them as parsing errors.
+
 After decompression, the resulting stream is used as the actual table data.
 
 # Example Implementations
