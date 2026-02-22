@@ -9,6 +9,7 @@ has_children: true
 # Level5 Compressed Container
 
 **Filetype:** N/A<br/>
+**File Extensions:** N/A<br/>
 **Platform(s):** Nintendo 3DS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
