@@ -127,14 +127,12 @@ function lxp_uncompress_rle(compUint8, expectedSize) { // works
       if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
       const val = input[inPos++]; // read the value @ inPos (the byte we're repeating) and advance the ptr
       const repetitions = (flag & 0x7F) + 3; // number of times to repeat next byte (val)
-      const remaining = expectedSize - outPos;
-      const count = Math.min(repetitions, remaining);
+      const count = Math.min(repetitions, expectedSize - outPos);
       for (let i = 0; i < count; i++) out[outPos++] = val; // loop count times filling count bytes with val @ outPos, while advancing outPos
     } else {
       // Literal run
       const length = flag + 1;
-      const remaining = expectedSize - outPos;
-      const count = Math.min(length, remaining);
+      const count = Math.min(length, expectedSize - outPos);
       for (let i = 0; i < count; i++) { // loop over count times
         if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
         out[outPos++] = input[inPos++]; // and filling in count bytes from inPos to outPos, while advancing both ptrs ofc
