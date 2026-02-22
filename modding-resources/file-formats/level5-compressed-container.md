@@ -7,6 +7,14 @@ has_children: true
 ---
 
 # Level5 Compressed Container
+
+**Filetype:** N/A<br/>
+**Platform:** Nintendo 3DS<br/>
+**Endianness:** Little-endian<br/>
+**Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
+**Alignment:** N/A<br/>
+**String Encoding:** N/A
+
 The Level5 Compressed Container is a structure commonly used within Level5's proprietary formats to store compressed data (e.g., `ARC0`) as implemented by:
 ```cpp
 void lxpUncompress(void *outBuffer, uint32_t& outDecompressedSize, uint32_t outBufferSize, const void *compressedContainer) {}
