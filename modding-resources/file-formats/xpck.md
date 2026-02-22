@@ -18,6 +18,7 @@ has_children: true
 **String Encoding:** ASCII
 
 The XPCK file format is a generic flat archive (no directories) used to bundle related files together. The purpose of the XPCK in question can generally be inferred based on the file extension as shown below:
+
 | Extension   | Description                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `.pck`      | A somewhat rare file extension that is completely generic in usage.                                                       |
@@ -72,6 +73,7 @@ contentType = fileCountAndType >> 12;
 The file entry table is located at the offset given by `infoOffset << 2`, with there being `fileCount` entries - each of size `0xC` - with the structure being shown below. Therefore the size (in bytes) can be calculated as: `fileCount * 0xC`.
 
 ### Structure
+
 | Offset | Size | Type | Name            | Notes                                                                                                              |
 | ------ | ---- | ---- | --------------- | ------------------------------------------------------------------------------------------------------------------ |
 | 0x00   | 4    | u32  | hash            | CRC32-B of the filename string                                                                                     |
