@@ -42,16 +42,16 @@ File Data Section (4-byte aligned)
 Note that all offset and size fields are stored in units of 4 bytes (32-bit words). Meaning to derive the offset in bytes you must shift them by 2 (`<< 2`).
 ## Header
 
-| Offset | Size | Type    | Name             | Notes                                                                    |
-| ------ | ---- | ------- | ---------------- | ------------------------------------------------------------------------ |
-| 0x00   | 4    | char[4] | magic (`XPCK`)   | Magic.                                                                   |
-| 0x04   | 2    | u16     | fileCountAndType | Read the notes section under the table for this.                         |
-| 0x06   | 2    | u16     | infoOffset       | `infoOffset << 2` defines the start of the File Entry table.             |
-| 0x08   | 2    | u16     | nameTableOffset  | `nameTableOffset << 2` defines the start of the *compressed* Name Table. |
-| 0x0A   | 2    | u16     | dataOffset       | Offset into the file data section.                                       |
-| 0x0C   | 2    | u16     | infoSize         | -                                                                        |
-| 0x0E   | 2    | u16     | nameTableSize    | -                                                                        |
-| 0x10   | 4    | u32     | dataSize         | -                                                                        |
+| Offset | Size | Type    | Name             | Notes                                                                                                                   |
+| ------ | ---- | ------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 0x00   | 4    | char[4] | magic (`XPCK`)   | Magic. Must always be equal to `XPCK` or `0x4B435058` as a 32-bit integer.                                              |
+| 0x04   | 2    | u16     | fileCountAndType | Read the notes section under the table for this.                                                                        |
+| 0x06   | 2    | u16     | infoOffset       | `infoOffset << 2` defines the start of the File Entry table.                                                            |
+| 0x08   | 2    | u16     | nameTableOffset  | `nameTableOffset << 2` defines the start of the *compressed* Name Table.                                                |
+| 0x0A   | 2    | u16     | dataOffset       | Offset into the file data section.                                                                                      |
+| 0x0C   | 2    | u16     | infoSize         | Size of the File Entry Table section in 32-bit words; `infoSize << 2` is equivalent to the size in bytes.               |
+| 0x0E   | 2    | u16     | nameTableSize    | Size of the *compressed* Name Table section in 32-bit words; `nameTableSize << 2` is equivalent to the size in bytes.   |
+| 0x10   | 4    | u32     | dataSize         | Size of the file data section in 32-bit words; `dataSize << 2` is is equivalent to the size in bytes.                   |
 
 Notes:
 * The u16 `fileCountAndType` contains the `fileCount` and `contentType` which can be derived using the following formula:
@@ -91,7 +91,10 @@ fileSize = (fileSizeUpper << 16) | fileSizeLower;
 ```
 
 ## Name Table
-The Name Table is located at `nameTableOffset << 2` and is a continuous sequence of null-terminated ASCII filenames.
+The Name Table is a compressed section located at `nameTableOffset << 2`, of (compressed) size `nameTableSize << 2` - it is a continuous sequence of null-terminated ASCII filenames. 
+
+### Structure
+No table is needed for this as it's just - as stated earlier - a continuous sequence of null-terminated ASCII filenames. 
 
 ## Entry Ordering
 Note that when writing, files must be sorted alphabetically by name when assigning offsets and the entry table must be sorted by `hash` (CRC-32B) ascending.
