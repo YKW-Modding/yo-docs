@@ -7,6 +7,13 @@ has_children: true
 ---
 # Level5 Signatures
 
+**Filetype:** N/A<br/>
+**Platform(s):** Nintendo 3DS, Android, NX, PSP, PSVita, Windows?, iOS/iPadOS<br/>
+**Endianness:** Little-endian<br/>
+**Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
+**Alignment:** 2 Byte Alignment<br/>
+**String Encoding:** ASCII
+
 In Level5 file formats, you will often - but not always - encounter signatures.
 Signatures (sometimes called magics) are sequences of bytes used to identify the type of the file. They are typically located at a fixed position within the file - usually the beginning, though there are exceptions.
 Level5's signatures can generally be split into two types:
