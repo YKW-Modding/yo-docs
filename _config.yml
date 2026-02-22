@@ -10,6 +10,10 @@ aux_links:
   The Yo-kai Watch Modding Discord: https://discord.gg/TbmKf6Ujq3
   The Yo-kai Watch Speedrunning Discord: https://discord.gg/eZsQ9Zts7d
 
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
+
 aux_links_new_tab: true
 
 nav_sort: case_sensitive
