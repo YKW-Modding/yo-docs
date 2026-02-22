@@ -28,7 +28,6 @@ ARC0 Archives are the main game archives which hold all of romfs (with the excep
     * `yw2_lg_engb.fa`
     * `yw1_lg_fr.fa`
     * `yw_lg_es.fa`
-    * Etc
 
 The two forms have the same binary layout shown below:
 ```
@@ -134,25 +133,8 @@ Note that:
 ## Name Table
 This section is compressed with Level5's Compressed Container format - the decompressed format is shown below:
 
-## Structure
-This section entirely consists of:
-* Null-terminated directory names
-* Null-terminated file names
-
-## Requirements
-### Directory Names
-* End with `/`
-* Root directory is empty string
-* `CRC-32` computed including trailing `/`
-
-### File Names
-* Stored without path
-* Null-terminated
-* CRC computed from filename only
+### Structure
+This section entirely consists of a continuous blob of mull-terminated directory names and null-terminated file names. Directory names must end with a forward slash followed by a null terminator (`"/\x00"`) - with the exception of the root directory which is an empty string (`"\x00"`). The trailing `/` is included in the `CRC-32` calculation. The `CRC-32` of files only contains the file name and not the directory as stated in the File Entry table.
 
 ## File Data Section
-This section begins at `dataOffset` and has the following requirements:
-* Files are written sequentially
-* Each file aligned to 4 bytes
-* No compression is applied at the ARC0 level - it is left up to the files it contains to compress themselves.
-* `fileOffset` values are relative to `dataOffset`
+This section begins at `dataOffset` and requires that files are written sequentially, with each file being aligned to a 32-bit word (4 bytes). Note that *NO* compression is applied at the `ARC0` level - it is left up to the files contained within it to compress themselves as part of their individual file formats.
