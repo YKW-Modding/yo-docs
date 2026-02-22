@@ -1,0 +1,16 @@
+---
+---
+
+/* custom styling to restore older Just the Docs dark code block styling as the new styling dosen't fit the site and looks disgusting - don't know why they thought it was a good idea to make the default */
+code {
+  background-color: #555555;
+}
+
+pre {
+  background-color: #555555;
+  border: 1px solid #302d36;
+}
+
+.highlight {
+  background-color: #555555;
+}
