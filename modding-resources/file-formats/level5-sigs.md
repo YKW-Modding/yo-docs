@@ -43,6 +43,7 @@ Where:
 
 ### Supported Platforms
 The platforms are checked in the following order:
+
 | Char | Platform Code | Platform                       |
 | ---- | ------------- | ------------------------------ |
 | A    | 4             | Android                        |
