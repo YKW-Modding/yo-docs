@@ -3,7 +3,7 @@ title: Level5 Signatures
 parent: File Format Specs
 grandparent: Modding Resources
 layout: default
-has_children: true
+has_children: false
 ---
 # Level5 Signatures
 
@@ -17,13 +17,13 @@ has_children: true
 **String Encoding:** ASCII
 
 In Level5 file formats, you will often - but not always - encounter signatures.
-Signatures (sometimes called magics) are sequences of bytes used to identify the type of the file. They are typically located at a fixed position within the file - usually the beginning, though there are exceptions.
+Signatures (sometimes called magics) are sequences of bytes used to identify the type of the file - similar to what a file extension is intended to accomplish. They are typically located at a fixed position within the file - usually the beginning, though there are exceptions.
 Level5's signatures can generally be split into two types:
 
 ## Normal Signatures
 * These are usually (but not always!) placed at the start of the file.
   * A common exception to this is the `t2b` format (often found with the file extension  `.cfg.bin`)
-    * `t2b` file signatures are not padded and are located `0x0F` bytes from the *end* of the file as apposed to the beginning.
+    * `t2b` file signatures are not padded and are located `0x0F` bytes from the *end* of the file as opposed to the beginning.
 * They are sometimes padded to *two bytes* using null bytes (`00`).
 * Normal signatures are typically composed of *ASCII-encoded* characters, e.g., `RDBN`.
 
