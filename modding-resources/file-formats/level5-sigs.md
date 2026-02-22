@@ -9,6 +9,7 @@ has_children: true
 
 **Filetype:** N/A<br/>
 **File Extensions:** N/A<br/>
+**Signature:** `ARC0`<br/>
 **Platform(s):** Nintendo 3DS, Android, NX, PSP, PSVita, Windows?, iOS/iPadOS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
