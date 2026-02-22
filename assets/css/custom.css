@@ -1,6 +1,3 @@
----
----
-
 /* custom styling to restore older Just the Docs dark code block styling as the new styling dosen't fit the site and looks disgusting - don't know why they thought it was a good idea to make the default */
 .main-content :not(pre,figure) > code {
   background-color: #555555 !important;
