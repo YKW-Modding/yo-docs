@@ -1,17 +1,29 @@
 <style>
 /* Just the Docs code block dark overrides */
+:root {
+  --code-bg: #31343f;  /* thank you wayback machine. Thank you, thank you, thank you */
+  --code-border: #44434d;
+  --code-text: #dee2f7;
+}
 
+/* Inline code */
 :not(pre, figure) > code {
-  background-color: #555555 !important;
-  border: 1px solid #302d36 !important;
+  padding: 0.2em 0.15em;
+  font-weight: 400;
+  background-color: var(--code-bg) !important;
+  border: 1px solid var(--code-border) !important;
+  border-radius: 4px;
 }
 
-div.highlighter-rouge pre.highlight,
-pre {
-  background-color: #555555 !important;
-  border: 1px solid #302d36 !important;
+/* Code blocks */
+.highlight,
+pre.highlight,
+div.highlighter-rouge pre.highlight {
+  background-color: var(--code-bg) !important;
+  color: var(--code-text) !important;
 }
 
+/* Prevent double backgrounds */
 pre code {
   background: transparent !important;
   border: 0 !important;
