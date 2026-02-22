@@ -1,15 +1,19 @@
 <style>
 /* Just the Docs code block dark overrides */
-
+:root {
+  --og-bg-colour: #302D36;
+  --og-outline-colour: #3D3D46;
+}
+  
 :not(pre, figure) > code {
-  background-color: #555555 !important;
-  border: 1px solid #302d36 !important;
+  background-color: var(--og-bg-colour) !important;
+  border: 1px solid var(--og-outline-colour) !important;
 }
 
 div.highlighter-rouge pre.highlight,
 pre {
-  background-color: #555555 !important;
-  border: 1px solid #302d36 !important;
+  background-color: var(--og-bg-colour) !important;
+  border: 1px solid var(--og-outline-colour) !important;
 }
 
 pre code {
