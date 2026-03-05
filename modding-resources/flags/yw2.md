@@ -2496,7 +2496,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x57486B3C | 2481 | -  | - |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | -  | - |
 | 0x43EC8993 | 2483 | -  | - |
-| 0x5AF7B8D2 | 2484 | -  | - |
+| 0x5AF7B8D2 | 2484 | Is in a Gate of Whimsy.  | - |
 | 0x71DAEB11 | 2485 | -  | - |
 | 0x6167D49C | 2486 | -  | - |
 | 0x880471A9 | 2487 | -  | - |
