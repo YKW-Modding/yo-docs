@@ -166,10 +166,6 @@ T2B
  └─ HashType
 ```
 
-Yes — that’s exactly the correct way to describe it, and it’s consistent with what your reader/writer and tree editor implement. I’d just refine it slightly to make it **precise and unambiguous**, including edge cases, so a modder or tool author could implement it without guessing. Here’s a polished version:
-
----
-
 # Tree Structure
 
 Although entries are stored as a flat list in the binary format, hierarchical structure is encoded using naming conventions. This child/parent (tree) structure is shown in the original plaintext source format and can be reconstructed by parsing entry names. A subtree is typically defined by a begin marker entry followed by child entries and terminated by a corresponding end marker.
