@@ -10,7 +10,7 @@ has_children: true
 
 **Filetype:** Data<br/>
 **File Extension(s):** `.cfg.bin`, `.astarbin`, `.chartbin`, `.npcbin`, `.pathbin`, `.actbin`, `.bin`<br/>
-**Signature:** `t2b\x01`<br/>
+**Signature:** `\x01t2b`<br/>
 **Platform(s):** Nintendo 3DS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
@@ -48,7 +48,7 @@ The footer is *always* located at the absolute offset `fileSize - 0x10`.
 ## Structure
 
 | Field    | Type   | Description                                         |
-| -------- | ------ | ----------------==============================----- |
+| -------- | ------ | --------------------------------------------------- |
 | magic    | uint32 | Must be `0x62327401`.                               |
 | unk1     | Int16  | -                                                   |
 | encoding | Int16  | String encoding. See the section below for details. |
@@ -87,7 +87,7 @@ All the fields below are unsigned 32-bit integers:
 | crc32       | uint32                   | 4 bytes                    | CRC32 hash of the entry name.                                                                                                 |
 | entryCount  | uint8                    | 1 byte                     | Number of values in this entry.                                                                                               |
 | entryTypes  | packed `ValueType` array | variable                   | Types are packed sequentially. The size (in bytes) can be calculated via the following formula: `ceil(entryCount / 4)`.       |
-| padding     | N/A                      | variable                   | Stream is forward-aligned to a 4-byte boundary after reading the type array. Padding consists of null bytes (`00`).           |
+| padding     | N/A                      | variable                   | Stream is forward-aligned to a 4-byte boundary after reading the type array.                                                  |
 | entryValues | `Value[]`                | variable                   | Value array stored sequentially. The size (in bytes) can be calculated via the following formula: `entryCount * ValueLength`. |
 
 # Entry Types
@@ -165,5 +165,10 @@ T2B
  ├─ ValueLength
  └─ HashType
 ```
+
+# Tree Structure
+
+Note that while entries are flat in the format itself, key names dictate a tree-hierarchy which can also be observed in the plaintext source format.
+
 
 
