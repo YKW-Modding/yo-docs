@@ -40,7 +40,7 @@ T2B File
 └─ Hi - idk I'm bored ok
 ```
 
-Note that all offsets in headers are relative to the *start* of their section.
+Note that all offsets are relative to the *start* of their section. Meaning that entry string offsets are relative to the entry string table base and CRC string offsets are relative to the CRC string table base.
 
 # Footer
 The footer is *always* located at the absolute offset `fileSize - 0x10`.
@@ -63,6 +63,8 @@ The footer is *always* located at the absolute offset `fileSize - 0x10`.
 | `0x0100` | UTF-8             |
 | `0x0101` | UTF-8             |
 
+Note that all other encoding values are *Invalid* and should be treated as such.
+
 # Entry Section
 
 This section starts at absolute offset `0x00`.
@@ -80,16 +82,17 @@ All the fields below are unsigned 32-bit integers:
 
 ## Entry Record
 
-| Field       | Type      | Description                                                  |
-| ----------- | --------- | ------------------------------------------------------------ |
-| crc32       | uint32    | CRC-32B (ISO-HDLC) hash of the entry name.                   |
-| entryCount  | uint8     | Number of values.                                            |
-| entryTypes  | ValueType | Packed value types - see the section below for more details. |
-| entryValues | Value     | Values.                                                      |
+| Field       | Type                     | Size                       | Description                                                                                                                   |
+| ----------- | ------------------------ | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| crc32       | uint32                   | 4 bytes                    | CRC32 hash of the entry name.                                                                                                 |
+| entryCount  | uint8                    | 1 byte                     | Number of values in this entry.                                                                                               |
+| entryTypes  | packed `ValueType` array | variable                   | Types are packed sequentially. The size (in bytes) can be calculated via the following formula: `ceil(entryCount / 4)`.       |
+| padding     | N/A                      | variable                   | Stream is forward-aligned to a 4-byte boundary after reading the type array. Padding consists of null bytes (`00`).           |
+| entryValues | `Value[]`                | variable                   | Value array stored sequentially. The size (in bytes) can be calculated via the following formula: `entryCount * ValueLength`. |
 
 # Entry Types
 
-In one byte there are 4 types packed within it as it utilises 2 bits per *entry*. This means that it can be extracted with the following formula `(typeChunk >> (h * 2)) & 0x3`.
+In one byte there are 4 types packed within it as it utilises 2 bits *per entry*. This means that it can be extracted via the following formula `(typeChunk >> (h * 2)) & 0x3`.
 
 ### ValueType
 
@@ -100,14 +103,14 @@ In one byte there are 4 types packed within it as it utilises 2 bits per *entry*
 | 2     | Float            |
 | 3     | Invalid / unused |
 
-After the type array the stream is aligned (to 4 bytes). Note that here:
+After the type array the stream is aligned (to 4 bytes) with forward null padding. Note that here:
 * String is an offset into the Entry String Table (negative = null string).
   * Strings in the Entry String Table are encoded with CP932/UTF-8 depending on the encoding byte in the footer.
 * Integer is a signed 32-bit/64-bit integer.
 * Float is an IEEE-754 single/double precision float.
 
 # Entry Values
-Whether values are 32-bit or 64-bit depends on the file - although this can be detected automatically by checking both possibilities and seeing which fits without exceeding offsets.
+Whether values are 32-bit or 64-bit depends on the file. It is unknown where - or if - the format explicitly states value width. Parsers must detect whether values are 32-bit or 64-bit by attempting parsing and verifying section bounds.
 This has no effect on strings but affects the Integer and Float types as mentioned above.
 
 # Entry String Table
@@ -142,7 +145,7 @@ These entries map the `CRC-32` hash to the Entry Name.
 # CRC String Table
 
 This table is a continuous *non-compressed* blob of null-terminated strings representing the entry names. Encoding is defined in the footer of the t2b. Offsets are relative to the *first* string offset meaning they can be calculated as such:
-`actualOffset = entry.stringOffset - firstEntry.stringOffset`
+`actualOffset = entry.stringOffset - firstEntry.stringOffset`. Note that CRC string offsets are relative to the CRC string table start, *NOT* the file start.
 
 # Name Hashing
 
