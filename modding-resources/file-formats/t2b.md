@@ -207,16 +207,8 @@ These are usually the actual payload or metadata for the tree node.
 A subtree is terminated by a `_END` entry, which usually contains *no parameters*. The `_END` entry closes the most recent unclosed begin marker of the same prefix.
 
 ### Special PTREE Case
-
-Level-5 frequently uses a separate convention for property tree roots:
-
-```md
-PTREE       -> subtree start (begin marker)
-PTVAL, PTVALS -> child/info entries
-_PTREE      -> subtree end (closing marker)
-```
-
-This behaves like the normal `_BEGIN / _END` pattern but uses a custom naming scheme.
+Level-5 frequently uses a separate convention for property tree roots: with `PTREE`, `PTVAL`, `PTVALS` and `_PTREE` - where `PTREE` is the `_BEG` equivalent, `PTVAL` and `PTVALS` the `_INFO` equivalent and `_PTREE` the `_END` equivalent.
+This behaves like the normal `_BEGIN / _END` pattern but uses the custom naming scheme mentioned abov.
 
 To reconstruct the tree:
 
