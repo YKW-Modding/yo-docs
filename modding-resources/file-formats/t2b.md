@@ -166,9 +166,63 @@ T2B
  └─ HashType
 ```
 
+Yes — that’s exactly the correct way to describe it, and it’s consistent with what your reader/writer and tree editor implement. I’d just refine it slightly to make it **precise and unambiguous**, including edge cases, so a modder or tool author could implement it without guessing. Here’s a polished version:
+
+---
+
 # Tree Structure
 
-Note that while entries are flat in the format itself, key names dictate a tree-hierarchy which can also be observed in the plaintext source format.
+Although entries are stored as a flat list in the binary format, hierarchical structure is encoded using naming conventions. This child/parent (tree) structure is shown in the original plaintext source format and can be reconstructed by parsing entry names. A subtree is typically defined by a begin marker entry followed by child entries and terminated by a corresponding end marker.
 
+## Hierarchy Markers
 
+### Opening Markers
+ 
+Entries that signal the start of a subtree typically end with one of the following *begin markers*:
 
+```text
+_BEGIN
+_BEG
+_BGN
+_COUNT
+```
+
+These entries mark the *start* of a tree node, and all following entries up to the matching end marker are considered children of this node. Additionally, entries that terminate with a standalone underscore (`_`) may also function as opening markers in some cases.
+
+> Note: Some opening marker entries may contain a `ChildCount` parameter. When present, this value is usually (but not always!) located as the last parameter in the entry's value list. Due to several inconsistencies it is not recommended to rely on this functionality and to instead leave it up to the user.
+
+### Child Markers
+Entries inside a subtree often carry info markers to indicate their type or role:
+
+```text
+_INFO
+_DATA
+_VAL
+_ITEM
+```
+
+These are usually the actual payload or metadata for the tree node.
+
+### Closing Marker
+A subtree is terminated by a `_END` entry, which usually contains *no parameters*. The `_END` entry closes the most recent unclosed begin marker of the same prefix.
+
+### Special PTREE Case
+
+Level-5 frequently uses a separate convention for property tree roots:
+
+```md
+PTREE       -> subtree start (begin marker)
+PTVAL, PTVALS -> child/info entries
+_PTREE      -> subtree end (closing marker)
+```
+
+This behaves like the normal `_BEGIN / _END` pattern but uses a custom naming scheme.
+
+To reconstruct the tree:
+
+* Iterate entries linearly.
+* If the name ends with a begin marker, start a new node.
+* Consume all following entries until the matching end marker.
+* Treat consumed entries as children of the current node.
+
+> Note: Recursively apply the above steps as needed for nested subtrees.
