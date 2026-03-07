@@ -176,7 +176,7 @@ Although entries are stored as a flat list in the binary format, hierarchical st
  
 Entries that signal the start of a subtree typically end with one of the following *begin markers*:
 
-```text
+```md
 _BEGIN
 _BEG
 _BGN
@@ -190,7 +190,7 @@ These entries mark the *start* of a tree node, and all following entries up to t
 ### Child Markers
 Entries inside a subtree often carry info markers to indicate their type or role:
 
-```text
+```md
 _INFO
 _DATA
 _VAL
