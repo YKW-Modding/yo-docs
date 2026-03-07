@@ -204,7 +204,7 @@ A subtree is terminated by a `_END` entry, which usually contains *no parameters
 
 ### Special PTREE Case
 Level-5 frequently uses a separate convention for property tree roots: with `PTREE`, `PTVAL`, `PTVALS` and `_PTREE` - where `PTREE` is the `_BEG` equivalent, `PTVAL` and `PTVALS` the `_INFO` equivalent and `_PTREE` the `_END` equivalent.
-This behaves like the normal `_BEGIN / _END` pattern but uses the custom naming scheme mentioned abov.
+This behaves like the normal `_BEGIN / _END` pattern but uses the custom naming scheme mentioned above.
 
 To reconstruct the tree:
 
