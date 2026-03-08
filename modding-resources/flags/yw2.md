@@ -3131,7 +3131,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xDA9B8A74 | 589 | -  | - |
 | 0xF4204FA3 | 590 | -  | - |
 | 0x4C79CA23 | 591 | -  | - |
-| 0x3AE69C16 | 592 | -  | - |
+| 0x3AE69C16 | 592 | -  | `dinner_rotation` |
 | 0x18801635 | 593 | -  | - |
 | 0x01055280 (0x1055280) | 594 | -  | - |
 | 0xE92B41BB | 595 | Travelling Komasan Steps; `08` is at San Fantastico where he gives you the Oh My Swirls! Yo-kai Pad Wallpaper.  | - |
