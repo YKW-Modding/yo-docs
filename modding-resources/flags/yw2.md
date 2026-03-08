@@ -2496,7 +2496,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x57486B3C | 2481 | -  | - |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | -  | - |
 | 0x43EC8993 | 2483 | -  | - |
-| 0x5AF7B8D2 | 2484 | -  | - |
+| 0x5AF7B8D2 | 2484 | Is in a Gate of Whimsy.  | - |
 | 0x71DAEB11 | 2485 | -  | - |
 | 0x6167D49C | 2486 | -  | - |
 | 0x880471A9 | 2487 | -  | - |
@@ -3131,7 +3131,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xDA9B8A74 | 589 | -  | - |
 | 0xF4204FA3 | 590 | -  | - |
 | 0x4C79CA23 | 591 | -  | - |
-| 0x3AE69C16 | 592 | -  | - |
+| 0x3AE69C16 | 592 | -  | `dinner_rotation` |
 | 0x18801635 | 593 | -  | - |
 | 0x01055280 (0x1055280) | 594 | -  | - |
 | 0xE92B41BB | 595 | Travelling Komasan Steps; `08` is at San Fantastico where he gives you the Oh My Swirls! Yo-kai Pad Wallpaper.  | - |
@@ -3744,7 +3744,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xA494B844 | 21 | - | - |
 | 0x6242919A | 22 | Download Menu Data #1 | - |
 | 0x209E3EB5 | 23 | Download Menu Data #2 | - |
-| 0x141DC04D | 24 | - | - |
+| 0x141DC04D | 24 | - | `tmp_return_title` |
 | 0xC79E50EF | 25 | - | - |
 | 0x2F21650A | 26 | - | - |
 | 0xB6BBD2C2 | 27 | - | - |
@@ -3791,9 +3791,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xDAD320CD | 68 | - | - |
 | 0xCEB7AC4E | 69 | - | - |
 | 0xF3B9ABAB | 70 | - | - |
-| 0xA1747699 | 71 | - | - |
+| 0xA1747699 | 71 | - | `tmp_quest_accept_menu` |
 | 0x9F29FF19 | 72 | - | - |
-| 0xC9B326BF | 73 | - | - |
+| 0xC9B326BF | 73 | - | `tmp_gaya_stop` |
 | 0xC1D4315F | 74 | - | `tmp_yokaispot_battle_encount` |
 | 0x1EAA97D1 | 75 | - | - |
 | 0x49EBC157 | 76 | - | - |
@@ -3890,7 +3890,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | FLAG_ID | Slot | Notes | Name |
 |---------|------|-------| ---- |
 | 0x98CE5C36 | 0 | - | - |
-| 0x9FF789D8 | 1 | - | - |
+| 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xC99C90E8 | 3 | - | - |
 | 0xADBA2641 | 4 | - | - |
 | 0xDEDC17BC | 5 | - | - |
@@ -3945,7 +3945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - | `tmp_gacha_prize_2` |
 | 0x63394E2A | 79 | - | `tmp_gacha_prize_3` |
 | 0xFD5DDB89 | 80 | - | `tmp_gacha_prize_4` |
-| 0xC939DE59 | 110 | Used in Battle AI Act Conds | - |
+| 0xC939DE59 | 110 | Battle State Dataa | - |
 | 0x594E57E6 | 111 | - | - |
 | 0xC047065C | 112 | - | - |
 | 0xB74036CA | 113 | - | - |
