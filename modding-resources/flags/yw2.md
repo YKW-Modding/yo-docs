@@ -3831,16 +3831,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xEA771B02 | 108 | - | - |
 | 0xAA3C691F | 109 | - | - |
 | 0x0928EB7A (0x928EB7A) | 110 | - | - |
-| 0xE3B7B226 | 111 | - | - |
-| 0x7ABEE39C | 112 | - | - |
-| 0x0DB9D30A (0xDB9D30A) | 113 | - | - |
-| 0x93DD46A9 | 114 | - | - |
-| 0xE4DA763F | 115 | - | - |
-| 0x7DD32785 | 116 | - | - |
-| 0x0AD41713 (0xAD41713) | 117 | - | - |
-| 0x9A6B0A82 | 118 | - | - |
-| 0xED6C3A14 | 119 | - | - |
-| 0x2635ED6E | 120 | - | - |
+| 0xE3B7B226 | 111 | - | `tmp_bit_gate_ev1` |
+| 0x7ABEE39C | 112 | - | `tmp_bit_gate_ev2` |
+| 0x0DB9D30A (0xDB9D30A) | 113 | - | `tmp_bit_gate_ev3` |
+| 0x93DD46A9 | 114 | - | `tmp_bit_gate_ev4` |
+| 0xE4DA763F | 115 | - | `tmp_bit_gate_ev5` |
+| 0x7DD32785 | 116 | - | `tmp_bit_gate_ev6` |
+| 0x0AD41713 (0xAD41713) | 117 | - | `tmp_bit_gate_ev7` |
+| 0x9A6B0A82 | 118 | - | `tmp_bit_gate_ev8` |
+| 0xED6C3A14 | 119 | - | `tmp_bit_gate_ev9` |
+| 0x2635ED6E | 120 | - | `tmp_bit_gate_ev10` |
 | 0x7EE824B8 | 121 | - | - |
 | 0xE0D7F5AA | 122 | - | - |
 | 0x1E28CA87 | 123 | - | - |
@@ -3945,15 +3945,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x143E7EBC | 78 | - | `tmp_gacha_prize_2` |
 | 0x63394E2A | 79 | - | `tmp_gacha_prize_3` |
 | 0xFD5DDB89 | 80 | - | `tmp_gacha_prize_4` |
-| 0xC939DE59 | 110 | Battle State Dataa | - |
-| 0x594E57E6 | 111 | - | - |
-| 0xC047065C | 112 | - | - |
-| 0xB74036CA | 113 | - | - |
-| 0x2924A369 | 114 | - | - |
-| 0x5E2393FF | 115 | - | - |
-| 0xC72AC245 | 116 | - | - |
-| 0xB02DF2D3 | 117 | - | - |
-| 0x2092EF42 | 118 | - | - |
-| 0x5795DFD4 | 119 | - | - |
-| 0xBDEBD63B | 120 | - | - |
-
+| 0xC939DE59 | 110 | Battle State Data | - |
+| 0x594E57E6 | 111 | - | `tmp_byte_gate_ev1` |
+| 0xC047065C | 112 | - | `tmp_byte_gate_ev2` |
+| 0xB74036CA | 113 | - | `tmp_byte_gate_ev3` |
+| 0x2924A369 | 114 | - | `tmp_byte_gate_ev4` |
+| 0x5E2393FF | 115 | - | `tmp_byte_gate_ev5` |
+| 0xC72AC245 | 116 | - | `tmp_byte_gate_ev6` |
+| 0xB02DF2D3 | 117 | - | `tmp_byte_gate_ev7` |
+| 0x2092EF42 | 118 | - | `tmp_byte_gate_ev8` |
+| 0x5795DFD4 | 119 | - | `tmp_byte_gate_ev9` |
+| 0xBDEBD63B | 120 | - | `tmp_byte_gate_ev10` |
