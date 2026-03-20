@@ -24,7 +24,7 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which w
 * Then open [QRTool](https://n123git.github.io/QRTool/) - and type the result under "V2 type" (Make sure the letters are capitalised!).
 * Then select the amount of QRs to generate and enjoy!
 
-## Yo-kai Watch 3
+## Yo-kai Watch B1/3
 First, navigate over to `data/res/qr`. You should see 1 file:
 * `qr_config_*.cfg.bin` - open it with CfgBin Editor.
 Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
