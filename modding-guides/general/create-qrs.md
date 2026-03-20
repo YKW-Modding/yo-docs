@@ -6,7 +6,7 @@ parent: General Modding
 ---
 
 # Adding Custom QR Codes
-> **Disclaimer: This guide will work for Yo-kai Watch 2 and 3, but not Yo-kai Watch 1 as this guide generates V2 QR Codes - it also wont teach you how to make random color coins as im lazy.**
+> **Disclaimer: This guide will not work for Yo-kai Watch 1 as this guide generates V2 QR Codes - it also wont teach you how to make random color coins as im lazy.**
 
 ## Yo-kai Watch 2
 First, navigate over to `data/res/qr`. You should see 3 files (in this case `_*` means a version prefix such as `_0.04b`):
