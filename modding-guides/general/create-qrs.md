@@ -9,23 +9,23 @@ parent: General Modding
 > **Disclaimer: This guide will not teach you how to make random color coins as im lazy.**
 
 ## Yo-kai Watch 1
-First, navigate over to `data/res/qr`. You should see 2 files (in this case `_*` means a version prefix such as `_0.04b`):
-* `qr_config_ko.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS UNLESS THAT IS YOUR INTENTION**.
+First, navigate over to `data/res/qr`. You should see the following 2 files:
+* `qr_config_ko.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS UNLESS INTENTIONAL**.
 * `qr_config.cfg.bin` - This is for V1 QR Codes. This is the file you want to use.
 
 Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
 In `QR_INFO_LIST`:
 * Click on the tree/top-level `QR_INFO_LIST` and increase the number by one.
-* Go to the last entry (i.e. `QR_INFO_121`), right click it and click duplicate.
+* Go to the last entry (e.g. `QR_INFO_121`), right click it and click duplicate.
 * Increase `StartTypeDec` to the previous entries `EndTypeDec` + 1, and `EndTypeDec` to the new `StartTypeDec` + 1.
 * Then change the `ItemID` to whatever you want :P
 * Finally, lets generate some QRs for distribution: Get the `StartTypeDec` and convert it to base36 using a website like [this](https://www.unitconverters.net/numbers/decimal-to-base-36.htm).
-* Then open [QRTool](https://n123git.github.io/QRTool/) - and select V1 then type the result under "Type" (Make sure the letters are capitalised!).
+* Then open [QRTool](https://n123git.github.io/QRTool/) -select V1 and then type the result under "Type" (Make sure the letters are capitalised!).
 * Then select the amount of QRs to generate and enjoy!
 
 ## Yo-kai Watch 2
 First, navigate over to `data/res/qr`. You should see 3 files (in this case `_*` means a version prefix such as `_0.04b`):
-* `qr_config_ko_*.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS UNLESS THAT IS YOUR INTENTION**.
+* `qr_config_ko_*.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS UNLESS INTENTIONAL**.
 * `qr_config_*.cfg.bin` - This is for V1 and V2 Codes. This is the file you want to edit.
 * `qr_config.cfg.bin` - This is an old file. **DO NOT USE THIS**.
 
@@ -36,7 +36,7 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes which ha
 * Increase `StartTypeDec` to the previous entries `EndTypeDec` + 1, and `EndTypeDec` to the new `StartTypeDec` + 1.
 * Then change the `ItemID` to whatever you want :P
 * Finally, lets generate some QRs for distribution: Get the `StartTypeDec` and convert it to base36 using a website like [this](https://www.unitconverters.net/numbers/decimal-to-base-36.htm).
-* Then open [QRTool](https://n123git.github.io/QRTool/) - and select V2 then type the result under "Type" (Make sure the letters are capitalised!).
+* Then open [QRTool](https://n123git.github.io/QRTool/) - select V2 and then type the result under "Type" (Make sure the letters are capitalised!).
 * Then select the amount of QRs to generate and enjoy!
 
 ## Yo-kai Watch B1/3/B2
