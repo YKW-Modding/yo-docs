@@ -8,6 +8,8 @@ parent: General Modding
 # Adding Custom QR Codes
 > **Disclaimer: This guide will not teach you how to make random color coins as im lazy.**
 
+This guide explains how to add custom QR Codes to Yo-kai Watch games by editing the QR Code config files. It has been confirmed to work for all 3DS Yo-kai Watch games aside from Sangokushi.
+
 ## Yo-kai Watch 1
 First, navigate over to `data/res/qr`. You should see the following 2 files:
 * `qr_config_ko.cfg.bin` - This is for KOR only QRs. **DO NOT USE THIS UNLESS INTENTIONAL**.
