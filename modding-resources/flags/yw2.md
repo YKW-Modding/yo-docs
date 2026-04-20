@@ -3766,7 +3766,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xCF46C0A6 | 43 | - | - |
 | 0x1485D5F0 | 44 | - | - |
 | 0x3F4F743B | 45 | - | - |
-| 0x54F4A235 | 46 | - | - |
+| 0x54F4A235 | 46 | - | `weather_change_direct` |
 | 0xBF0FA9D4 | 47 | - | - |
 | 0x5C71AE87 | 48 | - | - |
 | 0xF1E7285C | 49 | - | - |
