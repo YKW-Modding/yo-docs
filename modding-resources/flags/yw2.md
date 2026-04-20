@@ -33,7 +33,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xF874059B | 17 | -  | - |
 | 0xA5011B7E | 18 | -  | - |
 | 0xB443AA77 | 19 | -  | - |
-| 0x0B87DB54 (0xB87DB54) | 20 | -  | - |
+| 0x0B87DB54 (0xB87DB54) | 20 | -  | `in_orge_time` |
 | 0x63C11B45 | 21 | -  | - |
 | 0x40BA71A2 | 22 | -  | - |
 | 0x0CC4EC4E (0xCC4EC4E) | 23 | -  | - |
@@ -47,7 +47,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x1DAB1698 | 31 | -  | - |
 | 0xFE232B46 | 32 | -  | - |
 | 0x91B9489C | 33 | -  | - |
-| 0x6E9A22CF | 34 | Decides which watch mode is currently active in the overworld. 0 = Clock, 1 = Radar.  | - |
+| 0x6E9A22CF | 34 | Decides which watch mode is currently active in the overworld. 0 = Clock, 1 = Radar.  | `watch_is_radar` |
 | 0xEB822ABC | 35 | -  | - |
 | 0x67B99C8E | 36 | -  | - |
 | 0x7E34D611 | 37 | -  | - |
@@ -3811,7 +3811,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x731F6281 | 88 | - | - |
 | 0x71676818 | 89 | - | - |
 | 0xA3C46CFB | 90 | - | - |
-| 0x93C91EC1 | 91 | - | - |
+| 0x93C91EC1 | 91 | - | `tmp_force_non_anime_ppsmsg` |
 | 0x7C4EFAA7 | 92 | - | - |
 | 0x3D12F75F | 93 | - | - |
 | 0x3EFD209C | 94 | - | - |
