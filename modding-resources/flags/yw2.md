@@ -3901,7 +3901,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. | - |
 | 0x26BF0B6E | 11 | - | - |
 | 0x8D489757 | 12 | - | - |
-| 0x4833746A | 13 | - | - |
+| 0x4833746A | 13 | - | Hide & Seek Mode? 2 = In Hide & Seek |
 | 0xFE216783 | 14 | - | - |
 | 0x67283639 | 15 | - | - |
 | 0x102F06AF | 16 | - | - |
