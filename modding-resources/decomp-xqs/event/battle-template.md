@@ -2,17 +2,15 @@
 title: Blank Battle XQ
 layout: default
 has_children: true
-parent: Modding Resources
+parent: Event/Battle XQs
+grand_parent: Modding Resources
 ---
 
 # Blank Battle XQ
-
 You can attach this to any battle in the encount table, then add your XQ code that should be triggered when the battle is won in the BattleEvent_OnBattleEndEvent next to the comment. 
+> Note: This isn't actually blank - I didn't get this example, I'm just moving it. I'll remove the redundant functions later once I can confirm it works fine
 
-*Tip: Click the copy button on the top right*
-
-```php
-
+```cpp
 BattleEventInit()
 {
 	$local1 = log("BattleEventInit");
@@ -30,10 +28,11 @@ BattleEvent_Finalize()
 BattleEvent_OnBattleEndEvent($param0, $param1, $param2)
 {
 	$local1 = log("BattleEvent_OnBattleEndEvent");
-	$local1 = BattleEvent_OnBattleEnd($param0, $param1, $param2);
-	$local2 = $global12_isVictory == 1;
-	if not $local2 goto "end"h;
-	//the code here will be ran upon victory
+	$local1 = battle.encount.ev10_btl0100.BattleEvent_OnBattleEnd($param0, $param1, $param2);
+  $local1 = $global12 == 1; // if the player won
+  if not $local1 goto "end"h;
+  // run whatever code you want
+  $local1 = log("whatever code you want");
 "end":
 }
 
@@ -42,9 +41,9 @@ PlayFatalHitScene($param0, $param1, $param2, $param3, $param4, $param5, $param6,
 	$local1 = sub14804($param0);
 	$local1 = PlayCloseUpScene($param1, $param2, $param3, $param4, $param5, $param6, $param7, $param8);
 	$local1 = sub15710(0.5f, 0.2f, 40f, 20f);
-	$local1 = WaitFrame(1f);
+	$local1 = prog_common_011d.WaitFrame(1f);
 	$local1 = sub2501(0, 0.8f);
-	$local1 = WaitFrame(1f);
+	$local1 = prog_common_011d.WaitFrame(1f);
 	$local1 = sub2502(0, 0f, 10f);
 }
 
@@ -64,7 +63,7 @@ OnWeakPointDamaged_Common($param0)
 	$local1 = sub15816(0f, 20f, 5f, 5f);
 	$local1 = sub15818(0f, 20f, 0.9f);
 	$local1 = sub15817(20f, 20, 1f, 0.7f);
-	$local1 = BattleMenuHPBar_Boss_PlayDamage();
+	$local1 = battle.BattleMenu_Ex_009f.BattleMenuHPBar_Boss_PlayDamage();
 }
 
 OnDeathEvent_Common($param0, $param1, $param2, $param3, $param4, $param5, $param6, $param7, $param8, $param9)
@@ -75,14 +74,29 @@ OnDeathEvent_Common($param0, $param1, $param2, $param3, $param4, $param5, $param
 	$global9 = 1;
 	$local1 = sub15823();
 	$object0 = sub15411($param1);
-	$local1 = BattleMenuTarget_DeletePin($object0);
-	$local1 = DeleteWandererSpirit();
+	$local1 = battle.BattleMenu_003j.BattleMenuTarget_DeletePin($object0);
+	$local1 = battle.BattleMenu_003j.DeleteWandererSpirit();
 	$local1 = sub15417(256, 1);
 	$local1 = sub14804($param0);
+//	$local1 = sub15818(0f, 30f, 1f);
+//	$local1 = sub15817(20f, 60f, 0.5f, 0.2f);
+//	$local1 = sub15803(10f, 40f, 0f, 0f, 0f, $param1, $param2, 0.01f);
+//	$local1 = sub15821(40f, 25, 0f, 0f, 0f, $param1, $param2, $param5, -10f, $param3, 10, 10);
+//	$local1 = sub15804(40f, 40f, -25f, 10f, 15f);
 	$local2 = $param8 - 50f;
 	$local1 = sub15803(50f, $local2, 0f, 0f, 0f, $param1, $param2, 0.2f);
 	$local1 = sub15817(60f, $param9, 0.8f, 0.5f);
+	$local1 = sub15821($param6, 40f, 0f, 0f, 0f, $param1, $param2, 0f, 0f, $param4, 30, 10);
+	$local1 = sub15804($param6, 40f, 0f, 5f, 5f);
+	$local1 = sub15801($param8, 20, 0f, 6.3f, 75.75f, 0, 0f, 10f);
+	$local1 = sub15802($param8, 15, 0f, 14.08f, 1.14f, 0, 0f, 10f);
 	$local1 = StageEffect_FlashWithSE(50f, 20f, 1f);
+//	$local1 = StageEffect_FlashWithSE(80f, 10f, 0.8f);
+//	$local1 = sub15816(80f, 20f, 3f, 3f);
+//	$local1 = StageEffect_FlashWithSE(90f, 10f, 0.9f);
+//	$local1 = sub15816(90f, 10f, 3f, 3f);
+	$local1 = StageEffect_FlashWithSE($param7, 10f, 0.9f);
+	$local1 = sub15816($param7, 10f, 3f, 3f);
 	$local2 = $param8 + 10f;
 	$local1 = sub15822($local2, "sy0502");
 	$local2 = $param8 + 10f;
@@ -90,13 +104,15 @@ OnDeathEvent_Common($param0, $param1, $param2, $param3, $param4, $param5, $param
 	$local2 = $param8 + 10f;
 	$local1 = sub15816($local2, 90f, 5f, 5f);
 	$local2 = $param8 + 120;
-	$local1 = WaitFrame($local2);
+	$local1 = prog_common_011d.WaitFrame($local2);
 	$local1 = sub15417(256, 0);
 }
 
 StageEffect_FlashWithSE($param0, $param1, $param2)
 {
-	$global12_isVictory = 1;
+	//$local1 = sub15822($param0, "sy0501");
+	//$local1 = sub15818($param0, $param1, $param2);
+  $global12 = 1;
 }
 
 ConvertCharaNameBossMessage($param0, $param1, $param2)
@@ -142,7 +158,7 @@ CreateExtraObject($param0, $param1, $param2)
 	$object0 = format("EXTRA_OBJ_%02d", $param0);
 	$object1 = sub16501($object0, 0, 110, 21, 0);
 	$local1 = sub6800($object1, $param1);
-	$local1 = sub6031($object1, 0xA90612C0h);
+	$local1 = sub6031($object1, "prog_common_011d.Empty"h);
 	$local1 = sub6008($object1, 1);
 	$local1 = sub6005($object1, 1);
 	$local1 = sub11010($object1);
@@ -167,12 +183,12 @@ SetExtraObjectEnable($param0, $param1)
 	if not $param1 goto "@002@"h;
 	$local2 = $global11[$param0];
 	$local3 = $global11[$param0];
-	$local1 = sub6044($local2, 0x7314FA36h, $local3);
+	$local1 = sub6044($local2, "StartExtraObjectLoop"h, $local3);
 	goto "@003@"h;
 "@002@":
 	$local2 = $global11[$param0];
 	$local3 = $global11[$param0];
-	$local1 = sub6044($local2, 0xC26BE45Fh, $local3);
+	$local1 = sub6044($local2, "EndExtraObjectLoop"h, $local3);
 "@003@":
 "@000@":
 "@001@":
@@ -223,7 +239,7 @@ SetExtraObjectPos($param0, $param1, $param2, $param3, $param4)
 	$local2 = $global11[$param0];
 	$local1 = sub6242($local2, $param1, $param2, $param3);
 	$local2 = $global11[$param0];
-	$local3 = ToRadian($param4);
+	$local3 = prog_common_011d.ToRadian($param4);
 	$local1 = sub6222($local2, 0f, $local3, 0f);
 "@000@":
 }
@@ -266,7 +282,7 @@ ExtraObjectTargetMove($param0, $param1, $param2, $param3, $param4)
 
 PlayCharge_x301()
 {
-	$local1 = PlayCharge_Ex(0xF447F0BCh, 6);
+	$local1 = battle.yw_battle_sys_009t.PlayCharge_Ex(0xF447F0BCh, 6);
 }
 
 ShowCapsuleMessage($param0)
@@ -274,17 +290,17 @@ ShowCapsuleMessage($param0)
 	$local1 = $param0 == 0x1ABCC573h;
 	if not $local1 goto "@000@"h;
 	$local2 = sub13732(0xE11720C5h);
-	$local1 = ShowTopMessage($local2, 180, 0);
+	$local1 = battle.BattleMenu_Ex_009f.ShowTopMessage($local2, 180, 0);
 "@000@":
 	$local1 = $param0 == 0x6DBBF5E5h;
 	if not $local1 goto "@001@"h;
 	$local2 = sub13732(0x1AB63E75h);
-	$local1 = ShowTopMessage($local2, 180, 0);
+	$local1 = battle.BattleMenu_Ex_009f.ShowTopMessage($local2, 180, 0);
 "@001@":
 	$local1 = $param0 == 0x86439F37h;
 	if not $local1 goto "@002@"h;
 	$local2 = sub13732(0x721BDC90h);
-	$local1 = ShowTopMessage($local2, 180, 0);
+	$local1 = battle.BattleMenu_Ex_009f.ShowTopMessage($local2, 180, 0);
 "@002@":
 	$local1 = $param0 == 0x7CAEFE7Ch;
 	if not $local1 goto "@003@"h;
@@ -307,7 +323,7 @@ ShowCapsuleMessage($param0)
 	$local1 = sub15408(6);
 	$object1 = sub13665($local1);
 	$object0 = set_game_variable($object0, 2, "CHARA_NAME", $object1);
-	$local1 = ShowTopMessage($object0, 180, 0);
+	$local1 = battle.BattleMenu_Ex_009f.ShowTopMessage($object0, 180, 0);
 "@006@":
 }
 
@@ -327,7 +343,7 @@ SetGasyaMode()
 "@001@":
 	$global3 &= -5;
 "@002@":
-	$local1 = sub14005(0xC939DE59h, $global3);
+	$local1 = set_temp_byte_flag(0xC939DE59h, $global3);
 "@000@":
 }
 
@@ -357,7 +373,7 @@ BossEvent_RibRecoverCnt($param0)
 "@003@":
 	$local1 = sub15800(0f, 200f);
 	$object0 = sub15411(6);
-	$local1 = sub6043($object0, 0x3CA3C65Eh);
+	$local1 = sub6043($object0, "BossEventRibRecover"h);
 "@002@":
 "@000@":
 "@001@":
@@ -374,14 +390,14 @@ BossEventRibRecover()
 	$local1 = sub15725(6, 12);
 	$local1 = PinEvent_Delete(6, 2);
 	$global2 = 0;
-	$local1 = WaitFrame(10f);
+	$local1 = prog_common_011d.WaitFrame(10f);
 	$object2 = sub15600(0xFF124EA8h, 0f, 0f, 0f);
 	$local1 = sub15607($object2, $unk1, 0x64FAF507h, 0x00000767h);
 	$local1 = sub15814(0, 30, 0, 0, 0, 6, 0xC91AEB7Bh, -15, 65, 10, 10);
 	$local1 = sub15807(160, 30, 0, 10f, 10f);
-	$local1 = WaitFrame(60f);
+	$local1 = prog_common_011d.WaitFrame(60f);
 	$local2 = sub13732(0x010B526Fh);
-	$local1 = ShowTopMessage($local2, 120, 0);
+	$local1 = battle.BattleMenu_Ex_009f.ShowTopMessage($local2, 120, 0);
 	$local1 = sub6865($object0, 0x08EB5CBDh, 1);
 }
 
@@ -389,17 +405,17 @@ BossEvent_RibBreak_Begin()
 {
 	$global8 = 3;
 	$object0 = sub15411(6);
-	$local1 = sub6043($object0, 0xF435EBF2h);
+	$local1 = sub6043($object0, "BossEvent_RibBreak"h);
 }
 
 BossEvent_RibBreak()
 {
 	$local1 = OnWeakPointDamaged_Common("");
-	$local1 = WaitFrame(10f);
+	$local1 = prog_common_011d.WaitFrame(10f);
 	$object0 = sub15600(0xC7BA0120h, 0f, 0f, 0f);
 	$local1 = sub15607($object0, $unk1, 0x64FAF507h, 0x00000767h);
 	$local1 = sub6865($unk1, 0x08EB5CBDh, 0);
-	$local1 = WaitFrame(30);
+	$local1 = prog_common_011d.WaitFrame(30);
 	$local1 = DollyEvent_PlayWeakPoint(6, 0xC91AEB7Bh);
 	$global2 = 1;
 	$local1 = sub15706(6, 2, 1);
@@ -439,7 +455,7 @@ PinEvent_Delete($param0, $param1)
 	$object1 = sub15450($object2);
 	$local1 = $object2 == $param1;
 	if not $local1 goto "@000@"h;
-	$local1 = BattleMenuTarget_DeletePin($object0);
+	$local1 = battle.BattleMenu_003j.BattleMenuTarget_DeletePin($object0);
 "@000@":
 }
 
@@ -447,7 +463,7 @@ CrowEvent_Begin($param0)
 {
 	$global1 = 0;
 	$object0 = sub15411($param0);
-	$local1 = sub6043($object0, 0xB8482F6Dh);
+	$local1 = sub6043($object0, "CrowEvent_TakeOff"h);
 }
 
 CrowEvent_Wait($param0, $param1, $param2)
@@ -476,7 +492,7 @@ CrowEvent_Wait($param0, $param1, $param2)
 	if not $local1 goto "@004@"h;
 	goto "@001@"h;
 "@004@":
-	$local1 = sub2120();
+	$local1 = get_delta_time();
 	$object0 -= $local1;
 	$local1 = $object0 <= 0;
 	if not $local1 goto "@005@"h;
@@ -513,7 +529,7 @@ CrowEvent_Damage()
 {
 	$object0 = GetExtraObjectName(0);
 	$local1 = sub6819($object0, 0xF9B47AB2h, 0x00000005h);
-	$local1 = WaitFrame(15);
+	$local1 = prog_common_011d.WaitFrame(15);
 	$local1 = sub14808("ex302000_m1");
 	$local1 = sub14804("ex302000_m2");
 	$local1 = sub6810($object0, 0x148BD6D6h, 0x00000009h);
@@ -542,7 +558,7 @@ CrowEvent_TakeOff()
 	$local1 = CrowEvent_ColEnable($object0, 0);
 	$local1 = $global5 == 1;
 	if not $local1 goto "@000@"h;
-	$local1 = sub6043($object0, 0x1F0018FCh);
+	$local1 = sub6043($object0, "CrowEvent_Damage"h);
 	goto "@001@"h;
 "@000@":
 	yield;
@@ -566,7 +582,7 @@ BattleEvent_OnInit()
 	$local1 = BuildExtraObject("EXTRA_OBJ_RES2", "data/character/x304000/x304000_p00.xc", "EXTRA_OBJ_MOT2", "data/character/x304000/x304000_p20.xc");
 	$local1 = sub16512("ex3", "data/character/x302000/x302000_p10.xc");
 	$global3 = 1;
-	$local1 = sub14005(0xC939DE59h, $global3);
+	$local1 = set_temp_byte_flag(0xC939DE59h, $global3);
 	$global8 = 0;
 }
 
@@ -578,9 +594,10 @@ BattleEvent_OnFinalize()
 
 BattleEvent_OnStartEvent()
 {
-	$global12_isVictory = 0;
+  $global12 = 0;
 	$local1 = sub15749(6, 0f, 0f, -28f, 0f);
 	$local1 = sub15806(0f, 16f, 76.6f, 0f, 14.5f, 45f, 0f, 30f);
+	// $local1 = battle.BattleMenu_Ex_009f.BattleMenuHPBar_Boss_Create(6);
 	$local1 = sub15740(6);
 	$local1 = sub15801(0f, 0f, 0f, 15.44f, 75.5f, 0, 0f, 0f);
 	$local1 = sub15802(0f, 0f, 0f, 16.11f, 45f, 0, 0f, 0f);
@@ -840,13 +857,30 @@ OnDeathEvent_x301($param0, $param1, $param2, $param3, $param4, $param5, $param6,
 	$global9 = 1;
 	$local1 = sub15823();
 	$object0 = sub15411($param1);
-	$local1 = BattleMenuTarget_DeletePin($object0);
-	$local1 = DeleteWandererSpirit();
+	$local1 = battle.BattleMenu_003j.BattleMenuTarget_DeletePin($object0);
+	$local1 = battle.BattleMenu_003j.DeleteWandererSpirit();
 	$local1 = sub15417(256, 1);
 	$local1 = sub14804($param0);
+//	$local1 = sub15818(0f, 30f, 1f);
+//	$local1 = sub15817(20f, 60f, 0.5f, 0.2f);
+//	$local1 = sub15803(10f, 40f, 0f, 0f, 0f, $param1, $param2, 0.01f);
+//	$local1 = sub15821(40f, 25, 0f, 0f, 0f, $param1, $param2, $param5, -10f, $param3, 10, 10);
+//	$local1 = sub15804(40f, 40f, -25f, 10f, 15f);
+	$local2 = $param8 - 50f;
+	$local1 = sub15803(50f, $local2, 0f, 0f, 0f, $param1, "c_head", 0.2f);
+	$local1 = sub15817(60f, $param9, 0.8f, 0.5f);
+	$local1 = sub15821($param6, 40f, -20f, 0f, -20f, $param1, $param2, 0f, 0f, $param4, 30, 10);
+	$local1 = sub15804($param6, 40f, 0f, 5f, 5f);
 	$local2 = $param8 - 10;
+//	$local1 = sub15801($local2, 20, 0f, 6.3f, 75.75f, 0, 0f, 10f);
 	$local2 = $param8 - 10;
+//	$local1 = sub15802($local2, 15, 0f, 14.08f, 1.14f, 0, 0f, 10f);
 	$local1 = StageEffect_FlashWithSE(50f, 20f, 1f);
+//	$local1 = StageEffect_FlashWithSE(80f, 10f, 0.8f);
+//	$local1 = sub15816(80f, 20f, 3f, 3f);
+//	$local1 = StageEffect_FlashWithSE(90f, 10f, 0.9f);
+//	$local1 = sub15816(90f, 10f, 3f, 3f);
+//	$local1 = StageEffect_FlashWithSE($param7, 10f, 0.9f);
 	$local1 = sub15816($param7, 10f, 3f, 3f);
 	$local2 = $param8 + 10f;
 	$local1 = sub15822($local2, "sy0502");
@@ -855,7 +889,8 @@ OnDeathEvent_x301($param0, $param1, $param2, $param3, $param4, $param5, $param6,
 	$local2 = $param8 + 10f;
 	$local1 = sub15816($local2, 90f, 5f, 5f);
 	$local2 = $param8 + 120;
-	$local1 = WaitFrame($local2);
+	$local1 = prog_common_011d.WaitFrame($local2);
 	$local1 = sub15417(256, 0);
 }
 ```
+
