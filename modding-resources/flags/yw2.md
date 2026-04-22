@@ -36,8 +36,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x0B87DB54 (0xB87DB54) | 20 | -  | `in_orge_time` |
 | 0x63C11B45 | 21 | -  | - |
 | 0x40BA71A2 | 22 | -  | - |
-| 0x0CC4EC4E (0xCC4EC4E) | 23 | -  | - |
-| 0xABCB4EE6 | 24 | -  | - |
+| 0x0CC4EC4E (0xCC4EC4E) | 23 | -  | Do not befriend the next Yo-kai. |
+| 0xABCB4EE6 | 24 | -  | Befriend the next Yo-kai. |
 | 0xEB671121 | 25 | -  | - |
 | 0xA4F31422 | 26 | -  | - |
 | 0x1E40B827 | 27 | -  | - |
