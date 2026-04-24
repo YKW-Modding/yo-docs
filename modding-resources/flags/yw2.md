@@ -2592,7 +2592,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0xEE5E8CA9 | 13 | -  | - |
 | 0x5CAB924C | 14 | -  | - |
 | 0x3ABC5212 | 15 | -  | - |
-| 0xA45A65EC | 16 | -  | - |
+| 0xA45A65EC | 16 | Stores how many Crank-a-kai attempts are left.  | - |
 | 0x9B568822 | 17 | -  | - |
 | 0x3C28BE20 | 18 | -  | - |
 | 0x497DA933 | 19 | -  | - |
