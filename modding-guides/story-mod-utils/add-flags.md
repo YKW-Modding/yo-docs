@@ -8,8 +8,6 @@ grand_parent: Modding Guides
 # Adding Flags
 > **Original author on Discord: @z_u_ra, modified by @n123original**
 
-### **NOTE: IN YOKAI WATCH 2, THIS CRASHES THE GAME DUE TO A BUG WITHIN THE ENGINE! Only use this guide in YW1, YW3, YWB1 OR YWB2**
-
 There are several types of flags with the most common type being `GlobalBitFlags`; these are *boolean* meaning they can be either a `1` (enabled/true) or a `0` (disabled/false); you can get/set these in XQ via `get_global_bitflag()` and `set_global_bitflag()`. Another common type is `GlobalByteFlags` which are *8-bit integers* meaning they can be any number between 0 and 255.
 
 ## Creating GlobalBitFlags
