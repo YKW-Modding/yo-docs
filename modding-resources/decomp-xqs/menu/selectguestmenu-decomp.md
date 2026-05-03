@@ -1,7 +1,6 @@
 ---
 title: SelectGuestMenu Decompilation (YW2)
 layout: default
-has_children: true
 parent: Menu XQs
 grand_parent: Decompiled/Sample XQs
 ---
