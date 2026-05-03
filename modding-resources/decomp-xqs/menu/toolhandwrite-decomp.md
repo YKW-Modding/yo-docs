@@ -1,7 +1,6 @@
 ---
 title: tool_hand_write Decompilation (YW1s)
 layout: default
-has_children: true
 parent: Menu XQs
 grand_parent: Decompiled/Sample XQs
 ---
