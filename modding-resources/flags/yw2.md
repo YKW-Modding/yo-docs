@@ -2596,7 +2596,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x9B568822 | 17 | -  | - |
 | 0x3C28BE20 | 18 | -  | - |
 | 0x497DA933 | 19 | -  | - |
-| 0x0646F45E (0x646F45E) | 20 | -  | - |
+| 0x0646F45E (0x646F45E) | 20 | Yo-kai Cap reduction, Yo-kai Cap = MaxCap - ThisFlag.  | - |
 | 0x81B5A9FC | 21 | -  | - |
 | 0xB5891C2B | 22 | -  | - |
 | 0xA938C2D5 | 23 | Wanted Criminal Data. Set it to 19-24 to make a Yo-Criminal appear in Shopper's Row, 1-6 for Uptown Springdale, etc and 0 for None. The specific number changes which Yo-Criminal spawns.  | `wanted_act_no` |

@@ -1,7 +1,6 @@
 ---
 title: Blank Battle XQ
 layout: default
-has_children: true
 parent: Event/Battle XQs
 grand_parent: Modding Resources
 ---
