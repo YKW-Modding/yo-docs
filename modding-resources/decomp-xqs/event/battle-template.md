@@ -2,7 +2,7 @@
 title: Blank Battle XQ
 layout: default
 parent: Event/Battle XQs
-grand_parent: Modding Resources
+grand_parent: Decompiled/Sample XQs
 ---
 
 # Blank Battle XQ
