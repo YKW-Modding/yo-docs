@@ -4,6 +4,7 @@ parent: File Format Specs
 grandparent: Modding Resources
 layout: default
 has_children: true
+nav_exclude: true
 ---
 
 # t2b
