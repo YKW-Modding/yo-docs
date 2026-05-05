@@ -32,15 +32,8 @@ The XPCK file format is a generic flat archive (no directories) used to bundle r
 
 
 ## Format Layout
-```cpp
-XPCK Header
-
-File Entry Table
-Compressed Name Table
-File Data Section (4-byte aligned)
-```
-
-Note that all offset and size fields are stored in units of 4 bytes (32-bit words). Meaning to derive the offset in bytes you must shift them by 2 (`<< 2`).
+An XPCK file is composed of the header, followed by the file entry table, the (compressed!) name table and then the (4-byte aligned) file data section.
+Note that all offsets are stored in units of 4 bytes (32-bit words). Meaning to derive the offset in bytes you must shift them by 2 (`<< 2`). This however, will be mentioned for each applicable field.
 ## Header
 
 | Offset | Size | Type    | Name             | Notes                                                                                                                   |
@@ -62,15 +55,15 @@ contentType = fileCountAndType >> 12;
 ```
 
 * The following fields are stored divided by 4 (meaning you must `<< 2` to convert to actual offsets):
-* `infoOffset`
-* `nameTableOffset`
-* `dataOffset`
-* `infoSize`
-* `nameTableSize`
-* `dataSize`
+  * `infoOffset`
+  * `nameTableOffset`
+  * `dataOffset`
+  * `infoSize`
+  * `nameTableSize`
+  * `dataSize`
 
 ## File Entry Table
-The file entry table is located at the offset given by `infoOffset << 2`, with there being `fileCount` entries - each of size `0xC` - with the structure being shown below. Therefore the size (in bytes) can be calculated as: `fileCount * 0xC`.
+The file entry table is located at the offset referenced by `infoOffset << 2`, with there being `fileCount` entries - each of size `0xC`. Therefore the size (in bytes) can be calculated as: `fileCount * 0xC`. Aditionally, entries are sorted by their `hash` value in ascending order when written.
 
 ### Structure
 
@@ -93,10 +86,7 @@ fileSize = (fileSizeUpper << 16) | fileSizeLower;
 ```
 
 ## Name Table
-The Name Table is a compressed section located at `nameTableOffset << 2`, of (compressed) size `nameTableSize << 2` - it is composed of sequential null-terminated ASCII filenames. Filenames are expected to be unique within an archive.
-
-### Structure
-No table is needed for this as it's just - as stated earlier - a continuous sequence of *unique* null-terminated ASCII filenames. 
+The Name Table is a compressed string table located at `nameTableOffset << 2`, of (compressed) size `nameTableSize << 2` - it is composed of sequential null-terminated ASCII filenames. Filenames are expected to be unique within an archive.
 
 ## Entry Ordering
-Note that when writing, files must be sorted alphabetically by name when assigning offsets and the entry table must be sorted by `hash` (CRC-32B) ascending.
+Note that when writing, files must be sorted alphabetically by name when assigning offsets, just as the entries of the file entry table are sorted by `hash`.
