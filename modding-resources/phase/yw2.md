@@ -6,7 +6,7 @@ grand_parent: Modding Resources
 ---
 
 # Known YW2 Phase Boundaries
-Phase is determined by `(chapter_no * 10000) + sub_phase_no`. Meaning that increments of 10,000 (`0x2710`) occur for each chapter, while increments of 1 occur for changes in SubPhase.
+Phase is a signed 32-bit integer, calculated with the formula `(chapter_no * 10000) + sub_phase_no`. Meaning that increments of 10,000 (`0x2710`) occur for each chapter, while increments of 1 occur for changes in SubPhase.
 
 | **Phase (Decimal)** | **Phase (Hex)** | **Notes**                                                                                                                      |
 | ------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
