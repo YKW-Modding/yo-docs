@@ -24,14 +24,13 @@ After the 3DS era of Level-5's engine, t2b files began to be superseeded by `RDB
 A t2b file contains the entry section, followed by the CRC section and then the footer, which always starts `0x10` bytes from the end of the file. Note that all offsets are relative to the *start* of their section. Meaning that entry string offsets are relative to the entry string table base and CRC string offsets are relative to the CRC string table base.
 
 # Footer
-The footer is *always* located at the absolute offset `fileSize - 0x10`.
 
-| Field    | Type   | Description                                         |
-| -------- | ------ | --------------------------------------------------- |
-| magic    | uint32 | Must be `0x62327401`.                               |
-| unk1     | Int16  | Seems to be constant?                               |
-| encoding | Int16  | String encoding. See the section below for details. |
-| unk2     | Int16  | Seems to be constant?                               |
+| Field    | Type   | Description                                             |
+| -------- | ------ | ------------------------------------------------------- |
+| magic    | uint32 | Must be `0x62327401`.                                   |
+| unk1     | Int16  | Seems to be constant?                                   |
+| encoding | Int16  | String encoding, check the section below for specifics. |
+| unk2     | Int16  | Seems to be constant?                                   |
 
 ### Encoding Values
 If the high byte is `0x1` then the encoding is UTF-8, otherwise you must check the low byte. If the low byte is `0x1`, then the encoding is UTF-8, if `0x0` then CP932 (an extension of Shift-JIS). Note that both bytes must not contain a value aside from `0x1` or `0x0`. Meaning that the only valid encodings are as follows:
