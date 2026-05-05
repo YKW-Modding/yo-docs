@@ -17,28 +17,13 @@ has_children: true
 **Alignment:** N/A<br/>
 **String Encoding:** N/A
 
-The Level5 Compressed Container is a structure commonly used within Level5's proprietary formats to store compressed data (e.g., `ARC0`) as implemented by:
+The Level5 Compressed Container is a structure used within Level5's proprietary formats to store compressed data (e.g., `ARC0`) as implemented by:
 ```cpp
 void lxpUncompress(void *outBuffer, uint32_t& outDecompressedSize, uint32_t outBufferSize, const void *compressedContainer) {}
 uint32_t lxpUncompress_Size(void *compressionHeader) {}
 uint32_t lxpUncompress_Type(void *compressionHeader) {}
 ```
-Nearly all compressed data is stored using this structure.
-
-## Format Layout
-
-```md
-u32 compressionHeader
-byte[] compressedBlob
-```
-
-### compressionHeader Layout
-
-```cpp
-compressionMethod = compressionHeader & 0x7
-decompressedSize = compressionHeader >> 3
-```
-The lower 3 bits represent the compression method whereas the remaining (upper 29) bits hold the decompressed size in bytes.
+All compressed data is stored using this structure. This structure starts with a 32-bit header and then the raw compressed blob. The lower 3 bits hold the compression bits, while the remaining 29 bits hold the decompressed blob's size in bytes.
 
 ## Compression Methods
 
@@ -53,92 +38,4 @@ The lower 3 bits represent the compression method whereas the remaining (upper 2
 | 6  | Invalid       |
 | 7  | Invalid       |
 
-> Compression method IDs 6 and 7 are considered invalid and should not appear in valid containers. Implementations should ideally treat them as parsing errors.
-
-After decompression, the resulting stream is used as the actual table data.
-
-# Example Implementations
-## LZ10
-### JS
-```js
-/**
- * Decompresses a Uint8Array compressed according to Level5's handling of Nintendo's LZ10 algorithm.
- * 
- * @param {Uint8Array} compUint8 - Uint8Array of the compressed data.
- * @param {Number} expectedSize - Expected size of the decompressed output.
- * @returns {Uint8Array} - Decompressed output.
- */
-function lxp_uncompress_lz10(compUint8, expectedSize) {
-  if (!compUint8?.length) throw new RangeError("LZ10 Decompression Error: Expected a Uint8Array of size > 3 but found", compUint8); // ideally treat malformed input strictly
-  let inPos = 0;
-  const [ input , compressionHeaderSize ] = [ compUint8, 4 ];
-  if (input.length >= 4) inPos = compressionHeaderSize; // skip the compressionHeader
-  
-  const output = new Uint8Array(expectedSize); // pre-allocate a buffer for the output with size expectedSize
-  let outPos = 0;
-  while (outPos < expectedSize) {
-    if (inPos >= input.length) throw new RangeError("LZ10 Decompression Error: attempted to read-past allocated buffer."); // ideally treat malformed input strictly
-
-    // Read a flag byte at position inPos where each bit can be a 0 (representing a literal) or a 1 (representing a compressed pair) then jump past it
-    const flag = input[inPos++];
-
-    // Process each bit within the flag byte starting from the MSB (leftmost/largest bit) 
-    for (let bit = 7; bit >= 0; bit--) { // for each bit
-      if (outPos >= expectedSize) throw new RangeError("LZ10 Decompression Error: attempted to read-past allocated buffer.");
-
-      if ((flag >> bit) & 1) { // grab it and if it's 1 make sure there's enough bytes for a compressed pair
-        if (inPos + 1 >= input.length) throw new SyntaxError("LZ10 Decompression Error: truncated compressed pair."); // // if not remember ideally, you should treat malformed input strictly
-        const [ b1, b2 ] = [ input[inPos++], input[inPos++] ];
-        const length = (b1 >> 4) + 3; // the length of the repeated sequence can be calculated as the upper nibble + 3
-        const disp = ((b1 & 0x0F) << 8) | b2; // get the displacement (aka the distance back to copy from)
-        let src = outPos - (disp + 1);
-        if (src < 0) throw new RangeError("LZ10 Decompression Error: invalid displacement:", src); // ideally treat malformed input strictly
-        for (let k = 0; k < length && outPos < expectedSize; k++) output[outPos++] = output[src++]; // Copy the sequence from the displacement region
-      } else {
-        // if it's 0 (aka it represents a literal byte) then copy it directly from I->O
-        if (inPos >= input.length) throw new SyntaxError("LZ10 Decompression Error: truncated literal."); // for safety, treat malformed input strictly
-        output[outPos++] = input[inPos++]; // copy from input to output while advancing (did I spell that right - looks off) both outPos and inPos
-      }
-    }
-  }
-
-  return output;
-}
-```
-
-## RLE
-### JS
-```js
-/**
- * Decompresses a Uint8Array using Level5's RLE Implementation
- * @param {Uint8Array} compUint8 - Uint8Array of the compressed data.
- * @param {Number} expectedSize - Expected size of the decompressed output.
- * @returns {Uint8Array} - Decompressed output.
- */ 
-function lxp_uncompress_rle(compUint8, expectedSize) { // works
-  const [input, out] = [ compUint8, new Uint8Array(expectedSize)]; // preallocate an output buffer using expectedSize 
-  let [inPos, outPos] = [ 0, 0 ]; // init ptrs
-
-  while (outPos < expectedSize && inPos < input.length) {
-    const flag = input[inPos++]; // read the byte @ inPos then advance inPos by a byte
-
-    if (flag & 0x80) { // read the high bit to check if it's a repeat run or a literal run
-      // if it's a repeat run then,
-      if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
-      const val = input[inPos++]; // read the value @ inPos (the byte we're repeating) and advance the ptr
-      const repetitions = (flag & 0x7F) + 3; // number of times to repeat next byte (val)
-      const count = Math.min(repetitions, expectedSize - outPos);
-      for (let i = 0; i < count; i++) out[outPos++] = val; // loop count times filling count bytes with val @ outPos, while advancing outPos
-    } else {
-      // Literal run
-      const length = flag + 1;
-      const count = Math.min(length, expectedSize - outPos);
-      for (let i = 0; i < count; i++) { // loop over count times
-        if (inPos >= input.length) throw new RangeError("RLE Decompression Error: Attempted to read past bounds @", inPos); // you should be handling malformed input strictly :p
-        out[outPos++] = input[inPos++]; // and filling in count bytes from inPos to outPos, while advancing both ptrs ofc
-      }
-    }
-  }
-  return out;
-}
-```
+> Compression method IDs 6 and 7 are considered invalid and should not appear in a valid L5CC. Ideally treat these as errors.
