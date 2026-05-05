@@ -174,11 +174,4 @@ A subtree is terminated by a `_END` entry, which usually contains *no parameters
 Level-5 frequently uses a separate convention for property tree roots: with `PTREE`, `PTVAL`, `PTVALS` and `_PTREE` - where `PTREE` is the `_BEG` equivalent, `PTVAL` and `PTVALS` the `_INFO` equivalent and `_PTREE` the `_END` equivalent.
 This behaves like the normal `_BEGIN / _END` pattern but uses the custom naming scheme mentioned above.
 
-To reconstruct the tree:
-
-* Iterate entries linearly.
-* If the name ends with a begin marker, start a new node.
-* Consume all following entries until the matching end marker.
-* Treat consumed entries as children of the current node.
-
 > Note: Recursively apply the above steps as needed for nested subtrees.
