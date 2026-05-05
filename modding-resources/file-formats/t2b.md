@@ -19,43 +19,22 @@ has_children: true
 
 The *t2b format* is a structured binary configuration format used by 3DS Level-5 games for storing named entries containing typed values, configuring naerly all data within the games e.g. Items, Yo-kai, Quests, Maps etc.
 It most likely stands for text 2 binary as it's the compiled version of a plaintext format which will be covered in a different page.
-After the 3DS era of Level-5's engine, t2b files began to be superseeded by `RDBN` files of which we only know the compiled format of.
+After the 3DS era of Level-5's engine, t2b files began to be superseeded by `RDBN` files of which we aren't aware of any similar plaintext format.
 
-# Format Layout
-
-```
-T2B File
-├─ Entry Section
-│  ├─ Entry Header
-│  ├─ Entry Records
-│  └─ Entry String Table
-│
-├─ CRC Section
-│  ├─ CRC Header
-│  ├─ CRC Records
-│  └─ CRC String Table
-│
-├─ Footer (0x10 bytes from file end)
-│
-└─ Hi - idk I'm bored ok
-```
-
-Note that all offsets are relative to the *start* of their section. Meaning that entry string offsets are relative to the entry string table base and CRC string offsets are relative to the CRC string table base.
+A t2b file contains the entry section, followed by the CRC section and then the footer, which always starts `0x10` bytes from the end of the file. Note that all offsets are relative to the *start* of their section. Meaning that entry string offsets are relative to the entry string table base and CRC string offsets are relative to the CRC string table base.
 
 # Footer
 The footer is *always* located at the absolute offset `fileSize - 0x10`.
 
-## Structure
-
 | Field    | Type   | Description                                         |
 | -------- | ------ | --------------------------------------------------- |
 | magic    | uint32 | Must be `0x62327401`.                               |
-| unk1     | Int16  | -                                                   |
+| unk1     | Int16  | Seems to be constant?                               |
 | encoding | Int16  | String encoding. See the section below for details. |
-| unk2     | Int16  | -                                                   |
+| unk2     | Int16  | Seems to be constant?                               |
 
 ### Encoding Values
-
+If the high byte is `0x1` then the encoding is UTF-8, otherwise you must check the low byte. If the low byte is `0x1`, then the encoding is UTF-8, if `0x0` then CP932 (an extension of Shift-JIS). Note that both bytes must not contain a value aside from `0x1` or `0x0`. Meaning that the only valid encodings are as follows:
 | Value    | Encoding          |
 | -------- | ----------------- |
 | `0x0000` | CP932 (Shift-JIS) |
@@ -63,22 +42,11 @@ The footer is *always* located at the absolute offset `fileSize - 0x10`.
 | `0x0100` | UTF-8             |
 | `0x0101` | UTF-8             |
 
-Note that all other encoding values are *Invalid* and should be treated as such.
-
 # Entry Section
-
-This section starts at absolute offset `0x00`.
+This section is always exactly at the start of the file.
 
 ## Entry Header
-
-All the fields below are unsigned 32-bit integers:
-
-| Field            | Description                       |
-| ---------------- | --------------------------------- |
-| entryCount       | Number of entries.                |
-| stringDataOffset | Offset to the entry string table. |
-| stringDataLength | Size of entry string table.       |
-| stringDataCount  | Number of strings.                |
+The entry header is composed of 4 unsigned 32-bit integers, `entryCount`, `stringDataOffset`, `stringDataLength` and `stringDataCount`.
 
 ## Entry Record
 
@@ -115,7 +83,7 @@ This has no effect on strings but affects the Integer and Float types as mention
 
 # Entry String Table
 
-This table is located at `stringDataOffset` (which is defiend by the entry header). It is a continuous *non-compressed* blob of null-terminated strings. Encoding is defined in the footer of the t2b.
+This table is located at `stringDataOffset` (which is defiend by the entry header). It is a continuous *non-compressed* blob of null-terminated strings.
 Entries reference strings using offsets into this table.
 
 # CRC Section
