@@ -5,7 +5,7 @@ grandparent: Modding Resources
 layout: default
 has_children: false
 ---
-# Level5 Signatures
+# Platform Signatures
 
 **Filetype:** N/A<br/>
 **File Extensions:** N/A<br/>
@@ -17,29 +17,7 @@ has_children: false
 **String Encoding:** ASCII
 
 In Level5 file formats, you will often - but not always - encounter signatures.
-Signatures (sometimes called magics) are sequences of bytes used to identify the type of the file - similar to what a file extension is intended to accomplish. They are typically located at a fixed position within the file - usually the beginning, though there are exceptions.
-Level5's signatures can generally be split into two types:
-
-## Normal Signatures
-* These are usually (but not always!) placed at the start of the file.
-  * A common exception to this is the `t2b` format (often found with the file extension  `.cfg.bin`)
-    * `t2b` file signatures are not padded and are located `0x0F` bytes from the *end* of the file as opposed to the beginning.
-* They are sometimes padded to *two bytes* using null bytes (`00`).
-* Normal signatures are typically composed of *ASCII-encoded* characters, e.g., `RDBN`.
-
-## Platform Signatures
-Platform signatures follow the format:
-```
-XXX
-Y
-ZZ
-```
-
-Where:
-* `XXX` is the main signature (e.g., `IMG`, `ANM`, `CHR` etc).
-* `Y` is the platform code.
-  * Note that `W` and `N` share the same platform code - perhaps due to both of them having similarly-powerful hardware. 
-* `ZZ` is the version number in hexadecimal (`00`, `01`, etc).
+Signatures (sometimes called magics) are sequences of bytes used to identify the type of the file - similar to what a file extension was supposed to do. Platform signatures, are a type of signature Level5 commonly uses, these appear at the start of the file/file section and follow the format `XXXYZZ`, where `XXX` is the main file-format unique signature (e.g., `IMG`, `ANM`, `CHR` etc), `Y` is the platform code (see the next section), and `ZZ` is the version number as a hex string (`00`, `01`, etc).
 
 ### Supported Platforms
 The platforms are checked in the following order:
@@ -54,10 +32,10 @@ The platforms are checked in the following order:
 | V    | 3             | PS Vita                        |
 | W    | 6             | Windows? (same as NX)          |
 
-Any other character will yield the Platform Code `0xFFFFFFFF` and is treated as Invalid.
+Any other character will yield the Platform Code `0xFFFFFFFF` and is treated as invalid by their engine.
 
 ## Implementation
-Platform signatures are read and validated using the following functions in `LXP_CODE_BIN`:
+Platform signatures are read and validated using the following functions:
 ```cpp
 uint64_t __thiscall LXP_CODE_BIN::GetPlatform(LXP_CODE_BIN *this);
 int __thiscall LXP_CODE_BIN::GetVersion(LXP_CODE_BIN *this);
