@@ -76,7 +76,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x4B11E6C9 | 60 | -  | - |
 | 0x053DA610 (0x53DA610) | 61 | -  | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event)  | - |
-| 0x8CA83098 | 63 | Darkness: Warning Active (Story Weather Event)  | - |
+| 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event)  | - |
 | 0x4152B1B4 | 64 | -  | - |
 | 0x23129852 | 65 | -  | - |
 | 0x22BEF6EF | 66 | -  | - |
