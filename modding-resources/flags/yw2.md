@@ -75,8 +75,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x4DBB6FD4 | 59 | -  | - |
 | 0x4B11E6C9 | 60 | -  | - |
 | 0x053DA610 (0x53DA610) | 61 | -  | - |
-| 0x8BAAE62D | 62 | -  | - |
-| 0x8CA83098 | 63 | -  | - |
+| 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event)  | - |
+| 0x8CA83098 | 63 | Darkness: Warning Active (Story Weather Event)  | - |
 | 0x4152B1B4 | 64 | -  | - |
 | 0x23129852 | 65 | -  | - |
 | 0x22BEF6EF | 66 | -  | - |
@@ -2294,11 +2294,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x6F7C1186 | 2279 | -  | - |
 | 0x187B2110 | 2280 | -  | - |
 | 0x817270AA | 2281 | -  | - |
-| 0x97C0A8DB | 2282 | -  | - |
-| 0x0EC9F961 (0xEC9F961) | 2283 | -  | - |
-| 0x79CEC9F7 | 2284 | -  | - |
-| 0xE7AA5C54 | 2285 | -  | - |
-| 0x90AD6CC2 | 2286 | -  | - |
+| 0x97C0A8DB | 2282 | Yo-kai Advisory Active (Weather Event; Overrided by the Warning flag) | - |
+| 0x0EC9F961 (0xEC9F961) | 2283 | Yo-kai Warning Active (Weather Event; Overrides the Warning flag) | - |
+| 0x79CEC9F7 | 2284 | Tripping Advisory Active (Weather Event) | - |
+| 0xE7AA5C54 | 2285 | Bugs: Swarming! Active (Weather Event) | - |
+| 0x90AD6CC2 | 2286 | Fish: Good fishing! Active (Weather Event) | - |
 | 0xE8A2453B | 2287 | -  | - |
 | 0x8B10A06F | 2288 | -  | - |
 | 0xED6921E4 | 2289 | -  | - |
