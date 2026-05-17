@@ -149,8 +149,8 @@ The list is in alphabetical order.
 | t103i33 | Prayer's Peak Tunnel | 0x056FE40E (0x56FE40E) |
 | t103i35 | Chloro-Phil Good | 0xEC0C413B |
 | t103i37 | Springdale Hot Springs - Lobby | 0x02022017 (0x2022017) |
-| t103i38 | Springdale Hot Springs - <CN>Men</C> | 0x92BD3D86 |
-| t103i39 | Springdale Hot Springs - <CR>Women</C> | 0xE5BA0D10 |
+| t103i38 | Springdale Hot Springs - &lt;CN&gt;Men</C> | 0x92BD3D86 |
+| t103i39 | Springdale Hot Springs - &lt;CR&gt;Women</C> | 0xE5BA0D10 |
 | t103i51 | Byrd House - Main Room | 0xBD3B22A4 |
 | t103i53 | Byrd House - Hidden Room | 0x53354388 |
 | t103i60 | Wayfarer Manor - Room 101 | 0xE11141F1 |
