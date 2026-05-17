@@ -2614,8 +2614,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x870695F5 | 35 | -  | - |
 | 0x18CACF54 | 36 | -  | - |
 | 0xF19E0A16 | 37 | -  | - |
-| 0x8064E85B | 38 | -  | - |
-| 0xEC346E56 | 39 | -  | - |
+| 0x8064E85B | 38 | -  | `bicycle_color_num` |
+| 0xEC346E56 | 39 | -  | `bicycle_bell_num` |
 | 0x3238D758 | 40 | -  | - |
 | 0x0CC76FEE (0xCC76FEE) | 41 | -  | - |
 | 0x95CE3E54 | 42 | -  | - |
