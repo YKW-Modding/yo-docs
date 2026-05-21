@@ -55,7 +55,7 @@ You should see something like this:
 
 ![Screenshot of cfg.bin editor](assets/newRootEntry.png)
 If you see a green entry (in this case the root entry/tree), then the entry in question is unsaved. You can click the save button to save the change.
-Additionally, if an error occurs (i.e. you try to open something that isn't a `cfg.bin`) you'll see somethng on the bottom left of the UI. In this case, before I took the screenshot, I made a root entry without a name.
+Additionally, if an error occurs (i.e. you try to open something that isn't a `cfg.bin`) you'll see something on the bottom left of the UI. In this case, before I took the screenshot, I made a root entry without a name.
 
 Next you can right click an entry to see a list of buttons. I won't cover them as they are very self-explanatory, but I will show a picture!
 ![Screenshot of cfg.bin editor](assets/entryControls.png)
@@ -86,7 +86,7 @@ Different file formats require different tools to edit. Below are the most commo
 - [CfgBin Editor](https://github.com/onepiecefreak3/CfgBinEditor/releases/latest)
   * You've already used this! This is used for `.cfg.bin`, `.astarbin`, `.chartbin`, `.npcbin`, `.pathbin`, `.actbin`, and some `.bin` files. The tool you'll use most often, covering most structured game data including items, NPCs, Yo-kai and so much more.
 - [XtractQuery](https://github.com/onepiecefreak3/XtractQuery/releases/latest)
-  * `.xq` and `.xs` script files that build UIs, and handle events, and all interactions not core to the Yo-kai Watch engine. Follow the [Script Editing[(https://ykw-modding.github.io/yo-docs/modding-guides/xq-editing.html) sequence of guides for XQ scripts.
+  * `.xq` and `.xs` script files that build UIs, and handle events, and all interactions not core to the Yo-kai Watch engine. Follow the [Script Editing](https://ykw-modding.github.io/yo-docs/modding-guides/xq-editing.html) sequence of guides for XQ scripts.
 - [Studio Eleven](https://github.com/Tiniifan/studio_eleven/releases/latest)
   * This is a blender extension used for `.xc` models.
 - [Level5 Resource Editor](https://github.com/onepiecefreak3/Level5RessourceEditor/releases/latest)
