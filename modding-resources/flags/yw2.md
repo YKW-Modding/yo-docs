@@ -2197,7 +2197,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 | 0x863F4960 | 2182 | -  | - |
 | 0xD7CD3CCD | 2183 | -  | - |
 | 0xF2A42713 | 2184 | -  | - |
-| 0x5131AE05 | 2185 | -  | - |
+| 0x5131AE05 | 2185 | Has spoken to Dimmy (Secrecy; Bony Spirits) in Yo-kai World - Liar Mountain  | - |
 | 0xD16562A1 | 2186 | -  | - |
 | 0xD296EFB1 | 2187 | -  | - |
 | 0x3F811D6A | 2188 | -  | - |
