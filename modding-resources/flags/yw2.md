@@ -2099,23 +2099,23 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB1BD38EC | 2084 | - | - |
 | 0xC6BA087A | 2085 | - | - |
 | 0x5FB359C0 | 2086 | - | - |
-| 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount | - |
-| 0xE42DBCC7 | 2088 | - | - |
-| 0x932A8C51 | 2089 | - | - |
+| 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount | `territory_t101g00_01` |
+| 0xE42DBCC7 | 2088 | - | `territory_t101g00_02` |
+| 0x932A8C51 | 2089 | - | `territory_t101g00_03` |
 | 0xD52078AB | 2090 | - | - |
 | 0xA3551F7A | 2091 | - | - |
 | 0x3A5C4EC0 | 2092 | - | - |
 | 0x4D5B7E56 | 2093 | - | - |
 | 0x315B6F07 | 2094 | - | - |
-| 0x4CCCF7E0 | 2095 | - | - |
-| 0xD5C5A65A | 2096 | - | - |
-| 0xA2C296CC | 2097 | - | - |
-| 0x3CA6036F | 2098 | - | - |
+| 0x4CCCF7E0 | 2095 | - | `territory_t102g00_01` |
+| 0xD5C5A65A | 2096 | - | `territory_t102g00_02` |
+| 0xA2C296CC | 2097 | - | `territory_t102g00_03` |
+| 0x3CA6036F | 2098 | - | `territory_t102g00_04` |
 | 0x92BD05E7 | 2099 | - | - |
 | 0x0BB4545D (0xBB4545D) | 2100 | - | - |
 | 0x7CB364CB | 2101 | - | - |
 | 0xE2D7F168 | 2102 | - | - |
-| 0xEABBFC54 | 2103 | - | - |
+| 0xEABBFC54 | 2103 | - | `territory_t103g00_01` |
 | 0xAA9CE0F4 | 2104 | Has Jibanyan-S been met. | - |
 | 0x527C1B03 | 2105 | - | - |
 | 0x9ED61B9D | 2106 | - | - |
@@ -2123,15 +2123,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA1B1EBD6 | 2108 | - | - |
 | 0xF1882DA2 | 2109 | - | - |
 | 0xE71AB877 | 2110 | - | - |
-| 0x2F1CC2DA | 2111 | - | - |
-| 0xB6159360 | 2112 | - | - |
-| 0xC112A3F6 | 2113 | - | - |
+| 0x2F1CC2DA | 2111 | - | `territory_t104g00_01` |
+| 0xB6159360 | 2112 | - | `territory_t104g00_02` |
+| 0xC112A3F6 | 2113 | - | `territory_t104g00_03` |
 | 0x3918B7A6 | 2114 | - | `ev13_1000` |
 | 0xF16D30DD | 2115 | - | - |
 | 0x68646167 | 2116 | - | - |
 | 0x1F6351F1 | 2117 | - | - |
 | 0x4779B929 | 2118 | - | - |
-| 0x896BC96E | 2119 | - | - |
+| 0x896BC96E | 2119 | - | `territory_t105g00_01` |
 | 0xED63D5C7 | 2120 | - | - |
 | 0x3A6252C6 | 2121 | - | - |
 | 0x23796387 | 2122 | - | - |
@@ -2139,10 +2139,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7AAF26B6 | 2124 | - | - |
 | 0xF6858D9A | 2125 | - | - |
 | 0x32AD77FA | 2126 | - | - |
-| 0xB883D3F3 | 2127 | - | - |
-| 0x218A8249 | 2128 | - | - |
-| 0x568DB2DF | 2129 | - | - |
-| 0xC8E9277C | 2130 | - | - |
+| 0xB883D3F3 | 2127 | - | `territory_t106g00_01` |
+| 0x218A8249 | 2128 | - | `territory_t106g00_02` |
+| 0x568DB2DF | 2129 | - | `territory_t106g00_03` |
+| 0xC8E9277C | 2130 | - | `territory_t106g00_04` |
 | 0x66F221F4 | 2131 | - | - |
 | 0xFFFB704E | 2132 | - | - |
 | 0x88FC40D8 | 2133 | - | - |
@@ -2150,27 +2150,27 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6871A0EB | 2135 | - | - |
 | 0x411DA171 | 2136 | - | - |
 | 0x31DF2538 | 2137 | - | - |
-| 0x1EF4D847 | 2138 | - | - |
+| 0x1EF4D847 | 2138 | - | `territory_t107g00_01` |
 | 0xC0852A40 | 2139 | - | - |
-| 0x3F01EA00 | 2140 | - | - |
+| 0x3F01EA00 | 2140 | - | `territory_t121g00_01` |
 | 0xE1701807 | 2141 | - | - |
 | 0x81689241 | 2142 | - | - |
 | 0x5F196046 | 2143 | - | - |
 | 0xB342E5DB | 2144 | - | - |
 | 0x6D3317DC | 2145 | - | - |
-| 0xA608BBBA | 2146 | - | - |
+| 0xA608BBBA | 2146 | - | `territory_t121g00_02` |
 | 0x787949BD | 2147 | - | - |
-| 0xF3ABEA9E | 2148 | - | - |
+| 0xF3ABEA9E | 2148 | - | `territory_t131g00_01` |
 | 0x2DDA1899 | 2149 | - | - |
-| 0xD10F8B2C | 2150 | - | - |
+| 0xD10F8B2C | 2150 | - | `territory_t121g00_03` |
 | 0x0F7E792B (0xF7E792B) | 2151 | - | - |
-| 0x4F6B1E8F | 2152 | - | - |
+| 0x4F6B1E8F | 2152 | - | `territory_t121g00_04` |
 | 0x911AEC88 | 2153 | - | - |
-| 0x386C2E19 | 2154 | - | - |
+| 0x386C2E19 | 2154 | - | `territory_t121g00_05` |
 | 0xE61DDC1E | 2155 | - | - |
-| 0x44A9D1B8 | 2156 | - | - |
+| 0x44A9D1B8 | 2156 | - | `territory_t201g00_01` |
 | 0x9AD823BF | 2157 | - | - |
-| 0xDDA08002 | 2158 | - | - |
+| 0xDDA08002 | 2158 | - | `territory_t201g00_02` |
 | 0x03D17205 (0x3D17205) | 2159 | - | - |
 | 0x19F1ED79 | 2160 | - | - |
 | 0xEEE77038 | 2161 | - | - |
@@ -3901,7 +3901,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. | `tmp_seek_get_num` |
 | 0x26BF0B6E | 11 | - | `tmp_quest_time` |
 | 0x8D489757 | 12 | - | `tmp_seek_rest_num` |
-| 0x4833746A | 13 | - | Hide & Seek Mode? 2 = In Hide & Seek |
+| 0x4833746A | 13 | Hide & Seek Mode? 2 = In Hide & Seek | - |
 | 0xFE216783 | 14 | - | `scenario_flag_01` |
 | 0x67283639 | 15 | - | `scenario_flag_02` |
 | 0x102F06AF | 16 | - | `scenario_flag_03` |
@@ -3937,7 +3937,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x57F858A8 | 66 | - | `tmp_gacha_coin_3` |
 | 0xC99CCD0B | 67 | - | `tmp_gacha_coin_4` |
 | 0xD797E46B | 68 | Temp Playcoin spent counter | `tmp_gacha_game_coin_num` |
-| 0xEEC4744B | 69 | Capsule Data: 0 = Success, 1 = Oni Crank-a-kai? 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | - |
+| 0xEEC4744B | 69 | Capsule Data: 0 = Success, 1 = Oni Crank-a-kai? 2 = Noko? 254 = Out of capsules? 255 = Reset/Reroll? | `tmp_gacha_type` |
 | 0xA3BEB26B | 70 | - | `tmp_quest_tlk_cnt` |
 | 0xB8C58433 | 72 | - | `tmp_quest_rslt_update` |
 | 0x8AD93348 | 75 | - | `force_win_type` |

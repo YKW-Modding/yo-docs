@@ -6,38 +6,36 @@ parent: Modding Resources
 ---
 
 # Map IDs
-
 ## Format
+> Note: some test maps e.g. `testmapl` don't follow this format. They are rare exceptions to this otherwise consistent pattern.
 
 ### First Character
-
-This will always be either an `e` or a `t`. If it is an `e`, it is a map used in an event or a cutscene. If it is a `t`, it is just a regular map.
+This will always be either an `e` or a `t`. If it's an `e`, it's used for events or cutscenes. All other maps are prefixed with `t`.
 
 ### Second Character
+This character is always a number. It is the zone that the map is in. The zone numbers change between games, so they will be listed below.
 
-This character is always a number. It is the zone that the map is in. The zone numbers change between games, so I will list them here.
+#### YW1
 
-**YKW1:**
+| Number | Zone                                              |
+| ------ | ----                                              |
+|1       | Everything except for the Yo-kai World's Big Map. |
+|2       | The Yo-kai World's Big Map.                       |
+
+#### YW2
 
 |Number|Zone|
 |------|----|
-|1     |Everything except for the Yo-Kai World's Big Map|
-|2     |The Yo-Kai World's Big Map|
-
-**YKW2:**
-
-|Number|Zone|
-|------|----|
-|0     |The Yo-Kai World|
+|0     |The Yo-kai World|
 |1     |Present Overworld|
 |2     |Past Overworld|
 |3     |Sawayama Castle Town|
 
-**YKW3:**
+#### YW3
 
 |Number|Zone|
 |------|----|
-|0     |The Yo-Kai World|
+|0     |The Yo-kai World|
 |1     |Overworld|
 |2     |Past Overworld *(FULLY UNUSED)*|
 |3     |Reserved for events/cutscenes|
