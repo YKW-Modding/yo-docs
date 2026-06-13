@@ -6,14 +6,12 @@ parent: General Modding
 ---
 
 # Editing the Title Screen!
-**Original guide by @komazuraaa on discord**
-
-Tested with YKW1 EUR in English.
+**Original guide by @komazuraaa on discord. Slightly modified by @n123original. Tested with YW1 EUR in English.**
 
 * Open your FA file in Kuriimu2 and navigate to `data/menu`.
 
-* To edit the top screen's section find `title_u00_[language]`, and for the bottom screen find `title_d00_[language]`.
-  * For example, for European (British) English top-screen image select `title_u00_engb`.
+* To edit the top screen's section find `title_u00_<LG>`, and for the bottom screen find `title_d00_<LG>`.
+  * For example, for European (British) English top-screen image select `title_u00_engb`, for NA/USA French, this would be `frca`, `fr` for European French, etc.
   * Double click it and open `000.xi`.
   * Now, click the 'Export PNG' button to export the menu texture.
   * Edit it to your liking, and click 'Import PNG' to import your edited texture.
