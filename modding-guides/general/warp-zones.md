@@ -11,5 +11,6 @@ parent: General Modding
 * First, extract and open `mapenv.pck` from `data/map/<MAP>` in Kuriimu2.
 * Next, extract `<MAP>_funcpt.bin` from it, and open it in CfgBin Editor.
 * Next, search through the `PTREE` trees with `MAP_JUMP` parameters, until you find the one you want
-* Next, edit the MapID on the right of the string and the number if needed to make the string unique
+* Next, edit the MapID on the right of the string and the number if needed to make the string unique.
+  * For example, you might change `MJ_t101g00_t106g00_01` to `MJ_t101g00_t102g00_01` or `MJ_t101g00_t102g00_02`, if the 1st option already exists.
 * Finally, save and replace it back in the `mapenv.pck`.
