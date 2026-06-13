@@ -6,17 +6,15 @@ parent: Yo-kai and Battles
 ---
 
 # How to Add Battles
-**original guide by @kirasnuggets on discord**
+> Original guide by @kirasnuggets on discord, rewritten by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html). Additionally, this guide does not explain how to modify extra features such as audio, battle rules, and how to add bosses. 
 
-
-
-Step 1. Extract Common_enc
-(Located at data/res/battle)
-
-Step 2. Open OPF's cfgbineditor and open Common_enc
-
-Step 3. Duplicate an ENCOUNT_TABLE and ENCOUNT_CHARA to start with, in your duplicated Encount_Chara, paste your Yo-kai ParamID in the YokaiParamID slot
-
-Step 4. In your Encount_Table, look for Offset1 and put in the number of your duplicated Encount_Chara, if theres more Offsets with Values put into them, set them to -1
-
-Step 5. Before leaving your Encount Table, be sure to generate a new EncountID in the CRC-32 format
+* First, extract and open `common_enc*.cfg.bin`, from `data/res/battle`.
+  * The `*` refers to versioning, so instead of just `common_enc.cfg.bin` you might also see `common_enc_0.03a.cfg.bin`. Pick the one with the highest version.
+* Next, duplicate an `ENCOUNT_TABLE_*` entry.
+* Then increment (increase by 1) the `ChildCount` of the `ENCOUNT_TABLE` tree that contains the entries.
+* Next, do the same for `ENCOUNT_CHARA` for every Yo-kai you want in the battle (1-6 Yo-kai, most encounters only have 3 or less).
+  * For each entry, make sure to configure their `ParamID` and `Level`s, to match whatever you want.
+* Next, go back to the `ENCOUNT_TABLE_*` entry you created (will be the last one in the tree), and change the `EncountID`.
+* Finally, in your entry modify your `EncountCharaOffset*` entries.
+  * For instance, if you want the 1st Yo-kai to be `ENCOUNT_CHARA_123` set `EncountCharaOffset1` to `123`.
+  * If you don't want to place any Yo-kai in a specified slot, set the corresponding offset to `-1`.
