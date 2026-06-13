@@ -45,8 +45,10 @@ In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes which ha
 * Then select the amount of QRs to generate and enjoy!
 
 ## Yo-kai Watch B1/3/B2
-First, navigate over to `data/res/qr`. You should see 1 file:
-* `qr_config_*.cfg.bin` - open it with CfgBin Editor.
+First, navigate over to `data/res/qr`. You should see 1 type of file:
+* `qr_config*.cfg.bin` - open it with CfgBin Editor.
+  * The `*` refers to versioning, so instead of just `qr_config.cfg.bin` you might also see files such as `qr_config_0.04b.cfg.bin`. Pick the one with the highest version.
+ 
 Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
 In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which have 36 times less slots):
 * Click on the tree/top-level `QR2_INFO_LIST` and increase the number by one.
