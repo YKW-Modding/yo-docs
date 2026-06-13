@@ -10,6 +10,8 @@ nav_order: 0
 # Getting Started
 This guide should help you get started modding 3DS Yo-kai Watch games. I have decided to cover three steps, in this guide: dumping and extracting the game's RomFS, learning to use K2 and CfgBin Editor, and understanding how to generate IDs. After which you'll be ready to follow a specific modding guide.
 
+> This guide applies to the Nintendo 3DS Yo-kai Watch games (YW1, YW2, YWB, YW3, YWB2). There are slight deviations, but it's generally the same across the 3DS titles developed using Level5's engine (Specifically worded so that sangokushi does **not** count here).
+
 ## Dumping RomFS and Extracting Main Archives
 ### Dumping RomFS
 First you will need to dump RomFS for the game you want to mod.
@@ -80,7 +82,7 @@ However, for some IDs a specific structure is required (e.g. `cpsl_text_<model>`
 First we need the specific pattern; for this example we'll use capsule dialogue which follows the pattern `cpsl_text_<model>`. We will first substitute the values, in this case `<model>`, this stage is self explanatory and depends on the pattern in question, but after substitution, you should have something similar to: `cpsl_text_y101000`.
 Next, we need to hash the text. You don't need to know the specifics of what it does, but what you should know is that it takes the text as an input and returns an ID. Go to a website such as [this](https://emn178.github.io/online-tools/crc/) and type your text, then copy the output.  You should end up with something like `940fdaec`. In `CfgBin Editor`, you should add a `0x` prefix to the beginning, giving you `0x940fdaec`.
 
-## File formats and tools
+## File formats and Tools
 Different file formats require different tools to edit. Below are the most common formats you'll encounter and which tool to use for each.
 
 - [CfgBin Editor](https://github.com/onepiecefreak3/CfgBinEditor/releases/latest)

@@ -3919,7 +3919,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCC2D2166 | 35 | - | - |
 | 0x1EEFFF35 | 36 | - | - |
 | 0x363A9ADE | 37 | - | - |
-| 0xAE70FC1B | 38 | - | - |
+| 0xAE70FC1B | 38 | - | `tmp_gym_category` |
 | 0x8CEC6677 | 39 | - | - |
 | 0xCD119711 | 40 | - | - |
 | 0xDE31ADB1 | 41 | - | - |

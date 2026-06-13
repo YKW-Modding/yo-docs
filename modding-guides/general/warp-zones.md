@@ -1,30 +1,16 @@
 ---
-title: How to Edit Map Warp Zones in Yo-kai Watch 2 and 3
+title: How to Edit Map Jumps in Yo-kai Watch 2 and 3
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
 ---
 
-# How to Edit Map Warp Zones in Yo-kai Watch 2 and 3
-**Original guide by @lit_8 on Discord**
+# How to Edit Map Jumps in Yo-kai Watch 2 and 3
+> **Original guide by @lit_8 on Discord. Slightly modified by @n123original**. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html). Additionally, this only works on map jumps, so normal entrances and some basic doors. No XQ controlled jumps so, no doors that require items, no elevators, and no trains.
 
-Note: This only works on map and basic door warp zones, so no doors that require items, no elevators, and no trains.
-1- Open your map config folder, so it should be the file /data/map/yourmapid/mapenv.pck
-
-2- Export that file and open it.
-
-3- Inside that file it should be a file named "yourmapid_funcpt.bin" 
-
-4- Export that file and edit it with Kuriimu (the text editing one)
-
-5- Search a text string with (only) the map id of the map that that warp zone normally loads to.
-
-6- Change the name of that text string to the map you want to loadmap.
-
-7- Save the file and replace it with the original "yourmapid_funcpt.bin" 
-
-8- Save the "yourmapid_funcpt.bin" file and replace it back to "mapenv.pck" 
-
-9- Save "mapenv.pck" and replace it with the original to the map folder.
-
-10- Save your yw_a.fa file and test it.
+* First, extract and open `mapenv.pck` from `data/map/<MAP>` in Kuriimu2.
+* Next, extract `<MAP>_funcpt.bin` from it, and open it in CfgBin Editor.
+* Next, search through the `PTREE` trees with `MAP_JUMP` parameters, until you find the one you want
+* Next, edit the MapID on the right of the string and the number if needed to make the string unique.
+  * For example, you might change `MJ_t101g00_t106g00_01` to `MJ_t101g00_t102g00_01` or `MJ_t101g00_t102g00_02`, if the 1st option already exists.
+* Finally, save and replace it back in the `mapenv.pck`.

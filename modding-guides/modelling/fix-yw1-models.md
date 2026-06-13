@@ -6,31 +6,16 @@ grand_parent: Modding Guides
 ---
 
 # How to Fix Models to Work on Yo-kai Watch 1S/M
-**Original guide by @heartyalexii on discord**
+> **Original guide by @heartyalexii on discord, modified by @n123original**
 
-## How to port New Models in YKW1 HD
+## How to port New Models in YW1 HD
+* First, get the model you want to port. Whether it be an existing model from the 3DS game, or a custom one - we will call this the target model.
+* Next, get an HD (Switch/Mobile) Model (this can be any model - even an unrelated one), and extract *a* `.xi` and *the* `.sil` file. We will call this the sample model.
+* Next, export all textures to `.png` from the `.xi` files located in your target model.
+  * You can do this via Kuriimu2.
+* In Kuriimu2, in your target model, replace all the `.xi`'s with equivalents from your sample model.
+* Next, swap the `.sil` in your target model with the `.sil` from your sample model.
+* Now that you have copied the `.xi`'s from the sample model into your target model, change the textures (the contained `.png`, not the `.xi` itself) of the new `.xi` files to what it originally was, using Kuriimu2.
+  * This indirectly performs a platform transfer, we modify the textures inside the HD `.xi` files to match the target model's textures while still retaining the platform of the sample model. 
+* Save the `.xc` and enjoy!
 
-
-Step 1. 
-Get the model you want to put in, Whether it be a port, or a custom one made with Level5BlenderAddon
-
-Step 2. 
-Get an HD(Switch/Mobile) Model (this can be any model from the HD files) and extract a .xi and the .sil
-
-Step 3. 
-Save all textures (png resource not xi) from the .XI's located in your custom/new model.
-
-Step 4. 
-In Kuriimu2, on your custom models tab, replace all the .xi's with the ones exported from the HD model.
-
-Step 5. 
-Replace the .SIL in your custom model with the .SIL in the HD Model
-
-Step 6. 
-Now that you have copied the .XI's from the HD Model into your custom model, change the textures (the png resource not the XI itself) of the new .XI's back to what it was. You should have saved these in step 3.
-
-Step 7. 
-Save the .xc and put it over the character you want to replace
-
-Step 8. 
-Save your mod, and use the appropriate mod installation method for your platform(SMT for Mobile, RomFS for Switch)
