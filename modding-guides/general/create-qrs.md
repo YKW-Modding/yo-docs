@@ -17,7 +17,7 @@ First, navigate over to `data/res/qr`. You should see the following 2 types of f
 * `qr_config*.cfg.bin` - This is for V1 QR Codes. This is the file you want to use.
   * The `*` refers to versioning, so instead of just `qr_config.cfg.bin` you might also see files such as `qr_config_0.04b.cfg.bin`. Pick the one with the highest version.
  
-Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
+Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../../modding-resources/cfgbin-tags.html).
 In `QR_INFO_LIST`:
 * Click on the tree/top-level `QR_INFO_LIST` and increase the number by one.
 * Go to the last entry (e.g. `QR_INFO_121`), right click it and click duplicate.
@@ -34,7 +34,7 @@ First, navigate over to `data/res/qr`. You should see the following 2 types of f
 * `qr_config*.cfg.bin` - This is for V1 and V2 Codes. This is the file you want to edit.
   * The `*` refers to versioning, so instead of just `qr_config.cfg.bin` you might also see files such as `qr_config_0.04b.cfg.bin`. Pick the one with the highest version.
 
-Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
+Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../../modding-resources/cfgbin-tags.html).
 In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes which has 36 times less slots):
 * Click on the tree/top-level `QR2_INFO_LIST` and increase the number by one.
 * Go to the last entry (i.e. `QR2_INFO_441` on the latest version of Psychic Specters), right click it and click duplicate.
@@ -49,7 +49,7 @@ First, navigate over to `data/res/qr`. You should see 1 type of file:
 * `qr_config*.cfg.bin` - open it with CfgBin Editor.
   * The `*` refers to versioning, so instead of just `qr_config.cfg.bin` you might also see files such as `qr_config_0.04b.cfg.bin`. Pick the one with the highest version.
  
-Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../modding-resources/cfgbin-tags.html).
+Once you've navigated to the file, open it in CfgBin Editor with the [latest mytags](../../modding-resources/cfgbin-tags.html).
 In `QR2_INFO_LIST` (NOT `QR1_INFO_LIST` as that tree is for V1 QR Codes; which have 36 times less slots):
 * Click on the tree/top-level `QR2_INFO_LIST` and increase the number by one.
 * Go to the last entry (i.e. `QR2_INFO_2227` on one version of Yo-kai Watch 3), right click it and click duplicate.
