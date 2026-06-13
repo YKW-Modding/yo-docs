@@ -43,17 +43,19 @@ Let's go over every value in the TOML template!
 * `BaseId`
   *  The `BaseID` of your NPC should use. For custom Yo-kai, this can literally be anything, so check `chara_base`, but if you are using a vanilla Yo-kai, you can simply put your Yo-kai's model file name through a CRC32 hash.
 
-**The next few properties are related to the NPC's position.
+The next few properties are related to the NPC's position.
 For non-YW3 games, you could:
 * Use n123's save editor (Recommended for beginners).
 * Use [CTRPF](https://github.com/PabloMK7/CTRPluginFramework-BlankTemplate).
 * Use a basic XQ edit (Recommended for advanced modders).
-* And more ways, none of these will be explained in detail here
+* And more ways, none of these will be explained in detail here.
+
 For YW3, you can:
 * Use n123's save editor (Recommended).
 * Use [Togenyan's save editor](https://github.com/nobodyF34R/ykw-editors).
 * Use [CTRPF](https://github.com/PabloMK7/CTRPluginFramework-BlankTemplate).
 * Use a basic XQ edit (Recommended for advanced modders).
+<br>
 
 * `NpcX`
   * Your NPC's X position.
