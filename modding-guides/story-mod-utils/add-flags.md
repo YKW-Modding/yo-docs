@@ -6,74 +6,34 @@ grand_parent: Modding Guides
 ---
 
 # Adding Flags
-> **Original author on Discord: @z_u_ra, modified by @n123original**
+> Original author for GlobalBitFlags: @z_u_ra. Rewritten and expanded by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html).
 
-There are several types of flags with the most common type being `GlobalBitFlags`; these are *boolean* meaning they can be either a `1` (enabled/true) or a `0` (disabled/false); you can get/set these in XQ via `get_global_bitflag()` and `set_global_bitflag()`. Another common type is `GlobalByteFlags` which are *8-bit integers* meaning they can be any number between 0 and 255.
+There are several types of flags with the most common type being `GlobalBitFlag`s.
+These are *boolean* meaning they can be either:
+* `1`
+  * This could mean enabled, true, unlocked, on or any similar state.
+* `0`
+  * This means the inverse, so it could mean disabled, false, and so on.
+ 
+You can get/set these in XQ via `get_global_bitflag()` and `set_global_bitflag()`. Another common type is `GlobalByteFlags` which are *8-bit unsigned integers* meaning they can be any number between 0 and 255. I'm not going to cover the meaning, differences, and details of every flag type. I have however in [this](../../modding-resources/flags.html) page.
+> I will also NOT cover secondary flag types such as `GlobalTrophyGetFlag`s, as they are reserved for their own guides, e.g. a guide on custom trophies.
 
-## Creating GlobalBitFlags
-* Navigate over to `data/res/sys/`
-* There you will find a `flag_config.cfg.bin` - open it.
-  * If you see multiple, pick the one with the largest number i.e. if theres `flag_config.cfg.bin` and `flag_config_0.01a.cfg.bin`, pick the second option.
-* Click on `FLAG_INFO_0`.
+## Creating Flags
+First, decide what type of flag you want to edit:
+* If it's a GlobalBitFlag, GlobalByteFlag, GlobalTBoxFlag, TempBitFlag or TempByteFlag, navigate over to `data/res/sys`
+* If it's a TempMapBitFlag or TempMapByteFlag, navigate over to `data/res/map/<MAP>/<MAP>.pck`.
+  * Meaning, go to `data/res/map`, open the folder associated with your map, and open the `<MAP>.pck`, e.g. for Uptown Springdale in most games it'd be `t101g00.pck`.
+* Next, you will find either a `flag_config*.cfg.bin` or `<MAP>_flag.cfg.bin`, depending on the type of flag you are creating. Open it with CfgBin Editor.
+  * The `*` refers to versioning, so instead of just a `flag_config.cfg.bin` you might see a `flag_config_0.01.cfg.bin`. Pick the one with the highest version.
+* Next, click on the corresponding `FLAG_INFO_*` tree for your type.
+  * For `GlobalBitFlag`s and `TempMapBitFlag`s, click on `FLAG_INFO_0`.
+  * For `GlobalByteFlag`s and `TempMapByteFlag`s, click on `FLAG_INFO_1`.
+  * For `GlobalTBoxFlag`s, click on `FLAG_INFO_2`.
+  * For `TempBitFlag`s, click on `FLAG_INFO_3`.
+  * For `TempByteFlag`s, click on `FLAG_INFO_4`.
   * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_0` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-
-## Creating GlobalByteFlags
-* Navigate over to `data/res/sys/`
-* There you will find a `flag_config.cfg.bin` - open it.
-  * If you see multiple, pick the one with the largest number i.e. if theres `flag_config.cfg.bin` and `flag_config_0.01a.cfg.bin`, pick the second option.
-* Click on `FLAG_INFO_1`.
-  * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_1` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-
-## Creating GlobalTBoxFlags
-* Navigate over to `data/res/sys/`
-* There you will find a `flag_config.cfg.bin` - open it.
-  * If you see multiple, pick the one with the largest number i.e. if theres `flag_config.cfg.bin` and `flag_config_0.01a.cfg.bin`, pick the second option.
-* Click on `FLAG_INFO_2`.
-  * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_2` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-
-## Creating TempBitFlags
-* Navigate over to `data/res/sys/`
-* There you will find a `flag_config.cfg.bin` - open it.
-  * If you see multiple, pick the one with the largest number i.e. if theres `flag_config.cfg.bin` and `flag_config_0.01a.cfg.bin`, pick the second option.
-* Click on `FLAG_INFO_3`.
-  * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_3` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-
-## Creating TempByteFlags
-* Navigate over to `data/res/sys/`
-* There you will find a `flag_config.cfg.bin` - open it.
-  * If you see multiple, pick the one with the largest number i.e. if theres `flag_config.cfg.bin` and `flag_config_0.01a.cfg.bin`, pick the second option.
-* Click on `FLAG_INFO_4`.
-  * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_4` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-
-## Creating TempMapBitFlags
-* Navigate over to `data/res/map/` and open `<mapName>.pck`.
-* Open `<mapName>_flag.cfg.bin`
-  * If it is not there; the map has no TempMapBitFlags and you must copy the `cfg.bin` from another map.
-* Click on `FLAG_INFO_0`.
-  * Increase the `ChildCount` by 1.
-* Duplicate the last entry in `FLAG_INFO_0` and select the newly created entry.
-* Increase the `FlagSlot` by 1.
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
-* Create a new ID for the `FlagID` field, you can do this by typing anything into a website like [this](https://emn178.github.io/online-tools/crc/).
-* Save and Enjoy!
+  * Duplicate the last entry in the `FLAG_INFO_*` tree and select the newly created entry.
+  * Increment the `FlagSlot` (Increase by 1).
+  * Create a new ID for the `FlagID` field.
+    * For generic flags, no template is needed, for flags for some specific purposes, a template *IS* needed. Those would be covered in their own specific guides however.
+  * Save and Enjoy!
