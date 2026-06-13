@@ -5,24 +5,18 @@ grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
 # How to Add Legendary Yo-kai
-**Original guide by @stringsbutalt on Discord**
+> Original guide by @stringsbutalt on Discord, rewritten by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html). Additionally, this guide does not explain how to add the actual Yo-kai, please read the Adding Yo-kai guide for that, this is just for configuring the pages so that they can be obtained. 
 
-For this you will need CfgBinEditor & MyTags.
+* First, check which game you are modding (if you somehow don't already know).
+  * If you are modding YW1, open `legend_config*.cfg.bin` from `data/res/legend`.
+  * If you are modding YW2 or later, it will be found in `data/res/character` instead.
+    * The `*` refers to versioning, so instead of just `legend_config.cfg.bin` you might also see files such as `legend_config_0.01b.cfg.bin`. Pick the one with the highest version.
+* Next, duplicate a `LEGEND_DATA_CONFIG_*` entry. A new one should appear at the end of the tree. Open it.
+* Next, generate a new `LegendID`. No template is needed.
+* Next, modify the `LegendParamID` to be the `ParamID` of the Legendary Yo-kai the page should award.
+* Next, modify the `Page`, to match the index e.g. `LEGEND_DATA_CONFIG_0` would have a `Page` of 0, `LEGEND_DATA_CONFIG_123` would have a `Page` of 123, etc.
+* Next, modify the `Seal*ParamID` parameters, they are the `ParamID`s of the required Yo-kai for each slot.
+  * Additionally you might want to modify the `SpoilSeal*` parameters, if 1 they will be revealed even if not achieved yet, if 0, they will not.
+* Finally, increment (increase by 1) the `ChildCount` of the `LEGEND_DATA_CONFIG_LIST` tree that contains the entries.
 
-1. Open CfgBinEditor, find res/legend/legend_config.cfg.bin
-
-2. Copy a entry from LEGEND_DATA_CONFIG
-
-(Make sure to select YW2 on the tag options YW1 doesn't have it labeled)
-
-3. Make a new LegendID, use this website https://emn178.github.io/online-tools/crc32.html, type whatever you want for the input and copy the Hex Upper Case output into the LegendID value
-
-4. Get the ParamID of the legendary yokai (yokai you will get from the 8 seals) and copy it into "LegendYokaiParamID"
-
-5. You should see Seal1YokaiParamID, Seal2YokaiParamID, etc. Set the ParamID of your yokai to the 8 yokai seals.
-
-6. You can also make it so you can tell if the yokai you need for the seal in the "SpoilSeal" box. Set it 0 to not spoil and 1 to spoil what yokai you need.
-
-7. Add 1 to the value of LEGEND_DATA_CONFIG.
-
-![SS](https://i.imgur.com/SKaGmp2.png)
+![Annotated screenshot of legend_config open in CfgBin Editor](legend_config_screenshot.png)
