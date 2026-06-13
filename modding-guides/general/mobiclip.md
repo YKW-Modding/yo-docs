@@ -11,7 +11,7 @@ parent: General Modding
 
 * First, get Mobiclip Multicore Encoder.
 * Next, get RunAsDate and run it.
-* Next, run the encoder inside RunAsDate, with a date earlier than 2023/
+* Next, run the encoder inside RunAsDate, with a date earlier than 2023.
 * Next, give the program the license file that it comes with.
 * Next, load the mgraph attached at the end of this guide.
 * Double-click the video files block.
