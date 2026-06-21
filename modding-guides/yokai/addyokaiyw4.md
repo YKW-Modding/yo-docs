@@ -1,5 +1,5 @@
 ---
-title: Adding New Yo-kai to Yo-kai Watch 4
+title: Adding New Yo-kai (YW4)
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
