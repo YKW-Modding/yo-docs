@@ -12,12 +12,12 @@ parent: General Modding
 
 # Yo-kai Watch 1
 
-## **Registering the Item Name & Description**
-1. Open `data/res/text/item_text_<language>.cfg.bin`; where `<language>` is the language you want to make the name for. For example:
+## Registering the Item Name & Description
+1. Open `data/res/text/item_text_<LG>.cfg.bin`; where `<LG>` is the language you want to make the name for. For example:
 * `ja` for Japanese
 * `fr` for French
-* `en` for American English
-* `engb` for European English
+* `en` for English (American/NA/US/AUS)
+* `engb` for English (British/EUR) 
 * `it` for Italian, etc
 
 3. Add 2 to the value of entry group `TEXT_INFO`.
@@ -31,7 +31,7 @@ parent: General Modding
 7. Remember (or note down) your `NounTextID` & Description `TextID`. you'll need these for later.
 
 
-## **Creating the Item Icon**
+## Creating the Item Icon
 1. Open ``data/menu/item_icon.xi`` in K2
 
 2. Open and extract the PNG. Edit the png to add a new item to the next slot in the spritesheet (yw1 image below for reference)
@@ -46,7 +46,7 @@ parent: General Modding
 6. Change the texture to your custom items texture
 
 
-## **Registering the Item**
+## Registering the Item
 
 1. Open `data/res/item/item_config_0.05d.cfg.bin` in CfgBinEditor
 
