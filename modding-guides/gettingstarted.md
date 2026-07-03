@@ -36,7 +36,7 @@ Finally, enjoy!
 ## Using CfgBin Editor
 First, download the latest version of opf's `CfgBin Editor` - a tool you'll use frequently throughout your time modding these games. You can download it [here](https://github.com/onepiecefreak3/CfgBinEditor/releases/latest).
 
-Then download and set up the latest `MyTags.txt`, you can do so using [this](modding-resources/cfgbin-tags.html) short guide.
+Then download and set up the latest `MyTags.txt`, you can do so using [this](../modding-resources/cfgbin-tags.html) short guide.
 > If CfgBin Editor is already open, you'll have to reopen it for the changes to apply.
 
 Next open `CfgBin Editor` for the next steps:
