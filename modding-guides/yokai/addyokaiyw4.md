@@ -1,5 +1,5 @@
 ---
-title: Adding New Yo-kai (YW4)
+title: Adding Yo-kai (YW4)
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
