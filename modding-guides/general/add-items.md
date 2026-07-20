@@ -34,9 +34,8 @@ parent: General Modding
 ## Creating the Item Icon
 1. Open ``data/menu/item_icon.xi`` in K2
 
-2. Open and extract the PNG. Edit the png to add a new item to the next slot in the spritesheet (yw1 image below for reference)
+2. Open and extract the PNG. Edit the png to add a new item to the next slot in the spritesheet (yw1 image below for reference)<br/>
 ![Base item image](yw1_mainitemicon.png) <!-- the original version was on imgur 😭 -->
-
 
 3. To start off, copy a different item icon i.e. `item_002.xi`.
 
