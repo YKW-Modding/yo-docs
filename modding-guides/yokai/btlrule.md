@@ -5,11 +5,11 @@ grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
 # How to Create a Battle Rule
-> Original guide by @pqr29 on Discord; heavily modified by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html).
+> Original guide by @pqr29 on Discord; rewritten and heavily modified by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html).
 
 You will need Kuriimu2, CfgBin Editor and the latest MyTags, all of which you should have set up and be familiar with, by the end of the afformentioned [starting guide](../gettingstarted.html).
 
-## 2. Create a BattleRule
+## Create a BattleRule
 
 * First, we will create a Battle Rule. To do this, extract and open `battle_rule_config*.cfg.bin` from `data/res/battle`.
   * The `*` refers to versioning, so instead of just `battle_rule_config.cfg.bin` you might also see ones such as `battle_rule_config_0.03g.cfg.bin`. Pick the one with the highest version.
