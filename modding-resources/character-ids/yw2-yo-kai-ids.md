@@ -9,8 +9,6 @@ grand_parent: Modding Resources
 
 The list is in alphabetical order.
 
-*Special thanks to the [YW2 naming project](https://gamebanana.com/tools/11464).*
-
 ## Normal Yo-kai
 
 | Folder ID | Yo-kai | BaseID |
@@ -130,7 +128,7 @@ The list is in alphabetical order.
 | y117010 | Snartle | 0x1EE81D2E |
 | y117600 | Zeroberker (Yo-criminal) | 0x037E50DD (0x37E50DD) |
 | y118000 | Snotsolong | 0x5F903C39 |
-| yy118010 | Duchoo | 0x0DDA87D4 (0xDDA87D4) |
+| y118010 | Duchoo | 0x0DDA87D4 (0xDDA87D4) |
 | y119000 | Espy | 0xE72C5B5C |
 | y119010 | Infour | 0xFE376A1D |
 | y119600 | Falspy (Yo-criminal) | 0xE3A127EE |

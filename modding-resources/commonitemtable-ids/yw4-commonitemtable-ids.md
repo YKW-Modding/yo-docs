@@ -1,11 +1,11 @@
 ---
-title: YKW4 Common_Item_Table IDs
+title: YW4 Common_Item_Table IDs
 layout: default
 parent: CommonItemTable IDs
 grand_parent: Modding Resources
 ---
 
-# YKW4 Common_Item_Table IDs
+# YW4 Common_Item_Table IDs
 
 The list is in numerical order according to the file. ITEMS_LIST Reference refers to the first entry in ITBL_ITEMS_LIST that starts being referenced. Entries Referenced is the total amount of entries referenced for the Ingame Purpose, starting with ITEMS_LIST Reference. The TableID is simply the ID for that particular section, with Notes describing any peculiar things that should be noted.
 

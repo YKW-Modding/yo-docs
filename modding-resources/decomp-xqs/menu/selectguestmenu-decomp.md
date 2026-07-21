@@ -274,13 +274,13 @@ GuestMenu_ChangeExecParam($param0, $param1, $param2)
 
 GuestMenu_GetText($param0)
 { // $param0 = TextID
-	$local1 = get_menu_text("selectguestmenu_text", $param0); // get the text with the specified TextID from data/res/text/menu/selectguestmenu_text_<locale>.cfg.bin where <locale> is a string such as engb
+	$local1 = string_get_by_texttype("selectguestmenu_text", $param0); // get the text with the specified TextID from data/res/text/menu/selectguestmenu_text_<LG>.cfg.bin
 	return $local1; // and return it
 }
 
 GuestMenu_MessageInfoAlreadyGuest($param0)
 { // $param0 = TextID
-	$object0 = GuestMenu_GetText($param0); // get the text with the specified TextID from data/res/text/menu/selectguestmenu_text_<locale>.cfg.bin where <locale> is a string such as engb
+	$object0 = GuestMenu_GetText($param0); // get the text with the specified TextID from data/res/text/menu/selectguestmenu_text_<LG>.cfg.bin
 	$local1 = yw2.seq.prog_menu_006c.Menu_MessageInfoDraw($object0); // and draw it in a message box using the good ol' clasic Menu_MessageInfoDraw (defined in prog common)  
 }
 
