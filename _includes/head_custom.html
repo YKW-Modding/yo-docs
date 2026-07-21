@@ -30,8 +30,7 @@ pre code {
 }
 
 /* This CSS is to add GFM alerts */
-  
-markdown-alert {
+.markdown-alert {
   padding: 0.5em 1em;
   margin-bottom: 1em;
   border-left: 0.25em solid;
@@ -55,63 +54,53 @@ markdown-alert {
 /* light mode is the base */
 .markdown-alert-note {
   border-color: #0969da;
-  background-color: rgba(9, 105, 218, 0.1);
 }
 .markdown-alert-note .markdown-alert-title { color: #0969da; }
 
 .markdown-alert-tip {
   border-color: #1a7f37;
-  background-color: rgba(26, 127, 55, 0.1);
 }
 .markdown-alert-tip .markdown-alert-title { color: #1a7f37; }
 
 .markdown-alert-important {
   border-color: #8250df;
-  background-color: rgba(130, 80, 223, 0.1);
 }
 .markdown-alert-important .markdown-alert-title { color: #8250df; }
 
 .markdown-alert-warning {
-  border-color: #9a6700;
-  background-color: rgba(154, 103, 0, 0.1);
+  border-color: #966600;
 }
-.markdown-alert-warning .markdown-alert-title { color: #9a6700; }
+.markdown-alert-warning .markdown-alert-title { color: #c69026; }
 
 .markdown-alert-caution {
   border-color: #cf222e;
-  background-color: rgba(207, 34, 46, 0.1);
 }
 .markdown-alert-caution .markdown-alert-title { color: #cf222e; }
 
 /* make it look good when dark mode is chosen */
 @media (prefers-color-scheme: dark) {
   .markdown-alert-note {
-    border-color: #4493f8;
-    background-color: rgba(68, 147, 248, 0.1);
+    border-color: #1f6feb;
   }
   .markdown-alert-note .markdown-alert-title { color: #4493f8; }
   
   .markdown-alert-tip {
-    border-color: #3fb950;
-    background-color: rgba(63, 185, 80, 0.1);
+    border-color: #238636;
   }
   .markdown-alert-tip .markdown-alert-title { color: #3fb950; }
   
   .markdown-alert-important {
-    border-color: #a371f7;
-    background-color: rgba(163, 113, 247, 0.1);
+    border-color: #8957e5;
   }
   .markdown-alert-important .markdown-alert-title { color: #a371f7; }
   
   .markdown-alert-warning {
-    border-color: #d29922;
-    background-color: rgba(210, 153, 34, 0.1);
+    border-color: #9e6a03;
   }
   .markdown-alert-warning .markdown-alert-title { color: #d29922; }
   
   .markdown-alert-caution {
-    border-color: #f85149;
-    background-color: rgba(248, 81, 73, 0.1);
+    border-color: #da3633;
   }
   .markdown-alert-caution .markdown-alert-title { color: #f85149; }
 }
