@@ -2587,8 +2587,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB3E9494F | 7 | - | - |
 | 0x78002D2E | 8 | - | `count_offertory box` |
 | 0x74CAA867 | 9 | - | `count_gold_egg` |
-| 0xDF0B0383 | 11 | - | - |
-| 0xA6D7BB27 | 12 | In Psychic Specters, this shows which side you have picked 0 = Undecided, 1 = Bony, 2 = Fleshy | - |
+| 0xDF0B0383 | 11 | Set to 1/2 when Spirit/Soul doughnuts are selected at the start of the game. The difference between this and the following flag is unclear. | - |
+| 0xA6D7BB27 | 12 | In Psychic Specters, this appears to show which side you have picked 0 = Undecided, 1 = Bony, 2 = Fleshy | - |
 | 0xEE5E8CA9 | 13 | - | `count_died` |
 | 0x5CAB924C | 14 | - | `passcomm_num` |
 | 0x3ABC5212 | 15 | - | - |
