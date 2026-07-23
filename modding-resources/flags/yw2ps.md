@@ -1,11 +1,11 @@
 ---
-title: YW2 Flag IDs
+title: YW2 (PS) Flag IDs
 layout: default
 parent: Flag IDs
 grand_parent: Modding Resources
 ---
 
-# YW2 Flag IDs!
+# Yo-kai Watch 2: Psychic Specters Flag IDs!
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when the ID is padded!)
 
