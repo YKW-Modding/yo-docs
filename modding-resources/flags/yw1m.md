@@ -1,5 +1,5 @@
 ---
-title: YW1 (Smartphone) Flag IDs
+title: YW1M Flag IDs
 layout: default
 parent: Flag IDs
 grand_parent: Modding Resources

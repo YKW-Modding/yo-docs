@@ -8,6 +8,10 @@ parent: Modding Resources
 # Flag IDs
 Flag IDs are used all over the games to reference progression, events or any other situation where global data needs to be stored.
 
+
+> [!NOTE]
+> The following subpages assume the latest version of the European localisation of said game.
+
 In Yo-kai Watch 1, 2, and B1:
 * `FLAG_INFO_0` flags are boolean; (they can be a `1` or `0`); `FLAG_INFO_0` entries are internally referred to as `GlobalBitFlag`; these can be edited in XQ via `get_global_bitflag()` and it's set equivalent, and read in conds via `GetGlobalBitFlag`.
 * `FLAG_INFO_1` flags are *8-bit unsigned integers* (meaning a number from 0-255); `FLAG_INFO_1` entries are internally referred to as `GlobalByteFlag`; a `FLAG_INFO_1` can be read in conds via `GetGlobalByteFlag`.
