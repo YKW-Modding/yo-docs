@@ -1,5 +1,16 @@
 {% assign lang_names = "en:English|fr:Français|ko:한국어" | split: "|" %}
 
+<pre style="font-size: 11px; opacity: 0.6; white-space: pre-wrap;">
+DEBUG
+site.active_lang: [{{ site.active_lang }}]
+site.default_lang: [{{ site.default_lang }}]
+site.languages: [{{ site.languages }}]
+site.baseurl: [{{ site.baseurl }}]
+page.lang: [{{ page.lang }}]
+page.url: [{{ page.url }}]
+page.rendered_lang: [{{ page.rendered_lang }}]
+</pre>
+
 <div class="lang-switcher">
   <select id="lang-select" onchange="if(this.value) window.location.href=this.value;">
     {% for lang in site.languages %}
