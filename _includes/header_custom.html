@@ -12,7 +12,7 @@ page.rendered_lang: [{{ page.rendered_lang }}]
 </pre>
 
 <div class="lang-switcher">
-  <select id="lang-select" onchange="if(this.value) window.location.href=this.value;">
+  <select id="lang-select" aria-label="Choose language">
     {% for lang in site.languages %}
       {% assign lang_label = lang %}
       {% for pair in lang_names %}
@@ -21,34 +21,7 @@ page.rendered_lang: [{{ page.rendered_lang }}]
           {% assign lang_label = parts[1] %}
         {% endif %}
       {% endfor %}
-
-      {% assign base_url = page.url %}
-      {% assign ext = "" %}
-      {% assign filename = base_url %}
-      {% if base_url contains "." %}
-        {% assign url_parts = base_url | split: "." %}
-        {% assign ext = "." | append: url_parts[-1] %}
-        {% assign filename = base_url | remove: ext %}
-      {% endif %}
-
-      {% if site.active_lang != site.default_lang %}
-        {% assign current_suffix = "_" | append: site.active_lang %}
-        {% assign suffix_len = current_suffix | size %}
-        {% assign filename_len = filename | size %}
-        {% assign check_start = filename_len | minus: suffix_len %}
-        {% assign filename_tail = filename | slice: check_start, suffix_len %}
-        {% if filename_tail == current_suffix %}
-          {% assign filename = filename | slice: 0, check_start %}
-        {% endif %}
-      {% endif %}
-
-      {% if lang == site.default_lang %}
-        {% assign target_url = filename | append: ext %}
-      {% else %}
-        {% assign target_url = filename | append: "_" | append: lang | append: ext %}
-      {% endif %}
-
-      <option value="{{ target_url | relative_url }}" {% if lang == site.active_lang %}selected{% endif %}>
+      <option value="{{ lang }}" {% if lang == site.active_lang %}selected{% endif %}>
         {{ lang_label }}
       </option>
     {% endfor %}
@@ -57,6 +30,41 @@ page.rendered_lang: [{{ page.rendered_lang }}]
 
 {% if page.rendered_lang != site.active_lang %}
 <div class="translation-notice" style="font-size: 0.85em; opacity: 0.75; margin-top: 4px;">
-  This page does not have a {{ site.active_lang}} version yet; here is the {{ page.rendered_lang }} version.
+  This page isn't in {{ site.active_lang}} yet. Here is the {{ page.rendered_lang }} version.
 </div>
 {% endif %}
+
+<script>
+{
+  const select = document.getElementById('lang-select');
+
+  if (select) {
+    const defaultLang = {{ site.default_lang | jsonify }};
+    const languages = {{ site.languages | jsonify }};
+    const baseurl = {{ site.baseurl | jsonify }};
+    let path = window.location.pathname;
+    if (baseurl && path.startsWith(baseurl)) path = path.slice(baseurl.length);
+    if (path === '' || path === '/') path = '/index.html';
+
+    const lastDot = path.lastIndexOf('.');
+    const ext = lastDot !== -1 ? path.slice(lastDot) : '';
+    let filename = lastDot !== -1 ? path.slice(0, lastDot) : path;
+
+    for (const candidate of languages) {
+      const suffix = `_${candidate}`;
+      if (filename.endsWith(suffix)) {
+        filename = filename.slice(0, -suffix.length);
+        break;
+      }
+    }
+
+    select.addEventListener('change', () => {
+      const target = select.value;
+      const newFilename = target === defaultLang ? filename : `${filename}_${target}`;
+      let newPath = `${newFilename}${ext}`;
+      if (newPath === '/index.html') newPath = '/';
+      window.location.href = baseurl + newPath;
+    });
+  }
+}
+</script>
