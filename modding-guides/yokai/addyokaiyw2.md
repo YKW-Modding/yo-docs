@@ -1,222 +1,135 @@
 ---
-title: Adding Yo-kai to YW4
+title: Adding Yo-kai (YW2)
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
 
-
-# Adding Yo-kai to YO-KAI WATCH 4
-**Original guide by 8227light on Discord**
-
-Before I begin this guide, note that **at this time, you must have a model already in the game's format.** There is no model importer, so you can only have existing Yo-kai or a texture edit of an existing Yo-kai.
-
-Furthermore, the **actual usability is very limited at this time.** It is currently unknown how to fully add Yo-kai properly, so right now, your Yo-kai is completely useless because it effectively doesn't exist. We don't know how to make the model appear, nor how to make the icons work properly.
-
-# Research Zone
-This section is for noting down every aspect of required files we can think of that are still unknown in hopes of figuring out what we are missing to make this work. If you want the actual, confirmed information, scroll down until the Required Files section.
-
-# g4pkm
-
-In the header of the g4pkm, before the strings for the files inside of the g4pkm are listed, there are CRC hashes of said filenames. It is currently unknown if these are absolutely necessary to change.
-
-# objbin
-The objbin contains various parameters for the model itself to use.
-
-By clicking on the OBJ tree, you can find the string of the model name. It is currently unknown what the purpose of this string is.
-
-Inside the SETUP (gmdCObject) tree, in SETUP_PARAM_0, you can find the filepath for what skeleton to use, which will lead to a model file, a g4pkm. The value for NonUniformScale is 1.
-
-Inside the PROP_INFO_0 (CColCollection) tree, inside the PROP_PARAM_0 (m_ColPartInfo) tree, in PROP_PARAM_0, the ID for partNameCrc seems to be used in col_collection.cfg.bin as well. (data/common/property/chara) **The ID for nullNameCrc appears to be a CRC hash of a bone name, c_global_0_0.** It seemed to be used in chara_look_at.cfg.bin as well (data/common/property/chara), where the ID is noted as boneNameCrc. The value for shapeType is 1. The capsule_range is 0.4. The values for offsetPos are 0, 0.26, and -0.09.
-
-Inside the PROP_INFO_0 (CColCollection) tree, inside the PROP_PARAM_1 (m_aColGroup) tree, in PROP_PARAM_0, the ID for groupNameCrc seems to be used in cmd_effect_config_0.16.02.cfg.bin as well. (data/common/effect) It is also used in cmd_obj.cfg.bin (data/common/gamedata/battle), as well as col_collection. The partNameCrc is the same as in PROP_PARAM_0 (m_ColPartInfo).
-
-Inside the PROP_INFO_1 (CRenderCollision) tree, inside the PROP_PARAM_0 (m_ColPartInfo) tree, in PROP_PARAM_0, the ID for partNameCrc seems to be 'unique,' as in only other objbins use it. (data/common/effect) It is also used in cmd_obj.cfg.bin (data/common/gamedata/battle), as well as col_collection. The partNameCrc is the same as in PROP_INFO_0 (CColCollection)/PROP_PARAM_0 (m_ColPartInfo). **The ID for nullNameCrc appears to be a CRC hash of a bone name, c_c_1_0.** It seemed to be used in chara_ik.cfg.bin as well. (data/common/property/chara) The value for shapeType is 8. The values for offsetPos are 0, -0, and -0. The value for ellipse_width is 0.3. The value for ellipse_depth is 0.3. The value for ellipse_height is 0.3.
-
-Inside the PROP_INFO_1 (CRenderCollision) tree, inside the PROP_PARAM_1 (m_aColGroup) tree, in PROP_PARAM_0, the ID for groupNameCrc seems to be used in col_collection and render_collision.cfg.bin, both in the same folder. The partNameCrc is the same as in PROP_INFO_1 (CRenderCollision)/PROP_PARAM_0 (m_ColPartInfo).
-
-Inside the PROP_INFO_2 (CCharaParam_10) tree, the value for m_height is 0.55. The value for m_width is 0.36.
-
-Inside the PROP_INFO_3 (CCharaCollision) tree, the value for m_height is 0.1. The value for m_radius is 0.36.
-
-Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, the value for m_default_view_limit is 80. The value for m_ResInfo.JointNum is 4. **The ID for m_LookAtBaseBoneCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well, all in the same folder. It is also used in chara_mot_sound. (data/common/sound)
-
-Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_1 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well. It is also used in chara_mot_sound. The value for limit_p is 55. The value for limit_m is -55. The value for weight_p is 0.45000002. The value for weight_m is 0.45000002. The value for axis_type is 1. The value for rot_type is 2.
-
-Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_2 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well, all in the same folder. It is also used in chara_mot_sound. (data/common/sound) The value for limit_p is 60. The value for limit_m is -60. The value for weight_p is 0.45000002. The value for weight_m is 0.45000002. The value for axis_type is 0. The value for rot_type is 1.
-
-Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_3 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_c_1_1.** It seemed to be used in chara_look_at and chara_mot_sound. The value for limit_p is 10. The value for limit_m is -10. The value for weight_p is 0.35000002. The value for weight_m is 0.35000002. The value for axis_type is 1. The value for rot_type is 2.
-
-Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_4 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_c_1_1.** It seemed to be used in chara_look_at and chara_mot_sound. The value for limit_p is 5. The value for limit_m is -5. The value for weight_p is 0.35000002. The value for weight_m is 0.35000002. The value for axis_type is 0. The value for rot_type is 1.
-
-# g4pk
-
-In the header of the g4pk, before the strings for the files inside of the g4pk are listed, there are CRC hashes of said filenames. It is currently unknown if these are absolutely necessary to change.
-
-# mevbin
-This cfgbin type is older, and thus has no trees. Thankfully, the mevbins are also pretty simple to look at.
-
-The COUNT entry at the start details how many MOT_X entries and EVENT_X entries there are.
-
-The ID in the MOT_X entries are CRC hashes of names stored in that mevbin's g4mt counterpart, which is stored in the g4pk. (For example, a _p010.mevin's MOT_X ID names would be from the g4mt file inside of the _p010.g4pk file.) Seemingly, only the last names in the g4mt are used for this, ie if a mevbin has two MOT_X entries, then the last two names in the g4mt are the CRC hashes for them.
-
-# Required Files
-
-The files you need may vary depending on what you are trying to do, ie whether you're adding an existing Yo-kai or doing a recolor. For this guide, I'll act as if you're doing a recolor of Present Noko.
-
-**chara_base_0.00.00.cfg.bin:** Assigns some core info, such as Tribe and Rank.
-
-**chara_param_0.13.62.cfg.bin:** Assigns some core info, such as stats and moves.
-
-**addmenber_text.cfg.bin:** This is for dialogue the Yo-kai says when befriending you, for both the Crank-a-Kai and Konkatsu.
-
-**chara_text.cfg.bin:** This is for assigning a name to your Yo-kai.
-
-# chara_text: NOUN_INFO
-
-Open the file in CfgBinEditor after downloading the latest MyTags.
-
-
-Duplicate the entry of the Yo-kai you're recoloring, in this case, Present Noko, and change the string for their name.
-
-You'll want to make a new NounID here, which you can generate at https://emn178.github.io/online-tools/crc/. This NounID is just a CRC hash of 'name_[ModelName]'. So, for this guide, I'll be hashing 'name_y02210010'.
-
-# chara_base: CHARA_BASE_INFO_LIST
-
-Open the file in CfgBinEditor after downloading the latest MyTags.
-
-Skip the CHARA_BASE_BATTLE_LIST struct and move on down to the CHARA_BASE_INFO_LIST struct.
-
-Duplicate the entry of the Yo-kai you want to base your new one off of, and make a new BaseID. BaseIDs are just a CRC hash of the model name, and for this guide, I'll make my Noko recolor's model name y02210010.
-
-The Filename should be pretty self-explanatory. It's the name used in the actual files. For this guide, y02210010.
-
-The NameID here will be the same as the NounID that you made previously for chara_text.
-
-You'll want to make a new CharaModelID. CharaModelIDs are just a CRC hash of 'mdl_[ModelName]'. So, for this guide, I'll be hashing 'mdl_y02210010'.
-
-In the CharaMotionID section, set it to your new BaseID. They're the same.
-
-In the MenuResourceID section, set it to your new BaseID. They're the same.
-
-Next comes setting up a CHARA_BASE_INFO_REF_BATTLE entry. This lets the file know what to reference in the other struct in this file, CHARA_BASE_BATTLE_LIST, which contains data for Role, Rank, and Tribe. CharaBaseBattleStartPos refers to the entry number in the aforementioned struct that it will start looking in, and CharaBaseBattleLength is how many entries from that point it will look at, which will always be 1 for this. Duplicate a REF_BATTLE entry and configure it so it references the correct entry.
-
-# chara_base: CHARA_BASE_BATTLE_LIST
-
-For our last steps in this file, duplicate the BATTLE_LIST entry of the Yo-kai you're basing your new one off of. Note the entry number in the list after doing so, as that will be the number you should be putting in for the CharaBaseBattleStartPos in the other struct.
-
-Role, FavoriteFood, DislikedFood, Tribe, and Rank are pretty self-explanatory, as long as you know what number correlates to what. You can find a key below.
-
-**Food**:
-  - 0: No Food
-  - 1: Rice Balls
-  - 2: Bread
-  - 3: Candy
-  - 4: Milk
-  - 5: Juice
-  - 6: Burgers
-  - 7: Ramen
-  - 8: Sushi
-  - 9: Veggies
-  - 10: Fruit
-  - 11: Meat
-  - 12: Seafood
-  - 13: Curry
-  - 14: Sweets
-  - 15: Soba
-  - 16: Udon
-  - 17: Snacks
-  - 18: Chocobars
-  - 19: Ice Cream
-  - 20: Doughnuts
-  - 21: Tempura
-  - 22: Sukiyaki
-
-**Role:**
-  - 0: No Role
-  - 1: Attacker
-  - 2: Shooter
-  - 3: Tank
-  - 4: Healer
-  - 5: Watcher
-
-**Tribe:**
-  - 0: No Tribe
-  - 1: Goriki
-  - 2: Onnen
-  - 3: Mononoke
-  - 4: Tsukumono
-  - 5: Uwanosora
-  - 6: Omamori
-  - 7: Mikakunin
-  - 8: Mikado
-  - 9: Izana
-  - 10: Oni
-  - 11: Wicked
-  - 12: Shinma
-
-**Rank:**
-  - 0: No Rank
-  - 1: Rank E
-  - 2: Rank D
-  - 3: Rank C
-  - 4: Rank B
-  - 5: Rank A
-  - 6: Rank S
-
-Once you're done, make sure to update the ChildCounts of each struct by clicking the dropdown.
-
-# chara_param: CHARA_PARAM_INFO_LIST
-Duplicate the entry of the Yo-kai you're basing your new one off of, and make a new ParamID. ParamIDs are a CRC hash of 'para_[ModelName]'. So, for this guide, I'll be hashing 'para_y02210010'.
-
-Use the BaseID you made earlier for the BaseID section.
-
-You'll see various stats prefixed with BaseA/B/C. BaseA/B correlate to base stats around Lv1 and Lv99, while BaseC correlates to base stats around Lv120.
-
-ElementResist and ElementWeak refer to which Elements the Yo-kai are strong or weak to. You can find a key for them below.
-
-Speed refers to the tier of speed that Yo-kai will have. You can find a key for it below.
-
-CharaType should be set to 'yokai' already. If it isn't, change it.
-
-TransformsInto should only be necessary if you are making a Shadowside Yo-kai or assigning what a transformation should revert back into. If this is the case, put the ParamID of what they transform or revert into. Otherwise, leave it as 0 for them to undergo Great Change.
-
-**Elements:**
-  - 1: Fire
-  - 2: Water
-  - 3: Lightning
-  - 4: Earth
-  - 5: Ice
-  - 6: Wind
-  - 7: Light
-  - 8: Dark
-
-**Speed:**
-  - 0: Normal
-  - 1: Very Slow
-  - 2: Slow
-  - 3: Fast
-  - 4: Very Fast
-
-# chara_param: YOKAI_PARAM_INFO_LIST
-Duplicate the entry of the Yo-kai you're recoloring.
-
-Put in your newly made ParamID.
-
-The different MoveIDs, SkillID, and SoultimateID use the ParamIDs for said moves. Don't change these unless you want a different moveset, of course, but if you do, look and see what the other IDs for moves are.
-
-The XMoveUnlock variables refer to the level at which the Yo-kai will unlock that XMove. If you want it to be innately learned, for example, set it to 0.
-
-Once you're done, make sure to update the ChildCounts of each struct by clicking the dropdown.
-
-# addmenber_text: TEXT_INFO
-Duplicate the entry of the Yo-kai you're recoloring.
-
-In the TextID section, put your new ParamID. They're the same.
-
-TextIndex refers to whether it's for the Crank-a-Kai or Konkatsu. 0 is for the Crank-a-Kai, and 1 for Konkatsu.
-
-TextString is obvious. Write what you want them to say.
-
-As of 8/28/26, this is the most we know for now.
-Should any further developments be done, or everything is fully figured out, I will edit the above guide and remove this part.
+# Adding Yo-kai (YW2)
+> **Written by @n123original on Discord. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html).**
+
+* First, extract `chara_base*.cfg.bin`, `chara_scale*.cfg.bin`, and `chara_param*.cfg.bin` from `data/res/character`.
+  * The `*` refers to versioning, so instead of just `chara_base.cfg.bin` you might also see files such as `chara_base_0.04c.cfg.bin`. Pick the one with the highest version.
+
+## Model Handling
+> This method is out of date, from a very very old guide - I don't use studio eleven so I won't update this section *for now*.
+* **First,** export the base Yo-kai model folder using Kuriimu2.
+* **Next,** import the extracted folder into Metanoia and export it as an `.obj`.
+* **Next,** edit the model in Blender.
+* **Finally,** export the model as a `.xc`.
+  * Note: On the export menu, go to Template and select **MESH (PRM)**, then export using the **YW2 Template**.
+
+* **First,** change all IDs in your exported model files to an unused ID (e.g., change `y152000` to `y152100`).
+* **Next,** open `yw2_a.fa` in Kuriimu2, navigate to `data/character`, and import your new folder.
+  * If doing a texture swap, edit the image inside the folder.
+  * If using a new model, replace the `p00` file.
+
+## Modifying CharaBase
+
+* **First,** open `chara_base*.cfg.bin` in CfgBin Editor.
+* **Next,** duplicate a `CHARA_BASE_YOKAI_INFO_*` entry, the new entry should appear at the end of the tree.
+* **Next,** configure the parameters:
+  * `BaseID`: A template isn't strictly needed, but to mimic Level-5, this should be the CRC-32 of the model name (e.g., `y101000`).
+  * `FileNamePrefix`: Determines the first letter of the model name (`0`=c, `1`=d, `2`=i, `3`=m, `4`=r, `5`=x, `6`=y, `7`=z). While any will work, Level-5's convention is `6` (`y`) for Yo-kai and `5` (`x`) for Bosses.
+  * `FileNameNumber`: The middle part of the model name, which must be exactly 3 digits long (for example, use `108` for 108, or `005` for 5).
+  * `FileNameVariant`: The third part of the model name, which must be exactly 2 digits long (for example, use `60` for 60, or `02` for 2).
+    * These parts combine with the prefix and a trailing zero to form the full model name. For example, a prefix of `6` (y), a number of `108`, and a variant of `60` becomes `y108600`.
+  * `NameID` / `DescriptionID`: The TextIDs for the Yo-kai's name and medallium description. To add these, extract and open `chara_text_<LG>.cfg.bin` from `data/res/text` inside `yw2_lg_<LG>.fa` in CfgBin Editor.
+    * For `NameID`: Duplicate a `NOUN_INFO_*` entry, regenerate the `NounTextID` (no template needed), change the `TextString`, increment (increase by 1) the `ChildCount` of the `NOUN_INFO` tree, and update the `NameID` in your `CHARA_BASE_YOKAI_INFO_*` entry.
+    * For `DescriptionID`: Duplicate a `TEXT_INFO_*` entry, regenerate the `TextID` (no template needed), change the `TextString`, increment (increase by 1) the `ChildCount` of the `TEXT_INFO` tree, and update the `DescriptionID` in your `CHARA_BASE_YOKAI_INFO_*` entry.
+  * `MedalPosX` / `MedalPosY`: Determines the position on the medal spritesheet at `data/menu/face_icon/face_icon.xi`. `MedalPosX` is the X coordinate (starting from `0` for the first medal, increasing to the right). `MedalPosY` is the Y coordinate (starting from `0`, increasing downwards, meaning `0, 0` is the top-left). Here is a reference image:<br>
+  ![Annotated reference image of spritesheet](yokai_medal_spritesheet.png)
+    * Also note that are also larger per-Yo-kai images (not medals) at `data/menu/face_icon/yXXXXXX.xi`. Copy one and edit it using Kuriimu2 to your liking.
+    * There are also medal files at `data/menu/dx_medal/yXXXXXX.xr`. Copy one from a Yo-kai with the same tribe and edit it with Kuriimu2 to your liking.
+  * `Rank`: `0` (E) to `5` (S).
+  * `Tribe`: `0` (N/A), `1` (Brave), `2` (Mysterious), `3` (Tough), `4` (Charming), `5` (Heartful), `6` (Shady), `7` (Eerie), `8` (Slippery), `9` (Wicked), `10` (Boss).
+  * `IsRare`, `IsLegendary`, `IsClassic`: set to `0` if false, else `1` if true.
+  * `FavoriteFoodItemType` / `HatedFoodItemType`: Determines the food preference. Common values: `1` (Rice Balls), `2` (Bread), `3` (Candy), `4` (Milk), `5` (Juice), `6` (Burgers), `7` (Ramen), `8` (Sushi), `9` (Chinese Food), `11` (Vegetables), `12` (Meat), `13` (Fish), `14` (Curry), `15` (Sweets), `16` (Oden), `17` (Soba Noodles), `18` (Snacks), `19` (Chocobars). Other Type(s) exist for non-food items like equipment, key items, or talismans.
+  * `LegalAlliances`: Determines which "Alliance" your Yo-kai can originate from. Meaning `1` = BS only, `2` = FS only, `3` = Wicked, `7` = BS/FS (Most Yo-kai!).
+  * `WorldMapPosID`: Determines the location it'll state it was befriended from in the Medallium.
+  * `MedalliumOffset`: The position in the Medallium.
+
+> [!CAUTION]
+> The `MedalliumOffset` *must* be a unique value, *less than 512* to prevent crashes. In an unmodified copy of Yo-kai Watch 2: Psychic Specters, unique values start from 449 onwards.
+
+## Modifying CharaScale
+
+* **First,** open `chara_scale*.cfg.bin` in CfgBin Editor.
+* **Next,** duplicate a `CHARA_SCALE_INFO_*` entry from a Yo-kai with similar proportions, the new entry should appear at the end of the tree.
+* **Next,** change the `BaseID` to the `BaseID` of your own Yo-kai.
+* **Next,** adjust the scaling parameters if needed.
+* **Finally,** increment (increase by 1) the `ChildCount` of the `CHARA_SCALE_INFO` tree that contains the entries.
+
+## Modifying CharaParam
+
+* **First,** open `chara_param*.cfg.bin` in CfgBin Editor.
+* **Next,** duplicate a `CHARA_PARAM_INFO_*` entry, the new entry should appear at the end of the tree.
+* **Next,** configure the parameters:
+  * `ParamID`: Like BaseID, to mimic Level-5 this should be the CRC-32 of `para_<MDL>` (e.g., `para_y101000`).
+  * `BaseID`: Use the ID generated in the previous step.
+  * Stats: Set `BaseA` and `BaseB` values for HP, Strength, Defense, Spirit, and Speed. Note that for Bosses, `BaseB` stats are ignored.
+  * `ExperienceCurve`: A number from 0 to 6. The higher the number, the more EXP is required to level up the Yo-kai. To keep this guide as short as possible, formulas will not be included here.
+  * `CharaRandomActType`: Holds a Type which an entry in the `CHARA_RANDOM_ACT_INFO_*` tree defines. You can inspect these entries to create your own attitude combinations and probabilities via duplicating a `CHARA_RANDOM_ACT_INFO_*` entry. The available attitudes are: `0` = None/Empty (used for Yo-kai such as Wicked Yo-kai), `1` = Grouchy, `2` = Logical, `3` = Careful, `4` = Gentle, `5` = Twisted, `6` = Helpful, `7` = Rough, `8` = Brainy, `9` = Calm, `10` = Tender, `11` = Cruel, `12` = Devoted.
+  * `BaseLoafAttitude`: Determines the base loaf attitude. The available options are: `0` = Serious, `1` = Stiff, `2` = Casual, `3` = Carefree, `4` = Sloppy, `5` = Clumsy.
+  * `EquipmentSlots`: Determines the amount of equipment slots a Yo-kai can have. This **MUST** be `0`, `1`, or `2`. Values of 3 or higher will not work in the UI, memory, or save files. Circumventing this requires `code.bin` or advanced XQ modifications, which will not be covered in this guide.
+  * `BaseInspiritEvasion%`: The base chance for this Yo-kai to dodge inspirits. This is `0` for most (but not all) bosses.
+  * `FriendRateDescriptor`: Determines the befriending rates for a Yo-kai. To keep this guide short, the specifics of this will not be covered here.
+  * `BaseMoneyDrop` / `BaseExperienceDrop`: The base rewards for defeating this Yo-kai, not accounting for wisps, souls, or other modifiers. For Bosses, level doesn't affect these as they are internally level 0 and have special exceptions programmed into the formulas. To keep this guide as short as possible, formulas will not be included here.
+  * `CommonDropItemID` / `RareDropItemID`: The `ItemID` for the common and rare drops, respectively.
+  * `CommonDropBase%` / `RareDropBase%`: The percentage chance for the common and rare drops, respectively.
+    * If you want only one item to drop, it is recommended to set it as both the common and rare drops, but set the rare drop version to a base probability of `0%`. This makes sure gold wisps fairly account for drops, as Level-5 themselves do.
+  * `GeneralFoodQuoteTextID`, `FavoriteFoodQuoteTextID`, `HatedFoodQuoteTextID`, `LoafQuoteTextID`: The TextIDs for the Yo-kai's food and loaf quotes. To add these, extract and open `battle_text_<LG>.cfg.bin` from `data/res/text` inside `yw2_lg_<LG>.fa` in CfgBin Editor. For each, duplicate a `TEXT_INFO_*` entry, regenerate the `TextID`, change the `TextString`, increment (increase by 1) the `ChildCount` of the `TEXT_INFO` tree, and update the corresponding ID in your `CHARA_PARAM_INFO_*` entry.
+  * `BefriendQuoteTextID`: The TextID for the quote when befriending the Yo-kai. To add this, extract and open `addmembermenu_text_<LG>.cfg.bin` from `data/res/text/menu` inside `yw2_lg_<LG>.fa` in CfgBin Editor. Duplicate a `TEXT_INFO_*` entry, regenerate the `TextID`, change the `TextString`, increment (increase by 1) the `ChildCount` of the `TEXT_INFO` tree, and update the `BefriendQuoteTextID` in your `CHARA_PARAM_INFO_*` entry.
+  * `AttackBtlCommandID` / `BaseAttack%`, `TechniqueBtlCommandID` / `BaseTechnique%`, `InspiritBtlCommandID` / `BaseInspirit%`, `GuardBtlCommandID` / `BaseGuard%`: The `BtlCommandID` for the respective action, and its base probability of being used.
+  * `SoultimateBtlCommandID`: The `BtlCommandID` for the Yo-kai's Soultimate move. This does not have a base probability as it is manually controlled by the player.
+  * `SkillID`: The `SkillID` for the Yo-kai's Skill/Ability.
+  * `FireAttributeMultiplier`, `IceAttributeMultiplier`, `EarthAttributeMultiplier`, `LightningAttributeMultiplier`, `WaterAttributeMultiplier`, `WindAttributeMultiplier`: Determines the damage multiplier taken from these attributes. For game design reasons, it is recommended to follow Level-5's pattern of setting most to `1`, one to `1.5` (weakness), and one to `0.5` (resistance).
+  * `IsFusable`: Set to `0` if your Yo-kai cannot be fused.
+     * Creating fusions is a [seperate guide](../general/custom-fusion.html). Please follow it once you have finished with this guide, if you want to register a fusion.
+  * `EvolveOffset`: Set to `-1` if your Yo-kai cannot evolve.
+
+* **To make a Yo-kai evolve:**
+  * **First,** duplicate a `CHARA_EVOLVE_INFO_*` entry, the new entry should appear at the end of the tree.
+  * **Next,** set the `Level` to the level you want the Yo-kai to evolve at.
+  * **Next,** set the `ParamID` to the `ParamID` of the Yo-kai you want it to evolve into.
+  * **Finally,** increment (increase by 1) the `ChildCount` of the `CHARA_EVOLVE_INFO` tree that contains the entries.
+  * **Then,** go back to your Yo-kai's `CHARA_PARAM_INFO_*` entry and set the `EvolveOffset` to the offset of the `CHARA_EVOLVE_INFO_*` entry (e.g., `3` to reference `CHARA_EVOLVE_INFO_3`).
+
+## Adding to Yo-kai Cam
+
+* **First,** open `face_config*.cfg.bin` from `data/res/face` in CfgBin Editor.
+* **Next,** in the `FACE_YOKAI` tree, search through different `ParamID`s until you find a Yo-kai with 2 `FACE_YOKAI_*` entries. Replace the `ParamID` in one of them with your own Yo-kai's `ParamID`.
+  * Note: Do **NOT** change the `PFIDKey` (unless you know what you're doing) nor add a new entry (ever!), it must have exactly 512 entries.
+* **Next,** in the `FACE_YOKAI_OFS` tree, duplicate a `FACE_YOKAI_OFS_*` entry belonging to a Yo-kai with similar size and proportions, the new entry should appear at the end of the tree.
+* **Next,** change the `BaseID` to the `BaseID` of your own Yo-kai.
+* **Next,** adjust the offsets if needed.
+* **Finally,** increment (increase by 1) the `ChildCount` of the `FACE_YOKAI_OFS` tree that contains the entries.
+
+## Adding to Blasters
+
+* **First,** open `orge_time_chara_param.cfg.bin` from `data/res/orge` in CfgBin Editor (note that this incorrect spelling of "orge" instead of "ogre" is intentional. Level-5 does not spell ogre right until later titles).
+* **Next,** duplicate an `ORGE_CHARA_PARAM_*` entry from the `ORGE_CHARA_PARAM_LIST` tree, the new entry should appear at the end of the tree.
+* **Next,** configure the parameters, for example:
+  * `BaseID`: Change to the `BaseID` of your own Yo-kai.
+  * `BlastersRole`: Set to your Yo-kai's role (`0` = N/A, `1` = Fighter, `2` = Tank, `3` = Healer, `4` = Ranger).
+  * `OrgeHPType`: Holds a Type which an `ORGE_CHARA_LIFE_PARAM_*` entry in the `ORGE_CHARA_LIFE_PARAM_LIST` tree defines, similar to `CharaRandomActType`.
+  * `OrgeSpeedType`: Holds a Type which an `ORGE_CHARA_SPD_PARAM_*` entry in the `ORGE_CHARA_SPD_PARAM_LIST` tree defines, similar to `CharaRandomActType`.
+  * `StrengthOrgeAttType`: Holds a Type which an `ORGE_CHARA_PARA_PARAM_*` entry in the `ORGE_CHARA_PARA_PARAM_LIST` tree defines, similar to `CharaRandomActType`.
+  * `SpiritOrgeAttType`: Holds a Type which an `ORGE_CHARA_PARA_PARAM_*` entry in the `ORGE_CHARA_PARA_PARAM_LIST` tree defines, similar to `CharaRandomActType`.
+* **Finally,** increment (increase by 1) the `ChildCount` of the `ORGE_CHARA_PARAM_LIST` tree that contains the entries.
+
+## Adding Capsule Dialogue
+
+* **First,** extract and open `capsule_text_<LG>.cfg.bin` from `data/res/text` inside `yw2_lg_<LG>.fa` in CfgBin Editor. `<LG>` refers to the language region (e.g., `engb` for European English, `frca` for NA French, `fr` for European French).
+* **Next,** duplicate a `TEXT_INFO_*` entry, the new entry should appear at the end of the tree.
+* **Next,** recalculate the `TextID` using the template `text_cpsl_<MDL>` (e.g., `text_cpsl_y101000`).
+* **Next,** change the `TextString` to the dialogue you want to play when the Yo-kai is freed from the Crank-a-kai.
+* **Finally,** increment (increase by 1) the `ChildCount` of the `TEXT_INFO` tree that contains the entries.
+
+## Adding Preset Nicknames
+
+* **First,** in the same `yw2_lg_<LG>.fa` file, extract and open `namemenu_text_<LG>.cfg.bin` from `data/res/text/menu` in CfgBin Editor.
+* **Next,** duplicate a `TEXT_INFO_*` entry for each nickname you want to add, the new entries should appear at the end of the tree.
+* **Next,** recalculate the `TextID` using the template `omakase_<MDL>_XX`, where `XX` is the nickname slot (`00` for the first, `01` for the second, `02` for the third, and `03` for the fourth).
+* **Next,** change the `TextString` to the desired nickname.
+* **Finally,** increment (increase by 1) the `ChildCount` of the `TEXT_INFO` tree that contains the entries.
