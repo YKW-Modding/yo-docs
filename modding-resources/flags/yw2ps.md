@@ -1210,7 +1210,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0DF59D4F (0xDF59D4F) | 1195 | - | `tlk_qs0084_01` |
 | 0xA7FC55C4 | 1196 | - | `tlk_qs0086_01` |
 | 0x3EF5047E | 1197 | - | `tlk_qs0086_02` |
-| 0x1437657E | 1198 | - | - |
+| 0x1437657E | 1198 | Checks if you have slept to the next morning during the Oden of the Soul questline. | - |
 | 0xCFEF0E53 | 1199 | - | `tlk_qs0009_01` |
 | 0x56E65FE9 | 1200 | - | `tlk_qs0009_02` |
 | 0x472322F7 | 1201 | - | `tlk_qs0088_01` |
@@ -1337,18 +1337,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. | `ev50_btl0180` |
 | 0x2D374578 | 1323 | - | - |
 | 0x3997F743 | 1324 | - | `ev50_2640` |
-| 0x6E5ED0A9 | 1325 | - | - |
-| 0xF7578113 | 1326 | - | - |
-| 0x8050B185 | 1327 | - | - |
-| 0x1E342426 | 1328 | - | - |
-| 0x693314B0 | 1329 | - | - |
-| 0xF03A450A | 1330 | - | - |
+| 0x6E5ED0A9 | 1325 | Checks if you have slept to the next morning during the Bear Boy questline. | - |
+| 0xF7578113 | 1326 | Checks if you have slept to the next morning during the Hangout Havoc questline. | - |
+| 0x8050B185 | 1327 | Checks if you have slept to the next morning during the Treasure Hunters questline. | - |
+| 0x1E342426 | 1328 | Checks if you have slept to the next morning during the Secret Base questline. | - |
+| 0x693314B0 | 1329 | Checks if you have slept to the next morning during the Ghost Club questline. | - |
+| 0xF03A450A | 1330 | Checks if you have slept to the next morning during the Independent Study questline. | - |
 | 0x873D759C | 1331 | - | - |
-| 0x1782680D | 1332 | - | - |
-| 0x6085589B | 1333 | - | - |
-| 0x0042D17E (0x42D17E) | 1334 | - | - |
-| 0x7745E1E8 | 1335 | - | - |
-| 0xEE4CB052 | 1336 | - | - |
+| 0x1782680D | 1332 | Checks if you have slept to the next morning during the Makeover Takeover questline. | - |
+| 0x6085589B | 1333 | Ingame day reset checker for Makeover Takeover questline? | - |
+| 0x0042D17E (0x42D17E) | 1334 | Checks if you have slept to the next morning during the Springdale Star questline | - |
+| 0x7745E1E8 | 1335 | Ingame day reset checker for Catchy Fandom questline? | - |
+| 0xEE4CB052 | 1336 | Ingame day reset checker for Catchy Fandom questline? | - |
 | 0x994B80C4 | 1337 | - | - |
 | 0x072F1567 (0x72F1567) | 1338 | - | - |
 | 0xBC44EB18 | 1339 | - | - |
@@ -2132,13 +2132,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1F6351F1 | 2117 | - | - |
 | 0x4779B929 | 2118 | - | - |
 | 0x896BC96E | 2119 | - | `territory_t105g00_01` |
-| 0xED63D5C7 | 2120 | - | - |
-| 0x3A6252C6 | 2121 | - | - |
-| 0x23796387 | 2122 | - | - |
+| 0xED63D5C7 | 2120 | Checks if the player has fought Jibanyan S that day | - |
+| 0x3A6252C6 | 2121 | Checks if the player has fought Komasan S that day | - |
+| 0x23796387 | 2122 | Checks if the player has fought Komajiro S that day | - |
 | 0x571A3B69 | 2123 | - | - |
-| 0x7AAF26B6 | 2124 | - | - |
-| 0xF6858D9A | 2125 | - | - |
-| 0x32AD77FA | 2126 | - | - |
+| 0x7AAF26B6 | 2124 | Checks if the player has fought Darkyubi that day | - |
+| 0xF6858D9A | 2125 | Checks if the player has fought Illuminoct that day | - |
+| 0x32AD77FA | 2126 | Checks if the player has fought Moximous N/Moximous K that day | - |
 | 0xB883D3F3 | 2127 | - | `territory_t106g00_01` |
 | 0x218A8249 | 2128 | - | `territory_t106g00_02` |
 | 0x568DB2DF | 2129 | - | `territory_t106g00_03` |
@@ -2584,7 +2584,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | - | `orgeTimeMode` |
 | 0xDE40DAA8 | 6 | - | `orgeTimeGoalId` |
-| 0xB3E9494F | 7 | - | - |
+| 0xB3E9494F | 7 | Checks what version you are playing. (Transferred saves appear to inherit the version it was previously from) 1 = Bony Spirits, 2 = Fleshy Souls | - |
 | 0x78002D2E | 8 | - | `count_offertory box` |
 | 0x74CAA867 | 9 | - | `count_gold_egg` |
 | 0xDF0B0383 | 11 | Set to 1/2 when Spirit/Soul doughnuts are selected at the start of the game. The difference between this and the following flag is unclear. | - |
