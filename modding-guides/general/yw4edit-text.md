@@ -1,20 +1,20 @@
 ---
-title: Editing Text in Yo-kai Watch 4
+title: Editing YW4 Text
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
 ---
 
-# Editing Text in Yo-kai Watch 4
+# Editing YO-KAI WATCH 4 Text
 ## Requirements
 - [Kuriimu1](https://github.com/IcySon55/Kuriimu/releases/tag/v1.0.15)
 - [Viola](https://github.com/SuperTavor/Viola/releases)
 
 1.   Download Viola, more specifically, Viola.WinForms-Setup.exe, and run it. For ease of use, you can have it open Viola after installing. If you'd like to open Viola from a custom location, the exe will have installed at `C:\Program Files (x86)\Viola.` I personally moved this into my modding hard drive.
-2.   Then you'll want to press the Dump button. You'll then be asked for a directory to dump. Navigate to the root of your RomFS dump in Ryujinx if you don't already have everything dumped. If you haven't yet done that, you can so by right-clicking _Yo-kai Watch 4++_ in Ryujinx, hovering over Extract Data, and selecting RomFS.
+2.   Then you'll want to press the Dump button. You'll then be asked for a directory to dump. Navigate to the root of your RomFS dump in Ryujinx if you don't already have everything dumped. If you haven't yet done that, you can so by right-clicking _Yo-kai Watch 4_ in Ryujinx, hovering over Extract Data, and selecting RomFS.
 3.   After this, you'll be asked for an output folder. You can use whatever you want. Every CPK in the game will be unpacked in the folder you choose, so make sure you have plenty of space and time, as it could take a while.
 
-   Text in Yo-kai Watch 4++ is controlled by .cfg.bin files. This folder is located in "data/common/text."
+   Text in Yo-kai Watch 4 is controlled by .cfg.bin files. This folder is located in "data/common/text."
    There are a lot of language folders, but all of them contain placeholder files except for three:
 - Japanese is in the "ja" folder.
 - Simplified Chinese is in the "zh_hans" folder.
