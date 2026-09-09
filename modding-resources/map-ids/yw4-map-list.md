@@ -32,9 +32,20 @@ grand_parent: Modding Resources
 | t104i051    | Kasumidai Yorozumart                | Kasumidai Everymart                |
 | t105        | Tatsumi-kawabata (Minami)           | South Stream                       |
 | t201        | Sakura Jutakugai                    | Uptown Springdale                  |
+| t201g035    | Sakanaya                            | The Fish Place                     |
+| t201h031    | Sakura Hills Dai 2                  | Springdale Hills No. 2             |
+| t201h051    | Yorozumart                          | Everymart                          |
+| t201h052    | Koharu Hoikuen                      | Little Buds Preschool              |
+| t201h053    | Sakuramachi Kominkan                | Springdale Community Center        |
+| t201h054    | Sankaku Koen                        | Triangle Park                      |
+| t201h055    | Hanatsuha                           | Flower Shop                        |
+| t201h056    | Akkan Bakery                        | Banter Bakery                      |
+| t201h057    | Kobuta Ginko                        | Piggleston Bank                    |
+| t201h059    | Jungle Hunter                       | Jungle Hunter                      |
+| t201h080    | Sakura Dai-Ichi Shougakkou          | Springdale Elementary              |
 | t201i001    | Amano Ke (Gendai)                   | Adams House (Present)              |
 | t201i002    | Kodama Ke                           | Forester House                     |
-| t201i051    | Sakura Jutakugai Yorozumart         | Uptown Springdale Everymart        |
+| t201i051    | Sakura Jutakugai Yorozumart         | Everymart Interior                 |
 | t202        | Oomori Yama                         | Mt. Wildwood                       |
 | t203        | Dandanzaka                          | Blossom Heights                    |
 | t203i051    | Dandanzaka Yorozumart               | Blossom Heights Everymart          |
