@@ -1,11 +1,11 @@
 ---
-title: How to Export 3D Models from the Games to Standard Formats?
+title: Exporting Models
 layout: default
 parent: Models and Animations
 grand_parent: Modding Guides
 ---
 
-# How to Export 3D Models from the Games to Standard Formats?
+# Exporting Models
 **Original author on Discord: @whisperito**
 
 Hello, today I'm explaining you how you can export 3D models from the games (Currently only the 3DS and Switch games) 

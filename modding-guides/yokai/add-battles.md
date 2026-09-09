@@ -5,7 +5,7 @@ grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
 
-# How to Add Battles
+# Adding Battles
 > Original guide by @kirasnuggets on discord, rewritten by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html). Additionally, this guide does not explain how to modify extra features such as audio, battle rules, and how to add bosses. 
 
 * First, extract and open `common_enc*.cfg.bin`, from `data/res/battle`.

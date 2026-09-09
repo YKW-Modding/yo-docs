@@ -1,11 +1,11 @@
 ---
-title: Playing YW1 Mobile Mods (Android)
+title: Playing YO-KAI WATCH 1 Smartphone Mods (Android)
 layout: default
 grand_parent: Modding Guides
 parent: Playing Mods
 ---
 
-# Playing YW1 Mobile Mods (Android)
+# Playing YO-KAI WATCH 1 Smartphone Mods (Android)
 
 ### Prerequisites
 [Smartphone Mod Tools](https://github.com/StringsVR/YKW1-Smartphone-Mod-Tools/releases/download/v1.2/release.zip)

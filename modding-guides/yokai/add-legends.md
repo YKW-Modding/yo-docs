@@ -1,10 +1,10 @@
 ---
-title: How to Add Legendary Yo-kai
+title: Adding Legendary Seals
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
-# How to Add Legendary Yo-kai
+# Adding Legendary Seals
 > Original guide by @stringsbutalt on Discord, rewritten by @n123original. This guide assumes you already know how to navigate romfs and use CfgBin Editor. If not, please read [the starting guide](../gettingstarted.html). Additionally, this guide does not explain how to add the actual Yo-kai, please read the Adding Yo-kai guide for that, this is just for configuring the pages so that they can be obtained. 
 
 * First, check which game you are modding (if you somehow don't already know).

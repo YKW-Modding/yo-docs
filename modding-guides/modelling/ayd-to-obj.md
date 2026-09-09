@@ -1,10 +1,10 @@
 ---
-title: AYD to OBJ
+title: Converting AYD to OBJ
 layout: default
 parent: Models and Animations
 grand_parent: Modding Guides
 ---
-# Converting Ayd Files to Obj
+# Converting AYDD to OBJ
 
 **Original guide by @web.83 on discord**
 
