@@ -5,7 +5,7 @@ parent: Flag IDs
 grand_parent: Modding Resources
 ---
 
-# YW1 (Smartphone) Flag IDs!
+# YO-KAI WATCH 1: Smartphone FlagIDs!
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when it the ID is padded!). Datamined debug info used
 
