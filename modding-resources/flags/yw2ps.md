@@ -14,8 +14,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
-| 0x176F56BB | 1 | - | `game_clear1` |
-| 0x8E660701 | 2 | - | `game_clear2` |
+| 0x176F56BB | 1 | Checks if the player has completed the main story. | `game_clear1` |
+| 0x8E660701 | 2 | Checks if the player has completed the main post-game storyline (Defeated Kat Kraydel). | `game_clear2` |
 | 0x5B9AFA16 | 3 | - | - |
 | 0xACAA3D15 | 4 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 5 | - | - |
@@ -1377,7 +1377,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9FE63E22 | 1362 | - | `pass_colb_10` |
 | 0xE8E10EB4 | 1363 | - | `pass_colb_11` |
 | 0x71E85F0E | 1364 | - | `pass_colb_12` |
-| 0x29008C38 | 1365 | - | `combine_66` |
+| 0x29008C38 | 1365 | Checks if Hungorge has been fused. (Applies to normal and Type Rare forms) | `combine_66` |
 | 0x7C2C3E18 | 1366 | - | - |
 | 0xE5256FA2 | 1367 | - | - |
 | 0x414C17A8 | 1368 | - | - |
@@ -1475,17 +1475,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x633C48DB | 1460 | - | `yw2_evec_1920` |
 | 0x7E58DCBA | 1461 | - | `yw2_evec_2020` |
 | 0x7F9AB68D | 1462 | Checks if the bonus quest scene mv_photo79/yw2_evec_2120 has been seen. | `yw2_evec_2120` |
-| 0x84E69E77 | 1463 | - | - |
-| 0xF3E1AEE1 | 1464 | - | - |
-| 0x6AE8FF5B | 1465 | - | - |
-| 0x1DEFCFCD | 1466 | - | - |
-| 0x838B5A6E | 1467 | - | - |
-| 0xF48C6AF8 | 1468 | - | - |
-| 0x6D853B42 | 1469 | - | - |
-| 0x1A820BD4 | 1470 | - | - |
-| 0x8A3D1645 | 1471 | - | - |
-| 0xFD3A26D3 | 1472 | - | - |
-| 0x9DFDAF36 | 1473 | - | - |
+| 0x84E69E77 | 1463 | Checks if the Stealth Soul has been made. | - |
+| 0xF3E1AEE1 | 1464 | Checks if the Soldier's Soul has  been made. | - |
+| 0x6AE8FF5B | 1465 | Checks if the Stout Soul has been made. | - |
+| 0x1DEFCFCD | 1466 | Checks if the Stubborn Soul has been made. | - |
+| 0x838B5A6E | 1467 | Checks if the Scatter Soul has been made. | - |
+| 0xF48C6AF8 | 1468 | Checks if the Stinging Soul has been made. | - |
+| 0x6D853B42 | 1469 | Checks if the Speed Soul has been made. | - |
+| 0x1A820BD4 | 1470 | Checks if the Slippery Soul has been made. | - |
+| 0x8A3D1645 | 1471 | Checks if the Surly Soul has been made. | - |
+| 0xFD3A26D3 | 1472 | Checks if the Scorching Soul has been made. | - |
+| 0x9DFDAF36 | 1473 | Checks if the Soaking Soul has been made. | - |
 | 0x59764EF5 | 1474 | - | `ev50_2000` |
 | 0x58B424C2 | 1475 | - | `ev50_2100` |
 | 0x5AF29A9B | 1476 | - | `ev50_2200` |
@@ -1546,9 +1546,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x58656858 | 1531 | - | `ev51_5160` |
 | 0x0DBB1BB0 (0xDBB1BB0) | 1532 | - | `ev51_5300` |
 | 0x2FB114B4 | 1533 | - | - |
-| 0xEAFA9FA0 | 1534 | - | - |
-| 0x73F3CE1A | 1535 | - | - |
-| 0x04F4FE8C (0x4F4FE8C) | 1536 | - | - |
+| 0xEAFA9FA0 | 1534 | Checks if the Sparking Soul has been made. | - |
+| 0x73F3CE1A | 1535 | Checks if the Spacedust Soul has been made. | - |
+| 0x04F4FE8C (0x4F4FE8C) | 1536 | Checks if the Subzero Soul has been made. | - |
 | 0x4C3C7F6C | 1537 | - | - |
 | 0xD5352ED6 | 1538 | - | - |
 | 0x6FFD3FD4 | 1539 | - | - |
@@ -1648,56 +1648,56 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFC1AB67F | 1633 | - | - |
 | 0x6513E7C5 | 1634 | - | - |
 | 0x1214D753 | 1635 | - | - |
-| 0x96398E8B | 1636 | - | `combine_00` |
-| 0xE13EBE1D | 1637 | - | `combine_01` |
-| 0x7837EFA7 | 1638 | - | `combine_02` |
-| 0x0F30DF31 (0xF30DF31) | 1639 | - | `combine_03` |
-| 0x91544A92 | 1640 | - | `combine_04` |
-| 0xE6537A04 | 1641 | - | `combine_05` |
-| 0x7F5A2BBE | 1642 | - | `combine_06` |
-| 0x085D1B28 (0x85D1B28) | 1643 | - | `combine_07` |
-| 0x98E206B9 | 1644 | - | `combine_08` |
-| 0xEFE5362F | 1645 | - | `combine_09` |
-| 0x8F22BFCA | 1646 | - | `combine_10` |
-| 0xF8258F5C | 1647 | - | `combine_11` |
-| 0x612CDEE6 | 1648 | - | `combine_12` |
-| 0x162BEE70 | 1649 | - | `combine_13` |
-| 0x884F7BD3 | 1650 | - | `combine_14` |
-| 0xFF484B45 | 1651 | - | `combine_15` |
-| 0x66411AFF | 1652 | - | `combine_16` |
-| 0x11462A69 | 1653 | - | `combine_17` |
-| 0x81F937F8 | 1654 | - | `combine_18` |
-| 0xF6FE076E | 1655 | - | `combine_19` |
-| 0xA40FEC09 | 1656 | - | `combine_20` |
-| 0xD308DC9F | 1657 | - | `combine_21` |
-| 0x4A018D25 | 1658 | - | `combine_22` |
-| 0x3D06BDB3 | 1659 | - | `combine_23` |
-| 0xA3622810 | 1660 | - | `combine_24` |
-| 0xD4651886 | 1661 | - | `combine_25` |
-| 0x4D6C493C | 1662 | - | `combine_26` |
-| 0x3A6B79AA | 1663 | - | `combine_27` |
-| 0xAAD4643B | 1664 | - | `combine_28` |
-| 0xDDD354AD | 1665 | - | `combine_29` |
-| 0xBD14DD48 | 1666 | - | `combine_30` |
-| 0xCA13EDDE | 1667 | - | `combine_31` |
-| 0x531ABC64 | 1668 | - | `combine_32` |
-| 0x241D8CF2 | 1669 | - | `combine_33` |
-| 0xBA791951 | 1670 | - | `combine_34` |
-| 0xCD7E29C7 | 1671 | - | `combine_35` |
-| 0x5477787D | 1672 | - | `combine_36` |
-| 0x237048EB | 1673 | - | `combine_37` |
-| 0xB3CF557A | 1674 | - | `combine_38` |
-| 0xC4C865EC | 1675 | - | `combine_39` |
-| 0xF2554B8F | 1676 | - | `combine_40` |
-| 0x85527B19 | 1677 | - | `combine_41` |
-| 0x1C5B2AA3 | 1678 | - | `combine_42` |
-| 0x6B5C1A35 | 1679 | - | `combine_43` |
-| 0xF5388F96 | 1680 | - | `combine_44` |
-| 0x823FBF00 | 1681 | - | `combine_45` |
-| 0x1B36EEBA | 1682 | - | `combine_46` |
-| 0x6C31DE2C | 1683 | - | `combine_47` |
-| 0xFC8EC3BD | 1684 | - | `combine_48` |
-| 0x8B89F32B | 1685 | - | `combine_49` |
+| 0x96398E8B | 1636 | Checks if Reuknight has been fused. | `combine_00` |
+| 0xE13EBE1D | 1637 | Checks if Darumacho has been fused. | `combine_01` |
+| 0x7837EFA7 | 1638 | Checks if Rattelle has been fused. | `combine_02` |
+| 0x0F30DF31 (0xF30DF31) | 1639 | Checks if Castelius II has been fused. | `combine_03` |
+| 0x91544A92 | 1640 | Checks if Castelius I has been fused. | `combine_04` |
+| 0xE6537A04 | 1641 | Checks if Betterfly has been fused. | `combine_05` |
+| 0x7F5A2BBE | 1642 | Checks if Reversa has been fused. | `combine_06` |
+| 0x085D1B28 (0x85D1B28) | 1643 | Checks if Abodabat has been fused. | `combine_07` |
+| 0x98E206B9 | 1644 | Checks if Scarasol has been fused. | `combine_08` |
+| 0xEFE5362F | 1645 | Checks if Enduriphant has been fused. | `combine_09` |
+| 0x8F22BFCA | 1646 | Checks if Pride Shrimp has been fused. | `combine_10` |
+| 0xF8258F5C | 1647 | Checks if Mistank has been fused. | `combine_11` |
+| 0x612CDEE6 | 1648 | Checks if Nurse Tongus has been fused. | `combine_12` |
+| 0x162BEE70 | 1649 | Checks if Allnyta has been fused. | `combine_13` |
+| 0x884F7BD3 | 1650 | Checks if Carniboy has been fused. | `combine_14` |
+| 0xFF484B45 | 1651 | Checks if Miradox has been fused. | `combine_15` |
+| 0x66411AFF | 1652 | Checks if Sheen has been fused. | `combine_16` |
+| 0x11462A69 | 1653 | Checks if Snee has been fused. | `combine_17` |
+| 0x81F937F8 | 1654 | Checks if Gleam has been fused. | `combine_18` |
+| 0xF6FE076E | 1655 | Checks if Beetall has been fused. (Applies to normal and Type Rare forms) | `combine_19` |
+| 0xA40FEC09 | 1656 | Checks if Casanuva has been fused. | `combine_20` |
+| 0xD308DC9F | 1657 | Checks if Signiton has been fused. | `combine_21` |
+| 0x4A018D25 | 1658 | Checks if Blizzaria has been fused. | `combine_22` |
+| 0x3D06BDB3 | 1659 | Checks if Rhinormous has been fused. (Applies to normal and Type Rare forms) | `combine_23` |
+| 0xA3622810 | 1660 | Checks if Castelius Max has been fused. | `combine_24` |
+| 0xD4651886 | 1661 | Checks if Chilhuahua has been fused. (Applies to normal and Type Rare forms) | `combine_25` |
+| 0x4D6C493C | 1662 | Checks if Pinkipoo has been fused. | `combine_26` |
+| 0x3A6B79AA | 1663 | Checks if Payn has been fused. | `combine_27` |
+| 0xAAD4643B | 1664 | Checks if Everfore has been fused. | `combine_28` |
+| 0xDDD354AD | 1665 | Checks if Beelzebold has been fused. | `combine_29` |
+| 0xBD14DD48 | 1666 | Checks if Dragon Lord has been fused. | `combine_30` |
+| 0xCA13EDDE | 1667 | Checks if Zerberker has been fused. | `combine_31` |
+| 0x531ABC64 | 1668 | Checks if Mr. Sandmeh has been fused. (Applies to normal and Type Rare forms) | `combine_32` |
+| 0x241D8CF2 | 1669 | Checks if Smashibull has been fused. | `combine_33` |
+| 0xBA791951 | 1670 | Checks if Foiletta has been fused. | `combine_34` |
+| 0xCD7E29C7 | 1671 | Checks if Rawry has been fused. | `combine_35` |
+| 0x5477787D | 1672 | Checks if Vacuumory has been fused. | `combine_36` |
+| 0x237048EB | 1673 | Checks if Mermadonna has been fused. | `combine_37` |
+| 0xB3CF557A | 1674 | Checks if Groupus Khan has been fused. | `combine_38` |
+| 0xC4C865EC | 1675 | Checks if Snortlehog has been fused. | `combine_39` |
+| 0xF2554B8F | 1676 | Checks if Panja Pro has been fused. | `combine_40` |
+| 0x85527B19 | 1677 | Checks if Time Keeler has been fused. | `combine_41` |
+| 0x1C5B2AA3 | 1678 | Checks if Takoyaking has been fused. | `combine_42` |
+| 0x6B5C1A35 | 1679 | Checks if No Sandkyu has been fused. | `combine_43` |
+| 0xF5388F96 | 1680 | Checks if Yokozudon has been fused. | `combine_44` |
+| 0x823FBF00 | 1681 | Checks if Whatuption has been fused. | `combine_45` |
+| 0x1B36EEBA | 1682 | Checks if Starrycane has been fused. | `combine_46` |
+| 0x6C31DE2C | 1683 | Checks if Grublappa has been fused. | `combine_47` |
+| 0xFC8EC3BD | 1684 | Checks if Madmunch has been fused. | `combine_48` |
+| 0x8B89F32B | 1685 | Checks if Badsmella has been fused. | `combine_49` |
 | 0x8CA18467 | 1686 | - | `shpN001` |
 | 0x15A8D5DD | 1687 | - | `shpN002` |
 | 0x62AFE54B | 1688 | - | `shpN003` |
@@ -2086,19 +2086,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCE2CD4FD | 2071 | - | - |
 | 0x63036BF8 | 2072 | - | `week_get_wanted_reward` |
 | 0xFB24CBF6 | 2073 | - | `wanted_complete` |
-| 0x9A906B2F | 2074 | - | - |
-| 0xED975BB9 | 2075 | - | - |
-| 0x749E0A03 | 2076 | - | - |
-| 0x03993A95 (0x3993A95) | 2077 | - | - |
-| 0x93262704 | 2078 | - | - |
-| 0xE4211792 | 2079 | - | - |
-| 0xB6D0FCF5 | 2080 | - | - |
-| 0xC1D7CC63 | 2081 | - | - |
-| 0x58DE9DD9 | 2082 | - | - |
-| 0x2FD9AD4F | 2083 | - | - |
-| 0xB1BD38EC | 2084 | - | - |
-| 0xC6BA087A | 2085 | - | - |
-| 0x5FB359C0 | 2086 | - | - |
+| 0x9A906B2F | 2074 | Checks if the Spin Soul has been made. | - |
+| 0xED975BB9 | 2075 | Checks if the Searing Soul has been made. | - |
+| 0x749E0A03 | 2076 | Checks if the Sodden Soul has been made. | - |
+| 0x03993A95 (0x3993A95) | 2077 | Checks if the Storm Soul has been made. | - |
+| 0x93262704 | 2078 | Checks if the Sprouting Soul has been made. | - |
+| 0xE4211792 | 2079 | Checks if the Snow Soul has been made. | - |
+| 0xB6D0FCF5 | 2080 | Checks if the Squall Soul has been made. | - |
+| 0xC1D7CC63 | 2081 | Checks if the Supernatural Soul has been made. | - |
+| 0x58DE9DD9 | 2082 | Checks if the Sinister Soul has been made. | - |
+| 0x2FD9AD4F | 2083 | Checks if the Shielding Soul has been made. | - |
+| 0xB1BD38EC | 2084 | Checks if the Summoner's Soul has been made. | - |
+| 0xC6BA087A | 2085 | Checks if the Surrender Soul has been made. | - |
+| 0x5FB359C0 | 2086 | Checks if the Superstar Soul has been made. | - |
 | 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount | `territory_t101g00_01` |
 | 0xE42DBCC7 | 2088 | - | `territory_t101g00_02` |
 | 0x932A8C51 | 2089 | - | `territory_t101g00_03` |
@@ -2236,22 +2236,22 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x62CA0988 | 2221 | - | - |
 | 0x15CD391E | 2222 | - | - |
 | 0x8CC468A4 | 2223 | - | - |
-| 0xEB4E7ACE | 2224 | - | `combine_50` |
-| 0x9C494A58 | 2225 | - | `combine_51` |
-| 0x05401BE2 (0x5401BE2) | 2226 | - | `combine_52` |
-| 0x72472B74 | 2227 | - | `combine_53` |
-| 0xEC23BED7 | 2228 | - | `combine_54` |
-| 0x9B248E41 | 2229 | - | `combine_55` |
-| 0x022DDFFB (0x22DDFFB) | 2230 | - | `combine_56` |
-| 0x752AEF6D | 2231 | - | `combine_57` |
-| 0xE595F2FC | 2232 | - | `combine_58` |
-| 0x9292C26A | 2233 | - | `combine_59` |
-| 0xC063290D | 2234 | - | `combine_60` |
-| 0xB764199B | 2235 | - | `combine_61` |
-| 0x2E6D4821 | 2236 | - | `combine_62` |
-| 0x596A78B7 | 2237 | - | `combine_63` |
-| 0xC70EED14 | 2238 | - | `combine_64` |
-| 0xB009DD82 | 2239 | - | `combine_65` |
+| 0xEB4E7ACE | 2224 | Checks if Mad Kappa has been fused. | `combine_50` |
+| 0x9C494A58 | 2225 | Checks if Shamasol has been fused. | `combine_51` |
+| 0x05401BE2 (0x5401BE2) | 2226 | Checks if Defectabull has been fused. | `combine_52` |
+| 0x72472B74 | 2227 | Checks if Gnomine has been fused. | `combine_53` |
+| 0xEC23BED7 | 2228 | Checks if Feargus has been fused. | `combine_54` |
+| 0x9B248E41 | 2229 | Checks if Scaremaiden has been fused. | `combine_55` |
+| 0x022DDFFB (0x22DDFFB) | 2230 | Checks if Wrongnek has been fused. | `combine_56` |
+| 0x752AEF6D | 2231 | Checks if Nasty Medicine has been fused. | `combine_57` |
+| 0xE595F2FC | 2232 | Checks if Bitter Medicine has been fused. | `combine_58` |
+| 0x9292C26A | 2233 | Checks if the Legendary Blade has been fused. | `combine_59` |
+| 0xC063290D | 2234 | Checks if the Cursed Blade has been fused. | `combine_60` |
+| 0xB764199B | 2235 | Checks if the Holy Blade has been fused. | `combine_61` |
+| 0x2E6D4821 | 2236 | Checks if the Beefy Bell has been fused. | `combine_62` |
+| 0x596A78B7 | 2237 | Checks if the Spell Bell has been fused. | `combine_63` |
+| 0xC70EED14 | 2238 | Checks if the Tough Bell has been fused. | `combine_64` |
+| 0xB009DD82 | 2239 | Checks if the Speed Bell has been fused. | `combine_65` |
 | 0xFBC35832 | 2240 | - | - |
 | 0x65A7CD91 | 2241 | - | - |
 | 0x12A0FD07 | 2242 | - | - |
@@ -2587,8 +2587,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB3E9494F | 7 | Checks what version you are playing. (Transferred saves appear to inherit the version it was previously from) 1 = Bony Spirits, 2 = Fleshy Souls | - |
 | 0x78002D2E | 8 | - | `count_offertory box` |
 | 0x74CAA867 | 9 | - | `count_gold_egg` |
-| 0xDF0B0383 | 11 | Set to 1/2 when Spirit/Soul doughnuts are selected at the start of the game. The difference between this and the following flag is unclear. | - |
-| 0xA6D7BB27 | 12 | In Psychic Specters, this appears to show which side you have picked 0 = Undecided, 1 = Bony, 2 = Fleshy | - |
+| 0xDF0B0383 | 11 | Checks what doughnut you have selected. 1 = Spirit Doughnuts, 2 = Soul Doughnuts  | - |
+| 0xA6D7BB27 | 12 | Checks which Yo-kai side you have selected. 0 = Undecided, 1 = Bony, 2 = Fleshy. | - |
 | 0xEE5E8CA9 | 13 | - | `count_died` |
 | 0x5CAB924C | 14 | - | `passcomm_num` |
 | 0x3ABC5212 | 15 | - | - |
