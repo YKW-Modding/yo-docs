@@ -1,11 +1,11 @@
 ---
-title: Editing Passwords in YO-KAI WATCH 4
+title: Editing YW4 Passwords
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
 ---
 
-# Editing Passwords in YO-KAI WATCH 4
+# Editing YO-KAI WATCH 4 Passwords
 ## Requirements
 - [CfgBinEditor](https://github.com/onepiecefreak3/CfgBinEditor)
 - [MyTags](https://github.com/light8227/ykw-stuff)
