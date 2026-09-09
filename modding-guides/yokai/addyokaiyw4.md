@@ -1,4 +1,3 @@
-
 ---
 title: Adding Yo-kai to YW4
 layout: default
