@@ -1,11 +1,11 @@
 ---
-title: How to Fix Models to Work on Yo-kai Watch 1S/M
+title: Fixing Models for YW1S
 layout: default
 parent: Models and Animations
 grand_parent: Modding Guides
 ---
 
-# How to Fix Models to Work on Yo-kai Watch 1S/M
+# Fixing Models for YO-KAI WATCH 1 for Nintendo Switch and YO-KAI WATCH 1 Smartphone
 > **Original guide by @heartyalexii on discord, modified by @n123original**
 
 ## How to port New Models in YW1 HD
