@@ -1,11 +1,11 @@
 ---
-title: How to Import YW3/B2 Animations to YW2/B1
+title: Importing YW3/B2 Animations to YW2/B1
 layout: default
 parent: Models and Animations
 grand_parent: Modding Guides
 ---
 
-# How to Import YW3/B2 Animations to YW2/B1
+# Importing YW3/B2 Animations to YW2/B1
 **Original author on Discord: @zephixx**
 
 
