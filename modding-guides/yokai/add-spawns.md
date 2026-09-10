@@ -10,15 +10,9 @@ parent: Yo-kai and Battles
 
 This guide will show you how to add spawns for a Yo-kai in YW2. The process is slightly different for dungeons and search points, but there are a lot of same points. Dungeons will be covered first.
 
-Required tools:
-
-[Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2-ImGuiForms-Update/releases): Needed for extracting files from the `.fa` and `.pck` files.
-
-[CfgBinEditor](https://github.com/onepiecefreak3/CfgBinEditor/releases): Needed for opening and editing `.cfg.bin` files.
-
-[MyTags]((https://github.com/light8227/yw-stuff/blob/master/MyTags.txt)): Displays meanings of documented values.
-
 ## Dungeons ([MapID]_enc_pos.cfg.bin)
+
+If you'd like to add your spawn to a dungeon, follow this section. If not, ignore this and continue to the Search Points section.
 
 1. First, find the map you want to edit the spawns of, and open the `[MapID].pck` file in Kuriimu2. Find the file called `[MapID]_enc_pos.cfg.bin`, extract it, and open it in CfgBinEditor. Then, enable the YW2 tags and expand the SET_PATH_POP_LIST trees. You can see that it references an EncountID, making it pretty simple. Duplicate an entry, input your own EncountID, and then click on the tree itself to increase the ChildCount. If you aren't sure which ones you want to edit, you could either edit all of the trees, or just the ones with a certain group of Yo-kai. (For example, you could only add on to the trees with EncountIDs for Smogling, if you so desire.)
 
