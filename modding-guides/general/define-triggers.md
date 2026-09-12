@@ -17,7 +17,7 @@ The event is determined entirely by the calling mechanism, that is, the code whi
 * Map Trigger. Map Triggers are on a per-map basis, e.g. you may define a Map Trigger for Uptown Springdale. These are higher priority than Common Triggers, thus they will override them.
 * Phase Trigger. Phase Triggers are on a per-chapter basis, e.g. you may define a Phase Trigger for Chapter 2. These are the highest priority, thus they will override both Common and Map Triggers.
 
-Each category has both a config file and an XQ script per-basis. For instance, each individual map may have its own config file for its respective Map Triggers. The file paths for each config file, can be found below: <!-- --> <br id="trig-cfg-file-path"></div>
+Each category has both a config file and an XQ script per-basis. For instance, each individual map may have its own config file for its respective Map Triggers. The file paths for each config file, can be found below: <!-- --> <br id="trig-cfg-file-path">
 
 * Common Trigger: `data/res/sys/common_trigger*.cfg.bin`.
   * The `*` refers to versioning, so instead of only finding `common_trigger.cfg.bin`, you may also find a file such as `common_trigger_0.03c.cfg.bin`. Select the highest version file.
@@ -27,7 +27,7 @@ Each category has both a config file and an XQ script per-basis. For instance, e
   * `<CHP>` is a placeholder, substitute it with your chapter of choice, for instance `c02` for Chapter 2, `c03` for Chapter 3 etc.
   * The `*` refers to versioning, so for example, instead of only finding `c05_trigger.cfg.bin`, you may also find a file such as `c05_trigger_0.03c.cfg.bin`. Select the highest version file.
 
-Next, I have provided below a similar list instead referring to the location of the associated XQ script. <br id="trig-xq-file-path"></div>
+Next, I have provided below a similar list instead referring to the location of the associated XQ script. <br id="trig-xq-file-path">
 
 * Common Trigger: `seq/sys/common_trigger*.xq`
   * The `*` refers to versioning, so instead of only finding `common_trigger.xq`, you may also find a file such as `common_trigger_0.03c.xq`. Select the highest version file.
@@ -51,7 +51,7 @@ Within a config file you will first see a `DATA_COUNT` entry. This entry has one
 > [!WARNING]
 > Due to generic key names, MyTags will not be useful here, **DO NOT attempt to write them**. The proposed fix has not been implemented to maintain backwards compatibility with old CfgBin Editors.
 
-Here are the parameters within a `DATA_ITEM` entry; the trigger's properties:<br id="trig-cfg-file-properties"></div>
+Here are the parameters within a `DATA_ITEM` entry; the trigger's properties:<br id="trig-cfg-file-properties">
 
   * 1st param (`TriggerType`): The type of trigger you want to define, this determines the calling mechanism as explained earlier. You should ideally know which type beforehand. Some common types include:
     * `11` (`0xB`) - NPCTrigger
