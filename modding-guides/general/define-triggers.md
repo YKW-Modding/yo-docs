@@ -32,13 +32,16 @@ Once you've opened the file in CfgBin Editor:
     * `46` (`0x2E`) - GoodBoyTrigger
     * `47` (`0x2F`) - BadBoyTrigger
     * `71` (`0x47`) - AutoTrigger
+    * `85` (`0x55`) - WatchmapStartTrigger
+    * `87` (`0x57`) - WatchmapLensTrigger
   * 2nd param (`TriggerID`): The ID for your trigger. No template is needed for generating the hash for all trigger types, although some are expected to have one. For instance:
     * EnvTimeTriggers use template `<hour>`.
     * GoodBoyTriggers and BadBoyTriggers use ID `0`.
-  * 3rd param: Set to `0`.
+    * WatchmapStartTriggers and WatchmapLensTriggers use template `<MAP>`.
+  * 3rd param: (`TriggerID2`) Set to `0`.
   * 4th param (`Cond`): A CExpression. Leave as int `0` if not needed.
-  * 5th param: Set to `0`.
-  * 6th param: Set to `0`.
+  * 5th param (`RpdFunctionCallback`): Set to `0`.
+  * 6th param (`AlwaysZero`): Set to `0`.
   * 7th param (`FunctionCallback`): Set to a value no other entry in the file has. The fastest and safest approach (which I therefore recommend), is to take the highest `FunctionCallback` value currently in the file and add 1 to it (e.g., if the highest is `99`, set yours to `100`).
 
 ## Attaching Code to the Trigger
