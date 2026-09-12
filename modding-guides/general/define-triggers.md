@@ -17,7 +17,7 @@ The event is determined entirely by the calling mechanism, that is, the code whi
 * Map Trigger. Map Triggers are on a per-map basis, e.g. you may define a Map Trigger for Uptown Springdale. These are higher priority than Common Triggers, thus they will override them.
 * Phase Trigger. Phase Triggers are on a per-chapter basis, e.g. you may define a Phase Trigger for Chapter 2. These are the highest priority, thus they will override both Common and Map Triggers.
 
-Each category has both a config file and an XQ script per-basis. For instance, each individual map may have its own config file for its respective Map Triggers. The file paths for each config file, can be found below:
+Each category has both a config file and an XQ script per-basis. For instance, each individual map may have its own config file for its respective Map Triggers. The file paths for each config file, can be found below:<div id="trig-cfg-file-path"></div>
 
 * Common Trigger: `data/res/sys/common_trigger*.cfg.bin`.
   * The `*` refers to versioning, so instead of only finding `common_trigger.cfg.bin`, you may also find a file such as `common_trigger_0.03c.cfg.bin`. Select the highest version file.
@@ -27,7 +27,7 @@ Each category has both a config file and an XQ script per-basis. For instance, e
   * `<CHP>` is a placeholder, substitute it with your chapter of choice, for instance `c02` for Chapter 2, `c03` for Chapter 3 etc.
   * The `*` refers to versioning, so for example, instead of only finding `c05_trigger.cfg.bin`, you may also find a file such as `c05_trigger_0.03c.cfg.bin`. Select the highest version file.
 
-Next, I have provided below a similar list instead referring to the location of the associated XQ script.
+Next, I have provided below a similar list instead referring to the location of the associated XQ script. <div id="trig-xq-file-path"></div>
 
 * Common Trigger: `seq/sys/common_trigger*.xq`
   * The `*` refers to versioning, so instead of only finding `common_trigger.xq`, you may also find a file such as `common_trigger_0.03c.xq`. Select the highest version file.
@@ -51,7 +51,7 @@ Within a config file you will first see a `DATA_COUNT` entry. This entry has one
 > [!WARNING]
 > Due to generic key names, MyTags will not be useful here, **DO NOT attempt to write them**. The proposed fix has not been implemented to maintain backwards compatibility with old CfgBin Editors.
 
-Here are the parameters within a `DATA_ITEM` entry; the trigger's properties:
+Here are the parameters within a `DATA_ITEM` entry; the trigger's properties:<div id="trig-cfg-file-properties"></div>
 
   * 1st param (`TriggerType`): The type of trigger you want to define, this determines the calling mechanism as explained earlier. You should ideally know which type beforehand. Some common types include:
     * `11` (`0xB`) - NPCTrigger
@@ -75,7 +75,7 @@ Here are the parameters within a `DATA_ITEM` entry; the trigger's properties:
 
 ## Defining the Trigger
 
-Decide which scope and category your trigger belongs to and open the corresponding config file. Please refer to [the paths listed above](#what-is-a-trigger) for your chosen category. For most NPC-related triggers, a Map Trigger is recommended; for functionality that should be globally available, use a Common Trigger.
+Decide which scope and category your trigger belongs to and open the corresponding config file. Please refer to [the paths listed above](#trig-cfg-file-path) for your chosen category. For most NPC-related triggers, a Map Trigger is recommended; for functionality that should be globally available, use a Common Trigger.
 
 > [!WARNING]
 > Due to generic key names, MyTags will not be useful here, **DO NOT attempt to write them**. The proposed fix has not been implemented to maintain backwards compatibility with old CfgBin Editors.
@@ -84,7 +84,7 @@ Once you've opened the file in CfgBin Editor:
 
 * First, increment (increase by 1) the `ChildCount` on the `DATA_COUNT` entry.
 * Next, duplicate a `DATA_ITEM` entry. The new entry should appear at the end of the tree.
-* Next, configure the parameters of your new `DATA_ITEM` entry (see [the explanation above](#what-is-a-trigger) for the purpose of each field):
+* Next, configure the parameters of your new `DATA_ITEM` entry (see [the explanation above](#trig-cfg-file-properties) for the purpose of each field):
   * `TriggerType`. You should ideally know which type beforehand, see the above list.
   * `TriggerID`. Follow the template for your chosen type, if one applies.
   * `TriggerID2`. Set to `0` unless your TriggerType expects otherwise.
@@ -97,7 +97,7 @@ Once you've opened the file in CfgBin Editor:
 
 Now that your trigger is defined, you now need to attach code that will execute when the trigger is executed, otherwise your trigger will be effectively useless.
 
-* First, decompile the corresponding XQ script for your trigger (refer to [the explanation above](#what-is-a-trigger) for the location).
+* First, decompile the corresponding XQ script for your trigger (refer to [the explanation above](#trig-xq-file-path) for the location).
 * Next, define the appropriate function for your Trigger. Take for instance, if you had a `FunctionCallback` of `100` for a Map Trigger, insert:
 ```php
 RunCmd_Map100()
