@@ -81,7 +81,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x23129852 | 65 | - | `kon_release` |
 | 0x22BEF6EF | 66 | - | - |
 | 0x1D0822F7 | 67 | - | `medal_release` |
-| 0x7F2211BC | 68 | - | - |
+| 0x7F2211BC | 68 | - | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | - | - |
 | 0xE2B828E5 | 70 | - | - |
 | 0x21EFC7C8 | 71 | - | - |
