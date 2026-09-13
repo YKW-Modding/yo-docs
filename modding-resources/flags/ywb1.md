@@ -474,207 +474,207 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8E7E775F             | 597  | - | - |
 | 0xF97947C9             | 598  | - | - |
 | 0x99BECE2C             | 599  | - | - |
-| 0x86FD0F63             | 1000 | R3DM1NUS | `pass_colb_00` |
-| 0xF1FA3FF5             | 1001 | M1GHTR1GHT | `pass_colb_01` |
-| 0x68F36E4F             | 1002 | Y3LL0GH0ST | `pass_colb_02` |
-| 0x1FF45ED9             | 1003 | B3DAZZL3 | `pass_colb_03` |
-| 0x8190CB7A             | 1004 | 0RANG3ARMR | `pass_colb_04` |
-| 0xF697FBEC             | 1005 | PR0T3CTIV3 | `pass_colb_05` |
-| 0x6F9EAA56             | 1006 | FANCYP3ACH | `pass_colb_06` |
-| 0x18999AC0             | 1007 | MAXCUT3 | `pass_colb_07` |
-| 0x88268751             | 1008 | GR33NH3ART | `pass_colb_08` |
-| 0xFF21B7C7             | 1009 | H3ALINGALL | `pass_colb_09` |
-| 0x9FE63E22             | 1010 | BLU3PRANK | `pass_colb_10` |
-| 0xE8E10EB4             | 1011 | MISCHI3F | `pass_colb_11` |
-| 0x71E85F0E             | 1012 | DARKPURPL3 | `pass_colb_12` |
-| 0x06EF6F98 (0x6EF6F98) | 1013 | 33RI3THING | `pass_colb_13` |
-| 0x988BFA3B             | 1014 | BLU3SCAL3S | `pass_colb_14` |
-| 0xEF8CCAAD             | 1015 | SLITH3RING | `pass_colb_15` |
-| 0x55274E2D             | 1016 | YSTUGYSTUG | - |
-| 0xCC2E1F97             | 1017 | LA3R3KAM | - |
-| 0xBB292F01             | 1018 | N0YPASUASU | - |
-| 0x254DBAA2             | 1019 | 33DYLBB0W | - |
-| 0x524A8A34             | 1020 | SG0DNSTAC | - |
-| 0xD4FD3B7C             | 1021 | YFFULFAG3M | - |
-| 0x4DF46AC6             | 1022 | P3AC3FULLY | - |
-| 0xC0CF17BE             | 1023 | K0YUWMA3IM | - |
-| 0x59C64604             | 1024 | 13K0U2M0T0 | - |
-| 0x2EC17692             | 1025 | U9KIYU60R3 | - |
-| 0xB0A5E331             | 1026 | NUTAWTAS0T | - |
-| 0xC7A2D3A7             | 1027 | NIN98R3HI7 | - |
-| 0xCE60202E             | 1028 | P4PWA36SGU | - |
-| 0x57697194             | 1029 | R9DR3H7VZA | - |
-| 0x206E4102             | 1030 | TI8AKUL2UM | - |
-| 0xBE0AD4A1             | 1031 | BA8JMAQ6AP | - |
-| 0xE37886A1             | 1032 | KINDAY0KAI | - |
-| 0x7A71D71B             | 1033 | Y0Y0Y0KAI | - |
-| 0x0D76E78D (0xD76E78D) | 1034 | UNS33NPAL | - |
-| 0x9312722E             | 1035 | US3URWATCH | - |
-| 0xE41542B8             | 1036 | M3DALB0ND | - |
-| 0x7D1C1302             | 1037 | P3RKYM00D | - |
-| 0x0A1B2394 (0xA1B2394) | 1038 | CARDS4ALL | - |
-| 0x9AA43E05             | 1039 | FUS3W0RK3D | - |
-| 0xEDA30E93             | 1040 | FRI3NDLVMX | - |
-| 0x8D648776             | 1041 | YKWYAYYAY | - |
-| 0x42933C8A             | 1042 | K03YUZ1YRU | - |
-| 0xDB9A6D30             | 1043 | 38BSAA4WGI | - |
-| 0xAC9D5DA6             | 1044 | D37WJIN8MR | - |
-| 0x32F9C805             | 1045 | RU4M3K7SRA | - |
-| 0x45FEF893             | 1046 | SI2FGAT2XP | - |
-| 0xDCF7A929             | 1047 | KA5GZUY3DS | - |
-| 0xB29DD60A             | 1048 | LUVKATI3 | - |
-| 0x75FCA82E             | 1052 | RUNNINGMAN | - |
-| 0xECF5F994             | 1053 | CALMD0WN | - |
-| 0x9BF2C902             | 1054 | PR3CISI0N | - |
-| 0x05965CA1 (0x5965CA1) | 1055 | D33RWAY | - |
-| 0x72916C37             | 1056 | SL33PYTIM3 | - |
-| 0xEB983D8D             | 1057 | DANC3ST3PS | - |
-| 0x9C9F0D1B             | 1058 | TH0UGHTFUL | - |
-| 0x0C20108A (0xC20108A) | 1059 | KN0WURTAIL | - |
-| 0x7B27201C             | 1060 | L3TSM0V3 | - |
-| 0x1BE0A9F9             | 1061 | 3ASYG0ING | - |
-| 0x6CE7996F             | 1062 | FIR3FLI3S | - |
-| 0xF5EEC8D5             | 1063 | ANTIQU3S | - |
-| 0x82E9F843             | 1064 | TIM3FLI3S | - |
-| 0x1C8D6DE0             | 1065 | RURALSPAC3 | - |
-| 0x6B8A5D76             | 1066 | CRACKLING | - |
-| 0xF2830CCC             | 1067 | C0NN3XI0NS | - |
-| 0x85843C5A             | 1068 | LANDS3ND | - |
-| 0x153B21CB             | 1069 | M0UNTAINS | - |
-| 0x623C115D             | 1070 | SUCH3N3RGY | - |
-| 0x30CDFA3A             | 1071 | HILLYM0UND | - |
-| 0x47CACAAC             | 1072 | 3L0NGAT3D | - |
-| 0xDEC39B16             | 1073 | INTH3N0RTH | - |
-| 0xA9C4AB80             | 1074 | PL3NTIFUL | - |
-| 0x37A03E23             | 1075 | CL3ANWAT3R | - |
-| 0x40A70EB5             | 1076 | WAVYS3AS | - |
-| 0xD9AE5F0F             | 1077 | R0CKYLAND | - |
-| 0xAEA96F99             | 1078 | WARMWAT3R | - |
-| 0x3E167208             | 1079 | P3ARTR33S | - |
-| 0x4911429E             | 1080 | CALMSKI3S | - |
-| 0x29D6CB7B             | 1081 | HANDSTANDS | - |
-| 0x5ED1FBED             | 1082 | HAV3AL00K | - |
-| 0xC7D8AA57             | 1083 | J0URN3YS | - |
-| 0xB0DF9AC1             | 1084 | M3TR0P0LIS | - |
-| 0x2EBB0F62             | 1085 | ICANWAIT | - |
-| 0x59BC3FF4             | 1086 | CITYF0LK | - |
-| 0xC0B56E4E             | 1087 | HARB0RT0WN | - |
-| 0xB7B25ED8             | 1088 | F3UDALL0RD | - |
-| 0x270D4349             | 1089 | SUBURBIA | - |
-| 0x500A73DF             | 1090 | PARTT0FIT | - |
-| 0x66975DBC             | 1091 | WAV3S0UND | - |
-| 0x11906D2A             | 1092 | R3LAXATI0N | - |
-| 0x88993C90             | 1093 | 0LDT3MPL3S | - |
-| 0xFF9E0C06             | 1094 | NUMB3R0N3 | - |
-| 0x61FA99A5             | 1095 | B00ND0CKS | - |
-| 0x16FDA933             | 1096 | HIPPI3T0WN | - |
-| 0x8FF4F889             | 1097 | CH33SYJ0K3 | - |
-| 0xF8F3C81F             | 1098 | MANDARINS | - |
-| 0x684CD58E             | 1099 | MYST3RI0US | - |
-| 0x1F4BE518             | 1100 | H0WB0UTDAT | - |
-| 0x7F8C6CFD             | 1101 | TH3L0NG3ST | - |
-| 0x088B5C6B (0x88B5C6B) | 1102 | WANNAM0V3 | - |
-| 0x91820DD1             | 1103 | G00DS3TUP | - |
-| 0xE6853D47             | 1104 | INN0VATI0N | - |
-| 0x78E1A8E4             | 1105 | P3AKVALL3Y | - |
-| 0x0FE69872 (0xFE69872) | 1106 | LADYLIK3 | - |
-| 0x96EFC9C8             | 1107 | S3V3NS4U | - |
-| 0xE1E8F95E             | 1108 | F0UNDY0U | - |
-| 0x7157E4CF             | 1109 | L3TSSH0P | - |
-| 0x0650D459 (0x650D459) | 1110 | MAPP3D0UT | - |
-| 0x54A13F3E             | 1111 | F0LKTAL3S | - |
-| 0x23A60FA8             | 1112 | CHILLF0LK | - |
-| 0xBAAF5E12             | 1113 | W3LC0MING | - |
-| 0xCDA86E84             | 1114 | GRILL3D33L | - |
-| 0x53CCFB27             | 1115 | HARDT0MISS | - |
-| 0x24CBCBB1             | 1116 | LI0NSD3N | - |
-| 0xBDC29A0B             | 1117 | MAST3RFUL | - |
-| 0xCAC5AA9D             | 1118 | THISISIT | - |
-| 0x5A7AB70C             | 1119 | MANTARAY | - |
-| 0x2D7D879A             | 1120 | PR0UDR00F | - |
-| 0x4DBA0E7F             | 1121 | J0K3S0NY0U | - |
-| 0x3ABD3EE9             | 1122 | HIDD3NG0LD | - |
-| 0xA3B46F53             | 1123 | 0CT0BALL | - |
-| 0xD4B35FC5             | 1124 | TR3ASUR3S | - |
-| 0x4AD7CA66             | 1125 | STAYAWHIL3 | - |
-| 0x3DD0FAF0             | 1126 | MUCHT0S33 | - |
-| 0xA4D9AB4A             | 1127 | BICYCL3S | - |
-| 0xD3DE9BDC             | 1128 | B3ANSTALKS | - |
-| 0x4361864D             | 1129 | CLASSICAL | - |
-| 0x3466B6DB             | 1130 | INLANDS3A | - |
-| 0xCA2212B0             | 1131 | H3R0CITY | - |
-| 0xBD252226             | 1132 | 3N3RG3TIC | - |
-| 0x242C739C             | 1133 | FRI3DT0FU | - |
-| 0x532B430A             | 1134 | FISHCAK3 | - |
-| 0xCD4FD6A9             | 1135 | HAV3S0M3 | - |
-| 0xBA48E63F             | 1136 | Z3BRAMAN3 | - |
-| 0x2341B785             | 1137 | L0NGWAIT | - |
-| 0x54468713             | 1138 | M0NTBLANC | - |
-| 0xC4F99A82             | 1139 | DULLBL0W | - |
-| 0xB3FEAA14             | 1140 | 3ARTHW0RM | - |
-| 0xD33923F1             | 1141 | BIRDS0NG | - |
-| 0xA43E1367             | 1142 | MACAR0NI | - |
-| 0x3D3742DD             | 1143 | SALAMAND3R | - |
-| 0x4A30724B             | 1144 | UD0NSAUC3 | - |
-| 0xD454E7E8             | 1145 | FULLTUMMY | - |
-| 0xA353D77E             | 1146 | LAFFYTAFFY | - |
-| 0x3A5A86C4             | 1147 | RIV3RSID3 | - |
-| 0x4D5DB652             | 1148 | M3GASNAILS | - |
-| 0xDDE2ABC3             | 1149 | UNIV3RSAL | - |
-| 0xAAE59B55             | 1150 | P0ND3RING | - |
-| 0x0339F28F (0x339F28F) | 1151 | MUSHR00MS | - |
-| 0x743EC219             | 1152 | BL00MING | - |
-| 0xED3793A3             | 1153 | FR3SHAIR | - |
-| 0x9A30A335             | 1154 | R0ADTRIP | - |
-| 0x04543696 (0x4543696) | 1155 | ISLAB0NITA | - |
-| 0x73530600             | 1156 | DRAG0NFLY | - |
-| 0xEA5A57BA             | 1157 | T3AL3AV3S | - |
-| 0x9D5D672C             | 1158 | MAPL3SYRUP | - |
-| 0x0DE27ABD (0xDE27ABD) | 1159 | SL33PYINN | - |
-| 0x7AE54A2B             | 1160 | 3XCURSI0N | - |
-| 0x1A22C3CE             | 1161 | HAPPYN3SS | - |
-| 0x6D25F358             | 1162 | T0WNSCAP3 | - |
-| 0xF42CA2E2             | 1163 | S3AV0YAG3 | - |
-| 0x832B9274             | 1164 | R0ASTB33F | - |
-| 0x1D4F07D7             | 1165 | CLIFFSID3 | - |
-| 0x6A483741             | 1166 | WH0L3THING | - |
-| 0xF34166FB             | 1167 | CASTL3WALL | - |
-| 0x8446566D             | 1168 | H3R3W3G0 | - |
-| 0x14F94BFC             | 1169 | DRAG0NFANG | - |
-| 0x63FE7B6A             | 1170 | TIG3RPAW | - |
-| 0x310F900D             | 1171 | ISLANDFUN | - |
-| 0x4608A09B             | 1172 | HAMBURG3R | - |
-| 0xDF01F121             | 1173 | B33FST3W | - |
-| 0xA806C1B7             | 1174 | SPAGH3TTI | - |
-| 0x36625414             | 1175 | SNAILSYUM | - |
-| 0x41656482             | 1176 | MAK3M0N3Y | - |
-| 0xD86C3538             | 1177 | NIGHTMAN | - |
-| 0xAF6B05AE             | 1178 | W0ND3RLAND | - |
-| 0x3FD4183F             | 1179 | WHAL3M3AT | - |
-| 0x48D328A9             | 1180 | C0BBSALAD | - |
-| 0x2814A14C             | 1181 | MANGR0V3 | - |
-| 0x5F1391DA             | 1182 | L3NTILS0UP | - |
-| 0xC61AC060             | 1183 | M3ATBALLS | - |
-| 0xB11DF0F6             | 1184 | RUCCULA | - |
-| 0x2F796555             | 1185 | RIC3BALLS | - |
-| 0x587E55C3             | 1186 | B3ANSPR0UT | - |
-| 0xC1770479             | 1187 | IC3C0LD | - |
-| 0xB67034EF             | 1188 | N0RTH3AST | - |
-| 0x26CF297E             | 1189 | 0LDSCH00L | - |
-| 0x51C819E8             | 1190 | MIDC3NT3R | - |
-| 0x6755378B             | 1191 | W3STLANDS | - |
-| 0x1052071D             | 1192 | SANDDUN3S | - |
-| 0x895B56A7             | 1193 | F0LKDANC3 | - |
-| 0xFE5C6631             | 1194 | SURR3ALIST | - |
-| 0x6038F392             | 1195 | HANDS0M3 | - |
-| 0x173FC304             | 1196 | 5656539315 | - |
-| 0x8E3692BE             | 1197 | B0GIUS0GI2 | - |
-| 0xF931A228             | 1198 | 5SAH0R05G3 | - |
-| 0x698EBFB9             | 1199 | Y0PIDAN7FU | - |
-| 0x1E898F2F             | 1200 | H3M3DAPIMU | - |
+| 0x86FD0F63             | 1000 | Checks if the password R3DM1NUS has been used. | `pass_colb_00` |
+| 0xF1FA3FF5             | 1001 | Checks if the password M1GHTR1GHT has been used. | `pass_colb_01` |
+| 0x68F36E4F             | 1002 | Checks if the password Y3LL0GH0ST has been used. | `pass_colb_02` |
+| 0x1FF45ED9             | 1003 | Checks if the password B3DAZZL3 has been used. | `pass_colb_03` |
+| 0x8190CB7A             | 1004 | Checks if the password 0RANG3ARMR has been used. | `pass_colb_04` |
+| 0xF697FBEC             | 1005 | Checks if the password PR0T3CTIV3 has been used. | `pass_colb_05` |
+| 0x6F9EAA56             | 1006 | Checks if the password FANCYP3ACH has been used. | `pass_colb_06` |
+| 0x18999AC0             | 1007 | Checks if the password MAXCUT3 has been used. | `pass_colb_07` |
+| 0x88268751             | 1008 | Checks if the password GR33NH3ART has been used. | `pass_colb_08` |
+| 0xFF21B7C7             | 1009 | Checks if the password H3ALINGALL has been used. | `pass_colb_09` |
+| 0x9FE63E22             | 1010 | Checks if the password BLU3PRANK has been used. | `pass_colb_10` |
+| 0xE8E10EB4             | 1011 | Checks if the password MISCHI3F has been used. | `pass_colb_11` |
+| 0x71E85F0E             | 1012 | Checks if the password DARKPURPL3 has been used. | `pass_colb_12` |
+| 0x06EF6F98 (0x6EF6F98) | 1013 | Checks if the password 33RI3THING has been used. | `pass_colb_13` |
+| 0x988BFA3B             | 1014 | Checks if the password BLU3SCAL3S has been used. | `pass_colb_14` |
+| 0xEF8CCAAD             | 1015 | Checks if the password SLITH3RING has been used. | `pass_colb_15` |
+| 0x55274E2D             | 1016 | Checks if the password YSTUGYSTUG has been used. | - |
+| 0xCC2E1F97             | 1017 | Checks if the password LA3R3KAM has been used. | - |
+| 0xBB292F01             | 1018 | Checks if the password N0YPASUASU has been used. | - |
+| 0x254DBAA2             | 1019 | Checks if the password 33DYLBB0W has been used. | - |
+| 0x524A8A34             | 1020 | Checks if the password SG0DNSTAC has been used. | - |
+| 0xD4FD3B7C             | 1021 | Checks if the password YFFULFAG3M has been used. | - |
+| 0x4DF46AC6             | 1022 | Checks if the password P3AC3FULLY has been used. | - |
+| 0xC0CF17BE             | 1023 | Checks if the password K0YUWMA3IM has been used. | - |
+| 0x59C64604             | 1024 | Checks if the password 13K0U2M0T0 has been used. | - |
+| 0x2EC17692             | 1025 | Checks if the password U9KIYU60R3 has been used. | - |
+| 0xB0A5E331             | 1026 | Checks if the password NUTAWTAS0T has been used. | - |
+| 0xC7A2D3A7             | 1027 | Checks if the password NIN98R3HI7 has been used. | - |
+| 0xCE60202E             | 1028 | Checks if the password P4PWA36SGU has been used. | - |
+| 0x57697194             | 1029 | Checks if the password R9DR3H7VZA has been used. | - |
+| 0x206E4102             | 1030 | Checks if the password TI8AKUL2UM has been used. | - |
+| 0xBE0AD4A1             | 1031 | Checks if the password BA8JMAQ6AP has been used. | - |
+| 0xE37886A1             | 1032 | Checks if the password KINDAY0KAI has been used. | - |
+| 0x7A71D71B             | 1033 | Checks if the password Y0Y0Y0KAI has been used. | - |
+| 0x0D76E78D (0xD76E78D) | 1034 | Checks if the password UNS33NPAL has been used. | - |
+| 0x9312722E             | 1035 | Checks if the password US3URWATCH has been used. | - |
+| 0xE41542B8             | 1036 | Checks if the password M3DALB0ND has been used. | - |
+| 0x7D1C1302             | 1037 | Checks if the password P3RKYM00D has been used. | - |
+| 0x0A1B2394 (0xA1B2394) | 1038 | Checks if the password CARDS4ALL has been used. | - |
+| 0x9AA43E05             | 1039 | Checks if the password FUS3W0RK3D has been used. | - |
+| 0xEDA30E93             | 1040 | Checks if the password FRI3NDLVMX has been used. | - |
+| 0x8D648776             | 1041 | Checks if the password YKWYAYYAY has been used. | - |
+| 0x42933C8A             | 1042 | Checks if the password K03YUZ1YRU has been used. | - |
+| 0xDB9A6D30             | 1043 | Checks if the password 38BSAA4WGI has been used. | - |
+| 0xAC9D5DA6             | 1044 | Checks if the password D37WJIN8MR has been used. | - |
+| 0x32F9C805             | 1045 | Checks if the password RU4M3K7SRA has been used. | - |
+| 0x45FEF893             | 1046 | Checks if the password SI2FGAT2XP has been used. | - |
+| 0xDCF7A929             | 1047 | Checks if the password KA5GZUY3DS has been used. | - |
+| 0xB29DD60A             | 1048 | Checks if the password LUVKATI3 has been used. | - |
+| 0x75FCA82E             | 1052 | Checks if the password RUNNINGMAN has been used. | - |
+| 0xECF5F994             | 1053 | Checks if the password CALMD0WN has been used. | - |
+| 0x9BF2C902             | 1054 | Checks if the password PR3CISI0N has been used. | - |
+| 0x05965CA1 (0x5965CA1) | 1055 | Checks if the password D33RWAY has been used. | - |
+| 0x72916C37             | 1056 | Checks if the password SL33PYTIM3 has been used. | - |
+| 0xEB983D8D             | 1057 | Checks if the password DANC3ST3PS has been used. | - |
+| 0x9C9F0D1B             | 1058 | Checks if the password TH0UGHTFUL has been used. | - |
+| 0x0C20108A (0xC20108A) | 1059 | Checks if the password KN0WURTAIL has been used. | - |
+| 0x7B27201C             | 1060 | Checks if the password L3TSM0V3 has been used. | - |
+| 0x1BE0A9F9             | 1061 | Checks if the password 3ASYG0ING has been used. | - |
+| 0x6CE7996F             | 1062 | Checks if the password FIR3FLI3S has been used. | - |
+| 0xF5EEC8D5             | 1063 | Checks if the password ANTIQU3S has been used. | - |
+| 0x82E9F843             | 1064 | Checks if the password TIM3FLI3S has been used. | - |
+| 0x1C8D6DE0             | 1065 | Checks if the password RURALSPAC3 has been used. | - |
+| 0x6B8A5D76             | 1066 | Checks if the password CRACKLING has been used. | - |
+| 0xF2830CCC             | 1067 | Checks if the password C0NN3XI0NS has been used. | - |
+| 0x85843C5A             | 1068 | Checks if the password LANDS3ND has been used. | - |
+| 0x153B21CB             | 1069 | Checks if the password M0UNTAINS has been used. | - |
+| 0x623C115D             | 1070 | Checks if the password SUCH3N3RGY has been used. | - |
+| 0x30CDFA3A             | 1071 | Checks if the password HILLYM0UND has been used. | - |
+| 0x47CACAAC             | 1072 | Checks if the password 3L0NGAT3D has been used. | - |
+| 0xDEC39B16             | 1073 | Checks if the password INTH3N0RTH has been used. | - |
+| 0xA9C4AB80             | 1074 | Checks if the password PL3NTIFUL has been used. | - |
+| 0x37A03E23             | 1075 | Checks if the password CL3ANWAT3R has been used. | - |
+| 0x40A70EB5             | 1076 | Checks if the password WAVYS3AS has been used. | - |
+| 0xD9AE5F0F             | 1077 | Checks if the password R0CKYLAND has been used. | - |
+| 0xAEA96F99             | 1078 | Checks if the password WARMWAT3R has been used. | - |
+| 0x3E167208             | 1079 | Checks if the password P3ARTR33S has been used. | - |
+| 0x4911429E             | 1080 | Checks if the password CALMSKI3S has been used. | - |
+| 0x29D6CB7B             | 1081 | Checks if the password HANDSTANDS has been used. | - |
+| 0x5ED1FBED             | 1082 | Checks if the password HAV3AL00K has been used. | - |
+| 0xC7D8AA57             | 1083 | Checks if the password J0URN3YS has been used. | - |
+| 0xB0DF9AC1             | 1084 | Checks if the password M3TR0P0LIS has been used. | - |
+| 0x2EBB0F62             | 1085 | Checks if the password ICANWAIT has been used. | - |
+| 0x59BC3FF4             | 1086 | Checks if the password CITYF0LK has been used. | - |
+| 0xC0B56E4E             | 1087 | Checks if the password HARB0RT0WN has been used. | - |
+| 0xB7B25ED8             | 1088 | Checks if the password F3UDALL0RD has been used. | - |
+| 0x270D4349             | 1089 | Checks if the password SUBURBIA has been used. | - |
+| 0x500A73DF             | 1090 | Checks if the password PARTT0FIT has been used. | - |
+| 0x66975DBC             | 1091 | Checks if the password WAV3S0UND has been used. | - |
+| 0x11906D2A             | 1092 | Checks if the password R3LAXATI0N has been used. | - |
+| 0x88993C90             | 1093 | Checks if the password 0LDT3MPL3S has been used. | - |
+| 0xFF9E0C06             | 1094 | Checks if the password NUMB3R0N3 has been used. | - |
+| 0x61FA99A5             | 1095 | Checks if the password B00ND0CKS has been used. | - |
+| 0x16FDA933             | 1096 | Checks if the password HIPPI3T0WN has been used. | - |
+| 0x8FF4F889             | 1097 | Checks if the password CH33SYJ0K3 has been used. | - |
+| 0xF8F3C81F             | 1098 | Checks if the password MANDARINS has been used. | - |
+| 0x684CD58E             | 1099 | Checks if the password MYST3RI0US has been used. | - |
+| 0x1F4BE518             | 1100 | Checks if the password H0WB0UTDAT has been used. | - |
+| 0x7F8C6CFD             | 1101 | Checks if the password TH3L0NG3ST has been used. | - |
+| 0x088B5C6B (0x88B5C6B) | 1102 | Checks if the password WANNAM0V3 has been used. | - |
+| 0x91820DD1             | 1103 | Checks if the password G00DS3TUP has been used. | - |
+| 0xE6853D47             | 1104 | Checks if the password INN0VATI0N has been used. | - |
+| 0x78E1A8E4             | 1105 | Checks if the password P3AKVALL3Y has been used. | - |
+| 0x0FE69872 (0xFE69872) | 1106 | Checks if the password LADYLIK3 has been used. | - |
+| 0x96EFC9C8             | 1107 | Checks if the password S3V3NS4U has been used. | - |
+| 0xE1E8F95E             | 1108 | Checks if the password F0UNDY0U has been used. | - |
+| 0x7157E4CF             | 1109 | Checks if the password L3TSSH0P has been used. | - |
+| 0x0650D459 (0x650D459) | 1110 | Checks if the password MAPP3D0UT has been used. | - |
+| 0x54A13F3E             | 1111 | Checks if the password F0LKTAL3S has been used. | - |
+| 0x23A60FA8             | 1112 | Checks if the password CHILLF0LK has been used. | - |
+| 0xBAAF5E12             | 1113 | Checks if the password W3LC0MING has been used. | - |
+| 0xCDA86E84             | 1114 | Checks if the password GRILL3D33L has been used. | - |
+| 0x53CCFB27             | 1115 | Checks if the password HARDT0MISS has been used. | - |
+| 0x24CBCBB1             | 1116 | Checks if the password LI0NSD3N has been used. | - |
+| 0xBDC29A0B             | 1117 | Checks if the password MAST3RFUL has been used. | - |
+| 0xCAC5AA9D             | 1118 | Checks if the password THISISIT has been used. | - |
+| 0x5A7AB70C             | 1119 | Checks if the password MANTARAY has been used. | - |
+| 0x2D7D879A             | 1120 | Checks if the password PR0UDR00F has been used. | - |
+| 0x4DBA0E7F             | 1121 | Checks if the password J0K3S0NY0U has been used. | - |
+| 0x3ABD3EE9             | 1122 | Checks if the password HIDD3NG0LD has been used. | - |
+| 0xA3B46F53             | 1123 | Checks if the password 0CT0BALL has been used. | - |
+| 0xD4B35FC5             | 1124 | Checks if the password TR3ASUR3S has been used. | - |
+| 0x4AD7CA66             | 1125 | Checks if the password STAYAWHIL3 has been used. | - |
+| 0x3DD0FAF0             | 1126 | Checks if the password MUCHT0S33 has been used. | - |
+| 0xA4D9AB4A             | 1127 | Checks if the password BICYCL3S has been used. | - |
+| 0xD3DE9BDC             | 1128 | Checks if the password B3ANSTALKS has been used. | - |
+| 0x4361864D             | 1129 | Checks if the password CLASSICAL has been used. | - |
+| 0x3466B6DB             | 1130 | Checks if the password INLANDS3A has been used. | - |
+| 0xCA2212B0             | 1131 | Checks if the password H3R0CITY has been used. | - |
+| 0xBD252226             | 1132 | Checks if the password 3N3RG3TIC has been used. | - |
+| 0x242C739C             | 1133 | Checks if the password FRI3DT0FU has been used. | - |
+| 0x532B430A             | 1134 | Checks if the password FISHCAK3 has been used. | - |
+| 0xCD4FD6A9             | 1135 | Checks if the password HAV3S0M3 has been used. | - |
+| 0xBA48E63F             | 1136 | Checks if the password Z3BRAMAN3 has been used. | - |
+| 0x2341B785             | 1137 | Checks if the password L0NGWAIT has been used. | - |
+| 0x54468713             | 1138 | Checks if the password M0NTBLANC has been used. | - |
+| 0xC4F99A82             | 1139 | Checks if the password DULLBL0W has been used. | - |
+| 0xB3FEAA14             | 1140 | Checks if the password 3ARTHW0RM has been used. | - |
+| 0xD33923F1             | 1141 | Checks if the password BIRDS0NG has been used. | - |
+| 0xA43E1367             | 1142 | Checks if the password MACAR0NI has been used. | - |
+| 0x3D3742DD             | 1143 | Checks if the password SALAMAND3R has been used. | - |
+| 0x4A30724B             | 1144 | Checks if the password UD0NSAUC3 has been used. | - |
+| 0xD454E7E8             | 1145 | Checks if the password FULLTUMMY has been used. | - |
+| 0xA353D77E             | 1146 | Checks if the password LAFFYTAFFY has been used. | - |
+| 0x3A5A86C4             | 1147 | Checks if the password RIV3RSID3 has been used. | - |
+| 0x4D5DB652             | 1148 | Checks if the password M3GASNAILS has been used. | - |
+| 0xDDE2ABC3             | 1149 | Checks if the password UNIV3RSAL has been used. | - |
+| 0xAAE59B55             | 1150 | Checks if the password P0ND3RING has been used. | - |
+| 0x0339F28F (0x339F28F) | 1151 | Checks if the password MUSHR00MS has been used. | - |
+| 0x743EC219             | 1152 | Checks if the password BL00MING has been used. | - |
+| 0xED3793A3             | 1153 | Checks if the password FR3SHAIR has been used. | - |
+| 0x9A30A335             | 1154 | Checks if the password R0ADTRIP has been used. | - |
+| 0x04543696 (0x4543696) | 1155 | Checks if the password ISLAB0NITA has been used. | - |
+| 0x73530600             | 1156 | Checks if the password DRAG0NFLY has been used. | - |
+| 0xEA5A57BA             | 1157 | Checks if the password T3AL3AV3S has been used. | - |
+| 0x9D5D672C             | 1158 | Checks if the password MAPL3SYRUP has been used. | - |
+| 0x0DE27ABD (0xDE27ABD) | 1159 | Checks if the password SL33PYINN has been used. | - |
+| 0x7AE54A2B             | 1160 | Checks if the password 3XCURSI0N has been used. | - |
+| 0x1A22C3CE             | 1161 | Checks if the password HAPPYN3SS has been used. | - |
+| 0x6D25F358             | 1162 | Checks if the password T0WNSCAP3 has been used. | - |
+| 0xF42CA2E2             | 1163 | Checks if the password S3AV0YAG3 has been used. | - |
+| 0x832B9274             | 1164 | Checks if the password R0ASTB33F has been used. | - |
+| 0x1D4F07D7             | 1165 | Checks if the password CLIFFSID3 has been used. | - |
+| 0x6A483741             | 1166 | Checks if the password WH0L3THING has been used. | - |
+| 0xF34166FB             | 1167 | Checks if the password CASTL3WALL has been used. | - |
+| 0x8446566D             | 1168 | Checks if the password H3R3W3G0 has been used. | - |
+| 0x14F94BFC             | 1169 | Checks if the password DRAG0NFANG has been used. | - |
+| 0x63FE7B6A             | 1170 | Checks if the password TIG3RPAW has been used. | - |
+| 0x310F900D             | 1171 | Checks if the password ISLANDFUN has been used. | - |
+| 0x4608A09B             | 1172 | Checks if the password HAMBURG3R has been used. | - |
+| 0xDF01F121             | 1173 | Checks if the password B33FST3W has been used. | - |
+| 0xA806C1B7             | 1174 | Checks if the password SPAGH3TTI has been used. | - |
+| 0x36625414             | 1175 | Checks if the password SNAILSYUM has been used. | - |
+| 0x41656482             | 1176 | Checks if the password MAK3M0N3Y has been used. | - |
+| 0xD86C3538             | 1177 | Checks if the password NIGHTMAN has been used. | - |
+| 0xAF6B05AE             | 1178 | Checks if the password W0ND3RLAND has been used. | - |
+| 0x3FD4183F             | 1179 | Checks if the password WHAL3M3AT has been used. | - |
+| 0x48D328A9             | 1180 | Checks if the password C0BBSALAD has been used. | - |
+| 0x2814A14C             | 1181 | Checks if the password MANGR0V3 has been used. | - |
+| 0x5F1391DA             | 1182 | Checks if the password L3NTILS0UP has been used. | - |
+| 0xC61AC060             | 1183 | Checks if the password M3ATBALLS has been used. | - |
+| 0xB11DF0F6             | 1184 | Checks if the password RUCCULA has been used. | - |
+| 0x2F796555             | 1185 | Checks if the password RIC3BALLS has been used. | - |
+| 0x587E55C3             | 1186 | Checks if the password B3ANSPR0UT has been used. | - |
+| 0xC1770479             | 1187 | Checks if the password IC3C0LD has been used. | - |
+| 0xB67034EF             | 1188 | Checks if the password N0RTH3AST has been used. | - |
+| 0x26CF297E             | 1189 | Checks if the password 0LDSCH00L has been used. | - |
+| 0x51C819E8             | 1190 | Checks if the password MIDC3NT3R has been used. | - |
+| 0x6755378B             | 1191 | Checks if the password W3STLANDS has been used. | - |
+| 0x1052071D             | 1192 | Checks if the password SANDDUN3S has been used. | - |
+| 0x895B56A7             | 1193 | Checks if the password F0LKDANC3 has been used. | - |
+| 0xFE5C6631             | 1194 | Checks if the password SURR3ALIST has been used. | - |
+| 0x6038F392             | 1195 | Checks if the password HANDS0M3 has been used. | - |
+| 0x173FC304             | 1196 | Checks if the password 5656539315 has been used. | - |
+| 0x8E3692BE             | 1197 | Checks if the password B0GIUS0GI2 has been used. | - |
+| 0xF931A228             | 1198 | Checks if the password 5SAH0R05G3 has been used. | - |
+| 0x698EBFB9             | 1199 | Checks if the password Y0PIDAN7FU has been used. | - |
+| 0x1E898F2F             | 1200 | Checks if the password H3M3DAPIMU has been used. | - |
 | 0xD7AE6568             | 1201 | Checks if you can fight Maginyan. | - |
 | 0x4EA734D2             | 1202 | Checks if you can fight Sir Nyansalot. | - |
-| 0x7E4E06CA             | 1217 | 1P0NA6D3NU | - |
+| 0x7E4E06CA             | 1217 | Checks if the password 1P0NA6D3NU has been used. | - |
 | 0x96398E8B             | 1500 | Checks if Reuknight has been fused. | `combine_00` |
 | 0xE13EBE1D             | 1501 | Checks if Darumacho has been fused. | `combine_01` |
 | 0x7837EFA7             | 1502 | Checks if Rattelle has been fused. | `combine_02` |
@@ -757,41 +757,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x93262704             | 1589 | Checks if the Summoner's Soul has been made. | - |
 | 0xE4211792             | 1590 | Checks if the Selfless Soul has been made. | - |
 | 0xB6D0FCF5             | 1591 | Checks if the Superstar Soul has been made. | - |
-| 0xB18AEAF6             | 1595 | SE4TQR572X | - |
-| 0x2883BB4C             | 1596 | F8NAMZEV1C | - |
-| 0x5F848BDA             | 1597 | 65JQWZVVVH | - |
-| 0xC1E01E79             | 1598 | MHDFXGRDFI | - |
-| 0xB6E72EEF             | 1599 | 4JUGTP2CRF | - |
-| 0x2FEE7F55             | 1600 | W9555UCOWQ | - |
-| 0x58E94FC3             | 1601 | X3KA8UQPOM | - |
-| 0xC8565252             | 1602 | IXXXNLPDFG | - |
-| 0xBF5162C4             | 1603 | ULSY5EADR4 | - |
-| 0xDF96EB21             | 1604 | TPSRD8LMU1 | - |
-| 0xA891DBB7             | 1605 | IHKDGXFE96 | - |
-| 0x31988A0D             | 1606 | 3VPO68XMVQ | - |
-| 0x469FBA9B             | 1607 | KACV4MZ5IS | - |
-| 0xD8FB2F38             | 1608 | LISN63YWX3 | - |
-| 0xAFFC1FAE             | 1609 | 4HX3DP7PXX | - |
-| 0x36F54E14             | 1610 | KZ8UE2PY95 | - |
-| 0x41F27E82             | 1611 | QPXO5BMDYG | - |
-| 0xD14D6313             | 1612 | JITUS1W2W8 | - |
-| 0xA64A5385             | 1613 | TNPNZ1DSAG | - |
-| 0xF4BBB8E2             | 1614 | 2S64HGFZJJ | - |
-| 0xB3CC54AF             | 1615 | 8MPIA5WB7I | - |
-| 0x2AC50515             | 1616 | F3DMF05QQN | - |
-| 0x5DC23583             | 1617 | MIXEXN42X8 | - |
-| 0xC3A6A020             | 1618 | VSZHRC39HI | - |
-| 0xB4A190B6             | 1619 | Y5QHMW1MJI | - |
-| 0x2DA8C10C             | 1620 | JFUBDO684Y | - |
-| 0x5AAFF19A             | 1621 | DYQCNSTRUU | - |
-| 0xCA10EC0B             | 1622 | VR35AP8M2V | - |
-| 0xBD17DC9D             | 1623 | 1JCQ7XVVAE | - |
-| 0xDDD05578             | 1624 | TXDQKBJ5QQ | - |
-| 0xAAD765EE             | 1625 | MFI4K8G4NG | - |
-| 0x33DE3454             | 1626 | 1JWI6UWIDU | - |
-| 0x44D904C2             | 1627 | 6YVCIPT0I2 | - |
-| 0xDABD9161             | 1628 | 3S6Y3KFBYM | - |
-| 0xADBAA1F7             | 1629 | 4ZNTWMTHDT | - |
+| 0xB18AEAF6             | 1595 | Checks if the password SE4TQR572X has been used. | - |
+| 0x2883BB4C             | 1596 | Checks if the password F8NAMZEV1C has been used. | - |
+| 0x5F848BDA             | 1597 | Checks if the password 65JQWZVVVH has been used. | - |
+| 0xC1E01E79             | 1598 | Checks if the password MHDFXGRDFI has been used. | - |
+| 0xB6E72EEF             | 1599 | Checks if the password 4JUGTP2CRF has been used. | - |
+| 0x2FEE7F55             | 1600 | Checks if the password W9555UCOWQ has been used. | - |
+| 0x58E94FC3             | 1601 | Checks if the password X3KA8UQPOM has been used. | - |
+| 0xC8565252             | 1602 | Checks if the password IXXXNLPDFG has been used. | - |
+| 0xBF5162C4             | 1603 | Checks if the password ULSY5EADR4 has been used. | - |
+| 0xDF96EB21             | 1604 | Checks if the password TPSRD8LMU1 has been used. | - |
+| 0xA891DBB7             | 1605 | Checks if the password IHKDGXFE96 has been used. | - |
+| 0x31988A0D             | 1606 | Checks if the password 3VPO68XMVQ has been used. | - |
+| 0x469FBA9B             | 1607 | Checks if the password KACV4MZ5IS has been used. | - |
+| 0xD8FB2F38             | 1608 | Checks if the password LISN63YWX3 has been used. | - |
+| 0xAFFC1FAE             | 1609 | Checks if the password 4HX3DP7PXX has been used. | - |
+| 0x36F54E14             | 1610 | Checks if the password KZ8UE2PY95 has been used. | - |
+| 0x41F27E82             | 1611 | Checks if the password QPXO5BMDYG has been used. | - |
+| 0xD14D6313             | 1612 | Checks if the password JITUS1W2W8 has been used. | - |
+| 0xA64A5385             | 1613 | Checks if the password TNPNZ1DSAG has been used. | - |
+| 0xF4BBB8E2             | 1614 | Checks if the password 2S64HGFZJJ has been used. | - |
+| 0xB3CC54AF             | 1615 | Checks if the password 8MPIA5WB7I has been used. | - |
+| 0x2AC50515             | 1616 | Checks if the password F3DMF05QQN has been used. | - |
+| 0x5DC23583             | 1617 | Checks if the password MIXEXN42X8 has been used. | - |
+| 0xC3A6A020             | 1618 | Checks if the password VSZHRC39HI has been used. | - |
+| 0xB4A190B6             | 1619 | Checks if the password Y5QHMW1MJI has been used. | - |
+| 0x2DA8C10C             | 1620 | Checks if the password JFUBDO684Y has been used. | - |
+| 0x5AAFF19A             | 1621 | Checks if the password DYQCNSTRUU has been used. | - |
+| 0xCA10EC0B             | 1622 | Checks if the password VR35AP8M2V has been used. | - |
+| 0xBD17DC9D             | 1623 | Checks if the password 1JCQ7XVVAE has been used. | - |
+| 0xDDD05578             | 1624 | Checks if the password TXDQKBJ5QQ has been used. | - |
+| 0xAAD765EE             | 1625 | Checks if the password MFI4K8G4NG has been used. | - |
+| 0x33DE3454             | 1626 | Checks if the password 1JWI6UWIDU has been used. | - |
+| 0x44D904C2             | 1627 | Checks if the password 6YVCIPT0I2 has been used. | - |
+| 0xDABD9161             | 1628 | Checks if the password 3S6Y3KFBYM has been used. | - |
+| 0xADBAA1F7             | 1629 | Checks if the password 4ZNTWMTHDT has been used. | - |
 | 0xE708E99F             | 1634 | - | - |
 | 0xE54E57C6             | 1635 | - | - |
 | 0xE48C3DF1             | 1636 | - | - |
