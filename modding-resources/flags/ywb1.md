@@ -16,8 +16,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4FF4F23F             | 0    | - | `dummy` |
 | 0x176F56BB             | 1    | Checks if you have beaten Whisped Cream during the story. | `game_clear1` |
 | 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
-| 0xF24F1BCA             | 17   | - | - |
-| 0x316FD2E9             | 19   | - | - |
+| 0xF24F1BCA             | 17   | Checks if you have gotten the Music App. | - |
+| 0x316FD2E9             | 19   | Checks if you have gotten the Movies App. | - |
 | 0x29FB87DA             | 21   | Checks if you have returned to the Blasters House after registering for Red Cat Corps/White Dog Squad. | - |
 | 0x804457A6             | 23   | Checks if you have unlocked Leveling Up. | - |
 | 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting? | - |
@@ -31,7 +31,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAFF78D0C             | 40   | - | - |
 | 0x0030A6B0 (0x30A6B0)  | 41   | Checks if you have unlocked the Crank-a-kai. | `gacha_release` |
 | 0xD09164E7             | 42   | - | `gacha_valid` |
-| 0x23129852             | 49   | - | `kon_release` |
+| 0x23129852             | 49   | Checks if you can use Soulcery. | `kon_release` |
 | 0x26E38A5C             | 52   | - | - |
 | 0x51E4BACA             | 53   | - | - |
 | 0xCF802F69             | 54   | - | - |
@@ -44,7 +44,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4C58B88D             | 66   | Checks if you have heard about Komajiro's kidnapping. | - |
 | 0x2B7C254E             | 67   | - | - |
 | 0x6DF6D0F5             | 68   | - | - |
-| 0xDD27DC87             | 69   | Checks if you have heard about Robonyan 28's rampaging. | - |
+| 0xDD27DC87             | 69   | Checks if you can use the Secret Closet? | - |
 | 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting? | - |
 | 0x78E27986             | 71   | Checks if you have heard Faux Kappa and Mermaidyn bicker about the other team. | - |
 | 0xBE45F884             | 72   | Checks if you have unlocked Patrols. | - |
@@ -68,14 +68,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCA5C0AD5             | 92   | - | - |
 | 0x923F1A83             | 93   | - | - |
 | 0x62228CBC             | 94   | Checks if you can befriend Lord Enma in "Lord Enma and the Five Trials". | - |
-| 0xB2EB1757             | 95   | Checks if you've scanned the QR Code giving the First Place Flag. | - |
-| 0xA05EB8B9             | 96   | Checks if you've scanned the QR Code giving the Doggy Dumpling. | - |
-| 0x18E2DFDC             | 97   | Checks if you've scanned the QR Code giving the Monkey Dumpling. | - |
-| 0x8535E765             | 98   | Checks if you've scanned the QR Code giving the Pheasant Dumpling. | - |
+| 0xB2EB1757             | 95   | Checks if you can befriend Momonyan in "Momotaro Hunter". | - |
+| 0xA05EB8B9             | 96   | Checks if you can befriend Puppynyan in "Momotaro Hunter". | - |
+| 0x18E2DFDC             | 97   | Checks if you can befriend Chimpanyan in "Momotaro Hunter". | - |
+| 0x8535E765             | 98   | Checks if you can befriend Pheasanyan in "Momotaro Hunter". | - |
 | 0xC6DBFE07             | 99   | Checks if you can take on "Pink Emperor!" | - |
 | 0xC346486A             | 100  | - | - |
-| 0x4749D360             | 101  | Checks if you've scanned the QR Code giving a Green Coin and the Dragon King’s Chest. | - |
-| 0x55FC7C8E             | 102  | Checks if you've scanned the QR Code giving an Orange Coin and the Kintaronyan Candy. | - |
+| 0x4749D360             | 101  | Checks if you can befriend Odysseynyan in "Momotaro Hunter 2". | - |
+| 0x55FC7C8E             | 102  | Checks if you can befriend Kintaronyan in "Momotaro Hunter 2". | - |
 | 0xB90818A3             | 103  | - | - |
 | 0x72A20DD2             | 104  | - | - |
 | 0x40558F58             | 105  | - | - |
@@ -86,14 +86,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x99FAD5EA             | 110  | - | - |
 | 0x59B9C20D             | 111  | - | - |
 | 0xFCE7A16E             | 112  | Checks if your VIP Link has expired or not. | - |
-| 0x7E069A7D             | 113  | - | - |
-| 0xBF1EF113             | 114  | Checks if Sgt. Burly has told you to go see Happierre. | - |
-| 0x6D68C288             | 115  | - | - |
+| 0x7E069A7D             | 113  | Checks if you can do True Challenge Missions. | - |
+| 0xBF1EF113             | 114  | Checks if you can swap Move-Out Members. | - |
+| 0x6D68C288             | 115  | Checks if you can request songs from KJ? | - |
 | 0xE4EFBD99             | 116  | - | - |
-| 0x46760D56             | 117  | - | - |
-| 0x0517D033 (0x517D033) | 118  | - | - |
-| 0x126CC470             | 119  | - | - |
-| 0x2BE1F8B5             | 120  | - | - |
+| 0x46760D56             | 117  | Checks if you can use the Momotaro wallpaper. | `wallpaper09_release` |
+| 0x0517D033 (0x517D033) | 118  | Checks if you can use the G of Enma wallpaper. | `wallpaper10_release` |
+| 0x126CC470             | 119  | Checks if you can use the Sunshine wallpaper. | `wallpaper11_release` |
+| 0x2BE1F8B5             | 120  | Checks if you can use the King wallpaper. | `wallpaper12_release` |
 | 0xABBCEB69             | 121  | Checks if you have acquired the Golden Fan. | - |
 | 0x32B5BAD3             | 122  | Checks if you have acquired the Beginner’s Trophy. | - |
 | 0x45B28A45             | 123  | Checks if you have acquired the Gratitude Trophy. | - |
@@ -116,10 +116,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEE8DB97D             | 140  | Checks if you have acquired the Kat Kraydel Statue. | - |
 | 0x998A89EB             | 141  | Checks if you have acquired the Hinozall Statue. | - |
 | 0x0083D851 (0x83D851)  | 142  | Checks if you have acquired the Mass Mutterer Statue. | - |
-| 0xB739EA01             | 145  | - | - |
-| 0xA042FE42             | 146  | - | - |
-| 0x99CFC287             | 147  | - | - |
-| 0x8EB4D6C4             | 148  | - | - |
+| 0xB739EA01             | 145  | Checks if you can use the Sergeant wallpaper. | `wallpaper04_release` |
+| 0xA042FE42             | 146  | Checks if you can use the Sparkling wallpaper. | `wallpaper05_release` |
+| 0x99CFC287             | 147  | Checks if you can use the Stilldark? wallpaper. | `wallpaper06_release` |
+| 0x8EB4D6C4             | 148  | Checks if you can use the Cool★KJ wallpaper. | `wallpaper07_release` |
 | 0x83CA72FE             | 150  | - | - |
 | 0x0B87DB54 (0xB87DB54) | 151  | - | `in_orge_time` |
 | 0x33F7918D             | 152  | - | - |
@@ -129,7 +129,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0CA98B84 (0xCA98B84) | 156  | - | - |
 | 0x9C169615             | 157  | - | - |
 | 0x16735FF9             | 158  | - | - |
-| 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs" | - |
+| 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs". | - |
 | 0x245F00CD             | 160  | - | - |
 | 0x0AD4B5ED (0xAD4B5ED) | 161  | - | - |
 | 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. | `ev13_1110` |
@@ -247,7 +247,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCAA7B323             | 336  | Checks if the story scene ev11_0500 has been seen. | `ev11_0500` |
 | 0xC8E10D7A             | 337  | Checks if the story scene ev11_0600 has been seen. | `ev11_0600` |
 | 0xC923674D             | 338  | Checks if the story scene ev11_0700 has been seen. | `ev11_0700` |
-| 0x2F8F6A97             | 341  | - | - |
+| 0x2F8F6A97             | 341  | Checks if you can do the Usapyon Star Quiz? | - |
 | 0xD5F0E781             | 342  | Checks if you have completed the Usapyon Star Quiz. | - |
 | 0xB408FABA             | 344  | Checks if the story scene mv_photo009/ev01_0990 has been seen. | `ev01_0990` |
 | 0x329C8814             | 345  | Checks if the story scene mv_photo010/ev02_0990 has been seen. | `ev02_0990` |
@@ -800,14 +800,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5FB48EFA             | 1639 | - | - |
 | 0x5DF230A3             | 1640 | - | - |
 | 0x5C305A94             | 1641 | - | - |
-| 0x7DC206F7             | 1642 | - | - |
-| 0x7F84B8AE             | 1643 | - | - |
-| 0x7E46D299             | 1644 | - | - |
-| 0x7B09C41C             | 1645 | - | - |
-| 0x7ACBAE2B             | 1646 | - | - |
-| 0xC57E6192             | 1647 | - | - |
-| 0xC738DFCB             | 1648 | - | - |
-| 0xC6FAB5FC             | 1649 | - | - |
+| 0x7DC206F7             | 1642 | Checks if you've achieved a Gold ranking in "Surging Boss Rush!" | - |
+| 0x7F84B8AE             | 1643 | Checks if you've achieved a Gold ranking in "Red and White Boss Battle!(repeat)" | - |
+| 0x7E46D299             | 1644 | Checks if you've achieved a Gold ranking in "Zazelmare's Run!" | - |
+| 0x7B09C41C             | 1645 | Checks if you've achieved a Gold ranking in "Top of Blasters!" | - |
+| 0x7ACBAE2B             | 1646 | Checks if you've achieved a Gold ranking in "Pink Emperor!" | - |
+| 0xC57E6192             | 1647 | Checks if you've achieved a Gold ranking in "Oni Orb Hunt in Uptown Springdale!" | - |
+| 0xC738DFCB             | 1648 | Checks if you've achieved a Gold ranking in "Super Oni Orb Hunt in Harrisville!" | - |
+| 0xC6FAB5FC             | 1649 | Checks if you've achieved a Gold ranking in "Ultra Oni Orb Hunt in Springdale!" | - |
 | 0x3616F6E7             | 1651 | - | `dl_data_get_001` |
 | 0xAF1FA75D             | 1652 | - | `dl_data_get_002` |
 | 0xD81897CB             | 1653 | - | `dl_data_get_003` |
@@ -940,35 +940,35 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8005AAAD             | 1782 | Checks for the VIP Room shop's limited-stock items. | `shpV002` |
 | 0xF7029A3B             | 1783 | Checks for the VIP Room shop's limited-stock items. | `shpV003` |
 | 0x69660F98             | 1784 | Checks for the VIP Room shop's limited-stock items. | `shpV004` |
-| 0x2B78D49C             | 1791 | Checks if you have requested the BRAVE Song. | - |
-| 0xFCFB8975             | 1792 | Checks if you have requested the MYSTERIOUS Song. | - |
-| 0x7289CC8C             | 1793 | Checks if you have requested the TOUGH Song. | - |
-| 0xF1508C42             | 1794 | Checks if you have requested the CHARMING Song. | - |
-| 0x912CA897             | 1795 | Checks if you have requested the HEARTFUL Song. | - |
-| 0xC8661DB7             | 1796 | Checks if you have requested the SHADY Song. | - |
-| 0xA81A3962             | 1797 | Checks if you have requested the EERIE Song. | - |
-| 0xEEAAA709             | 1798 | Checks if you have requested the SLIPPERY Song. | - |
-| 0x8ED683DC             | 1799 | Checks if you have requested the LEGENDARY Song. | - |
-| 0x53D3CB1A             | 1800 | Checks if you have requested the WICKED Song. | - |
-| 0x33AFEFCF             | 1801 | Checks if you have requested the Neatles Song. (Inaccessible in the localization) | - |
-| 0x932B82B0             | 1802 | Checks if you have requested the Pinto Crusaders Song. (Inaccessible in the localization) | - |
-| 0xF357A665             | 1803 | Checks if you have requested the The Water Boyz Song. (Inaccessible in the localization) | - |
-| 0x0789D63D (0x789D63D) | 1804 | Checks if you have requested the Mystery Song. (Inaccessible in the localization) | - |
-| 0x67F5F2E8             | 1805 | Checks if you have requested the Nomnom Brothers Song. (Inaccessible in the localization) | - |
-| 0x0C89254A (0xC89254A) | 1806 | Checks if you have requested the Red Hot Oni Backers Song. (Inaccessible in the localization) | - |
-| 0x6CF5019F             | 1807 | Checks if you have requested the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0xD38B47AB             | 1808 | Checks if you have requested the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0x1AD6A23A             | 1811 | Checks if you have requested the Sgt. Burly Song. (Inaccessible in the localization) | - |
-| 0xBD3F0B5C             | 1812 | Checks if you have requested the Hovernyan Song. (Inaccessible in the localization) | - |
-| 0x202B13FA             | 1814 | Checks if you have requested the Cornfused Song. (Inaccessible in the localization) | - |
-| 0x4057372F             | 1815 | Checks if you have requested the Roughraff Song. (Inaccessible in the localization) | - |
-| 0xE965167B             | 1816 | Checks if you have requested the Jibanyan Song. (Inaccessible in the localization) | - |
-| 0x891932AE             | 1817 | Checks if you have requested the Komasan Song. (Inaccessible in the localization) | - |
-| 0x561B504F             | 1819 | Checks if you have requested the Hidabat Song. (Inaccessible in the localization) | - |
-| 0x8C73DC90             | 1820 | Checks if you have requested the Dismarelda Song. (Inaccessible in the localization) | - |
-| 0x4BE65123             | 1822 | Checks if you have requested the Usapyon Song. (Inaccessible in the localization) | - |
-| 0x2B9A75F6             | 1823 | Checks if you have requested the Shogunyan Song. (Inaccessible in the localization) | - |
-| 0xD6F24985             | 1824 | Checks if you have requested the Lucky Song Records Song. (Inaccessible in the localization) | - |
+| 0x2B78D49C             | 1791 | Checks if you can request the BRAVE Song. | - |
+| 0xFCFB8975             | 1792 | Checks if you can request the MYSTERIOUS Song. | - |
+| 0x7289CC8C             | 1793 | Checks if you can request the TOUGH Song. | - |
+| 0xF1508C42             | 1794 | Checks if you can request the CHARMING Song. | - |
+| 0x912CA897             | 1795 | Checks if you can request the HEARTFUL Song. | - |
+| 0xC8661DB7             | 1796 | Checks if you can request the SHADY Song. | - |
+| 0xA81A3962             | 1797 | Checks if you can request the EERIE Song. | - |
+| 0xEEAAA709             | 1798 | Checks if you can request the SLIPPERY Song. | - |
+| 0x8ED683DC             | 1799 | Checks if you can request the LEGENDARY Song. | - |
+| 0x53D3CB1A             | 1800 | Checks if you can request the WICKED Song. | - |
+| 0x33AFEFCF             | 1801 | Checks if you can request the Neatles Song. (Inaccessible in the localization) | - |
+| 0x932B82B0             | 1802 | Checks if you can request the Pinto Crusaders Song. (Inaccessible in the localization) | - |
+| 0xF357A665             | 1803 | Checks if you can request the The Water Boyz Song. (Inaccessible in the localization) | - |
+| 0x0789D63D (0x789D63D) | 1804 | Checks if you can request the Mystery Song. (Inaccessible in the localization) | - |
+| 0x67F5F2E8             | 1805 | Checks if you can request the Nomnom Brothers Song. (Inaccessible in the localization) | - |
+| 0x0C89254A (0xC89254A) | 1806 | Checks if you can request the Red Hot Oni Backers Song. (Inaccessible in the localization) | - |
+| 0x6CF5019F             | 1807 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
+| 0xD38B47AB             | 1808 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
+| 0x1AD6A23A             | 1811 | Checks if you can request the Sgt. Burly Song. (Inaccessible in the localization) | - |
+| 0xBD3F0B5C             | 1812 | Checks if you can request the Hovernyan Song. (Inaccessible in the localization) | - |
+| 0x202B13FA             | 1814 | Checks if you can request the Cornfused Song. (Inaccessible in the localization) | - |
+| 0x4057372F             | 1815 | Checks if you can request the Roughraff Song. (Inaccessible in the localization) | - |
+| 0xE965167B             | 1816 | Checks if you can request the Jibanyan Song. (Inaccessible in the localization) | - |
+| 0x891932AE             | 1817 | Checks if you can request the Komasan Song. (Inaccessible in the localization) | - |
+| 0x561B504F             | 1819 | Checks if you can request the Hidabat Song. (Inaccessible in the localization) | - |
+| 0x8C73DC90             | 1820 | Checks if you can request the Dismarelda Song. (Inaccessible in the localization) | - |
+| 0x4BE65123             | 1822 | Checks if you can request the Usapyon Song. (Inaccessible in the localization) | - |
+| 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. (Inaccessible in the localization) | - |
+| 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. (Inaccessible in the localization) | - |
 | 0x682A6DDB             | 1825 | - | - |
 | 0xDACCD095             | 1833 | - | - |
 | 0xAAE3DFF9             | 1834 | - | - |
