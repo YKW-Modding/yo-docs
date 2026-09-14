@@ -940,35 +940,35 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8005AAAD             | 1782 | Checks for the VIP Room shop's limited-stock items. | `shpV002` |
 | 0xF7029A3B             | 1783 | Checks for the VIP Room shop's limited-stock items. | `shpV003` |
 | 0x69660F98             | 1784 | Checks for the VIP Room shop's limited-stock items. | `shpV004` |
-| 0x2B78D49C             | 1791 | - | - |
-| 0xFCFB8975             | 1792 | - | - |
-| 0x7289CC8C             | 1793 | - | - |
-| 0xF1508C42             | 1794 | - | - |
-| 0x912CA897             | 1795 | - | - |
-| 0xC8661DB7             | 1796 | - | - |
-| 0xA81A3962             | 1797 | - | - |
-| 0xEEAAA709             | 1798 | - | - |
-| 0x8ED683DC             | 1799 | - | - |
-| 0x53D3CB1A             | 1800 | - | - |
-| 0x33AFEFCF             | 1801 | - | - |
-| 0x932B82B0             | 1802 | - | - |
-| 0xF357A665             | 1803 | - | - |
-| 0x0789D63D (0x789D63D) | 1804 | - | - |
-| 0x67F5F2E8             | 1805 | - | - |
-| 0x0C89254A (0xC89254A) | 1806 | - | - |
-| 0x6CF5019F             | 1807 | - | - |
-| 0xD38B47AB             | 1808 | - | - |
-| 0x1AD6A23A             | 1811 | - | - |
-| 0xBD3F0B5C             | 1812 | - | - |
-| 0x202B13FA             | 1814 | - | - |
-| 0x4057372F             | 1815 | - | - |
-| 0xE965167B             | 1816 | - | - |
-| 0x891932AE             | 1817 | - | - |
-| 0x561B504F             | 1819 | - | - |
-| 0x8C73DC90             | 1820 | - | - |
-| 0x4BE65123             | 1822 | - | - |
-| 0x2B9A75F6             | 1823 | - | - |
-| 0xD6F24985             | 1824 | - | - |
+| 0x2B78D49C             | 1791 | Checks if you have requested the BRAVE Song. | - |
+| 0xFCFB8975             | 1792 | Checks if you have requested the MYSTERIOUS Song. | - |
+| 0x7289CC8C             | 1793 | Checks if you have requested the TOUGH Song. | - |
+| 0xF1508C42             | 1794 | Checks if you have requested the CHARMING Song. | - |
+| 0x912CA897             | 1795 | Checks if you have requested the HEARTFUL Song. | - |
+| 0xC8661DB7             | 1796 | Checks if you have requested the SHADY Song. | - |
+| 0xA81A3962             | 1797 | Checks if you have requested the EERIE Song. | - |
+| 0xEEAAA709             | 1798 | Checks if you have requested the SLIPPERY Song. | - |
+| 0x8ED683DC             | 1799 | Checks if you have requested the LEGENDARY Song. | - |
+| 0x53D3CB1A             | 1800 | Checks if you have requested the WICKED Song. | - |
+| 0x33AFEFCF             | 1801 | Checks if you have requested the Neatles Song. (Inaccessible in the localization) | - |
+| 0x932B82B0             | 1802 | Checks if you have requested the Pinto Crusaders Song. (Inaccessible in the localization) | - |
+| 0xF357A665             | 1803 | Checks if you have requested the The Water Boyz Song. (Inaccessible in the localization) | - |
+| 0x0789D63D (0x789D63D) | 1804 | Checks if you have requested the Mystery Song. (Inaccessible in the localization) | - |
+| 0x67F5F2E8             | 1805 | Checks if you have requested the Nomnom Brothers Song. (Inaccessible in the localization) | - |
+| 0x0C89254A (0xC89254A) | 1806 | Checks if you have requested the Red Hot Oni Backers Song. (Inaccessible in the localization) | - |
+| 0x6CF5019F             | 1807 | Checks if you have requested the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
+| 0xD38B47AB             | 1808 | Checks if you have requested the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
+| 0x1AD6A23A             | 1811 | Checks if you have requested the Sgt. Burly Song. (Inaccessible in the localization) | - |
+| 0xBD3F0B5C             | 1812 | Checks if you have requested the Hovernyan Song. (Inaccessible in the localization) | - |
+| 0x202B13FA             | 1814 | Checks if you have requested the Cornfused Song. (Inaccessible in the localization) | - |
+| 0x4057372F             | 1815 | Checks if you have requested the Roughraff Song. (Inaccessible in the localization) | - |
+| 0xE965167B             | 1816 | Checks if you have requested the Jibanyan Song. (Inaccessible in the localization) | - |
+| 0x891932AE             | 1817 | Checks if you have requested the Komasan Song. (Inaccessible in the localization) | - |
+| 0x561B504F             | 1819 | Checks if you have requested the Hidabat Song. (Inaccessible in the localization) | - |
+| 0x8C73DC90             | 1820 | Checks if you have requested the Dismarelda Song. (Inaccessible in the localization) | - |
+| 0x4BE65123             | 1822 | Checks if you have requested the Usapyon Song. (Inaccessible in the localization) | - |
+| 0x2B9A75F6             | 1823 | Checks if you have requested the Shogunyan Song. (Inaccessible in the localization) | - |
+| 0xD6F24985             | 1824 | Checks if you have requested the Lucky Song Records Song. (Inaccessible in the localization) | - |
 | 0x682A6DDB             | 1825 | - | - |
 | 0xDACCD095             | 1833 | - | - |
 | 0xAAE3DFF9             | 1834 | - | - |
