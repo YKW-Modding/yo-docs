@@ -85,7 +85,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4631101A             | 109  | - | - |
 | 0x99FAD5EA             | 110  | Checks if you can do VIP Links. | - |
 | 0x59B9C20D             | 111  | - | - |
-| 0xFCE7A16E             | 112  | Checks if your VIP Link has expired or not. | - |
+| 0xFCE7A16E             | 112  | - | - |
 | 0x7E069A7D             | 113  | Checks if you can do True Challenge Missions. | - |
 | 0xBF1EF113             | 114  | Checks if you can swap Move-Out Members. | - |
 | 0x6D68C288             | 115  | Checks if you can request songs from KJ? | - |
@@ -970,11 +970,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. (Inaccessible in the localization) | - |
 | 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. (Inaccessible in the localization) | - |
 | 0x682A6DDB             | 1825 | - | - |
-| 0xDACCD095             | 1833 | - | - |
-| 0xAAE3DFF9             | 1834 | - | - |
+| 0xDACCD095             | 1833 | Checks if you have received a Golden Ball from Sergeant Slug. | - |
+| 0xAAE3DFF9             | 1834 | Checks if you have received a Golden Ball from Arachnevil. | - |
 | 0x14970CD4             | 1835 | - | - |
-| 0x2FEE1891             | 1836 | - | - |
-| 0xEE993B27             | 1837 | - | - |
+| 0x2FEE1891             | 1836 | Checks if you have received a Golden Ball from Seaweed Sensei. | - |
+| 0xEE993B27             | 1837 | Checks if you have received a Golden Ball from Bison Burly. | - |
 | 0x526C6576             | 1838 | - | - |
 | 0xF26749CA             | 1839 | - | - |
 | 0x0EF06F61 (0xEF06F61) | 1840 | - | - |
@@ -984,7 +984,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x85A18FC9             | 1844 | - | - |
 | 0xDDC29F9F             | 1845 | - | - |
 | 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
-| 0x138634E1             | 1847 | - | - |
+| 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
 | 0x4A0C9B3C             | 1860 | - | - |
 | 0xD305CA86             | 1861 | - | - |
 | 0xA402FA10             | 1862 | - | - |
