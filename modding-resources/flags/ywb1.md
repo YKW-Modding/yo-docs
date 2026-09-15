@@ -18,9 +18,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
 | 0xF24F1BCA             | 17   | Checks if you have gotten the Music App. | - |
 | 0x316FD2E9             | 19   | Checks if you have gotten the Movies App. | - |
-| 0x29FB87DA             | 21   | Checks if you have returned to the Blasters House after registering for Red Cat Corps/White Dog Squad. | - |
+| 0x29FB87DA             | 21   | Checks if you have registered for the Red Cat Corps/White Dog Squad. | - |
 | 0x804457A6             | 23   | Checks if you have unlocked Leveling Up. | - |
-| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
 | 0x74DB9B28             | 27   | Checks if you have beaten Sproink during the story. | - |
 | 0xE18A5737             | 29   | Checks if you have unlocked Moving Out. | - |
 | 0x8A81D006             | 35   | - | `dictionary_comp_notice` |
@@ -41,19 +41,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB95C81F1             | 60   | Checks if you have broken the Normal Mode Red Paws/Swirlious Omai statue. | - |
 | 0x2055D04B             | 61   | Checks if you have broken the Super Mode Red Paws/Swirlious Omai statue. | - |
 | 0x5752E0DD             | 62   | Checks if you have broken the Ultra Mode Red Paws/Swirlious Omai statue. | - |
-| 0x4C58B88D             | 66   | Checks if you have heard about Komajiro's kidnapping. | - |
+| 0x4C58B88D             | 66   | Checks if you can take on "Komajiro's Rescue Mission!"? | - |
 | 0x2B7C254E             | 67   | - | - |
-| 0x6DF6D0F5             | 68   | - | - |
-| 0xDD27DC87             | 69   | Checks if you can use the Secret Closet? | - |
-| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting? | - |
-| 0x78E27986             | 71   | Checks if you have heard Faux Kappa and Mermaidyn bicker about the other team. | - |
+| 0x6DF6D0F5             | 68   | Checks if you have unlocked Wazzat. | - |
+| 0xDD27DC87             | 69   | Checks if you have unlocked the Secret Closet. | - |
+| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
+| 0x78E27986             | 71   | Checks if you have unlocked Yo-kai Evolution and Fusion. | - |
 | 0xBE45F884             | 72   | Checks if you have unlocked Patrols. | - |
 | 0x0ED75D62 (0xED75D62) | 74   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
 | 0x65562D74             | 75   | Checks if you have unlocked Sub Missions. | - |
-| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
 | 0x49EF0603             | 77   | - | - |
 | 0x51F15479             | 78   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
-| 0xFBC8FDF9             | 79   | Checks if you have been told that you need to scout for allies. | - |
+| 0xFBC8FDF9             | 79   | Checks if you can take on "With a Yo-kai Friend"? | - |
 | 0xCBB6FF0D             | 80   | Checks if you can swap into Usapyon B's outfit. | - |
 | 0x83AAFC54             | 81   | Checks if you can swap into Football Usapyon's outfit. | - |
 | 0xA887AF97             | 82   | Checks if you can swap into Marine Usapyon's outfit. | - |
@@ -83,13 +83,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAAE71453             | 107  | Checks if you have beaten Super Red Paws/Swirlious Omai once. | - |
 | 0x90D6104C             | 108  | - | - |
 | 0x4631101A             | 109  | - | - |
-| 0x99FAD5EA             | 110  | - | - |
+| 0x99FAD5EA             | 110  | Checks if you can do VIP Links. | - |
 | 0x59B9C20D             | 111  | - | - |
 | 0xFCE7A16E             | 112  | Checks if your VIP Link has expired or not. | - |
 | 0x7E069A7D             | 113  | Checks if you can do True Challenge Missions. | - |
 | 0xBF1EF113             | 114  | Checks if you can swap Move-Out Members. | - |
 | 0x6D68C288             | 115  | Checks if you can request songs from KJ? | - |
-| 0xE4EFBD99             | 116  | - | - |
+| 0xE4EFBD99             | 116  | Checks if you can view requested songs from friends? | - |
 | 0x46760D56             | 117  | Checks if you can use the Momotaro wallpaper. | `wallpaper09_release` |
 | 0x0517D033 (0x517D033) | 118  | Checks if you can use the G of Enma wallpaper. | `wallpaper10_release` |
 | 0x126CC470             | 119  | Checks if you can use the Sunshine wallpaper. | `wallpaper11_release` |
