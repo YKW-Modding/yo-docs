@@ -112,311 +112,311 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA01C925D | 96 | - | - |
 | 0x1199B0B7 | 97 | - | - |
 | 0x768A8E93 | 98 | - | - |
-| 0x6BD9104B | 99 | - | `ev01_0100` |
-| 0x699FAE12 | 100 | - | `ev01_0200` |
-| 0x14E85A57 | 101 | Checks if the story scene mv_photo05a/mv_photo05b/ev01_0200/ev01_0250 has been seen. (The Kin/Gin/Bronzlow scene at the start of the game) | `ev01_0250` |
-| 0x685DC425 | 102 | - | `ev01_0300` |
-| 0x152A3060 | 103 | - | `ev01_0350` |
-| 0x6D12D2A0 | 104 | - | `ev01_0400` |
-| 0x5F24B022 | 105 | - | `ev01_0420` |
-| 0x097E17A4 (0x97E17A4) | 106 | - | `ev01_0440` |
-| 0x3B487526 | 107 | - | `ev01_0460` |
-| 0x6CD0B897 | 108 | - | `ev01_0500` |
+| 0x6BD9104B | 99 | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
+| 0x699FAE12 | 100 | Checks if the story scene ev01_0200 has been seen. | `ev01_0200` |
+| 0x14E85A57 | 101 | Checks if the story scene mv_photo05a/mv_photo05b/ev01_0200/ev01_0250 has been seen. (The scene where Kin, Gin, and Bronzlow take the Yo-kai Watch) | `ev01_0250` |
+| 0x685DC425 | 102 | Checks if the story scene ev01_0300 has been seen. | `ev01_0300` |
+| 0x152A3060 | 103 | Checks if the story scene ev01_0350 has been seen. | `ev01_0350` |
+| 0x6D12D2A0 | 104 | Checks if the story scene ev01_0400 has been seen. | `ev01_0400` |
+| 0x5F24B022 | 105 | Checks if the story scene ev01_0420 has been seen. | `ev01_0420` |
+| 0x097E17A4 (0x97E17A4) | 106 | Checks if the story scene ev01_0440 has been seen. | `ev01_0440` |
+| 0x3B487526 | 107 | Checks if the story scene ev01_0460 has been seen. | `ev01_0460` |
+| 0x6CD0B897 | 108 | Checks if the story scene ev01_0500 has been seen. | `ev01_0500` |
 | 0x3EF0998A | 109 | - | - |
-| 0x6E9606CE | 110 | - | `ev01_0600` |
-| 0x6F546CF9 | 111 | - | `ev01_0700` |
-| 0x122398BC | 112 | - | `ev01_0750` |
-| 0x64082BC4 | 113 | - | `ev01_0800` |
-| 0x65CA41F3 | 114 | - | `ev01_0900` |
-| 0xD2A71D19 | 115 | - | `ev01_1000` |
-| 0xD365772E | 116 | - | `ev01_1100` |
-| 0xD123C977 | 117 | - | `ev01_1200` |
-| 0xD0E1A340 | 118 | - | `ev01_1300` |
-| 0xAD965705 | 119 | - | `ev01_1350` |
+| 0x6E9606CE | 110 | Checks if the story scene ev01_0600 has been seen. | `ev01_0600` |
+| 0x6F546CF9 | 111 | Checks if the story scene ev01_0700 has been seen. | `ev01_0700` |
+| 0x122398BC | 112 | Checks if the story scene ev01_0750 has been seen. | `ev01_0750` |
+| 0x64082BC4 | 113 | Checks if the story scene ev01_0800 has been seen. | `ev01_0800` |
+| 0x65CA41F3 | 114 | Checks if the story scene ev01_0900 has been seen. | `ev01_0900` |
+| 0xD2A71D19 | 115 | Checks if the story scene ev01_1000 has been seen. | `ev01_1000` |
+| 0xD365772E | 116 | Checks if the story scene ev01_1100 has been seen. | `ev01_1100` |
+| 0xD123C977 | 117 | Checks if the story scene ev01_1200 has been seen. | `ev01_1200` |
+| 0xD0E1A340 | 118 | Checks if the story scene ev01_1300 has been seen. | `ev01_1300` |
+| 0xAD965705 | 119 | Checks if the story scene ev01_1350 has been seen. | `ev01_1350` |
 | 0x839256DB | 120 | - | - |
-| 0xD5AEB5C5 | 121 | - | `ev01_1400` |
-| 0xD62A61AB | 122 | Checks if the story scene mv_photo06a/mv_photo06b/ev01_1600 has been seen. (The scene where Nate/Katie chucks a capsule holding Whisper at the start of the game) | `ev01_1600` |
-| 0xD7E80B9C | 123 | - | `ev01_1700` |
-| 0xDCB44CA1 | 124 | - | `ev01_1800` |
-| 0xDD762696 | 125 | - | `ev01_1900` |
+| 0xD5AEB5C5 | 121 | Checks if the story scene ev01_1400 has been seen. | `ev01_1400` |
+| 0xD62A61AB | 122 | Checks if the story scene mv_photo06a/mv_photo06b/ev01_1600 has been seen. (The scene where you chuck a capsule holding Whisper) | `ev01_1600` |
+| 0xD7E80B9C | 123 | Checks if the story scene ev01_1700 has been seen. | `ev01_1700` |
+| 0xDCB44CA1 | 124 | Checks if the story scene ev01_1800 has been seen. | `ev01_1800` |
+| 0xDD762696 | 125 | Checks if the story scene ev01_1900 has been seen. | `ev01_1900` |
 | 0xC012B2F7 | 126 | Checks if the story scene mv_photo07a/mv_photo07b/ev01_2000 has been seen. (The scene where Jibanyan gets run over) | `ev01_2000` |
-| 0xC1D0D8C0 | 127 | - | `ev01_2100` |
-| 0xC3966699 | 128 | - | `ev01_2200` |
-| 0xC2540CAE | 129 | - | `ev01_2300` |
-| 0xBF23F8EB | 130 | - | `ev01_2350` |
+| 0xC1D0D8C0 | 127 | Checks if the story scene ev01_2100 has been seen. | `ev01_2100` |
+| 0xC3966699 | 128 | Checks if the story scene ev01_2200 has been seen. | `ev01_2200` |
+| 0xC2540CAE | 129 | Checks if the story scene ev01_2300 has been seen. | `ev01_2300` |
+| 0xBF23F8EB | 130 | Checks if the story scene ev01_2350 has been seen. | `ev01_2350` |
 | 0x75FA5433 | 131 | - | `wm_t101g00_01` |
-| 0xC71B1A2B | 132 | - | `ev01_2400` |
+| 0xC71B1A2B | 132 | Checks if the story scene ev01_2400 has been seen. | `ev01_2400` |
 | 0xC6D9701C | 133 | Checks if the story scene mv_photo08a/mv_photo08b/ev01_2500 has been seen. (The scene where Nate summons Jibanyan against Brushido) | `ev01_2500` |
-| 0xC49FCE45 | 134 | - | `ev01_2600` |
+| 0xC49FCE45 | 134 | Checks if the story scene ev01_2600 has been seen. | `ev01_2600` |
 | 0xE490507C | 135 | - | `ev01_btl0010` |
-| 0xC55DA472 | 136 | - | `ev01_2700` |
-| 0xC900B530 | 137 | - | `ev01_9990` |
+| 0xC55DA472 | 136 | Checks if the story scene ev01_2700 has been seen. | `ev01_2700` |
+| 0xC900B530 | 137 | Checks if the story scene ev01_9990 has been seen, | `ev01_9990` |
 | 0x133FFF8F | 138 | - | - |
-| 0xED4D62E5 | 139 | - | `ev02_0100` |
-| 0x903A96A0 | 140 | - | `ev02_0150` |
-| 0xEF0BDCBC | 141 | - | `ev02_0200` |
-| 0xEEC9B68B | 142 | - | `ev02_0300` |
-| 0xEB86A00E | 143 | - | `ev02_0400` |
+| 0xED4D62E5 | 139 | Checks if the story scene ev02_0100 has been seen. | `ev02_0100` |
+| 0x903A96A0 | 140 | Checks if the story scene ev02_0150 has been seen. | `ev02_0150` |
+| 0xEF0BDCBC | 141 | Checks if the story scene ev02_0200 has been seen. | `ev02_0200` |
+| 0xEEC9B68B | 142 | Checks if the story scene ev02_0300 has been seen. | `ev02_0300` |
+| 0xEB86A00E | 143 | Checks if the story scene ev02_0400 has been seen. | `ev02_0400` |
 | 0xDD1D6CB9 | 144 | - | `ev02_btl0010` |
-| 0xEA44CA39 | 145 | - | `ev02_0500` |
-| 0xE8027460 | 146 | - | `ev02_0600` |
-| 0xBE58D3E6 | 147 | - | `ev02_0660` |
-| 0xE9C01E57 | 148 | - | `ev02_0700` |
-| 0xE29C596A | 149 | - | `ev02_0800` |
-| 0xE35E335D | 150 | - | `ev02_0900` |
-| 0x9E29C718 | 151 | - | `ev02_0950` |
-| 0x54336FB7 | 152 | - | `ev02_1000` |
-| 0x55F10580 | 153 | - | `ev02_1100` |
-| 0x57B7BBD9 | 154 | - | `ev02_1200` |
-| 0x5675D1EE | 155 | - | `ev02_1300` |
-| 0x533AC76B | 156 | - | `ev02_1400` |
-| 0x52F8AD5C | 157 | - | `ev02_1500` |
-| 0x2F8F5919 | 158 | - | `ev02_1550` |
-| 0x50BE1305 | 159 | - | `ev02_1600` |
-| 0x2DC9E740 | 160 | - | `ev02_1650` |
+| 0xEA44CA39 | 145 | Checks if the story scene ev02_0500 has been seen. | `ev02_0500` |
+| 0xE8027460 | 146 | Checks if the story scene ev02_0600 has been seen. | `ev02_0600` |
+| 0xBE58D3E6 | 147 | Checks if the story scene ev02_0660 has been seen. | `ev02_0660` |
+| 0xE9C01E57 | 148 | Checks if the story scene ev02_0700 has been seen. | `ev02_0700` |
+| 0xE29C596A | 149 | Checks if the story scene ev02_0800 has been seen. | `ev02_0800` |
+| 0xE35E335D | 150 | Checks if the story scene ev02_0900 has been seen. | `ev02_0900` |
+| 0x9E29C718 | 151 | Checks if the story scene ev02_0950 has been seen. | `ev02_0950` |
+| 0x54336FB7 | 152 | Checks if the story scene ev02_1000 has been seen. | `ev02_1000` |
+| 0x55F10580 | 153 | Checks if the story scene ev02_1100 has been seen. | `ev02_1100` |
+| 0x57B7BBD9 | 154 | Checks if the story scene ev02_1200 has been seen. | `ev02_1200` |
+| 0x5675D1EE | 155 | Checks if the story scene ev02_1300 has been seen. | `ev02_1300` |
+| 0x533AC76B | 156 | Checks if the story scene ev02_1400 has been seen. | `ev02_1400` |
+| 0x52F8AD5C | 157 | Checks if the story scene ev02_1500 has been seen. | `ev02_1500` |
+| 0x2F8F5919 | 158 | Checks if the story scene ev02_1550 has been seen. | `ev02_1550` |
+| 0x50BE1305 | 159 | Checks if the story scene ev02_1600 has been seen. | `ev02_1600` |
+| 0x2DC9E740 | 160 | Checks if the story scene ev02_1650 has been seen. | `ev02_1650` |
 | 0x09757A3D (0x9757A3D) | 161 | - | - |
-| 0x517C7932 | 162 | - | `ev02_1700` |
+| 0x517C7932 | 162 | Checks if the story scene ev02_1700 has been seen. | `ev02_1700` |
 | 0xF6303F7A | 163 | - | `ev02_btl0020` |
-| 0x5A203E0F | 164 | - | `ev02_1800` |
-| 0x2757CA4A | 165 | - | `ev02_1850` |
-| 0x5BE25438 | 166 | - | `ev02_1900` |
-| 0x4686C059 | 167 | - | `ev02_2000` |
+| 0x5A203E0F | 164 | Checks if the story scene ev02_1800 has been seen. | `ev02_1800` |
+| 0x2757CA4A | 165 | Checks if the story scene ev02_1850 has been seen. | `ev02_1850` |
+| 0x5BE25438 | 166 | Checks if the story scene ev02_1900 has been seen. | `ev02_1900` |
+| 0x4686C059 | 167 | Checks if the story scene ev02_2000 has been seen. | `ev02_2000` |
 | 0xEF2B0E3B | 168 | - | `ev02_btl0030` |
-| 0x4744AA6E | 169 | - | `ev02_2100` |
-| 0x45021437 | 170 | - | `ev02_2200` |
-| 0x4F94C79E | 171 | - | `ev02_9990` |
+| 0x4744AA6E | 169 | Checks if the story scene ev02_2100 has been seen. | `ev02_2100` |
+| 0x45021437 | 170 | Checks if the story scene ev02_2200 has been seen. | `ev02_2200` |
+| 0x4F94C79E | 171 | Checks if the story scene ev02_9990 has been seen. | `ev02_9990` |
 | 0x41D368AF | 172 | - | - |
-| 0x2611B140 | 173 | - | `ev03_0100` |
-| 0x24570F19 | 174 | - | `ev03_0200` |
-| 0x2595652E | 175 | - | `ev03_0300` |
-| 0x20DA73AB | 176 | - | `ev03_0400` |
-| 0x2118199C | 177 | - | `ev03_0500` |
+| 0x2611B140 | 173 | Checks if the story scene ev03_0100 has been seen. | `ev03_0100` |
+| 0x24570F19 | 174 | Checks if the story scene ev03_0200 has been seen. | `ev03_0200` |
+| 0x2595652E | 175 | Checks if the story scene ev03_0300 has been seen. | `ev03_0300` |
+| 0x20DA73AB | 176 | Checks if the story scene ev03_0400 has been seen. | `ev03_0400` |
+| 0x2118199C | 177 | Checks if the story scene ev03_0500 has been seen. | `ev03_0500` |
 | 0xCA6678FA | 178 | - | `ev03_btl0010` |
-| 0x235EA7C5 | 179 | - | `ev03_0600` |
-| 0x229CCDF2 | 180 | - | `ev03_0700` |
-| 0x29C08ACF | 181 | - | `ev03_0800` |
-| 0x54B77E8A | 182 | - | `ev03_0850` |
-| 0xE11900C7 | 183 | - | `ev03_0880` |
-| 0x2802E0F8 | 184 | - | `ev03_0900` |
-| 0x557514BD | 185 | - | `ev03_0950` |
-| 0x9F6FBC12 | 186 | - | `ev03_1000` |
-| 0x9EADD625 | 187 | - | `ev03_1100` |
-| 0xE3DA2260 | 188 | - | `ev03_1150` |
-| 0x9CEB687C | 189 | - | `ev03_1200` |
-| 0x9D29024B | 190 | - | `ev03_1300` |
-| 0x986614CE | 191 | - | `ev03_1400` |
-| 0x99A47EF9 | 192 | - | `ev03_1500` |
-| 0x9BE2C0A0 | 193 | - | `ev03_1600` |
-| 0x9A20AA97 | 194 | - | `ev03_1700` |
-| 0x917CEDAA | 195 | Checks if the story scene mv_photo09/ev03_1800 has been seen. (The scene where Gargaros appears in Terror Time; occurs first during the story after Whatta Find is first entered) | `ev03_1800` |
-| 0x90BE879D | 196 | - | `ev03_1900` |
-| 0x8DDA13FC | 197 | - | `ev03_2000` |
-| 0xF0ADE7B9 | 198 | - | `ev03_2050` |
-| 0x8C1879CB | 199 | Checks if the story scene mv_photo10a/mv_photo10b/ev03_2100 has been seen. (The scripted scene where Gargaros chases the player to the exit; only occurs during the story after Whatta Find is first entered) | `ev03_2100` |
-| 0x8E5EC792 | 200 | - | `ev03_2200` |
-| 0x8F9CADA5 | 201 | - | `ev03_2300` |
-| 0xF2EB59E0 | 202 | - | `ev03_2350` |
-| 0x8AD3BB20 | 203 | - | `ev03_2400` |
-| 0x8B11D117 | 204 | - | `ev03_2500` |
-| 0x89576F4E | 205 | - | `ev03_2600` |
-| 0x83C94244 | 206 | - | `ev03_2800` |
-| 0xFEBEB601 | 207 | - | `ev03_2850` |
+| 0x235EA7C5 | 179 | Checks if the story scene ev03_0600 has been seen. | `ev03_0600` |
+| 0x229CCDF2 | 180 | Checks if the story scene ev03_0700 has been seen. | `ev03_0700` |
+| 0x29C08ACF | 181 | Checks if the story scene ev03_0800 has been seen. | `ev03_0800` |
+| 0x54B77E8A | 182 | Checks if the story scene ev03_0850 has been seen. | `ev03_0850` |
+| 0xE11900C7 | 183 | Checks if the story scene ev03_0880 has been seen. | `ev03_0880` |
+| 0x2802E0F8 | 184 | Checks if the story scene ev03_0900 has been seen. | `ev03_0900` |
+| 0x557514BD | 185 | Checks if the story scene ev03_0950 has been seen. | `ev03_0950` |
+| 0x9F6FBC12 | 186 | Checks if the story scene ev03_1000 has been seen. | `ev03_1000` |
+| 0x9EADD625 | 187 | Checks if the story scene ev03_1100 has been seen. | `ev03_1100` |
+| 0xE3DA2260 | 188 | Checks if the story scene ev03_1150 has been seen. | `ev03_1150` |
+| 0x9CEB687C | 189 | Checks if the story scene ev03_1200 has been seen. | `ev03_1200` |
+| 0x9D29024B | 190 | Checks if the story scene ev03_1300 has been seen. | `ev03_1300` |
+| 0x986614CE | 191 | Checks if the story scene ev03_1400 has been seen. | `ev03_1400` |
+| 0x99A47EF9 | 192 | Checks if the story scene ev03_1500 has been seen. | `ev03_1500` |
+| 0x9BE2C0A0 | 193 | Checks if the story scene ev03_1600 has been seen. | `ev03_1600` |
+| 0x9A20AA97 | 194 | Checks if the story scene ev03_1700 has been seen. | `ev03_1700` |
+| 0x917CEDAA | 195 | Checks if the story scene mv_photo09/ev03_1800 has been seen. (The scene where Gargaros first appears in Terror Time) | `ev03_1800` |
+| 0x90BE879D | 196 | Checks if the story scene ev03_1900 has been seen. | `ev03_1900` |
+| 0x8DDA13FC | 197 | Checks if the story scene ev03_2000 has been seen. | `ev03_2000` |
+| 0xF0ADE7B9 | 198 | Checks if the story scene ev03_2050 has been seen. | `ev03_2050` |
+| 0x8C1879CB | 199 | Checks if the story scene mv_photo10a/mv_photo10b/ev03_2100 has been seen. (The scene where Gargaros chases the player to the exit) | `ev03_2100` |
+| 0x8E5EC792 | 200 | Checks if the story scene ev03_2200 has been seen. | `ev03_2200` |
+| 0x8F9CADA5 | 201 | Checks if the story scene ev03_2300 has been seen. | `ev03_2300` |
+| 0xF2EB59E0 | 202 | Checks if the story scene ev03_2350 has been seen. | `ev03_2350` |
+| 0x8AD3BB20 | 203 | Checks if the story scene ev03_2400 has been seen. | `ev03_2400` |
+| 0x8B11D117 | 204 | Checks if the story scene ev03_2500 has been seen. | `ev03_2500` |
+| 0x89576F4E | 205 | Checks if the story scene ev03_2600 has been seen. | `ev03_2600` |
+| 0x83C94244 | 206 | Checks if the story scene ev03_2800 has been seen. | `ev03_2800` |
+| 0xFEBEB601 | 207 | Checks if the story scene mv_photo11/ev03_2850 has been seen. | `ev03_2850` |
 | 0xE14B2B39 | 208 | - | `ev03_btl0020` |
-| 0x820B2873 | 209 | - | `ev03_2900` |
-| 0x84C8143B | 210 | - | `ev03_9990` |
-| 0x47A11F8A | 212 | - | `ev04_0050` |
-| 0x3B1481F8 | 213 | - | `ev04_0100` |
-| 0x39523FA1 | 214 | - | `ev04_0200` |
-| 0x38905596 | 215 | - | `ev04_0300` |
+| 0x820B2873 | 209 | Checks if the story scene ev03_2900 has been seen. | `ev03_2900` |
+| 0x84C8143B | 210 | Checks if the story scene ev03_9990 has been seen. | `ev03_9990` |
+| 0x47A11F8A | 212 | Checks if the story scene ev04_0050 has been seen. | `ev04_0050` |
+| 0x3B1481F8 | 213 | Checks if the story scene ev04_0100 has been seen. | `ev04_0100` |
+| 0x39523FA1 | 214 | Checks if the story scene ev04_0200 has been seen. | `ev04_0200` |
+| 0x38905596 | 215 | Checks if the story scene ev04_0300 has been seen. | `ev04_0300` |
 | 0x6CC8B62D | 216 | - | - |
-| 0x3DDF4313 | 217 | - | `ev04_0400` |
-| 0x40A8B756 | 218 | - | `ev04_0450` |
-| 0x3C1D2924 | 219 | - | `ev04_0500` |
-| 0x416ADD61 | 220 | - | `ev04_0550` |
-| 0x3E5B977D | 221 | - | `ev04_0600` |
-| 0x3F99FD4A | 222 | - | `ev04_0700` |
-| 0x85632476 | 223 | - | `ev04_1400` |
-| 0x84A14E41 | 224 | - | `ev04_1500` |
-| 0x86E7F018 | 225 | - | `ev04_1600` |
-| 0xFB90045D | 226 | - | `ev04_1650` |
+| 0x3DDF4313 | 217 | Checks if the story scene ev04_0400 has been seen. | `ev04_0400` |
+| 0x40A8B756 | 218 | Checks if the story scene ev04_0450 has been seen. | `ev04_0450` |
+| 0x3C1D2924 | 219 | Checks if the story scene ev04_0500 has been seen. | `ev04_0500` |
+| 0x416ADD61 | 220 | Checks if the story scene ev04_0550 has been seen. | `ev04_0550` |
+| 0x3E5B977D | 221 | Checks if the story scene ev04_0600 has been seen. | `ev04_0600` |
+| 0x3F99FD4A | 222 | Checks if the story scene ev04_0700 has been seen. | `ev04_0700` |
+| 0x85632476 | 223 | Checks if the story scene ev04_1400 has been seen. | `ev04_1400` |
+| 0x84A14E41 | 224 | Checks if the story scene ev04_1500 has been seen. | `ev04_1500` |
+| 0x86E7F018 | 225 | Checks if the story scene ev04_1600 has been seen. | `ev04_1600` |
+| 0xFB90045D | 226 | Checks if the story scene ev04_1650 has been seen. | `ev04_1650` |
 | 0x67EAC0D3 | 227 | - | - |
-| 0xD0BD579E | 228 | - | `ev04_1660` |
-| 0xC9A666DF | 229 | - | `ev04_1670` |
+| 0xD0BD579E | 228 | Checks if the story scene ev04_1660 has been seen. | `ev04_1660` |
+| 0xC9A666DF | 229 | Checks if the story scene ev04_1670 has been seen. | `ev04_1670` |
 | 0xFEE39169 | 230 | - | - |
-| 0x87259A2F | 231 | - | `ev04_1700` |
-| 0x8C79DD12 | 232 | - | `ev04_1800` |
-| 0xBE4FBF90 | 233 | - | `ev04_1820` |
-| 0xA7548ED1 | 234 | - | `ev04_1830` |
-| 0x8DBBB725 | 235 | - | `ev04_1900` |
-| 0x90DF2344 | 236 | - | `ev04_2000` |
-| 0x911D4973 | 237 | - | `ev04_2100` |
-| 0xEC6ABD36 | 238 | - | `ev04_2150` |
-| 0xDE5CDFB4 | 239 | - | `ev04_2170` |
-| 0x59C4C37B | 240 | - | `ev04_2180` |
-| 0x935BF72A | 241 | - | `ev04_2200` |
-| 0x92999D1D | 242 | - | `ev04_2300` |
+| 0x87259A2F | 231 | Checks if the story scene ev04_1700 has been seen. | `ev04_1700` |
+| 0x8C79DD12 | 232 | Checks if the story scene ev04_1800 has been seen. | `ev04_1800` |
+| 0xBE4FBF90 | 233 | Checks if the story scene ev04_1820 has been seen. | `ev04_1820` |
+| 0xA7548ED1 | 234 | Checks if the story scene ev04_1830 has been seen. | `ev04_1830` |
+| 0x8DBBB725 | 235 | Checks if the story scene ev04_1900 has been seen. | `ev04_1900` |
+| 0x90DF2344 | 236 | Checks if the story scene ev04_2000 has been seen. | `ev04_2000` |
+| 0x911D4973 | 237 | Checks if the story scene ev04_2100 has been seen. | `ev04_2100` |
+| 0xEC6ABD36 | 238 | Checks if the story scene ev04_2150 has been seen. | `ev04_2150` |
+| 0xDE5CDFB4 | 239 | Checks if the story scene ev04_2170 has been seen. | `ev04_2170` |
+| 0x59C4C37B | 240 | Checks if the story scene ev04_2180 has been seen. | `ev04_2180` |
+| 0x935BF72A | 241 | Checks if the story scene ev04_2200 has been seen. | `ev04_2200` |
+| 0x92999D1D | 242 | Checks if the story scene ev04_2300 has been seen. | `ev04_2300` |
 | 0xAE071533 | 243 | - | `ev04_btl0010` |
-| 0x97D68B98 | 244 | - | `ev04_2400` |
+| 0x97D68B98 | 244 | Checks if the story scene ev04_2400 has been seen. | `ev04_2400` |
 | 0xBAD540B2 | 245 | - | - |
-| 0x9614E1AF | 246 | - | `ev04_2500` |
-| 0x94525FF6 | 247 | - | `ev04_2600` |
-| 0x959035C1 | 248 | - | `ev04_2700` |
-| 0x9ECC72FC | 249 | - | `ev04_2800` |
-| 0xE3BB86B9 | 250 | - | `ev04_2850` |
+| 0x9614E1AF | 246 | Checks if the story scene ev04_2500 has been seen. | `ev04_2500` |
+| 0x94525FF6 | 247 | Checks if the story scene ev04_2600 has been seen. | `ev04_2600` |
+| 0x959035C1 | 248 | Checks if the story scene ev04_2700 has been seen. | `ev04_2700` |
+| 0x9ECC72FC | 249 | Checks if the story scene ev04_2800 has been seen. | `ev04_2800` |
+| 0xE3BB86B9 | 250 | Checks if the story scene ev04_2850 has been seen. | `ev04_2850` |
 | 0x852A46F0 | 251 | - | `ev04_btl0020` |
-| 0x9F0E18CB | 252 | - | `ev04_2900` |
-| 0x99CD2483 | 253 | - | `ev04_9990` |
+| 0x9F0E18CB | 252 | Checks if the story scene ev04_2900 has been seen. | `ev04_2900` |
+| 0x99CD2483 | 253 | Checks if the story scene ev04_9990 has been seen. | `ev04_9990` |
 | 0xB941E1C4 | 254 | - | - |
-| 0xF048525D | 255 | - | `ev05_0100` |
-| 0xF20EEC04 | 256 | - | `ev05_0200` |
-| 0xF3CC8633 | 257 | - | `ev05_0300` |
-| 0xF68390B6 | 258 | - | `ev05_0400` |
-| 0xF50744D8 | 259 | - | `ev05_0600` |
-| 0xF4C52EEF | 260 | - | `ev05_0700` |
-| 0xFF9969D2 | 261 | - | `ev05_0800` |
-| 0xFE5B03E5 | 262 | - | `ev05_0900` |
-| 0x49365F0F | 263 | - | `ev05_1000` |
-| 0x48F43538 | 264 | - | `ev05_1100` |
-| 0x4B70E156 | 265 | - | `ev05_1300` |
-| 0x5ECCE664 | 266 | - | `ev05_2700` |
-| 0x5590A159 | 267 | - | `ev05_2800` |
-| 0x5291F726 | 268 | - | `ev05_9990` |
-| 0x4AB28B61 | 269 | - | `ev05_1200` |
-| 0x76DC20F3 | 270 | - | `ev06_0100` |
-| 0x0BABD4B6 (0xBABD4B6) | 271 | - | `ev06_0150` |
-| 0x749A9EAA | 272 | - | `ev06_0200` |
-| 0x7558F49D | 273 | - | `ev06_0300` |
-| 0xDCD5E878 | 274 | - | `ev06_2100` |
-| 0xDE935621 | 275 | - | `ev06_2200` |
-| 0xDF513C16 | 276 | - | `ev06_2300` |
+| 0xF048525D | 255 | Checks if the story scene ev05_0100 has been seen. | `ev05_0100` |
+| 0xF20EEC04 | 256 | Checks if the story scene ev05_0200 has been seen. | `ev05_0200` |
+| 0xF3CC8633 | 257 | Checks if the story scene ev05_0300 has been seen. | `ev05_0300` |
+| 0xF68390B6 | 258 | Checks if the story scene mv_photo83/ev05_0450 has been seen. | `ev05_0400` |
+| 0xF50744D8 | 259 | Checks if the story scene mv_photo84/ev05_0550 has been seen. | `ev05_0600` |
+| 0xF4C52EEF | 260 | Checks if the story scene ev05_0700 has been seen. | `ev05_0700` |
+| 0xFF9969D2 | 261 | Checks if the story scene ev05_0800 has been seen. | `ev05_0800` |
+| 0xFE5B03E5 | 262 | Checks if the story scene ev05_0900 has been seen. | `ev05_0900` |
+| 0x49365F0F | 263 | Checks if the story scene ev05_1000 has been seen. | `ev05_1000` |
+| 0x48F43538 | 264 | Checks if the story scene ev05_1100 has been seen. | `ev05_1100` |
+| 0x4B70E156 | 265 | Checks if the story scene ev05_1300 has been seen. | `ev05_1300` |
+| 0x5ECCE664 | 266 | Checks if the story scene ev05_2700 has been seen. | `ev05_2700` |
+| 0x5590A159 | 267 | Checks if the story scene ev05_2800 has been seen. | `ev05_2800` |
+| 0x5291F726 | 268 | Checks if the story scene ev05_9990 has been seen. | `ev05_9990` |
+| 0x4AB28B61 | 269 | Checks if the story scene ev05_1200 has been seen. | `ev05_1200` |
+| 0x76DC20F3 | 270 | Checks if the story scene ev06_0100 has been seen. | `ev06_0100` |
+| 0x0BABD4B6 (0xBABD4B6) | 271 | Checks if the story scene ev06_0150 has been seen. | `ev06_0150` |
+| 0x749A9EAA | 272 | Checks if the story scene ev06_0200 has been seen. | `ev06_0200` |
+| 0x7558F49D | 273 | Checks if the story scene ev06_0300 has been seen. | `ev06_0300` |
+| 0xDCD5E878 | 274 | Checks if the story scene ev06_2100 has been seen. | `ev06_2100` |
+| 0xDE935621 | 275 | Checks if the story scene ev06_2200 has been seen. | `ev06_2200` |
+| 0xDF513C16 | 276 | Checks if the story scene ev06_2300 has been seen. | `ev06_2300` |
 | 0xFD86C9F0 | 277 | - | `ev06_btl0040` |
-| 0xDA1E2A93 | 278 | - | `ev06_2400` |
-| 0xDBDC40A4 | 279 | - | `ev06_2500` |
-| 0xD99AFEFD | 280 | - | `ev06_2600` |
-| 0xD4058588 | 281 | - | `ev06_9990` |
+| 0xDA1E2A93 | 278 | Checks if the story scene ev06_2400 has been seen. | `ev06_2400` |
+| 0xDBDC40A4 | 279 | Checks if the story scene ev06_2500 has been seen. | `ev06_2500` |
+| 0xD99AFEFD | 280 | Checks if the story scene ev06_2600 has been seen. | `ev06_2600` |
+| 0xD4058588 | 281 | Checks if the story scene ev06_9990 has been seen. | `ev06_9990` |
 | 0x1C6A258F | 282 | - | - |
-| 0xBD80F356 | 283 | - | `ev07_0100` |
-| 0xBFC64D0F | 284 | - | `ev07_0200` |
-| 0xC2B1B94A | 285 | - | `ev07_0250` |
-| 0xBE042738 | 286 | - | `ev07_0300` |
-| 0xBB4B31BD | 287 | - | `ev07_0400` |
-| 0xBA895B8A | 288 | - | `ev07_0500` |
-| 0xB8CFE5D3 | 289 | - | `ev07_0600` |
-| 0xB90D8FE4 | 290 | - | `ev07_0700` |
-| 0xB251C8D9 | 291 | - | `ev07_0800` |
+| 0xBD80F356 | 283 | Checks if the story scene ev07_0100 has been seen. | `ev07_0100` |
+| 0xBFC64D0F | 284 | Checks if the story scene ev07_0200 has been seen. | `ev07_0200` |
+| 0xC2B1B94A | 285 | Checks if the story scene ev07_0250 has been seen. | `ev07_0250` |
+| 0xBE042738 | 286 | Checks if the story scene ev07_0300 has been seen. | `ev07_0300` |
+| 0xBB4B31BD | 287 | Checks if the story scene ev07_0400 has been seen. | `ev07_0400` |
+| 0xBA895B8A | 288 | Checks if the story scene ev07_0500 has been seen. | `ev07_0500` |
+| 0xB8CFE5D3 | 289 | Checks if the story scene ev07_0600 has been seen. | `ev07_0600` |
+| 0xB90D8FE4 | 290 | Checks if the story scene ev07_0700 has been seen. | `ev07_0700` |
+| 0xB251C8D9 | 291 | Checks if the story scene ev07_0800 has been seen. | `ev07_0800` |
 | 0x978A29F6 | 292 | - | `ev07_btl0010` |
-| 0xB393A2EE | 293 | - | `ev07_0900` |
-| 0x1F59562D | 294 | - | `ev07_9990` |
+| 0xB393A2EE | 293 | Checks if the story scene ev07_0900 has been seen. | `ev07_0900` |
+| 0x1F59562D | 294 | Checks if the story scene ev07_9990 has been seen. | `ev07_9990` |
 | 0x67CE4A99 | 295 | - | - |
-| 0x4CD64183 | 296 | - | `ev08_0100` |
-| 0x4E90FFDA | 297 | - | `ev08_0200` |
-| 0x4F5295ED | 298 | - | `ev08_0300` |
-| 0x4A1D8368 | 299 | - | `ev08_0400` |
-| 0x4BDFE95F | 300 | - | `ev08_0500` |
-| 0x49995706 | 301 | - | `ev08_0600` |
-| 0x485B3D31 | 302 | - | `ev08_0700` |
-| 0x43077A0C | 303 | - | `ev08_0800` |
-| 0x42C5103B | 304 | - | `ev08_0900` |
+| 0x4CD64183 | 296 | Checks if the story scene ev08_0100 has been seen. | `ev08_0100` |
+| 0x4E90FFDA | 297 | Checks if the story scene ev08_0200 has been seen. | `ev08_0200` |
+| 0x4F5295ED | 298 | Checks if the story scene ev08_0300 has been seen. | `ev08_0300` |
+| 0x4A1D8368 | 299 | Checks if the story scene ev08_0400 has been seen. | `ev08_0400` |
+| 0x4BDFE95F | 300 | Checks if the story scene ev08_0500 has been seen. | `ev08_0500` |
+| 0x49995706 | 301 | Checks if the story scene ev08_0600 has been seen. | `ev08_0600` |
+| 0x485B3D31 | 302 | Checks if the story scene ev08_0700 has been seen. | `ev08_0700` |
+| 0x43077A0C | 303 | Checks if the story scene ev08_0800 has been seen. | `ev08_0800` |
+| 0x42C5103B | 304 | Checks if the story scene ev08_0900 has been seen. | `ev08_0900` |
 | 0x4833E627 | 305 | - | `ev08_btl0010` |
-| 0xF5A84CD1 | 306 | - | `ev08_1000` |
-| 0xF46A26E6 | 307 | - | `ev08_1100` |
-| 0xF62C98BF | 308 | - | `ev08_1200` |
-| 0xF7EEF288 | 309 | - | `ev08_1300` |
-| 0xF2A1E40D | 310 | - | `ev08_1400` |
-| 0xF3638E3A | 311 | - | `ev08_1500` |
+| 0xF5A84CD1 | 306 | Checks if the story scene ev08_1000 has been seen. | `ev08_1000` |
+| 0xF46A26E6 | 307 | Checks if the story scene ev08_1100 has been seen. | `ev08_1100` |
+| 0xF62C98BF | 308 | Checks if the story scene ev08_1200 has been seen. | `ev08_1200` |
+| 0xF7EEF288 | 309 | Checks if the story scene ev08_1300 has been seen. | `ev08_1300` |
+| 0xF2A1E40D | 310 | Checks if the story scene ev08_1400 has been seen. | `ev08_1400` |
+| 0xF3638E3A | 311 | Checks if the story scene ev08_1500 has been seen. | `ev08_1500` |
 | 0x631EB5E4 | 312 | - | `ev08_btl0020` |
-| 0xF1253063 | 313 | - | `ev08_1600` |
-| 0xF0E75A54 | 314 | - | `ev08_1700` |
-| 0x8D90AE11 | 315 | - | `ev08_1750` |
+| 0xF1253063 | 313 | Checks if the story scene ev08_1600 has been seen. | `ev08_1600` |
+| 0xF0E75A54 | 314 | Checks if the story scene ev08_1700 has been seen. | `ev08_1700` |
+| 0x8D90AE11 | 315 | Checks if the story scene ev08_1750 has been seen. | `ev08_1750` |
 | 0x7A0584A5 | 316 | - | `ev08_btl0030` |
-| 0xFBBB1D69 | 317 | - | `ev08_1800` |
-| 0xFA79775E | 318 | - | `ev08_1900` |
+| 0xFBBB1D69 | 317 | Checks if the story scene ev08_1800 has been seen. | `ev08_1800` |
+| 0xFA79775E | 318 | Checks if the story scene ev08_1900 has been seen. | `ev08_1900` |
 | 0x35441262 | 319 | - | `ev08_btl0040` |
-| 0xE71DE33F | 320 | - | `ev08_2000` |
-| 0xE6DF8908 | 321 | - | `ev08_2100` |
-| 0xEE0FE4F8 | 322 | - | `ev08_9990` |
+| 0xE71DE33F | 320 | Checks if the story scene ev08_2000 has been seen. | `ev08_2000` |
+| 0xE6DF8908 | 321 | Checks if the story scene ev08_2100 has been seen. | `ev08_2100` |
+| 0xEE0FE4F8 | 322 | Checks if the story scene ev08_9990 has been seen. | `ev08_9990` |
 | 0x6F7AA3A3 | 323 | - | - |
-| 0x878A9226 | 324 | - | `ev09_0100` |
-| 0x85CC2C7F | 325 | - | `ev09_0200` |
-| 0x840E4648 | 326 | - | `ev09_0300` |
+| 0x878A9226 | 324 | Checks if the story scene ev09_0100 has been seen. | `ev09_0100` |
+| 0x85CC2C7F | 325 | Checks if the story scene ev09_0200 has been seen. | `ev09_0200` |
+| 0x840E4648 | 326 | Checks if the story scene ev09_0300 has been seen. | `ev09_0300` |
 | 0x5F48F264 | 327 | - | `ev09_btl0010` |
-| 0x814150CD | 328 | - | `ev09_0400` |
-| 0x8307EE94 | 329 | - | `ev09_0700` |
-| 0x885BA9A9 | 330 | - | `ev09_0800` |
-| 0x2E078EC3 | 331 | - | `ev09_2300` |
-| 0x94FD57FF | 332 | - | `ev09_3000` |
+| 0x814150CD | 328 | Checks if the story scene ev09_0400 has been seen. | `ev09_0400` |
+| 0x8307EE94 | 329 | Checks if the story scene ev09_0700 has been seen. | `ev09_0700` |
+| 0x885BA9A9 | 330 | Checks if the story scene ev09_0800 has been seen. | `ev09_0800` |
+| 0x2E078EC3 | 331 | Checks if the story scene ev09_2300 has been seen. | `ev09_2300` |
+| 0x94FD57FF | 332 | Checks if the story scene ev09_3000 has been seen. | `ev09_3000` |
 | 0x6D7E90E6 | 333 | - | `ev09_btl0030` |
-| 0x953F3DC8 | 334 | - | `ev09_3100` |
-| 0x97798391 | 335 | - | `ev09_3200` |
-| 0x2553375D | 336 | - | `ev09_9990` |
+| 0x953F3DC8 | 334 | Checks if the story scene ev09_3100 has been seen. | `ev09_3100` |
+| 0x97798391 | 335 | Checks if the story scene ev09_3200 has been seen. | `ev09_3200` |
+| 0x2553375D | 336 | Checks if the story scene ev09_9990 has been seen. | `ev09_9990` |
 | 0x42E62584 | 337 | - | - |
-| 0x06F2C85A (0x6F2C85A) | 338 | - | `ev10_0100` |
-| 0x04B47603 (0x4B47603) | 339 | - | `ev10_0200` |
-| 0x05761C34 (0x5761C34) | 340 | - | `ev10_0300` |
+| 0x06F2C85A (0x6F2C85A) | 338 | Checks if the story scene ev10_0100 has been seen. | `ev10_0100` |
+| 0x04B47603 (0x4B47603) | 339 | Checks if the story scene ev10_0200 has been seen. | `ev10_0200` |
+| 0x05761C34 (0x5761C34) | 340 | Checks if the story scene ev10_0300 has been seen. | `ev10_0300` |
 | 0x1C292F01 | 341 | - | `ev10_btl0010` |
-| 0x7801E871 | 342 | - | `ev10_0350` |
+| 0x7801E871 | 342 | Checks if the story scene ev10_0350 has been seen. | `ev10_0350` |
 | 0x1D4F90B0 | 343 | - | - |
 | 0x405073EE | 344 | - | - |
-| 0x00390AB1 (0x390AB1) | 345 | - | `ev10_0400` |
-| 0x01FB6086 (0x1FB6086) | 346 | - | `ev10_0500` |
-| 0x03BDDEDF (0x3BDDEDF) | 347 | - | `ev10_0600` |
+| 0x00390AB1 (0x390AB1) | 345 | Checks if the story scene ev10_0400 has been seen. | `ev10_0400` |
+| 0x01FB6086 (0x1FB6086) | 346 | Checks if the story scene ev10_0500 has been seen. | `ev10_0500` |
+| 0x03BDDEDF (0x3BDDEDF) | 347 | Checks if the story scene ev10_0600 has been seen. | `ev10_0600` |
 | 0x37047CC2 | 348 | - | `ev10_btl0020` |
-| 0x0923F3D5 (0x923F3D5) | 349 | - | `ev10_0800` |
-| 0x08E199E2 (0x8E199E2) | 350 | - | `ev10_0900` |
+| 0x0923F3D5 (0x923F3D5) | 349 | Checks if the story scene ev10_0800 has been seen. | `ev10_0800` |
+| 0x08E199E2 (0x8E199E2) | 350 | Checks if the story scene ev10_0900 has been seen. | `ev10_0900` |
 | 0x2E1F4D83 | 351 | - | `ev10_btl0030` |
-| 0xBE4EAF3F | 352 | - | `ev10_1100` |
-| 0xBC081166 | 353 | - | `ev10_1200` |
+| 0xBE4EAF3F | 352 | Checks if the story scene ev10_1100 has been seen. | `ev10_1100` |
+| 0xBC081166 | 353 | Checks if the story scene ev10_1200 has been seen. | `ev10_1200` |
 | 0x615EDB44 | 354 | - | `ev10_btl0040` |
-| 0xB8856DD4 | 355 | - | `ev10_1400` |
-| 0xB94707E3 | 356 | - | `ev10_1500` |
-| 0xBB01B9BA | 357 | - | `ev10_1600` |
+| 0xB8856DD4 | 355 | Checks if the story scene ev10_1400 has been seen. | `ev10_1400` |
+| 0xB94707E3 | 356 | Checks if the story scene ev10_1500 has been seen. | `ev10_1500` |
+| 0xBB01B9BA | 357 | Checks if the story scene ev10_1600 has been seen. | `ev10_1600` |
 | 0x7845EA05 | 358 | - | `ev10_btl0050` |
-| 0xBAC3D38D | 359 | - | `ev10_1700` |
-| 0xAD396AE6 | 360 | - | `ev10_2000` |
-| 0xAF7FD4BF | 361 | - | `ev10_2300` |
-| 0xAA30C23A | 362 | - | `ev10_2400` |
+| 0xBAC3D38D | 359 | Checks if the story scene ev10_1700 has been seen. | `ev10_1700` |
+| 0xAD396AE6 | 360 | Checks if the story scene ev10_2000 has been seen. | `ev10_2000` |
+| 0xAF7FD4BF | 361 | Checks if the story scene ev10_2300 has been seen. | `ev10_2300` |
+| 0xAA30C23A | 362 | Checks if the story scene ev10_2400 has been seen. | `ev10_2400` |
 | 0x04F07477 (0x4F07477) | 363 | - | `ev10_btl0100` |
-| 0xA9B41654 | 364 | - | `ev10_2600` |
-| 0xA8767C63 | 365 | - | `ev10_2700` |
+| 0xA9B41654 | 364 | Checks if the story scene ev10_2600 has been seen. | `ev10_2600` |
+| 0xA8767C63 | 365 | Checks if the story scene ev10_2700 has been seen. | `ev10_2700` |
 | 0x833B5C00 | 366 | - | - |
-| 0xA32A3B5E | 367 | - | `ev10_2800` |
-| 0x134ECF68 | 368 | - | `ev10_3500` |
+| 0xA32A3B5E | 367 | Checks if the story scene ev10_2800 has been seen. | `ev10_2800` |
+| 0x134ECF68 | 368 | Checks if the story scene mv_photo87/ev10_3530 has been seen. | `ev10_3500` |
 | 0x36C616F5 | 369 | - | `ev10_btl0120` |
-| 0x11087131 | 370 | - | `ev10_3600` |
-| 0x6C7F8574 | 371 | - | `ev10_3650` |
+| 0x11087131 | 370 | Checks if the story scene ev10_3600 has been seen. | `ev10_3600` |
+| 0x6C7F8574 | 371 | Checks if the story scene ev10_3650 has been seen. | `ev10_3650` |
 | 0x79878032 | 372 | - | `ev10_btl0150` |
-| 0x10CA1B06 | 373 | - | `ev10_3700` |
-| 0x8852353A | 374 | - | `ev10_4000` |
-| 0x89905F0D | 375 | - | `ev10_4100` |
-| 0x8BD6E154 | 376 | - | `ev10_4200` |
+| 0x10CA1B06 | 373 | Checks if the story scene ev10_3700 has been seen. | `ev10_3700` |
+| 0x8852353A | 374 | Checks if the story scene mv_photo12/ev10_4000 has been seen. | `ev10_4000` |
+| 0x89905F0D | 375 | Checks if the story scene ev10_4100 has been seen. | `ev10_4100` |
+| 0x8BD6E154 | 376 | Checks if the story scene ev10_4200 has been seen. | `ev10_4200` |
 | 0x06B6CA2E (0x6B6CA2E) | 377 | - | `ev10_btl0200` |
-| 0x30EE525F | 378 | - | `ev10_5000` |
-| 0x362590B4 | 379 | - | `ev10_5500` |
-| 0x4B5264F1 | 380 | - | `ev10_5550` |
-| 0x34632EED | 381 | - | `ev10_5600` |
-| 0xA42B6D21 | 382 | - | `ev10_9990` |
+| 0x30EE525F | 378 | Checks if the story scene mv_photo13/ev10_5000 has been seen. | `ev10_5000` |
+| 0x362590B4 | 379 | Checks if the story scene ev10_5500 has been seen. | `ev10_5500` |
+| 0x4B5264F1 | 380 | Checks if the story scene ev10_5550 has been seen. | `ev10_5550` |
+| 0x34632EED | 381 | Checks if the story scene ev10_5600 has been seen. | `ev10_5600` |
+| 0xA42B6D21 | 382 | Checks if the story scene ev10_9990 has been seen. | `ev10_9990` |
 | 0x9C266F1D | 383 | - | - |
-| 0x13BD0655 | 384 | - | `ev04_0330` |
-| 0x45E7A1D3 | 385 | - | `ev04_0350` |
-| 0xDF7B0067 | 386 | - | `ev02_0120` |
-| 0x2E4D332E | 387 | - | `ev02_1450` |
-| 0xC0F70713 | 388 | - | `ev07_0150` |
-| 0xCDAE1BFF | 389 | - | `ev11_0100` |
-| 0xCFE8A5A6 | 390 | - | `ev11_0200` |
-| 0xCE2ACF91 | 391 | - | `ev11_0300` |
+| 0x13BD0655 | 384 | Checks if the story scene ev04_0330 has been seen. | `ev04_0330` |
+| 0x45E7A1D3 | 385 | Checks if the story scene ev04_0350 has been seen. | `ev04_0350` |
+| 0xDF7B0067 | 386 | Checks if the story scene ev02_0120 has been seen. | `ev02_0120` |
+| 0x2E4D332E | 387 | Checks if the story scene ev02_1450 has been seen. | `ev02_1450` |
+| 0xC0F70713 | 388 | Checks if the story scene ev07_0150 has been seen. | `ev07_0150` |
+| 0xCDAE1BFF | 389 | Checks if the story scene ev11_0100 has been seen. | `ev11_0100` |
+| 0xCFE8A5A6 | 390 | Checks if the story scene ev11_0200 has been seen. | `ev11_0200` |
+| 0xCE2ACF91 | 391 | Checks if the story scene ev11_0300 has been seen. | `ev11_0300` |
 | 0x2A239215 | 392 | - | - |
 | 0xB32AC3AF | 393 | - | - |
 | 0xC42DF339 | 394 | - | - |
-| 0x7D4EFEF4 | 395 | - | `ev10_0450` |
-| 0xF525C17F | 396 | - | `ev10_4050` |
-| 0x9220DC27 | 397 | - | `ev07_0730` |
-| 0xC47A7BA1 | 398 | - | `ev07_0750` |
+| 0x7D4EFEF4 | 395 | Checks if the story scene ev10_0450 has been seen. | `ev10_0450` |
+| 0xF525C17F | 396 | Checks if the story scene ev10_4050 has been seen. | `ev10_4050` |
+| 0x9220DC27 | 397 | Checks if the story scene ev07_0730 has been seen. | `ev07_0730` |
+| 0xC47A7BA1 | 398 | Checks if the story scene ev07_0750 has been seen. | `ev07_0750` |
 | 0xEC4C9B92 | 399 | - | - |
 | 0x7545CA28 | 400 | - | - |
 | 0x0242FABE (0x242FABE) | 401 | - | - |
-| 0xD7D6B395 | 402 | - | `ev50_6100` |
-| 0xE6C3814C | 403 | - | `ev50_3400` |
-| 0xE5475522 | 404 | - | `ev50_3600` |
+| 0xD7D6B395 | 402 | Checks if the story scene ev50_6100 has been seen. | `ev50_6100` |
+| 0xE6C3814C | 403 | Checks if the story scene ev50_3400 has been seen. | `ev50_3400` |
+| 0xE5475522 | 404 | Checks if the story scene ev50_3600 has been seen. | `ev50_3600` |
 | 0xF4503F68 | 405 | - | `hlp_010` |
 | 0xDF7D6CAB | 406 | - | `hlp_020` |
 | 0xC6665DEA | 407 | - | `hlp_030` |
@@ -568,8 +568,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE20BB187 | 553 | - | - |
 | 0xEB830C18 | 554 | - | - |
 | 0x9E85DA6E | 555 | - | - |
-| 0xF7A44F65 | 556 | - | `ev03_2450` |
-| 0x96A7E1E2 | 557 | - | `ev51_2600` |
+| 0xF7A44F65 | 556 | Checks if the story scene ev03_2450 has been seen. | `ev03_2450` |
+| 0x96A7E1E2 | 557 | Checks if the story scene ev51_2600 has been seen. | `ev51_2600` |
 | 0xBC3346B6 | 558 | - | - |
 | 0x9AE02D5E | 559 | - | - |
 | 0x45031239 | 560 | Checks if you can use the elevator to the Yo-kai World. | `elevator_control` |
@@ -589,8 +589,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8F67B9F8 | 574 | - | `t102d32_truck_i_sel` |
 | 0x76FC474F | 575 | - | `t102d32_swicth_truck_e` |
 | 0x7F4A0B64 | 576 | - | `t102d32_swicth_truck_i` |
-| 0x1B83C8EC | 577 | - | `ev51_6500` |
-| 0xC5631C7B | 578 | - | `ev50_5100` |
+| 0x1B83C8EC | 577 | Checks if the story scene ev51_6500 has been seen. | `ev51_6500` |
+| 0xC5631C7B | 578 | Checks if the story scene ev50_5100 has been seen. | `ev50_5100` |
 | 0x2C4ADE59 | 579 | - | - |
 | 0xB5438FE3 | 580 | - | - |
 | 0x8B0D480D | 581 | - | - |
@@ -646,9 +646,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8264BC05 | 631 | - | - |
 | 0x1B6DEDBF | 632 | - | - |
 | 0x6C6ADD29 | 633 | - | - |
-| 0xA3E4A264 | 634 | - | `ev06_2250` |
-| 0xC3A8DE90 | 635 | - | `ev50_5400` |
-| 0xCDAF963C | 636 | - | `ev10_0380` |
+| 0xA3E4A264 | 634 | Checks if the story scene mv_photo85/ev06_2250 has been seen. | `ev06_2250` |
+| 0xC3A8DE90 | 635 | Checks if the story scene ev50_5400 has been seen. | `ev50_5400` |
+| 0xCDAF963C | 636 | Checks if the story scene mv_photo86/ev10_0380 has been seen. | `ev10_0380` |
 | 0xC113488D | 637 | - | - |
 | 0xC0D122BA | 638 | - | - |
 | 0xC59E343F | 639 | - | - |
@@ -853,11 +853,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x02C00ED6 (0x2C00ED6) | 838 | - | - |
 | 0x75C73E40 | 839 | - | - |
 | 0x1500B7A5 | 840 | - | - |
-| 0x5FBD8C1E | 841 | - | `ev50_2500` |
-| 0x46A6BD5F | 842 | - | `ev50_2510` |
-| 0x6D8BEE9C | 843 | - | `ev50_2520` |
-| 0x7490DFDD | 844 | - | `ev50_2530` |
-| 0x3BD1491A | 845 | - | `ev50_2540` |
+| 0x5FBD8C1E | 841 | Checks if the story scene mv_photo88/ev50_2500 has been seen. | `ev50_2500` |
+| 0x46A6BD5F | 842 | Checks if the story scene mv_photo89/ev50_2510 has been seen. | `ev50_2510` |
+| 0x6D8BEE9C | 843 | Checks if the story scene mv_photo90/ev50_2520 has been seen. | `ev50_2520` |
+| 0x7490DFDD | 844 | Checks if the story scene mv_photo91/ev50_2530 has been seen. | `ev50_2530` |
+| 0x3BD1491A | 845 | Checks if the story scene mv_photo92/ev50_2540 has been seen. | `ev50_2540` |
 | 0x20190D1F | 846 | - | - |
 | 0xB9105CA5 | 847 | - | - |
 | 0xCE176C33 | 848 | - | - |
@@ -1217,9 +1217,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDE2A734D | 1202 | - | `tlk_qs0088_02` |
 | 0xFFDB807C | 1203 | - | `tlk_qs0041_01` |
 | 0x288DC527 | 1204 | - | `btl_qs0087_01` |
-| 0xDFD8245C | 1205 | - | `ev70_1200` |
-| 0xC6C3151D | 1206 | - | `ev70_1210` |
-| 0xEDEE46DE | 1207 | - | `ev70_1220` |
+| 0xDFD8245C | 1205 | Checks if the story scene ev70_1200 has been seen. | `ev70_1200` |
+| 0xC6C3151D | 1206 | Checks if the story scene ev70_1210 has been seen. | `ev70_1210` |
+| 0xEDEE46DE | 1207 | Checks if the story scene ev70_1220 has been seen. | `ev70_1220` |
 | 0x925152B3 | 1208 | - | `ev05_btl0020` |
 | 0x9E72F21A | 1209 | - | - |
 | 0x8DDEE2A3 | 1210 | - | - |
@@ -1249,14 +1249,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1B0091D1 | 1234 | - | - |
 | 0x9C058221 | 1235 | - | - |
 | 0x6C7F0FF0 | 1236 | - | `btl_qs0051_02` |
-| 0x8CEF8D94 | 1237 | - | `ev70_5890` |
-| 0x4B3A6951 | 1238 | - | `ev12_0100` |
+| 0x8CEF8D94 | 1237 | Checks if the story scene ev70_5890 has been seen. | `ev70_5890` |
+| 0x4B3A6951 | 1238 | Checks if the story scene ev12_0100 has been seen. | `ev12_0100` |
 | 0x20791EED | 1239 | - | `ev51_1200_010` |
 | 0x0B544D2E (0xB544D2E) | 1240 | - | `ev51_1200_020` |
 | 0x124F7C6F | 1241 | - | `ev51_1200_030` |
 | 0x4415DBE9 | 1242 | - | `ev51_1200_050` |
 | 0x38A0459B | 1243 | - | `ev51_1200_100` |
-| 0x0308863D (0x308863D) | 1244 | - | `ev70_0240` |
+| 0x0308863D (0x308863D) | 1244 | Checks if the story scene ev70_0240 has been seen. | `ev70_0240` |
 | 0x24E43A21 | 1245 | - | - |
 | 0xBDED6B9B | 1246 | - | - |
 | 0xCAEA5B0D | 1247 | - | - |
@@ -1313,7 +1313,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x50ABC683 | 1298 | Checks if the Watch Lock in Cicada Canyon has been removed. | `wl_t231d04_01` |
 | 0xCEBC6146 | 1299 | Checks if the Watch Lock in the Springdale Underground Waterwat has been removed. | `wl_t100d00_01` |
 | 0xBF2F0B80 | 1300 | Checks if the Watch Lock in Springdale Business Tower 4F has been removed. | `wl_t104d11_01` |
-| 0x242567B8 | 1301 | - | `ev70_6140` |
+| 0x242567B8 | 1301 | Checks if the story scene ev70_6140 has been seen. | `ev70_6140` |
 | 0x6415751F | 1302 | - | - |
 | 0xC07C0D15 | 1303 | - | - |
 | 0x227765F8 | 1304 | - | - |
@@ -1325,18 +1325,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5D97C8B7 | 1310 | - | - |
 | 0x92F2439B | 1311 | - | - |
 | 0x5E91324B | 1312 | - | - |
-| 0x22CA785B | 1313 | - | `ev50_2550` |
-| 0x09E72B98 (0x9E72B98) | 1314 | - | `ev50_2560` |
-| 0x10FC1AD9 | 1315 | - | `ev50_2570` |
-| 0x97640616 | 1316 | - | `ev50_2580` |
-| 0x8E7F3757 | 1317 | - | `ev50_2590` |
+| 0x22CA785B | 1313 | Checks if the story scene mv_photo93/ev50_2550 has been seen. | `ev50_2550` |
+| 0x09E72B98 (0x9E72B98) | 1314 | Checks if the story scene mv_photo94/ev50_2560 has been seen. | `ev50_2560` |
+| 0x10FC1AD9 | 1315 | Checks if the story scene mv_photo95/ev50_2570 has been seen. | `ev50_2570` |
+| 0x97640616 | 1316 | Checks if the story scene mv_photo96/ev50_2580 has been seen. | `ev50_2580` |
+| 0x8E7F3757 | 1317 | Checks if the story scene mv_photo97/ev50_2590 has been seen. | `ev50_2590` |
 | 0x441726E2 | 1318 | - | - |
 | 0xDD1E7758 | 1319 | - | - |
 | 0xF637FAF2 | 1320 | - | - |
 | 0x6F3EAB48 | 1321 | - | - |
 | 0xC5C25E05 | 1322 | Checks if the Infinite Inferno has been cleared. | `ev50_btl0180` |
 | 0x2D374578 | 1323 | - | - |
-| 0x3997F743 | 1324 | - | `ev50_2640` |
+| 0x3997F743 | 1324 | Checks if the story scene mv_photo102/ev50_2640 has been seen. | `ev50_2640` |
 | 0x6E5ED0A9 | 1325 | Checks if you have slept to the next morning during the Bear Boy questline. | - |
 | 0xF7578113 | 1326 | Checks if you have slept to the next morning during the Hangout Havoc questline. | - |
 | 0x8050B185 | 1327 | Checks if you have slept to the next morning during the Treasure Hunters questline. | - |
@@ -1354,7 +1354,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBC44EB18 | 1339 | - | - |
 | 0x7FDBA6D3 | 1340 | - | - |
 | 0x0943CAFB (0x943CAFB) | 1341 | - | - |
-| 0xB98DE4CE | 1342 | - | `ev70_8110` |
+| 0xB98DE4CE | 1342 | Checks if the story scene ev70_8110 has been seen. | `ev70_8110` |
 | 0x3A2B6D7D | 1343 | - | `tlk_qs0081_01` |
 | 0x7A430B47 | 1344 | - | `tlk_qs0098_01` |
 | 0xEF24E3E5 | 1345 | - | - |
@@ -1412,68 +1412,68 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE7BD7C0E | 1397 | - | - |
 | 0xDADD55BE | 1398 | - | - |
 | 0x0EEF3065 (0xEEF3065) | 1399 | - | - |
-| 0xE7A51C84 | 1400 | - | `yw2_evec_0100` |
-| 0xE5E3A2DD | 1401 | - | `yw2_evec_0200` |
-| 0xE421C8EA | 1402 | - | `yw2_evec_0300` |
-| 0xE16EDE6F | 1403 | - | `yw2_evec_0400` |
-| 0xE0ACB458 | 1404 | - | `yw2_evec_0500` |
-| 0xE2EA0A01 | 1405 | - | `yw2_evec_0600` |
-| 0xE3286036 | 1406 | - | `yw2_evec_0700` |
-| 0xE874270B | 1407 | - | `yw2_evec_0800` |
-| 0xE9B64D3C | 1408 | - | `yw2_evec_0900` |
-| 0x5EDB11D6 | 1409 | - | `yw2_evec_1000` |
-| 0x5F197BE1 | 1410 | - | `yw2_evec_1100` |
-| 0x5D5FC5B8 | 1411 | - | `yw2_evec_1200` |
-| 0x5C9DAF8F | 1412 | - | `yw2_evec_1300` |
-| 0x59D2B90A | 1413 | - | `yw2_evec_1400` |
-| 0x5810D33D | 1414 | - | `yw2_evec_1500` |
-| 0x5A566D64 | 1415 | - | `yw2_evec_1600` |
-| 0x5B940753 | 1416 | - | `yw2_evec_1700` |
-| 0x50C8406E | 1417 | - | `yw2_evec_1800` |
-| 0x510A2A59 | 1418 | - | `yw2_evec_1900` |
-| 0x4C6EBE38 | 1419 | - | `yw2_evec_2000` |
+| 0xE7A51C84 | 1400 | Checks if the bonus quest scene mv_photo17/yw2_evec_0100 has been seen. | `yw2_evec_0100` |
+| 0xE5E3A2DD | 1401 | Checks if the bonus quest scene mv_photo20/yw2_evec_0200 has been seen. | `yw2_evec_0200` |
+| 0xE421C8EA | 1402 | Checks if the bonus quest scene mv_photo23/yw2_evec_0300 has been seen. | `yw2_evec_0300` |
+| 0xE16EDE6F | 1403 | Checks if the bonus quest scene mv_photo26/yw2_evec_0400 has been seen. | `yw2_evec_0400` |
+| 0xE0ACB458 | 1404 | Checks if the bonus quest scene mv_photo29/yw2_evec_0500 has been seen. | `yw2_evec_0500` |
+| 0xE2EA0A01 | 1405 | Checks if the bonus quest scene mv_photo32/yw2_evec_0600 has been seen. | `yw2_evec_0600` |
+| 0xE3286036 | 1406 | Checks if the bonus quest scene mv_photo35/yw2_evec_0700 has been seen. | `yw2_evec_0700` |
+| 0xE874270B | 1407 | Checks if the bonus quest scene mv_photo38/yw2_evec_0800 has been seen. | `yw2_evec_0800` |
+| 0xE9B64D3C | 1408 | Checks if the bonus quest scene mv_photo41/yw2_evec_0900 has been seen. | `yw2_evec_0900` |
+| 0x5EDB11D6 | 1409 | Checks if the bonus quest scene mv_photo44/yw2_evec_1000 has been seen. | `yw2_evec_1000` |
+| 0x5F197BE1 | 1410 | Checks if the bonus quest scene mv_photo47/yw2_evec_1100 has been seen. | `yw2_evec_1100` |
+| 0x5D5FC5B8 | 1411 | Checks if the bonus quest scene mv_photo50/yw2_evec_1200 has been seen. | `yw2_evec_1200` |
+| 0x5C9DAF8F | 1412 | Checks if the bonus quest scene mv_photo53/yw2_evec_1300 has been seen. | `yw2_evec_1300` |
+| 0x59D2B90A | 1413 | Checks if the bonus quest scene mv_photo56/yw2_evec_1400 has been seen. | `yw2_evec_1400` |
+| 0x5810D33D | 1414 | Checks if the bonus quest scene mv_photo59/yw2_evec_1500 has been seen. | `yw2_evec_1500` |
+| 0x5A566D64 | 1415 | Checks if the bonus quest scene mv_photo62/yw2_evec_1600 has been seen. | `yw2_evec_1600` |
+| 0x5B940753 | 1416 | Checks if the bonus quest scene mv_photo65/yw2_evec_1700 has been seen. | `yw2_evec_1700` |
+| 0x50C8406E | 1417 | Checks if the bonus quest scene mv_photo68/yw2_evec_1800 has been seen. | `yw2_evec_1800` |
+| 0x510A2A59 | 1418 | Checks if the bonus quest scene mv_photo71/yw2_evec_1900 has been seen. | `yw2_evec_1900` |
+| 0x4C6EBE38 | 1419 | Checks if the bonus quest scene mv_photo74/yw2_evec_2000 has been seen. | `yw2_evec_2000` |
 | 0x4DACD40F | 1420 | Checks if the bonus quest scene mv_photo77/yw2_evec_2100 has been seen. | `yw2_evec_2100` |
-| 0xFEBE2DC5 | 1421 | - | `yw2_evec_0110` |
-| 0xFCF8939C | 1422 | - | `yw2_evec_0210` |
-| 0xFD3AF9AB | 1423 | - | `yw2_evec_0310` |
-| 0xF875EF2E | 1424 | - | `yw2_evec_0410` |
-| 0xF9B78519 | 1425 | - | `yw2_evec_0510` |
-| 0xFBF13B40 | 1426 | - | `yw2_evec_0610` |
-| 0xFA335177 | 1427 | - | `yw2_evec_0710` |
-| 0xF16F164A | 1428 | - | `yw2_evec_0810` |
-| 0xF0AD7C7D | 1429 | - | `yw2_evec_0910` |
-| 0x47C02097 | 1430 | - | `yw2_evec_1010` |
-| 0x46024AA0 | 1431 | - | `yw2_evec_1110` |
-| 0x4444F4F9 | 1432 | - | `yw2_evec_1210` |
-| 0x45869ECE | 1433 | - | `yw2_evec_1310` |
-| 0x40C9884B | 1434 | - | `yw2_evec_1410` |
-| 0x410BE27C | 1435 | - | `yw2_evec_1510` |
-| 0x434D5C25 | 1436 | - | `yw2_evec_1610` |
-| 0x428F3612 | 1437 | - | `yw2_evec_1710` |
-| 0x49D3712F | 1438 | - | `yw2_evec_1810` |
-| 0x48111B18 | 1439 | - | `yw2_evec_1910` |
-| 0x55758F79 | 1440 | - | `yw2_evec_2010` |
+| 0xFEBE2DC5 | 1421 | Checks if the bonus quest scene mv_photo18/yw2_evec_0110 has been seen. | `yw2_evec_0110` |
+| 0xFCF8939C | 1422 | Checks if the bonus quest scene mv_photo21/yw2_evec_0210 has been seen. | `yw2_evec_0210` |
+| 0xFD3AF9AB | 1423 | Checks if the bonus quest scene mv_photo24/yw2_evec_0310 has been seen. | `yw2_evec_0310` |
+| 0xF875EF2E | 1424 | Checks if the bonus quest scene mv_photo27/yw2_evec_0410 has been seen. | `yw2_evec_0410` |
+| 0xF9B78519 | 1425 | Checks if the bonus quest scene mv_photo30/yw2_evec_0510 has been seen. | `yw2_evec_0510` |
+| 0xFBF13B40 | 1426 | Checks if the bonus quest scene mv_photo33/yw2_evec_0610 has been seen. | `yw2_evec_0610` |
+| 0xFA335177 | 1427 | Checks if the bonus quest scene mv_photo36/yw2_evec_0710 has been seen. | `yw2_evec_0710` |
+| 0xF16F164A | 1428 | Checks if the bonus quest scene mv_photo39/yw2_evec_0810 has been seen. | `yw2_evec_0810` |
+| 0xF0AD7C7D | 1429 | Checks if the bonus quest scene mv_photo42/yw2_evec_0910 has been seen. | `yw2_evec_0910` |
+| 0x47C02097 | 1430 | Checks if the bonus quest scene mv_photo45/yw2_evec_1010 has been seen. | `yw2_evec_1010` |
+| 0x46024AA0 | 1431 | Checks if the bonus quest scene mv_photo48/yw2_evec_1110 has been seen. | `yw2_evec_1110` |
+| 0x4444F4F9 | 1432 | Checks if the bonus quest scene mv_photo51/yw2_evec_1210 has been seen. | `yw2_evec_1210` |
+| 0x45869ECE | 1433 | Checks if the bonus quest scene mv_photo54/yw2_evec_1310 has been seen. | `yw2_evec_1310` |
+| 0x40C9884B | 1434 | Checks if the bonus quest scene mv_photo57/yw2_evec_1410 has been seen. | `yw2_evec_1410` |
+| 0x410BE27C | 1435 | Checks if the bonus quest scene mv_photo60/yw2_evec_1510 has been seen. | `yw2_evec_1510` |
+| 0x434D5C25 | 1436 | Checks if the bonus quest scene mv_photo63/yw2_evec_1610 has been seen. | `yw2_evec_1610` |
+| 0x428F3612 | 1437 | Checks if the bonus quest scene mv_photo66/yw2_evec_1710 has been seen. | `yw2_evec_1710` |
+| 0x49D3712F | 1438 | Checks if the bonus quest scene mv_photo69/yw2_evec_1810 has been seen. | `yw2_evec_1810` |
+| 0x48111B18 | 1439 | Checks if the bonus quest scene mv_photo72/yw2_evec_1910 has been seen. | `yw2_evec_1910` |
+| 0x55758F79 | 1440 | Checks if the bonus quest scene mv_photo75/yw2_evec_2010 has been seen. | `yw2_evec_2010` |
 | 0x54B7E54E | 1441 | Checks if the bonus quest scene mv_photo78/yw2_evec_2110 has been seen. | `yw2_evec_2110` |
-| 0xD5937E06 | 1442 | - | `yw2_evec_0120` |
-| 0xD7D5C05F | 1443 | - | `yw2_evec_0220` |
-| 0xD617AA68 | 1444 | - | `yw2_evec_0320` |
-| 0xD358BCED | 1445 | - | `yw2_evec_0420` |
-| 0xD29AD6DA | 1446 | - | `yw2_evec_0520` |
-| 0xD0DC6883 | 1447 | - | `yw2_evec_0620` |
-| 0xD11E02B4 | 1448 | - | `yw2_evec_0720` |
-| 0xDA424589 | 1449 | - | `yw2_evec_0820` |
-| 0xDB802FBE | 1450 | - | `yw2_evec_0920` |
-| 0x6CED7354 | 1451 | - | `yw2_evec_1020` |
-| 0x6D2F1963 | 1452 | - | `yw2_evec_1120` |
-| 0x6F69A73A | 1453 | - | `yw2_evec_1220` |
-| 0x6EABCD0D | 1454 | - | `yw2_evec_1320` |
-| 0x6BE4DB88 | 1455 | - | `yw2_evec_1420` |
-| 0x6A26B1BF | 1456 | - | `yw2_evec_1520` |
-| 0x68600FE6 | 1457 | - | `yw2_evec_1620` |
-| 0x69A265D1 | 1458 | - | `yw2_evec_1720` |
-| 0x62FE22EC | 1459 | - | `yw2_evec_1820` |
-| 0x633C48DB | 1460 | - | `yw2_evec_1920` |
-| 0x7E58DCBA | 1461 | - | `yw2_evec_2020` |
+| 0xD5937E06 | 1442 | Checks if the bonus quest scene mv_photo19/yw2_evec_0120 has been seen. | `yw2_evec_0120` |
+| 0xD7D5C05F | 1443 | Checks if the bonus quest scene mv_photo22/yw2_evec_0220 has been seen. | `yw2_evec_0220` |
+| 0xD617AA68 | 1444 | Checks if the bonus quest scene mv_photo25/yw2_evec_0320 has been seen. | `yw2_evec_0320` |
+| 0xD358BCED | 1445 | Checks if the bonus quest scene mv_photo28/yw2_evec_0420 has been seen. | `yw2_evec_0420` |
+| 0xD29AD6DA | 1446 | Checks if the bonus quest scene mv_photo31/yw2_evec_0520 has been seen. | `yw2_evec_0520` |
+| 0xD0DC6883 | 1447 | Checks if the bonus quest scene mv_photo34/yw2_evec_0620 has been seen. | `yw2_evec_0620` |
+| 0xD11E02B4 | 1448 | Checks if the bonus quest scene mv_photo37/yw2_evec_0720 has been seen. | `yw2_evec_0720` |
+| 0xDA424589 | 1449 | Checks if the bonus quest scene mv_photo40/yw2_evec_0820 has been seen. | `yw2_evec_0820` |
+| 0xDB802FBE | 1450 | Checks if the bonus quest scene mv_photo43/yw2_evec_0920 has been seen. | `yw2_evec_0920` |
+| 0x6CED7354 | 1451 | Checks if the bonus quest scene mv_photo46/yw2_evec_1020 has been seen. | `yw2_evec_1020` |
+| 0x6D2F1963 | 1452 | Checks if the bonus quest scene mv_photo49/yw2_evec_1120 has been seen. | `yw2_evec_1120` |
+| 0x6F69A73A | 1453 | Checks if the bonus quest scene mv_photo52/yw2_evec_1220 has been seen. | `yw2_evec_1220` |
+| 0x6EABCD0D | 1454 | Checks if the bonus quest scene mv_photo55/yw2_evec_1320 has been seen. | `yw2_evec_1320` |
+| 0x6BE4DB88 | 1455 | Checks if the bonus quest scene mv_photo58/yw2_evec_1420 has been seen. | `yw2_evec_1420` |
+| 0x6A26B1BF | 1456 | Checks if the bonus quest scene mv_photo61/yw2_evec_1520 has been seen. | `yw2_evec_1520` |
+| 0x68600FE6 | 1457 | Checks if the bonus quest scene mv_photo64/yw2_evec_1620 has been seen. | `yw2_evec_1620` |
+| 0x69A265D1 | 1458 | Checks if the bonus quest scene mv_photo67/yw2_evec_1720 has been seen. | `yw2_evec_1720` |
+| 0x62FE22EC | 1459 | Checks if the bonus quest scene mv_photo70/yw2_evec_1820 has been seen. | `yw2_evec_1820` |
+| 0x633C48DB | 1460 | Checks if the bonus quest scene mv_photo73/yw2_evec_1920 has been seen. | `yw2_evec_1920` |
+| 0x7E58DCBA | 1461 | Checks if the bonus quest scene mv_photo76/yw2_evec_2020 has been seen. | `yw2_evec_2020` |
 | 0x7F9AB68D | 1462 | Checks if the bonus quest scene mv_photo79/yw2_evec_2120 has been seen. | `yw2_evec_2120` |
 | 0x84E69E77 | 1463 | Checks if the Stealth Soul has been made. | - |
 | 0xF3E1AEE1 | 1464 | Checks if the Soldier's Soul has  been made. | - |
@@ -1486,9 +1486,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8A3D1645 | 1471 | Checks if the Surly Soul has been made. | - |
 | 0xFD3A26D3 | 1472 | Checks if the Scorching Soul has been made. | - |
 | 0x9DFDAF36 | 1473 | Checks if the Soaking Soul has been made. | - |
-| 0x59764EF5 | 1474 | - | `ev50_2000` |
-| 0x58B424C2 | 1475 | - | `ev50_2100` |
-| 0x5AF29A9B | 1476 | - | `ev50_2200` |
+| 0x59764EF5 | 1474 | Checks if the story scene mv_photo14/ev50_2000 has been seen. | `ev50_2000` |
+| 0x58B424C2 | 1475 | Checks if the story scene mv_photo15/ev50_2100 has been seen. | `ev50_2100` |
+| 0x5AF29A9B | 1476 | Checks if the story scene mv_photo16/ev50_2200 has been seen. | `ev50_2200` |
 | 0x781DF9A9 | 1477 | - | - |
 | 0xE114A813 | 1478 | - | - |
 | 0x96139885 | 1479 | - | - |
@@ -1534,17 +1534,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x587C8C95 | 1519 | - | - |
 | 0xC175DD2F | 1520 | - | - |
 | 0xB672EDB9 | 1521 | - | - |
-| 0x0FFDA5E9 (0xFFDA5E9) | 1522 | - | `ev51_5000` |
-| 0x728A51AC | 1523 | - | `ev51_5050` |
-| 0x0C797187 (0xC797187) | 1524 | - | `ev51_5200` |
-| 0x156240C6 | 1525 | - | `ev51_5210` |
+| 0x0FFDA5E9 (0xFFDA5E9) | 1522 | Checks if the story scene ev51_5000 has been seen. | `ev51_5000` |
+| 0x728A51AC | 1523 | Checks if the story scene ev51_5050 has been seen. | `ev51_5050` |
+| 0x0C797187 (0xC797187) | 1524 | Checks if the story scene ev51_5200 has been seen. | `ev51_5200` |
+| 0x156240C6 | 1525 | Checks if the story scene ev51_5210 has been seen. | `ev51_5210` |
 | 0x1BB664A8 | 1526 | - | - |
-| 0x6A530ADA | 1527 | - | `ev51_5140` |
-| 0x0E3FCFDE (0xE3FCFDE) | 1528 | - | `ev51_5100` |
-| 0x69D7DEB4 | 1529 | - | `ev51_5340` |
-| 0x1724FE9F | 1530 | - | `ev51_5110` |
-| 0x58656858 | 1531 | - | `ev51_5160` |
-| 0x0DBB1BB0 (0xDBB1BB0) | 1532 | - | `ev51_5300` |
+| 0x6A530ADA | 1527 | Checks if the story scene ev51_5140 has been seen. | `ev51_5140` |
+| 0x0E3FCFDE (0xE3FCFDE) | 1528 | Checks if the story scene ev51_5100 has been seen. | `ev51_5100` |
+| 0x69D7DEB4 | 1529 | Checks if the story scene ev51_5340 has been seen. | `ev51_5340` |
+| 0x1724FE9F | 1530 | Checks if the story scene ev51_5110 has been seen. | `ev51_5110` |
+| 0x58656858 | 1531 | Checks if the story scene ev51_5160 has been seen. | `ev51_5160` |
+| 0x0DBB1BB0 (0xDBB1BB0) | 1532 | Checks if the story scene ev51_5300 has been seen. | `ev51_5300` |
 | 0x2FB114B4 | 1533 | - | - |
 | 0xEAFA9FA0 | 1534 | Checks if the Sparking Soul has been made. | - |
 | 0x73F3CE1A | 1535 | Checks if the Spacedust Soul has been made. | - |
@@ -1631,7 +1631,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x895B56A7 | 1616 | - | - |
 | 0xFE5C6631 | 1617 | - | - |
 | 0x6038F392 | 1618 | - | - |
-| 0x8E75EB4C | 1619 | - | `ev13_0900` |
+| 0x8E75EB4C | 1619 | Checks if the story scene ev13_0900 has been seen. | `ev13_0900` |
 | 0x59010A18 | 1620 | - | - |
 | 0xC0085BA2 | 1621 | - | - |
 | 0xB70F6B34 | 1622 | - | - |
@@ -1724,10 +1724,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x509987C9 | 1709 | - | `shpN023` |
 | 0xCEFD126A | 1710 | - | `shpN024` |
 | 0x06C3204F (0x6C3204F) | 1711 | - | `shpN043` |
-| 0x5DFB3247 | 1712 | - | `ev50_2600` |
-| 0x44E00306 | 1713 | - | `ev50_2610` |
-| 0x6FCD50C5 | 1714 | - | `ev50_2620` |
-| 0x76D66184 | 1715 | - | `ev50_2630` |
+| 0x5DFB3247 | 1712 | Checks if the story scene mv_photo98/ev50_2600 has been seen. | `ev50_2600` |
+| 0x44E00306 | 1713 | Checks if the story scene mv_photo99/ev50_2610 has been seen. | `ev50_2610` |
+| 0x6FCD50C5 | 1714 | Checks if the story scene mv_photo100/ev50_2620 has been seen. | `ev50_2620` |
+| 0x76D66184 | 1715 | Checks if the story scene mv_photo101/ev50_2630 has been seen. | `ev50_2630` |
 | 0xB8573214 | 1716 | - | - |
 | 0xDA1AC22B | 1717 | - | `new_warp_00` |
 | 0xAD1DF2BD | 1718 | - | `new_warp_01` |
@@ -2126,7 +2126,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2F1CC2DA | 2111 | - | `territory_t104g00_01` |
 | 0xB6159360 | 2112 | - | `territory_t104g00_02` |
 | 0xC112A3F6 | 2113 | - | `territory_t104g00_03` |
-| 0x3918B7A6 | 2114 | - | `ev13_1000` |
+| 0x3918B7A6 | 2114 | Checks if the story scene ev13_1000 has been seen. | `ev13_1000` |
 | 0xF16D30DD | 2115 | - | - |
 | 0x68646167 | 2116 | - | - |
 | 0x1F6351F1 | 2117 | - | - |
@@ -2185,10 +2185,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCF8FEFA4 | 2170 | - | - |
 | 0x5686BE1E | 2171 | - | - |
 | 0xF92EB4EC | 2172 | Checks if you have activated Master Oden's Baffle Board. | - |
-| 0xFE13A95A | 2173 | - | `ev51_8200` |
+| 0xFE13A95A | 2173 | Checks if the story scene ev51_8200 has been seen. | `ev51_8200` |
 | 0xBBF62CB8 | 2174 | - | - |
-| 0xF3842C8C | 2175 | - | `ev51_8800` |
-| 0xFC551703 | 2176 | - | `ev51_8100` |
+| 0xF3842C8C | 2175 | Checks if the story scene ev51_8800 has been seen. | `ev51_8800` |
+| 0xFC551703 | 2176 | Checks if the story scene ev51_8100 has been seen. | `ev51_8100` |
 | 0x501BCF22 | 2177 | - | - |
 | 0xC9129E98 | 2178 | - | - |
 | 0x7C006073 | 2179 | - | - |
@@ -2438,28 +2438,28 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC8CF27F4 | 2423 | - | - |
 | 0x7AEFFBE4 | 2424 | - | - |
 | 0x478FD254 | 2425 | - | - |
-| 0x4562A041 | 2426 | - | `ev11_1220` |
-| 0x5C799100 | 2427 | - | `ev11_1230` |
-| 0x133807C7 | 2428 | - | `ev11_1240` |
-| 0x0A233686 (0xA233686) | 2429 | - | `ev11_1250` |
-| 0x210E6545 | 2430 | - | `ev11_1260` |
-| 0x38155404 | 2431 | - | `ev11_1270` |
-| 0xBF8D48CB | 2432 | - | `ev11_1280` |
-| 0xA696798A | 2433 | - | `ev11_1290` |
-| 0x7696A8F4 | 2434 | - | `ev11_1300` |
-| 0x6F8D99B5 | 2435 | - | `ev11_1310` |
-| 0x44A0CA76 | 2436 | - | `ev11_1320` |
-| 0x5DBBFB37 | 2437 | - | `ev11_1330` |
-| 0x12FA6DF0 | 2438 | - | `ev11_1340` |
-| 0x0BE15CB1 (0xBE15CB1) | 2439 | - | `ev11_1350` |
-| 0xCFE7BC44 | 2440 | - | `ev11_1285` |
-| 0x06FC5C7B (0x6FC5C7B) | 2441 | - | `ev11_1305` |
-| 0x1FE76D3A | 2442 | - | `ev11_1315` |
-| 0x34CA3EF9 | 2443 | - | `ev11_1325` |
-| 0x20CC0F72 | 2444 | - | `ev11_1360` |
-| 0x39D73E33 | 2445 | - | `ev11_1370` |
-| 0xBE4F22FC | 2446 | - | `ev11_1380` |
-| 0xA75413BD | 2447 | - | `ev11_1390` |
+| 0x4562A041 | 2426 | Checks if the story scene ev11_1220 has been seen. | `ev11_1220` |
+| 0x5C799100 | 2427 | Checks if the story scene ev11_1230 has been seen. | `ev11_1230` |
+| 0x133807C7 | 2428 | Checks if the story scene ev11_1240 has been seen. | `ev11_1240` |
+| 0x0A233686 (0xA233686) | 2429 | Checks if the story scene ev11_1250 has been seen. | `ev11_1250` |
+| 0x210E6545 | 2430 | Checks if the story scene ev11_1260 has been seen. | `ev11_1260` |
+| 0x38155404 | 2431 | Checks if the story scene ev11_1270 has been seen. | `ev11_1270` |
+| 0xBF8D48CB | 2432 | Checks if the story scene ev11_1280 has been seen. | `ev11_1280` |
+| 0xA696798A | 2433 | Checks if the story scene ev11_1290 has been seen. | `ev11_1290` |
+| 0x7696A8F4 | 2434 | Checks if the story scene ev11_1300 has been seen. | `ev11_1300` |
+| 0x6F8D99B5 | 2435 | Checks if the story scene ev11_1310 has been seen. | `ev11_1310` |
+| 0x44A0CA76 | 2436 | Checks if the story scene ev11_1320 has been seen. | `ev11_1320` |
+| 0x5DBBFB37 | 2437 | Checks if the story scene ev11_1330 has been seen. | `ev11_1330` |
+| 0x12FA6DF0 | 2438 | Checks if the story scene ev11_1340 has been seen. | `ev11_1340` |
+| 0x0BE15CB1 (0xBE15CB1) | 2439 | Checks if the story scene ev11_1350 has been seen. | `ev11_1350` |
+| 0xCFE7BC44 | 2440 | Checks if the story scene ev11_1285 has been seen. | `ev11_1285` |
+| 0x06FC5C7B (0x6FC5C7B) | 2441 | Checks if the story scene ev11_1305 has been seen. | `ev11_1305` |
+| 0x1FE76D3A | 2442 | Checks if the story scene ev11_1315 has been seen. | `ev11_1315` |
+| 0x34CA3EF9 | 2443 | Checks if the story scene ev11_1325 has been seen. | `ev11_1325` |
+| 0x20CC0F72 | 2444 | Checks if the story scene ev11_1360 has been seen. | `ev11_1360` |
+| 0x39D73E33 | 2445 | Checks if the story scene ev11_1370 has been seen. | `ev11_1370` |
+| 0xBE4F22FC | 2446 | Checks if the story scene ev11_1380 has been seen. | `ev11_1380` |
+| 0xA75413BD | 2447 | Checks if the story scene ev11_1390 has been seen. | `ev11_1390` |
 | 0x5A7E1E58 | 2448 | - | - |
 | 0x7F3F19D5 | 2449 | - | - |
 | 0x0D6F7563 (0xD6F7563) | 2450 | - | - |
