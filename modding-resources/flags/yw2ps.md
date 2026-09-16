@@ -14,8 +14,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
-| 0x176F56BB | 1 | Checks if the player has completed the main story. | `game_clear1` |
-| 0x8E660701 | 2 | Checks if the player has completed the main post-game storyline (Defeated Kat Kraydel). | `game_clear2` |
+| 0x176F56BB | 1 | Checks if you have beaten Dame Demona during the story. | `game_clear1` |
+| 0x8E660701 | 2 | Checks if you have beaten Kat Kraydel during the postgame story. | `game_clear2` |
 | 0x5B9AFA16 | 3 | - | - |
 | 0xACAA3D15 | 4 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 5 | - | - |
@@ -25,62 +25,62 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6F281CF3 | 9 | - | - |
 | 0x83CA72FE | 10 | - | - |
 | 0xB9CDBFB0 | 11 | - | - |
-| 0xB29365A2 | 12 | - | - |
-| 0x6926965F | 13 | - | `friend_wisper` |
-| 0x2A329223 | 14 | - | `time_lock` |
-| 0x9FC6CB55 | 15 | - | `disable_time_sleep` |
-| 0x65D5B885 | 16 | - | `exist_mitibiki_tbox` |
+| 0xB29365A2 | 12 | RETURN__Set after Whisper tells you to go to the Sacred Tree in Chapter 2. | - |
+| 0x6926965F | 13 | Checks if you have reunited with Whisper. | `friend_wisper` |
+| 0x2A329223 | 14 | Checks if the time of day is stopped. | `time_lock` |
+| 0x9FC6CB55 | 15 | Checks if sleeping is disabled. | `disable_time_sleep` |
+| 0x65D5B885 | 16 | Checks if Leadoni can lead you to a chest. | `exist_mitibiki_tbox` |
 | 0xF874059B | 17 | - | - |
-| 0xA5011B7E | 18 | - | `enable_cross_walk` |
-| 0xB443AA77 | 19 | - | `enable_orge_time` |
-| 0x0B87DB54 (0xB87DB54) | 20 | - | `in_orge_time` |
+| 0xA5011B7E | 18 | Checks if crosswalk events are enabled. | `enable_cross_walk` |
+| 0xB443AA77 | 19 | Checks if Terror Time has been unlocked. | `enable_orge_time` |
+| 0x0B87DB54 (0xB87DB54) | 20 | Checks if Terror Time is active. | `in_orge_time` |
 | 0x63C11B45 | 21 | - | - |
 | 0x40BA71A2 | 22 | - | - |
-| 0x0CC4EC4E (0xCC4EC4E) | 23 | - | `not_add_member` |
-| 0xABCB4EE6 | 24 | - | `compulsory_add_member` |
-| 0xEB671121 | 25 | - | `never_die` |
-| 0xA4F31422 | 26 | - | `cross_walk_first_success` |
-| 0x1E40B827 | 27 | - | `cross_walk_first_fail` |
-| 0xE39F2A32 | 28 | - | `magnifying_glass_valid` |
-| 0x7D24EA33 | 29 | Has the player unlocked fishing yet. | `fishing_valid` |
-| 0x169C1EA3 | 30 | - | `menu_release` |
-| 0x1DAB1698 | 31 | - | `menu_valid` |
-| 0xFE232B46 | 32 | - | `lens_release` |
-| 0x91B9489C | 33 | - | `lens_valid` |
-| 0x6E9A22CF | 34 | Decides which watch mode is currently active in the overworld. 0 = Clock, 1 = Radar. | `watch_is_radar` |
-| 0xEB822ABC | 35 | - | `watch_is_lock` |
-| 0x67B99C8E | 36 | - | `watch_release` |
-| 0x7E34D611 | 37 | - | `watch_valid` |
-| 0x9CBB8D55 | 38 | - | `watch_item_release` |
-| 0x8E0E672C | 39 | - | `bicycle_release` |
-| 0x9B933272 | 40 | - | `bicycle_valid` |
-| 0xB16CFB41 | 41 | - | `map_release` |
-| 0x0CF17A93 (0xCF17A93) | 42 | - | `map_valid` |
-| 0x8BA55778 | 43 | - | `oni_time_valid` |
-| 0x0030A6B0 (0x30A6B0) | 44 | - | `gacha_release` |
-| 0xD09164E7 | 45 | - | `gacha_valid` |
-| 0x232C6951 | 46 | - | `enemy_dependence_valid` |
-| 0xF47C9134 | 47 | - | `wanderer_soul_valid` |
-| 0x640273DE | 48 | - | `appear_wanderer_soul` |
-| 0xAB79508A | 49 | - | `qr_release` |
-| 0xB6C85212 | 50 | - | `password_release` |
+| 0x0CC4EC4E (0xCC4EC4E) | 23 | Checks if befriending Yo-kai after battle is disabled. | `not_add_member` |
+| 0xABCB4EE6 | 24 | Checks if befriending Yo-kai after battle is guaranteed. | `compulsory_add_member` |
+| 0xEB671121 | 25 | Checks if your Yo-kai dying is disabled. | `never_die` |
+| 0xA4F31422 | 26 | Checks if you obeyed the crosswalk once. | `cross_walk_first_success` |
+| 0x1E40B827 | 27 | Checks if you ignored the crosswalk once. | `cross_walk_first_fail` |
+| 0xE39F2A32 | 28 | Checks if you can look around at search spots. | `magnifying_glass_valid` |
+| 0x7D24EA33 | 29 | Checks if you can do fishing. | `fishing_valid` |
+| 0x169C1EA3 | 30 | Checks if the Yo-kai Pad menu has been unlocked. | `menu_release` |
+| 0x1DAB1698 | 31 | Checks if you can open the Yo-kai Pad menu. | `menu_valid` |
+| 0xFE232B46 | 32 | Checks if the Yo-kai Len has been unlocked. | `lens_release` |
+| 0x91B9489C | 33 | Checks if you can use the Yo-kai Lens. | `lens_valid` |
+| 0x6E9A22CF | 34 | Checks which watch mode is currently active in the overworld. 0 = Clock, 1 = Radar. | `watch_is_radar` |
+| 0xEB822ABC | 35 | Checks if you can switch watch modes. 1 = Can't switch, 2 = Can switch | `watch_is_lock` |
+| 0x67B99C8E | 36 | Checks if the watch modes have been unlocked. | `watch_release` |
+| 0x7E34D611 | 37 | Checks if you can use the watch. | `watch_valid` |
+| 0x9CBB8D55 | 38 | Checks if the watch has been unlocked. | `watch_item_release` |
+| 0x8E0E672C | 39 | Checks if the bike has been unlocked. | `bicycle_release` |
+| 0x9B933272 | 40 | Checks if you can use your bike. | `bicycle_valid` |
+| 0xB16CFB41 | 41 | Checks if the map has been unlocked. | `map_release` |
+| 0x0CF17A93 (0xCF17A93) | 42 | Checks if you can use the map. | `map_valid` |
+| 0x8BA55778 | 43 | Checks if you can enter Terror Time. | `oni_time_valid` |
+| 0x0030A6B0 (0x30A6B0) | 44 | Checks if the Crank-a-kai has been unlocked. | `gacha_release` |
+| 0xD09164E7 | 45 | Checks if you can use the Crank-a-kai. | `gacha_valid` |
+| 0x232C6951 | 46 | Checks if enemies can use Inspirits. | `enemy_dependence_valid` |
+| 0xF47C9134 | 47 | Checks if Wisps can appear. | `wanderer_soul_valid` |
+| 0x640273DE | 48 | Checks if Wisps will always appear. | `appear_wanderer_soul` |
+| 0xAB79508A | 49 | Checks if QR Code services have been unlocked. | `qr_release` |
+| 0xB6C85212 | 50 | Checks if password services have been unlocked. | `password_release` |
 | 0xD03ED610 | 51 | - | `gate_release` |
-| 0x4CE86506 | 52 | - | `present_lens_release` |
-| 0x482C8429 | 53 | - | `battle_member_selection` |
-| 0x3E1E067A | 54 | - | `battle_aim` |
-| 0x487CE688 | 55 | - | `battle_item` |
-| 0xB4D0F387 | 56 | - | `battle_friend_bonus` |
-| 0x1DD878BF | 57 | - | `friend_yokai_x4` |
-| 0x9B0A23F4 | 58 | - | `watch_map_yokai_off` |
+| 0x4CE86506 | 52 | Checks if Yo-kai Cam services have been unlocked. | `present_lens_release` |
+| 0x482C8429 | 53 | Checks if rotating the Yo-kai Wheel has been unlocked. | `battle_member_selection` |
+| 0x3E1E067A | 54 | Checks if Pinning in battle has been unlocked. | `battle_aim` |
+| 0x487CE688 | 55 | Checks if using items in battle has been unlocked. | `battle_item` |
+| 0xB4D0F387 | 56 | Checks if Tribe Unity has been unlocked. | `battle_friend_bonus` |
+| 0x1DD878BF | 57 | Checks if enemy Yo-kai have a x4 boost to become your friend. | `friend_yokai_x4` |
+| 0x9B0A23F4 | 58 | Checks if Yo-kai icons are disabled on the map. | `watch_map_yokai_off` |
 | 0x4DBB6FD4 | 59 | - | - |
-| 0x4B11E6C9 | 60 | - | `rare_insect_release` |
+| 0x4B11E6C9 | 60 | Checks if rare bugs are unlocked. | `rare_insect_release` |
 | 0x053DA610 (0x53DA610) | 61 | - | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
 | 0x4152B1B4 | 64 | - | - |
-| 0x23129852 | 65 | - | `kon_release` |
+| 0x23129852 | 65 | Checks if Soulcery has been unlocked. | `kon_release` |
 | 0x22BEF6EF | 66 | - | - |
-| 0x1D0822F7 | 67 | - | `medal_release` |
+| 0x1D0822F7 | 67 | Checks if viewing your Yo-kai Medals has been unlocked. | `medal_release` |
 | 0x7F2211BC | 68 | - | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | - | - |
 | 0xE2B828E5 | 70 | - | - |
@@ -103,10 +103,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAB5B9E4E | 87 | - | - |
 | 0x7FA66054 | 88 | - | `sound_comp_notice` |
 | 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
-| 0x8A81D006 | 90 | - | `dictionary_comp_notice` |
+| 0x8A81D006 | 90 | Checks if the Yo-kai Medallium has been completed. | `dictionary_comp_notice` |
 | 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
 | 0xE32CCA14 | 92 | - | - |
-| 0x1600AB7C | 93 | - | `yspot_comp_notice` |
+| 0x1600AB7C | 93 | Checks if all the Yo-kai Spots have been found. | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
 | 0xF831790F | 95 | - | - |
 | 0xA01C925D | 96 | - | - |
@@ -572,7 +572,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x96A7E1E2 | 557 | - | `ev51_2600` |
 | 0xBC3346B6 | 558 | - | - |
 | 0x9AE02D5E | 559 | - | - |
-| 0x45031239 | 560 | - | `elevator_control` |
+| 0x45031239 | 560 | Checks if you can use the elevator to the Yo-kai World. | `elevator_control` |
 | 0x2866BE19 | 561 | - | - |
 | 0x4CEC744E | 562 | - | `t102g00_summer_fes` |
 | 0x41BCEE10 | 563 | - | `t102d31_truck_a` |
@@ -598,8 +598,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCD64AD12 | 583 | - | - |
 | 0xBAE3EE5F | 584 | - | - |
 | 0xB17D48A1 | 585 | - | - |
-| 0x76C15718 | 586 | - | `office building_floor_4` |
-| 0x03BF23DF (0x3BF23DF) | 587 | - | `office building_floor_13` |
+| 0x76C15718 | 586 | Checks if 4F at the Springdale Business Tower has been unlocked. | `office building_floor_4` |
+| 0x03BF23DF (0x3BF23DF) | 587 | Checks if 13F at the Springdale Business Tower has been unlocked. | `office building_floor_13` |
 | 0x3B5A580B | 588 | - | - |
 | 0x66B60907 | 589 | - | - |
 | 0x9380A713 | 590 | - | - |
@@ -1268,51 +1268,51 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2A3FB213 | 1253 | - | - |
 | 0xC3392454 | 1254 | - | - |
 | 0x5A3075EE | 1255 | - | - |
-| 0x0F3D7429 (0xF3D7429) | 1256 | - | `door_t100d00_01` |
-| 0x96342593 | 1257 | - | `door_t100d00_02` |
-| 0xE1331505 | 1258 | - | `door_t100d00_03` |
-| 0x0850B030 (0x850B030) | 1259 | - | `door_t100d00_05` |
-| 0x9159E18A | 1260 | - | `door_t100d00_06` |
-| 0xE65ED11C | 1261 | - | `door_t100d00_07` |
-| 0x76E1CC8D | 1262 | - | `door_t100d00_08` |
-| 0x612175FE | 1263 | - | `door_t100d00_10` |
-| 0x16264568 | 1264 | - | `door_t100d00_11` |
-| 0x8F2F14D2 | 1265 | - | `door_t100d00_12` |
-| 0xB8411C1A | 1266 | - | `door_t103g00_01` |
-| 0x21484DA0 | 1267 | - | `door_t103g00_02` |
-| 0xD75EA854 | 1268 | - | `door_t103i33_01` |
-| 0x564F7D36 | 1269 | - | `door_t103g00_03` |
+| 0x0F3D7429 (0xF3D7429) | 1256 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_01` |
+| 0x96342593 | 1257 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_02` |
+| 0xE1331505 | 1258 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_03` |
+| 0x0850B030 (0x850B030) | 1259 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_05` |
+| 0x9159E18A | 1260 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_06` |
+| 0xE65ED11C | 1261 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_07` |
+| 0x76E1CC8D | 1262 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_08` |
+| 0x612175FE | 1263 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_10` |
+| 0x16264568 | 1264 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_11` |
+| 0x8F2F14D2 | 1265 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_12` |
+| 0xB8411C1A | 1266 | Checks if a locked door in Blossom Heights has been unlocked. | `door_t103g00_01` |
+| 0x21484DA0 | 1267 | Checks if a locked door in Blossom Heights has been unlocked. | `door_t103g00_02` |
+| 0xD75EA854 | 1268 | Checks if a locked door in Prayer's Peak Tunnel has been unlocked. | `door_t103i33_01` |
+| 0x564F7D36 | 1269 | Checks if a locked door in Blossom Heights has been unlocked. | `door_t103g00_03` |
 | 0x653E359D | 1270 | - | - |
 | 0x037BC11C (0x37BC11C) | 1271 | - | `tlk_qs0120_01` |
 | 0x9A7290A6 | 1272 | - | `tlk_qs0120_02` |
 | 0x016C1918 (0x16C1918) | 1273 | - | - |
-| 0xDB912920 | 1274 | - | `door_t105g00_01` |
+| 0xDB912920 | 1274 | Checks if a locked door in Shopper's Row has been unlocked. | `door_t105g00_01` |
 | 0xC81DF40F | 1275 | - | `door_t103g51_01` |
-| 0x10399A2B | 1276 | - | `door_t105d41_01` |
-| 0x27D3D403 | 1277 | - | `rever_t100d00_01` |
-| 0xBEDA85B9 | 1278 | - | `rever_t100d00_02` |
-| 0xC9DDB52F | 1279 | - | `rever_t100d00_03` |
-| 0x98CFF92C | 1280 | - | `door_t100d00_boss` |
-| 0x075DE8E9 (0x75DE8E9) | 1281 | - | `door_t201d23_boss` |
+| 0x10399A2B | 1276 | Checks if a locked door in Nocturne Hospital has been unlocked. | `door_t105d41_01` |
+| 0x27D3D403 | 1277 | Checks if a lever in the Springdale Underground Waterway has been pulled. | `rever_t100d00_01` |
+| 0xBEDA85B9 | 1278 | Checks if a lever in the Springdale Underground Waterway has been pulled. | `rever_t100d00_02` |
+| 0xC9DDB52F | 1279 | Checks if a lever in the Springdale Underground Waterway has been pulled. | `rever_t100d00_03` |
+| 0x98CFF92C | 1280 | Checks if the door to Awevil in the Springdale Underground Waterway has been opened. | `door_t100d00_boss` |
+| 0x075DE8E9 (0x75DE8E9) | 1281 | Checks if a locked door in Sunset Manufacturing Co. has been unlocked. | `door_t201d23_boss` |
 | 0x23FCC8FA | 1282 | - | - |
 | 0x7EC3A734 | 1283 | - | `gimic_t103d41_tatami` |
 | 0x3CE6A049 | 1284 | - | `gimic_t103d43_tatami` |
 | 0xFA89A9CE | 1285 | - | `gimic_t103d45_tatami` |
-| 0xD0770D97 | 1286 | - | `wl_t101d01_01` |
-| 0x7A7EC51C | 1287 | - | `wl_t101d03_01` |
-| 0x5F159AC0 | 1288 | - | `wl_t101d05_01` |
-| 0xEDE1D435 | 1289 | - | `wl_t103d03_01` |
-| 0x7A88350E | 1290 | - | `wl_t103d11_01` |
-| 0x79C00975 | 1291 | - | `wl_t103g00_01` |
-| 0x1526C30B | 1292 | - | `wl_t104d13_01` |
-| 0x1A103C4F | 1293 | - | `wl_t105g00_01` |
-| 0x83196DF5 | 1294 | - | `wl_t105g00_02` |
-| 0x5EDA1813 | 1295 | - | `wl_t105d45_01` |
-| 0xAC7A1F21 | 1296 | - | `wl_t121g00_01` |
-| 0x35734E9B | 1297 | - | `wl_t121g00_02` |
-| 0x50ABC683 | 1298 | - | `wl_t231d04_01` |
-| 0xCEBC6146 | 1299 | - | `wl_t100d00_01` |
-| 0xBF2F0B80 | 1300 | - | `wl_t104d11_01` |
+| 0xD0770D97 | 1286 | Checks if the Watch Lock in the Shady Back Alley has been removed. | `wl_t101d01_01` |
+| 0x7A7EC51C | 1287 | Checks if the Watch Lock in The Catwalk has been removed. | `wl_t101d03_01` |
+| 0x5F159AC0 | 1288 | Checks if the Watch Lock in Desolate Lane has been removed. | `wl_t101d05_01` |
+| 0xEDE1D435 | 1289 | Checks if the Watch Lock in the Hidden Side Street has been removed. | `wl_t103d03_01` |
+| 0x7A88350E | 1290 | Checks if the Watch Lock in the Secret Byway has been removed. | `wl_t103d11_01` |
+| 0x79C00975 | 1291 | Checks if the Watch Lock in Blossom Heights has been removed. | `wl_t103g00_01` |
+| 0x1526C30B | 1292 | Checks if the Watch Lock in Springdale Business Tower 13F has been removed. | `wl_t104d13_01` |
+| 0x1A103C4F | 1293 | Checks if the Watch Lock in Shopper's Row has been removed. | `wl_t105g00_01` |
+| 0x83196DF5 | 1294 | Checks if the Watch Lock in Shopper's Row has been removed. | `wl_t105g00_02` |
+| 0x5EDA1813 | 1295 | Checks if the Watch Lock in Nocturne Hospital 3F has been removed. | `wl_t105d45_01` |
+| 0xAC7A1F21 | 1296 | Checks if the Watch Lock in San Fantastico has been removed. | `wl_t121g00_01` |
+| 0x35734E9B | 1297 | Checks if the Watch Lock in San Fantastico has been removed. | `wl_t121g00_02` |
+| 0x50ABC683 | 1298 | Checks if the Watch Lock in Cicada Canyon has been removed. | `wl_t231d04_01` |
+| 0xCEBC6146 | 1299 | Checks if the Watch Lock in the Springdale Underground Waterwat has been removed. | `wl_t100d00_01` |
+| 0xBF2F0B80 | 1300 | Checks if the Watch Lock in Springdale Business Tower 4F has been removed. | `wl_t104d11_01` |
 | 0x242567B8 | 1301 | - | `ev70_6140` |
 | 0x6415751F | 1302 | - | - |
 | 0xC07C0D15 | 1303 | - | - |
@@ -1334,7 +1334,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDD1E7758 | 1319 | - | - |
 | 0xF637FAF2 | 1320 | - | - |
 | 0x6F3EAB48 | 1321 | - | - |
-| 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. | `ev50_btl0180` |
+| 0xC5C25E05 | 1322 | Checks if the Infinite Inferno has been cleared. | `ev50_btl0180` |
 | 0x2D374578 | 1323 | - | - |
 | 0x3997F743 | 1324 | - | `ev50_2640` |
 | 0x6E5ED0A9 | 1325 | Checks if you have slept to the next morning during the Bear Boy questline. | - |
@@ -1345,10 +1345,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF03A450A | 1330 | Checks if you have slept to the next morning during the Independent Study questline. | - |
 | 0x873D759C | 1331 | - | - |
 | 0x1782680D | 1332 | Checks if you have slept to the next morning during the Makeover Takeover questline. | - |
-| 0x6085589B | 1333 | Ingame day reset checker for Makeover Takeover questline? | - |
+| 0x6085589B | 1333 | Appears to be an unused ingame day reset checker for the Makeover Takeover questline. | - |
 | 0x0042D17E (0x42D17E) | 1334 | Checks if you have slept to the next morning during the Springdale Star questline | - |
-| 0x7745E1E8 | 1335 | Ingame day reset checker for Catchy Fandom questline? | - |
-| 0xEE4CB052 | 1336 | Ingame day reset checker for Catchy Fandom questline? | - |
+| 0x7745E1E8 | 1335 | Appears to be an unused ingame day reset checker for the Catchy Fandom questline. | - |
+| 0xEE4CB052 | 1336 | Appears to be an unused ingame day reset checker for the Catchy Fandom questline. | - |
 | 0x994B80C4 | 1337 | - | - |
 | 0x072F1567 (0x72F1567) | 1338 | - | - |
 | 0xBC44EB18 | 1339 | - | - |
@@ -1359,10 +1359,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7A430B47 | 1344 | - | `tlk_qs0098_01` |
 | 0xEF24E3E5 | 1345 | - | - |
 | 0xB3BB0432 | 1346 | - | - |
-| 0xB739EA01 | 1347 | Is the Yo-kai Pad Wallpaper "Hearts and Fluff" unlocked? | `wallpaper04_release` |
-| 0xA042FE42 | 1348 | Is the Yo-kai Pad Wallpaper "Classic Gold" unlocked? | `wallpaper05_release` |
-| 0x99CFC287 | 1349 | Is the Yo-kai Pad Wallpaper "Up All Night" unlocked? | `wallpaper06_release` |
-| 0x8EB4D6C4 | 1350 | Is the Yo-kai Pad Wallpaper "Oh My Swirls! Pattern" unlocked? | `wallpaper07_release` |
+| 0xB739EA01 | 1347 | Checks if the Yo-kai Pad Wallpaper "Hearts and Fluff" has been unlocked. | `wallpaper04_release` |
+| 0xA042FE42 | 1348 | Checks if the Yo-kai Pad Wallpaper "Classic Gold" has been unlocked. | `wallpaper05_release` |
+| 0x99CFC287 | 1349 | Checks if the Yo-kai Pad Wallpaper "Up All Night" has been unlocked. | `wallpaper06_release` |
+| 0x8EB4D6C4 | 1350 | Checks if the Yo-kai Pad Wallpaper "Oh My Swirls! Pattern" has been unlocked. | `wallpaper07_release` |
 | 0x0569AC18 (0x569AC18) | 1351 | - | `t102g00` |
 | 0xBDD5CB7D | 1352 | - | `t103g00` |
 | 0x2002F3C4 | 1353 | - | `t104g00` |
@@ -1513,19 +1513,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD322CA91 | 1498 | - | - |
 | 0xA425FA07 | 1499 | - | - |
 | 0x3A416FA4 | 1500 | - | - |
-| 0xC27065E9 | 1501 | - | `passcomm_ex_send` |
-| 0x3CDB0D89 | 1502 | - | `passcomm_ex_recv` |
-| 0xEB87E5AB | 1503 | - | `passcomm_regist` |
+| 0xC27065E9 | 1501 | Checks if Pandanoko has been sent to someone else via StreetPass. | `passcomm_ex_send` |
+| 0x3CDB0D89 | 1502 | Checks if Pandanoko has been received via StreetPass. | `passcomm_ex_recv` |
+| 0xEB87E5AB | 1503 | Checks if you have registered for StreetPass. | `passcomm_regist` |
 | 0x5BFCC61F | 1504 | - | - |
-| 0x278F7E9D | 1505 | - | `appear_sasurai_npc00` |
-| 0x50884E0B | 1506 | - | `appear_sasurai_npc01` |
-| 0xC9811FB1 | 1507 | - | `appear_sasurai_npc02` |
-| 0xBE862F27 | 1508 | - | `appear_sasurai_npc03` |
-| 0x20E2BA84 | 1509 | - | `appear_sasurai_npc04` |
-| 0x57E58A12 | 1510 | - | `appear_sasurai_npc05` |
-| 0xCEECDBA8 | 1511 | - | `appear_sasurai_npc06` |
-| 0xB9EBEB3E | 1512 | - | `appear_sasurai_npc07` |
-| 0x2954F6AF | 1513 | - | `appear_sasurai_npc08` |
+| 0x278F7E9D | 1505 | Checks if a Yo-kai has appeared in Room 101. | `appear_sasurai_npc00` |
+| 0x50884E0B | 1506 | Checks if a Yo-kai has appeared in Room 102. | `appear_sasurai_npc01` |
+| 0xC9811FB1 | 1507 | Checks if a Yo-kai has appeared in Room 103. | `appear_sasurai_npc02` |
+| 0xBE862F27 | 1508 | Checks if a Yo-kai has appeared in Room 104. | `appear_sasurai_npc03` |
+| 0x20E2BA84 | 1509 | Checks if a Yo-kai has appeared in Room 105. | `appear_sasurai_npc04` |
+| 0x57E58A12 | 1510 | Checks if a Yo-kai has appeared in Room 201. | `appear_sasurai_npc05` |
+| 0xCEECDBA8 | 1511 | Checks if a Yo-kai has appeared in Room 202. | `appear_sasurai_npc06` |
+| 0xB9EBEB3E | 1512 | Checks if a Yo-kai has appeared in Room 203. | `appear_sasurai_npc07` |
+| 0x2954F6AF | 1513 | Checks if a Yo-kai has appeared in Room 204. | `appear_sasurai_npc08` |
 | 0x3B3B4FFA | 1514 | - | - |
 | 0xD7400A83 | 1515 | - | - |
 | 0x3187334A | 1516 | - | - |
@@ -1763,39 +1763,39 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8630A17E | 1748 | - | `new_warp_31` |
 | 0x00E91114 (0xE91114) | 1749 | - | - |
 | 0x99E040AE | 1750 | - | - |
-| 0x5A640058 | 1751 | Is the Nate's House Mirapo unlocked (Warp #00) | `warp_t101i02` |
-| 0xB307A56D | 1752 | Is the Katie's House Mirapo unlocked (Warp #01) | `warp_t101i04` |
-| 0x1F55524C | 1753 | Is the Evermart Uptown Mirapo unlocked (Warp #02) | `warp_t101i23` |
-| 0xBE1AA5A7 | 1754 | Is the Springdale Elementary 1F South Mirapo unlocked (Warp #06) | `warp_t101i51` |
-| 0xFF80BB52 | 1755 | Is the Lambert Post Office Mirapo unlocked (Warp #04) | `warp_t101i29` |
-| 0x18389655 | 1756 | Is the Piggleston Bank Mirapo unlocked (Warp #03) | `warp_t101i27` |
-| 0xE8400221 | 1757 | Is the Jungle Hunter Mirapo unlocked (Warp #05) | `warp_t101i31` |
-| 0xAC41E390 | 1758 | Is the Mt. Wildwood Mirapo unlocked (Warp #07) | `warp_t102g00` |
-| 0x14FD84F5 | 1759 | Is the Blossom Heights Mirapo unlocked (Warp #09) | `warp_t103g00` |
-| 0x5B52FBEB | 1760 | Is the Timers & More Mirapo unlocked (Warp #10) | `warp_t103i21` |
-| 0x5C3F3FF2 | 1761 | Is the Everymart Blossom Heights Mirapo unlocked (Warp #11) | `warp_t103i25` |
-| 0x4249CAAA | 1762 | Is the Shoten Temple Mirapo unlocked (Warp #12) | `warp_t103i31` |
-| 0x05D0CF3E (0x5D0CF3E) | 1763 | Is the Infinite Inferno 1st Circle Mirapo unlocked (Warp #13) | `warp_t103d41` |
-| 0x3190933F | 1764 | Is the Everymart Downtown Springdale Mirapo unlocked (Warp #14) | `warp_t104i33` |
-| 0x36FD5726 | 1765 | Is the Springdale Sports Club 1F Mirapo unlocked (Warp #15) | `warp_t104i37` |
-| 0xA2E90656 | 1766 | Is the Springdale Central Station Mirapo unlocked (Warp #16) | `warp_t104i61` |
-| 0x3196DB29 | 1767 | Is the Shopper's Row Mirapo unlocked (Warp #17) | `warp_t105g00` |
-| 0x7954602E | 1768 | - | `warp_t105i25` |
-| 0x604F516F | 1769 | - | `warp_t105i35` |
-| 0x232374C7 | 1770 | - | `warp_t106g00` |
-| 0x6C8C0BD9 | 1771 | - | `warp_t106i21` |
-| 0x9341C8E7 | 1772 | - | `warp_t106d33` |
-| 0x9B9F13A2 | 1773 | - | `warp_t107g00` |
-| 0xC4341F1E | 1774 | - | `warp_t121g00` |
-| 0xD7B10355 | 1775 | - | `warp_t121i10` |
-| 0xF95436AE | 1776 | - | `warp_t131g00` |
-| 0x84CD2B32 | 1777 | - | `warp_t131i01` |
-| 0xEBE19940 | 1778 | - | `warp_t132g00` |
-| 0x6485D410 | 1779 | - | `warp_t001d41` |
-| 0xFD8C85AA | 1780 | - | `warp_t001d42` |
-| 0x40093CE5 | 1781 | Is the Mt. Wildwood Summit Mirapo unlocked (Warp #08) | `warp_t102d02` |
+| 0x5A640058 | 1751 | Checks if the Mirapo at Adams House 2F is unlocked. (Warp #00) | `warp_t101i02` |
+| 0xB307A56D | 1752 | Checks if the Mirapo at Forester House 2F is unlocked. (Warp #01) | `warp_t101i04` |
+| 0x1F55524C | 1753 | Checks if the Mirapo at Uptown Springdale Everymart is unlocked. (Warp #02) | `warp_t101i23` |
+| 0xBE1AA5A7 | 1754 | Checks if the Mirapo at Springdale Elementary 1F South is unlocked. (Warp #06) | `warp_t101i51` |
+| 0xFF80BB52 | 1755 | Checks if the Mirapo at Lambert Post Office is unlocked. (Warp #04) | `warp_t101i29` |
+| 0x18389655 | 1756 | Checks if the Mirapo at Piggleston Bank is unlocked. (Warp #03) | `warp_t101i27` |
+| 0xE8400221 | 1757 | Checks if the Mirapo at Jungle Hunter is unlocked. (Warp #05) | `warp_t101i31` |
+| 0xAC41E390 | 1758 | Checks if the Mirapo at Mount Wildwood is unlocked. (Warp #07) | `warp_t102g00` |
+| 0x14FD84F5 | 1759 | Checks if the Mirapo at Blossom Heights is unlocked. (Warp #09) | `warp_t103g00` |
+| 0x5B52FBEB | 1760 | Checks if the Mirapo at Timers & More is unlocked. (Warp #10) | `warp_t103i21` |
+| 0x5C3F3FF2 | 1761 | Checks if the Mirapo at Blossom Heights Everymart is unlocked. (Warp #11) | `warp_t103i25` |
+| 0x4249CAAA | 1762 | Checks if the Mirapo at Shoten Temple is unlocked. (Warp #12) | `warp_t103i31` |
+| 0x05D0CF3E (0x5D0CF3E) | 1763 | Checks if the Mirapo at Infinite Inferno 1st Circle is unlocked. (Warp #13) | `warp_t103d41` |
+| 0x3190933F | 1764 | Checks if the Mirapo at Downtown Springdale Everymart is unlocked. (Warp #14) | `warp_t104i33` |
+| 0x36FD5726 | 1765 | Checks if the Mirapo at Springdale Sports Club 1F is unlocked. (Warp #15) | `warp_t104i37` |
+| 0xA2E90656 | 1766 | Checks if the Mirapo at Springdale Central Station is unlocked. (Warp #16) | `warp_t104i61` |
+| 0x3196DB29 | 1767 | Checks if the Mirapo at Shopper's Row is unlocked. (Warp #17) | `warp_t105g00` |
+| 0x7954602E | 1768 | Checks if the Mirapo at Shopper's Row Everymart is unlocked. | `warp_t105i25` |
+| 0x604F516F | 1769 | Checks if the Mirapo at Whatta Find is unlocked. | `warp_t105i35` |
+| 0x232374C7 | 1770 | Checks if the Mirapo at Breezy Hills is unlocked. | `warp_t106g00` |
+| 0x6C8C0BD9 | 1771 | Checks if the Mirapo at Breezy Hills Everymart is unlocked. | `warp_t106i21` |
+| 0x9341C8E7 | 1772 | Checks if the Mirapo at Gourd Pond Museum Vault is unlocked. | `warp_t106d33` |
+| 0x9B9F13A2 | 1773 | Checks if the Mirapo at Excellent Tower is unlocked. | `warp_t107g00` |
+| 0xC4341F1E | 1774 | Checks if the Mirapo at San Fantastico is unlocked. | `warp_t121g00` |
+| 0xD7B10355 | 1775 | Checks if the Mirapo at Deserted House is unlocked. | `warp_t121i10` |
+| 0xF95436AE | 1776 | Checks if the Mirapo at Harrisville is unlocked. | `warp_t131g00` |
+| 0x84CD2B32 | 1777 | Checks if the Mirapo at Grandma's House is unlocked. | `warp_t131i01` |
+| 0xEBE19940 | 1778 | Checks if the Mirapo at Harrisville Station Plaza is unlocked. | `warp_t132g00` |
+| 0x6485D410 | 1779 | Checks if the Mirapo at Yo-kai World World's Edge is unlocked. | `warp_t001d41` |
+| 0xFD8C85AA | 1780 | Checks if the Mirapo at Yo-kai World Entry Hall is unlocked. | `warp_t001d42` |
+| 0x40093CE5 | 1781 | Checks if the Mirapo at Mount Wildwood Summit is unlocked. (Warp #08) | `warp_t102d02` |
 | 0x7566A379 | 1782 | - | - |
-| 0x621BD94D | 1783 | - | `warp_t131d03` |
+| 0x621BD94D | 1783 | Checks if the Mirapo at Fullface Rock is unlocked. | `warp_t131d03` |
 | 0xACF880B6 | 1784 | - | `t103d41` |
 | 0x3A69876F | 1785 | - | `t106d33` |
 | 0x866171ED | 1786 | - | `t001b31` |
@@ -2084,7 +2084,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBAF9F3E4 | 2069 | - | - |
 | 0xB23BAE07 | 2070 | - | - |
 | 0xCE2CD4FD | 2071 | - | - |
-| 0x63036BF8 | 2072 | - | `week_get_wanted_reward` |
+| 0x63036BF8 | 2072 | Checks if you've gotten the reward for that week's Yo-criminal. | `week_get_wanted_reward` |
 | 0xFB24CBF6 | 2073 | - | `wanted_complete` |
 | 0x9A906B2F | 2074 | Checks if the Spin Soul has been made. | - |
 | 0xED975BB9 | 2075 | Checks if the Searing Soul has been made. | - |
@@ -2099,7 +2099,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB1BD38EC | 2084 | Checks if the Summoner's Soul has been made. | - |
 | 0xC6BA087A | 2085 | Checks if the Surrender Soul has been made. | - |
 | 0x5FB359C0 | 2086 | Checks if the Superstar Soul has been made. | - |
-| 0x7D24ED7D | 2087 | Has Unlocked Everymart Discount | `territory_t101g00_01` |
+| 0x7D24ED7D | 2087 | Checks if you have unlocked the discount at Uptown Springdale Everymart. | `territory_t101g00_01` |
 | 0xE42DBCC7 | 2088 | - | `territory_t101g00_02` |
 | 0x932A8C51 | 2089 | - | `territory_t101g00_03` |
 | 0xD52078AB | 2090 | - | - |
@@ -2116,7 +2116,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7CB364CB | 2101 | - | - |
 | 0xE2D7F168 | 2102 | - | - |
 | 0xEABBFC54 | 2103 | - | `territory_t103g00_01` |
-| 0xAA9CE0F4 | 2104 | Has Jibanyan-S been met. | - |
+| 0xAA9CE0F4 | 2104 | Checks if you have met Jibanyan S. | - |
 | 0x527C1B03 | 2105 | - | - |
 | 0x9ED61B9D | 2106 | - | - |
 | 0x34CA0E53 | 2107 | - | - |
@@ -2132,13 +2132,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1F6351F1 | 2117 | - | - |
 | 0x4779B929 | 2118 | - | - |
 | 0x896BC96E | 2119 | - | `territory_t105g00_01` |
-| 0xED63D5C7 | 2120 | Checks if the player has fought Jibanyan S that day | - |
-| 0x3A6252C6 | 2121 | Checks if the player has fought Komasan S that day | - |
-| 0x23796387 | 2122 | Checks if the player has fought Komajiro S that day | - |
+| 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S that day. | - |
+| 0x3A6252C6 | 2121 | Checks if you have fought Komasan S that day. | - |
+| 0x23796387 | 2122 | Checks if you have fought Komajiro S that day. | - |
 | 0x571A3B69 | 2123 | - | - |
-| 0x7AAF26B6 | 2124 | Checks if the player has fought Darkyubi that day | - |
-| 0xF6858D9A | 2125 | Checks if the player has fought Illuminoct that day | - |
-| 0x32AD77FA | 2126 | Checks if the player has fought Moximous N/Moximous K that day | - |
+| 0x7AAF26B6 | 2124 | Checks if you have fought Darkyubi that day. | - |
+| 0xF6858D9A | 2125 | Checks if you have fought Illuminoct that day. | - |
+| 0x32AD77FA | 2126 | Checks if you have fought Moximous N/Moximous K that day. | - |
 | 0xB883D3F3 | 2127 | - | `territory_t106g00_01` |
 | 0x218A8249 | 2128 | - | `territory_t106g00_02` |
 | 0x568DB2DF | 2129 | - | `territory_t106g00_03` |
@@ -2184,7 +2184,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9E502DF4 | 2169 | - | - |
 | 0xCF8FEFA4 | 2170 | - | - |
 | 0x5686BE1E | 2171 | - | - |
-| 0xF92EB4EC | 2172 | Has Master Oden's Baffle Board been activated. | - |
+| 0xF92EB4EC | 2172 | Checks if you have activated Master Oden's Baffle Board. | - |
 | 0xFE13A95A | 2173 | - | `ev51_8200` |
 | 0xBBF62CB8 | 2174 | - | - |
 | 0xF3842C8C | 2175 | - | `ev51_8800` |
@@ -2266,25 +2266,25 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4E8A9E52 | 2251 | - | - |
 | 0x398DAEC4 | 2252 | - | - |
 | 0xA084FF7E | 2253 | - | - |
-| 0x21CC01E4 | 2254 | Obtained the Springdale Central Station Stamp (Stamp Rally). | `station_stamp_t100s01` |
-| 0xB8C5505E | 2255 | Obtained the Green Street Station Stamp (Stamp Rally). | `station_stamp_t100s02` |
-| 0xCFC260C8 | 2256 | Obtained the Hibarly Hills Station Stamp (Stamp Rally). | `station_stamp_t100s03` |
-| 0x51A6F56B | 2257 | Obtained the Petal Peak Station Stamp (Stamp Rally). | `station_stamp_t100s04` |
-| 0x26A1C5FD | 2258 | Obtained the Factory Row Station Stamp (Stamp Rally). | `station_stamp_t100s05` |
-| 0xBFA89447 | 2259 | Obtained the Sweet Meadow Station Stamp (Stamp Rally). | `station_stamp_t100s06` |
-| 0xC8AFA4D1 | 2260 | Obtained the Fortune Place Station Stamp (Stamp Rally). | `station_stamp_t100s07` |
-| 0x5810B940 | 2261 | Obtained the Skybridge Station Stamp (Stamp Rally). | `station_stamp_t100s08` |
-| 0x2F1789D6 | 2262 | Obtained the Dreamer’s Field Station Stamp (Stamp Rally). | `station_stamp_t100s09` |
-| 0x4FD00033 | 2263 | Obtained the Ridgemont Station Stamp (Stamp Rally). | `station_stamp_t100s10` |
-| 0x38D730A5 | 2264 | Obtained the Bayside Station Stamp (Stamp Rally). | `station_stamp_t100s11` |
-| 0xA1DE611F | 2265 | Obtained the San Fantastico Station Stamp (Stamp Rally). | `station_stamp_t100s12` |
-| 0xD6D95189 | 2266 | Obtained the Greenfields Station Stamp (Stamp Rally). | `station_stamp_t100s13` |
-| 0x48BDC42A | 2267 | Obtained the Temple Park Station Stamp (Stamp Rally). | `station_stamp_t100s14` |
-| 0x3FBAF4BC | 2268 | Obtained the Dingle Falls Station Stamp (Stamp Rally). | `station_stamp_t100s15` |
-| 0xA6B3A506 | 2269 | Obtained the Harrisville Station Stamp (Stamp Rally). | `station_stamp_t100s16` |
-| 0xD1B49590 | 2270 | Obtained the Spring Station Stamp (Stamp Rally). | `station_stamp_t100s17` |
-| 0x410B8801 | 2271 | Obtained the Sunshine Station Stamp (Stamp Rally). | `station_stamp_t100s18` |
-| 0x4AE86950 | 2272 | Collected all Stamp Rally Stamps. | `station_stamp_complete` |
+| 0x21CC01E4 | 2254 | Checks if you've obtained the Springdale Central Station Stamp (Stamp Rally). | `station_stamp_t100s01` |
+| 0xB8C5505E | 2255 | Checks if you've obtained the Green Street Station Stamp (Stamp Rally). | `station_stamp_t100s02` |
+| 0xCFC260C8 | 2256 | Checks if you've obtained the Hibarly Hills Station Stamp (Stamp Rally). | `station_stamp_t100s03` |
+| 0x51A6F56B | 2257 | Checks if you've obtained the Petal Peak Station Stamp (Stamp Rally). | `station_stamp_t100s04` |
+| 0x26A1C5FD | 2258 | Checks if you've obtained the Factory Row Station Stamp (Stamp Rally). | `station_stamp_t100s05` |
+| 0xBFA89447 | 2259 | Checks if you've obtained the Sweet Meadow Station Stamp (Stamp Rally). | `station_stamp_t100s06` |
+| 0xC8AFA4D1 | 2260 | Checks if you've obtained the Fortune Place Station Stamp (Stamp Rally). | `station_stamp_t100s07` |
+| 0x5810B940 | 2261 | Checks if you've obtained the Skybridge Station Stamp (Stamp Rally). | `station_stamp_t100s08` |
+| 0x2F1789D6 | 2262 | Checks if you've obtained the Dreamer’s Field Station Stamp (Stamp Rally). | `station_stamp_t100s09` |
+| 0x4FD00033 | 2263 | Checks if you've obtained the Ridgemont Station Stamp (Stamp Rally). | `station_stamp_t100s10` |
+| 0x38D730A5 | 2264 | Checks if you've obtained the Bayside Station Stamp (Stamp Rally). | `station_stamp_t100s11` |
+| 0xA1DE611F | 2265 | Checks if you've obtained the San Fantastico Station Stamp (Stamp Rally). | `station_stamp_t100s12` |
+| 0xD6D95189 | 2266 | Checks if you've obtained the Greenfields Station Stamp (Stamp Rally). | `station_stamp_t100s13` |
+| 0x48BDC42A | 2267 | Checks if you've obtained the Temple Park Station Stamp (Stamp Rally). | `station_stamp_t100s14` |
+| 0x3FBAF4BC | 2268 | Checks if you've obtained the Dingle Falls Station Stamp (Stamp Rally). | `station_stamp_t100s15` |
+| 0xA6B3A506 | 2269 | Checks if you've obtained the Harrisville Station Stamp (Stamp Rally). | `station_stamp_t100s16` |
+| 0xD1B49590 | 2270 | Checks if you've obtained the Spring Station Stamp (Stamp Rally). | `station_stamp_t100s17` |
+| 0x410B8801 | 2271 | Checks if you've obtained the Sunshine Station Stamp (Stamp Rally). | `station_stamp_t100s18` |
+| 0x4AE86950 | 2272 | Checks if you've collected all Stamp Rally Stamps. | `station_stamp_complete` |
 | 0x69CC7255 | 2273 | - | - |
 | 0x123304A7 | 2274 | - | - |
 | 0xE6DEEF0D | 2275 | - | - |
@@ -2496,7 +2496,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x57486B3C | 2481 | - | - |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | - | - |
 | 0x43EC8993 | 2483 | - | - |
-| 0x5AF7B8D2 | 2484 | Is in a Gate of Whimsy. | - |
+| 0x5AF7B8D2 | 2484 | Checks if you are inside a Gate of Whimsy. | - |
 | 0x71DAEB11 | 2485 | - | - |
 | 0x6167D49C | 2486 | - | - |
 | 0x880471A9 | 2487 | - | - |
