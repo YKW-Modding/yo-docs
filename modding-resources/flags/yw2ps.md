@@ -1049,124 +1049,124 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x604179DD | 1034 | - | - |
 | 0x9E05DDB6 | 1035 | - | - |
 | 0x3A6BA89D | 1036 | - | - |
-| 0x75FCA82E | 1037 | - | - |
-| 0xECF5F994 | 1038 | - | - |
-| 0x9BF2C902 | 1039 | - | - |
-| 0x05965CA1 (0x5965CA1) | 1040 | - | - |
-| 0x72916C37 | 1041 | - | - |
-| 0xEB983D8D | 1042 | - | - |
-| 0x9C9F0D1B | 1043 | - | - |
-| 0x0C20108A (0xC20108A) | 1044 | - | - |
-| 0x7B27201C | 1045 | - | - |
-| 0x1BE0A9F9 | 1046 | - | - |
-| 0x6CE7996F | 1047 | - | - |
-| 0xF5EEC8D5 | 1048 | - | - |
-| 0x82E9F843 | 1049 | - | - |
-| 0x1C8D6DE0 | 1050 | - | - |
-| 0x6B8A5D76 | 1051 | - | - |
-| 0xF2830CCC | 1052 | - | - |
-| 0x85843C5A | 1053 | - | - |
-| 0x153B21CB | 1054 | - | - |
-| 0x623C115D | 1055 | - | - |
-| 0x30CDFA3A | 1056 | - | - |
-| 0x47CACAAC | 1057 | - | - |
-| 0xDEC39B16 | 1058 | - | - |
-| 0xA9C4AB80 | 1059 | - | - |
-| 0x37A03E23 | 1060 | - | - |
-| 0x40A70EB5 | 1061 | - | - |
-| 0xD9AE5F0F | 1062 | - | - |
-| 0xAEA96F99 | 1063 | - | - |
-| 0x3E167208 | 1064 | - | - |
-| 0x4911429E | 1065 | - | - |
-| 0x29D6CB7B | 1066 | - | - |
-| 0x5ED1FBED | 1067 | - | - |
-| 0xC7D8AA57 | 1068 | - | - |
-| 0xB0DF9AC1 | 1069 | - | - |
-| 0x2EBB0F62 | 1070 | - | - |
-| 0x59BC3FF4 | 1071 | - | - |
-| 0xC0B56E4E | 1072 | - | - |
-| 0xB7B25ED8 | 1073 | - | - |
-| 0x270D4349 | 1074 | - | - |
-| 0x500A73DF | 1075 | - | - |
-| 0x66975DBC | 1076 | - | - |
-| 0x11906D2A | 1077 | - | - |
-| 0x88993C90 | 1078 | - | - |
-| 0xFF9E0C06 | 1079 | - | - |
-| 0x61FA99A5 | 1080 | - | - |
-| 0x16FDA933 | 1081 | - | - |
-| 0x8FF4F889 | 1082 | - | - |
-| 0xF8F3C81F | 1083 | - | - |
-| 0x684CD58E | 1084 | - | - |
-| 0x1F4BE518 | 1085 | - | - |
-| 0x7F8C6CFD | 1086 | - | - |
-| 0x088B5C6B (0x88B5C6B) | 1087 | - | - |
-| 0x91820DD1 | 1088 | - | - |
-| 0xE6853D47 | 1089 | - | - |
-| 0x78E1A8E4 | 1090 | - | - |
-| 0x0FE69872 (0xFE69872) | 1091 | - | - |
-| 0x96EFC9C8 | 1092 | - | - |
-| 0xE1E8F95E | 1093 | - | - |
-| 0x7157E4CF | 1094 | - | - |
-| 0x0650D459 (0x650D459) | 1095 | - | - |
-| 0x54A13F3E | 1096 | - | - |
-| 0x23A60FA8 | 1097 | - | - |
-| 0xBAAF5E12 | 1098 | - | - |
-| 0xCDA86E84 | 1099 | - | - |
-| 0x53CCFB27 | 1100 | - | - |
-| 0x24CBCBB1 | 1101 | - | - |
-| 0xBDC29A0B | 1102 | - | - |
-| 0xCAC5AA9D | 1103 | - | - |
-| 0x5A7AB70C | 1104 | - | - |
-| 0x2D7D879A | 1105 | - | - |
-| 0x4DBA0E7F | 1106 | - | - |
-| 0x3ABD3EE9 | 1107 | - | - |
-| 0xA3B46F53 | 1108 | - | - |
-| 0xD4B35FC5 | 1109 | - | - |
-| 0x4AD7CA66 | 1110 | - | - |
-| 0x3DD0FAF0 | 1111 | - | - |
-| 0xA4D9AB4A | 1112 | - | - |
-| 0xD3DE9BDC | 1113 | - | - |
-| 0x4361864D | 1114 | - | - |
-| 0x3466B6DB | 1115 | - | - |
-| 0xCA2212B0 | 1116 | - | - |
-| 0xBD252226 | 1117 | - | - |
-| 0x242C739C | 1118 | - | - |
-| 0x532B430A | 1119 | - | - |
-| 0xCD4FD6A9 | 1120 | - | - |
-| 0xBA48E63F | 1121 | - | - |
-| 0x2341B785 | 1122 | - | - |
-| 0x54468713 | 1123 | - | - |
-| 0xC4F99A82 | 1124 | - | - |
-| 0xB3FEAA14 | 1125 | - | - |
-| 0xD33923F1 | 1126 | - | - |
-| 0xA43E1367 | 1127 | - | - |
-| 0x3D3742DD | 1128 | - | - |
-| 0x4A30724B | 1129 | - | - |
-| 0xD454E7E8 | 1130 | - | - |
-| 0xA353D77E | 1131 | - | - |
-| 0x3A5A86C4 | 1132 | - | - |
-| 0x4D5DB652 | 1133 | - | - |
-| 0xDDE2ABC3 | 1134 | - | - |
-| 0xAAE59B55 | 1135 | - | - |
-| 0x0339F28F (0x339F28F) | 1136 | - | - |
+| 0x75FCA82E | 1037 | Checks if the password I4S9S2I6 has been used. | - |
+| 0xECF5F994 | 1038 | Checks if the password I3V5N9O6 has been used. | - |
+| 0x9BF2C902 | 1039 | Checks if the password U7L4N6L3 has been used. | - |
+| 0x05965CA1 (0x5965CA1) | 1040 | Checks if the password F6S7L9Z7 has been used. | - |
+| 0x72916C37 | 1041 | Checks if the password F2Z3U5T7 has been used. | - |
+| 0xEB983D8D | 1042 | Checks if the password G5N0D6V2 has been used. | - |
+| 0x9C9F0D1B | 1043 | Checks if the password N0S7O3N8 has been used. | - |
+| 0x0C20108A (0xC20108A) | 1044 | Checks if the password N0J3B8T9 has been used. | - |
+| 0x7B27201C | 1045 | Checks if the password L7P9U9T3 has been used. | - |
+| 0x1BE0A9F9 | 1046 | Checks if the password O9N7I4U0 has been used. | - |
+| 0x6CE7996F | 1047 | Checks if the password N5P2T4O6 has been used. | - |
+| 0xF5EEC8D5 | 1048 | Checks if the password Z7P4J8T4 has been used. | - |
+| 0x82E9F843 | 1049 | Checks if the password N7F8S5V9 has been used. | - |
+| 0x1C8D6DE0 | 1050 | Checks if the password O0S5I3D3 has been used. | - |
+| 0x6B8A5D76 | 1051 | Checks if the password N8L0O9N4 has been used. | - |
+| 0xF2830CCC | 1052 | Checks if the password O6N4P3O7 has been used. | - |
+| 0x85843C5A | 1053 | Checks if the password I6N3S0L5 has been used. | - |
+| 0x153B21CB | 1054 | Checks if the password T7L6I9D7 has been used. | - |
+| 0x623C115D | 1055 | Checks if the password S6O7N2B4 has been used. | - |
+| 0x30CDFA3A | 1056 | Checks if the password T5S2S8T5 has been used. | - |
+| 0x47CACAAC | 1057 | Checks if the password S7N7T7D2 has been used. | - |
+| 0xDEC39B16 | 1058 | Checks if the password J4S4T2I5 has been used. | - |
+| 0xA9C4AB80 | 1059 | Checks if the password O2S9I5Z9 has been used. | - |
+| 0x37A03E23 | 1060 | Checks if the password S9Z8I6L3 has been used. | - |
+| 0x40A70EB5 | 1061 | Checks if the password N0S3T7V9 has been used. | - |
+| 0xD9AE5F0F | 1062 | Checks if the password D0T8L7P9 has been used. | - |
+| 0xAEA96F99 | 1063 | Checks if the password L8Z5T9P7 has been used. | - |
+| 0x3E167208 | 1064 | Checks if the password T8L6U4D4 has been used. | - |
+| 0x4911429E | 1065 | Checks if the password L5Z3T9J3 has been used. | - |
+| 0x29D6CB7B | 1066 | Checks if the password S6U2U8O7 has been used. | - |
+| 0x5ED1FBED | 1067 | Checks if the password Z7L6Z0O7 has been used. | - |
+| 0xC7D8AA57 | 1068 | Checks if the password I9N8O9T9 has been used. | - |
+| 0xB0DF9AC1 | 1069 | Checks if the password O5O7I9L5 has been used. | - |
+| 0x2EBB0F62 | 1070 | Checks if the password L3S6N0I6 has been used. | - |
+| 0x59BC3FF4 | 1071 | Checks if the password L7B0I3O8 has been used. | - |
+| 0xC0B56E4E | 1072 | Checks if the password L4O6S6O8 has been used. | - |
+| 0xB7B25ED8 | 1073 | Checks if the password L6O2S0Z3 has been used. | - |
+| 0x270D4349 | 1074 | Checks if the password L0S5S6S6 has been used. | - |
+| 0x500A73DF | 1075 | Checks if the password N5N0N9Z2 has been used. | - |
+| 0x66975DBC | 1076 | Checks if the password S2D9I5N3 has been used. | - |
+| 0x11906D2A | 1077 | Checks if the password T9T7J8L3 has been used. | - |
+| 0x88993C90 | 1078 | Checks if the password P3D6N4L7 has been used. | - |
+| 0xFF9E0C06 | 1079 | Checks if the password B7L6S8N7 has been used. | - |
+| 0x61FA99A5 | 1080 | Checks if the password U5O9L5N7 has been used. | - |
+| 0x16FDA933 | 1081 | Checks if the password O7G2T9L7 has been used. | - |
+| 0x8FF4F889 | 1082 | Checks if the password O3D7N6L0 has been used. | - |
+| 0xF8F3C81F | 1083 | Checks if the password O3S8G9G7 has been used. | - |
+| 0x684CD58E | 1084 | Checks if the password I7D7O2L7 has been used. | - |
+| 0x1F4BE518 | 1085 | Checks if the password S4N3N5U6 has been used. | - |
+| 0x7F8C6CFD | 1086 | Checks if the password T6P8I8J8 has been used. | - |
+| 0x088B5C6B (0x88B5C6B) | 1087 | Checks if the password L7T7Z9O4 has been used. | - |
+| 0x91820DD1 | 1088 | Checks if the password L0I5N0J9 has been used. | - |
+| 0xE6853D47 | 1089 | Checks if the password O4T5Z9N5 has been used. | - |
+| 0x78E1A8E4 | 1090 | Checks if the password P5Z8L7T2 has been used. | - |
+| 0x0FE69872 (0xFE69872) | 1091 | Checks if the password N0I9L9T6 has been used. | - |
+| 0x96EFC9C8 | 1092 | Checks if the password N4T9N8L5 has been used. | - |
+| 0xE1E8F95E | 1093 | Checks if the password B9U3O9T8 has been used. | - |
+| 0x7157E4CF | 1094 | Checks if the password B3O2Z7U9 has been used. | - |
+| 0x0650D459 (0x650D459) | 1095 | Checks if the password O3T9N3U6 has been used. | - |
+| 0x54A13F3E | 1096 | Checks if the password S5F8V8O8 has been used. | - |
+| 0x23A60FA8 | 1097 | Checks if the password O2U3J3D2 has been used. | - |
+| 0xBAAF5E12 | 1098 | Checks if the password L5I3O8G5 has been used. | - |
+| 0xCDA86E84 | 1099 | Checks if the password N3U8Z7V8 has been used. | - |
+| 0x53CCFB27 | 1100 | Checks if the password S9T8S7N7 has been used. | - |
+| 0x24CBCBB1 | 1101 | Checks if the password S9L8V3L4 has been used. | - |
+| 0xBDC29A0B | 1102 | Checks if the password L8V6S3L4 has been used. | - |
+| 0xCAC5AA9D | 1103 | Checks if the password F6O7D6T9 has been used. | - |
+| 0x5A7AB70C | 1104 | Checks if the password O9N9V8I8 has been used. | - |
+| 0x2D7D879A | 1105 | Checks if the password O8Z6O6O5 has been used. | - |
+| 0x4DBA0E7F | 1106 | Checks if the password L4F8L6T6 has been used. | - |
+| 0x3ABD3EE9 | 1107 | Checks if the password S8J4D8I4 has been used. | - |
+| 0xA3B46F53 | 1108 | Checks if the password V7B5I7T3 has been used. | - |
+| 0xD4B35FC5 | 1109 | Checks if the password Z0O5D4N6 has been used. | - |
+| 0x4AD7CA66 | 1110 | Checks if the password T8S6U3N4 has been used. | - |
+| 0x3DD0FAF0 | 1111 | Checks if the password S0Z4O2L4 has been used. | - |
+| 0xA4D9AB4A | 1112 | Checks if the password Z0V5P9I0 has been used. | - |
+| 0xD3DE9BDC | 1113 | Checks if the password B4L2L7Z7 has been used. | - |
+| 0x4361864D | 1114 | Checks if the password O8N8N7I2 has been used. | - |
+| 0x3466B6DB | 1115 | Checks if the password I8L7O2O4 has been used. | - |
+| 0xCA2212B0 | 1116 | Checks if the password J7I7U3N6 has been used. | - |
+| 0xBD252226 | 1117 | Checks if the password S4L9Z8L7 has been used. | - |
+| 0x242C739C | 1118 | Checks if the password G4P3O4S5 has been used. | - |
+| 0x532B430A | 1119 | Checks if the password S7T3Z3Z0 has been used. | - |
+| 0xCD4FD6A9 | 1120 | Checks if the password L5P0S6I4 has been used. | - |
+| 0xBA48E63F | 1121 | Checks if the password S4J2T6T6 has been used. | - |
+| 0x2341B785 | 1122 | Checks if the password I6L0J6J7 has been used. | - |
+| 0x54468713 | 1123 | Checks if the password J6N9O6N6 has been used. | - |
+| 0xC4F99A82 | 1124 | Checks if the password F6I3J7O9 has been used. | - |
+| 0xB3FEAA14 | 1125 | Checks if the password T2S4S5D5 has been used. | - |
+| 0xD33923F1 | 1126 | Checks if the password L3Z5O4Z6 has been used. | - |
+| 0xA43E1367 | 1127 | Checks if the password I5L0O3P5 has been used. | - |
+| 0x3D3742DD | 1128 | Checks if the password O6L6O0Z3 has been used. | - |
+| 0x4A30724B | 1129 | Checks if the password P3S4N2L7 has been used. | - |
+| 0xD454E7E8 | 1130 | Checks if the password L4D6D9Z4 has been used. | - |
+| 0xA353D77E | 1131 | Checks if the password I9I3D7O3 has been used. | - |
+| 0x3A5A86C4 | 1132 | Checks if the password U9L4I5O8 has been used. | - |
+| 0x4D5DB652 | 1133 | Checks if the password L5T8T4L3 has been used. | - |
+| 0xDDE2ABC3 | 1134 | Checks if the password O9T3L3L6 has been used. | - |
+| 0xAAE59B55 | 1135 | Checks if the password N6I6U9G9 has been used. | - |
+| 0x0339F28F (0x339F28F) | 1136 | Checks if the password N4U6I6U5 has been used. | - |
 | 0xBC414715 | 1137 | - | - |
-| 0x86FD0F63 | 1138 | - | `pass_colb_00` |
-| 0xF1FA3FF5 | 1139 | - | `pass_colb_01` |
-| 0x68F36E4F | 1140 | - | `pass_colb_02` |
-| 0x1FF45ED9 | 1141 | - | `pass_colb_03` |
-| 0x8190CB7A | 1142 | - | `pass_colb_04` |
-| 0xF697FBEC | 1143 | - | `pass_colb_05` |
-| 0x6F9EAA56 | 1144 | - | `pass_colb_06` |
-| 0x18999AC0 | 1145 | - | `pass_colb_07` |
-| 0x88268751 | 1146 | - | `pass_colb_08` |
-| 0xFF21B7C7 | 1147 | - | `pass_colb_09` |
-| 0x83DD78BF | 1148 | - | - |
-| 0x55274E2D | 1149 | - | - |
-| 0xCC2E1F97 | 1150 | - | - |
-| 0xBB292F01 | 1151 | - | - |
-| 0x254DBAA2 | 1152 | - | - |
-| 0x524A8A34 | 1153 | - | - |
-| 0xCB43DB8E | 1154 | - | - |
+| 0x86FD0F63 | 1138 | Checks if the password G1MM3@D0LL has been entered. | `pass_colb_00` |
+| 0xF1FA3FF5 | 1139 | Checks if the password M3G@3XPPLZ has been entered. | `pass_colb_01` |
+| 0x68F36E4F | 1140 | Checks if the password BR@V3&B0LD has been entered. | `pass_colb_02` |
+| 0x1FF45ED9 | 1141 | Checks if the password MY5T3R13S! has been entered. | `pass_colb_03` |
+| 0x8190CB7A | 1142 | Checks if the password T0UGHBR3@K has been entered. | `pass_colb_04` |
+| 0xF697FBEC | 1143 | Checks if the password S0CH@RM1NG has been entered. | `pass_colb_05` |
+| 0x6F9EAA56 | 1144 | Checks if the password AW@RMH3@RT has been entered. | `pass_colb_06` |
+| 0x18999AC0 | 1145 | Checks if the password THR0WSH@D3 has been entered. | `pass_colb_07` |
+| 0x88268751 | 1146 | Checks if the password D@RK&E3RI3 has been entered. | `pass_colb_08` |
+| 0xFF21B7C7 | 1147 | Checks if the password SL1PPYSL0P has been entered. | `pass_colb_09` |
+| 0x83DD78BF | 1148 | Checks if the password friends has been entered. | - |
+| 0x55274E2D | 1149 | Checks if the password MYFR13NDS! has been entered. | - |
+| 0xCC2E1F97 | 1150 | Checks if the password 5P01NTST@R has been entered. | - |
+| 0xBB292F01 | 1151 | Checks if the password NY@N15M30W has been entered. | - |
+| 0x254DBAA2 | 1152 | Checks if the password LCK2WH15PR has been entered. | - |
+| 0x524A8A34 | 1153 | Checks if the password J1B@NY@N! has been entered. | - |
+| 0xCB43DB8E | 1154 | Checks if the password 3V3RYWH3R3 has been entered. | - |
 | 0xD7AE6568 | 1155 | - | - |
 | 0x4EA734D2 | 1156 | - | - |
 | 0x39A00444 | 1157 | - | - |
@@ -1295,9 +1295,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x98CFF92C | 1280 | Checks if the door to Awevil in the Springdale Underground Waterway has been opened. | `door_t100d00_boss` |
 | 0x075DE8E9 (0x75DE8E9) | 1281 | Checks if a locked door in Sunset Manufacturing Co. has been unlocked. | `door_t201d23_boss` |
 | 0x23FCC8FA | 1282 | - | - |
-| 0x7EC3A734 | 1283 | - | `gimic_t103d41_tatami` |
-| 0x3CE6A049 | 1284 | - | `gimic_t103d43_tatami` |
-| 0xFA89A9CE | 1285 | - | `gimic_t103d45_tatami` |
+| 0x7EC3A734 | 1283 | Checks if the shortcut in Infinite Inferno 1st Circle has been enabled. | `gimic_t103d41_tatami` |
+| 0x3CE6A049 | 1284 | Checks if the shortcut in Infinite Inferno 3rd Circle has been enabled. | `gimic_t103d43_tatami` |
+| 0xFA89A9CE | 1285 | Checks if the shortcut in Infinite Inferno 5th Circle has been enabled. | `gimic_t103d45_tatami` |
 | 0xD0770D97 | 1286 | Checks if the Watch Lock in the Shady Back Alley has been removed. | `wl_t101d01_01` |
 | 0x7A7EC51C | 1287 | Checks if the Watch Lock in The Catwalk has been removed. | `wl_t101d03_01` |
 | 0x5F159AC0 | 1288 | Checks if the Watch Lock in Desolate Lane has been removed. | `wl_t101d05_01` |
@@ -1351,7 +1351,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEE4CB052 | 1336 | Appears to be an unused ingame day reset checker for the Catchy Fandom questline. | - |
 | 0x994B80C4 | 1337 | - | - |
 | 0x072F1567 (0x72F1567) | 1338 | - | - |
-| 0xBC44EB18 | 1339 | - | - |
+| 0xBC44EB18 | 1339 | Checks if the password ST0P0NR3D! has been entered. | - |
 | 0x7FDBA6D3 | 1340 | - | - |
 | 0x0943CAFB (0x943CAFB) | 1341 | - | - |
 | 0xB98DE4CE | 1342 | Checks if the story scene ev70_8110 has been seen. | `ev70_8110` |
@@ -1373,10 +1373,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x71DB7982 | 1358 | - | `t104i35` |
 | 0x81A3EDF6 | 1359 | - | `t104i23` |
 | 0x32B75C2A | 1360 | - | `t107g00` |
-| 0x2CFBF689 | 1361 | - | - |
-| 0x9FE63E22 | 1362 | - | `pass_colb_10` |
-| 0xE8E10EB4 | 1363 | - | `pass_colb_11` |
-| 0x71E85F0E | 1364 | - | `pass_colb_12` |
+| 0x2CFBF689 | 1361 | Checks if the password C@PSUL3GET has been entered. | - |
+| 0x9FE63E22 | 1362 | Checks if the password NY@ND3RFUL has been entered. | `pass_colb_10` |
+| 0xE8E10EB4 | 1363 | Checks if the password SP@RKL1NG! has been entered. | `pass_colb_11` |
+| 0x71E85F0E | 1364 | Checks if the password GL1TZYGL@M has been entered. | `pass_colb_12` |
 | 0x29008C38 | 1365 | Checks if Hungorge has been fused. (Applies to normal and Type Rare forms) | `combine_66` |
 | 0x7C2C3E18 | 1366 | - | - |
 | 0xE5256FA2 | 1367 | - | - |
@@ -1516,7 +1516,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC27065E9 | 1501 | Checks if Pandanoko has been sent to someone else via StreetPass. | `passcomm_ex_send` |
 | 0x3CDB0D89 | 1502 | Checks if Pandanoko has been received via StreetPass. | `passcomm_ex_recv` |
 | 0xEB87E5AB | 1503 | Checks if you have registered for StreetPass. | `passcomm_regist` |
-| 0x5BFCC61F | 1504 | - | - |
+| 0x5BFCC61F | 1504 | Checks if the password RUCH1CK3N? has been entered. | - |
 | 0x278F7E9D | 1505 | Checks if a Yo-kai has appeared in Room 101. | `appear_sasurai_npc00` |
 | 0x50884E0B | 1506 | Checks if a Yo-kai has appeared in Room 102. | `appear_sasurai_npc01` |
 | 0xC9811FB1 | 1507 | Checks if a Yo-kai has appeared in Room 103. | `appear_sasurai_npc02` |
@@ -1526,7 +1526,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCEECDBA8 | 1511 | Checks if a Yo-kai has appeared in Room 202. | `appear_sasurai_npc06` |
 | 0xB9EBEB3E | 1512 | Checks if a Yo-kai has appeared in Room 203. | `appear_sasurai_npc07` |
 | 0x2954F6AF | 1513 | Checks if a Yo-kai has appeared in Room 204. | `appear_sasurai_npc08` |
-| 0x3B3B4FFA | 1514 | - | - |
+| 0x3B3B4FFA | 1514 | Checks if the password BUCH1NY@N! has been entered. | - |
 | 0xD7400A83 | 1515 | - | - |
 | 0x3187334A | 1516 | - | - |
 | 0x8F67980F | 1517 | - | - |
@@ -1549,8 +1549,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEAFA9FA0 | 1534 | Checks if the Sparking Soul has been made. | - |
 | 0x73F3CE1A | 1535 | Checks if the Spacedust Soul has been made. | - |
 | 0x04F4FE8C (0x4F4FE8C) | 1536 | Checks if the Subzero Soul has been made. | - |
-| 0x4C3C7F6C | 1537 | - | - |
-| 0xD5352ED6 | 1538 | - | - |
+| 0x4C3C7F6C | 1537 | Checks if the password W1K1BUTL3R has been entered. | - |
+| 0xD5352ED6 | 1538 | Checks if the password W0LF1TD0WN has been entered. | - |
 | 0x6FFD3FD4 | 1539 | - | - |
 | 0xF199AA77 | 1540 | - | - |
 | 0x869E9AE1 | 1541 | - | - |
@@ -1587,50 +1587,50 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x197A7954 | 1572 | - | - |
 | 0x89C564C5 | 1573 | - | - |
 | 0x55CC16C7 | 1574 | - | - |
-| 0x743EC219 | 1575 | - | - |
-| 0xED3793A3 | 1576 | - | - |
-| 0x9A30A335 | 1577 | - | - |
-| 0x04543696 (0x4543696) | 1578 | - | - |
-| 0x73530600 | 1579 | - | - |
-| 0xEA5A57BA | 1580 | - | - |
-| 0x9D5D672C | 1581 | - | - |
-| 0x0DE27ABD (0xDE27ABD) | 1582 | - | - |
-| 0x7AE54A2B | 1583 | - | - |
-| 0x1A22C3CE | 1584 | - | - |
-| 0x6D25F358 | 1585 | - | - |
-| 0xF42CA2E2 | 1586 | - | - |
-| 0x832B9274 | 1587 | - | - |
-| 0x1D4F07D7 | 1588 | - | - |
-| 0x6A483741 | 1589 | - | - |
-| 0xF34166FB | 1590 | - | - |
-| 0x8446566D | 1591 | - | - |
-| 0x14F94BFC | 1592 | - | - |
-| 0x63FE7B6A | 1593 | - | - |
-| 0x310F900D | 1594 | - | - |
-| 0x4608A09B | 1595 | - | - |
-| 0xDF01F121 | 1596 | - | - |
-| 0xA806C1B7 | 1597 | - | - |
-| 0x36625414 | 1598 | - | - |
-| 0x41656482 | 1599 | - | - |
-| 0xD86C3538 | 1600 | - | - |
-| 0xAF6B05AE | 1601 | - | - |
-| 0x3FD4183F | 1602 | - | - |
-| 0x48D328A9 | 1603 | - | - |
-| 0x2814A14C | 1604 | - | - |
-| 0x5F1391DA | 1605 | - | - |
-| 0xC61AC060 | 1606 | - | - |
-| 0xB11DF0F6 | 1607 | - | - |
-| 0x2F796555 | 1608 | - | - |
-| 0x587E55C3 | 1609 | - | - |
-| 0xC1770479 | 1610 | - | - |
-| 0xB67034EF | 1611 | - | - |
-| 0x26CF297E | 1612 | - | - |
-| 0x51C819E8 | 1613 | - | - |
-| 0x6755378B | 1614 | - | - |
-| 0x1052071D | 1615 | - | - |
-| 0x895B56A7 | 1616 | - | - |
-| 0xFE5C6631 | 1617 | - | - |
-| 0x6038F392 | 1618 | - | - |
+| 0x743EC219 | 1575 | Checks if the password I4T9G9S9 has been used. | - |
+| 0xED3793A3 | 1576 | Checks if the password T5L5I4L3 has been used. | - |
+| 0x9A30A335 | 1577 | Checks if the password V7U6I9B5 has been used. | - |
+| 0x04543696 (0x4543696) | 1578 | Checks if the password O3Z6T5O4 has been used. | - |
+| 0x73530600 | 1579 | Checks if the password S4D9S8T3 has been used. | - |
+| 0xEA5A57BA | 1580 | Checks if the password O3G5P3Z5 has been used. | - |
+| 0x9D5D672C | 1581 | Checks if the password O0O4O4O7 has been used. | - |
+| 0x0DE27ABD (0xDE27ABD) | 1582 | Checks if the password D2O6O8I5 has been used. | - |
+| 0x7AE54A2B | 1583 | Checks if the password B2F4O0V2 has been used. | - |
+| 0x1A22C3CE | 1584 | Checks if the password L9S3Z4I4 has been used. | - |
+| 0x6D25F358 | 1585 | Checks if the password Z2I7N4T8 has been used. | - |
+| 0xF42CA2E2 | 1586 | Checks if the password L8B5Z6T6 has been used. | - |
+| 0x832B9274 | 1587 | Checks if the password V8L5L5L8 has been used. | - |
+| 0x1D4F07D7 | 1588 | Checks if the password Z9I3U9N2 has been used. | - |
+| 0x6A483741 | 1589 | Checks if the password I5F4L7O5 has been used. | - |
+| 0xF34166FB | 1590 | Checks if the password S4L7P3S0 has been used. | - |
+| 0x8446566D | 1591 | Checks if the password S9I4I4F6 has been used. | - |
+| 0x14F94BFC | 1592 | Checks if the password N8D8N9L2 has been used. | - |
+| 0x63FE7B6A | 1593 | Checks if the password S6N7T2Z4 has been used. | - |
+| 0x310F900D | 1594 | Checks if the password N4D4N7S6 has been used. | - |
+| 0x4608A09B | 1595 | Checks if the password J5Z7Z3L6 has been used. | - |
+| 0xDF01F121 | 1596 | Checks if the password L3L8O4T8 has been used. | - |
+| 0xA806C1B7 | 1597 | Checks if the password I8I9I9I8 has been used. | - |
+| 0x36625414 | 1598 | Checks if the password N7J5V9P2 has been used. | - |
+| 0x41656482 | 1599 | Checks if the password L4O5L3L5 has been used. | - |
+| 0xD86C3538 | 1600 | Checks if the password N7I5Z7N3 has been used. | - |
+| 0xAF6B05AE | 1601 | Checks if the password B6O6F4N6 has been used. | - |
+| 0x3FD4183F | 1602 | Checks if the password L5U4O6N9 has been used. | - |
+| 0x48D328A9 | 1603 | Checks if the password L5V3D4Z6 has been used. | - |
+| 0x2814A14C | 1604 | Checks if the password L6S4I5N4 has been used. | - |
+| 0x5F1391DA | 1605 | Checks if the password V6Z7L6N7 has been used. | - |
+| 0xC61AC060 | 1606 | Checks if the password U0O8U6I7 has been used. | - |
+| 0xB11DF0F6 | 1607 | Checks if the password T6O3O8Z9 has been used. | - |
+| 0x2F796555 | 1608 | Checks if the password O4Z3U3U8 has been used. | - |
+| 0x587E55C3 | 1609 | Checks if the password O4I0N8O8 has been used. | - |
+| 0xC1770479 | 1610 | Checks if the password T4I7Z4O8 has been used. | - |
+| 0xB67034EF | 1611 | Checks if the password O5T6S6B6 has been used. | - |
+| 0x26CF297E | 1612 | Checks if the password V7V3F7O4 has been used. | - |
+| 0x51C819E8 | 1613 | Checks if the password O9L9O5N0 has been used. | - |
+| 0x6755378B | 1614 | Checks if the password L4O0Z3J4 has been used. | - |
+| 0x1052071D | 1615 | Checks if the password O3S8U2T0 has been used. | - |
+| 0x895B56A7 | 1616 | Checks if the password T2V8Z6O5 has been used. | - |
+| 0xFE5C6631 | 1617 | Checks if the password O4O2L9L8 has been used. | - |
+| 0x6038F392 | 1618 | Checks if the password O0V3U7U5 has been used. | - |
 | 0x8E75EB4C | 1619 | Checks if the story scene ev13_0900 has been seen. | `ev13_0900` |
 | 0x59010A18 | 1620 | - | - |
 | 0xC0085BA2 | 1621 | - | - |
@@ -2580,9 +2580,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4FF4F23F | 0 | - | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
 | 0x97580970 | 2 | Can either be 0, 1 or 2 - handled in `ywPlayData::SetBtlTempEnv`. | `weather_condition` |
-| 0xC629E7F8 | 3 | - | `watch_mode` |
+| 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar and clock | `watch_mode` |
 | 0x7CD7E5A7 | 4 | - | - |
-| 0x9ED422FC | 5 | - | `orgeTimeMode` |
+| 0x9ED422FC | 5 | 0 = None, 1 = Gargaros, 2 = Ogralus, 3 = Orcanos | `orgeTimeMode` |
 | 0xDE40DAA8 | 6 | - | `orgeTimeGoalId` |
 | 0xB3E9494F | 7 | Checks what version you are playing. (Transferred saves appear to inherit the version it was previously from) 1 = Bony Spirits, 2 = Fleshy Souls | - |
 | 0x78002D2E | 8 | - | `count_offertory box` |
@@ -2599,12 +2599,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0646F45E (0x646F45E) | 20 | Yo-kai Cap reduction, Yo-kai Cap = MaxCap - ThisFlag. | `story_chara_num` |
 | 0x81B5A9FC | 21 | - | `wanted_no` |
 | 0xB5891C2B | 22 | - | `wanted_phase` |
-| 0xA938C2D5 | 23 | Wanted Criminal Data. Set it to 19-24 to make a Yo-Criminal appear in Shopper's Row, 1-6 for Uptown Springdale, etc and 0 for None. The specific number changes which Yo-Criminal spawns. | `wanted_act_no` |
+| 0xA938C2D5 | 23 | Wanted Yo-criminal Data. Set it to 19-24 to make a Yo-criminal appear in Shopper's Row, 1-6 for Uptown Springdale, etc and 0 for None. The specific number changes which Yo-criminal spawns. | `wanted_act_no` |
 | 0x9076E662 | 24 | - | - |
-| 0xAB951AD4 | 25 | First 2 digits of the year section of the Date where the Wanted Yo-Criminal leaves. | `wanted_limit_year1` |
-| 0x329C4B6E | 26 | Last 2 digits of the year section of the Date where the Wanted Yo-Criminal leaves. | `wanted_limit_year2` |
-| 0x1EF9C219 | 27 | Month section of the Date where the Wanted Yo-Criminal leaves. | `wanted_limit_month` |
-| 0x25BD6200 | 28 | Day section of the Date where the Wanted Yo-Criminal leaves. | `wanted_limit_day` |
+| 0xAB951AD4 | 25 | First 2 digits of the year section of the Date where the Wanted Yo-criminal leaves. | `wanted_limit_year1` |
+| 0x329C4B6E | 26 | Last 2 digits of the year section of the Date where the Wanted Yo-criminal leaves. | `wanted_limit_year2` |
+| 0x1EF9C219 | 27 | Month section of the Date where the Wanted Yo-criminal leaves. | `wanted_limit_month` |
+| 0x25BD6200 | 28 | Day section of the Date where the Wanted Yo-criminal leaves. | `wanted_limit_day` |
 | 0x2B660368 | 29 | - | - |
 | 0xEC5A92F8 | 30 | - | - |
 | 0x0D6B2DF9 (0xD6B2DF9) | 31 | - | - |
@@ -2627,13 +2627,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x751BD74A | 48 | - | - |
 | 0x4E0C7007 | 49 | - | - |
 | 0xD70521BD | 50 | - | - |
-| 0x48225978 | 51 | - | `shpN006_04` |
-| 0x1041492E | 52 | - | `shpN009_04` |
+| 0x48225978 | 51 | Checks how much stock is left for Bantery Bakery's Blehgel. | `shpN006_04` |
+| 0x1041492E | 52 | Checks how much stock is left for the Springdale Hot Springs's Amazing Milk. | `shpN009_04` |
 | 0x57E133FE | 56 | - | `shpN039_04` |
 | 0x13755E30 | 57 | - | `shpN043_07` |
-| 0x1C2B6692 | 59 | - | `shpT001_55` |
-| 0x85223728 | 60 | - | `shpT001_56` |
-| 0xD646CCDB | 61 | - | `shpN006_03` |
+| 0x1C2B6692 | 59 | Checks how much stock is left for Jungle Hunter's Unbeatable Soul. | `shpT001_55` |
+| 0x85223728 | 60 | Checks how much stock is left for Jungle Hunter's General's Soul. | `shpT001_56` |
+| 0xD646CCDB | 61 | Checks how much stock is left for Bantery Bakery's Curry Bread. | `shpN006_03` |
 | 0xC985A65D | 62 | - | `shpN039_03` |
 | 0xE18C4284 | 63 | - | `shpN036_06` |
 | 0xBC694B53 | 64 | - | - |
