@@ -936,10 +936,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B866BF1             | 1776 | - | `dl_data_get_126` |
 | 0xEC815B67             | 1777 | - | `dl_data_get_127` |
 | 0x7C3E46F6             | 1778 | - | `dl_data_get_128` |
-| 0x190CFB17             | 1781 | - | `shpV001` |
-| 0x8005AAAD             | 1782 | - | `shpV002` |
-| 0xF7029A3B             | 1783 | - | `shpV003` |
-| 0x69660F98             | 1784 | - | `shpV004` |
+| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV001` |
+| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV002` |
+| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV003` |
+| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV004` |
 | 0x2B78D49C             | 1791 | Checks if you can request the BRAVE Song. | - |
 | 0xFCFB8975             | 1792 | Checks if you can request the MYSTERIOUS Song. | - |
 | 0x7289CC8C             | 1793 | Checks if you can request the TOUGH Song. | - |
@@ -1476,16 +1476,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0831DB26 (0x831DB26) | 35   | - | - |
 | 0xE6BD7293             | 37   | Appears to be a general flag checked for cutscene befriends? | - |
 | 0xF5AB271D             | 38   | - | - |
-| 0x05E163F4 (0x5E163F4) | 40   | - | `shpR001_01` |
-| 0x9CE8324E             | 41   | - | `shpR001_02` |
-| 0xEBEF02D8             | 42   | - | `shpR001_03` |
-| 0x758B977B             | 43   | - | `shpR001_04` |
-| 0x028CA7ED (0x28CA7ED) | 44   | - | `shpR001_05` |
-| 0x9B85F657             | 45   | - | `shpR001_06` |
-| 0xEC82C6C1             | 46   | - | `shpR001_07` |
-| 0x7C3DDB50             | 47   | - | `shpR001_08` |
-| 0x0B3AEBC6 (0xB3AEBC6) | 48   | - | `shpR001_09` |
-| 0x6BFD6223             | 49   | - | `shpR001_10` |
+| 0x05E163F4 (0x5E163F4) | 40   | Checks how much stock is left for Houzzat's Int.: Shabby Base. | `shpR001_01` |
+| 0x9CE8324E             | 41   | Checks how much stock is left for Houzzat's Int.: Funky Fresh. | `shpR001_02` |
+| 0xEBEF02D8             | 42   | Checks how much stock is left for Houzzat's Int.: Steampunk Chic. (RCC Version) | `shpR001_03` |
+| 0x758B977B             | 43   | Checks how much stock is left for Houzzat's Int.: Steampunk Chic. (WDS Version) | `shpR001_04` |
+| 0x028CA7ED (0x28CA7ED) | 44   | Checks how much stock is left for Houzzat's Int.: OverTech. | `shpR001_05` |
+| 0x9B85F657             | 45   | Checks how much stock is left for Houzzat's Ext.: Shabby Base. | `shpR001_06` |
+| 0xEC82C6C1             | 46   | Checks how much stock is left for Houzzat's Ext.: Funky Fresh. | `shpR001_07` |
+| 0x7C3DDB50             | 47   | Checks how much stock is left for Houzzat's Ext.: Steampunk Chic. (RCC Version) | `shpR001_08` |
+| 0x0B3AEBC6 (0xB3AEBC6) | 48   | Checks how much stock is left for Houzzat's Ext.: Steampunk Chic. (WDS Version) | `shpR001_09` |
+| 0x6BFD6223             | 49   | Checks how much stock is left for Houzzat's Ext.: OverTech. | `shpR001_10` |
 | 0x14576D75             | 51   | - | - |
 | 0xC2B51582             | 53   | - | - |
 | 0x15B49283             | 54   | - | - |
@@ -1503,33 +1503,33 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xED768262             | 107  | - | - |
 | 0x7DC99FF3             | 108  | - | - |
 | 0x0ACEAF65 (0xACEAF65) | 109  | - | - |
-| 0xF1AE47E7             | 112  | - | `shpV001_01` |
-| 0x68A7165D             | 113  | - | `shpV001_02` |
-| 0x1FA026CB             | 114  | - | `shpV001_03` |
-| 0x81C4B368             | 115  | - | `shpV001_04` |
-| 0xF6C383FE             | 116  | - | `shpV001_05` |
-| 0x6FCAD244             | 117  | - | `shpV001_06` |
-| 0x18CDE2D2             | 118  | - | `shpV001_07` |
-| 0x8872FF43             | 119  | - | `shpV001_08` |
-| 0xFF75CFD5             | 120  | - | `shpV001_09` |
-| 0x9FB24630             | 121  | - | `shpV001_10` |
-| 0xE8B576A6             | 122  | - | `shpV001_11` |
-| 0x71BC271C             | 123  | - | `shpV001_12` |
-| 0x06BB178A (0x6BB178A) | 124  | - | `shpV001_13` |
-| 0x98DF8229             | 125  | - | `shpV001_14` |
-| 0xEFD8B2BF             | 126  | - | `shpV001_15` |
-| 0x76D1E305             | 127  | - | `shpV001_16` |
-| 0x01D6D393 (0x1D6D393) | 128  | - | `shpV001_17` |
-| 0x9169CE02             | 129  | - | `shpV001_18` |
-| 0xE66EFE94             | 130  | - | `shpV001_19` |
-| 0xB49F15F3             | 131  | - | `shpV001_20` |
-| 0xC3982565             | 132  | - | `shpV001_21` |
-| 0x5A9174DF             | 133  | - | `shpV001_22` |
-| 0x2D964449             | 134  | - | `shpV001_23` |
-| 0xB3F2D1EA             | 135  | - | `shpV001_24` |
-| 0xC4F5E17C             | 136  | - | `shpV001_25` |
-| 0x5DFCB0C6             | 137  | - | `shpV001_26` |
-| 0x2AFB8050             | 138  | - | `shpV001_27` |
+| 0xF1AE47E7             | 112  | Checks how much stock is left for the VIP Room shop's Staminum Omega/Red Coin/Sproink Ultra Orb/Buff Weight. | `shpV001_01` |
+| 0x68A7165D             | 113  | Checks how much stock is left for the VIP Room shop's Ultra Str. Talisman/Yellow Coin/Gutsy Bones U Orb/Love Scepter. | `shpV001_02` |
+| 0x1FA026CB             | 114  | Checks how much stock is left for the VIP Room shop's Ult. Spirit Talisman/Orange Coin/SV Snaggerjag U Orb/Sand Suit. | `shpV001_03` |
+| 0x81C4B368             | 115  | Checks how much stock is left for the VIP Room shop's Ultra Def. Talisman/Pink Coin/Slimamander U Orb/Love Rice Ball. | `shpV001_04` |
+| 0xF6C383FE             | 116  | Checks how much stock is left for the VIP Room shop's Deluxe Rice Ball/Green Coin/Goldy Bones U Orb/Horn. | `shpV001_05` |
+| 0x6FCAD244             | 117  | Checks how much stock is left for the VIP Room shop's Nul Field/Blue Coin/Gargaros Ultra Orb/Love Buster. | `shpV001_06` |
+| 0x18CDE2D2             | 118  | Checks how much stock is left for the VIP Room shop's Statiking Trap/Purple Coin/Demuncher Ult Orb/GHz Orb. | `shpV001_07` |
+| 0x8872FF43             | 119  | Checks how much stock is left for the VIP Room shop's Golden Fist/Light-Blue Coin/Devourer Ultra Orb/Snowstorm Cloak. | `shpV001_08` |
+| 0xFF75CFD5             | 120  | Checks how much stock is left for the VIP Room shop's Ultra Blaze Bomb/1-Star Coin/Ogralus Ultra Orb/Raging Blade. | `shpV001_09` |
+| 0x9FB24630             | 121  | Checks how much stock is left for the VIP Room shop's Force Blaster GX/Hoggles Ultra Orb/Cursed Journal. | `shpV001_10` |
+| 0xE8B576A6             | 122  | Checks how much stock is left for the VIP Room shop's Getaway Daruma/Styx Mk. VI Ult Orb/Mem-o-Vac. | `shpV001_11` |
+| 0x71BC271C             | 123  | Checks how much stock is left for the VIP Room shop's Eyedra Ultra Orb/Swirly Soul. | `shpV001_12` |
+| 0x06BB178A (0x6BB178A) | 124  | Checks how much stock is left for the VIP Room shop's Glitzy Bones U Orb/Keystone. | `shpV001_13` |
+| 0x98DF8229             | 125  | Checks how much stock is left for the VIP Room shop's Whisped Cream U Orb/Comfy Closet. | `shpV001_14` |
+| 0xEFD8B2BF             | 126  | Checks how much stock is left for the VIP Room shop's Robonyan 28 U Orb/Legendary Blade. | `shpV001_15` |
+| 0x76D1E305             | 127  | Checks how much stock is left for the VIP Room shop's Kabuking Ultra Orb/Cursed Blade. | `shpV001_16` |
+| 0x01D6D393 (0x1D6D393) | 128  | Checks how much stock is left for the VIP Room shop's Tattleterror Ult Orb/General’s Soul. | `shpV001_17` |
+| 0x9169CE02             | 129  | Checks how much stock is left for the VIP Room shop's Wobblewok Ult Orb/Unbeatable Soul. | `shpV001_18` |
+| 0xE66EFE94             | 130  | Checks how much stock is left for the VIP Room shop's Mass Mutterer U Orb/Essence of Evil. | `shpV001_19` |
+| 0xB49F15F3             | 131  | Checks how much stock is left for the VIP Room shop's Orcanos Ultra Orb/Holy Blade. | `shpV001_20` |
+| 0xC3982565             | 132  | Checks how much stock is left for the VIP Room shop's Kat Kraydel Ult Orb/Glacial Clip. | `shpV001_21` |
+| 0x5A9174DF             | 133  | Checks how much stock is left for the VIP Room shop's Hinozall Ultra Orb/Platinum Bar. | `shpV001_22` |
+| 0x2D964449             | 134  | Checks how much stock is left for the VIP Room shop's Ageless Powder. | `shpV001_23` |
+| 0xB3F2D1EA             | 135  | Checks how much stock is left for the VIP Room shop's Shard of Evil. | `shpV001_24` |
+| 0xC4F5E17C             | 136  | Checks how much stock is left for the VIP Room shop's Dragon Orb. | `shpV001_25` |
+| 0x5DFCB0C6             | 137  | Checks how much stock is left for the VIP Room shop's Ethereal Water. | `shpV001_26` |
+| 0x2AFB8050             | 138  | Checks how much stock is left for the VIP Room shop's Mermaid Pearl. | `shpV001_27` |
 
 ## FLAG_INFO_2 (1, 1) - GlobalTBoxFlag
 
