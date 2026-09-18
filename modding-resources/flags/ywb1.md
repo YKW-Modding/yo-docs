@@ -132,42 +132,42 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs". | - |
 | 0x245F00CD             | 160  | - | - |
 | 0x0AD4B5ED (0xAD4B5ED) | 161  | - | - |
-| 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. | `ev13_1110` |
-| 0x0AECBF13 (0xAECBF13) | 182  | Checks if the story event ev13_1120 has been seen. | `ev13_1120` |
-| 0x13F78E52             | 183  | Checks if the story event ev13_1130 has been seen. | `ev13_1130` |
-| 0x5CB61895             | 184  | Checks if the story event ev13_1140 has been seen. | `ev13_1140` |
-| 0x45AD29D4             | 185  | Checks if the story event ev13_1150 has been seen. | `ev13_1150` |
-| 0x6E807A17             | 186  | Checks if the story event ev13_1160 has been seen. | `ev13_1160` |
-| 0x779B4B56             | 187  | Checks if the story event ev13_1170 has been seen. | `ev13_1170` |
-| 0xF0035799             | 188  | Checks if the story event ev13_1180 has been seen. | `ev13_1180` |
-| 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. | `ev13_1190` |
-| 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. | `ev13_1200` |
-| 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. | `ev13_1210` |
+| 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. (The scene where Unfairy befriends you) | `ev13_1110` |
+| 0x0AECBF13 (0xAECBF13) | 182  | Checks if the story event ev13_1120 has been seen. (The scene where Unkaind befriends you) | `ev13_1120` |
+| 0x13F78E52             | 183  | Checks if the story event ev13_1130 has been seen. (The scene where Untidy befriends you) | `ev13_1130` |
+| 0x5CB61895             | 184  | Checks if the story event ev13_1140 has been seen. (The scene where Unpleasant befriends you) | `ev13_1140` |
+| 0x45AD29D4             | 185  | Checks if the story event ev13_1150 has been seen. (The scene where Unkeen befriends you) | `ev13_1150` |
+| 0x6E807A17             | 186  | Checks if the story event ev13_1160 has been seen. (The scene where Venoct befriends you) | `ev13_1160` |
+| 0x779B4B56             | 187  | Checks if the story event ev13_1170 has been seen. (The scene where Kyubi befriends you) | `ev13_1170` |
+| 0xF0035799             | 188  | Checks if the story event ev13_1180 has been seen. (The scene where Arachnus befriends you) | `ev13_1180` |
+| 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. (The scene where Toadal Dude befriends you) | `ev13_1190` |
+| 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. (The scene where Master Nyada befriends you) | `ev13_1200` |
+| 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. (The scene where Blizzie befriends you) | `ev13_1210` |
 | 0x65C1E84E             | 192  | - | - |
-| 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. | `ev13_1420` |
-| 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. | `ev13_1810` |
+| 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. (The scene where Fuu 2 befriends you) | `ev13_1420` |
+| 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. (The scene where Lord Enma befriends you) | `ev13_1810` |
 | 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Blasters in the world of “What If?"" | - |
 | 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Blasters in the world of “What If?"" | - |
 | 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Blasters in the world of “What If?"" | - |
-| 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
-| 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. | `ev01_0200` |
-| 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. | `ev01_0230` |
-| 0x14E85A57             | 204  | Checks if the story scene mv_photo005/ev01_0250/ev01_0260 has been seen. | `ev01_0250` |
-| 0xA146241A             | 205  | Checks if the story scene ev01_0280 has been seen. | `ev01_0280` |
-| 0x685DC425             | 206  | Checks if the story scene ev01_0300 has been seen. | `ev01_0300` |
-| 0x152A3060             | 207  | Checks if the story scene ev01_0350 has been seen. | `ev01_0350` |
-| 0x6D12D2A0             | 208  | Checks if the story scene ev01_0400 has been seen. | `ev01_0400` |
-| 0x106526E5             | 209  | Checks if the story scene ev01_0450 has been seen. | `ev01_0450` |
-| 0x6CD0B897             | 210  | Checks if the story scene ev01_0500 has been seen. | `ev01_0500` |
-| 0x11A74CD2             | 211  | Checks if the story scene ev01_0550 has been seen. | `ev01_0550` |
-| 0x6E9606CE             | 212  | Checks if the story scene ev01_0600 has been seen. | `ev01_0600` |
-| 0x13E1F28B             | 213  | Checks if the story scene ev01_0650 has been seen. | `ev01_0650` |
-| 0x6F546CF9             | 214  | Checks if the story scene ev01_0700 has been seen. | `ev01_0700` |
-| 0x122398BC             | 215  | Checks if the story scene ev01_0750 has been seen. | `ev01_0750` |
-| 0x64082BC4             | 216  | Checks if the story scene ev01_0800 has been seen. | `ev01_0800` |
-| 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. | `ev01_0850` |
-| 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. | `ev01_0900` |
-| 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. | `ev01_0950` |
+| 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. (The scene with disclaimers about being a work of fiction) | `ev01_0100` |
+| 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. (The scene where the Blasters take on Gargaros but run away) | `ev01_0200` |
+| 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. (The scene where the Blasters remark what a close call that was) | `ev01_0230` |
+| 0x14E85A57             | 204  | Checks if the story scene mv_photo005/ev01_0250/ev01_0260 has been seen. (The scene where Sgt. Burly first comes across the Blasters House) | `ev01_0250` |
+| 0xA146241A             | 205  | Checks if the story scene ev01_0280 has been seen. (The scene where Sgt. Burly makes himself the new captain) | `ev01_0280` |
+| 0x685DC425             | 206  | Checks if the story scene ev01_0300 has been seen. (The scene where Happierre explains Roles and changing Move-Out Members) | `ev01_0300` |
+| 0x152A3060             | 207  | Checks if the story scene ev01_0350 has been seen. (The scene where Happierre explains the Yo-kai Pad) | `ev01_0350` |
+| 0x6D12D2A0             | 208  | Checks if the story scene ev01_0400 has been seen. (The scene where Sgt. Burly tells you to move out on a Mission) | `ev01_0400` |
+| 0x106526E5             | 209  | Checks if the story scene ev01_0450 has been seen. (The scene where Sgt. Burly tells you to go to the LvGym) | `ev01_0450` |
+| 0x6CD0B897             | 210  | Checks if the story scene ev01_0500 has been seen. (The scene where Coach Nekidspeed explains leveling up) | `ev01_0500` |
+| 0x11A74CD2             | 211  | Checks if the story scene ev01_0550 has been seen. (The scene where Sgt. Burly tells you to add more Move-Out Members) | `ev01_0550` |
+| 0x6E9606CE             | 212  | Checks if the story scene ev01_0600 has been seen. (The scene where Happierre tells you to only add one Move-Out Member) | `ev01_0600` |
+| 0x13E1F28B             | 213  | Checks if the story scene ev01_0650 has been seen. (The scene where Happierre explains Yo-kai Friends, Tribes, and Elements) | `ev01_0650` |
+| 0x6F546CF9             | 214  | Checks if the story scene ev01_0700 has been seen. (The scene where Dimmy explains the Dimmy Shop) | `ev01_0700` |
+| 0x122398BC             | 215  | Checks if the story scene ev01_0750 has been seen. (The scene where Sgt. Burly tells you to scout for allies) | `ev01_0750` |
+| 0x64082BC4             | 216  | Checks if the story scene ev01_0800 has been seen. (The scene where Sgt. Burly says Dimmy is looking for you) | `ev01_0800` |
+| 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. (The scene where Boss Signiton explains Equipment Crafting and Upgrading) | `ev01_0850` |
+| 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. (The scene where Sgt. Burly says to get four Move-Out Members) | `ev01_0900` |
+| 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. (The scene where you return after running away from Gargaros | `ev01_0950` |
 | 0xD3DAEACA             | 220  | Checks if you have seen the end of Chapter 1. | - |
 | 0x69EA8073             | 221  | Checks if you have befriended Squeeky in "Scout! Friend Chance!" when first clearing it. | - |
 | 0x9602FD68             | 222  | Checks if you have befriended Hungramps in "Scout! Friend Chance!" when first clearing it. | - |
@@ -428,7 +428,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1EB8EE67             | 542  | Checks if the story scene ev17_0600 has been seen. | `ev17_0600` |
 | 0x1F7A8450             | 543  | Checks if the story scene ev17_0700 has been seen. | `ev17_0700` |
 | 0xC4261213             | 544  | Checks if the story scene mv_photo109/ev17_0990 has been seen. | `ev17_0990` |
-| 0x70849F53             | 546  | Checks if the story scene ev01_0210 has been seen. | `ev01_0210` |
+| 0x70849F53             | 546  | Checks if the story scene ev01_0210 has been seen. (The scene where the Blasters take on Gargaros but run away, with Usapyon added in) | `ev01_0210` |
 | 0x3FC50994             | 547  | Checks if the story scene ev01_0260 has been seen. | `ev01_0260` |
 | 0x2B371663             | 548  | Checks if the story scene ev15_9100 has been seen. | `ev15_9100` |
 | 0x28B3C20D             | 549  | Checks if the story scene ev15_9300 has been seen. | `ev15_9300` |
@@ -1009,111 +1009,111 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE133A804             | 1881 | - | - |
 | 0x96349892             | 1882 | - | - |
 | 0x08500D31 (0x8500D31) | 1883 | - | - |
-| 0x7F573DA7             | 1884 | - | - |
-| 0xE65E6C1D             | 1885 | - | - |
+| 0x7F573DA7             | 1884 | Checks if you have upgraded the Apprentice Sword into the Star Pupil's Sword. | - |
+| 0xE65E6C1D             | 1885 | Checks if you have upgraded the Starling Sword into the Nightingale Sword. | - |
 | 0x91595C8B             | 1886 | - | - |
 | 0x01E6411A (0x1E6411A) | 1887 | - | - |
 | 0x76E1718C             | 1888 | - | - |
-| 0x1626F869             | 1889 | - | - |
-| 0x6121C8FF             | 1890 | - | - |
-| 0xF8289945             | 1891 | - | - |
+| 0x1626F869             | 1889 | Checks if you have upgraded the Worn Bangle into the Striped Bracelet. | - |
+| 0x6121C8FF             | 1890 | Checks if you have upgraded the Cheap Bracelet into the Spotty Bracelet. | - |
+| 0xF8289945             | 1891 | Checks if you have upgraded the Dirty Bracelet into the Colorful Bracelet. | - |
 | 0x8F2FA9D3             | 1892 | - | - |
-| 0x114B3C70             | 1893 | - | - |
-| 0x664C0CE6             | 1894 | - | - |
+| 0x114B3C70             | 1893 | Checks if you have upgraded the Warped Wand into the Weird Wand. | - |
+| 0x664C0CE6             | 1894 | Checks if you have upgraded the Simple Stick into the Snazzy Stick. | - |
 | 0xFF455D5C             | 1895 | - | - |
-| 0x88426DCA             | 1896 | - | - |
+| 0x88426DCA             | 1896 | Checks if you have upgraded the Sinister Stick into the Skull on a Stick. | - |
 | 0x18FD705B             | 1897 | - | - |
-| 0x6FFA40CD             | 1898 | - | - |
-| 0x59676EAE             | 1899 | - | - |
-| 0x2E605E38             | 1900 | - | - |
+| 0x6FFA40CD             | 1898 | Checks if you have upgraded the Rusty Ring into the Dawn Ring. | - |
+| 0x59676EAE             | 1899 | Checks if you have upgraded the Ugly Ring into the Rainbow Ring. | - |
+| 0x2E605E38             | 1900 | Checks if you have upgraded the Bone Ring into the Backbone Ring. | - |
 | 0xB7690F82             | 1901 | - | - |
 | 0xC06E3F14             | 1902 | - | - |
-| 0x5E0AAAB7             | 1903 | - | - |
-| 0x290D9A21             | 1904 | - | - |
-| 0xB004CB9B             | 1905 | - | - |
+| 0x5E0AAAB7             | 1903 | Checks if you have upgraded the Round Shield into the Sturdy Shield. | - |
+| 0x290D9A21             | 1904 | Checks if you have upgraded the Wooden Shield into the Iron Shield. | - |
+| 0xB004CB9B             | 1905 | Checks if you have upgraded the Bathhouse Bucket into the Pigbucket. | - |
 | 0xC703FB0D             | 1906 | - | - |
 | 0x57BCE69C             | 1907 | - | - |
-| 0x20BBD60A             | 1908 | - | - |
-| 0x407C5FEF             | 1909 | - | - |
+| 0x20BBD60A             | 1908 | Checks if you have upgraded the Aged Charm into the Warm Charm. | - |
+| 0x407C5FEF             | 1909 | Checks if you have upgraded the Patched-Up Charm into the Fragrant Charm. | - |
 | 0x377B6F79             | 1910 | - | - |
 | 0xAE723EC3             | 1911 | - | - |
 | 0xD9750E55             | 1912 | - | - |
 | 0x47119BF6             | 1913 | - | - |
-| 0x3016AB60             | 1914 | - | - |
-| 0xA91FFADA             | 1915 | - | - |
+| 0x3016AB60             | 1914 | Checks if you have upgraded the Basic Belt into the Round-Buckle Belt. | - |
+| 0xA91FFADA             | 1915 | Checks if you have upgraded the Plain Sash into the Flashy Sash. | - |
 | 0xDE18CA4C             | 1916 | - | - |
-| 0x4EA7D7DD             | 1917 | - | - |
+| 0x4EA7D7DD             | 1917 | Checks if you have upgraded the Grubby Belt into the Designer Belt. | - |
 | 0x39A0E74B             | 1918 | - | - |
-| 0x6B510C2C             | 1919 | - | - |
-| 0x1C563CBA             | 1920 | - | - |
-| 0x855F6D00             | 1921 | - | - |
-| 0xF2585D96             | 1922 | - | - |
+| 0x6B510C2C             | 1919 | Checks if you have upgraded the Rustic Amulet into the Elegant Amulet. | - |
+| 0x1C563CBA             | 1920 | Checks if you have upgraded the Black Charm into the Flower Charm. | - |
+| 0x855F6D00             | 1921 | Checks if you have upgraded the Catfish Bauble into the Wht. Catfish Bauble. | - |
+| 0xF2585D96             | 1922 | Checks if you have upgraded the Broken Bell into the Cat Bell. | - |
 | 0x6C3CC835             | 1923 | - | - |
-| 0x1B3BF8A3             | 1924 | - | - |
-| 0x8232A919             | 1925 | - | - |
-| 0xF535998F             | 1926 | - | - |
+| 0x1B3BF8A3             | 1924 | Checks if you have upgraded the Star Pupil’s Sword into the Master’s Sword. | - |
+| 0x8232A919             | 1925 | Checks if you have upgraded the Nightingale Sword into the Raven’s Blade. | - |
+| 0xF535998F             | 1926 | Checks if you have upgraded the Oni Smasher into the Oni Smasher (Red). | - |
 | 0x658A841E             | 1927 | - | - |
-| 0x128DB488             | 1928 | - | - |
-| 0x724A3D6D             | 1929 | - | - |
-| 0x054D0DFB (0x54D0DFB) | 1930 | - | - |
+| 0x128DB488             | 1928 | Checks if you have upgraded the Lethal Hammer into the Skull Hammer. | - |
+| 0x724A3D6D             | 1929 | Checks if you have upgraded the Striped Bracelet into the Blue Bracelet. | - |
+| 0x054D0DFB (0x54D0DFB) | 1930 | Checks if you have upgraded the Spotty Bracelet into the Kooky Bracelet. | - |
 | 0x9C445C41             | 1931 | - | - |
-| 0xEB436CD7             | 1932 | - | - |
+| 0xEB436CD7             | 1932 | Checks if you have upgraded the Colorful Bracelet into the Go-Go Bracelet. | - |
 | 0x7527F974             | 1933 | - | - |
-| 0x0220C9E2 (0x220C9E2) | 1934 | - | - |
-| 0x9B299858             | 1935 | - | - |
-| 0xEC2EA8CE             | 1936 | - | - |
+| 0x0220C9E2 (0x220C9E2) | 1934 | Checks if you have upgraded the Weird Wand into the Wand of Chaos. | - |
+| 0x9B299858             | 1935 | Checks if you have upgraded the Snazzy Stick into the Splendid Stick. | - |
+| 0xEC2EA8CE             | 1936 | Checks if you have upgraded the Three-Head Wand into the Triptych Stick. | - |
 | 0x7C91B55F             | 1937 | - | - |
-| 0x0B9685C9 (0xB9685C9) | 1938 | - | - |
+| 0x0B9685C9 (0xB9685C9) | 1938 | Checks if you have upgraded the Skull on a Stick into the Pessimistick. | - |
 | 0xF5D221A2             | 1939 | - | - |
-| 0x82D51134             | 1940 | - | - |
-| 0x1BDC408E             | 1941 | - | - |
-| 0x6CDB7018             | 1942 | - | - |
-| 0xF2BFE5BB             | 1943 | - | - |
+| 0x82D51134             | 1940 | Checks if you have upgraded the Dawn Ring into the Slumber Ring. | - |
+| 0x1BDC408E             | 1941 | Checks if you have upgraded the Rainbow Ring into the Promise Ring. | - |
+| 0x6CDB7018             | 1942 | Checks if you have upgraded the Backbone Ring into the Jawbone Ring. | - |
+| 0xF2BFE5BB             | 1943 | Checks if you have upgraded the Gilded Ring into the Metallic Ring. | - |
 | 0x85B8D52D             | 1944 | - | - |
 | 0x1CB18497             | 1945 | - | - |
 | 0x6BB6B401             | 1946 | - | - |
-| 0xFB09A990             | 1947 | - | - |
-| 0x8C0E9906             | 1948 | - | - |
-| 0xECC910E3             | 1949 | - | - |
+| 0xFB09A990             | 1947 | Checks if you have upgraded the Sturdy Shield into the Alloy Shield. | - |
+| 0x8C0E9906             | 1948 | Checks if you have upgraded the Iron Shield into the Silver Shield. | - |
+| 0xECC910E3             | 1949 | Checks if you have upgraded the Pigbucket into the Fine Pigbucket. | - |
 | 0x9BCE2075             | 1950 | - | - |
 | 0x02C771CF (0x2C771CF) | 1951 | - | - |
 | 0x75C04159             | 1952 | - | - |
-| 0xEBA4D4FA             | 1953 | - | - |
-| 0x9CA3E46C             | 1954 | - | - |
-| 0x05AAB5D6 (0x5AAB5D6) | 1955 | - | - |
-| 0x72AD8540             | 1956 | - | - |
-| 0xE21298D1             | 1957 | - | - |
+| 0xEBA4D4FA             | 1953 | Checks if you have upgraded the Warm Charm into the Happy Charm. | - |
+| 0x9CA3E46C             | 1954 | Checks if you have upgraded the Fragrant Charm into the Lucky Charm. | - |
+| 0x05AAB5D6 (0x5AAB5D6) | 1955 | Checks if you have upgraded the One-Eyed Pouch into the Pink Pouch. | - |
+| 0x72AD8540             | 1956 | Checks if you have upgraded the Sturdy Bag into the Pink Bag. | - |
+| 0xE21298D1             | 1957 | Checks if you have upgraded the Plain Pendant into the Courage Pendant. | - |
 | 0x9515A847             | 1958 | - | - |
-| 0x3CC9C19D             | 1959 | - | - |
-| 0x4BCEF10B             | 1960 | - | - |
-| 0xD2C7A0B1             | 1961 | - | - |
+| 0x3CC9C19D             | 1959 | Checks if you have upgraded the Round-Buckle Belt into the Chic Belt. | - |
+| 0x4BCEF10B             | 1960 | Checks if you have upgraded the Flashy Sash into the Shinobi Sash. | - |
+| 0xD2C7A0B1             | 1961 | Checks if you have upgraded the Sturdy Sash into the Glutton’s Sash. | - |
 | 0xA5C09027             | 1962 | - | - |
-| 0x3BA40584             | 1963 | - | - |
+| 0x3BA40584             | 1963 | Checks if you have upgraded the Designer Belt into the Bold Belt. | - |
 | 0x4CA33512             | 1964 | - | - |
-| 0xD5AA64A8             | 1965 | - | - |
-| 0xA2AD543E             | 1966 | - | - |
-| 0x321249AF             | 1967 | - | - |
+| 0xD5AA64A8             | 1965 | Checks if you have upgraded the Elegant Amulet into the Intriguing Amulet. | - |
+| 0xA2AD543E             | 1966 | Checks if you have upgraded the Flower Charm into the Aurora Charm. | - |
+| 0x321249AF             | 1967 | Checks if you have upgraded the Wht. Catfish Bauble into the Big Catfish Bauble. | - |
 | 0x45157939             | 1968 | - | - |
-| 0x25D2F0DC             | 1969 | - | - |
+| 0x25D2F0DC             | 1969 | Checks if you have upgraded the Cat Bell into the Cat’s Paw Bell. | - |
 | 0x52D5C04A             | 1970 | - | - |
 | 0xCBDC91F0             | 1971 | - | - |
 | 0xBCDBA166             | 1972 | - | - |
 | 0x22BF34C5             | 1973 | - | - |
 | 0x55B80453             | 1974 | - | - |
-| 0xCCB155E9             | 1975 | - | - |
+| 0xCCB155E9             | 1975 | Checks if you have upgraded the Go-Go Bracelet into the Star Bracelet. | - |
 | 0xBBB6657F             | 1976 | - | - |
 | 0x2B0978EE             | 1977 | - | - |
 | 0x5C0E4878             | 1978 | - | - |
 | 0x0EFFA31F (0xEFFA31F) | 1979 | - | - |
-| 0x79F89389             | 1980 | - | - |
+| 0x79F89389             | 1980 | Checks if you have upgraded the Ring of Knowledge into the Mystery Ring. | - |
 | 0xE0F1C233             | 1981 | - | - |
 | 0x97F6F2A5             | 1982 | - | - |
 | 0x09926706 (0x9926706) | 1983 | - | - |
 | 0x7E955790             | 1984 | - | - |
-| 0xE79C062A             | 1985 | - | - |
+| 0xE79C062A             | 1985 | Checks if you have upgraded the Courage Pendant into the Passion Pendant. | - |
 | 0x909B36BC             | 1986 | - | - |
 | 0x00242B2D (0x242B2D)  | 1987 | - | - |
-| 0x77231BBB             | 1988 | - | - |
+| 0x77231BBB             | 1988 | Checks if you have upgraded the Bold Belt into the Fancy Belt. | - |
 | 0x17E4925E             | 1989 | - | - |
 | 0x60E3A2C8             | 1990 | - | - |
 | 0xF9EAF372             | 1991 | - | - |
@@ -1265,180 +1265,180 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8B30AB14             | 2137 | - | - |
 | 0xFC379B82             | 2138 | - | - |
 | 0xCAAAB5E1             | 2139 | - | - |
-| 0x105655B1             | 2140 | - | - |
-| 0x42A7BED6             | 2141 | - | - |
-| 0x35A08E40             | 2142 | - | - |
-| 0xACA9DFFA             | 2143 | - | - |
-| 0xDBAEEF6C             | 2144 | - | - |
-| 0x45CA7ACF             | 2145 | - | - |
-| 0x32CD4A59             | 2146 | - | - |
-| 0xABC41BE3             | 2147 | - | - |
-| 0xDCC32B75             | 2148 | - | - |
-| 0x4C7C36E4             | 2149 | - | - |
-| 0x3B7B0672             | 2150 | - | - |
-| 0x5BBC8F97             | 2151 | - | - |
-| 0x2CBBBF01             | 2152 | - | - |
-| 0xB5B2EEBB             | 2153 | - | - |
-| 0x38FFD21C             | 2154 | - | - |
-| 0xC1310A43             | 2158 | - | - |
-| 0x21E4E35D             | 2164 | - | - |
-| 0x10140927             | 2169 | - | - |
-| 0x19A2450C             | 2173 | - | - |
-| 0x090F3866 (0x90F3866) | 2179 | - | - |
-| 0x77BE44DB             | 2184 | - | - |
-| 0x22226BA5             | 2189 | - | - |
-| 0x55255B33             | 2190 | - | - |
-| 0xCC2C0A89             | 2191 | - | - |
-| 0xBB2B3A1F             | 2192 | - | - |
-| 0x2B94278E             | 2193 | - | - |
-| 0x5C931718             | 2194 | - | - |
-| 0x3C549EFD             | 2195 | - | - |
-| 0x4B53AE6B             | 2196 | - | - |
-| 0xD25AFFD1             | 2197 | - | - |
-| 0xA55DCF47             | 2198 | - | - |
-| 0x4C3E6A72             | 2200 | - | - |
-| 0xD5373BC8             | 2201 | - | - |
-| 0xA2300B5E             | 2202 | - | - |
-| 0x328F16CF             | 2203 | - | - |
-| 0x45882659             | 2204 | - | - |
-| 0xBBCC8232             | 2205 | - | - |
-| 0xCCCBB2A4             | 2206 | - | - |
-| 0x55C2E31E             | 2207 | - | - |
-| 0x22C5D388             | 2208 | - | - |
-| 0xBCA1462B             | 2209 | - | - |
-| 0xCBA676BD             | 2210 | - | - |
-| 0x25A81791             | 2212 | - | - |
-| 0xB5170A00             | 2213 | - | - |
-| 0xC2103A96             | 2214 | - | - |
-| 0xA2D7B373             | 2215 | - | - |
-| 0xD5D083E5             | 2216 | - | - |
-| 0x4CD9D25F             | 2217 | - | - |
-| 0x3BDEE2C9             | 2218 | - | - |
-| 0xA5BA776A             | 2219 | - | - |
-| 0xD2BD47FC             | 2220 | - | - |
-| 0x4BB41646             | 2221 | - | - |
-| 0x3CB326D0             | 2222 | - | - |
+| 0x105655B1             | 2140 | Checks if you have upgraded Zazel’s Ruby Ring into Zazel’s Agate Ring. | - |
+| 0x42A7BED6             | 2141 | Checks if you have upgraded Zazel’s Ruby Ring into Zazelmare’s Ring. | - |
+| 0x35A08E40             | 2142 | Checks if you have upgraded the Captain Launcher into the Grenade Thunder. | - |
+| 0xACA9DFFA             | 2143 | Checks if you have upgraded the Captain Launcher into the Ultimate Beam. | - |
+| 0xDBAEEF6C             | 2144 | Checks if you have upgraded the Kingly Great Sword into the Water Dragonblade. | - |
+| 0x45CA7ACF             | 2145 | Checks if you have upgraded the Kingly Great Sword into the Oni Warlord Sword. | - |
+| 0x32CD4A59             | 2146 | Checks if you have upgraded the Awoken Bracelet into the Eden Bracelet. | - |
+| 0xABC41BE3             | 2147 | Checks if you have upgraded the Awoken Bracelet into the Sun God Bracelet. | - |
+| 0xDCC32B75             | 2148 | Checks if you have upgraded the Dark Matter Shield into the Antigravity Shield. | - |
+| 0x4C7C36E4             | 2149 | Checks if you have upgraded the Dark Matter Shield into the Quantum Shield. | - |
+| 0x3B7B0672             | 2150 | Checks if you have upgraded the Golden Swirl Charm into the Tranquil Charm. | - |
+| 0x5BBC8F97             | 2151 | Checks if you have upgraded the Golden Swirl Charm into the Royal Swirl Charm. | - |
+| 0x2CBBBF01             | 2152 | Checks if you have upgraded the Golden Claws Cloth into the Living World Cloth. | - |
+| 0xB5B2EEBB             | 2153 | Checks if you have upgraded the Golden Claws Cloth into the Royal Claws Cloth. | - |
+| 0x38FFD21C             | 2154 | Checks if you have upgraded the Kitchen Knife into the Chef’s Knife. | - |
+| 0xC1310A43             | 2158 | Checks if you have upgraded the Killer Bracelet into the Focus Bracelet. | - |
+| 0x21E4E35D             | 2164 | Checks if you have upgraded the Rad Rod into the Super-Rad Rod. | - |
+| 0x10140927             | 2169 | Checks if you have upgraded the Ring of Insight into the All-Seeing Ring. | - |
+| 0x19A2450C             | 2173 | Checks if you have upgraded the Elegant Shield into the Glitzy Shield. | - |
+| 0x090F3866 (0x90F3866) | 2179 | Checks if you have upgraded the Spirit Charm into the Charge-Up Charm. | - |
+| 0x77BE44DB             | 2184 | Checks if you have upgraded the Spiteful Sash into the Grudge Sash. | - |
+| 0x22226BA5             | 2189 | Checks if you have upgraded the Dimmy Amulet into the Blandon Amulet. | - |
+| 0x55255B33             | 2190 | Checks if you have upgraded the Master’s Sword into the Sorcerer’s Sword. | - |
+| 0xCC2C0A89             | 2191 | Checks if you have upgraded the Raven’s Blade into the Peacock. | - |
+| 0xBB2B3A1F             | 2192 | Checks if you have upgraded the Oni Smasher (Red) into the U. Oni Smasher (R). | - |
+| 0x2B94278E             | 2193 | Checks if you have upgraded the Oni Smasher (Blue) into the U. Oni Smasher (Bl). | - |
+| 0x5C931718             | 2194 | Checks if you have upgraded the Skull Hammer into the Hell Hammer. | - |
+| 0x3C549EFD             | 2195 | Checks if you have upgraded the Bunny Blaster into the Starlight Blaster. | - |
+| 0x4B53AE6B             | 2196 | Checks if you have upgraded the Blue Bracelet into the Phantom Bracelet. | - |
+| 0xD25AFFD1             | 2197 | Checks if you have upgraded the Kooky Bracelet into the Bracelet of Purity. | - |
+| 0xA55DCF47             | 2198 | Checks if you have upgraded the Steel Handcuff into the Engraved Handcuff. | - |
+| 0x4C3E6A72             | 2200 | Checks if you have upgraded the Turnabracelet into the Epic Turnabracelet. | - |
+| 0xD5373BC8             | 2201 | Checks if you have upgraded the Wand of Chaos into the Wicked Wand. | - |
+| 0xA2300B5E             | 2202 | Checks if you have upgraded the Splendid Stick into the Angelic Wand. | - |
+| 0x328F16CF             | 2203 | Checks if you have upgraded the Triptych Stick into the Triple Dragon Wand. | - |
+| 0x45882659             | 2204 | Checks if you have upgraded the Wide-Eyed Wand into the Hell’s Eye Wand. | - |
+| 0xBBCC8232             | 2205 | Checks if you have upgraded Koma’s Pack into the Swirly Pack. | - |
+| 0xCCCBB2A4             | 2206 | Checks if you have upgraded the Slumber Ring into the Lunar Ring. | - |
+| 0x55C2E31E             | 2207 | Checks if you have upgraded the Promise Ring into the Wave Ring. | - |
+| 0x22C5D388             | 2208 | Checks if you have upgraded the Jawbone Ring into the Skull Ring. | - |
+| 0xBCA1462B             | 2209 | Checks if you have upgraded the Metallic Ring into the Goldy Ring. | - |
+| 0xCBA676BD             | 2210 | Checks if you have upgraded the Gleaming Ring into the Glitzy Ring. | - |
+| 0x25A81791             | 2212 | Checks if you have upgraded the Turnaring into the Epic Turnaring. | - |
+| 0xB5170A00             | 2213 | Checks if you have upgraded the Alloy Shield into the Tactician’s Shield. | - |
+| 0xC2103A96             | 2214 | Checks if you have upgraded the Silver Shield into the Paladin’s Shield. | - |
+| 0xA2D7B373             | 2215 | Checks if you have upgraded the Fine Pigbucket into the Gold Pigbucket. | - |
+| 0xD5D083E5             | 2216 | Checks if you have upgraded the Hogbucket into the Evil Hogbucket. | - |
+| 0x4CD9D25F             | 2217 | Checks if you have upgraded the Giant Cauldron Lid into the Wobblewok Lid. | - |
+| 0x3BDEE2C9             | 2218 | Checks if you have upgraded the Force Shield into the Force Shield EX. | - |
+| 0xA5BA776A             | 2219 | Checks if you have upgraded the Happy Charm into the Pulsating Charm. | - |
+| 0xD2BD47FC             | 2220 | Checks if you have upgraded the Lucky Charm into the Noble Charm. | - |
+| 0x4BB41646             | 2221 | Checks if you have upgraded the Pink Pouch into the One-Eye Pouch XL. | - |
+| 0x3CB326D0             | 2222 | Checks if you have upgraded the Pink Bag into the Hardy Bag. | - |
 | 0xAC0C3B41             | 2223 | - | - |
-| 0xDB0B0BD7             | 2224 | - | - |
-| 0x72D7620D             | 2225 | - | - |
-| 0x05D0529B (0x5D0529B) | 2226 | - | - |
-| 0x9CD90321             | 2227 | - | - |
-| 0xEBDE33B7             | 2228 | - | - |
+| 0xDB0B0BD7             | 2224 | Checks if you have upgraded the Turnacharm into the Epic Turnacharm. | - |
+| 0x72D7620D             | 2225 | Checks if you have upgraded the Chic Belt into the Victory Belt. | - |
+| 0x05D0529B (0x5D0529B) | 2226 | Checks if you have upgraded the Shinobi Sash into the Master Sash. | - |
+| 0x9CD90321             | 2227 | Checks if you have upgraded the Glutton’s Sash into the Greedyguts Sash. | - |
+| 0xEBDE33B7             | 2228 | Checks if you have upgraded the Ceremonial Sash into the Sentient Sash. | - |
 | 0x75BAA614             | 2229 | - | - |
-| 0x02BD9682 (0x2BD9682) | 2230 | - | - |
-| 0x9BB4C738             | 2231 | - | - |
-| 0xECB3F7AE             | 2232 | - | - |
-| 0x7C0CEA3F             | 2233 | - | - |
-| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | - | - |
-| 0x6BCC534C             | 2235 | - | - |
-| 0x1CCB63DA             | 2236 | - | - |
-| 0x85C23260             | 2237 | - | - |
-| 0xF2C502F6             | 2238 | - | - |
-| 0x6CA19755             | 2239 | - | - |
-| 0x1BA6A7C3             | 2240 | - | - |
-| 0x82AFF679             | 2241 | - | - |
-| 0xF5A8C6EF             | 2242 | - | - |
-| 0x6517DB7E             | 2243 | - | - |
-| 0x1210EBE8             | 2244 | - | - |
-| 0x40E1008F             | 2245 | - | - |
-| 0x37E63019             | 2246 | - | - |
-| 0xAEEF61A3             | 2247 | - | - |
-| 0xD9E85135             | 2248 | - | - |
-| 0x478CC496             | 2249 | - | - |
-| 0x308BF400             | 2250 | - | - |
-| 0xA982A5BA             | 2251 | - | - |
-| 0xDE85952C             | 2252 | - | - |
-| 0x4E3A88BD             | 2253 | - | - |
-| 0x393DB82B             | 2254 | - | - |
-| 0x59FA31CE             | 2255 | - | - |
-| 0x2EFD0158             | 2256 | - | - |
-| 0xB7F450E2             | 2257 | - | - |
-| 0xC0F36074             | 2258 | - | - |
-| 0x5E97F5D7             | 2259 | - | - |
-| 0x2990C541             | 2260 | - | - |
-| 0xB09994FB             | 2261 | - | - |
-| 0xC79EA46D             | 2262 | - | - |
-| 0x5721B9FC             | 2263 | - | - |
-| 0x2026896A             | 2264 | - | - |
-| 0x16BBA709             | 2265 | - | - |
-| 0x61BC979F             | 2266 | - | - |
-| 0xF8B5C625             | 2267 | - | - |
-| 0x8FB2F6B3             | 2268 | - | - |
-| 0x11D66310             | 2269 | - | - |
-| 0x66D15386             | 2270 | - | - |
-| 0xFFD8023C             | 2271 | - | - |
-| 0x88DF32AA             | 2272 | - | - |
-| 0x18602F3B             | 2273 | - | - |
-| 0x6F671FAD             | 2274 | - | - |
-| 0x0FA09648 (0xFA09648) | 2275 | - | - |
-| 0x78A7A6DE             | 2276 | - | - |
-| 0xE1AEF764             | 2277 | - | - |
-| 0x96A9C7F2             | 2278 | - | - |
-| 0x08CD5251 (0x8CD5251) | 2279 | - | - |
-| 0x7FCA62C7             | 2280 | - | - |
-| 0xE6C3337D             | 2281 | - | - |
-| 0x91C403EB             | 2282 | - | - |
-| 0x017B1E7A (0x17B1E7A) | 2283 | - | - |
-| 0x767C2EEC             | 2284 | - | - |
-| 0x248DC58B             | 2285 | - | - |
-| 0x538AF51D             | 2286 | - | - |
-| 0xCA83A4A7             | 2287 | - | - |
-| 0xBD849431             | 2288 | - | - |
-| 0x23E00192             | 2289 | - | - |
-| 0x54E73104             | 2290 | - | - |
-| 0xCDEE60BE             | 2291 | - | - |
-| 0xBAE95028             | 2292 | - | - |
-| 0x2A564DB9             | 2293 | - | - |
-| 0x5D517D2F             | 2294 | - | - |
-| 0x3D96F4CA             | 2295 | - | - |
-| 0x4A91C45C             | 2296 | - | - |
-| 0xD39895E6             | 2297 | - | - |
-| 0xA49FA570             | 2298 | - | - |
-| 0x3AFB30D3             | 2299 | - | - |
-| 0x4DFC0045             | 2300 | - | - |
-| 0xD4F551FF             | 2301 | - | - |
-| 0xA3F26169             | 2302 | - | - |
-| 0x334D7CF8             | 2303 | - | - |
-| 0x444A4C6E             | 2304 | - | - |
-| 0xBA0EE805             | 2305 | - | - |
-| 0xCD09D893             | 2306 | - | - |
-| 0x54008929             | 2307 | - | - |
-| 0x2307B9BF             | 2308 | - | - |
-| 0xBD632C1C             | 2309 | - | - |
-| 0xCA641C8A             | 2310 | - | - |
+| 0x02BD9682 (0x2BD9682) | 2230 | Checks if you have upgraded the Ancestral Sash into the Sacred Sash. | - |
+| 0x9BB4C738             | 2231 | Checks if you have upgraded the Intriguing Amulet into the Midnight Amulet. | - |
+| 0xECB3F7AE             | 2232 | Checks if you have upgraded the Aurora Charm into the Violet Charm. | - |
+| 0x7C0CEA3F             | 2233 | Checks if you have upgraded the Big Catfish Bauble into the Pond Guard Bauble. | - |
+| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | Checks if you have upgraded the Gold Catfish Bauble into the Marsh Lord Bauble. | - |
+| 0x6BCC534C             | 2235 | Checks if you have upgraded the Cat’s Paw Bell into the Nyanbelievabell. | - |
+| 0x1CCB63DA             | 2236 | Checks if you have upgraded the Turnabeads into the Epic Turnabeads. | - |
+| 0x85C23260             | 2237 | Checks if you have upgraded the Sorcerer’s Sword into the Thunder Blade. | - |
+| 0xF2C502F6             | 2238 | Checks if you have upgraded the Sorcerer’s Sword into the Doom Blade. | - |
+| 0x6CA19755             | 2239 | Checks if you have upgraded the Peacock into the Blizzard Blade. | - |
+| 0x1BA6A7C3             | 2240 | Checks if you have upgraded the Peacock into the Divine Blade. | - |
+| 0x82AFF679             | 2241 | Checks if you have upgraded the U. Oni Smasher (R) into the Oni Smasher (Fire). | - |
+| 0xF5A8C6EF             | 2242 | Checks if you have upgraded the U. Oni Smasher (R) into the Ogre Breaker. | - |
+| 0x6517DB7E             | 2243 | Checks if you have upgraded the U. Oni Smasher (Bl) into the Oni Smasher (Sea). | - |
+| 0x1210EBE8             | 2244 | Checks if you have upgraded the U. Oni Smasher (Bl) into the Ogre Striker. | - |
+| 0x40E1008F             | 2245 | Checks if you have upgraded the Hell Hammer into the Horror Hammer. | - |
+| 0x37E63019             | 2246 | Checks if you have upgraded the Hell Hammer into the Hammer of Despair. | - |
+| 0xAEEF61A3             | 2247 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Earth). | - |
+| 0xD9E85135             | 2248 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Ult). | - |
+| 0x478CC496             | 2249 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Sky). | - |
+| 0x308BF400             | 2250 | Checks if you have upgraded the Phantom Bracelet into the Neptune Band. | - |
+| 0xA982A5BA             | 2251 | Checks if you have upgraded the Phantom Bracelet into the Fiend Band. | - |
+| 0xDE85952C             | 2252 | Checks if you have upgraded the Bracelet of Purity into the Arctic Bracelet. | - |
+| 0x4E3A88BD             | 2253 | Checks if you have upgraded the Bracelet of Purity into the Legend Bracelet. | - |
+| 0x393DB82B             | 2254 | Checks if you have upgraded the Engraved Handcuff into the Terra Manacle. | - |
+| 0x59FA31CE             | 2255 | Checks if you have upgraded the Engraved Handcuff into the Malicious Manacle. | - |
+| 0x2EFD0158             | 2256 | Checks if you have upgraded the Engraved Handcuff into the Mayhem Manacle. | - |
+| 0xB7F450E2             | 2257 | Checks if you have upgraded the Hi-Tech Wristband into the Incandescent Arm. | - |
+| 0xC0F36074             | 2258 | Checks if you have upgraded the Hi-Tech Wristband into the Hypermagnetic Arm. | - |
+| 0x5E97F5D7             | 2259 | Checks if you have upgraded the Hi-Tech Wristband into the Mighty Armband. | - |
+| 0x2990C541             | 2260 | Checks if you have upgraded the Whisped Wristband into the Hurricane Bracer. | - |
+| 0xB09994FB             | 2261 | Checks if you have upgraded the Whisped Wristband into the Demon Bracer. | - |
+| 0xC79EA46D             | 2262 | Checks if you have upgraded the Whisped Wristband into the Blizzard Bracer. | - |
+| 0x5721B9FC             | 2263 | Checks if you have upgraded the Wicked Wand into the Sea-Splitter Staff. | - |
+| 0x2026896A             | 2264 | Checks if you have upgraded the Wicked Wand into the Staff of Ultimate Evil. | - |
+| 0x16BBA709             | 2265 | Checks if you have upgraded the Angelic Wand into the Crystal Wand. | - |
+| 0x61BC979F             | 2266 | Checks if you have upgraded the Angelic Wand into the Wand of Fortune. | - |
+| 0xF8B5C625             | 2267 | Checks if you have upgraded the Triple Dragon Wand into the Triple Fever Wand. | - |
+| 0x8FB2F6B3             | 2268 | Checks if you have upgraded the Triple Dragon Wand into the Triple Trouble Wand. | - |
+| 0x11D66310             | 2269 | Checks if you have upgraded the Hell’s Eye Wand into the Eye of the Earth. | - |
+| 0x66D15386             | 2270 | Checks if you have upgraded the Hell’s Eye Wand into the Eye of Death. | - |
+| 0xFFD8023C             | 2271 | Checks if you have upgraded the Dame Staff into the Holy Wind Wand. | - |
+| 0x88DF32AA             | 2272 | Checks if you have upgraded the Dame Staff into the Staff of Avarice. | - |
+| 0x18602F3B             | 2273 | Checks if you have upgraded the Staff of Judgment into the Thunder God Wand. | - |
+| 0x6F671FAD             | 2274 | Checks if you have upgraded the Staff of Judgment into the Staff of Heaven. | - |
+| 0x0FA09648 (0xFA09648) | 2275 | Checks if you have upgraded the Staff of Judgment into the Creator’s Wand. | - |
+| 0x78A7A6DE             | 2276 | Checks if you have upgraded the Lunar Ring into the Wind God Ring. | - |
+| 0xE1AEF764             | 2277 | Checks if you have upgraded the Lunar Ring into the Fiend Ring. | - |
+| 0x96A9C7F2             | 2278 | Checks if you have upgraded the Wave Ring into the Permafrost Ring. | - |
+| 0x08CD5251 (0x8CD5251) | 2279 | Checks if you have upgraded the Wave Ring into the Legend Ring. | - |
+| 0x7FCA62C7             | 2280 | Checks if you have upgraded the Skull Ring into the Incineration Ring. | - |
+| 0xE6C3337D             | 2281 | Checks if you have upgraded the Skull Ring into the Ring of Erosion. | - |
+| 0x91C403EB             | 2282 | Checks if you have upgraded the Skull Ring into the Saint’s Ring. | - |
+| 0x017B1E7A (0x17B1E7A) | 2283 | Checks if you have upgraded the Goldy Ring into the Thunderheart. | - |
+| 0x767C2EEC             | 2284 | Checks if you have upgraded the Goldy Ring into the Pinkheart. | - |
+| 0x248DC58B             | 2285 | Checks if you have upgraded the Goldy Ring into the Goldenheart. | - |
+| 0x538AF51D             | 2286 | Checks if you have upgraded the Glitzy Ring into the Blue-Blood Ring. | - |
+| 0xCA83A4A7             | 2287 | Checks if you have upgraded the Glitzy Ring into the Blood-Red Ring. | - |
+| 0xBD849431             | 2288 | Checks if you have upgraded the Glitzy Ring into the Diamond Ring. | - |
+| 0x23E00192             | 2289 | Checks if you have upgraded the Tactician’s Shield into the Whirlpool Shield. | - |
+| 0x54E73104             | 2290 | Checks if you have upgraded the Tactician’s Shield into the Shield of Resolve. | - |
+| 0xCDEE60BE             | 2291 | Checks if you have upgraded the Paladin’s Shield into the Frost Shield. | - |
+| 0xBAE95028             | 2292 | Checks if you have upgraded the Paladin’s Shield into the Legend Shield. | - |
+| 0x2A564DB9             | 2293 | Checks if you have upgraded the Gold Pigbucket into the Blazing Pigbucket. | - |
+| 0x5D517D2F             | 2294 | Checks if you have upgraded the Gold Pigbucket into the Alluring Pigbucket. | - |
+| 0x3D96F4CA             | 2295 | Checks if you have upgraded the Evil Hogbucket into the Stone Hogbucket. | - |
+| 0x4A91C45C             | 2296 | Checks if you have upgraded the Evil Hogbucket into the Lava Hogbucket. | - |
+| 0xD39895E6             | 2297 | Checks if you have upgraded the Wobblewok Lid into the Lid of Isolation. | - |
+| 0xA49FA570             | 2298 | Checks if you have upgraded the Wobblewok Lid into the Lid of Darkness. | - |
+| 0x3AFB30D3             | 2299 | Checks if you have upgraded the Twirly Swirler into the Windbreaker. | - |
+| 0x4DFC0045             | 2300 | Checks if you have upgraded the Twirly Swirler into the Drain Dampener. | - |
+| 0xD4F551FF             | 2301 | Checks if you have upgraded the Twirly Swirler into the Blossombrella. | - |
+| 0xA3F26169             | 2302 | Checks if you have upgraded the Pulsating Charm into the Volcano Charm. | - |
+| 0x334D7CF8             | 2303 | Checks if you have upgraded the Pulsating Charm into the Fiend Charm. | - |
+| 0x444A4C6E             | 2304 | Checks if you have upgraded the Noble Charm into the Thunder Charm. | - |
+| 0xBA0EE805             | 2305 | Checks if you have upgraded the Noble Charm into the Legend Charm. | - |
+| 0xCD09D893             | 2306 | Checks if you have upgraded the One-Eye Pouch XL into the Make-Up Bag. | - |
+| 0x54008929             | 2307 | Checks if you have upgraded the One-Eye Pouch XL into the Swimming Bag. | - |
+| 0x2307B9BF             | 2308 | Checks if you have upgraded the One-Eye Pouch XL into the Endurance Bag. | - |
+| 0xBD632C1C             | 2309 | Checks if you have upgraded the Hardy Bag into the Blizzard Bag. | - |
+| 0xCA641C8A             | 2310 | Checks if you have upgraded the Hardy Bag into the Righteous Bag. | - |
 | 0x536D4D30             | 2311 | - | - |
-| 0x246A7DA6             | 2312 | - | - |
-| 0xB4D56037             | 2313 | - | - |
-| 0xC3D250A1             | 2314 | - | - |
-| 0xA315D944             | 2315 | - | - |
-| 0xD412E9D2             | 2316 | - | - |
-| 0x4D1BB868             | 2317 | - | - |
-| 0x3A1C88FE             | 2318 | - | - |
-| 0xA4781D5D             | 2319 | - | - |
-| 0xD37F2DCB             | 2320 | - | - |
-| 0x4A767C71             | 2321 | - | - |
-| 0x3D714CE7             | 2322 | - | - |
-| 0xADCE5176             | 2323 | - | - |
-| 0xDAC961E0             | 2324 | - | - |
-| 0x7091DC54             | 2325 | - | - |
-| 0x0796ECC2 (0x796ECC2) | 2326 | - | - |
+| 0x246A7DA6             | 2312 | Checks if you have upgraded the Goddess Charm into the Fair Wind Charm. | - |
+| 0xB4D56037             | 2313 | Checks if you have upgraded the Goddess Charm into the Bright Charm. | - |
+| 0xC3D250A1             | 2314 | Checks if you have upgraded the Goddess Charm into the Guiding Charm. | - |
+| 0xA315D944             | 2315 | Checks if you have upgraded the Victory Belt into the Splash Belt. | - |
+| 0xD412E9D2             | 2316 | Checks if you have upgraded the Victory Belt into the Ultimate Belt. | - |
+| 0x4D1BB868             | 2317 | Checks if you have upgraded the Master Sash into the Alpine Sash. | - |
+| 0x3A1C88FE             | 2318 | Checks if you have upgraded the Master Sash into the Legend Sash. | - |
+| 0xA4781D5D             | 2319 | Checks if you have upgraded the Greedyguts Sash into the Blazing Sash. | - |
+| 0xD37F2DCB             | 2320 | Checks if you have upgraded the Greedyguts Sash into the Thunder Sash. | - |
+| 0x4A767C71             | 2321 | Checks if you have upgraded the Greedyguts Sash into the Succor Sash. | - |
+| 0x3D714CE7             | 2322 | Checks if you have upgraded the Sentient Sash into the Seismic Sash. | - |
+| 0xADCE5176             | 2323 | Checks if you have upgraded the Sentient Sash into the Salvation Sash. | - |
+| 0xDAC961E0             | 2324 | Checks if you have upgraded the Sentient Sash into the Serenity Sash. | - |
+| 0x7091DC54             | 2325 | Checks if you have upgraded the Senator Sash into the Squall Sash. | - |
+| 0x0796ECC2 (0x796ECC2) | 2326 | Checks if you have upgraded the Senator Sash into the Midnight Sun Sash. | - |
 | 0x9E9FBD78             | 2327 | - | - |
-| 0xE9988DEE             | 2328 | - | - |
-| 0x77FC184D             | 2329 | - | - |
-| 0x00FB28DB (0xFB28DB)  | 2330 | - | - |
-| 0x99F27961             | 2331 | - | - |
-| 0xEEF549F7             | 2332 | - | - |
-| 0x7E4A5466             | 2333 | - | - |
-| 0x094D64F0 (0x94D64F0) | 2334 | - | - |
-| 0x698AED15             | 2335 | - | - |
-| 0x1E8DDD83             | 2336 | - | - |
-| 0x87848C39             | 2337 | - | - |
-| 0xF083BCAF             | 2338 | - | - |
-| 0x6EE7290C             | 2339 | - | - |
-| 0x19E0199A             | 2340 | - | - |
-| 0x80E94820             | 2341 | - | - |
-| 0xF7EE78B6             | 2342 | - | - |
-| 0x67516527             | 2343 | - | - |
+| 0xE9988DEE             | 2328 | Checks if you have upgraded the Midnight Amulet into the Mountain God Boon. | - |
+| 0x77FC184D             | 2329 | Checks if you have upgraded the Midnight Amulet into the Annihilation Boon. | - |
+| 0x00FB28DB (0xFB28DB)  | 2330 | Checks if you have upgraded the Violet Charm into the Plasma Charm. | - |
+| 0x99F27961             | 2331 | Checks if you have upgraded the Violet Charm into the Hero’s Charm. | - |
+| 0xEEF549F7             | 2332 | Checks if you have upgraded the Pond Guard Bauble into the Fisherman Bauble. | - |
+| 0x7E4A5466             | 2333 | Checks if you have upgraded the Pond Guard Bauble into the Boatman Bauble. | - |
+| 0x094D64F0 (0x94D64F0) | 2334 | Checks if you have upgraded the Pond Guard Bauble into the Invocation Bauble. | - |
+| 0x698AED15             | 2335 | Checks if you have upgraded the Marsh Lord Bauble into the Glacier Bauble. | - |
+| 0x1E8DDD83             | 2336 | Checks if you have upgraded the Marsh Lord Bauble into the Underworld Bauble. | - |
+| 0x87848C39             | 2337 | Checks if you have upgraded the Marsh Lord Bauble into the Evil Bauble. | - |
+| 0xF083BCAF             | 2338 | Checks if you have upgraded the Swirlious Amulet into the Swirlious Bauble. | - |
+| 0x6EE7290C             | 2339 | Checks if you have upgraded the Swirlious Amulet into the S. Swirlious Bauble. | - |
+| 0x19E0199A             | 2340 | Checks if you have upgraded the Swirlious Amulet into the Hellhound Bauble. | - |
+| 0x80E94820             | 2341 | Checks if you have upgraded the Red Paws Amulet into the Red Paws Bauble. | - |
+| 0xF7EE78B6             | 2342 | Checks if you have upgraded the Red Paws Amulet into the S. Red Paws Bauble. | - |
+| 0x67516527             | 2343 | Checks if you have upgraded the Red Paws Amulet into the Yo-kai Cat Bauble. | - |
 
 ## FLAG_INFO_1 (6, 86) - GlobalByteFlag
 
