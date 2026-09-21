@@ -1445,12 +1445,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
 | 0x4FF4F23F             | 0    | - | `dummy` |
-| 0x0646F45E (0x646F45E) | 1    | - | `story_chara_num` |
-| 0xA45A65EC             | 2    | - | `gacha_use_count` |
+| 0x0646F45E (0x646F45E) | 1    | Checks how many Yo-kai you can befriend at once. | `story_chara_num` |
+| 0xA45A65EC             | 2    | Checks how many Crank-a-kai pulls you have. | `gacha_use_count` |
 | 0x9076E662             | 3    | - | - |
 | 0x2F508D80             | 4    | - | - |
-| 0xDE3AEC45             | 5    | - | `bad_time_change` |
-| 0x5CAB924C             | 6    | - | `passcomm_num` |
+| 0xDE3AEC45             | 5    | Checks if you have manually altered the time on the console. | `bad_time_change` |
+| 0x5CAB924C             | 6    | Checks how many Wandering Yo-kai you have. | `passcomm_num` |
 | 0xAFD49481             | 7    | - | - |
 | 0xC7AC3064             | 8    | - | - |
 | 0xB004D541             | 9    | - | - |
