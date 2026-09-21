@@ -143,7 +143,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. (The scene where Toadal Dude befriends you) | `ev13_1190` |
 | 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. (The scene where Master Nyada befriends you) | `ev13_1200` |
 | 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. (The scene where Blizzie befriends you) | `ev13_1210` |
-| 0x65C1E84E             | 192  | - | - |
+| 0x65C1E84E             | 192  | - | `get_y133800` |
 | 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. (The scene where Fuu 2 befriends you) | `ev13_1420` |
 | 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. (The scene where Lord Enma befriends you) | `ev13_1810` |
 | 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Blasters in the world of “What If?"" | - |
@@ -1454,7 +1454,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAFD49481             | 7    | - | - |
 | 0xC7AC3064             | 8    | - | - |
 | 0xB004D541             | 9    | - | - |
-| 0x3E80ECFC             | 11   | - | - |
+| 0x3E80ECFC             | 11   | - | `soul_create_count` |
 | 0x6092B325             | 12   | - | - |
 | 0x87ED3C02             | 13   | - | - |
 | 0x96DB972A             | 16   | - | - |
@@ -1565,7 +1565,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD4BA0DFB             | 27   | - | - |
 | 0x871BB140             | 28   | - | - |
 | 0x0E46AE1F (0xE46AE1F) | 29   | - | - |
-| 0x6955F504             | 30   | - | - |
+| 0x6955F504             | 30   | - | `coop_disable` |
 | 0x28A3401A             | 42   | - | - |
 | 0x57DE584B             | 43   | - | - |
 | 0x3F4F743B             | 45   | - | `confine_move` |
@@ -1604,7 +1604,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x69F2B210             | 100  | - | - |
 | 0xECF5A2BF             | 101  | - | - |
 | 0xEBACCC1D             | 102  | - | - |
-| 0x65691C07             | 103  | - | - |
+| 0x65691C07             | 103  | - | `tmp_tutorial_equip_item` |
 | 0xFB94A214             | 104  | - | - |
 | 0x74E22472             | 106  | - | - |
 | 0x8D4ACE84             | 107  | - | - |
