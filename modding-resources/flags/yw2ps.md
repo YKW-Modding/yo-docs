@@ -25,7 +25,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6F281CF3 | 9 | - | - |
 | 0x83CA72FE | 10 | - | - |
 | 0xB9CDBFB0 | 11 | - | - |
-| 0xB29365A2 | 12 | RETURN__Set after Whisper tells you to go to the Sacred Tree in Chapter 2. | - |
+| 0xB29365A2 | 12 | - | - |
 | 0x6926965F | 13 | Checks if you have reunited with Whisper. | `friend_wisper` |
 | 0x2A329223 | 14 | Checks if the time of day is stopped. | `time_lock` |
 | 0x9FC6CB55 | 15 | Checks if sleeping is disabled. | `disable_time_sleep` |
