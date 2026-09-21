@@ -950,25 +950,25 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEEAAA709             | 1798 | Checks if you can request the SLIPPERY Song. | - |
 | 0x8ED683DC             | 1799 | Checks if you can request the LEGENDARY Song. | - |
 | 0x53D3CB1A             | 1800 | Checks if you can request the WICKED Song. | - |
-| 0x33AFEFCF             | 1801 | Checks if you can request the Neatles Song. (Inaccessible in the localization) | - |
-| 0x932B82B0             | 1802 | Checks if you can request the Pinto Crusaders Song. (Inaccessible in the localization) | - |
-| 0xF357A665             | 1803 | Checks if you can request the The Water Boyz Song. (Inaccessible in the localization) | - |
-| 0x0789D63D (0x789D63D) | 1804 | Checks if you can request the Mystery Song. (Inaccessible in the localization) | - |
-| 0x67F5F2E8             | 1805 | Checks if you can request the Nomnom Brothers Song. (Inaccessible in the localization) | - |
-| 0x0C89254A (0xC89254A) | 1806 | Checks if you can request the Red Hot Oni Backers Song. (Inaccessible in the localization) | - |
-| 0x6CF5019F             | 1807 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0xD38B47AB             | 1808 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0x1AD6A23A             | 1811 | Checks if you can request the Sgt. Burly Song. (Inaccessible in the localization) | - |
-| 0xBD3F0B5C             | 1812 | Checks if you can request the Hovernyan Song. (Inaccessible in the localization) | - |
-| 0x202B13FA             | 1814 | Checks if you can request the Cornfused Song. (Inaccessible in the localization) | - |
-| 0x4057372F             | 1815 | Checks if you can request the Roughraff Song. (Inaccessible in the localization) | - |
-| 0xE965167B             | 1816 | Checks if you can request the Jibanyan Song. (Inaccessible in the localization) | - |
-| 0x891932AE             | 1817 | Checks if you can request the Komasan Song. (Inaccessible in the localization) | - |
-| 0x561B504F             | 1819 | Checks if you can request the Hidabat Song. (Inaccessible in the localization) | - |
-| 0x8C73DC90             | 1820 | Checks if you can request the Dismarelda Song. (Inaccessible in the localization) | - |
-| 0x4BE65123             | 1822 | Checks if you can request the Usapyon Song. (Inaccessible in the localization) | - |
-| 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. (Inaccessible in the localization) | - |
-| 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. (Inaccessible in the localization) | - |
+| 0x33AFEFCF             | 1801 | Checks if you can request the Neatles Song. | - |
+| 0x932B82B0             | 1802 | Checks if you can request the Pinto Crusaders Song. | - |
+| 0xF357A665             | 1803 | Checks if you can request the The Water Boyz Song. | - |
+| 0x0789D63D (0x789D63D) | 1804 | Checks if you can request the Mystery Song. | - |
+| 0x67F5F2E8             | 1805 | Checks if you can request the Nomnom Brothers Song. | - |
+| 0x0C89254A (0xC89254A) | 1806 | Checks if you can request the Red Hot Oni Backers Song. | - |
+| 0x6CF5019F             | 1807 | Checks if you can request the The Kintaronyan Trio Song. | - |
+| 0xD38B47AB             | 1808 | Checks if you can request the The Kintaronyan Trio Song. | - |
+| 0x1AD6A23A             | 1811 | Checks if you can request the Sgt. Burly Song. | - |
+| 0xBD3F0B5C             | 1812 | Checks if you can request the Hovernyan Song. | - |
+| 0x202B13FA             | 1814 | Checks if you can request the Cornfused Song. | - |
+| 0x4057372F             | 1815 | Checks if you can request the Roughraff Song. | - |
+| 0xE965167B             | 1816 | Checks if you can request the Jibanyan Song. | - |
+| 0x891932AE             | 1817 | Checks if you can request the Komasan Song. | - |
+| 0x561B504F             | 1819 | Checks if you can request the Hidabat Song. | - |
+| 0x8C73DC90             | 1820 | Checks if you can request the Dismarelda Song. | - |
+| 0x4BE65123             | 1822 | Checks if you can request the Usapyon Song. | - |
+| 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. | - |
+| 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. | - |
 | 0x682A6DDB             | 1825 | - | - |
 | 0xDACCD095             | 1833 | Checks if you have received a Golden Ball from Sergeant Slug. | - |
 | 0xAAE3DFF9             | 1834 | Checks if you have received a Golden Ball from Arachnevil. | - |
@@ -985,139 +985,139 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDDC29F9F             | 1845 | - | - |
 | 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
 | 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
-| 0x4A0C9B3C             | 1860 | - | - |
-| 0xD305CA86             | 1861 | - | - |
-| 0xA402FA10             | 1862 | - | - |
-| 0x3A666FB3             | 1863 | - | - |
-| 0x4D615F25             | 1864 | - | - |
-| 0xD4680E9F             | 1865 | - | - |
-| 0xA36F3E09             | 1866 | - | - |
-| 0x33D02398             | 1867 | - | - |
-| 0x44D7130E             | 1868 | - | - |
-| 0x24109AEB             | 1869 | - | - |
-| 0x5317AA7D             | 1870 | - | - |
-| 0xCA1EFBC7             | 1871 | - | - |
-| 0xBD19CB51             | 1872 | - | - |
-| 0x237D5EF2             | 1873 | - | - |
-| 0x547A6E64             | 1874 | - | - |
-| 0xCD733FDE             | 1875 | - | - |
-| 0xBA740F48             | 1876 | - | - |
-| 0x2ACB12D9             | 1877 | - | - |
-| 0x5DCC224F             | 1878 | - | - |
-| 0x0F3DC928 (0xF3DC928) | 1879 | - | - |
-| 0x783AF9BE             | 1880 | - | - |
-| 0xE133A804             | 1881 | - | - |
-| 0x96349892             | 1882 | - | - |
-| 0x08500D31 (0x8500D31) | 1883 | - | - |
-| 0x7F573DA7             | 1884 | Checks if you have upgraded the Apprentice Sword into the Star Pupil's Sword. | - |
-| 0xE65E6C1D             | 1885 | Checks if you have upgraded the Starling Sword into the Nightingale Sword. | - |
-| 0x91595C8B             | 1886 | - | - |
-| 0x01E6411A (0x1E6411A) | 1887 | - | - |
-| 0x76E1718C             | 1888 | - | - |
-| 0x1626F869             | 1889 | Checks if you have upgraded the Worn Bangle into the Striped Bracelet. | - |
-| 0x6121C8FF             | 1890 | Checks if you have upgraded the Cheap Bracelet into the Spotty Bracelet. | - |
-| 0xF8289945             | 1891 | Checks if you have upgraded the Dirty Bracelet into the Colorful Bracelet. | - |
-| 0x8F2FA9D3             | 1892 | - | - |
-| 0x114B3C70             | 1893 | Checks if you have upgraded the Warped Wand into the Weird Wand. | - |
-| 0x664C0CE6             | 1894 | Checks if you have upgraded the Simple Stick into the Snazzy Stick. | - |
-| 0xFF455D5C             | 1895 | - | - |
-| 0x88426DCA             | 1896 | Checks if you have upgraded the Sinister Stick into the Skull on a Stick. | - |
-| 0x18FD705B             | 1897 | - | - |
-| 0x6FFA40CD             | 1898 | Checks if you have upgraded the Rusty Ring into the Dawn Ring. | - |
-| 0x59676EAE             | 1899 | Checks if you have upgraded the Ugly Ring into the Rainbow Ring. | - |
-| 0x2E605E38             | 1900 | Checks if you have upgraded the Bone Ring into the Backbone Ring. | - |
-| 0xB7690F82             | 1901 | - | - |
-| 0xC06E3F14             | 1902 | - | - |
-| 0x5E0AAAB7             | 1903 | Checks if you have upgraded the Round Shield into the Sturdy Shield. | - |
-| 0x290D9A21             | 1904 | Checks if you have upgraded the Wooden Shield into the Iron Shield. | - |
-| 0xB004CB9B             | 1905 | Checks if you have upgraded the Bathhouse Bucket into the Pigbucket. | - |
-| 0xC703FB0D             | 1906 | - | - |
-| 0x57BCE69C             | 1907 | - | - |
-| 0x20BBD60A             | 1908 | Checks if you have upgraded the Aged Charm into the Warm Charm. | - |
-| 0x407C5FEF             | 1909 | Checks if you have upgraded the Patched-Up Charm into the Fragrant Charm. | - |
-| 0x377B6F79             | 1910 | - | - |
-| 0xAE723EC3             | 1911 | - | - |
-| 0xD9750E55             | 1912 | - | - |
-| 0x47119BF6             | 1913 | - | - |
-| 0x3016AB60             | 1914 | Checks if you have upgraded the Basic Belt into the Round-Buckle Belt. | - |
-| 0xA91FFADA             | 1915 | Checks if you have upgraded the Plain Sash into the Flashy Sash. | - |
-| 0xDE18CA4C             | 1916 | - | - |
-| 0x4EA7D7DD             | 1917 | Checks if you have upgraded the Grubby Belt into the Designer Belt. | - |
-| 0x39A0E74B             | 1918 | - | - |
-| 0x6B510C2C             | 1919 | Checks if you have upgraded the Rustic Amulet into the Elegant Amulet. | - |
-| 0x1C563CBA             | 1920 | Checks if you have upgraded the Black Charm into the Flower Charm. | - |
-| 0x855F6D00             | 1921 | Checks if you have upgraded the Catfish Bauble into the Wht. Catfish Bauble. | - |
-| 0xF2585D96             | 1922 | Checks if you have upgraded the Broken Bell into the Cat Bell. | - |
-| 0x6C3CC835             | 1923 | - | - |
-| 0x1B3BF8A3             | 1924 | Checks if you have upgraded the Star Pupil’s Sword into the Master’s Sword. | - |
-| 0x8232A919             | 1925 | Checks if you have upgraded the Nightingale Sword into the Raven’s Blade. | - |
-| 0xF535998F             | 1926 | Checks if you have upgraded the Oni Smasher into the Oni Smasher (Red). | - |
-| 0x658A841E             | 1927 | - | - |
-| 0x128DB488             | 1928 | Checks if you have upgraded the Lethal Hammer into the Skull Hammer. | - |
-| 0x724A3D6D             | 1929 | Checks if you have upgraded the Striped Bracelet into the Blue Bracelet. | - |
-| 0x054D0DFB (0x54D0DFB) | 1930 | Checks if you have upgraded the Spotty Bracelet into the Kooky Bracelet. | - |
-| 0x9C445C41             | 1931 | - | - |
-| 0xEB436CD7             | 1932 | Checks if you have upgraded the Colorful Bracelet into the Go-Go Bracelet. | - |
-| 0x7527F974             | 1933 | - | - |
-| 0x0220C9E2 (0x220C9E2) | 1934 | Checks if you have upgraded the Weird Wand into the Wand of Chaos. | - |
-| 0x9B299858             | 1935 | Checks if you have upgraded the Snazzy Stick into the Splendid Stick. | - |
-| 0xEC2EA8CE             | 1936 | Checks if you have upgraded the Three-Head Wand into the Triptych Stick. | - |
-| 0x7C91B55F             | 1937 | - | - |
-| 0x0B9685C9 (0xB9685C9) | 1938 | Checks if you have upgraded the Skull on a Stick into the Pessimistick. | - |
-| 0xF5D221A2             | 1939 | - | - |
-| 0x82D51134             | 1940 | Checks if you have upgraded the Dawn Ring into the Slumber Ring. | - |
-| 0x1BDC408E             | 1941 | Checks if you have upgraded the Rainbow Ring into the Promise Ring. | - |
-| 0x6CDB7018             | 1942 | Checks if you have upgraded the Backbone Ring into the Jawbone Ring. | - |
-| 0xF2BFE5BB             | 1943 | Checks if you have upgraded the Gilded Ring into the Metallic Ring. | - |
-| 0x85B8D52D             | 1944 | - | - |
-| 0x1CB18497             | 1945 | - | - |
-| 0x6BB6B401             | 1946 | - | - |
-| 0xFB09A990             | 1947 | Checks if you have upgraded the Sturdy Shield into the Alloy Shield. | - |
-| 0x8C0E9906             | 1948 | Checks if you have upgraded the Iron Shield into the Silver Shield. | - |
-| 0xECC910E3             | 1949 | Checks if you have upgraded the Pigbucket into the Fine Pigbucket. | - |
-| 0x9BCE2075             | 1950 | - | - |
-| 0x02C771CF (0x2C771CF) | 1951 | - | - |
-| 0x75C04159             | 1952 | - | - |
-| 0xEBA4D4FA             | 1953 | Checks if you have upgraded the Warm Charm into the Happy Charm. | - |
-| 0x9CA3E46C             | 1954 | Checks if you have upgraded the Fragrant Charm into the Lucky Charm. | - |
-| 0x05AAB5D6 (0x5AAB5D6) | 1955 | Checks if you have upgraded the One-Eyed Pouch into the Pink Pouch. | - |
-| 0x72AD8540             | 1956 | Checks if you have upgraded the Sturdy Bag into the Pink Bag. | - |
-| 0xE21298D1             | 1957 | Checks if you have upgraded the Plain Pendant into the Courage Pendant. | - |
-| 0x9515A847             | 1958 | - | - |
-| 0x3CC9C19D             | 1959 | Checks if you have upgraded the Round-Buckle Belt into the Chic Belt. | - |
-| 0x4BCEF10B             | 1960 | Checks if you have upgraded the Flashy Sash into the Shinobi Sash. | - |
-| 0xD2C7A0B1             | 1961 | Checks if you have upgraded the Sturdy Sash into the Glutton’s Sash. | - |
-| 0xA5C09027             | 1962 | - | - |
-| 0x3BA40584             | 1963 | Checks if you have upgraded the Designer Belt into the Bold Belt. | - |
-| 0x4CA33512             | 1964 | - | - |
-| 0xD5AA64A8             | 1965 | Checks if you have upgraded the Elegant Amulet into the Intriguing Amulet. | - |
-| 0xA2AD543E             | 1966 | Checks if you have upgraded the Flower Charm into the Aurora Charm. | - |
-| 0x321249AF             | 1967 | Checks if you have upgraded the Wht. Catfish Bauble into the Big Catfish Bauble. | - |
-| 0x45157939             | 1968 | - | - |
-| 0x25D2F0DC             | 1969 | Checks if you have upgraded the Cat Bell into the Cat’s Paw Bell. | - |
-| 0x52D5C04A             | 1970 | - | - |
-| 0xCBDC91F0             | 1971 | - | - |
-| 0xBCDBA166             | 1972 | - | - |
-| 0x22BF34C5             | 1973 | - | - |
-| 0x55B80453             | 1974 | - | - |
-| 0xCCB155E9             | 1975 | Checks if you have upgraded the Go-Go Bracelet into the Star Bracelet. | - |
-| 0xBBB6657F             | 1976 | - | - |
-| 0x2B0978EE             | 1977 | - | - |
-| 0x5C0E4878             | 1978 | - | - |
-| 0x0EFFA31F (0xEFFA31F) | 1979 | - | - |
-| 0x79F89389             | 1980 | Checks if you have upgraded the Ring of Knowledge into the Mystery Ring. | - |
-| 0xE0F1C233             | 1981 | - | - |
-| 0x97F6F2A5             | 1982 | - | - |
-| 0x09926706 (0x9926706) | 1983 | - | - |
-| 0x7E955790             | 1984 | - | - |
-| 0xE79C062A             | 1985 | Checks if you have upgraded the Courage Pendant into the Passion Pendant. | - |
-| 0x909B36BC             | 1986 | - | - |
-| 0x00242B2D (0x242B2D)  | 1987 | - | - |
-| 0x77231BBB             | 1988 | Checks if you have upgraded the Bold Belt into the Fancy Belt. | - |
-| 0x17E4925E             | 1989 | - | - |
-| 0x60E3A2C8             | 1990 | - | - |
-| 0xF9EAF372             | 1991 | - | - |
-| 0x8EEDC3E4             | 1992 | - | - |
+| 0x4A0C9B3C             | 1860 | Checks if the Apprentice Sword has been made. | - |
+| 0xD305CA86             | 1861 | Checks if the Starling Sword has been made. | - |
+| 0xA402FA10             | 1862 | Checks if the Blunt Sword has been made. | - |
+| 0x3A666FB3             | 1863 | Checks if the Worn Bangle has been made. | - |
+| 0x4D615F25             | 1864 | Checks if the Cheap Bracelet has been made. | - |
+| 0xD4680E9F             | 1865 | Checks if the Dirty Bracelet has been made. | - |
+| 0xA36F3E09             | 1866 | Checks if the Warped Wand has been made. | - |
+| 0x33D02398             | 1867 | Checks if the Simple Stick has been made. | - |
+| 0x44D7130E             | 1868 | Checks if the Sinister Stick has been made. | - |
+| 0x24109AEB             | 1869 | Checks if the Rusty Ring has been made. | - |
+| 0x5317AA7D             | 1870 | Checks if the Ugly Ring has been made. | - |
+| 0xCA1EFBC7             | 1871 | Checks if the Bone Ring has been made. | - |
+| 0xBD19CB51             | 1872 | Checks if the Round Shield has been made. | - |
+| 0x237D5EF2             | 1873 | Checks if the Wooden Shield has been made. | - |
+| 0x547A6E64             | 1874 | Checks if the Bathhouse Bucket has been made. | - |
+| 0xCD733FDE             | 1875 | Checks if the Aged Charm has been made. | - |
+| 0xBA740F48             | 1876 | Checks if the Patched-Up Charm has been made. | - |
+| 0x2ACB12D9             | 1877 | Checks if the Basic Belt has been made. | - |
+| 0x5DCC224F             | 1878 | Checks if the Plain Sash has been made. | - |
+| 0x0F3DC928 (0xF3DC928) | 1879 | Checks if the Grubby Belt has been made. | - |
+| 0x783AF9BE             | 1880 | Checks if the Rustic Amulet has been made. | - |
+| 0xE133A804             | 1881 | Checks if the Black Charm has been made. | - |
+| 0x96349892             | 1882 | Checks if the Catfish Bauble has been made. | - |
+| 0x08500D31 (0x8500D31) | 1883 | Checks if the Broken Bell has been made. | - |
+| 0x7F573DA7             | 1884 | Checks if the Star Pupil's Sword has been made. | - |
+| 0xE65E6C1D             | 1885 | Checks if the Nightingale Sword has been made. | - |
+| 0x91595C8B             | 1886 | Checks if the Oni Smasher has been made. | - |
+| 0x01E6411A (0x1E6411A) | 1887 | Checks if the Lethal Hammer has been made. | - |
+| 0x76E1718C             | 1888 | Checks if the Kitchen Knife has been made. | - |
+| 0x1626F869             | 1889 | Checks if the Striped Bracelet has been made. | - |
+| 0x6121C8FF             | 1890 | Checks if the Spotty Bracelet has been made. | - |
+| 0xF8289945             | 1891 | Checks if the Colorful Bracelet has been made. | - |
+| 0x8F2FA9D3             | 1892 | Checks if the Killer Bracelet has been made. | - |
+| 0x114B3C70             | 1893 | Checks if the Weird Wand has been made. | - |
+| 0x664C0CE6             | 1894 | Checks if the Snazzy Stick has been made. | - |
+| 0xFF455D5C             | 1895 | Checks if the Three-Head Wand has been made. | - |
+| 0x88426DCA             | 1896 | Checks if the Skull on a Stick has been made. | - |
+| 0x18FD705B             | 1897 | Checks if the Rad Rod has been made. | - |
+| 0x6FFA40CD             | 1898 | Checks if the Dawn Ring has been made. | - |
+| 0x59676EAE             | 1899 | Checks if the Rainbow Ring has been made. | - |
+| 0x2E605E38             | 1900 | Checks if the Backbone Ring has been made. | - |
+| 0xB7690F82             | 1901 | Checks if the Gilded Ring has been made. | - |
+| 0xC06E3F14             | 1902 | Checks if the Ring of Insight has been made. | - |
+| 0x5E0AAAB7             | 1903 | Checks if the Sturdy Shield has been made. | - |
+| 0x290D9A21             | 1904 | Checks if the Iron Shield has been made. | - |
+| 0xB004CB9B             | 1905 | Checks if the Pigbucket has been made. | - |
+| 0xC703FB0D             | 1906 | Checks if the Trash Can Lid has been made. | - |
+| 0x57BCE69C             | 1907 | Checks if the Elegant Shield has been made. | - |
+| 0x20BBD60A             | 1908 | Checks if the Warm Charm has been made. | - |
+| 0x407C5FEF             | 1909 | Checks if the Fragrant Charm has been made. | - |
+| 0x377B6F79             | 1910 | Checks if the One-Eyed Pouch has been made. | - |
+| 0xAE723EC3             | 1911 | Checks if the Sturdy Bag has been made. | - |
+| 0xD9750E55             | 1912 | Checks if the Plain Pendant has been made. | - |
+| 0x47119BF6             | 1913 | Checks if the Spirit Charm has been made. | - |
+| 0x3016AB60             | 1914 | Checks if the Round-Buckle Belt has been made. | - |
+| 0xA91FFADA             | 1915 | Checks if the Flashy Sash has been made. | - |
+| 0xDE18CA4C             | 1916 | Checks if the Sturdy Sash has been made. | - |
+| 0x4EA7D7DD             | 1917 | Checks if the Designer Belt has been made. | - |
+| 0x39A0E74B             | 1918 | Checks if the Spiteful Sash has been made. | - |
+| 0x6B510C2C             | 1919 | Checks if the Elegant Amulet has been made. | - |
+| 0x1C563CBA             | 1920 | Checks if the Flower Charm has been made. | - |
+| 0x855F6D00             | 1921 | Checks if the Wht. Catfish Bauble has been made. | - |
+| 0xF2585D96             | 1922 | Checks if the Cat Bell has been made. | - |
+| 0x6C3CC835             | 1923 | Checks if the Dimmy Amulet has been made. | - |
+| 0x1B3BF8A3             | 1924 | Checks if the Master’s Sword has been made. | - |
+| 0x8232A919             | 1925 | Checks if the Raven’s Blade has been made. | - |
+| 0xF535998F             | 1926 | Checks if the Oni Smasher (Red) has been made. | - |
+| 0x658A841E             | 1927 | Checks if the Oni Smasher (Blue) has been made. | - |
+| 0x128DB488             | 1928 | Checks if the Skull Hammer has been made. | - |
+| 0x724A3D6D             | 1929 | Checks if the Blue Bracelet has been made. | - |
+| 0x054D0DFB (0x54D0DFB) | 1930 | Checks if the Kooky Bracelet has been made. | - |
+| 0x9C445C41             | 1931 | Checks if the Steel Handcuff has been made. | - |
+| 0xEB436CD7             | 1932 | Checks if the Go-Go Bracelet has been made. | - |
+| 0x7527F974             | 1933 | Checks if the Turnabracelet has been made. | - |
+| 0x0220C9E2 (0x220C9E2) | 1934 | Checks if the Wand of Chaos has been made. | - |
+| 0x9B299858             | 1935 | Checks if the Splendid Stick has been made. | - |
+| 0xEC2EA8CE             | 1936 | Checks if the Triptych Stick has been made. | - |
+| 0x7C91B55F             | 1937 | Checks if the Wide-Eyed Wand has been made. | - |
+| 0x0B9685C9 (0xB9685C9) | 1938 | Checks if the Pessimistick has been made. | - |
+| 0xF5D221A2             | 1939 | Checks if Koma’s Pack has been made. | - |
+| 0x82D51134             | 1940 | Checks if the Slumber Ring has been made. | - |
+| 0x1BDC408E             | 1941 | Checks if the Promise Ring has been made. | - |
+| 0x6CDB7018             | 1942 | Checks if the Jawbone Ring has been made. | - |
+| 0xF2BFE5BB             | 1943 | Checks if the Metallic Ring has been made. | - |
+| 0x85B8D52D             | 1944 | Checks if the Gleaming Ring has been made. | - |
+| 0x1CB18497             | 1945 | Checks if the Ring of Knowledge has been made. | - |
+| 0x6BB6B401             | 1946 | Checks if the Turnaring has been made. | - |
+| 0xFB09A990             | 1947 | Checks if the Alloy Shield has been made. | - |
+| 0x8C0E9906             | 1948 | Checks if the Silver Shield has been made. | - |
+| 0xECC910E3             | 1949 | Checks if the Fine Pigbucket has been made. | - |
+| 0x9BCE2075             | 1950 | Checks if the Hogbucket has been made. | - |
+| 0x02C771CF (0x2C771CF) | 1951 | Checks if the Giant Cauldron Lid has been made. | - |
+| 0x75C04159             | 1952 | Checks if the Force Shield has been made. | - |
+| 0xEBA4D4FA             | 1953 | Checks if the Happy Charm has been made. | - |
+| 0x9CA3E46C             | 1954 | Checks if the Lucky Charm has been made. | - |
+| 0x05AAB5D6 (0x5AAB5D6) | 1955 | Checks if the Pink Pouch has been made. | - |
+| 0x72AD8540             | 1956 | Checks if the Pink Bag has been made. | - |
+| 0xE21298D1             | 1957 | Checks if the Courage Pendant has been made. | - |
+| 0x9515A847             | 1958 | Checks if the Turnacharm has been made. | - |
+| 0x3CC9C19D             | 1959 | Checks if the Chic Belt has been made. | - |
+| 0x4BCEF10B             | 1960 | Checks if the Shinobi Sash has been made. | - |
+| 0xD2C7A0B1             | 1961 | Checks if the Glutton’s Sash has been made. | - |
+| 0xA5C09027             | 1962 | Checks if the Ceremonial Sash has been made. | - |
+| 0x3BA40584             | 1963 | Checks if the Bold Belt has been made. | - |
+| 0x4CA33512             | 1964 | Checks if the Ancestral Sash has been made. | - |
+| 0xD5AA64A8             | 1965 | Checks if the Intriguing Amulet has been made. | - |
+| 0xA2AD543E             | 1966 | Checks if the Aurora Charm has been made. | - |
+| 0x321249AF             | 1967 | Checks if the Big Catfish Bauble has been made. | - |
+| 0x45157939             | 1968 | Checks if the Gold Catfish Bauble has been made. | - |
+| 0x25D2F0DC             | 1969 | Checks if the Cat’s Paw Bell has been made. | - |
+| 0x52D5C04A             | 1970 | Checks if the Turnabeads have been made. | - |
+| 0xCBDC91F0             | 1971 | Checks if the U. Oni Smasher (Bk) has been made. | - |
+| 0xBCDBA166             | 1972 | Checks if the Sword of Solitude has been made. | - |
+| 0x22BF34C5             | 1973 | Checks if the Hi-Tech Wristband has been made. | - |
+| 0x55B80453             | 1974 | Checks if the Whisped Wristband has been made. | - |
+| 0xCCB155E9             | 1975 | Checks if the Star Bracelet has been made. | - |
+| 0xBBB6657F             | 1976 | Checks if the Peerless Bracelet has been made. | - |
+| 0x2B0978EE             | 1977 | Checks if the Dame Staff has been made. | - |
+| 0x5C0E4878             | 1978 | Checks if the Staff of Judgment has been made. | - |
+| 0x0EFFA31F (0xEFFA31F) | 1979 | Checks if the Tengu Fan has been made. | - |
+| 0x79F89389             | 1980 | Checks if the Mystery Ring has been made. | - |
+| 0xE0F1C233             | 1981 | Checks if the Peerless Ring has been made. | - |
+| 0x97F6F2A5             | 1982 | Checks if the Twirly Swirler has been made. | - |
+| 0x09926706 (0x9926706) | 1983 | Checks if the Innocent Shield has been made. | - |
+| 0x7E955790             | 1984 | Checks if the Goddess Charm has been made. | - |
+| 0xE79C062A             | 1985 | Checks if the Passion Pendant has been made. | - |
+| 0x909B36BC             | 1986 | Checks if the Clover Charm has been made. | - |
+| 0x00242B2D (0x242B2D)  | 1987 | Checks if the Senator Sash has been made. | - |
+| 0x77231BBB             | 1988 | Checks if the Fancy Belt has been made. | - |
+| 0x17E4925E             | 1989 | Checks if the Cutie Belt has been made. | - |
+| 0x60E3A2C8             | 1990 | Checks if the Swirlious Amulet has been made. | - |
+| 0xF9EAF372             | 1991 | Checks if the Red Paws Amulet has been made. | - |
+| 0x8EEDC3E4             | 1992 | Checks if the Vampbloom Bauble has been made. | - |
 | 0xD8032A44             | 1993 | - | - |
 | 0x410A7BFE             | 1994 | - | - |
 | 0x360D4B68             | 1995 | - | - |
@@ -1251,13 +1251,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF2EC13B0             | 2123 | - | - |
 | 0x6BE5420A             | 2124 | - | - |
 | 0x1CE2729C             | 2125 | - | - |
-| 0x10895647             | 2126 | - | - |
-| 0x678E66D1             | 2127 | - | - |
-| 0xFE87376B             | 2128 | - | - |
-| 0x898007FD             | 2129 | - | - |
-| 0x193F1A6C             | 2130 | - | - |
-| 0x6E382AFA             | 2131 | - | - |
-| 0x58A50499             | 2132 | - | - |
+| 0x10895647             | 2126 | Checks if Zazel’s Ruby Ring has been made. | - |
+| 0x678E66D1             | 2127 | Checks if the Captain Launcher has been made. | - |
+| 0xFE87376B             | 2128 | Checks if the Kingly Great Sword has been made. | - |
+| 0x898007FD             | 2129 | Checks if the Awoken Bracelet has been made. | - |
+| 0x193F1A6C             | 2130 | Checks if the Dark Matter Shield has been made. | - |
+| 0x6E382AFA             | 2131 | Checks if the Golden Swirl Charm has been made. | - |
+| 0x58A50499             | 2132 | Checks if the Golden Claws Cloth has been made. | - |
 | 0x8286E73F             | 2133 | - | - |
 | 0xF581D7A9             | 2134 | - | - |
 | 0x6C888613             | 2135 | - | - |
@@ -1265,180 +1265,180 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8B30AB14             | 2137 | - | - |
 | 0xFC379B82             | 2138 | - | - |
 | 0xCAAAB5E1             | 2139 | - | - |
-| 0x105655B1             | 2140 | Checks if you have upgraded Zazel’s Ruby Ring into Zazel’s Agate Ring. | - |
-| 0x42A7BED6             | 2141 | Checks if you have upgraded Zazel’s Ruby Ring into Zazelmare’s Ring. | - |
-| 0x35A08E40             | 2142 | Checks if you have upgraded the Captain Launcher into the Grenade Thunder. | - |
-| 0xACA9DFFA             | 2143 | Checks if you have upgraded the Captain Launcher into the Ultimate Beam. | - |
-| 0xDBAEEF6C             | 2144 | Checks if you have upgraded the Kingly Great Sword into the Water Dragonblade. | - |
-| 0x45CA7ACF             | 2145 | Checks if you have upgraded the Kingly Great Sword into the Oni Warlord Sword. | - |
-| 0x32CD4A59             | 2146 | Checks if you have upgraded the Awoken Bracelet into the Eden Bracelet. | - |
-| 0xABC41BE3             | 2147 | Checks if you have upgraded the Awoken Bracelet into the Sun God Bracelet. | - |
-| 0xDCC32B75             | 2148 | Checks if you have upgraded the Dark Matter Shield into the Antigravity Shield. | - |
-| 0x4C7C36E4             | 2149 | Checks if you have upgraded the Dark Matter Shield into the Quantum Shield. | - |
-| 0x3B7B0672             | 2150 | Checks if you have upgraded the Golden Swirl Charm into the Tranquil Charm. | - |
-| 0x5BBC8F97             | 2151 | Checks if you have upgraded the Golden Swirl Charm into the Royal Swirl Charm. | - |
-| 0x2CBBBF01             | 2152 | Checks if you have upgraded the Golden Claws Cloth into the Living World Cloth. | - |
-| 0xB5B2EEBB             | 2153 | Checks if you have upgraded the Golden Claws Cloth into the Royal Claws Cloth. | - |
-| 0x38FFD21C             | 2154 | Checks if you have upgraded the Kitchen Knife into the Chef’s Knife. | - |
-| 0xC1310A43             | 2158 | Checks if you have upgraded the Killer Bracelet into the Focus Bracelet. | - |
-| 0x21E4E35D             | 2164 | Checks if you have upgraded the Rad Rod into the Super-Rad Rod. | - |
-| 0x10140927             | 2169 | Checks if you have upgraded the Ring of Insight into the All-Seeing Ring. | - |
-| 0x19A2450C             | 2173 | Checks if you have upgraded the Elegant Shield into the Glitzy Shield. | - |
-| 0x090F3866 (0x90F3866) | 2179 | Checks if you have upgraded the Spirit Charm into the Charge-Up Charm. | - |
-| 0x77BE44DB             | 2184 | Checks if you have upgraded the Spiteful Sash into the Grudge Sash. | - |
-| 0x22226BA5             | 2189 | Checks if you have upgraded the Dimmy Amulet into the Blandon Amulet. | - |
-| 0x55255B33             | 2190 | Checks if you have upgraded the Master’s Sword into the Sorcerer’s Sword. | - |
-| 0xCC2C0A89             | 2191 | Checks if you have upgraded the Raven’s Blade into the Peacock. | - |
-| 0xBB2B3A1F             | 2192 | Checks if you have upgraded the Oni Smasher (Red) into the U. Oni Smasher (R). | - |
-| 0x2B94278E             | 2193 | Checks if you have upgraded the Oni Smasher (Blue) into the U. Oni Smasher (Bl). | - |
-| 0x5C931718             | 2194 | Checks if you have upgraded the Skull Hammer into the Hell Hammer. | - |
-| 0x3C549EFD             | 2195 | Checks if you have upgraded the Bunny Blaster into the Starlight Blaster. | - |
-| 0x4B53AE6B             | 2196 | Checks if you have upgraded the Blue Bracelet into the Phantom Bracelet. | - |
-| 0xD25AFFD1             | 2197 | Checks if you have upgraded the Kooky Bracelet into the Bracelet of Purity. | - |
-| 0xA55DCF47             | 2198 | Checks if you have upgraded the Steel Handcuff into the Engraved Handcuff. | - |
-| 0x4C3E6A72             | 2200 | Checks if you have upgraded the Turnabracelet into the Epic Turnabracelet. | - |
-| 0xD5373BC8             | 2201 | Checks if you have upgraded the Wand of Chaos into the Wicked Wand. | - |
-| 0xA2300B5E             | 2202 | Checks if you have upgraded the Splendid Stick into the Angelic Wand. | - |
-| 0x328F16CF             | 2203 | Checks if you have upgraded the Triptych Stick into the Triple Dragon Wand. | - |
-| 0x45882659             | 2204 | Checks if you have upgraded the Wide-Eyed Wand into the Hell’s Eye Wand. | - |
-| 0xBBCC8232             | 2205 | Checks if you have upgraded Koma’s Pack into the Swirly Pack. | - |
-| 0xCCCBB2A4             | 2206 | Checks if you have upgraded the Slumber Ring into the Lunar Ring. | - |
-| 0x55C2E31E             | 2207 | Checks if you have upgraded the Promise Ring into the Wave Ring. | - |
-| 0x22C5D388             | 2208 | Checks if you have upgraded the Jawbone Ring into the Skull Ring. | - |
-| 0xBCA1462B             | 2209 | Checks if you have upgraded the Metallic Ring into the Goldy Ring. | - |
-| 0xCBA676BD             | 2210 | Checks if you have upgraded the Gleaming Ring into the Glitzy Ring. | - |
-| 0x25A81791             | 2212 | Checks if you have upgraded the Turnaring into the Epic Turnaring. | - |
-| 0xB5170A00             | 2213 | Checks if you have upgraded the Alloy Shield into the Tactician’s Shield. | - |
-| 0xC2103A96             | 2214 | Checks if you have upgraded the Silver Shield into the Paladin’s Shield. | - |
-| 0xA2D7B373             | 2215 | Checks if you have upgraded the Fine Pigbucket into the Gold Pigbucket. | - |
-| 0xD5D083E5             | 2216 | Checks if you have upgraded the Hogbucket into the Evil Hogbucket. | - |
-| 0x4CD9D25F             | 2217 | Checks if you have upgraded the Giant Cauldron Lid into the Wobblewok Lid. | - |
-| 0x3BDEE2C9             | 2218 | Checks if you have upgraded the Force Shield into the Force Shield EX. | - |
-| 0xA5BA776A             | 2219 | Checks if you have upgraded the Happy Charm into the Pulsating Charm. | - |
-| 0xD2BD47FC             | 2220 | Checks if you have upgraded the Lucky Charm into the Noble Charm. | - |
-| 0x4BB41646             | 2221 | Checks if you have upgraded the Pink Pouch into the One-Eye Pouch XL. | - |
-| 0x3CB326D0             | 2222 | Checks if you have upgraded the Pink Bag into the Hardy Bag. | - |
+| 0x105655B1             | 2140 | Checks if Zazel’s Agate Ring has been made. | - |
+| 0x42A7BED6             | 2141 | Checks if Zazelmare’s Ring has been made. | - |
+| 0x35A08E40             | 2142 | Checks if the Grenade Thunder has been made. | - |
+| 0xACA9DFFA             | 2143 | Checks if the Ultimate Beam has been made. | - |
+| 0xDBAEEF6C             | 2144 | Checks if the Water Dragonblade has been made. | - |
+| 0x45CA7ACF             | 2145 | Checks if the Oni Warlord Sword has been made. | - |
+| 0x32CD4A59             | 2146 | Checks if the Eden Bracelet has been made. | - |
+| 0xABC41BE3             | 2147 | Checks if the Sun God Bracelet has been made. | - |
+| 0xDCC32B75             | 2148 | Checks if the Antigravity Shield has been made. | - |
+| 0x4C7C36E4             | 2149 | Checks if the Quantum Shield has been made. | - |
+| 0x3B7B0672             | 2150 | Checks if the Tranquil Charm has been made. | - |
+| 0x5BBC8F97             | 2151 | Checks if the Royal Swirl Charm has been made. | - |
+| 0x2CBBBF01             | 2152 | Checks if the Living World Cloth has been made. | - |
+| 0xB5B2EEBB             | 2153 | Checks if the Royal Claws Cloth has been made. | - |
+| 0x38FFD21C             | 2154 | Checks if the Chef’s Knife has been made. | - |
+| 0xC1310A43             | 2158 | Checks if the Focus Bracelet has been made. | - |
+| 0x21E4E35D             | 2164 | Checks if the Super-Rad Rod has been made. | - |
+| 0x10140927             | 2169 | Checks if the All-Seeing Ring has been made. | - |
+| 0x19A2450C             | 2173 | Checks if the Glitzy Shield has been made. | - |
+| 0x090F3866 (0x90F3866) | 2179 | Checks if the Charge-Up Charm has been made. | - |
+| 0x77BE44DB             | 2184 | Checks if the Grudge Sash has been made. | - |
+| 0x22226BA5             | 2189 | Checks if the Blandon Amulet has been made. | - |
+| 0x55255B33             | 2190 | Checks if the Sorcerer’s Sword has been made. | - |
+| 0xCC2C0A89             | 2191 | Checks if the Raven’s Blade into the Peacock has been made. | - |
+| 0xBB2B3A1F             | 2192 | Checks if the U. Oni Smasher (R) has been made. | - |
+| 0x2B94278E             | 2193 | Checks if the U. Oni Smasher (Bl) has been made. | - |
+| 0x5C931718             | 2194 | Checks if the Hell Hammer has been made. | - |
+| 0x3C549EFD             | 2195 | Checks if the Starlight Blaster has been made. | - |
+| 0x4B53AE6B             | 2196 | Checks if the Phantom Bracelet has been made. | - |
+| 0xD25AFFD1             | 2197 | Checks if the Bracelet of Purity has been made. | - |
+| 0xA55DCF47             | 2198 | Checks if the Engraved Handcuff has been made. | - |
+| 0x4C3E6A72             | 2200 | Checks if the Epic Turnabracelet has been made. | - |
+| 0xD5373BC8             | 2201 | Checks if the Wicked Wand has been made. | - |
+| 0xA2300B5E             | 2202 | Checks if the Angelic Wand has been made. | - |
+| 0x328F16CF             | 2203 | Checks if the Triple Dragon Wand has been made. | - |
+| 0x45882659             | 2204 | Checks if the Hell’s Eye Wand has been made. | - |
+| 0xBBCC8232             | 2205 | Checks if the Swirly Pack has been made. | - |
+| 0xCCCBB2A4             | 2206 | Checks if the Lunar Ring has been made. | - |
+| 0x55C2E31E             | 2207 | Checks if the Wave Ring has been made. | - |
+| 0x22C5D388             | 2208 | Checks if the Skull Ring has been made. | - |
+| 0xBCA1462B             | 2209 | Checks if the Goldy Ring has been made. | - |
+| 0xCBA676BD             | 2210 | Checks if the Glitzy Ring has been made. | - |
+| 0x25A81791             | 2212 | Checks if the Epic Turnaring has been made. | - |
+| 0xB5170A00             | 2213 | Checks if the Tactician’s Shield has been made. | - |
+| 0xC2103A96             | 2214 | Checks if the Paladin’s Shield has been made. | - |
+| 0xA2D7B373             | 2215 | Checks if the Gold Pigbucket has been made. | - |
+| 0xD5D083E5             | 2216 | Checks if the Evil Hogbucket has been made. | - |
+| 0x4CD9D25F             | 2217 | Checks if the Wobblewok Lid has been made. | - |
+| 0x3BDEE2C9             | 2218 | Checks if the Force Shield EX has been made. | - |
+| 0xA5BA776A             | 2219 | Checks if the Pulsating Charm has been made. | - |
+| 0xD2BD47FC             | 2220 | Checks if the Noble Charm has been made. | - |
+| 0x4BB41646             | 2221 | Checks if the One-Eye Pouch XL has been made. | - |
+| 0x3CB326D0             | 2222 | Checks if the Hardy Bag has been made. | - |
 | 0xAC0C3B41             | 2223 | - | - |
-| 0xDB0B0BD7             | 2224 | Checks if you have upgraded the Turnacharm into the Epic Turnacharm. | - |
-| 0x72D7620D             | 2225 | Checks if you have upgraded the Chic Belt into the Victory Belt. | - |
-| 0x05D0529B (0x5D0529B) | 2226 | Checks if you have upgraded the Shinobi Sash into the Master Sash. | - |
-| 0x9CD90321             | 2227 | Checks if you have upgraded the Glutton’s Sash into the Greedyguts Sash. | - |
-| 0xEBDE33B7             | 2228 | Checks if you have upgraded the Ceremonial Sash into the Sentient Sash. | - |
+| 0xDB0B0BD7             | 2224 | Checks if the Epic Turnacharm has been made. | - |
+| 0x72D7620D             | 2225 | Checks if the Victory Belt has been made. | - |
+| 0x05D0529B (0x5D0529B) | 2226 | Checks if the Master Sash has been made. | - |
+| 0x9CD90321             | 2227 | Checks if the Greedyguts Sash has been made. | - |
+| 0xEBDE33B7             | 2228 | Checks if the Sentient Sash has been made. | - |
 | 0x75BAA614             | 2229 | - | - |
-| 0x02BD9682 (0x2BD9682) | 2230 | Checks if you have upgraded the Ancestral Sash into the Sacred Sash. | - |
-| 0x9BB4C738             | 2231 | Checks if you have upgraded the Intriguing Amulet into the Midnight Amulet. | - |
-| 0xECB3F7AE             | 2232 | Checks if you have upgraded the Aurora Charm into the Violet Charm. | - |
-| 0x7C0CEA3F             | 2233 | Checks if you have upgraded the Big Catfish Bauble into the Pond Guard Bauble. | - |
-| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | Checks if you have upgraded the Gold Catfish Bauble into the Marsh Lord Bauble. | - |
-| 0x6BCC534C             | 2235 | Checks if you have upgraded the Cat’s Paw Bell into the Nyanbelievabell. | - |
-| 0x1CCB63DA             | 2236 | Checks if you have upgraded the Turnabeads into the Epic Turnabeads. | - |
-| 0x85C23260             | 2237 | Checks if you have upgraded the Sorcerer’s Sword into the Thunder Blade. | - |
-| 0xF2C502F6             | 2238 | Checks if you have upgraded the Sorcerer’s Sword into the Doom Blade. | - |
-| 0x6CA19755             | 2239 | Checks if you have upgraded the Peacock into the Blizzard Blade. | - |
-| 0x1BA6A7C3             | 2240 | Checks if you have upgraded the Peacock into the Divine Blade. | - |
-| 0x82AFF679             | 2241 | Checks if you have upgraded the U. Oni Smasher (R) into the Oni Smasher (Fire). | - |
-| 0xF5A8C6EF             | 2242 | Checks if you have upgraded the U. Oni Smasher (R) into the Ogre Breaker. | - |
-| 0x6517DB7E             | 2243 | Checks if you have upgraded the U. Oni Smasher (Bl) into the Oni Smasher (Sea). | - |
-| 0x1210EBE8             | 2244 | Checks if you have upgraded the U. Oni Smasher (Bl) into the Ogre Striker. | - |
-| 0x40E1008F             | 2245 | Checks if you have upgraded the Hell Hammer into the Horror Hammer. | - |
-| 0x37E63019             | 2246 | Checks if you have upgraded the Hell Hammer into the Hammer of Despair. | - |
-| 0xAEEF61A3             | 2247 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Earth). | - |
-| 0xD9E85135             | 2248 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Ult). | - |
-| 0x478CC496             | 2249 | Checks if you have upgraded the U. Oni Smasher (Bk) into the Oni Smasher (Sky). | - |
-| 0x308BF400             | 2250 | Checks if you have upgraded the Phantom Bracelet into the Neptune Band. | - |
-| 0xA982A5BA             | 2251 | Checks if you have upgraded the Phantom Bracelet into the Fiend Band. | - |
-| 0xDE85952C             | 2252 | Checks if you have upgraded the Bracelet of Purity into the Arctic Bracelet. | - |
-| 0x4E3A88BD             | 2253 | Checks if you have upgraded the Bracelet of Purity into the Legend Bracelet. | - |
-| 0x393DB82B             | 2254 | Checks if you have upgraded the Engraved Handcuff into the Terra Manacle. | - |
-| 0x59FA31CE             | 2255 | Checks if you have upgraded the Engraved Handcuff into the Malicious Manacle. | - |
-| 0x2EFD0158             | 2256 | Checks if you have upgraded the Engraved Handcuff into the Mayhem Manacle. | - |
-| 0xB7F450E2             | 2257 | Checks if you have upgraded the Hi-Tech Wristband into the Incandescent Arm. | - |
-| 0xC0F36074             | 2258 | Checks if you have upgraded the Hi-Tech Wristband into the Hypermagnetic Arm. | - |
-| 0x5E97F5D7             | 2259 | Checks if you have upgraded the Hi-Tech Wristband into the Mighty Armband. | - |
-| 0x2990C541             | 2260 | Checks if you have upgraded the Whisped Wristband into the Hurricane Bracer. | - |
-| 0xB09994FB             | 2261 | Checks if you have upgraded the Whisped Wristband into the Demon Bracer. | - |
-| 0xC79EA46D             | 2262 | Checks if you have upgraded the Whisped Wristband into the Blizzard Bracer. | - |
-| 0x5721B9FC             | 2263 | Checks if you have upgraded the Wicked Wand into the Sea-Splitter Staff. | - |
-| 0x2026896A             | 2264 | Checks if you have upgraded the Wicked Wand into the Staff of Ultimate Evil. | - |
-| 0x16BBA709             | 2265 | Checks if you have upgraded the Angelic Wand into the Crystal Wand. | - |
-| 0x61BC979F             | 2266 | Checks if you have upgraded the Angelic Wand into the Wand of Fortune. | - |
-| 0xF8B5C625             | 2267 | Checks if you have upgraded the Triple Dragon Wand into the Triple Fever Wand. | - |
-| 0x8FB2F6B3             | 2268 | Checks if you have upgraded the Triple Dragon Wand into the Triple Trouble Wand. | - |
-| 0x11D66310             | 2269 | Checks if you have upgraded the Hell’s Eye Wand into the Eye of the Earth. | - |
-| 0x66D15386             | 2270 | Checks if you have upgraded the Hell’s Eye Wand into the Eye of Death. | - |
-| 0xFFD8023C             | 2271 | Checks if you have upgraded the Dame Staff into the Holy Wind Wand. | - |
-| 0x88DF32AA             | 2272 | Checks if you have upgraded the Dame Staff into the Staff of Avarice. | - |
-| 0x18602F3B             | 2273 | Checks if you have upgraded the Staff of Judgment into the Thunder God Wand. | - |
-| 0x6F671FAD             | 2274 | Checks if you have upgraded the Staff of Judgment into the Staff of Heaven. | - |
-| 0x0FA09648 (0xFA09648) | 2275 | Checks if you have upgraded the Staff of Judgment into the Creator’s Wand. | - |
-| 0x78A7A6DE             | 2276 | Checks if you have upgraded the Lunar Ring into the Wind God Ring. | - |
-| 0xE1AEF764             | 2277 | Checks if you have upgraded the Lunar Ring into the Fiend Ring. | - |
-| 0x96A9C7F2             | 2278 | Checks if you have upgraded the Wave Ring into the Permafrost Ring. | - |
-| 0x08CD5251 (0x8CD5251) | 2279 | Checks if you have upgraded the Wave Ring into the Legend Ring. | - |
-| 0x7FCA62C7             | 2280 | Checks if you have upgraded the Skull Ring into the Incineration Ring. | - |
-| 0xE6C3337D             | 2281 | Checks if you have upgraded the Skull Ring into the Ring of Erosion. | - |
-| 0x91C403EB             | 2282 | Checks if you have upgraded the Skull Ring into the Saint’s Ring. | - |
-| 0x017B1E7A (0x17B1E7A) | 2283 | Checks if you have upgraded the Goldy Ring into the Thunderheart. | - |
-| 0x767C2EEC             | 2284 | Checks if you have upgraded the Goldy Ring into the Pinkheart. | - |
-| 0x248DC58B             | 2285 | Checks if you have upgraded the Goldy Ring into the Goldenheart. | - |
-| 0x538AF51D             | 2286 | Checks if you have upgraded the Glitzy Ring into the Blue-Blood Ring. | - |
-| 0xCA83A4A7             | 2287 | Checks if you have upgraded the Glitzy Ring into the Blood-Red Ring. | - |
-| 0xBD849431             | 2288 | Checks if you have upgraded the Glitzy Ring into the Diamond Ring. | - |
-| 0x23E00192             | 2289 | Checks if you have upgraded the Tactician’s Shield into the Whirlpool Shield. | - |
-| 0x54E73104             | 2290 | Checks if you have upgraded the Tactician’s Shield into the Shield of Resolve. | - |
-| 0xCDEE60BE             | 2291 | Checks if you have upgraded the Paladin’s Shield into the Frost Shield. | - |
-| 0xBAE95028             | 2292 | Checks if you have upgraded the Paladin’s Shield into the Legend Shield. | - |
-| 0x2A564DB9             | 2293 | Checks if you have upgraded the Gold Pigbucket into the Blazing Pigbucket. | - |
-| 0x5D517D2F             | 2294 | Checks if you have upgraded the Gold Pigbucket into the Alluring Pigbucket. | - |
-| 0x3D96F4CA             | 2295 | Checks if you have upgraded the Evil Hogbucket into the Stone Hogbucket. | - |
-| 0x4A91C45C             | 2296 | Checks if you have upgraded the Evil Hogbucket into the Lava Hogbucket. | - |
-| 0xD39895E6             | 2297 | Checks if you have upgraded the Wobblewok Lid into the Lid of Isolation. | - |
-| 0xA49FA570             | 2298 | Checks if you have upgraded the Wobblewok Lid into the Lid of Darkness. | - |
-| 0x3AFB30D3             | 2299 | Checks if you have upgraded the Twirly Swirler into the Windbreaker. | - |
-| 0x4DFC0045             | 2300 | Checks if you have upgraded the Twirly Swirler into the Drain Dampener. | - |
-| 0xD4F551FF             | 2301 | Checks if you have upgraded the Twirly Swirler into the Blossombrella. | - |
-| 0xA3F26169             | 2302 | Checks if you have upgraded the Pulsating Charm into the Volcano Charm. | - |
-| 0x334D7CF8             | 2303 | Checks if you have upgraded the Pulsating Charm into the Fiend Charm. | - |
-| 0x444A4C6E             | 2304 | Checks if you have upgraded the Noble Charm into the Thunder Charm. | - |
-| 0xBA0EE805             | 2305 | Checks if you have upgraded the Noble Charm into the Legend Charm. | - |
-| 0xCD09D893             | 2306 | Checks if you have upgraded the One-Eye Pouch XL into the Make-Up Bag. | - |
-| 0x54008929             | 2307 | Checks if you have upgraded the One-Eye Pouch XL into the Swimming Bag. | - |
-| 0x2307B9BF             | 2308 | Checks if you have upgraded the One-Eye Pouch XL into the Endurance Bag. | - |
-| 0xBD632C1C             | 2309 | Checks if you have upgraded the Hardy Bag into the Blizzard Bag. | - |
-| 0xCA641C8A             | 2310 | Checks if you have upgraded the Hardy Bag into the Righteous Bag. | - |
+| 0x02BD9682 (0x2BD9682) | 2230 | Checks if the Sacred Sash has been made. | - |
+| 0x9BB4C738             | 2231 | Checks if the Midnight Amulet has been made. | - |
+| 0xECB3F7AE             | 2232 | Checks if the Violet Charm has been made. | - |
+| 0x7C0CEA3F             | 2233 | Checks if the Pond Guard Bauble has been made. | - |
+| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | Checks if the Marsh Lord Bauble has been made. | - |
+| 0x6BCC534C             | 2235 | Checks if the Nyanbelievabell has been made. | - |
+| 0x1CCB63DA             | 2236 | Checks if the Epic Turnabeads have been made. | - |
+| 0x85C23260             | 2237 | Checks if the Thunder Blade has been made. | - |
+| 0xF2C502F6             | 2238 | Checks if the Doom Blade has been made. | - |
+| 0x6CA19755             | 2239 | Checks if the Blizzard Blade has been made. | - |
+| 0x1BA6A7C3             | 2240 | Checks if the Divine Blade has been made. | - |
+| 0x82AFF679             | 2241 | Checks if the Oni Smasher (Fire) has been made. | - |
+| 0xF5A8C6EF             | 2242 | Checks if the Ogre Breaker has been made. | - |
+| 0x6517DB7E             | 2243 | Checks if the Oni Smasher (Sea) has been made. | - |
+| 0x1210EBE8             | 2244 | Checks if the Ogre Striker has been made. | - |
+| 0x40E1008F             | 2245 | Checks if the Horror Hammer has been made. | - |
+| 0x37E63019             | 2246 | Checks if the Hammer of Despair has been made. | - |
+| 0xAEEF61A3             | 2247 | Checks if the Oni Smasher (Earth) has been made. | - |
+| 0xD9E85135             | 2248 | Checks if the Oni Smasher (Ult) has been made. | - |
+| 0x478CC496             | 2249 | Checks if the Oni Smasher (Sky) has been made. | - |
+| 0x308BF400             | 2250 | Checks if the Neptune Band has been made. | - |
+| 0xA982A5BA             | 2251 | Checks if the Fiend Band has been made. | - |
+| 0xDE85952C             | 2252 | Checks if the Arctic Bracelet has been made. | - |
+| 0x4E3A88BD             | 2253 | Checks if the Legend Bracelet has been made. | - |
+| 0x393DB82B             | 2254 | Checks if the Terra Manacle has been made. | - |
+| 0x59FA31CE             | 2255 | Checks if the Malicious Manacle has been made. | - |
+| 0x2EFD0158             | 2256 | Checks if the Mayhem Manacle has been made. | - |
+| 0xB7F450E2             | 2257 | Checks if the Incandescent Arm has been made. | - |
+| 0xC0F36074             | 2258 | Checks if the Hypermagnetic Arm has been made. | - |
+| 0x5E97F5D7             | 2259 | Checks if the Mighty Armband has been made. | - |
+| 0x2990C541             | 2260 | Checks if the Hurricane Bracer has been made. | - |
+| 0xB09994FB             | 2261 | Checks if the Demon Bracer has been made. | - |
+| 0xC79EA46D             | 2262 | Checks if the Blizzard Bracer has been made. | - |
+| 0x5721B9FC             | 2263 | Checks if the Sea-Splitter Staff has been made. | - |
+| 0x2026896A             | 2264 | Checks if the Staff of Ultimate Evil has been made. | - |
+| 0x16BBA709             | 2265 | Checks if the Crystal Wand has been made. | - |
+| 0x61BC979F             | 2266 | Checks if the Wand of Fortune has been made. | - |
+| 0xF8B5C625             | 2267 | Checks if the Triple Fever Wand has been made. | - |
+| 0x8FB2F6B3             | 2268 | Checks if the Triple Trouble Wand has been made. | - |
+| 0x11D66310             | 2269 | Checks if the Eye of the Earth has been made. | - |
+| 0x66D15386             | 2270 | Checks if the Eye of Death has been made. | - |
+| 0xFFD8023C             | 2271 | Checks if the Holy Wind Wand has been made. | - |
+| 0x88DF32AA             | 2272 | Checks if the Staff of Avarice has been made. | - |
+| 0x18602F3B             | 2273 | Checks if the Thunder God Wand has been made. | - |
+| 0x6F671FAD             | 2274 | Checks if the Staff of Heaven has been made. | - |
+| 0x0FA09648 (0xFA09648) | 2275 | Checks if the Creator’s Wand has been made. | - |
+| 0x78A7A6DE             | 2276 | Checks if the Wind God Ring has been made. | - |
+| 0xE1AEF764             | 2277 | Checks if the Fiend Ring has been made. | - |
+| 0x96A9C7F2             | 2278 | Checks if the Permafrost Ring has been made. | - |
+| 0x08CD5251 (0x8CD5251) | 2279 | Checks if the Legend Ring has been made. | - |
+| 0x7FCA62C7             | 2280 | Checks if the Incineration Ring has been made. | - |
+| 0xE6C3337D             | 2281 | Checks if the Ring of Erosion has been made. | - |
+| 0x91C403EB             | 2282 | Checks if the Saint’s Ring has been made. | - |
+| 0x017B1E7A (0x17B1E7A) | 2283 | Checks if the Thunderheart has been made. | - |
+| 0x767C2EEC             | 2284 | Checks if the Pinkheart has been made. | - |
+| 0x248DC58B             | 2285 | Checks if the Goldenheart has been made. | - |
+| 0x538AF51D             | 2286 | Checks if the Blue-Blood Ring has been made. | - |
+| 0xCA83A4A7             | 2287 | Checks if the Blood-Red Ring has been made. | - |
+| 0xBD849431             | 2288 | Checks if the Diamond Ring has been made. | - |
+| 0x23E00192             | 2289 | Checks if the Whirlpool Shield has been made. | - |
+| 0x54E73104             | 2290 | Checks if the Shield of Resolve has been made. | - |
+| 0xCDEE60BE             | 2291 | Checks if the Frost Shield has been made. | - |
+| 0xBAE95028             | 2292 | Checks if the Legend Shield has been made. | - |
+| 0x2A564DB9             | 2293 | Checks if the Blazing Pigbucket has been made. | - |
+| 0x5D517D2F             | 2294 | Checks if the Alluring Pigbucket has been made. | - |
+| 0x3D96F4CA             | 2295 | Checks if the Stone Hogbucket has been made. | - |
+| 0x4A91C45C             | 2296 | Checks if the Lava Hogbucket has been made. | - |
+| 0xD39895E6             | 2297 | Checks if the Lid of Isolation has been made. | - |
+| 0xA49FA570             | 2298 | Checks if the Lid of Darkness has been made. | - |
+| 0x3AFB30D3             | 2299 | Checks if the Windbreaker has been made. | - |
+| 0x4DFC0045             | 2300 | Checks if the Drain Dampener has been made. | - |
+| 0xD4F551FF             | 2301 | Checks if the Blossombrella has been made. | - |
+| 0xA3F26169             | 2302 | Checks if the Volcano Charm has been made. | - |
+| 0x334D7CF8             | 2303 | Checks if the Fiend Charm has been made. | - |
+| 0x444A4C6E             | 2304 | Checks if the Thunder Charm has been made. | - |
+| 0xBA0EE805             | 2305 | Checks if the Legend Charm has been made. | - |
+| 0xCD09D893             | 2306 | Checks if the Make-Up Bag has been made. | - |
+| 0x54008929             | 2307 | Checks if the Swimming Bag has been made. | - |
+| 0x2307B9BF             | 2308 | Checks if the Endurance Bag has been made. | - |
+| 0xBD632C1C             | 2309 | Checks if the Blizzard Bag has been made. | - |
+| 0xCA641C8A             | 2310 | Checks if the Righteous Bag has been made. | - |
 | 0x536D4D30             | 2311 | - | - |
-| 0x246A7DA6             | 2312 | Checks if you have upgraded the Goddess Charm into the Fair Wind Charm. | - |
-| 0xB4D56037             | 2313 | Checks if you have upgraded the Goddess Charm into the Bright Charm. | - |
-| 0xC3D250A1             | 2314 | Checks if you have upgraded the Goddess Charm into the Guiding Charm. | - |
-| 0xA315D944             | 2315 | Checks if you have upgraded the Victory Belt into the Splash Belt. | - |
-| 0xD412E9D2             | 2316 | Checks if you have upgraded the Victory Belt into the Ultimate Belt. | - |
-| 0x4D1BB868             | 2317 | Checks if you have upgraded the Master Sash into the Alpine Sash. | - |
-| 0x3A1C88FE             | 2318 | Checks if you have upgraded the Master Sash into the Legend Sash. | - |
-| 0xA4781D5D             | 2319 | Checks if you have upgraded the Greedyguts Sash into the Blazing Sash. | - |
-| 0xD37F2DCB             | 2320 | Checks if you have upgraded the Greedyguts Sash into the Thunder Sash. | - |
-| 0x4A767C71             | 2321 | Checks if you have upgraded the Greedyguts Sash into the Succor Sash. | - |
-| 0x3D714CE7             | 2322 | Checks if you have upgraded the Sentient Sash into the Seismic Sash. | - |
-| 0xADCE5176             | 2323 | Checks if you have upgraded the Sentient Sash into the Salvation Sash. | - |
-| 0xDAC961E0             | 2324 | Checks if you have upgraded the Sentient Sash into the Serenity Sash. | - |
-| 0x7091DC54             | 2325 | Checks if you have upgraded the Senator Sash into the Squall Sash. | - |
-| 0x0796ECC2 (0x796ECC2) | 2326 | Checks if you have upgraded the Senator Sash into the Midnight Sun Sash. | - |
+| 0x246A7DA6             | 2312 | Checks if the Fair Wind Charm has been made. | - |
+| 0xB4D56037             | 2313 | Checks if the Bright Charm has been made. | - |
+| 0xC3D250A1             | 2314 | Checks if the Guiding Charm has been made. | - |
+| 0xA315D944             | 2315 | Checks if the Splash Belt has been made. | - |
+| 0xD412E9D2             | 2316 | Checks if the Ultimate Belt has been made. | - |
+| 0x4D1BB868             | 2317 | Checks if the Alpine Sash has been made. | - |
+| 0x3A1C88FE             | 2318 | Checks if the Legend Sash has been made. | - |
+| 0xA4781D5D             | 2319 | Checks if the Blazing Sash has been made. | - |
+| 0xD37F2DCB             | 2320 | Checks if the Thunder Sash has been made. | - |
+| 0x4A767C71             | 2321 | Checks if the Succor Sash has been made. | - |
+| 0x3D714CE7             | 2322 | Checks if the Seismic Sash has been made. | - |
+| 0xADCE5176             | 2323 | Checks if the Salvation Sash has been made. | - |
+| 0xDAC961E0             | 2324 | Checks if the Serenity Sash has been made. | - |
+| 0x7091DC54             | 2325 | Checks if the Squall Sash has been made. | - |
+| 0x0796ECC2 (0x796ECC2) | 2326 | Checks if the Midnight Sun Sash has been made. | - |
 | 0x9E9FBD78             | 2327 | - | - |
-| 0xE9988DEE             | 2328 | Checks if you have upgraded the Midnight Amulet into the Mountain God Boon. | - |
-| 0x77FC184D             | 2329 | Checks if you have upgraded the Midnight Amulet into the Annihilation Boon. | - |
-| 0x00FB28DB (0xFB28DB)  | 2330 | Checks if you have upgraded the Violet Charm into the Plasma Charm. | - |
-| 0x99F27961             | 2331 | Checks if you have upgraded the Violet Charm into the Hero’s Charm. | - |
-| 0xEEF549F7             | 2332 | Checks if you have upgraded the Pond Guard Bauble into the Fisherman Bauble. | - |
-| 0x7E4A5466             | 2333 | Checks if you have upgraded the Pond Guard Bauble into the Boatman Bauble. | - |
-| 0x094D64F0 (0x94D64F0) | 2334 | Checks if you have upgraded the Pond Guard Bauble into the Invocation Bauble. | - |
-| 0x698AED15             | 2335 | Checks if you have upgraded the Marsh Lord Bauble into the Glacier Bauble. | - |
-| 0x1E8DDD83             | 2336 | Checks if you have upgraded the Marsh Lord Bauble into the Underworld Bauble. | - |
-| 0x87848C39             | 2337 | Checks if you have upgraded the Marsh Lord Bauble into the Evil Bauble. | - |
-| 0xF083BCAF             | 2338 | Checks if you have upgraded the Swirlious Amulet into the Swirlious Bauble. | - |
-| 0x6EE7290C             | 2339 | Checks if you have upgraded the Swirlious Amulet into the S. Swirlious Bauble. | - |
-| 0x19E0199A             | 2340 | Checks if you have upgraded the Swirlious Amulet into the Hellhound Bauble. | - |
-| 0x80E94820             | 2341 | Checks if you have upgraded the Red Paws Amulet into the Red Paws Bauble. | - |
-| 0xF7EE78B6             | 2342 | Checks if you have upgraded the Red Paws Amulet into the S. Red Paws Bauble. | - |
-| 0x67516527             | 2343 | Checks if you have upgraded the Red Paws Amulet into the Yo-kai Cat Bauble. | - |
+| 0xE9988DEE             | 2328 | Checks if the Mountain God Boon has been made. | - |
+| 0x77FC184D             | 2329 | Checks if the Annihilation Boon has been made. | - |
+| 0x00FB28DB (0xFB28DB)  | 2330 | Checks if the Plasma Charm has been made. | - |
+| 0x99F27961             | 2331 | Checks if the Hero’s Charm has been made. | - |
+| 0xEEF549F7             | 2332 | Checks if the Fisherman Bauble has been made. | - |
+| 0x7E4A5466             | 2333 | Checks if the Boatman Bauble has been made. | - |
+| 0x094D64F0 (0x94D64F0) | 2334 | Checks if the Invocation Bauble has been made. | - |
+| 0x698AED15             | 2335 | Checks if the Glacier Bauble has been made. | - |
+| 0x1E8DDD83             | 2336 | Checks if the Underworld Bauble has been made. | - |
+| 0x87848C39             | 2337 | Checks if the Evil Bauble has been made. | - |
+| 0xF083BCAF             | 2338 | Checks if the Swirlious Bauble has been made. | - |
+| 0x6EE7290C             | 2339 | Checks if the S. Swirlious Bauble has been made. | - |
+| 0x19E0199A             | 2340 | Checks if the Hellhound Bauble has been made. | - |
+| 0x80E94820             | 2341 | Checks if the Red Paws Bauble has been made. | - |
+| 0xF7EE78B6             | 2342 | Checks if the S. Red Paws Bauble has been made. | - |
+| 0x67516527             | 2343 | Checks if the Yo-kai Cat Bauble has been made. | - |
 
 ## FLAG_INFO_1 (6, 86) - GlobalByteFlag
 
