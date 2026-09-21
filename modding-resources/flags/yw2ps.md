@@ -111,7 +111,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF831790F | 95 | - | - |
 | 0xA01C925D | 96 | - | - |
 | 0x1199B0B7 | 97 | - | - |
-| 0x768A8E93 | 98 | - | - |
+| 0x768A8E93 | 98 | - | `weatherScaduleContinue` |
 | 0x6BD9104B | 99 | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
 | 0x699FAE12 | 100 | Checks if the story scene ev01_0200 has been seen. | `ev01_0200` |
 | 0x14E85A57 | 101 | Checks if the story scene mv_photo05a/mv_photo05b/ev01_0200/ev01_0250 has been seen. (The scene where Kin, Gin, and Bronzlow take the Yo-kai Watch) | `ev01_0250` |
@@ -2526,7 +2526,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8B049510 | 2511 | - | - |
 | 0xE45B36FC | 2512 | - | - |
 | 0x03F07200 (0x3F07200) | 2513 | - | - |
-| 0x76F4EDA1 | 2514 | - | - |
+| 0x76F4EDA1 | 2514 | - | `day_flg_climb_pole` |
 | 0x298C46BA | 2515 | - | - |
 | 0x5F4D2E4D | 2516 | - | - |
 | 0xA33047EA | 2517 | - | - |
@@ -2616,7 +2616,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF19E0A16 | 37 | - | - |
 | 0x8064E85B | 38 | - | `bicycle_color_num` |
 | 0xEC346E56 | 39 | - | `bicycle_bell_num` |
-| 0x3238D758 | 40 | - | - |
+| 0x3238D758 | 40 | - | `climb_pole_lv` |
 | 0x0CC76FEE (0xCC76FEE) | 41 | - | - |
 | 0x95CE3E54 | 42 | - | - |
 | 0xE2C90EC2 | 43 | - | - |
@@ -2640,7 +2640,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAFD49481 | 65 | - | - |
 | 0xD7C5200E | 66 | - | - |
 | 0x677CF8CA | 67 | - | - |
-| 0x90091C2B | 68 | - | - |
+| 0x90091C2B | 68 | - | `weatherScaduleContinueResion` |
 | 0x4463988F | 71 | Positive Karma | `good_boy` |
 | 0x3DDE318A | 72 | Negative Karma | `bad_boy` |
 | 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? | - |
@@ -3132,7 +3132,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF4204FA3 | 590 | - | - |
 | 0x4C79CA23 | 591 | - | - |
 | 0x3AE69C16 | 592 | - | `dinner_rotation` |
-| 0x18801635 | 593 | - | - |
+| 0x18801635 | 593 | - | `flg_byte_y211010_item` |
 | 0x01055280 (0x1055280) | 594 | - | - |
 | 0xE92B41BB | 595 | Travelling Komasan Steps; `08` is at San Fantastico where he gives you the Oh My Swirls! Yo-kai Pad Wallpaper. | - |
 | 0x2D79ABF3 | 596 | - | - |
@@ -3726,7 +3726,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2A9BF388 | 3 | - | - |
 | 0x5D433109 | 4 | - | - |
 | 0x0BCB1ECB (0xBCB1ECB) | 5 | - | `forbit_fp_trigger` |
-| 0xAFFD91BF | 6 | - | - |
+| 0xAFFD91BF | 6 | - | `orge_time_story` |
 | 0x323AF153 | 7 | - | `disable_event_skip` |
 | 0x6A187D8C | 8 | - | `decide_event_skip` |
 | 0x19B1E1A0 | 9 | - | - |
@@ -3783,7 +3783,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x662C9C64 | 60 | - | - |
 | 0xF5F8733E | 61 | - | - |
 | 0x1464EB66 | 62 | - | - |
-| 0xB22605DC | 63 | - | - |
+| 0xB22605DC | 63 | - | `tmp_wanted_found` |
 | 0x7BDCEEB8 | 64 | - | `tmp_disable_party_servant` |
 | 0x6A844A8A | 65 | - | `tmp_phase_reload_oneplace` |
 | 0x6A91478F | 66 | - | `tmp_reload_minimap_icon` |
@@ -3905,13 +3905,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFE216783 | 14 | - | `scenario_flag_01` |
 | 0x67283639 | 15 | - | `scenario_flag_02` |
 | 0x102F06AF | 16 | - | `scenario_flag_03` |
-| 0x90F2EA2A | 18 | - | - |
-| 0x5D130AE2 | 19 | - | - |
+| 0x90F2EA2A | 18 | - | `orgeTimeDoorAppear_minite` |
+| 0x5D130AE2 | 19 | - | `orgeTimeDoorAppear_second` |
 | 0x974BB3D3 | 21 | - | `tmp_byte_quest_rank` |
 | 0x386B243E | 23 | - | `tmp_npc_talk_sel` |
 | 0xE5D4C20D | 24 | - | - |
 | 0x1331193D | 27 | - | - |
-| 0x8A0BE7F0 | 30 | - | - |
+| 0x8A0BE7F0 | 30 | - | `tmp_gate_rest_enemy` |
 | 0x578FE84E | 31 | - | - |
 | 0x4436A697 | 32 | - | - |
 | 0xECE60CF2 | 33 | - | - |
