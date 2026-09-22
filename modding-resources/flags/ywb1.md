@@ -20,7 +20,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x316FD2E9             | 19   | Checks if you have gotten the Movies App. | - |
 | 0x29FB87DA             | 21   | Checks if you have registered for the Red Cat Corps/White Dog Squad. | - |
 | 0x804457A6             | 23   | Checks if you have unlocked Leveling Up. | - |
-| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
+| 0x0CB7C57E (0xCB7C57E) | 25   | - | - |
 | 0x74DB9B28             | 27   | Checks if you have beaten Sproink during the story. | - |
 | 0xE18A5737             | 29   | Checks if you have unlocked Moving Out. | - |
 | 0x8A81D006             | 35   | - | `dictionary_comp_notice` |
@@ -45,15 +45,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2B7C254E             | 67   | - | - |
 | 0x6DF6D0F5             | 68   | Checks if you have unlocked Wazzat. | - |
 | 0xDD27DC87             | 69   | Checks if you have unlocked the Secret Closet. | - |
-| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
+| 0x472BC296             | 70   | - | - |
 | 0x78E27986             | 71   | Checks if you have unlocked Yo-kai Evolution and Fusion. | - |
 | 0xBE45F884             | 72   | Checks if you have unlocked Patrols. | - |
 | 0x0ED75D62 (0xED75D62) | 74   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
 | 0x65562D74             | 75   | Checks if you have unlocked Sub Missions. | - |
-| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
+| 0x058CDE9D (0x58CDE9D) | 76   | - | - |
 | 0x49EF0603             | 77   | - | - |
 | 0x51F15479             | 78   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
-| 0xFBC8FDF9             | 79   | Checks if you can take on "With a Yo-kai Friend"? | - |
+| 0xFBC8FDF9             | 79   | - | - |
 | 0xCBB6FF0D             | 80   | Checks if you can swap into Usapyon B's outfit. | - |
 | 0x83AAFC54             | 81   | Checks if you can swap into Football Usapyon's outfit. | - |
 | 0xA887AF97             | 82   | Checks if you can swap into Marine Usapyon's outfit. | - |
