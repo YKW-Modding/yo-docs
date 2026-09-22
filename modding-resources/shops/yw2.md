@@ -25,15 +25,16 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN002`           | Everymart - Blossom Heights                                                                                                  |
 | `shpN003`           | Everymart - Downtown Springdale                                                                                              |
 | `shpN004`           | Everymart - Shopper's Row                                                                                                    |
+| `shpN005`           | Everymart - Breezy Hills                                                                                                     |
 | `shpN006`           | Banter Bakery                                                                                                                |
 | `shpN007`           | Fish Place                                                                                                                   |
-| `shpN008`           | Candy Shop (Blossom Heights)                                                                                                 |
-| `shpN009`           | Hot Spring's Milk Shop                                                                                                       |
+| `shpN008`           | Candy Stop                                                                                                                   |
+| `shpN009`           | Springdale Hot Springs's Milk Shop                                                                                           |
 | `shpN010`           | Nom Burger                                                                                                                   |
 | `shpN011`           | Chloro-Phill Good                                                                                                            |
 | `shpN012`           | North-Wind Ramen                                                                                                             |
 | `shpN013`           | Sun Pavillion                                                                                                                |
-| `shpN014`           | Greene's Greens (Shoppers Row)                                                                                               |
+| `shpN014`           | Greene's Greens (Shopper's Row)                                                                                              |
 | `shpN015`           | Frank's (Shoppers Row)                                                                                                       |
 | `shpN016`           | Whatta Find                                                                                                                  |
 | `shpN017`           | Settle In Bookstore                                                                                                          |
