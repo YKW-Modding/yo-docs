@@ -33,9 +33,9 @@ grand_parent: Modding Resources
 | 0x3B5A89FB | `tro_sasurai` | Gold Master | 23 | Pinned 100 golden Wisps. | 0 (Bronze) | 100 | `AAAAABgFNScybUcACgEoAAYCNDtaifsyAAAAAXg=` |
 | 0xD2ACA3CF | `tro_oharai` | Spirit Master | 24 | Performed 1,000 Purifications. | 0 (Bronze) | 1000 | `AAAAABgFNScybUcACgEoAAYCNNKso88yAAAAAXg=` |
 | 0x1F09BD64 | - | Turning Tactician | 25 | Turned the Yo-kai Wheel a total\nof 9,999 times during battle. | 0 (Bronze) | 9999 | `AAAAABgFNScybUcACgEoAAYCNB8JvWQyAAAAAXg=` |
-| 0x7A4865A4 | - | Yo-kai Beginner | 26 | Obtained Rank 5 in random\nYo-kai battles. | 0 (Bronze) | 11 | `AAAAABgFNSo9RUMACgEoAAYCNF7eX7AyAAAAAXg=` |
-| 0xE341341E | `tro_versus_01` | Yo-kai Expert | 27 | Obtained Expert rank in random\nYo-kai battles. | 1 (Silver) | 16 | `AAAAABgFNScybUcACgEoAAYCNHpIZaQyAAAAAXg=` |
-| 0x94460488 | `tro_versus_02` | Yo-kai Pro | 28 | Obtained Deity rank in random\nYo-kai battles. | 2 (Gold) | 26 | `AAAAABgFNScybUcACgEoAAYCNONBNB4yAAAAAXg=` |
+| 0x7A4865A4 | `tro_versus_01` | Yo-kai Beginner | 26 | Obtained Rank 5 in random\nYo-kai battles. | 0 (Bronze) | 11 | `AAAAABgFNSo9RUMACgEoAAYCNF7eX7AyAAAAAXg=` |
+| 0xE341341E | `tro_versus_02` | Yo-kai Expert | 27 | Obtained Expert rank in random\nYo-kai battles. | 1 (Silver) | 16 | `AAAAABgFNScybUcACgEoAAYCNHpIZaQyAAAAAXg=` |
+| 0x94460488 | `tro_versus_03` | Yo-kai Pro | 28 | Obtained Deity rank in random\nYo-kai battles. | 2 (Gold) | 26 | `AAAAABgFNScybUcACgEoAAYCNONBNB4yAAAAAXg=` |
 | 0x9D2D22CF | `tro_trade` | Yo-kai Trader | 29 | Traded Yo-kai 30 times. | 0 (Bronze) | 30 | `AAAAABgFNScybUcACgEoAAYCNJ0tIs8yAAAAAXg=` |
 | 0xD56F65E5 | `tro_network_honke` | Friend of the Fleshies | 30 | Connected to a player allied\nwith the Fleshy Souls. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNNVvZeUyAAAAAXg=` |
 | 0xD52EF440 | `tro_network_ganso` | Brotherhood of Bones | 31 | Connected to a player allied\nwith the Bony Spirits. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNNUu9EAyAAAAAXg=` |
