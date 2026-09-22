@@ -18,9 +18,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
 | 0xF24F1BCA             | 17   | Checks if you have gotten the Music App. | - |
 | 0x316FD2E9             | 19   | Checks if you have gotten the Movies App. | - |
-| 0x29FB87DA             | 21   | Checks if you have returned to the Blasters House after registering for Red Cat Corps/White Dog Squad. | - |
+| 0x29FB87DA             | 21   | Checks if you have registered for the Red Cat Corps/White Dog Squad. | - |
 | 0x804457A6             | 23   | Checks if you have unlocked Leveling Up. | - |
-| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
 | 0x74DB9B28             | 27   | Checks if you have beaten Sproink during the story. | - |
 | 0xE18A5737             | 29   | Checks if you have unlocked Moving Out. | - |
 | 0x8A81D006             | 35   | - | `dictionary_comp_notice` |
@@ -41,19 +41,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB95C81F1             | 60   | Checks if you have broken the Normal Mode Red Paws/Swirlious Omai statue. | - |
 | 0x2055D04B             | 61   | Checks if you have broken the Super Mode Red Paws/Swirlious Omai statue. | - |
 | 0x5752E0DD             | 62   | Checks if you have broken the Ultra Mode Red Paws/Swirlious Omai statue. | - |
-| 0x4C58B88D             | 66   | Checks if you have heard about Komajiro's kidnapping. | - |
+| 0x4C58B88D             | 66   | Checks if you can take on "Komajiro's Rescue Mission!"? | - |
 | 0x2B7C254E             | 67   | - | - |
-| 0x6DF6D0F5             | 68   | - | - |
-| 0xDD27DC87             | 69   | Checks if you can use the Secret Closet? | - |
-| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting? | - |
-| 0x78E27986             | 71   | Checks if you have heard Faux Kappa and Mermaidyn bicker about the other team. | - |
+| 0x6DF6D0F5             | 68   | Checks if you have unlocked Wazzat. | - |
+| 0xDD27DC87             | 69   | Checks if you have unlocked the Secret Closet. | - |
+| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
+| 0x78E27986             | 71   | Checks if you have unlocked Yo-kai Evolution and Fusion. | - |
 | 0xBE45F884             | 72   | Checks if you have unlocked Patrols. | - |
 | 0x0ED75D62 (0xED75D62) | 74   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
 | 0x65562D74             | 75   | Checks if you have unlocked Sub Missions. | - |
-| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting/Upgrading? | - |
 | 0x49EF0603             | 77   | - | - |
 | 0x51F15479             | 78   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
-| 0xFBC8FDF9             | 79   | Checks if you have been told that you need to scout for allies. | - |
+| 0xFBC8FDF9             | 79   | Checks if you can take on "With a Yo-kai Friend"? | - |
 | 0xCBB6FF0D             | 80   | Checks if you can swap into Usapyon B's outfit. | - |
 | 0x83AAFC54             | 81   | Checks if you can swap into Football Usapyon's outfit. | - |
 | 0xA887AF97             | 82   | Checks if you can swap into Marine Usapyon's outfit. | - |
@@ -83,13 +83,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAAE71453             | 107  | Checks if you have beaten Super Red Paws/Swirlious Omai once. | - |
 | 0x90D6104C             | 108  | - | - |
 | 0x4631101A             | 109  | - | - |
-| 0x99FAD5EA             | 110  | - | - |
+| 0x99FAD5EA             | 110  | Checks if you can do VIP Links. | - |
 | 0x59B9C20D             | 111  | - | - |
-| 0xFCE7A16E             | 112  | Checks if your VIP Link has expired or not. | - |
+| 0xFCE7A16E             | 112  | - | - |
 | 0x7E069A7D             | 113  | Checks if you can do True Challenge Missions. | - |
 | 0xBF1EF113             | 114  | Checks if you can swap Move-Out Members. | - |
 | 0x6D68C288             | 115  | Checks if you can request songs from KJ? | - |
-| 0xE4EFBD99             | 116  | - | - |
+| 0xE4EFBD99             | 116  | Checks if you can view requested songs from friends? | - |
 | 0x46760D56             | 117  | Checks if you can use the Momotaro wallpaper. | `wallpaper09_release` |
 | 0x0517D033 (0x517D033) | 118  | Checks if you can use the G of Enma wallpaper. | `wallpaper10_release` |
 | 0x126CC470             | 119  | Checks if you can use the Sunshine wallpaper. | `wallpaper11_release` |
@@ -132,42 +132,42 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs". | - |
 | 0x245F00CD             | 160  | - | - |
 | 0x0AD4B5ED (0xAD4B5ED) | 161  | - | - |
-| 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. | `ev13_1110` |
-| 0x0AECBF13 (0xAECBF13) | 182  | Checks if the story event ev13_1120 has been seen. | `ev13_1120` |
-| 0x13F78E52             | 183  | Checks if the story event ev13_1130 has been seen. | `ev13_1130` |
-| 0x5CB61895             | 184  | Checks if the story event ev13_1140 has been seen. | `ev13_1140` |
-| 0x45AD29D4             | 185  | Checks if the story event ev13_1150 has been seen. | `ev13_1150` |
-| 0x6E807A17             | 186  | Checks if the story event ev13_1160 has been seen. | `ev13_1160` |
-| 0x779B4B56             | 187  | Checks if the story event ev13_1170 has been seen. | `ev13_1170` |
-| 0xF0035799             | 188  | Checks if the story event ev13_1180 has been seen. | `ev13_1180` |
-| 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. | `ev13_1190` |
-| 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. | `ev13_1200` |
-| 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. | `ev13_1210` |
-| 0x65C1E84E             | 192  | - | - |
-| 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. | `ev13_1420` |
-| 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. | `ev13_1810` |
-| 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Blasters in the world of “What If?"" | - |
-| 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Blasters in the world of “What If?"" | - |
-| 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Blasters in the world of “What If?"" | - |
-| 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
-| 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. | `ev01_0200` |
-| 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. | `ev01_0230` |
-| 0x14E85A57             | 204  | Checks if the story scene mv_photo005/ev01_0250/ev01_0260 has been seen. | `ev01_0250` |
-| 0xA146241A             | 205  | Checks if the story scene ev01_0280 has been seen. | `ev01_0280` |
-| 0x685DC425             | 206  | Checks if the story scene ev01_0300 has been seen. | `ev01_0300` |
-| 0x152A3060             | 207  | Checks if the story scene ev01_0350 has been seen. | `ev01_0350` |
-| 0x6D12D2A0             | 208  | Checks if the story scene ev01_0400 has been seen. | `ev01_0400` |
-| 0x106526E5             | 209  | Checks if the story scene ev01_0450 has been seen. | `ev01_0450` |
-| 0x6CD0B897             | 210  | Checks if the story scene ev01_0500 has been seen. | `ev01_0500` |
-| 0x11A74CD2             | 211  | Checks if the story scene ev01_0550 has been seen. | `ev01_0550` |
-| 0x6E9606CE             | 212  | Checks if the story scene ev01_0600 has been seen. | `ev01_0600` |
-| 0x13E1F28B             | 213  | Checks if the story scene ev01_0650 has been seen. | `ev01_0650` |
-| 0x6F546CF9             | 214  | Checks if the story scene ev01_0700 has been seen. | `ev01_0700` |
-| 0x122398BC             | 215  | Checks if the story scene ev01_0750 has been seen. | `ev01_0750` |
-| 0x64082BC4             | 216  | Checks if the story scene ev01_0800 has been seen. | `ev01_0800` |
-| 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. | `ev01_0850` |
-| 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. | `ev01_0900` |
-| 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. | `ev01_0950` |
+| 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. (The scene where Unfairy befriends you) | `ev13_1110` |
+| 0x0AECBF13 (0xAECBF13) | 182  | Checks if the story event ev13_1120 has been seen. (The scene where Unkaind befriends you) | `ev13_1120` |
+| 0x13F78E52             | 183  | Checks if the story event ev13_1130 has been seen. (The scene where Untidy befriends you) | `ev13_1130` |
+| 0x5CB61895             | 184  | Checks if the story event ev13_1140 has been seen. (The scene where Unpleasant befriends you) | `ev13_1140` |
+| 0x45AD29D4             | 185  | Checks if the story event ev13_1150 has been seen. (The scene where Unkeen befriends you) | `ev13_1150` |
+| 0x6E807A17             | 186  | Checks if the story event ev13_1160 has been seen. (The scene where Venoct befriends you) | `ev13_1160` |
+| 0x779B4B56             | 187  | Checks if the story event ev13_1170 has been seen. (The scene where Kyubi befriends you) | `ev13_1170` |
+| 0xF0035799             | 188  | Checks if the story event ev13_1180 has been seen. (The scene where Arachnus befriends you) | `ev13_1180` |
+| 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. (The scene where Toadal Dude befriends you) | `ev13_1190` |
+| 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. (The scene where Master Nyada befriends you) | `ev13_1200` |
+| 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. (The scene where Blizzie befriends you) | `ev13_1210` |
+| 0x65C1E84E             | 192  | - | `get_y133800` |
+| 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. (The scene where Fuu 2 befriends you) | `ev13_1420` |
+| 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. (The scene where Lord Enma befriends you) | `ev13_1810` |
+| 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Yo-kai Watch Blasters! If" | - |
+| 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Yo-kai Watch Blasters! If" | - |
+| 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Yo-kai Watch Blasters! If" | - |
+| 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. (The scene with disclaimers about being a work of fiction) | `ev01_0100` |
+| 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. (The scene where the Blasters take on Gargaros but run away) | `ev01_0200` |
+| 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. (The scene where the Blasters remark what a close call that was) | `ev01_0230` |
+| 0x14E85A57             | 204  | Checks if the story scene mv_photo005/ev01_0250/ev01_0260 has been seen. (The scene where Sgt. Burly first comes across the Blasters House) | `ev01_0250` |
+| 0xA146241A             | 205  | Checks if the story scene ev01_0280 has been seen. (The scene where Sgt. Burly makes himself the new captain) | `ev01_0280` |
+| 0x685DC425             | 206  | Checks if the story scene ev01_0300 has been seen. (The scene where Happierre explains Roles and changing Move-Out Members) | `ev01_0300` |
+| 0x152A3060             | 207  | Checks if the story scene ev01_0350 has been seen. (The scene where Happierre explains the Yo-kai Pad) | `ev01_0350` |
+| 0x6D12D2A0             | 208  | Checks if the story scene ev01_0400 has been seen. (The scene where Sgt. Burly tells you to move out on a Mission) | `ev01_0400` |
+| 0x106526E5             | 209  | Checks if the story scene ev01_0450 has been seen. (The scene where Sgt. Burly tells you to go to the LvGym) | `ev01_0450` |
+| 0x6CD0B897             | 210  | Checks if the story scene ev01_0500 has been seen. (The scene where Coach Nekidspeed explains leveling up) | `ev01_0500` |
+| 0x11A74CD2             | 211  | Checks if the story scene ev01_0550 has been seen. (The scene where Sgt. Burly tells you to add more Move-Out Members) | `ev01_0550` |
+| 0x6E9606CE             | 212  | Checks if the story scene ev01_0600 has been seen. (The scene where Happierre tells you to only add one Move-Out Member) | `ev01_0600` |
+| 0x13E1F28B             | 213  | Checks if the story scene ev01_0650 has been seen. (The scene where Happierre explains Yo-kai Friends, Tribes, and Elements) | `ev01_0650` |
+| 0x6F546CF9             | 214  | Checks if the story scene ev01_0700 has been seen. (The scene where Dimmy explains the Dimmy Shop) | `ev01_0700` |
+| 0x122398BC             | 215  | Checks if the story scene ev01_0750 has been seen. (The scene where Sgt. Burly tells you to scout for allies) | `ev01_0750` |
+| 0x64082BC4             | 216  | Checks if the story scene ev01_0800 has been seen. (The scene where Sgt. Burly says Dimmy is looking for you) | `ev01_0800` |
+| 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. (The scene where Boss Signiton explains Equipment Crafting and Upgrading) | `ev01_0850` |
+| 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. (The scene where Sgt. Burly says to get four Move-Out Members) | `ev01_0900` |
+| 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. (The scene where you return after running away from Gargaros | `ev01_0950` |
 | 0xD3DAEACA             | 220  | Checks if you have seen the end of Chapter 1. | - |
 | 0x69EA8073             | 221  | Checks if you have befriended Squeeky in "Scout! Friend Chance!" when first clearing it. | - |
 | 0x9602FD68             | 222  | Checks if you have befriended Hungramps in "Scout! Friend Chance!" when first clearing it. | - |
@@ -428,7 +428,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1EB8EE67             | 542  | Checks if the story scene ev17_0600 has been seen. | `ev17_0600` |
 | 0x1F7A8450             | 543  | Checks if the story scene ev17_0700 has been seen. | `ev17_0700` |
 | 0xC4261213             | 544  | Checks if the story scene mv_photo109/ev17_0990 has been seen. | `ev17_0990` |
-| 0x70849F53             | 546  | Checks if the story scene ev01_0210 has been seen. | `ev01_0210` |
+| 0x70849F53             | 546  | Checks if the story scene ev01_0210 has been seen. (The scene where the Blasters take on Gargaros but run away, with Usapyon added in) | `ev01_0210` |
 | 0x3FC50994             | 547  | Checks if the story scene ev01_0260 has been seen. | `ev01_0260` |
 | 0x2B371663             | 548  | Checks if the story scene ev15_9100 has been seen. | `ev15_9100` |
 | 0x28B3C20D             | 549  | Checks if the story scene ev15_9300 has been seen. | `ev15_9300` |
@@ -936,10 +936,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B866BF1             | 1776 | - | `dl_data_get_126` |
 | 0xEC815B67             | 1777 | - | `dl_data_get_127` |
 | 0x7C3E46F6             | 1778 | - | `dl_data_get_128` |
-| 0x190CFB17             | 1781 | Checks for the VIP Room shop's limited-stock items. | `shpV001` |
-| 0x8005AAAD             | 1782 | Checks for the VIP Room shop's limited-stock items. | `shpV002` |
-| 0xF7029A3B             | 1783 | Checks for the VIP Room shop's limited-stock items. | `shpV003` |
-| 0x69660F98             | 1784 | Checks for the VIP Room shop's limited-stock items. | `shpV004` |
+| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV001` |
+| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV002` |
+| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV003` |
+| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV004` |
 | 0x2B78D49C             | 1791 | Checks if you can request the BRAVE Song. | - |
 | 0xFCFB8975             | 1792 | Checks if you can request the MYSTERIOUS Song. | - |
 | 0x7289CC8C             | 1793 | Checks if you can request the TOUGH Song. | - |
@@ -950,31 +950,31 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEEAAA709             | 1798 | Checks if you can request the SLIPPERY Song. | - |
 | 0x8ED683DC             | 1799 | Checks if you can request the LEGENDARY Song. | - |
 | 0x53D3CB1A             | 1800 | Checks if you can request the WICKED Song. | - |
-| 0x33AFEFCF             | 1801 | Checks if you can request the Neatles Song. (Inaccessible in the localization) | - |
-| 0x932B82B0             | 1802 | Checks if you can request the Pinto Crusaders Song. (Inaccessible in the localization) | - |
-| 0xF357A665             | 1803 | Checks if you can request the The Water Boyz Song. (Inaccessible in the localization) | - |
-| 0x0789D63D (0x789D63D) | 1804 | Checks if you can request the Mystery Song. (Inaccessible in the localization) | - |
-| 0x67F5F2E8             | 1805 | Checks if you can request the Nomnom Brothers Song. (Inaccessible in the localization) | - |
-| 0x0C89254A (0xC89254A) | 1806 | Checks if you can request the Red Hot Oni Backers Song. (Inaccessible in the localization) | - |
-| 0x6CF5019F             | 1807 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0xD38B47AB             | 1808 | Checks if you can request the The Kintaronyan Trio Song. (Inaccessible in the localization) | - |
-| 0x1AD6A23A             | 1811 | Checks if you can request the Sgt. Burly Song. (Inaccessible in the localization) | - |
-| 0xBD3F0B5C             | 1812 | Checks if you can request the Hovernyan Song. (Inaccessible in the localization) | - |
-| 0x202B13FA             | 1814 | Checks if you can request the Cornfused Song. (Inaccessible in the localization) | - |
-| 0x4057372F             | 1815 | Checks if you can request the Roughraff Song. (Inaccessible in the localization) | - |
-| 0xE965167B             | 1816 | Checks if you can request the Jibanyan Song. (Inaccessible in the localization) | - |
-| 0x891932AE             | 1817 | Checks if you can request the Komasan Song. (Inaccessible in the localization) | - |
-| 0x561B504F             | 1819 | Checks if you can request the Hidabat Song. (Inaccessible in the localization) | - |
-| 0x8C73DC90             | 1820 | Checks if you can request the Dismarelda Song. (Inaccessible in the localization) | - |
-| 0x4BE65123             | 1822 | Checks if you can request the Usapyon Song. (Inaccessible in the localization) | - |
-| 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. (Inaccessible in the localization) | - |
-| 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. (Inaccessible in the localization) | - |
+| 0x33AFEFCF             | 1801 | Checks if you can request the Neatles Song. | - |
+| 0x932B82B0             | 1802 | Checks if you can request the Pinto Crusaders Song. | - |
+| 0xF357A665             | 1803 | Checks if you can request the The Water Boyz Song. | - |
+| 0x0789D63D (0x789D63D) | 1804 | Checks if you can request the Mystery Song. | - |
+| 0x67F5F2E8             | 1805 | Checks if you can request the Nomnom Brothers Song. | - |
+| 0x0C89254A (0xC89254A) | 1806 | Checks if you can request the Red Hot Oni Backers Song. | - |
+| 0x6CF5019F             | 1807 | Checks if you can request the The Kintaronyan Trio Song. | - |
+| 0xD38B47AB             | 1808 | Checks if you can request the The Kintaronyan Trio Song. | - |
+| 0x1AD6A23A             | 1811 | Checks if you can request the Sgt. Burly Song. | - |
+| 0xBD3F0B5C             | 1812 | Checks if you can request the Hovernyan Song. | - |
+| 0x202B13FA             | 1814 | Checks if you can request the Cornfused Song. | - |
+| 0x4057372F             | 1815 | Checks if you can request the Roughraff Song. | - |
+| 0xE965167B             | 1816 | Checks if you can request the Jibanyan Song. | - |
+| 0x891932AE             | 1817 | Checks if you can request the Komasan Song. | - |
+| 0x561B504F             | 1819 | Checks if you can request the Hidabat Song. | - |
+| 0x8C73DC90             | 1820 | Checks if you can request the Dismarelda Song. | - |
+| 0x4BE65123             | 1822 | Checks if you can request the Usapyon Song. | - |
+| 0x2B9A75F6             | 1823 | Checks if you can request the Shogunyan Song. | - |
+| 0xD6F24985             | 1824 | Checks if you can request the Lucky Song Records Song. | - |
 | 0x682A6DDB             | 1825 | - | - |
-| 0xDACCD095             | 1833 | - | - |
-| 0xAAE3DFF9             | 1834 | - | - |
+| 0xDACCD095             | 1833 | Checks if you have received a Golden Ball from Sergeant Slug. | - |
+| 0xAAE3DFF9             | 1834 | Checks if you have received a Golden Ball from Arachnevil. | - |
 | 0x14970CD4             | 1835 | - | - |
-| 0x2FEE1891             | 1836 | - | - |
-| 0xEE993B27             | 1837 | - | - |
+| 0x2FEE1891             | 1836 | Checks if you have received a Golden Ball from Seaweed Sensei. | - |
+| 0xEE993B27             | 1837 | Checks if you have received a Golden Ball from Bison Burly. | - |
 | 0x526C6576             | 1838 | - | - |
 | 0xF26749CA             | 1839 | - | - |
 | 0x0EF06F61 (0xEF06F61) | 1840 | - | - |
@@ -984,140 +984,140 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x85A18FC9             | 1844 | - | - |
 | 0xDDC29F9F             | 1845 | - | - |
 | 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
-| 0x138634E1             | 1847 | - | - |
-| 0x4A0C9B3C             | 1860 | - | - |
-| 0xD305CA86             | 1861 | - | - |
-| 0xA402FA10             | 1862 | - | - |
-| 0x3A666FB3             | 1863 | - | - |
-| 0x4D615F25             | 1864 | - | - |
-| 0xD4680E9F             | 1865 | - | - |
-| 0xA36F3E09             | 1866 | - | - |
-| 0x33D02398             | 1867 | - | - |
-| 0x44D7130E             | 1868 | - | - |
-| 0x24109AEB             | 1869 | - | - |
-| 0x5317AA7D             | 1870 | - | - |
-| 0xCA1EFBC7             | 1871 | - | - |
-| 0xBD19CB51             | 1872 | - | - |
-| 0x237D5EF2             | 1873 | - | - |
-| 0x547A6E64             | 1874 | - | - |
-| 0xCD733FDE             | 1875 | - | - |
-| 0xBA740F48             | 1876 | - | - |
-| 0x2ACB12D9             | 1877 | - | - |
-| 0x5DCC224F             | 1878 | - | - |
-| 0x0F3DC928 (0xF3DC928) | 1879 | - | - |
-| 0x783AF9BE             | 1880 | - | - |
-| 0xE133A804             | 1881 | - | - |
-| 0x96349892             | 1882 | - | - |
-| 0x08500D31 (0x8500D31) | 1883 | - | - |
-| 0x7F573DA7             | 1884 | - | - |
-| 0xE65E6C1D             | 1885 | - | - |
-| 0x91595C8B             | 1886 | - | - |
-| 0x01E6411A (0x1E6411A) | 1887 | - | - |
-| 0x76E1718C             | 1888 | - | - |
-| 0x1626F869             | 1889 | - | - |
-| 0x6121C8FF             | 1890 | - | - |
-| 0xF8289945             | 1891 | - | - |
-| 0x8F2FA9D3             | 1892 | - | - |
-| 0x114B3C70             | 1893 | - | - |
-| 0x664C0CE6             | 1894 | - | - |
-| 0xFF455D5C             | 1895 | - | - |
-| 0x88426DCA             | 1896 | - | - |
-| 0x18FD705B             | 1897 | - | - |
-| 0x6FFA40CD             | 1898 | - | - |
-| 0x59676EAE             | 1899 | - | - |
-| 0x2E605E38             | 1900 | - | - |
-| 0xB7690F82             | 1901 | - | - |
-| 0xC06E3F14             | 1902 | - | - |
-| 0x5E0AAAB7             | 1903 | - | - |
-| 0x290D9A21             | 1904 | - | - |
-| 0xB004CB9B             | 1905 | - | - |
-| 0xC703FB0D             | 1906 | - | - |
-| 0x57BCE69C             | 1907 | - | - |
-| 0x20BBD60A             | 1908 | - | - |
-| 0x407C5FEF             | 1909 | - | - |
-| 0x377B6F79             | 1910 | - | - |
-| 0xAE723EC3             | 1911 | - | - |
-| 0xD9750E55             | 1912 | - | - |
-| 0x47119BF6             | 1913 | - | - |
-| 0x3016AB60             | 1914 | - | - |
-| 0xA91FFADA             | 1915 | - | - |
-| 0xDE18CA4C             | 1916 | - | - |
-| 0x4EA7D7DD             | 1917 | - | - |
-| 0x39A0E74B             | 1918 | - | - |
-| 0x6B510C2C             | 1919 | - | - |
-| 0x1C563CBA             | 1920 | - | - |
-| 0x855F6D00             | 1921 | - | - |
-| 0xF2585D96             | 1922 | - | - |
-| 0x6C3CC835             | 1923 | - | - |
-| 0x1B3BF8A3             | 1924 | - | - |
-| 0x8232A919             | 1925 | - | - |
-| 0xF535998F             | 1926 | - | - |
-| 0x658A841E             | 1927 | - | - |
-| 0x128DB488             | 1928 | - | - |
-| 0x724A3D6D             | 1929 | - | - |
-| 0x054D0DFB (0x54D0DFB) | 1930 | - | - |
-| 0x9C445C41             | 1931 | - | - |
-| 0xEB436CD7             | 1932 | - | - |
-| 0x7527F974             | 1933 | - | - |
-| 0x0220C9E2 (0x220C9E2) | 1934 | - | - |
-| 0x9B299858             | 1935 | - | - |
-| 0xEC2EA8CE             | 1936 | - | - |
-| 0x7C91B55F             | 1937 | - | - |
-| 0x0B9685C9 (0xB9685C9) | 1938 | - | - |
-| 0xF5D221A2             | 1939 | - | - |
-| 0x82D51134             | 1940 | - | - |
-| 0x1BDC408E             | 1941 | - | - |
-| 0x6CDB7018             | 1942 | - | - |
-| 0xF2BFE5BB             | 1943 | - | - |
-| 0x85B8D52D             | 1944 | - | - |
-| 0x1CB18497             | 1945 | - | - |
-| 0x6BB6B401             | 1946 | - | - |
-| 0xFB09A990             | 1947 | - | - |
-| 0x8C0E9906             | 1948 | - | - |
-| 0xECC910E3             | 1949 | - | - |
-| 0x9BCE2075             | 1950 | - | - |
-| 0x02C771CF (0x2C771CF) | 1951 | - | - |
-| 0x75C04159             | 1952 | - | - |
-| 0xEBA4D4FA             | 1953 | - | - |
-| 0x9CA3E46C             | 1954 | - | - |
-| 0x05AAB5D6 (0x5AAB5D6) | 1955 | - | - |
-| 0x72AD8540             | 1956 | - | - |
-| 0xE21298D1             | 1957 | - | - |
-| 0x9515A847             | 1958 | - | - |
-| 0x3CC9C19D             | 1959 | - | - |
-| 0x4BCEF10B             | 1960 | - | - |
-| 0xD2C7A0B1             | 1961 | - | - |
-| 0xA5C09027             | 1962 | - | - |
-| 0x3BA40584             | 1963 | - | - |
-| 0x4CA33512             | 1964 | - | - |
-| 0xD5AA64A8             | 1965 | - | - |
-| 0xA2AD543E             | 1966 | - | - |
-| 0x321249AF             | 1967 | - | - |
-| 0x45157939             | 1968 | - | - |
-| 0x25D2F0DC             | 1969 | - | - |
-| 0x52D5C04A             | 1970 | - | - |
-| 0xCBDC91F0             | 1971 | - | - |
-| 0xBCDBA166             | 1972 | - | - |
-| 0x22BF34C5             | 1973 | - | - |
-| 0x55B80453             | 1974 | - | - |
-| 0xCCB155E9             | 1975 | - | - |
-| 0xBBB6657F             | 1976 | - | - |
-| 0x2B0978EE             | 1977 | - | - |
-| 0x5C0E4878             | 1978 | - | - |
-| 0x0EFFA31F (0xEFFA31F) | 1979 | - | - |
-| 0x79F89389             | 1980 | - | - |
-| 0xE0F1C233             | 1981 | - | - |
-| 0x97F6F2A5             | 1982 | - | - |
-| 0x09926706 (0x9926706) | 1983 | - | - |
-| 0x7E955790             | 1984 | - | - |
-| 0xE79C062A             | 1985 | - | - |
-| 0x909B36BC             | 1986 | - | - |
-| 0x00242B2D (0x242B2D)  | 1987 | - | - |
-| 0x77231BBB             | 1988 | - | - |
-| 0x17E4925E             | 1989 | - | - |
-| 0x60E3A2C8             | 1990 | - | - |
-| 0xF9EAF372             | 1991 | - | - |
-| 0x8EEDC3E4             | 1992 | - | - |
+| 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
+| 0x4A0C9B3C             | 1860 | Checks if the Apprentice Sword has been made. | - |
+| 0xD305CA86             | 1861 | Checks if the Starling Sword has been made. | - |
+| 0xA402FA10             | 1862 | Checks if the Blunt Sword has been made. | - |
+| 0x3A666FB3             | 1863 | Checks if the Worn Bangle has been made. | - |
+| 0x4D615F25             | 1864 | Checks if the Cheap Bracelet has been made. | - |
+| 0xD4680E9F             | 1865 | Checks if the Dirty Bracelet has been made. | - |
+| 0xA36F3E09             | 1866 | Checks if the Warped Wand has been made. | - |
+| 0x33D02398             | 1867 | Checks if the Simple Stick has been made. | - |
+| 0x44D7130E             | 1868 | Checks if the Sinister Stick has been made. | - |
+| 0x24109AEB             | 1869 | Checks if the Rusty Ring has been made. | - |
+| 0x5317AA7D             | 1870 | Checks if the Ugly Ring has been made. | - |
+| 0xCA1EFBC7             | 1871 | Checks if the Bone Ring has been made. | - |
+| 0xBD19CB51             | 1872 | Checks if the Round Shield has been made. | - |
+| 0x237D5EF2             | 1873 | Checks if the Wooden Shield has been made. | - |
+| 0x547A6E64             | 1874 | Checks if the Bathhouse Bucket has been made. | - |
+| 0xCD733FDE             | 1875 | Checks if the Aged Charm has been made. | - |
+| 0xBA740F48             | 1876 | Checks if the Patched-Up Charm has been made. | - |
+| 0x2ACB12D9             | 1877 | Checks if the Basic Belt has been made. | - |
+| 0x5DCC224F             | 1878 | Checks if the Plain Sash has been made. | - |
+| 0x0F3DC928 (0xF3DC928) | 1879 | Checks if the Grubby Belt has been made. | - |
+| 0x783AF9BE             | 1880 | Checks if the Rustic Amulet has been made. | - |
+| 0xE133A804             | 1881 | Checks if the Black Charm has been made. | - |
+| 0x96349892             | 1882 | Checks if the Catfish Bauble has been made. | - |
+| 0x08500D31 (0x8500D31) | 1883 | Checks if the Broken Bell has been made. | - |
+| 0x7F573DA7             | 1884 | Checks if the Star Pupil's Sword has been made. | - |
+| 0xE65E6C1D             | 1885 | Checks if the Nightingale Sword has been made. | - |
+| 0x91595C8B             | 1886 | Checks if the Oni Smasher has been made. | - |
+| 0x01E6411A (0x1E6411A) | 1887 | Checks if the Lethal Hammer has been made. | - |
+| 0x76E1718C             | 1888 | Checks if the Kitchen Knife has been made. | - |
+| 0x1626F869             | 1889 | Checks if the Striped Bracelet has been made. | - |
+| 0x6121C8FF             | 1890 | Checks if the Spotty Bracelet has been made. | - |
+| 0xF8289945             | 1891 | Checks if the Colorful Bracelet has been made. | - |
+| 0x8F2FA9D3             | 1892 | Checks if the Killer Bracelet has been made. | - |
+| 0x114B3C70             | 1893 | Checks if the Weird Wand has been made. | - |
+| 0x664C0CE6             | 1894 | Checks if the Snazzy Stick has been made. | - |
+| 0xFF455D5C             | 1895 | Checks if the Three-Head Wand has been made. | - |
+| 0x88426DCA             | 1896 | Checks if the Skull on a Stick has been made. | - |
+| 0x18FD705B             | 1897 | Checks if the Rad Rod has been made. | - |
+| 0x6FFA40CD             | 1898 | Checks if the Dawn Ring has been made. | - |
+| 0x59676EAE             | 1899 | Checks if the Rainbow Ring has been made. | - |
+| 0x2E605E38             | 1900 | Checks if the Backbone Ring has been made. | - |
+| 0xB7690F82             | 1901 | Checks if the Gilded Ring has been made. | - |
+| 0xC06E3F14             | 1902 | Checks if the Ring of Insight has been made. | - |
+| 0x5E0AAAB7             | 1903 | Checks if the Sturdy Shield has been made. | - |
+| 0x290D9A21             | 1904 | Checks if the Iron Shield has been made. | - |
+| 0xB004CB9B             | 1905 | Checks if the Pigbucket has been made. | - |
+| 0xC703FB0D             | 1906 | Checks if the Trash Can Lid has been made. | - |
+| 0x57BCE69C             | 1907 | Checks if the Elegant Shield has been made. | - |
+| 0x20BBD60A             | 1908 | Checks if the Warm Charm has been made. | - |
+| 0x407C5FEF             | 1909 | Checks if the Fragrant Charm has been made. | - |
+| 0x377B6F79             | 1910 | Checks if the One-Eyed Pouch has been made. | - |
+| 0xAE723EC3             | 1911 | Checks if the Sturdy Bag has been made. | - |
+| 0xD9750E55             | 1912 | Checks if the Plain Pendant has been made. | - |
+| 0x47119BF6             | 1913 | Checks if the Spirit Charm has been made. | - |
+| 0x3016AB60             | 1914 | Checks if the Round-Buckle Belt has been made. | - |
+| 0xA91FFADA             | 1915 | Checks if the Flashy Sash has been made. | - |
+| 0xDE18CA4C             | 1916 | Checks if the Sturdy Sash has been made. | - |
+| 0x4EA7D7DD             | 1917 | Checks if the Designer Belt has been made. | - |
+| 0x39A0E74B             | 1918 | Checks if the Spiteful Sash has been made. | - |
+| 0x6B510C2C             | 1919 | Checks if the Elegant Amulet has been made. | - |
+| 0x1C563CBA             | 1920 | Checks if the Flower Charm has been made. | - |
+| 0x855F6D00             | 1921 | Checks if the Wht. Catfish Bauble has been made. | - |
+| 0xF2585D96             | 1922 | Checks if the Cat Bell has been made. | - |
+| 0x6C3CC835             | 1923 | Checks if the Dimmy Amulet has been made. | - |
+| 0x1B3BF8A3             | 1924 | Checks if the Master’s Sword has been made. | - |
+| 0x8232A919             | 1925 | Checks if the Raven’s Blade has been made. | - |
+| 0xF535998F             | 1926 | Checks if the Oni Smasher (Red) has been made. | - |
+| 0x658A841E             | 1927 | Checks if the Oni Smasher (Blue) has been made. | - |
+| 0x128DB488             | 1928 | Checks if the Skull Hammer has been made. | - |
+| 0x724A3D6D             | 1929 | Checks if the Blue Bracelet has been made. | - |
+| 0x054D0DFB (0x54D0DFB) | 1930 | Checks if the Kooky Bracelet has been made. | - |
+| 0x9C445C41             | 1931 | Checks if the Steel Handcuff has been made. | - |
+| 0xEB436CD7             | 1932 | Checks if the Go-Go Bracelet has been made. | - |
+| 0x7527F974             | 1933 | Checks if the Turnabracelet has been made. | - |
+| 0x0220C9E2 (0x220C9E2) | 1934 | Checks if the Wand of Chaos has been made. | - |
+| 0x9B299858             | 1935 | Checks if the Splendid Stick has been made. | - |
+| 0xEC2EA8CE             | 1936 | Checks if the Triptych Stick has been made. | - |
+| 0x7C91B55F             | 1937 | Checks if the Wide-Eyed Wand has been made. | - |
+| 0x0B9685C9 (0xB9685C9) | 1938 | Checks if the Pessimistick has been made. | - |
+| 0xF5D221A2             | 1939 | Checks if Koma’s Pack has been made. | - |
+| 0x82D51134             | 1940 | Checks if the Slumber Ring has been made. | - |
+| 0x1BDC408E             | 1941 | Checks if the Promise Ring has been made. | - |
+| 0x6CDB7018             | 1942 | Checks if the Jawbone Ring has been made. | - |
+| 0xF2BFE5BB             | 1943 | Checks if the Metallic Ring has been made. | - |
+| 0x85B8D52D             | 1944 | Checks if the Gleaming Ring has been made. | - |
+| 0x1CB18497             | 1945 | Checks if the Ring of Knowledge has been made. | - |
+| 0x6BB6B401             | 1946 | Checks if the Turnaring has been made. | - |
+| 0xFB09A990             | 1947 | Checks if the Alloy Shield has been made. | - |
+| 0x8C0E9906             | 1948 | Checks if the Silver Shield has been made. | - |
+| 0xECC910E3             | 1949 | Checks if the Fine Pigbucket has been made. | - |
+| 0x9BCE2075             | 1950 | Checks if the Hogbucket has been made. | - |
+| 0x02C771CF (0x2C771CF) | 1951 | Checks if the Giant Cauldron Lid has been made. | - |
+| 0x75C04159             | 1952 | Checks if the Force Shield has been made. | - |
+| 0xEBA4D4FA             | 1953 | Checks if the Happy Charm has been made. | - |
+| 0x9CA3E46C             | 1954 | Checks if the Lucky Charm has been made. | - |
+| 0x05AAB5D6 (0x5AAB5D6) | 1955 | Checks if the Pink Pouch has been made. | - |
+| 0x72AD8540             | 1956 | Checks if the Pink Bag has been made. | - |
+| 0xE21298D1             | 1957 | Checks if the Courage Pendant has been made. | - |
+| 0x9515A847             | 1958 | Checks if the Turnacharm has been made. | - |
+| 0x3CC9C19D             | 1959 | Checks if the Chic Belt has been made. | - |
+| 0x4BCEF10B             | 1960 | Checks if the Shinobi Sash has been made. | - |
+| 0xD2C7A0B1             | 1961 | Checks if the Glutton’s Sash has been made. | - |
+| 0xA5C09027             | 1962 | Checks if the Ceremonial Sash has been made. | - |
+| 0x3BA40584             | 1963 | Checks if the Bold Belt has been made. | - |
+| 0x4CA33512             | 1964 | Checks if the Ancestral Sash has been made. | - |
+| 0xD5AA64A8             | 1965 | Checks if the Intriguing Amulet has been made. | - |
+| 0xA2AD543E             | 1966 | Checks if the Aurora Charm has been made. | - |
+| 0x321249AF             | 1967 | Checks if the Big Catfish Bauble has been made. | - |
+| 0x45157939             | 1968 | Checks if the Gold Catfish Bauble has been made. | - |
+| 0x25D2F0DC             | 1969 | Checks if the Cat’s Paw Bell has been made. | - |
+| 0x52D5C04A             | 1970 | Checks if the Turnabeads have been made. | - |
+| 0xCBDC91F0             | 1971 | Checks if the U. Oni Smasher (Bk) has been made. | - |
+| 0xBCDBA166             | 1972 | Checks if the Sword of Solitude has been made. | - |
+| 0x22BF34C5             | 1973 | Checks if the Hi-Tech Wristband has been made. | - |
+| 0x55B80453             | 1974 | Checks if the Whisped Wristband has been made. | - |
+| 0xCCB155E9             | 1975 | Checks if the Star Bracelet has been made. | - |
+| 0xBBB6657F             | 1976 | Checks if the Peerless Bracelet has been made. | - |
+| 0x2B0978EE             | 1977 | Checks if the Dame Staff has been made. | - |
+| 0x5C0E4878             | 1978 | Checks if the Staff of Judgment has been made. | - |
+| 0x0EFFA31F (0xEFFA31F) | 1979 | Checks if the Tengu Fan has been made. | - |
+| 0x79F89389             | 1980 | Checks if the Mystery Ring has been made. | - |
+| 0xE0F1C233             | 1981 | Checks if the Peerless Ring has been made. | - |
+| 0x97F6F2A5             | 1982 | Checks if the Twirly Swirler has been made. | - |
+| 0x09926706 (0x9926706) | 1983 | Checks if the Innocent Shield has been made. | - |
+| 0x7E955790             | 1984 | Checks if the Goddess Charm has been made. | - |
+| 0xE79C062A             | 1985 | Checks if the Passion Pendant has been made. | - |
+| 0x909B36BC             | 1986 | Checks if the Clover Charm has been made. | - |
+| 0x00242B2D (0x242B2D)  | 1987 | Checks if the Senator Sash has been made. | - |
+| 0x77231BBB             | 1988 | Checks if the Fancy Belt has been made. | - |
+| 0x17E4925E             | 1989 | Checks if the Cutie Belt has been made. | - |
+| 0x60E3A2C8             | 1990 | Checks if the Swirlious Amulet has been made. | - |
+| 0xF9EAF372             | 1991 | Checks if the Red Paws Amulet has been made. | - |
+| 0x8EEDC3E4             | 1992 | Checks if the Vampbloom Bauble has been made. | - |
 | 0xD8032A44             | 1993 | - | - |
 | 0x410A7BFE             | 1994 | - | - |
 | 0x360D4B68             | 1995 | - | - |
@@ -1251,13 +1251,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF2EC13B0             | 2123 | - | - |
 | 0x6BE5420A             | 2124 | - | - |
 | 0x1CE2729C             | 2125 | - | - |
-| 0x10895647             | 2126 | - | - |
-| 0x678E66D1             | 2127 | - | - |
-| 0xFE87376B             | 2128 | - | - |
-| 0x898007FD             | 2129 | - | - |
-| 0x193F1A6C             | 2130 | - | - |
-| 0x6E382AFA             | 2131 | - | - |
-| 0x58A50499             | 2132 | - | - |
+| 0x10895647             | 2126 | Checks if Zazel’s Ruby Ring has been made. | - |
+| 0x678E66D1             | 2127 | Checks if the Captain Launcher has been made. | - |
+| 0xFE87376B             | 2128 | Checks if the Kingly Great Sword has been made. | - |
+| 0x898007FD             | 2129 | Checks if the Awoken Bracelet has been made. | - |
+| 0x193F1A6C             | 2130 | Checks if the Dark Matter Shield has been made. | - |
+| 0x6E382AFA             | 2131 | Checks if the Golden Swirl Charm has been made. | - |
+| 0x58A50499             | 2132 | Checks if the Golden Claws Cloth has been made. | - |
 | 0x8286E73F             | 2133 | - | - |
 | 0xF581D7A9             | 2134 | - | - |
 | 0x6C888613             | 2135 | - | - |
@@ -1265,196 +1265,196 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8B30AB14             | 2137 | - | - |
 | 0xFC379B82             | 2138 | - | - |
 | 0xCAAAB5E1             | 2139 | - | - |
-| 0x105655B1             | 2140 | - | - |
-| 0x42A7BED6             | 2141 | - | - |
-| 0x35A08E40             | 2142 | - | - |
-| 0xACA9DFFA             | 2143 | - | - |
-| 0xDBAEEF6C             | 2144 | - | - |
-| 0x45CA7ACF             | 2145 | - | - |
-| 0x32CD4A59             | 2146 | - | - |
-| 0xABC41BE3             | 2147 | - | - |
-| 0xDCC32B75             | 2148 | - | - |
-| 0x4C7C36E4             | 2149 | - | - |
-| 0x3B7B0672             | 2150 | - | - |
-| 0x5BBC8F97             | 2151 | - | - |
-| 0x2CBBBF01             | 2152 | - | - |
-| 0xB5B2EEBB             | 2153 | - | - |
-| 0x38FFD21C             | 2154 | - | - |
-| 0xC1310A43             | 2158 | - | - |
-| 0x21E4E35D             | 2164 | - | - |
-| 0x10140927             | 2169 | - | - |
-| 0x19A2450C             | 2173 | - | - |
-| 0x090F3866 (0x90F3866) | 2179 | - | - |
-| 0x77BE44DB             | 2184 | - | - |
-| 0x22226BA5             | 2189 | - | - |
-| 0x55255B33             | 2190 | - | - |
-| 0xCC2C0A89             | 2191 | - | - |
-| 0xBB2B3A1F             | 2192 | - | - |
-| 0x2B94278E             | 2193 | - | - |
-| 0x5C931718             | 2194 | - | - |
-| 0x3C549EFD             | 2195 | - | - |
-| 0x4B53AE6B             | 2196 | - | - |
-| 0xD25AFFD1             | 2197 | - | - |
-| 0xA55DCF47             | 2198 | - | - |
-| 0x4C3E6A72             | 2200 | - | - |
-| 0xD5373BC8             | 2201 | - | - |
-| 0xA2300B5E             | 2202 | - | - |
-| 0x328F16CF             | 2203 | - | - |
-| 0x45882659             | 2204 | - | - |
-| 0xBBCC8232             | 2205 | - | - |
-| 0xCCCBB2A4             | 2206 | - | - |
-| 0x55C2E31E             | 2207 | - | - |
-| 0x22C5D388             | 2208 | - | - |
-| 0xBCA1462B             | 2209 | - | - |
-| 0xCBA676BD             | 2210 | - | - |
-| 0x25A81791             | 2212 | - | - |
-| 0xB5170A00             | 2213 | - | - |
-| 0xC2103A96             | 2214 | - | - |
-| 0xA2D7B373             | 2215 | - | - |
-| 0xD5D083E5             | 2216 | - | - |
-| 0x4CD9D25F             | 2217 | - | - |
-| 0x3BDEE2C9             | 2218 | - | - |
-| 0xA5BA776A             | 2219 | - | - |
-| 0xD2BD47FC             | 2220 | - | - |
-| 0x4BB41646             | 2221 | - | - |
-| 0x3CB326D0             | 2222 | - | - |
+| 0x105655B1             | 2140 | Checks if Zazel’s Agate Ring has been made. | - |
+| 0x42A7BED6             | 2141 | Checks if Zazelmare’s Ring has been made. | - |
+| 0x35A08E40             | 2142 | Checks if the Grenade Thunder has been made. | - |
+| 0xACA9DFFA             | 2143 | Checks if the Ultimate Beam has been made. | - |
+| 0xDBAEEF6C             | 2144 | Checks if the Water Dragonblade has been made. | - |
+| 0x45CA7ACF             | 2145 | Checks if the Oni Warlord Sword has been made. | - |
+| 0x32CD4A59             | 2146 | Checks if the Eden Bracelet has been made. | - |
+| 0xABC41BE3             | 2147 | Checks if the Sun God Bracelet has been made. | - |
+| 0xDCC32B75             | 2148 | Checks if the Antigravity Shield has been made. | - |
+| 0x4C7C36E4             | 2149 | Checks if the Quantum Shield has been made. | - |
+| 0x3B7B0672             | 2150 | Checks if the Tranquil Charm has been made. | - |
+| 0x5BBC8F97             | 2151 | Checks if the Royal Swirl Charm has been made. | - |
+| 0x2CBBBF01             | 2152 | Checks if the Living World Cloth has been made. | - |
+| 0xB5B2EEBB             | 2153 | Checks if the Royal Claws Cloth has been made. | - |
+| 0x38FFD21C             | 2154 | Checks if the Chef’s Knife has been made. | - |
+| 0xC1310A43             | 2158 | Checks if the Focus Bracelet has been made. | - |
+| 0x21E4E35D             | 2164 | Checks if the Super-Rad Rod has been made. | - |
+| 0x10140927             | 2169 | Checks if the All-Seeing Ring has been made. | - |
+| 0x19A2450C             | 2173 | Checks if the Glitzy Shield has been made. | - |
+| 0x090F3866 (0x90F3866) | 2179 | Checks if the Charge-Up Charm has been made. | - |
+| 0x77BE44DB             | 2184 | Checks if the Grudge Sash has been made. | - |
+| 0x22226BA5             | 2189 | Checks if the Blandon Amulet has been made. | - |
+| 0x55255B33             | 2190 | Checks if the Sorcerer’s Sword has been made. | - |
+| 0xCC2C0A89             | 2191 | Checks if the Raven’s Blade into the Peacock has been made. | - |
+| 0xBB2B3A1F             | 2192 | Checks if the U. Oni Smasher (R) has been made. | - |
+| 0x2B94278E             | 2193 | Checks if the U. Oni Smasher (Bl) has been made. | - |
+| 0x5C931718             | 2194 | Checks if the Hell Hammer has been made. | - |
+| 0x3C549EFD             | 2195 | Checks if the Starlight Blaster has been made. | - |
+| 0x4B53AE6B             | 2196 | Checks if the Phantom Bracelet has been made. | - |
+| 0xD25AFFD1             | 2197 | Checks if the Bracelet of Purity has been made. | - |
+| 0xA55DCF47             | 2198 | Checks if the Engraved Handcuff has been made. | - |
+| 0x4C3E6A72             | 2200 | Checks if the Epic Turnabracelet has been made. | - |
+| 0xD5373BC8             | 2201 | Checks if the Wicked Wand has been made. | - |
+| 0xA2300B5E             | 2202 | Checks if the Angelic Wand has been made. | - |
+| 0x328F16CF             | 2203 | Checks if the Triple Dragon Wand has been made. | - |
+| 0x45882659             | 2204 | Checks if the Hell’s Eye Wand has been made. | - |
+| 0xBBCC8232             | 2205 | Checks if the Swirly Pack has been made. | - |
+| 0xCCCBB2A4             | 2206 | Checks if the Lunar Ring has been made. | - |
+| 0x55C2E31E             | 2207 | Checks if the Wave Ring has been made. | - |
+| 0x22C5D388             | 2208 | Checks if the Skull Ring has been made. | - |
+| 0xBCA1462B             | 2209 | Checks if the Goldy Ring has been made. | - |
+| 0xCBA676BD             | 2210 | Checks if the Glitzy Ring has been made. | - |
+| 0x25A81791             | 2212 | Checks if the Epic Turnaring has been made. | - |
+| 0xB5170A00             | 2213 | Checks if the Tactician’s Shield has been made. | - |
+| 0xC2103A96             | 2214 | Checks if the Paladin’s Shield has been made. | - |
+| 0xA2D7B373             | 2215 | Checks if the Gold Pigbucket has been made. | - |
+| 0xD5D083E5             | 2216 | Checks if the Evil Hogbucket has been made. | - |
+| 0x4CD9D25F             | 2217 | Checks if the Wobblewok Lid has been made. | - |
+| 0x3BDEE2C9             | 2218 | Checks if the Force Shield EX has been made. | - |
+| 0xA5BA776A             | 2219 | Checks if the Pulsating Charm has been made. | - |
+| 0xD2BD47FC             | 2220 | Checks if the Noble Charm has been made. | - |
+| 0x4BB41646             | 2221 | Checks if the One-Eye Pouch XL has been made. | - |
+| 0x3CB326D0             | 2222 | Checks if the Hardy Bag has been made. | - |
 | 0xAC0C3B41             | 2223 | - | - |
-| 0xDB0B0BD7             | 2224 | - | - |
-| 0x72D7620D             | 2225 | - | - |
-| 0x05D0529B (0x5D0529B) | 2226 | - | - |
-| 0x9CD90321             | 2227 | - | - |
-| 0xEBDE33B7             | 2228 | - | - |
+| 0xDB0B0BD7             | 2224 | Checks if the Epic Turnacharm has been made. | - |
+| 0x72D7620D             | 2225 | Checks if the Victory Belt has been made. | - |
+| 0x05D0529B (0x5D0529B) | 2226 | Checks if the Master Sash has been made. | - |
+| 0x9CD90321             | 2227 | Checks if the Greedyguts Sash has been made. | - |
+| 0xEBDE33B7             | 2228 | Checks if the Sentient Sash has been made. | - |
 | 0x75BAA614             | 2229 | - | - |
-| 0x02BD9682 (0x2BD9682) | 2230 | - | - |
-| 0x9BB4C738             | 2231 | - | - |
-| 0xECB3F7AE             | 2232 | - | - |
-| 0x7C0CEA3F             | 2233 | - | - |
-| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | - | - |
-| 0x6BCC534C             | 2235 | - | - |
-| 0x1CCB63DA             | 2236 | - | - |
-| 0x85C23260             | 2237 | - | - |
-| 0xF2C502F6             | 2238 | - | - |
-| 0x6CA19755             | 2239 | - | - |
-| 0x1BA6A7C3             | 2240 | - | - |
-| 0x82AFF679             | 2241 | - | - |
-| 0xF5A8C6EF             | 2242 | - | - |
-| 0x6517DB7E             | 2243 | - | - |
-| 0x1210EBE8             | 2244 | - | - |
-| 0x40E1008F             | 2245 | - | - |
-| 0x37E63019             | 2246 | - | - |
-| 0xAEEF61A3             | 2247 | - | - |
-| 0xD9E85135             | 2248 | - | - |
-| 0x478CC496             | 2249 | - | - |
-| 0x308BF400             | 2250 | - | - |
-| 0xA982A5BA             | 2251 | - | - |
-| 0xDE85952C             | 2252 | - | - |
-| 0x4E3A88BD             | 2253 | - | - |
-| 0x393DB82B             | 2254 | - | - |
-| 0x59FA31CE             | 2255 | - | - |
-| 0x2EFD0158             | 2256 | - | - |
-| 0xB7F450E2             | 2257 | - | - |
-| 0xC0F36074             | 2258 | - | - |
-| 0x5E97F5D7             | 2259 | - | - |
-| 0x2990C541             | 2260 | - | - |
-| 0xB09994FB             | 2261 | - | - |
-| 0xC79EA46D             | 2262 | - | - |
-| 0x5721B9FC             | 2263 | - | - |
-| 0x2026896A             | 2264 | - | - |
-| 0x16BBA709             | 2265 | - | - |
-| 0x61BC979F             | 2266 | - | - |
-| 0xF8B5C625             | 2267 | - | - |
-| 0x8FB2F6B3             | 2268 | - | - |
-| 0x11D66310             | 2269 | - | - |
-| 0x66D15386             | 2270 | - | - |
-| 0xFFD8023C             | 2271 | - | - |
-| 0x88DF32AA             | 2272 | - | - |
-| 0x18602F3B             | 2273 | - | - |
-| 0x6F671FAD             | 2274 | - | - |
-| 0x0FA09648 (0xFA09648) | 2275 | - | - |
-| 0x78A7A6DE             | 2276 | - | - |
-| 0xE1AEF764             | 2277 | - | - |
-| 0x96A9C7F2             | 2278 | - | - |
-| 0x08CD5251 (0x8CD5251) | 2279 | - | - |
-| 0x7FCA62C7             | 2280 | - | - |
-| 0xE6C3337D             | 2281 | - | - |
-| 0x91C403EB             | 2282 | - | - |
-| 0x017B1E7A (0x17B1E7A) | 2283 | - | - |
-| 0x767C2EEC             | 2284 | - | - |
-| 0x248DC58B             | 2285 | - | - |
-| 0x538AF51D             | 2286 | - | - |
-| 0xCA83A4A7             | 2287 | - | - |
-| 0xBD849431             | 2288 | - | - |
-| 0x23E00192             | 2289 | - | - |
-| 0x54E73104             | 2290 | - | - |
-| 0xCDEE60BE             | 2291 | - | - |
-| 0xBAE95028             | 2292 | - | - |
-| 0x2A564DB9             | 2293 | - | - |
-| 0x5D517D2F             | 2294 | - | - |
-| 0x3D96F4CA             | 2295 | - | - |
-| 0x4A91C45C             | 2296 | - | - |
-| 0xD39895E6             | 2297 | - | - |
-| 0xA49FA570             | 2298 | - | - |
-| 0x3AFB30D3             | 2299 | - | - |
-| 0x4DFC0045             | 2300 | - | - |
-| 0xD4F551FF             | 2301 | - | - |
-| 0xA3F26169             | 2302 | - | - |
-| 0x334D7CF8             | 2303 | - | - |
-| 0x444A4C6E             | 2304 | - | - |
-| 0xBA0EE805             | 2305 | - | - |
-| 0xCD09D893             | 2306 | - | - |
-| 0x54008929             | 2307 | - | - |
-| 0x2307B9BF             | 2308 | - | - |
-| 0xBD632C1C             | 2309 | - | - |
-| 0xCA641C8A             | 2310 | - | - |
+| 0x02BD9682 (0x2BD9682) | 2230 | Checks if the Sacred Sash has been made. | - |
+| 0x9BB4C738             | 2231 | Checks if the Midnight Amulet has been made. | - |
+| 0xECB3F7AE             | 2232 | Checks if the Violet Charm has been made. | - |
+| 0x7C0CEA3F             | 2233 | Checks if the Pond Guard Bauble has been made. | - |
+| 0x0B0BDAA9 (0xB0BDAA9) | 2234 | Checks if the Marsh Lord Bauble has been made. | - |
+| 0x6BCC534C             | 2235 | Checks if the Nyanbelievabell has been made. | - |
+| 0x1CCB63DA             | 2236 | Checks if the Epic Turnabeads have been made. | - |
+| 0x85C23260             | 2237 | Checks if the Thunder Blade has been made. | - |
+| 0xF2C502F6             | 2238 | Checks if the Doom Blade has been made. | - |
+| 0x6CA19755             | 2239 | Checks if the Blizzard Blade has been made. | - |
+| 0x1BA6A7C3             | 2240 | Checks if the Divine Blade has been made. | - |
+| 0x82AFF679             | 2241 | Checks if the Oni Smasher (Fire) has been made. | - |
+| 0xF5A8C6EF             | 2242 | Checks if the Ogre Breaker has been made. | - |
+| 0x6517DB7E             | 2243 | Checks if the Oni Smasher (Sea) has been made. | - |
+| 0x1210EBE8             | 2244 | Checks if the Ogre Striker has been made. | - |
+| 0x40E1008F             | 2245 | Checks if the Horror Hammer has been made. | - |
+| 0x37E63019             | 2246 | Checks if the Hammer of Despair has been made. | - |
+| 0xAEEF61A3             | 2247 | Checks if the Oni Smasher (Earth) has been made. | - |
+| 0xD9E85135             | 2248 | Checks if the Oni Smasher (Ult) has been made. | - |
+| 0x478CC496             | 2249 | Checks if the Oni Smasher (Sky) has been made. | - |
+| 0x308BF400             | 2250 | Checks if the Neptune Band has been made. | - |
+| 0xA982A5BA             | 2251 | Checks if the Fiend Band has been made. | - |
+| 0xDE85952C             | 2252 | Checks if the Arctic Bracelet has been made. | - |
+| 0x4E3A88BD             | 2253 | Checks if the Legend Bracelet has been made. | - |
+| 0x393DB82B             | 2254 | Checks if the Terra Manacle has been made. | - |
+| 0x59FA31CE             | 2255 | Checks if the Malicious Manacle has been made. | - |
+| 0x2EFD0158             | 2256 | Checks if the Mayhem Manacle has been made. | - |
+| 0xB7F450E2             | 2257 | Checks if the Incandescent Arm has been made. | - |
+| 0xC0F36074             | 2258 | Checks if the Hypermagnetic Arm has been made. | - |
+| 0x5E97F5D7             | 2259 | Checks if the Mighty Armband has been made. | - |
+| 0x2990C541             | 2260 | Checks if the Hurricane Bracer has been made. | - |
+| 0xB09994FB             | 2261 | Checks if the Demon Bracer has been made. | - |
+| 0xC79EA46D             | 2262 | Checks if the Blizzard Bracer has been made. | - |
+| 0x5721B9FC             | 2263 | Checks if the Sea-Splitter Staff has been made. | - |
+| 0x2026896A             | 2264 | Checks if the Staff of Ultimate Evil has been made. | - |
+| 0x16BBA709             | 2265 | Checks if the Crystal Wand has been made. | - |
+| 0x61BC979F             | 2266 | Checks if the Wand of Fortune has been made. | - |
+| 0xF8B5C625             | 2267 | Checks if the Triple Fever Wand has been made. | - |
+| 0x8FB2F6B3             | 2268 | Checks if the Triple Trouble Wand has been made. | - |
+| 0x11D66310             | 2269 | Checks if the Eye of the Earth has been made. | - |
+| 0x66D15386             | 2270 | Checks if the Eye of Death has been made. | - |
+| 0xFFD8023C             | 2271 | Checks if the Holy Wind Wand has been made. | - |
+| 0x88DF32AA             | 2272 | Checks if the Staff of Avarice has been made. | - |
+| 0x18602F3B             | 2273 | Checks if the Thunder God Wand has been made. | - |
+| 0x6F671FAD             | 2274 | Checks if the Staff of Heaven has been made. | - |
+| 0x0FA09648 (0xFA09648) | 2275 | Checks if the Creator’s Wand has been made. | - |
+| 0x78A7A6DE             | 2276 | Checks if the Wind God Ring has been made. | - |
+| 0xE1AEF764             | 2277 | Checks if the Fiend Ring has been made. | - |
+| 0x96A9C7F2             | 2278 | Checks if the Permafrost Ring has been made. | - |
+| 0x08CD5251 (0x8CD5251) | 2279 | Checks if the Legend Ring has been made. | - |
+| 0x7FCA62C7             | 2280 | Checks if the Incineration Ring has been made. | - |
+| 0xE6C3337D             | 2281 | Checks if the Ring of Erosion has been made. | - |
+| 0x91C403EB             | 2282 | Checks if the Saint’s Ring has been made. | - |
+| 0x017B1E7A (0x17B1E7A) | 2283 | Checks if the Thunderheart has been made. | - |
+| 0x767C2EEC             | 2284 | Checks if the Pinkheart has been made. | - |
+| 0x248DC58B             | 2285 | Checks if the Goldenheart has been made. | - |
+| 0x538AF51D             | 2286 | Checks if the Blue-Blood Ring has been made. | - |
+| 0xCA83A4A7             | 2287 | Checks if the Blood-Red Ring has been made. | - |
+| 0xBD849431             | 2288 | Checks if the Diamond Ring has been made. | - |
+| 0x23E00192             | 2289 | Checks if the Whirlpool Shield has been made. | - |
+| 0x54E73104             | 2290 | Checks if the Shield of Resolve has been made. | - |
+| 0xCDEE60BE             | 2291 | Checks if the Frost Shield has been made. | - |
+| 0xBAE95028             | 2292 | Checks if the Legend Shield has been made. | - |
+| 0x2A564DB9             | 2293 | Checks if the Blazing Pigbucket has been made. | - |
+| 0x5D517D2F             | 2294 | Checks if the Alluring Pigbucket has been made. | - |
+| 0x3D96F4CA             | 2295 | Checks if the Stone Hogbucket has been made. | - |
+| 0x4A91C45C             | 2296 | Checks if the Lava Hogbucket has been made. | - |
+| 0xD39895E6             | 2297 | Checks if the Lid of Isolation has been made. | - |
+| 0xA49FA570             | 2298 | Checks if the Lid of Darkness has been made. | - |
+| 0x3AFB30D3             | 2299 | Checks if the Windbreaker has been made. | - |
+| 0x4DFC0045             | 2300 | Checks if the Drain Dampener has been made. | - |
+| 0xD4F551FF             | 2301 | Checks if the Blossombrella has been made. | - |
+| 0xA3F26169             | 2302 | Checks if the Volcano Charm has been made. | - |
+| 0x334D7CF8             | 2303 | Checks if the Fiend Charm has been made. | - |
+| 0x444A4C6E             | 2304 | Checks if the Thunder Charm has been made. | - |
+| 0xBA0EE805             | 2305 | Checks if the Legend Charm has been made. | - |
+| 0xCD09D893             | 2306 | Checks if the Make-Up Bag has been made. | - |
+| 0x54008929             | 2307 | Checks if the Swimming Bag has been made. | - |
+| 0x2307B9BF             | 2308 | Checks if the Endurance Bag has been made. | - |
+| 0xBD632C1C             | 2309 | Checks if the Blizzard Bag has been made. | - |
+| 0xCA641C8A             | 2310 | Checks if the Righteous Bag has been made. | - |
 | 0x536D4D30             | 2311 | - | - |
-| 0x246A7DA6             | 2312 | - | - |
-| 0xB4D56037             | 2313 | - | - |
-| 0xC3D250A1             | 2314 | - | - |
-| 0xA315D944             | 2315 | - | - |
-| 0xD412E9D2             | 2316 | - | - |
-| 0x4D1BB868             | 2317 | - | - |
-| 0x3A1C88FE             | 2318 | - | - |
-| 0xA4781D5D             | 2319 | - | - |
-| 0xD37F2DCB             | 2320 | - | - |
-| 0x4A767C71             | 2321 | - | - |
-| 0x3D714CE7             | 2322 | - | - |
-| 0xADCE5176             | 2323 | - | - |
-| 0xDAC961E0             | 2324 | - | - |
-| 0x7091DC54             | 2325 | - | - |
-| 0x0796ECC2 (0x796ECC2) | 2326 | - | - |
+| 0x246A7DA6             | 2312 | Checks if the Fair Wind Charm has been made. | - |
+| 0xB4D56037             | 2313 | Checks if the Bright Charm has been made. | - |
+| 0xC3D250A1             | 2314 | Checks if the Guiding Charm has been made. | - |
+| 0xA315D944             | 2315 | Checks if the Splash Belt has been made. | - |
+| 0xD412E9D2             | 2316 | Checks if the Ultimate Belt has been made. | - |
+| 0x4D1BB868             | 2317 | Checks if the Alpine Sash has been made. | - |
+| 0x3A1C88FE             | 2318 | Checks if the Legend Sash has been made. | - |
+| 0xA4781D5D             | 2319 | Checks if the Blazing Sash has been made. | - |
+| 0xD37F2DCB             | 2320 | Checks if the Thunder Sash has been made. | - |
+| 0x4A767C71             | 2321 | Checks if the Succor Sash has been made. | - |
+| 0x3D714CE7             | 2322 | Checks if the Seismic Sash has been made. | - |
+| 0xADCE5176             | 2323 | Checks if the Salvation Sash has been made. | - |
+| 0xDAC961E0             | 2324 | Checks if the Serenity Sash has been made. | - |
+| 0x7091DC54             | 2325 | Checks if the Squall Sash has been made. | - |
+| 0x0796ECC2 (0x796ECC2) | 2326 | Checks if the Midnight Sun Sash has been made. | - |
 | 0x9E9FBD78             | 2327 | - | - |
-| 0xE9988DEE             | 2328 | - | - |
-| 0x77FC184D             | 2329 | - | - |
-| 0x00FB28DB (0xFB28DB)  | 2330 | - | - |
-| 0x99F27961             | 2331 | - | - |
-| 0xEEF549F7             | 2332 | - | - |
-| 0x7E4A5466             | 2333 | - | - |
-| 0x094D64F0 (0x94D64F0) | 2334 | - | - |
-| 0x698AED15             | 2335 | - | - |
-| 0x1E8DDD83             | 2336 | - | - |
-| 0x87848C39             | 2337 | - | - |
-| 0xF083BCAF             | 2338 | - | - |
-| 0x6EE7290C             | 2339 | - | - |
-| 0x19E0199A             | 2340 | - | - |
-| 0x80E94820             | 2341 | - | - |
-| 0xF7EE78B6             | 2342 | - | - |
-| 0x67516527             | 2343 | - | - |
+| 0xE9988DEE             | 2328 | Checks if the Mountain God Boon has been made. | - |
+| 0x77FC184D             | 2329 | Checks if the Annihilation Boon has been made. | - |
+| 0x00FB28DB (0xFB28DB)  | 2330 | Checks if the Plasma Charm has been made. | - |
+| 0x99F27961             | 2331 | Checks if the Hero’s Charm has been made. | - |
+| 0xEEF549F7             | 2332 | Checks if the Fisherman Bauble has been made. | - |
+| 0x7E4A5466             | 2333 | Checks if the Boatman Bauble has been made. | - |
+| 0x094D64F0 (0x94D64F0) | 2334 | Checks if the Invocation Bauble has been made. | - |
+| 0x698AED15             | 2335 | Checks if the Glacier Bauble has been made. | - |
+| 0x1E8DDD83             | 2336 | Checks if the Underworld Bauble has been made. | - |
+| 0x87848C39             | 2337 | Checks if the Evil Bauble has been made. | - |
+| 0xF083BCAF             | 2338 | Checks if the Swirlious Bauble has been made. | - |
+| 0x6EE7290C             | 2339 | Checks if the S. Swirlious Bauble has been made. | - |
+| 0x19E0199A             | 2340 | Checks if the Hellhound Bauble has been made. | - |
+| 0x80E94820             | 2341 | Checks if the Red Paws Bauble has been made. | - |
+| 0xF7EE78B6             | 2342 | Checks if the S. Red Paws Bauble has been made. | - |
+| 0x67516527             | 2343 | Checks if the Yo-kai Cat Bauble has been made. | - |
 
 ## FLAG_INFO_1 (6, 86) - GlobalByteFlag
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
 | 0x4FF4F23F             | 0    | - | `dummy` |
-| 0x0646F45E (0x646F45E) | 1    | - | `story_chara_num` |
-| 0xA45A65EC             | 2    | - | `gacha_use_count` |
+| 0x0646F45E (0x646F45E) | 1    | Checks how many Yo-kai you can befriend at once. | `story_chara_num` |
+| 0xA45A65EC             | 2    | Checks how many Crank-a-kai pulls you have. | `gacha_use_count` |
 | 0x9076E662             | 3    | - | - |
 | 0x2F508D80             | 4    | - | - |
-| 0xDE3AEC45             | 5    | - | `bad_time_change` |
-| 0x5CAB924C             | 6    | - | `passcomm_num` |
+| 0xDE3AEC45             | 5    | Checks if you have manually altered the time on the console. | `bad_time_change` |
+| 0x5CAB924C             | 6    | Checks how many Wandering Yo-kai you have. | `passcomm_num` |
 | 0xAFD49481             | 7    | - | - |
 | 0xC7AC3064             | 8    | - | - |
 | 0xB004D541             | 9    | - | - |
-| 0x3E80ECFC             | 11   | - | - |
+| 0x3E80ECFC             | 11   | - | `soul_create_count` |
 | 0x6092B325             | 12   | - | - |
 | 0x87ED3C02             | 13   | - | - |
 | 0x96DB972A             | 16   | - | - |
@@ -1476,16 +1476,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0831DB26 (0x831DB26) | 35   | - | - |
 | 0xE6BD7293             | 37   | Appears to be a general flag checked for cutscene befriends? | - |
 | 0xF5AB271D             | 38   | - | - |
-| 0x05E163F4 (0x5E163F4) | 40   | - | - |
-| 0x9CE8324E             | 41   | - | - |
-| 0xEBEF02D8             | 42   | - | - |
-| 0x758B977B             | 43   | - | - |
-| 0x028CA7ED (0x28CA7ED) | 44   | - | - |
-| 0x9B85F657             | 45   | - | - |
-| 0xEC82C6C1             | 46   | - | - |
-| 0x7C3DDB50             | 47   | - | - |
-| 0x0B3AEBC6 (0xB3AEBC6) | 48   | - | - |
-| 0x6BFD6223             | 49   | - | - |
+| 0x05E163F4 (0x5E163F4) | 40   | Checks how much stock is left for Houzzat's Int.: Shabby Base. | `shpR001_01` |
+| 0x9CE8324E             | 41   | Checks how much stock is left for Houzzat's Int.: Funky Fresh. | `shpR001_02` |
+| 0xEBEF02D8             | 42   | Checks how much stock is left for Houzzat's Int.: Steampunk Chic. (RCC Version) | `shpR001_03` |
+| 0x758B977B             | 43   | Checks how much stock is left for Houzzat's Int.: Steampunk Chic. (WDS Version) | `shpR001_04` |
+| 0x028CA7ED (0x28CA7ED) | 44   | Checks how much stock is left for Houzzat's Int.: OverTech. | `shpR001_05` |
+| 0x9B85F657             | 45   | Checks how much stock is left for Houzzat's Ext.: Shabby Base. | `shpR001_06` |
+| 0xEC82C6C1             | 46   | Checks how much stock is left for Houzzat's Ext.: Funky Fresh. | `shpR001_07` |
+| 0x7C3DDB50             | 47   | Checks how much stock is left for Houzzat's Ext.: Steampunk Chic. (RCC Version) | `shpR001_08` |
+| 0x0B3AEBC6 (0xB3AEBC6) | 48   | Checks how much stock is left for Houzzat's Ext.: Steampunk Chic. (WDS Version) | `shpR001_09` |
+| 0x6BFD6223             | 49   | Checks how much stock is left for Houzzat's Ext.: OverTech. | `shpR001_10` |
 | 0x14576D75             | 51   | - | - |
 | 0xC2B51582             | 53   | - | - |
 | 0x15B49283             | 54   | - | - |
@@ -1503,33 +1503,33 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xED768262             | 107  | - | - |
 | 0x7DC99FF3             | 108  | - | - |
 | 0x0ACEAF65 (0xACEAF65) | 109  | - | - |
-| 0xF1AE47E7             | 112  | - | - |
-| 0x68A7165D             | 113  | - | - |
-| 0x1FA026CB             | 114  | - | - |
-| 0x81C4B368             | 115  | - | - |
-| 0xF6C383FE             | 116  | - | - |
-| 0x6FCAD244             | 117  | - | - |
-| 0x18CDE2D2             | 118  | - | - |
-| 0x8872FF43             | 119  | - | - |
-| 0xFF75CFD5             | 120  | - | - |
-| 0x9FB24630             | 121  | - | - |
-| 0xE8B576A6             | 122  | - | - |
-| 0x71BC271C             | 123  | - | - |
-| 0x06BB178A (0x6BB178A) | 124  | - | - |
-| 0x98DF8229             | 125  | - | - |
-| 0xEFD8B2BF             | 126  | - | - |
-| 0x76D1E305             | 127  | - | - |
-| 0x01D6D393 (0x1D6D393) | 128  | - | - |
-| 0x9169CE02             | 129  | - | - |
-| 0xE66EFE94             | 130  | - | - |
-| 0xB49F15F3             | 131  | - | - |
-| 0xC3982565             | 132  | - | - |
-| 0x5A9174DF             | 133  | - | - |
-| 0x2D964449             | 134  | - | - |
-| 0xB3F2D1EA             | 135  | - | - |
-| 0xC4F5E17C             | 136  | - | - |
-| 0x5DFCB0C6             | 137  | - | - |
-| 0x2AFB8050             | 138  | - | - |
+| 0xF1AE47E7             | 112  | Checks how much stock is left for the VIP Room shop's Staminum Omega/Red Coin/Sproink Ultra Orb/Buff Weight. | `shpV001_01` |
+| 0x68A7165D             | 113  | Checks how much stock is left for the VIP Room shop's Ultra Str. Talisman/Yellow Coin/Gutsy Bones U Orb/Love Scepter. | `shpV001_02` |
+| 0x1FA026CB             | 114  | Checks how much stock is left for the VIP Room shop's Ult. Spirit Talisman/Orange Coin/SV Snaggerjag U Orb/Sand Suit. | `shpV001_03` |
+| 0x81C4B368             | 115  | Checks how much stock is left for the VIP Room shop's Ultra Def. Talisman/Pink Coin/Slimamander U Orb/Love Rice Ball. | `shpV001_04` |
+| 0xF6C383FE             | 116  | Checks how much stock is left for the VIP Room shop's Deluxe Rice Ball/Green Coin/Goldy Bones U Orb/Horn. | `shpV001_05` |
+| 0x6FCAD244             | 117  | Checks how much stock is left for the VIP Room shop's Nul Field/Blue Coin/Gargaros Ultra Orb/Love Buster. | `shpV001_06` |
+| 0x18CDE2D2             | 118  | Checks how much stock is left for the VIP Room shop's Statiking Trap/Purple Coin/Demuncher Ult Orb/GHz Orb. | `shpV001_07` |
+| 0x8872FF43             | 119  | Checks how much stock is left for the VIP Room shop's Golden Fist/Light-Blue Coin/Devourer Ultra Orb/Snowstorm Cloak. | `shpV001_08` |
+| 0xFF75CFD5             | 120  | Checks how much stock is left for the VIP Room shop's Ultra Blaze Bomb/1-Star Coin/Ogralus Ultra Orb/Raging Blade. | `shpV001_09` |
+| 0x9FB24630             | 121  | Checks how much stock is left for the VIP Room shop's Force Blaster GX/Hoggles Ultra Orb/Cursed Journal. | `shpV001_10` |
+| 0xE8B576A6             | 122  | Checks how much stock is left for the VIP Room shop's Getaway Daruma/Styx Mk. VI Ult Orb/Mem-o-Vac. | `shpV001_11` |
+| 0x71BC271C             | 123  | Checks how much stock is left for the VIP Room shop's Eyedra Ultra Orb/Swirly Soul. | `shpV001_12` |
+| 0x06BB178A (0x6BB178A) | 124  | Checks how much stock is left for the VIP Room shop's Glitzy Bones U Orb/Keystone. | `shpV001_13` |
+| 0x98DF8229             | 125  | Checks how much stock is left for the VIP Room shop's Whisped Cream U Orb/Comfy Closet. | `shpV001_14` |
+| 0xEFD8B2BF             | 126  | Checks how much stock is left for the VIP Room shop's Robonyan 28 U Orb/Legendary Blade. | `shpV001_15` |
+| 0x76D1E305             | 127  | Checks how much stock is left for the VIP Room shop's Kabuking Ultra Orb/Cursed Blade. | `shpV001_16` |
+| 0x01D6D393 (0x1D6D393) | 128  | Checks how much stock is left for the VIP Room shop's Tattleterror Ult Orb/General’s Soul. | `shpV001_17` |
+| 0x9169CE02             | 129  | Checks how much stock is left for the VIP Room shop's Wobblewok Ult Orb/Unbeatable Soul. | `shpV001_18` |
+| 0xE66EFE94             | 130  | Checks how much stock is left for the VIP Room shop's Mass Mutterer U Orb/Essence of Evil. | `shpV001_19` |
+| 0xB49F15F3             | 131  | Checks how much stock is left for the VIP Room shop's Orcanos Ultra Orb/Holy Blade. | `shpV001_20` |
+| 0xC3982565             | 132  | Checks how much stock is left for the VIP Room shop's Kat Kraydel Ult Orb/Glacial Clip. | `shpV001_21` |
+| 0x5A9174DF             | 133  | Checks how much stock is left for the VIP Room shop's Hinozall Ultra Orb/Platinum Bar. | `shpV001_22` |
+| 0x2D964449             | 134  | Checks how much stock is left for the VIP Room shop's Ageless Powder. | `shpV001_23` |
+| 0xB3F2D1EA             | 135  | Checks how much stock is left for the VIP Room shop's Shard of Evil. | `shpV001_24` |
+| 0xC4F5E17C             | 136  | Checks how much stock is left for the VIP Room shop's Dragon Orb. | `shpV001_25` |
+| 0x5DFCB0C6             | 137  | Checks how much stock is left for the VIP Room shop's Ethereal Water. | `shpV001_26` |
+| 0x2AFB8050             | 138  | Checks how much stock is left for the VIP Room shop's Mermaid Pearl. | `shpV001_27` |
 
 ## FLAG_INFO_2 (1, 1) - GlobalTBoxFlag
 
@@ -1565,7 +1565,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD4BA0DFB             | 27   | - | - |
 | 0x871BB140             | 28   | - | - |
 | 0x0E46AE1F (0xE46AE1F) | 29   | - | - |
-| 0x6955F504             | 30   | - | - |
+| 0x6955F504             | 30   | - | `coop_disable` |
 | 0x28A3401A             | 42   | - | - |
 | 0x57DE584B             | 43   | - | - |
 | 0x3F4F743B             | 45   | - | `confine_move` |
@@ -1604,7 +1604,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x69F2B210             | 100  | - | - |
 | 0xECF5A2BF             | 101  | - | - |
 | 0xEBACCC1D             | 102  | - | - |
-| 0x65691C07             | 103  | - | - |
+| 0x65691C07             | 103  | - | `tmp_tutorial_equip_item` |
 | 0xFB94A214             | 104  | - | - |
 | 0x74E22472             | 106  | - | - |
 | 0x8D4ACE84             | 107  | - | - |
