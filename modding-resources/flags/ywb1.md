@@ -146,9 +146,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x65C1E84E             | 192  | - | `get_y133800` |
 | 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. (The scene where Fuu 2 befriends you) | `ev13_1420` |
 | 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. (The scene where Lord Enma befriends you) | `ev13_1810` |
-| 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Blasters in the world of “What If?"" | - |
-| 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Blasters in the world of “What If?"" | - |
-| 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Blasters in the world of “What If?"" | - |
+| 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Yo-kai Watch Blasters! If" | - |
+| 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Yo-kai Watch Blasters! If" | - |
+| 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Yo-kai Watch Blasters! If" | - |
 | 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. (The scene with disclaimers about being a work of fiction) | `ev01_0100` |
 | 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. (The scene where the Blasters take on Gargaros but run away) | `ev01_0200` |
 | 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. (The scene where the Blasters remark what a close call that was) | `ev01_0230` |
