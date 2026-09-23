@@ -978,11 +978,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x526C6576             | 1838 | - | - |
 | 0xF26749CA             | 1839 | - | - |
 | 0x0EF06F61 (0xEF06F61) | 1840 | - | - |
-| 0xED63D5C7             | 1841 | - | - |
-| 0x3A6252C6             | 1842 | - | - |
-| 0x23796387             | 1843 | - | - |
-| 0x85A18FC9             | 1844 | - | - |
-| 0xDDC29F9F             | 1845 | - | - |
+| 0xED63D5C7             | 1841 | Checks if you have fought Jibanyan S that day. | `day_flg_y152900` |
+| 0x3A6252C6             | 1842 | Checks if you have fought Komasan S that day. | `day_flg_y159900` |
+| 0x23796387             | 1843 | Checks if you have fought Komajiro S that day. | `day_flg_y159910` |
+| 0x85A18FC9             | 1844 | Checks if you have fought Sir Nyansalot that day. | `day_flg_y457000` |
+| 0xDDC29F9F             | 1845 | Checks if you have fought Maginyan that day. | `day_flg_y458000` |
 | 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
 | 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
 | 0x4A0C9B3C             | 1860 | Checks if the Apprentice Sword has been made. | - |
