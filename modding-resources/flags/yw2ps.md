@@ -2541,7 +2541,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBB1EDF99 | 2526 | - | - |
 | 0x257A4A3A | 2527 | - | - |
 | 0x6F7D22E6 | 2528 | - | - |
-| 0xB83BCEE1 | 2529 | - | - |
+| 0xB83BCEE1 | 2529 | Checks if the oni misfortune reward for the day has already been claimed.  | - |
 | 0xECAF7455 | 2530 | - | - |
 | 0xF0DD63C2 | 2531 | - | - |
 | 0x7E148B0B | 2532 | - | - |
