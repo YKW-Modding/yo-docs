@@ -722,7 +722,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBCC52EF2 | 707 | - | - |
 | 0x2A4F4CDE | 708 | - | - |
 | 0xE6E54C40 | 709 | - | - |
-| 0x9A08A489 | 710 | 	Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) that day. | `day_flg_y211010` |
+| 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) that day. | `day_flg_y211010` |
 | 0x48E8BEC7 | 711 | - | - |
 | 0xD1E1EF7D | 712 | - | - |
 | 0xA6E6DFEB | 713 | - | - |
