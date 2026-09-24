@@ -555,7 +555,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAE6E90AE | 540 | - | - |
 | 0xA6771E9A | 541 | - | `edy_y147000_01` |
 | 0x0C3CAFE3 (0xC3CAFE3) | 542 | - | - |
-| 0x1C327562 | 543 | - | - |
+| 0x1C327562 | 543 | - | `edy_y218010_01` |
 | 0xE15501D3 | 544 | - | - |
 | 0xE228F358 | 545 | - | `ev51_0510_010` |
 | 0xC905A09B | 546 | - | `ev51_0510_020` |
@@ -1637,14 +1637,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB70F6B34 | 1622 | - | - |
 | 0x296BFE97 | 1623 | - | - |
 | 0x5E6CCE01 | 1624 | - | - |
-| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | - |
-| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | - |
-| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | - |
-| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | - |
-| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | - |
-| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | - |
-| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | - |
-| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | - |
+| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | `flg_race_01_01` |
+| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | `flg_race_01_02` |
+| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | `flg_race_02_01` |
+| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | `flg_race_02_02` |
+| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | `flg_race_03_01` |
+| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | `flg_race_03_02` |
+| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | `flg_race_04_01` |
+| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | `flg_race_04_02` |
 | 0xFC1AB67F | 1633 | - | - |
 | 0x6513E7C5 | 1634 | - | - |
 | 0x1214D753 | 1635 | - | - |
