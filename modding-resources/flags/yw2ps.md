@@ -98,7 +98,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |
 | 0x7D2EC7B5 | 84 | - | - |
-| 0x5EDE5FB0 | 85 | - | - |
+| 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | - |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
 | 0x7FA66054 | 88 | - | `sound_comp_notice` |
@@ -563,7 +563,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8644365C | 548 | - | `ev51_0510_050` |
 | 0xFAF1A82E | 549 | - | `ev51_0510_100` |
 | 0xCCC82F20 | 550 | - | - |
-| 0xFF23F48B | 551 | - | - |
+| 0xFF23F48B | 551 | Checks if you have unlocked Whisper in the Friends/Contacts app. | - |
 | 0x499912CF | 552 | - | - |
 | 0xE20BB187 | 553 | - | - |
 | 0xEB830C18 | 554 | - | - |
@@ -2285,7 +2285,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD1B49590 | 2270 | Checks if you've obtained the Spring Station Stamp (Stamp Rally). | `station_stamp_t100s17` |
 | 0x410B8801 | 2271 | Checks if you've obtained the Sunshine Station Stamp (Stamp Rally). | `station_stamp_t100s18` |
 | 0x4AE86950 | 2272 | Checks if you've collected all Stamp Rally Stamps. | `station_stamp_complete` |
-| 0x69CC7255 | 2273 | - | - |
+| 0x69CC7255 | 2273 | Checks if you've unlocked Rudy in the Friends/Contacts app. | - |
 | 0x123304A7 | 2274 | - | - |
 | 0xE6DEEF0D | 2275 | - | - |
 | 0x1F16E509 | 2276 | - | - |
@@ -2515,7 +2515,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA2923F1A | 2500 | - | - |
 | 0x2882A63D | 2501 | - | - |
 | 0xE6392FD7 | 2502 | - | - |
-| 0x404E2463 | 2503 | Unlocks Groovalicious in the Friends/Contacts app. | - |
+| 0x404E2463 | 2503 | Checks if you have unlocked Groovalicious in the Friends/Contacts app. | - |
 | 0xB2E1EF95 | 2504 | - | - |
 | 0x4EF18959 | 2505 | - | - |
 | 0x0112CCBA (0x112CCBA) | 2506 | - | - |
