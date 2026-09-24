@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB | 1 | Checks if you have beaten Dame Demona during the story. | `game_clear1` |
 | 0x8E660701 | 2 | Checks if you have beaten Kat Kraydel during the postgame story. | `game_clear2` |
 | 0x5B9AFA16 | 3 | - | - |
@@ -2577,7 +2577,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
 | 0x97580970 | 2 | Can either be 0, 1 or 2 - handled in `ywPlayData::SetBtlTempEnv`. | `weather_condition` |
 | 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar and clock | `watch_mode` |
@@ -3163,7 +3163,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x213DF173 | 1 | Uptown Springdale #1a | `tb_t101g00_a_01` |
 | 0xB834A0C9 | 2 | Uptown Springdale #2a | `tb_t101g00_a_02` |
 | 0xCF33905F | 3 | Uptown Springdale #3a | `tb_t101g00_a_03` |
@@ -3720,7 +3720,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115 | 1 | - | `home_sleep_out` |
 | 0xBC5BAB7F | 2 | - | `mj_temp_follow_pos` |
 | 0x2A9BF388 | 3 | - | - |
@@ -3889,7 +3889,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------| ---- |
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
 | 0xADBA2641 | 4 | - | `tmp_shop_id` |
