@@ -1637,14 +1637,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB70F6B34 | 1622 | - | - |
 | 0x296BFE97 | 1623 | - | - |
 | 0x5E6CCE01 | 1624 | - | - |
-| 0x4539B4E4 | 1625 | - | - |
-| 0xDC30E55E | 1626 | - | - |
-| 0x578C1B0A | 1627 | - | - |
-| 0xCE854AB0 | 1628 | - | - |
-| 0xEF307C6F | 1629 | - | - |
-| 0x76392DD5 | 1630 | - | - |
-| 0x72E744D6 | 1631 | - | - |
-| 0xEBEE156C | 1632 | - | - |
+| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | - |
+| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | - |
+| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | - |
+| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | - |
+| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | - |
+| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | - |
+| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | - |
+| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | - |
 | 0xFC1AB67F | 1633 | - | - |
 | 0x6513E7C5 | 1634 | - | - |
 | 0x1214D753 | 1635 | - | - |
@@ -2117,12 +2117,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE2D7F168 | 2102 | - | - |
 | 0xEABBFC54 | 2103 | - | `territory_t103g00_01` |
 | 0xAA9CE0F4 | 2104 | Checks if you have met Jibanyan S. | - |
-| 0x527C1B03 | 2105 | - | - |
-| 0x9ED61B9D | 2106 | - | - |
+| 0x527C1B03 | 2105 | Checks if you have met Komasan S. | - |
+| 0x9ED61B9D | 2106 | Checks if you have met Komajiro S. | - |
 | 0x34CA0E53 | 2107 | - | - |
 | 0xA1B1EBD6 | 2108 | - | - |
 | 0xF1882DA2 | 2109 | - | - |
-| 0xE71AB877 | 2110 | - | - |
+| 0xE71AB877 | 2110 | Checks if you have met Moximous N/Moximous K. | - |
 | 0x2F1CC2DA | 2111 | - | `territory_t104g00_01` |
 | 0xB6159360 | 2112 | - | `territory_t104g00_02` |
 | 0xC112A3F6 | 2113 | - | `territory_t104g00_03` |
@@ -2466,31 +2466,31 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC82B69C1 | 2451 | - | - |
 | 0x5122387B | 2452 | - | - |
 | 0x4F4C0918 | 2453 | - | - |
-| 0x90FFEE66 | 2454 | - | - |
+| 0x90FFEE66 | 2454 | Checks if you have met Hovernyan. | - |
 | 0x2B8A17F0 | 2455 | - | - |
-| 0xC9560C89 | 2456 | - | - |
-| 0x2261B78A | 2457 | - | - |
-| 0xCDA3DCB4 | 2458 | - | - |
+| 0xC9560C89 | 2456 | Checks if you have met Robonyan F. | - |
+| 0x2261B78A | 2457 | Checks if you have met Sailornyan. | - |
+| 0xCDA3DCB4 | 2458 | Checks if you have met Machonyan. | - |
 | 0x3CA88739 | 2459 | - | - |
-| 0xD36AEC07 | 2460 | - | - |
-| 0xEEF1180D | 2461 | - | - |
-| 0xA13B7B3A | 2462 | - | - |
-| 0xC4CC36F1 | 2463 | - | - |
-| 0x2B0E5DCF | 2464 | - | - |
-| 0xC039E6CC | 2465 | - | - |
-| 0x2FFB8DF2 | 2466 | - | - |
-| 0xCD27968B | 2467 | - | - |
-| 0x22E5FDB5 | 2468 | - | - |
-| 0xEE4FFD2B | 2469 | - | - |
-| 0x60C0FAC8 | 2470 | - | - |
-| 0xAC6AFA56 | 2471 | - | - |
-| 0xA6AFF34F | 2472 | - | - |
-| 0x6A05F3D1 | 2473 | - | - |
+| 0xD36AEC07 | 2460 | Checks if you have met Jetnyan. | - |
+| 0xEEF1180D | 2461 | Checks if you have met Wondernyan. | - |
+| 0xA13B7B3A | 2462 | Checks if you have met Robokapp. | - |
+| 0xC4CC36F1 | 2463 | Checks if you have met Robokoma. | - |
+| 0x2B0E5DCF | 2464 | Checks if you have met Robogramps. | - |
+| 0xC039E6CC | 2465 | Checks if you have met Robomutt. | - |
+| 0x2FFB8DF2 | 2466 | Checks if you have met Robonoko. | - |
+| 0xCD27968B | 2467 | Checks if you have met Robodraggie. | - |
+| 0x22E5FDB5 | 2468 | Checks if you have met Melonyan. | - |
+| 0xEE4FFD2B | 2469 | Checks if you have met Oranyan. | - |
+| 0x60C0FAC8 | 2470 | Checks if you have met Kiwinyan. | - |
+| 0xAC6AFA56 | 2471 | Checks if you have met Grapenyan. | - |
+| 0xA6AFF34F | 2472 | Checks if you have met Strawbnyan. | - |
+| 0x6A05F3D1 | 2473 | Checks if you have met Watermelnyan. | - |
 | 0x0927277E (0x927277E) | 2474 | - | - |
-| 0xCE984575 | 2475 | - | - |
-| 0xDC2DEA9B | 2476 | - | - |
+| 0xCE984575 | 2475 | Checks if you have permission to fight Robonyan F. | - |
+| 0xDC2DEA9B | 2476 | Checks if you have permission to fight Sailornyan. | - |
 | 0xC4269CF7 | 2477 | - | - |
-| 0x64918DFE | 2478 | - | - |
+| 0x64918DFE | 2478 | Checks if you have permission to fight Machonyan. | - |
 | 0x3E9B7DD6 | 2479 | - | - |
 | 0x14744422 | 2480 | - | - |
 | 0x57486B3C | 2481 | - | - |
