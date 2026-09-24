@@ -722,7 +722,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBCC52EF2 | 707 | - | - |
 | 0x2A4F4CDE | 708 | - | - |
 | 0xE6E54C40 | 709 | - | - |
-| 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) that day. | `day_flg_y211010` |
+| 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) today. | `day_flg_y211010` |
 | 0x48E8BEC7 | 711 | - | - |
 | 0xD1E1EF7D | 712 | - | - |
 | 0xA6E6DFEB | 713 | - | - |
@@ -2132,13 +2132,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1F6351F1 | 2117 | - | - |
 | 0x4779B929 | 2118 | - | - |
 | 0x896BC96E | 2119 | - | `territory_t105g00_01` |
-| 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S that day. | `day_flg_y152900` |
-| 0x3A6252C6 | 2121 | Checks if you have fought Komasan S that day. | `day_flg_y159900` |
-| 0x23796387 | 2122 | Checks if you have fought Komajiro S that day. | `day_flg_y159910` |
+| 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S today. | `day_flg_y152900` |
+| 0x3A6252C6 | 2121 | Checks if you have fought Komasan S today. | `day_flg_y159900` |
+| 0x23796387 | 2122 | Checks if you have fought Komajiro S today. | `day_flg_y159910` |
 | 0x571A3B69 | 2123 | - | - |
-| 0x7AAF26B6 | 2124 | Checks if you have fought Darkyubi that day. | `day_flg_y134020` |
-| 0xF6858D9A | 2125 | Checks if you have fought Illuminoct that day. | `day_flg_y221020` |
-| 0x32AD77FA | 2126 | Checks if you have fought Moximous N/Moximous K that day. | `day_flg_y355000` |
+| 0x7AAF26B6 | 2124 | Checks if you have fought Darkyubi today. | `day_flg_y134020` |
+| 0xF6858D9A | 2125 | Checks if you have fought Illuminoct today. | `day_flg_y221020` |
+| 0x32AD77FA | 2126 | Checks if you have fought Moximous N/Moximous K today. | `day_flg_y355000` |
 | 0xB883D3F3 | 2127 | - | `territory_t106g00_01` |
 | 0x218A8249 | 2128 | - | `territory_t106g00_02` |
 | 0x568DB2DF | 2129 | - | `territory_t106g00_03` |
@@ -2521,7 +2521,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0112CCBA (0x112CCBA) | 2506 | - | - |
 | 0x93BD8617 | 2507 | - | - |
 | 0xF642F7DE | 2508 | - | - |
-| 0x22B4C3EC | 2509 | Checks if you have fought Awevil that day. | `day_flg_y210010` |
+| 0x22B4C3EC | 2509 | Checks if you have fought Awevil today. | `day_flg_y210010` |
 | 0x796CF99E | 2510 | - | `time_warning_state` |
 | 0x8B049510 | 2511 | - | - |
 | 0xE45B36FC | 2512 | - | - |
@@ -2535,41 +2535,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x06C03313 (0x6C03313) | 2520 | - | - |
 | 0xBE7C5476 | 2521 | - | - |
 | 0x758AAEEF | 2522 | - | - |
-| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious that day. | `day_flg_y191010` |
+| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious today. | `day_flg_y191010` |
 | 0x5510BEB5 | 2524 | - | - |
 | 0xCC19EF0F | 2525 | - | - |
 | 0xBB1EDF99 | 2526 | - | - |
 | 0x257A4A3A | 2527 | - | - |
-| 0x6F7D22E6 | 2528 | - | - |
-| 0xB83BCEE1 | 2529 | Checks if the oni misfortune reward for the day has already been claimed.  | - |
+| 0x6F7D22E6 | 2528 | Checks if the Infinite Tunnel has been visited today. | `day_flg_enen` |
+| 0xB83BCEE1 | 2529 | Checks if the Oni Misfortune reward for the day has already been claimed.  | - |
 | 0xECAF7455 | 2530 | - | - |
-| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander that day. | - |
-| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag that day. | - |
+| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander today. | - |
+| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag today. | - |
 | 0x901AEA27 | 2533 | - | - |
 | 0x0E7E7F84 (0xE7E7F84) | 2534 | - | - |
-| 0x6404FE11 | 2535 | Checks if you have fought Hovernyan that day. | `day_flg_y236000` |
-| 0x921A66F3 | 2536 | Checks if you have fought Darknyan that day. | `day_flg_y342000` |
-| 0x0FCD5E4A (0xFCD5E4A) | 2537 | Checks if you have fought Robonyan F that day. | `day_flg_y345000` |
-| 0x1D78F1A4 | 2538 | Checks if you have fought Sailornyan that day. | `day_flg_y346000` |
-| 0xA5C496C1 | 2539 | Checks if you have fought Machonyan that day. | `day_flg_y347000` |
-| 0xFDA78697 | 2540 | Checks if you have fought Jibakoma that day. | `day_flg_y348000` |
-| 0x451BE1F2 | 2541 | Checks if you have fought Jetnyan that day. | `day_flg_y349000` |
-| 0x057387C8 (0x57387C8) | 2542 | Checks if you have fought Wondernyan that day. | `day_flg_y350000` |
-| 0x166A2C94 | 2543 | Checks if you have fought Robokapp that day. | `day_flg_y719000` |
-| 0x2CC219CE | 2544 | Checks if you have fought Robokoma that day. | `day_flg_y720000` |
-| 0x947E7EAB | 2545 | Checks if you have fought Robogramps that day. | `day_flg_y721000` |
-| 0x86CBD145 | 2546 | Checks if you have fought Robomutt that day. | `day_flg_y722000` |
-| 0x3E77B620 | 2547 | Checks if you have fought Robonoko that day. | `day_flg_y723000` |
-| 0xA3A08E99 | 2548 | Checks if you have fought Robodraggie that day. | `day_flg_y724000` |
-| 0x1B1CE9FC | 2549 | Checks if you have fought Melonyan that day. | `day_flg_y725000` |
-| 0x0207D8BD (0x207D8BD) | 2550 | Checks if you have fought Oranyan that day. | `day_flg_y725010` |
-| 0x292A8B7E | 2551 | Checks if you have fought Kiwinyan that day. | `day_flg_y725020` |
-| 0x3031BA3F | 2552 | Checks if you have fought Grapenyan that day. | `day_flg_y725030` |
-| 0x7F702CF8 | 2553 | Checks if you have fought Strawbnyan that day. | `day_flg_y725040` |
-| 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan that day. | `day_flg_y725050` |
+| 0x6404FE11 | 2535 | Checks if you have fought Hovernyan today. | `day_flg_y236000` |
+| 0x921A66F3 | 2536 | Checks if you have fought Darknyan today. | `day_flg_y342000` |
+| 0x0FCD5E4A (0xFCD5E4A) | 2537 | Checks if you have fought Robonyan F today. | `day_flg_y345000` |
+| 0x1D78F1A4 | 2538 | Checks if you have fought Sailornyan today. | `day_flg_y346000` |
+| 0xA5C496C1 | 2539 | Checks if you have fought Machonyan today. | `day_flg_y347000` |
+| 0xFDA78697 | 2540 | Checks if you have fought Jibakoma today. | `day_flg_y348000` |
+| 0x451BE1F2 | 2541 | Checks if you have fought Jetnyan today. | `day_flg_y349000` |
+| 0x057387C8 (0x57387C8) | 2542 | Checks if you have fought Wondernyan today. | `day_flg_y350000` |
+| 0x166A2C94 | 2543 | Checks if you have fought Robokapp today. | `day_flg_y719000` |
+| 0x2CC219CE | 2544 | Checks if you have fought Robokoma today. | `day_flg_y720000` |
+| 0x947E7EAB | 2545 | Checks if you have fought Robogramps today. | `day_flg_y721000` |
+| 0x86CBD145 | 2546 | Checks if you have fought Robomutt today. | `day_flg_y722000` |
+| 0x3E77B620 | 2547 | Checks if you have fought Robonoko today. | `day_flg_y723000` |
+| 0xA3A08E99 | 2548 | Checks if you have fought Robodraggie today. | `day_flg_y724000` |
+| 0x1B1CE9FC | 2549 | Checks if you have fought Melonyan today. | `day_flg_y725000` |
+| 0x0207D8BD (0x207D8BD) | 2550 | Checks if you have fought Oranyan today. | `day_flg_y725010` |
+| 0x292A8B7E | 2551 | Checks if you have fought Kiwinyan today. | `day_flg_y725020` |
+| 0x3031BA3F | 2552 | Checks if you have fought Grapenyan today. | `day_flg_y725030` |
+| 0x7F702CF8 | 2553 | Checks if you have fought Strawbnyan today. | `day_flg_y725040` |
+| 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan today. | `day_flg_y725050` |
 | 0x54FBB2FF | 2555 | - | - |
 | 0xCA9F275C | 2556 | - | - |
-| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey that day. | `day_flg_y287000` |
+| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey today. | `day_flg_y287000` |
 | 0x3070CFD6 | 2558 | - | - |
 | 0x2E4FCD24 | 2559 | - | - |
 
@@ -2579,8 +2579,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
-| 0x97580970 | 2 | Can either be 0, 1 or 2 - handled in `ywPlayData::SetBtlTempEnv`. | `weather_condition` |
-| 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar and clock | `watch_mode` |
+| 0x97580970 | 2 | Can either be 0, 1 or 2. 0 = Sunny, 1 = Rainy | `weather_condition` |
+| 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar & clock | `watch_mode` |
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | 0 = None, 1 = Gargaros, 2 = Ogralus, 3 = Orcanos | `orgeTimeMode` |
 | 0xDE40DAA8 | 6 | - | `orgeTimeGoalId` |
