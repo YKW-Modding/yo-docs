@@ -84,7 +84,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7F2211BC | 68 | - | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | - | - |
 | 0xE2B828E5 | 70 | - | - |
-| 0x21EFC7C8 | 71 | - | - |
+| 0x21EFC7C8 | 71 | Checks if you have received the Music App. | - |
 | 0xA68AEF18 | 72 | - | - |
 | 0xDA23D924 | 73 | - | - |
 | 0x5473D9AE | 74 | - | - |
@@ -595,7 +595,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB5438FE3 | 580 | - | - |
 | 0x8B0D480D | 581 | - | - |
 | 0x60850F27 | 582 | - | - |
-| 0xCD64AD12 | 583 | - | - |
+| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | - |
 | 0xBAE3EE5F | 584 | - | - |
 | 0xB17D48A1 | 585 | - | - |
 | 0x76C15718 | 586 | Checks if 4F at the Springdale Business Tower has been unlocked. | `office building_floor_4` |
@@ -2002,7 +2002,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA1A4A14D | 1987 | - | - |
 | 0xE261D9FE | 1988 | - | - |
 | 0x7E3D8F19 | 1989 | - | - |
-| 0xEFAFA129 | 1990 | - | - |
+| 0xEFAFA129 | 1990 | Checks if you have unlocked the Groovalicious Hustle rhythm game. | - |
 | 0x1A657FD3 | 1991 | - | - |
 | 0x31482C10 | 1992 | - | - |
 | 0x8411BFA3 | 1993 | - | - |
@@ -2491,7 +2491,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDC2DEA9B | 2476 | Checks if you have permission to fight Sailornyan. | - |
 | 0xC4269CF7 | 2477 | - | - |
 | 0x64918DFE | 2478 | Checks if you have permission to fight Machonyan. | - |
-| 0x3E9B7DD6 | 2479 | - | - |
+| 0x3E9B7DD6 | 2479 | Checks if you have been given a Red Box. | - |
 | 0x14744422 | 2480 | - | - |
 | 0x57486B3C | 2481 | - | - |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | - | - |
@@ -2521,7 +2521,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0112CCBA (0x112CCBA) | 2506 | - | - |
 | 0x93BD8617 | 2507 | - | - |
 | 0xF642F7DE | 2508 | - | - |
-| 0x22B4C3EC | 2509 | Checks if you have fought Moximous Awevil that day. | `day_flg_y210010` |
+| 0x22B4C3EC | 2509 | Checks if you have fought Awevil that day. | `day_flg_y210010` |
 | 0x796CF99E | 2510 | - | `time_warning_state` |
 | 0x8B049510 | 2511 | - | - |
 | 0xE45B36FC | 2512 | - | - |
@@ -2535,7 +2535,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x06C03313 (0x6C03313) | 2520 | - | - |
 | 0xBE7C5476 | 2521 | - | - |
 | 0x758AAEEF | 2522 | - | - |
-| 0x2CEC9DE6 | 2523 | Checks if you have thought Neighfarious that day? | `day_flg_y191010` |
+| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious that day. | `day_flg_y191010` |
 | 0x5510BEB5 | 2524 | - | - |
 | 0xCC19EF0F | 2525 | - | - |
 | 0xBB1EDF99 | 2526 | - | - |
@@ -2543,8 +2543,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6F7D22E6 | 2528 | - | - |
 | 0xB83BCEE1 | 2529 | Checks if the oni misfortune reward for the day has already been claimed.  | - |
 | 0xECAF7455 | 2530 | - | - |
-| 0xF0DD63C2 | 2531 | - | - |
-| 0x7E148B0B | 2532 | - | - |
+| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander that day. | - |
+| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag that day. | - |
 | 0x901AEA27 | 2533 | - | - |
 | 0x0E7E7F84 (0xE7E7F84) | 2534 | - | - |
 | 0x6404FE11 | 2535 | Checks if you have fought Hovernyan that day. | `day_flg_y236000` |
@@ -2569,7 +2569,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan that day. | `day_flg_y725050` |
 | 0x54FBB2FF | 2555 | - | - |
 | 0xCA9F275C | 2556 | - | - |
-| 0xAB68A865 | 2557 | Checks if you have fought High Gnomey that day? | `day_flg_y287000` |
+| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey that day. | `day_flg_y287000` |
 | 0x3070CFD6 | 2558 | - | - |
 | 0x2E4FCD24 | 2559 | - | - |
 
