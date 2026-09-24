@@ -2569,7 +2569,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan today. | `day_flg_y725050` |
 | 0x54FBB2FF | 2555 | - | - |
 | 0xCA9F275C | 2556 | - | - |
-| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey today. | `day_flg_y287000` |
+| 0xAB68A865 | 2557 | Checks if you have used the High Gnomey baffle board today. | `day_flg_y287000` |
 | 0x3070CFD6 | 2558 | - | - |
 | 0x2E4FCD24 | 2559 | - | - |
 
