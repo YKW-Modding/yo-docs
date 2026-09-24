@@ -84,7 +84,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7F2211BC | 68 | - | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | - | - |
 | 0xE2B828E5 | 70 | - | - |
-| 0x21EFC7C8 | 71 | - | - |
+| 0x21EFC7C8 | 71 | Checks if you have received the Music App. | - |
 | 0xA68AEF18 | 72 | - | - |
 | 0xDA23D924 | 73 | - | - |
 | 0x5473D9AE | 74 | - | - |
@@ -98,7 +98,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |
 | 0x7D2EC7B5 | 84 | - | - |
-| 0x5EDE5FB0 | 85 | - | - |
+| 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | - |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
 | 0x7FA66054 | 88 | - | `sound_comp_notice` |
@@ -563,7 +563,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8644365C | 548 | - | `ev51_0510_050` |
 | 0xFAF1A82E | 549 | - | `ev51_0510_100` |
 | 0xCCC82F20 | 550 | - | - |
-| 0xFF23F48B | 551 | - | - |
+| 0xFF23F48B | 551 | Checks if you have unlocked Whisper in the Friends/Contacts app. | - |
 | 0x499912CF | 552 | - | - |
 | 0xE20BB187 | 553 | - | - |
 | 0xEB830C18 | 554 | - | - |
@@ -595,7 +595,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB5438FE3 | 580 | - | - |
 | 0x8B0D480D | 581 | - | - |
 | 0x60850F27 | 582 | - | - |
-| 0xCD64AD12 | 583 | - | - |
+| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | - |
 | 0xBAE3EE5F | 584 | - | - |
 | 0xB17D48A1 | 585 | - | - |
 | 0x76C15718 | 586 | Checks if 4F at the Springdale Business Tower has been unlocked. | `office building_floor_4` |
@@ -1637,14 +1637,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB70F6B34 | 1622 | - | - |
 | 0x296BFE97 | 1623 | - | - |
 | 0x5E6CCE01 | 1624 | - | - |
-| 0x4539B4E4 | 1625 | - | - |
-| 0xDC30E55E | 1626 | - | - |
-| 0x578C1B0A | 1627 | - | - |
-| 0xCE854AB0 | 1628 | - | - |
-| 0xEF307C6F | 1629 | - | - |
-| 0x76392DD5 | 1630 | - | - |
-| 0x72E744D6 | 1631 | - | - |
-| 0xEBEE156C | 1632 | - | - |
+| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | - |
+| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | - |
+| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | - |
+| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | - |
+| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | - |
+| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | - |
+| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | - |
+| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | - |
 | 0xFC1AB67F | 1633 | - | - |
 | 0x6513E7C5 | 1634 | - | - |
 | 0x1214D753 | 1635 | - | - |
@@ -2002,7 +2002,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA1A4A14D | 1987 | - | - |
 | 0xE261D9FE | 1988 | - | - |
 | 0x7E3D8F19 | 1989 | - | - |
-| 0xEFAFA129 | 1990 | - | - |
+| 0xEFAFA129 | 1990 | Checks if you have unlocked the Groovalicious Hustle rhythm game. | - |
 | 0x1A657FD3 | 1991 | - | - |
 | 0x31482C10 | 1992 | - | - |
 | 0x8411BFA3 | 1993 | - | - |
@@ -2117,12 +2117,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE2D7F168 | 2102 | - | - |
 | 0xEABBFC54 | 2103 | - | `territory_t103g00_01` |
 | 0xAA9CE0F4 | 2104 | Checks if you have met Jibanyan S. | - |
-| 0x527C1B03 | 2105 | - | - |
-| 0x9ED61B9D | 2106 | - | - |
+| 0x527C1B03 | 2105 | Checks if you have met Komasan S. | - |
+| 0x9ED61B9D | 2106 | Checks if you have met Komajiro S. | - |
 | 0x34CA0E53 | 2107 | - | - |
 | 0xA1B1EBD6 | 2108 | - | - |
 | 0xF1882DA2 | 2109 | - | - |
-| 0xE71AB877 | 2110 | - | - |
+| 0xE71AB877 | 2110 | Checks if you have met Moximous N/Moximous K. | - |
 | 0x2F1CC2DA | 2111 | - | `territory_t104g00_01` |
 | 0xB6159360 | 2112 | - | `territory_t104g00_02` |
 | 0xC112A3F6 | 2113 | - | `territory_t104g00_03` |
@@ -2285,7 +2285,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD1B49590 | 2270 | Checks if you've obtained the Spring Station Stamp (Stamp Rally). | `station_stamp_t100s17` |
 | 0x410B8801 | 2271 | Checks if you've obtained the Sunshine Station Stamp (Stamp Rally). | `station_stamp_t100s18` |
 | 0x4AE86950 | 2272 | Checks if you've collected all Stamp Rally Stamps. | `station_stamp_complete` |
-| 0x69CC7255 | 2273 | - | - |
+| 0x69CC7255 | 2273 | Checks if you've unlocked Rudy in the Friends/Contacts app. | - |
 | 0x123304A7 | 2274 | - | - |
 | 0xE6DEEF0D | 2275 | - | - |
 | 0x1F16E509 | 2276 | - | - |
@@ -2466,32 +2466,32 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC82B69C1 | 2451 | - | - |
 | 0x5122387B | 2452 | - | - |
 | 0x4F4C0918 | 2453 | - | - |
-| 0x90FFEE66 | 2454 | - | - |
+| 0x90FFEE66 | 2454 | Checks if you have met Hovernyan. | - |
 | 0x2B8A17F0 | 2455 | - | - |
-| 0xC9560C89 | 2456 | - | - |
-| 0x2261B78A | 2457 | - | - |
-| 0xCDA3DCB4 | 2458 | - | - |
+| 0xC9560C89 | 2456 | Checks if you have met Robonyan F. | - |
+| 0x2261B78A | 2457 | Checks if you have met Sailornyan. | - |
+| 0xCDA3DCB4 | 2458 | Checks if you have met Machonyan. | - |
 | 0x3CA88739 | 2459 | - | - |
-| 0xD36AEC07 | 2460 | - | - |
-| 0xEEF1180D | 2461 | - | - |
-| 0xA13B7B3A | 2462 | - | - |
-| 0xC4CC36F1 | 2463 | - | - |
-| 0x2B0E5DCF | 2464 | - | - |
-| 0xC039E6CC | 2465 | - | - |
-| 0x2FFB8DF2 | 2466 | - | - |
-| 0xCD27968B | 2467 | - | - |
-| 0x22E5FDB5 | 2468 | - | - |
-| 0xEE4FFD2B | 2469 | - | - |
-| 0x60C0FAC8 | 2470 | - | - |
-| 0xAC6AFA56 | 2471 | - | - |
-| 0xA6AFF34F | 2472 | - | - |
-| 0x6A05F3D1 | 2473 | - | - |
+| 0xD36AEC07 | 2460 | Checks if you have met Jetnyan. | - |
+| 0xEEF1180D | 2461 | Checks if you have met Wondernyan. | - |
+| 0xA13B7B3A | 2462 | Checks if you have met Robokapp. | - |
+| 0xC4CC36F1 | 2463 | Checks if you have met Robokoma. | - |
+| 0x2B0E5DCF | 2464 | Checks if you have met Robogramps. | - |
+| 0xC039E6CC | 2465 | Checks if you have met Robomutt. | - |
+| 0x2FFB8DF2 | 2466 | Checks if you have met Robonoko. | - |
+| 0xCD27968B | 2467 | Checks if you have met Robodraggie. | - |
+| 0x22E5FDB5 | 2468 | Checks if you have met Melonyan. | - |
+| 0xEE4FFD2B | 2469 | Checks if you have met Oranyan. | - |
+| 0x60C0FAC8 | 2470 | Checks if you have met Kiwinyan. | - |
+| 0xAC6AFA56 | 2471 | Checks if you have met Grapenyan. | - |
+| 0xA6AFF34F | 2472 | Checks if you have met Strawbnyan. | - |
+| 0x6A05F3D1 | 2473 | Checks if you have met Watermelnyan. | - |
 | 0x0927277E (0x927277E) | 2474 | - | - |
-| 0xCE984575 | 2475 | - | - |
-| 0xDC2DEA9B | 2476 | - | - |
+| 0xCE984575 | 2475 | Checks if you have permission to fight Robonyan F. | - |
+| 0xDC2DEA9B | 2476 | Checks if you have permission to fight Sailornyan. | - |
 | 0xC4269CF7 | 2477 | - | - |
-| 0x64918DFE | 2478 | - | - |
-| 0x3E9B7DD6 | 2479 | - | - |
+| 0x64918DFE | 2478 | Checks if you have permission to fight Machonyan. | - |
+| 0x3E9B7DD6 | 2479 | Checks if you have been given a Red Box. | - |
 | 0x14744422 | 2480 | - | - |
 | 0x57486B3C | 2481 | - | - |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | - | - |
@@ -2515,13 +2515,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA2923F1A | 2500 | - | - |
 | 0x2882A63D | 2501 | - | - |
 | 0xE6392FD7 | 2502 | - | - |
-| 0x404E2463 | 2503 | Unlocks Groovalicious in the Friends/Contacts app. | - |
+| 0x404E2463 | 2503 | Checks if you have unlocked Groovalicious in the Friends/Contacts app. | - |
 | 0xB2E1EF95 | 2504 | - | - |
 | 0x4EF18959 | 2505 | - | - |
 | 0x0112CCBA (0x112CCBA) | 2506 | - | - |
 | 0x93BD8617 | 2507 | - | - |
 | 0xF642F7DE | 2508 | - | - |
-| 0x22B4C3EC | 2509 | Checks if you have fought Moximous Awevil that day. | `day_flg_y210010` |
+| 0x22B4C3EC | 2509 | Checks if you have fought Awevil that day. | `day_flg_y210010` |
 | 0x796CF99E | 2510 | - | `time_warning_state` |
 | 0x8B049510 | 2511 | - | - |
 | 0xE45B36FC | 2512 | - | - |
@@ -2535,7 +2535,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x06C03313 (0x6C03313) | 2520 | - | - |
 | 0xBE7C5476 | 2521 | - | - |
 | 0x758AAEEF | 2522 | - | - |
-| 0x2CEC9DE6 | 2523 | Checks if you have thought Neighfarious that day? | `day_flg_y191010` |
+| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious that day. | `day_flg_y191010` |
 | 0x5510BEB5 | 2524 | - | - |
 | 0xCC19EF0F | 2525 | - | - |
 | 0xBB1EDF99 | 2526 | - | - |
@@ -2543,8 +2543,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6F7D22E6 | 2528 | - | - |
 | 0xB83BCEE1 | 2529 | Checks if the oni misfortune reward for the day has already been claimed.  | - |
 | 0xECAF7455 | 2530 | - | - |
-| 0xF0DD63C2 | 2531 | - | - |
-| 0x7E148B0B | 2532 | - | - |
+| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander that day. | - |
+| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag that day. | - |
 | 0x901AEA27 | 2533 | - | - |
 | 0x0E7E7F84 (0xE7E7F84) | 2534 | - | - |
 | 0x6404FE11 | 2535 | Checks if you have fought Hovernyan that day. | `day_flg_y236000` |
@@ -2569,7 +2569,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan that day. | `day_flg_y725050` |
 | 0x54FBB2FF | 2555 | - | - |
 | 0xCA9F275C | 2556 | - | - |
-| 0xAB68A865 | 2557 | Checks if you have fought High Gnomey that day? | `day_flg_y287000` |
+| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey that day. | `day_flg_y287000` |
 | 0x3070CFD6 | 2558 | - | - |
 | 0x2E4FCD24 | 2559 | - | - |
 
