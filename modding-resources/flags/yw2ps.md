@@ -595,7 +595,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB5438FE3 | 580 | - | - |
 | 0x8B0D480D | 581 | - | - |
 | 0x60850F27 | 582 | - | - |
-| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | - |
+| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | `t106i23_open` |
 | 0xBAE3EE5F | 584 | - | - |
 | 0xB17D48A1 | 585 | - | - |
 | 0x76C15718 | 586 | Checks if 4F at the Springdale Business Tower has been unlocked. | `office building_floor_4` |
