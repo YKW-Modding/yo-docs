@@ -27,10 +27,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x43677DBA | 13 | - | - |
 | 0x07596C9E (0x7596C9E) | 14 | - | - |
 | 0xC6497FC0 | 15 | - | - |
-| 0x355AD19A | 16 | - | - |
+| 0x355AD19A | 16 | - | `cleaner_working` |
 | 0xAD5C86B8 | 17 | - | - |
 | 0xB0EA5597 | 18 | - | - |
-| 0x79A2ABEB | 19 | - | - |
+| 0x79A2ABEB | 19 | - | `bustup_gekiga` |
 | 0x5EEA3531 | 20 | - | - |
 | 0xE32CCA14 | 21 | - | - |
 | 0x8A81D006 | 22 | - | `dictionary_comp_notice` |
@@ -98,9 +98,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDD314022 | 95 | - | - |
 | 0x09454D88 (0x9454D88) | 96 | - | - |
 | 0x15FACE47 | 97 | - | - |
-| 0x6DC0A69D | 98 | - | - |
+| 0x6DC0A69D | 98 | - | `insect_release` |
 | 0x23710843 | 99 | - | - |
-| 0xEF64A539 | 100 | - | - |
+| 0xEF64A539 | 100 | - | `fishing_release` |
 | 0x7013A2B0 | 101 | - | - |
 | 0x7D24EA33 | 102 | - | `fishing_valid` |
 | 0xE39F2A32 | 103 | - | `magnifying_glass_valid` |
@@ -114,7 +114,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB29365A2 | 112 | - | - |
 | 0xA5011B7E | 113 | - | `enable_cross_walk` |
 | 0xCD64AD12 | 114 | - | `t106i23_open` |
-| 0xB14CC857 | 115 | - | - |
+| 0xB14CC857 | 115 | - | `youki_release` |
 | 0xD03ED610 | 116 | - | `gate_release` |
 | 0xB8573214 | 117 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 118 | - | - |
