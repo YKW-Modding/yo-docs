@@ -3996,7 +3996,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x346FC9A5 | 479 | - | - |
 | 0xCA2B6DCE | 480 | - | - |
 | 0xBD2C5D58 | 481 | - | - |
-| 0x24250CE2 | 482 | - | - |
+| 0x24250CE2 | 482 | - | `cnt_qsa0082` |
 | 0x53223C74 | 483 | - | - |
 | 0xCD46A9D7 | 484 | - | - |
 | 0xBA419941 | 485 | - | - |
