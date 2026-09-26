@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x4FF4F23F             | 0    | - | `dummy` |
+| 0x4FF4F23F             | 0    | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB             | 1    | Checks if you have beaten Whisped Cream during the story. | `game_clear1` |
 | 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
 | 0xF24F1BCA             | 17   | Checks if you have gotten the Music App. | - |
@@ -1444,7 +1444,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x4FF4F23F             | 0    | - | `dummy` |
+| 0x4FF4F23F             | 0    | Dummy flag. Should be zero. | `dummy` |
 | 0x0646F45E (0x646F45E) | 1    | Checks how many Yo-kai you can befriend at once. | `story_chara_num` |
 | 0xA45A65EC             | 2    | Checks how many Crank-a-kai pulls you have. | `gacha_use_count` |
 | 0x9076E662             | 3    | - | - |
@@ -1535,13 +1535,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 | ---------- | ---- | ----- | ---- |
-| 0x4FF4F23F | 0    | - | `dummy` |
+| 0x4FF4F23F | 0    | Dummy flag. Should be zero. | `dummy` |
 
 ## FLAG_INFO_3 (7, 94) - TempBitFlag
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x98CE5C36             | 0    | - | `tmp_dummy` |
+| 0x98CE5C36             | 0    | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115             | 1    | - | `home_sleep_out` |
 | 0x852EB369             | 2    | - | - |
 | 0xDDEB9A08             | 3    | - | - |
@@ -1640,7 +1640,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x98CE5C36             | 0    | - | `tmp_dummy` |
+| 0x98CE5C36             | 0    | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8             | 1    | - | `tmp_event_select` |
 | 0xC99C90E8             | 3    | - | `tmp_shop_sell` |
 | 0xADBA2641             | 4    | - | `tmp_shop_id` |
