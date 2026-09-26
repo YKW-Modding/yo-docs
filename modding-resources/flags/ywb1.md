@@ -1664,6 +1664,6 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEEC4744B             | 74   | - | `tmp_gacha_type` |
 | 0xED46195D             | 75   | - | - |
 | 0x6A234EC1             | 76   | - | - |
-| 0x04BD4BDE (0x4BD4BDE) | 108  | - | - |
+| 0x04BD4BDE (0x4BD4BDE) | 108  | - | `tmp_mission_route` |
 | 0x13DC9CD3             | 109  | - | - |
 | 0xC939DE59             | 110  | - | - |
