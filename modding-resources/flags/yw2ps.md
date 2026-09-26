@@ -2591,7 +2591,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA6D7BB27 | 12 | Checks which Yo-kai side you have selected. 0 = Undecided, 1 = Bony, 2 = Fleshy. | - |
 | 0xEE5E8CA9 | 13 | - | `count_died` |
 | 0x5CAB924C | 14 | - | `passcomm_num` |
-| 0x3ABC5212 | 15 | - | - |
+| 0x3ABC5212 | 15 | - | `scratch_count` |
 | 0xA45A65EC | 16 | Stores how many Crank-a-kai attempts are left. | `gacha_use_count` |
 | 0x9B568822 | 17 | - | `count_t104i23` |
 | 0x3C28BE20 | 18 | - | `count_battle` |
