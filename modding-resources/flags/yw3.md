@@ -32,7 +32,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB0EA5597 | 18 | - | - |
 | 0x79A2ABEB | 19 | - | `bustup_gekiga` |
 | 0x5EEA3531 | 20 | - | - |
-| 0xE32CCA14 | 21 | - | - |
+| 0xE32CCA14 | 21 | - | `creature_dictionary_comp_notice` |
 | 0x8A81D006 | 22 | - | `dictionary_comp_notice` |
 | 0x04FA47F4 (0x4FA47F4) | 23 | - | `event_comp_notice` |
 | 0x7FA66054 | 24 | - | `sound_comp_notice` |
