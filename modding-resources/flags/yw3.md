@@ -44,7 +44,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAFF78D0C | 30 | - | - |
 | 0x4631101A | 31 | - | - |
 | 0xF9A74330 | 32 | - | - |
-| 0x34BFBD94 | 33 | - | - |
+| 0x34BFBD94 | 33 | - | `treasure_apps_comp_notice` |
 | 0x4A120170 | 34 | - | - |
 | 0x0C65BA25 (0xC65BA25) | 35 | - | - |
 | 0x90D6104C | 36 | - | - |
