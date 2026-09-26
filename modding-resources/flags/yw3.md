@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB | 1 | - | `game_clear1` |
 | 0x8E660701 | 2 | - | `game_clear2` |
 | 0xF9613797 | 3 | - | `game_clear3` |
@@ -3593,7 +3593,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
 | 0x97580970 | 2 | - | `weather_condition` |
 | 0xC629E7F8 | 3 | - | `watch_mode` |
@@ -4131,7 +4131,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 2 | - | `t101g00` |
 | 0x629D8D39 | 23 | - | `t101d01` |
@@ -4190,7 +4190,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 3 | - | `t101g00` |
 | 0x629D8D39 | 39 | - | `t101d01` |
@@ -4310,7 +4310,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115 | 1 | - | `home_sleep_out` |
 | 0xBC5BAB7F | 2 | - | `mj_temp_follow_pos` |
 | 0x2A9BF388 | 3 | - | - |
@@ -4550,7 +4550,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xCA4EA9AE | 2 | - | - |
 | 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
@@ -4846,7 +4846,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x9485176C | 1 | - | - |
 | 0x0D8C46D6 (0xD8C46D6) | 2 | - | - |
 | 0x7A8B7640 | 3 | - | - |
