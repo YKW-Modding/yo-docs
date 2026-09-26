@@ -4178,7 +4178,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x68C4141B | 303 | - | `t412g00` |
 | 0xDC80D053 | 307 | - | `t001g00` |
 | 0x8AEC7BEF | 327 | - | `t400d01` |
-| 0xF9EB4A06 | 332 | - | - |
+| 0xF9EB4A06 | 332 | - | `zombienight` |
 | 0x8C4D41E0 | 382 | - | `t501g00` |
 | 0x507C7926 | 402 | - | `t131g00` |
 | 0x253DF7E9 | 412 | - | `t131d01` |
