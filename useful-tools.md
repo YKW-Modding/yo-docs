@@ -10,8 +10,8 @@ nav_order: 5
 
 ### **Kuriimu2**
 Kuriimu2 is a fan translation toolkit that supports nearly every non-model related YW file format.
-It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) and uses a hyper-flexible plugin system so you can easily contribute to the project (I myself am planning to make a PR to add support for Icon CTPK reading)
-> *Note: Kuriimu2 dosent support text editing as of yet but its predecesor Kuriimu does!*
+It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) and uses a hyper-flexible plugin system so you can easily contribute to the project.
+> *Note: Kuriimu2 dosent support text editing for t2b (.cfg.bin) files as of yet but its predecesor Kuriimu does!*
 
 ### **Kuriimu**
 Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
@@ -23,7 +23,7 @@ Pingouin is a tool to extract archives (XFSA, XPCK, XFSP and even good ol' ZIP).
 This tool allows you to read, modify and export/import the `cfg.bin` (Binary config) format used by the games to store serialised JSON-like data. Some files namely `npcbin` and `mapenv.bin` stil use this format despite the name. The current tool by onepiecefreak can be found [here](https://github.com/onepiecefreak3/CfgBinEditor) - the predecesor by Tiniifan can be found [here](https://github.com/Tiniifan/CfgBinEditor) and the original version by Togenyan can be found [here](https://github.com/togenyan/CfgBinEditor).
 
 ### **XtractQuery**
-XtractQuery is a command-line decompiler for Level5's `.xq` scripts (XQSEQ/XQ32) by onepiecefreak. It can be found [here](https://github.com/onepiecefreak3/XtractQuery/releases).
+XtractQuery is a command-line decompiler/compiler for Level5's script formats, namely `.xq` (XQSEQ/XQ32) and `.xs` (XSCR). It is made by onepiecefreak. It can be found [here](https://github.com/onepiecefreak3/XtractQuery/releases).
 
 ### **Nyanko**
 Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
