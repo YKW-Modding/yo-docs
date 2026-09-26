@@ -16,7 +16,7 @@ It can be found [here](https://github.com/FanTranslatorsInternational/Kuriimu2) 
 ### **Kuriimu**
 Kuriimu, Karameru, and Kukkii combined form the predecesor to **Kuriimu2**. These have the benefit of text editing despite being older! They can be found [here](https://github.com/IcySon55/Kuriimu).
 
-### **Pinguoin**
+### **Pingouin**
 Pingouin is a tool to extract archives (XFSA, XPCK, XFSP and even good ol' ZIP). It can be found [here](https://github.com/Tiniifan/Pingouin) although Kuriimu2 should be used instead.
 
 ### **CfgBin Editor**
@@ -28,8 +28,8 @@ XtractQuery is a command-line decompiler for Level5's `.xq` scripts (XQSEQ/XQ32)
 ### **Nyanko**
 Nyanko is a version of CfgBin Editor that *only supports text editing* as it is its main purpose for use translating. It can be found [here](https://github.com/Tiniifan/Nyanko).
 
-### **Studio Eleven**
-A blender plugin to add support for Level5 Models and Animations, it can be found [here](https://github.com/Tiniifan/studio_eleven) and is the current best way to edit them (despite it having some bugs here and there).
+### **studio_eleven**
+A blender plugin to add support for Level5 Models and Animations, it can be found [here](https://github.com/Tiniifan/studio_eleven) and is the current best way to edit them.
 
 ### **Metanoia**
 Modified versions of Metanoia exist as tools for reading/editing Yo-kai Watch models. Use Studio Eleven instead - although Tiniifans fork of Metanoia can be found [here](https://github.com/Tiniifan/Metanoia) and another fork can be found [here](https://github.com/YKW-Modding/Metanoia/releases).
@@ -55,7 +55,7 @@ Mobius can be found [here](https://github.com/AdibSurani/Mobius).
 
 ## General Tools
 
-### **Albatros**
+### **Albatross**
 A general modding tool for Yo-kai Watch. It hasnt been updated in a while and only supports Yo-kai editing as of now. It can be found [here](https://github.com/Tiniifan/Albatross).
 
 ### **LuaDeobfuscator**
