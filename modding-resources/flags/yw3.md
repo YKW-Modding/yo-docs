@@ -4594,7 +4594,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x92F3F811 | 54 | - | - |
 | 0xEC61F820 | 56 | - | - |
 | 0xC4F36BD5 | 57 | - | - |
-| 0xD3C595A5 | 59 | - | `tmp_alarm_time_hour` |
+| 0xD3C595A5 | 59 | Hour set when the player uses the alarm clock. | `tmp_alarm_time_hour` |
 | 0x8AD93348 | 64 | - | `force_win_type` |
 | 0xB9F63984 | 65 | - | `tmp_gacha_coin_1` |
 | 0x20FF683E | 66 | - | `tmp_gacha_coin_2` |
