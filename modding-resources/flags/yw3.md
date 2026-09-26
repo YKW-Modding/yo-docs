@@ -4132,7 +4132,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
-| 0x438CB286 | 1 | - | - |
+| 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 2 | - | `t101g00` |
 | 0x629D8D39 | 23 | - | `t101d01` |
 | 0xFB94DC83 | 25 | - | `t101d02` |
@@ -4191,7 +4191,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
-| 0x438CB286 | 1 | - | - |
+| 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 3 | - | `t101g00` |
 | 0x629D8D39 | 39 | - | `t101d01` |
 | 0xFB94DC83 | 42 | - | `t101d02` |
@@ -4285,7 +4285,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x93F74AAE | 708 | - | `t400d11` |
 | 0xAA4B1ED3 | 710 | - | `t100d04` |
 | 0xF1407128 | 711 | - | `t001d69` |
-| 0xF9EB4A06 | 712 | - | - |
+| 0xF9EB4A06 | 712 | - | `zombienight` |
 | 0x74F26CF1 | 772 | - | - |
 | 0xC6D66E88 | 773 | - | - |
 | 0xA8CA6F5F | 775 | - | - |
