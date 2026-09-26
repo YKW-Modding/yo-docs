@@ -13,16 +13,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | - |
-| 0x176F56BB | 1 | - | - |
-| 0x8E660701 | 2 | - | - |
+| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x176F56BB | 1 | - | `game_clear1` |
+| 0x8E660701 | 2 | - | `game_clear2` |
 | 0xF9613797 | 3 | - | - |
 | 0xB9CDBFB0 | 6 | - | - |
-| 0x768A8E93 | 7 | - | - |
-| 0x65D5B885 | 8 | - | - |
+| 0x768A8E93 | 7 | - | `weatherScaduleContinue` |
+| 0x65D5B885 | 8 | - | `exist_mitibiki_tbox` |
 | 0x8411BFA3 | 9 | - | - |
 | 0x053DA610 (0x53DA610) | 10 | - | - |
-| 0x8BA55778 | 11 | - | - |
+| 0x8BA55778 | 11 | - | `oni_time_valid` |
 | 0x410231D1 | 12 | - | - |
 | 0x43677DBA | 13 | - | - |
 | 0x07596C9E (0x7596C9E) | 14 | - | - |
@@ -33,11 +33,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x79A2ABEB | 19 | - | - |
 | 0x5EEA3531 | 20 | - | - |
 | 0xE32CCA14 | 21 | - | - |
-| 0x8A81D006 | 22 | - | - |
-| 0x04FA47F4 (0x4FA47F4) | 23 | - | - |
-| 0x7FA66054 | 24 | - | - |
-| 0x62D2B8A6 | 25 | - | - |
-| 0x1600AB7C | 26 | - | - |
+| 0x8A81D006 | 22 | - | `dictionary_comp_notice` |
+| 0x04FA47F4 (0x4FA47F4) | 23 | - | `event_comp_notice` |
+| 0x7FA66054 | 24 | - | `sound_comp_notice` |
+| 0x62D2B8A6 | 25 | - | `wanted_comp_notice` |
+| 0x1600AB7C | 26 | - | `yspot_comp_notice` |
 | 0x40BA71A2 | 27 | - | - |
 | 0x33F7918D | 28 | - | - |
 | 0xAB5B9E4E | 29 | - | - |
@@ -48,16 +48,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4A120170 | 34 | - | - |
 | 0x0C65BA25 (0xC65BA25) | 35 | - | - |
 | 0x90D6104C | 36 | - | - |
-| 0xEB671121 | 41 | - | - |
-| 0xF47C9134 | 42 | - | - |
-| 0x640273DE | 43 | - | - |
-| 0x3E1E067A | 44 | - | - |
-| 0xB4D0F387 | 45 | - | - |
-| 0x487CE688 | 46 | - | - |
-| 0x232C6951 | 47 | - | - |
-| 0xABCB4EE6 | 48 | - | - |
-| 0x0CC4EC4E (0xCC4EC4E) | 49 | - | - |
-| 0x1DD878BF | 50 | - | - |
+| 0xEB671121 | 41 | - | `never_die` |
+| 0xF47C9134 | 42 | - | `wanderer_soul_valid` |
+| 0x640273DE | 43 | - | `appear_wanderer_soul` |
+| 0x3E1E067A | 44 | - | `battle_aim` |
+| 0xB4D0F387 | 45 | - | `battle_friend_bonus` |
+| 0x487CE688 | 46 | - | `battle_item` |
+| 0x232C6951 | 47 | - | `enemy_dependence_valid` |
+| 0xABCB4EE6 | 48 | - | `compulsory_add_member` |
+| 0x0CC4EC4E (0xCC4EC4E) | 49 | - | `not_add_member` |
+| 0x1DD878BF | 50 | - | `friend_yokai_x4` |
 | 0x098025C8 (0x98025C8) | 51 | - | - |
 | 0xB21DEC15 | 52 | - | - |
 | 0x4706B5C5 | 53 | - | - |
@@ -66,9 +66,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA3219494 | 56 | - | - |
 | 0xFAE09004 | 61 | - | - |
 | 0x0961A019 (0x961A019) | 62 | - | - |
-| 0x9FC6CB55 | 65 | - | - |
+| 0x9FC6CB55 | 65 | - | `disable_time_sleep` |
 | 0x1351BAE6 | 66 | - | - |
-| 0xB443AA77 | 67 | - | - |
+| 0xB443AA77 | 67 | - | `enable_orge_time` |
 | 0x7DD2686D | 68 | - | - |
 | 0x1288236D | 69 | - | - |
 | 0x61195A40 | 70 | - | - |
@@ -76,20 +76,20 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA1BCED20 | 72 | - | - |
 | 0x285BFBDB | 73 | - | - |
 | 0xC2BD02E7 | 74 | - | - |
-| 0x8E0E672C | 75 | - | - |
+| 0x8E0E672C | 75 | - | `bicycle_release` |
 | 0x32CC8652 | 76 | - | - |
-| 0x9B933272 | 77 | - | - |
+| 0x9B933272 | 77 | - | `bicycle_valid` |
 | 0x6FDD0222 | 78 | - | - |
 | 0x6F422013 | 79 | - | - |
 | 0x14A2E263 | 80 | - | - |
-| 0x23129852 | 81 | - | - |
-| 0xFE232B46 | 82 | - | - |
-| 0x91B9489C | 83 | - | - |
-| 0x67B99C8E | 85 | - | - |
+| 0x23129852 | 81 | - | `kon_release` |
+| 0xFE232B46 | 82 | - | `lens_release` |
+| 0x91B9489C | 83 | - | `lens_valid` |
+| 0x67B99C8E | 85 | - | `watch_release` |
 | 0x84929A1A | 86 | - | - |
-| 0x7E34D611 | 87 | - | - |
-| 0xEB822ABC | 88 | - | - |
-| 0x6E9A22CF | 89 | - | - |
+| 0x7E34D611 | 87 | - | `watch_valid` |
+| 0xEB822ABC | 88 | - | `watch_is_lock` |
+| 0x6E9A22CF | 89 | - | `watch_is_radar` |
 | 0x412973F6 | 90 | - | - |
 | 0x20E01A08 | 91 | - | - |
 | 0xED90C49B | 92 | - | - |
@@ -102,20 +102,20 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x23710843 | 99 | - | - |
 | 0xEF64A539 | 100 | - | - |
 | 0x7013A2B0 | 101 | - | - |
-| 0x7D24EA33 | 102 | - | - |
-| 0xE39F2A32 | 103 | - | - |
+| 0x7D24EA33 | 102 | - | `fishing_valid` |
+| 0xE39F2A32 | 103 | - | `magnifying_glass_valid` |
 | 0x8F954D85 | 104 | - | - |
-| 0x0CF17A93 (0xCF17A93) | 105 | - | - |
-| 0x9B0A23F4 | 106 | - | - |
+| 0x0CF17A93 (0xCF17A93) | 105 | - | `map_valid` |
+| 0x9B0A23F4 | 106 | - | `watch_map_yokai_off` |
 | 0x5B9AFA16 | 107 | - | - |
 | 0x2866BE19 | 108 | - | - |
-| 0x45031239 | 109 | - | - |
+| 0x45031239 | 109 | - | `elevator_control` |
 | 0xAE6E90AE | 111 | - | - |
 | 0xB29365A2 | 112 | - | - |
-| 0xA5011B7E | 113 | - | - |
-| 0xCD64AD12 | 114 | - | - |
+| 0xA5011B7E | 113 | - | `enable_cross_walk` |
+| 0xCD64AD12 | 114 | - | `t106i23_open` |
 | 0xB14CC857 | 115 | - | - |
-| 0xD03ED610 | 116 | - | - |
+| 0xD03ED610 | 116 | - | `gate_release` |
 | 0xB8573214 | 117 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 118 | - | - |
 | 0xACAA3D15 | 119 | - | - |
@@ -173,9 +173,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5AB1D63E | 178 | - | - |
 | 0xF65EA124 | 179 | - | - |
 | 0x3D3F3721 | 180 | - | - |
-| 0x1DAB1698 | 183 | - | - |
+| 0x1DAB1698 | 183 | - | `menu_valid` |
 | 0xB42589B1 | 185 | - | - |
-| 0x0030A6B0 (0x30A6B0) | 186 | - | - |
+| 0x0030A6B0 (0x30A6B0) | 186 | - | `gacha_release` |
 | 0x035B3F5C (0x35B3F5C) | 187 | - | - |
 | 0xA0415874 | 188 | - | - |
 | 0x99CC64B1 | 189 | - | - |
@@ -210,20 +210,20 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x39A00444 | 218 | - | - |
 | 0xA7C491E7 | 219 | - | - |
 | 0xD0C3A171 | 220 | - | - |
-| 0x41BCEE10 | 221 | - | - |
-| 0xD8B5BFAA | 222 | - | - |
-| 0xAFB28F3C | 223 | - | - |
-| 0xB6575688 | 224 | - | - |
-| 0x781DCD97 | 225 | - | - |
+| 0x41BCEE10 | 221 | - | `t102d31_truck_a` |
+| 0xD8B5BFAA | 222 | - | `t102d31_truck_b` |
+| 0xAFB28F3C | 223 | - | `t102d31_truck_c` |
+| 0xB6575688 | 224 | - | `t102d31_swicth_truck_c` |
+| 0x781DCD97 | 225 | - | `t102d31_truck_c_sel` |
 | 0xE061CBE2 | 226 | - | - |
-| 0x7F5C16CC | 227 | - | - |
-| 0x4A9754F9 | 228 | - | - |
-| 0x76FC474F | 229 | - | - |
-| 0x915277E0 | 230 | - | - |
-| 0x01ED6A71 (0x1ED6A71) | 231 | - | - |
-| 0x76EA5AE7 | 232 | - | - |
-| 0x8F67B9F8 | 233 | - | - |
-| 0x7F4A0B64 | 234 | - | - |
+| 0x7F5C16CC | 227 | - | `t102d32_truck_e` |
+| 0x4A9754F9 | 228 | - | `t102d32_truck_e_sel` |
+| 0x76FC474F | 229 | - | `t102d32_swicth_truck_e` |
+| 0x915277E0 | 230 | - | `t102d32_truck_g` |
+| 0x01ED6A71 (0x1ED6A71) | 231 | - | `t102d32_truck_h` |
+| 0x76EA5AE7 | 232 | - | `t102d32_truck_i` |
+| 0x8F67B9F8 | 233 | - | `t102d32_truck_i_sel` |
+| 0x7F4A0B64 | 234 | - | `t102d32_swicth_truck_i` |
 | 0x21FF19F9 | 235 | - | - |
 | 0xF16287A7 | 236 | - | - |
 | 0x085CEACE (0x85CEACE) | 237 | - | - |
@@ -233,7 +233,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF5A512BB | 241 | - | - |
 | 0xB9140B6C | 242 | - | - |
 | 0x94EAABB5 | 243 | - | - |
-| 0x4CEC744E | 244 | - | - |
+| 0x4CEC744E | 244 | - | `t102g00_summer_fes` |
 | 0x040C2241 (0x40C2241) | 245 | - | - |
 | 0x7DCBD758 | 246 | - | - |
 | 0x5C926341 | 249 | - | - |
@@ -246,28 +246,28 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x58B73698 | 256 | - | - |
 | 0x28DDC217 | 257 | - | - |
 | 0x59755CAF | 258 | - | - |
-| 0xB8411C1A | 263 | - | - |
-| 0x21484DA0 | 264 | - | - |
-| 0xD75EA854 | 265 | - | - |
-| 0x564F7D36 | 266 | - | - |
-| 0xDB912920 | 267 | - | - |
-| 0xC81DF40F | 268 | - | - |
-| 0x10399A2B | 269 | - | - |
+| 0xB8411C1A | 263 | - | `door_t103g00_01` |
+| 0x21484DA0 | 264 | - | `door_t103g00_02` |
+| 0xD75EA854 | 265 | - | `door_t103i33_01` |
+| 0x564F7D36 | 266 | - | `door_t103g00_03` |
+| 0xDB912920 | 267 | - | `door_t105g00_01` |
+| 0xC81DF40F | 268 | - | `door_t103g51_01` |
+| 0x10399A2B | 269 | - | `door_t105d41_01` |
 | 0x67BE78B5 | 270 | - | - |
 | 0x2FDE0D33 | 271 | - | - |
-| 0xC1C97301 | 272 | - | - |
+| 0xC1C97301 | 272 | - | `door_t103d31_01` |
 | 0x390E643F | 273 | - | - |
 | 0xF19E652E | 274 | - | - |
 | 0x5B97ADA5 | 275 | - | - |
-| 0xD0770D97 | 289 | - | - |
-| 0x7A7EC51C | 290 | - | - |
-| 0x5F159AC0 | 291 | - | - |
+| 0xD0770D97 | 289 | - | `wl_t101d01_01` |
+| 0x7A7EC51C | 290 | - | `wl_t101d03_01` |
+| 0x5F159AC0 | 291 | - | `wl_t101d05_01` |
 | 0xDFB702C1 | 292 | - | - |
-| 0xEDE1D435 | 293 | - | - |
-| 0x7A88350E | 294 | - | - |
-| 0x79C00975 | 295 | - | - |
-| 0xBC6737FB | 296 | - | - |
-| 0x1A103C4F | 297 | - | - |
+| 0xEDE1D435 | 293 | - | `wl_t103d03_01` |
+| 0x7A88350E | 294 | - | `wl_t103d11_01` |
+| 0x79C00975 | 295 | - | `wl_t103g00_01` |
+| 0xBC6737FB | 296 | - | `wl_t104g00_01` |
+| 0x1A103C4F | 297 | - | `wl_t105g00_01` |
 | 0xB3B42ECC | 298 | - | - |
 | 0xF3DC48F6 | 299 | - | - |
 | 0xE0201BB8 | 300 | - | - |
@@ -327,9 +327,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0E615C29 (0xE615C29) | 358 | - | - |
 | 0x09A940C3 (0x9A940C3) | 359 | - | - |
 | 0x34C96973 | 360 | - | - |
-| 0x1E40B827 | 361 | - | - |
+| 0x1E40B827 | 361 | - | `cross_walk_first_fail` |
 | 0xE9B7D16F | 362 | - | - |
-| 0xA4F31422 | 363 | - | - |
+| 0xA4F31422 | 363 | - | `cross_walk_first_success` |
 | 0xEA5722B0 | 364 | - | - |
 | 0xE249771C | 365 | - | - |
 | 0x83769BDD | 366 | - | - |
@@ -434,14 +434,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDD600DDB | 475 | - | - |
 | 0x81681569 | 476 | - | - |
 | 0xE00FB824 | 477 | - | - |
-| 0x4539B4E4 | 478 | - | - |
-| 0xDC30E55E | 479 | - | - |
-| 0x578C1B0A | 480 | - | - |
-| 0xCE854AB0 | 481 | - | - |
-| 0xEF307C6F | 482 | - | - |
-| 0x76392DD5 | 483 | - | - |
-| 0x72E744D6 | 484 | - | - |
-| 0xEBEE156C | 485 | - | - |
+| 0x4539B4E4 | 478 | - | `flg_race_01_01` |
+| 0xDC30E55E | 479 | - | `flg_race_01_02` |
+| 0x578C1B0A | 480 | - | `flg_race_02_01` |
+| 0xCE854AB0 | 481 | - | `flg_race_02_02` |
+| 0xEF307C6F | 482 | - | `flg_race_03_01` |
+| 0x76392DD5 | 483 | - | `flg_race_03_02` |
+| 0x72E744D6 | 484 | - | `flg_race_04_01` |
+| 0xEBEE156C | 485 | - | `flg_race_04_02` |
 | 0x0904665D (0x904665D) | 486 | - | - |
 | 0xB8EB4DFF | 487 | - | - |
 | 0x2F399477 | 488 | - | - |
@@ -486,16 +486,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x3BB020F6 | 527 | - | - |
 | 0xE626F973 | 528 | - | - |
 | 0x269F93E5 | 529 | - | - |
-| 0xE228F358 | 531 | - | - |
-| 0xC905A09B | 532 | - | - |
-| 0xD01E91DA | 533 | - | - |
-| 0x8644365C | 534 | - | - |
-| 0xFAF1A82E | 535 | - | - |
-| 0x20791EED | 536 | - | - |
-| 0x0B544D2E (0xB544D2E) | 537 | - | - |
-| 0x124F7C6F | 538 | - | - |
-| 0x4415DBE9 | 539 | - | - |
-| 0x38A0459B | 540 | - | - |
+| 0xE228F358 | 531 | - | `ev51_0510_010` |
+| 0xC905A09B | 532 | - | `ev51_0510_020` |
+| 0xD01E91DA | 533 | - | `ev51_0510_030` |
+| 0x8644365C | 534 | - | `ev51_0510_050` |
+| 0xFAF1A82E | 535 | - | `ev51_0510_100` |
+| 0x20791EED | 536 | - | `ev51_1200_010` |
+| 0x0B544D2E (0xB544D2E) | 537 | - | `ev51_1200_020` |
+| 0x124F7C6F | 538 | - | `ev51_1200_030` |
+| 0x4415DBE9 | 539 | - | `ev51_1200_050` |
+| 0x38A0459B | 540 | - | `ev51_1200_100` |
 | 0x8EFD01DB | 541 | - | - |
 | 0x9C48AE35 | 542 | - | - |
 | 0x24F4C950 | 543 | - | - |
@@ -506,158 +506,158 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x63FDCF39 | 548 | - | - |
 | 0x469690E5 | 549 | - | - |
 | 0x4C284967 | 550 | - | - |
-| 0x3616F6E7 | 551 | - | - |
-| 0xAF1FA75D | 552 | - | - |
-| 0xD81897CB | 553 | - | - |
-| 0x467C0268 | 554 | - | - |
-| 0x317B32FE | 555 | - | - |
-| 0xA8726344 | 556 | - | - |
-| 0xDF7553D2 | 557 | - | - |
-| 0x4FCA4E43 | 558 | - | - |
-| 0x38CD7ED5 | 559 | - | - |
-| 0x580AF730 | 560 | - | - |
-| 0x2F0DC7A6 | 561 | - | - |
-| 0xB604961C | 562 | - | - |
-| 0xC103A68A | 563 | - | - |
-| 0x5F673329 | 564 | - | - |
-| 0x286003BF | 565 | - | - |
-| 0xB1695205 | 566 | - | - |
-| 0xC66E6293 | 567 | - | - |
-| 0x56D17F02 | 568 | - | - |
-| 0x21D64F94 | 569 | - | - |
-| 0x7327A4F3 | 570 | - | - |
-| 0x04209465 (0x4209465) | 571 | - | - |
-| 0x9D29C5DF | 572 | - | - |
-| 0xEA2EF549 | 573 | - | - |
-| 0x744A60EA | 574 | - | - |
-| 0x034D507C (0x34D507C) | 575 | - | - |
-| 0x9A4401C6 | 576 | - | - |
-| 0xED433150 | 577 | - | - |
-| 0x7DFC2CC1 | 578 | - | - |
-| 0x0AFB1C57 (0xAFB1C57) | 579 | - | - |
-| 0x6A3C95B2 | 580 | - | - |
-| 0x1D3BA524 | 581 | - | - |
-| 0x8432F49E | 582 | - | - |
-| 0xF335C408 | 583 | - | - |
-| 0x6D5151AB | 584 | - | - |
-| 0x1A56613D | 585 | - | - |
-| 0x835F3087 | 586 | - | - |
-| 0xF4580011 | 587 | - | - |
-| 0x64E71D80 | 588 | - | - |
-| 0x13E02D16 | 589 | - | - |
-| 0x257D0375 | 590 | - | - |
-| 0x527A33E3 | 591 | - | - |
-| 0xCB736259 | 592 | - | - |
-| 0xBC7452CF | 593 | - | - |
-| 0x2210C76C | 594 | - | - |
-| 0x5517F7FA | 595 | - | - |
-| 0xCC1EA640 | 596 | - | - |
-| 0xBB1996D6 | 597 | - | - |
-| 0x2BA68B47 | 598 | - | - |
-| 0x5CA1BBD1 | 599 | - | - |
-| 0x3C663234 | 600 | - | - |
-| 0x4B6102A2 | 601 | - | - |
-| 0xD2685318 | 602 | - | - |
-| 0xA56F638E | 603 | - | - |
-| 0x3B0BF62D | 604 | - | - |
-| 0x4C0CC6BB | 605 | - | - |
-| 0xD5059701 | 606 | - | - |
-| 0xA202A797 | 607 | - | - |
-| 0x32BDBA06 | 608 | - | - |
-| 0x45BA8A90 | 609 | - | - |
-| 0x174B61F7 | 610 | - | - |
-| 0x604C5161 | 611 | - | - |
-| 0xF94500DB | 612 | - | - |
-| 0x8E42304D | 613 | - | - |
-| 0x1026A5EE | 614 | - | - |
-| 0x67219578 | 615 | - | - |
-| 0xFE28C4C2 | 616 | - | - |
-| 0x892FF454 | 617 | - | - |
-| 0x1990E9C5 | 618 | - | - |
-| 0x6E97D953 | 619 | - | - |
-| 0x0E5050B6 (0xE5050B6) | 620 | - | - |
-| 0x79576020 | 621 | - | - |
-| 0xE05E319A | 622 | - | - |
-| 0x9759010C | 623 | - | - |
-| 0x093D94AF (0x93D94AF) | 624 | - | - |
-| 0x7E3AA439 | 625 | - | - |
-| 0xE733F583 | 626 | - | - |
-| 0x9034C515 | 627 | - | - |
-| 0x008BD884 (0x8BD884) | 628 | - | - |
-| 0x778CE812 | 629 | - | - |
-| 0x89C84C79 | 630 | - | - |
-| 0xFECF7CEF | 631 | - | - |
-| 0x67C62D55 | 632 | - | - |
-| 0x10C11DC3 | 633 | - | - |
-| 0x8EA58860 | 634 | - | - |
-| 0xF9A2B8F6 | 635 | - | - |
-| 0x60ABE94C | 636 | - | - |
-| 0x17ACD9DA | 637 | - | - |
-| 0x8713C44B | 638 | - | - |
-| 0xF014F4DD | 639 | - | - |
-| 0x90D37D38 | 640 | - | - |
-| 0xE7D44DAE | 641 | - | - |
-| 0x7EDD1C14 | 642 | - | - |
-| 0x09DA2C82 (0x9DA2C82) | 643 | - | - |
-| 0x97BEB921 | 644 | - | - |
-| 0xE0B989B7 | 645 | - | - |
-| 0x79B0D80D | 646 | - | - |
-| 0x0EB7E89B (0xEB7E89B) | 647 | - | - |
-| 0x9E08F50A | 648 | - | - |
-| 0xE90FC59C | 649 | - | - |
-| 0x40D3AC46 | 650 | - | - |
-| 0x37D49CD0 | 651 | - | - |
-| 0xAEDDCD6A | 652 | - | - |
-| 0xD9DAFDFC | 653 | - | - |
-| 0x47BE685F | 654 | - | - |
-| 0x30B958C9 | 655 | - | - |
-| 0xA9B00973 | 656 | - | - |
-| 0xDEB739E5 | 657 | - | - |
-| 0x4E082474 | 658 | - | - |
-| 0x390F14E2 | 659 | - | - |
-| 0x59C89D07 | 660 | - | - |
-| 0x2ECFAD91 | 661 | - | - |
-| 0xB7C6FC2B | 662 | - | - |
-| 0xC0C1CCBD | 663 | - | - |
-| 0x5EA5591E | 664 | - | - |
-| 0x29A26988 | 665 | - | - |
-| 0xB0AB3832 | 666 | - | - |
-| 0xC7AC08A4 | 667 | - | - |
-| 0x57131535 | 668 | - | - |
-| 0x201425A3 | 669 | - | - |
-| 0x72E5CEC4 | 670 | - | - |
-| 0x05E2FE52 (0x5E2FE52) | 671 | - | - |
-| 0x9CEBAFE8 | 672 | - | - |
-| 0xEBEC9F7E | 673 | - | - |
-| 0x75880ADD | 674 | - | - |
-| 0x028F3A4B (0x28F3A4B) | 675 | - | - |
-| 0x9B866BF1 | 676 | - | - |
-| 0xEC815B67 | 677 | - | - |
-| 0x7C3E46F6 | 678 | - | - |
-| 0xF1FA3FF5 | 681 | - | - |
-| 0x68F36E4F | 682 | - | - |
-| 0x1FF45ED9 | 683 | - | - |
-| 0x8190CB7A | 684 | - | - |
-| 0xF697FBEC | 685 | - | - |
-| 0x6F9EAA56 | 686 | - | - |
-| 0x18999AC0 | 687 | - | - |
-| 0x88268751 | 688 | - | - |
-| 0xFF21B7C7 | 689 | - | - |
-| 0x9FE63E22 | 690 | - | - |
-| 0xE8E10EB4 | 691 | - | - |
-| 0x71E85F0E | 692 | - | - |
-| 0x06EF6F98 (0x6EF6F98) | 693 | - | - |
-| 0x988BFA3B | 694 | - | - |
-| 0xEF8CCAAD | 695 | - | - |
-| 0x76859B17 | 696 | - | - |
-| 0x0182AB81 (0x182AB81) | 697 | - | - |
-| 0x913DB610 | 698 | - | - |
-| 0xE63A8686 | 699 | - | - |
-| 0xB4CB6DE1 | 700 | - | - |
-| 0xC3CC5D77 | 701 | - | - |
-| 0x5AC50CCD | 702 | - | - |
-| 0x2DC23C5B | 703 | - | - |
-| 0xB3A6A9F8 | 704 | - | - |
+| 0x3616F6E7 | 551 | - | `dl_data_get_001` |
+| 0xAF1FA75D | 552 | - | `dl_data_get_002` |
+| 0xD81897CB | 553 | - | `dl_data_get_003` |
+| 0x467C0268 | 554 | - | `dl_data_get_004` |
+| 0x317B32FE | 555 | - | `dl_data_get_005` |
+| 0xA8726344 | 556 | - | `dl_data_get_006` |
+| 0xDF7553D2 | 557 | - | `dl_data_get_007` |
+| 0x4FCA4E43 | 558 | - | `dl_data_get_008` |
+| 0x38CD7ED5 | 559 | - | `dl_data_get_009` |
+| 0x580AF730 | 560 | - | `dl_data_get_010` |
+| 0x2F0DC7A6 | 561 | - | `dl_data_get_011` |
+| 0xB604961C | 562 | - | `dl_data_get_012` |
+| 0xC103A68A | 563 | - | `dl_data_get_013` |
+| 0x5F673329 | 564 | - | `dl_data_get_014` |
+| 0x286003BF | 565 | - | `dl_data_get_015` |
+| 0xB1695205 | 566 | - | `dl_data_get_016` |
+| 0xC66E6293 | 567 | - | `dl_data_get_017` |
+| 0x56D17F02 | 568 | - | `dl_data_get_018` |
+| 0x21D64F94 | 569 | - | `dl_data_get_019` |
+| 0x7327A4F3 | 570 | - | `dl_data_get_020` |
+| 0x04209465 (0x4209465) | 571 | - | `dl_data_get_021` |
+| 0x9D29C5DF | 572 | - | `dl_data_get_022` |
+| 0xEA2EF549 | 573 | - | `dl_data_get_023` |
+| 0x744A60EA | 574 | - | `dl_data_get_024` |
+| 0x034D507C (0x34D507C) | 575 | - | `dl_data_get_025` |
+| 0x9A4401C6 | 576 | - | `dl_data_get_026` |
+| 0xED433150 | 577 | - | `dl_data_get_027` |
+| 0x7DFC2CC1 | 578 | - | `dl_data_get_028` |
+| 0x0AFB1C57 (0xAFB1C57) | 579 | - | `dl_data_get_029` |
+| 0x6A3C95B2 | 580 | - | `dl_data_get_030` |
+| 0x1D3BA524 | 581 | - | `dl_data_get_031` |
+| 0x8432F49E | 582 | - | `dl_data_get_032` |
+| 0xF335C408 | 583 | - | `dl_data_get_033` |
+| 0x6D5151AB | 584 | - | `dl_data_get_034` |
+| 0x1A56613D | 585 | - | `dl_data_get_035` |
+| 0x835F3087 | 586 | - | `dl_data_get_036` |
+| 0xF4580011 | 587 | - | `dl_data_get_037` |
+| 0x64E71D80 | 588 | - | `dl_data_get_038` |
+| 0x13E02D16 | 589 | - | `dl_data_get_039` |
+| 0x257D0375 | 590 | - | `dl_data_get_040` |
+| 0x527A33E3 | 591 | - | `dl_data_get_041` |
+| 0xCB736259 | 592 | - | `dl_data_get_042` |
+| 0xBC7452CF | 593 | - | `dl_data_get_043` |
+| 0x2210C76C | 594 | - | `dl_data_get_044` |
+| 0x5517F7FA | 595 | - | `dl_data_get_045` |
+| 0xCC1EA640 | 596 | - | `dl_data_get_046` |
+| 0xBB1996D6 | 597 | - | `dl_data_get_047` |
+| 0x2BA68B47 | 598 | - | `dl_data_get_048` |
+| 0x5CA1BBD1 | 599 | - | `dl_data_get_049` |
+| 0x3C663234 | 600 | - | `dl_data_get_050` |
+| 0x4B6102A2 | 601 | - | `dl_data_get_051` |
+| 0xD2685318 | 602 | - | `dl_data_get_052` |
+| 0xA56F638E | 603 | - | `dl_data_get_053` |
+| 0x3B0BF62D | 604 | - | `dl_data_get_054` |
+| 0x4C0CC6BB | 605 | - | `dl_data_get_055` |
+| 0xD5059701 | 606 | - | `dl_data_get_056` |
+| 0xA202A797 | 607 | - | `dl_data_get_057` |
+| 0x32BDBA06 | 608 | - | `dl_data_get_058` |
+| 0x45BA8A90 | 609 | - | `dl_data_get_059` |
+| 0x174B61F7 | 610 | - | `dl_data_get_060` |
+| 0x604C5161 | 611 | - | `dl_data_get_061` |
+| 0xF94500DB | 612 | - | `dl_data_get_062` |
+| 0x8E42304D | 613 | - | `dl_data_get_063` |
+| 0x1026A5EE | 614 | - | `dl_data_get_064` |
+| 0x67219578 | 615 | - | `dl_data_get_065` |
+| 0xFE28C4C2 | 616 | - | `dl_data_get_066` |
+| 0x892FF454 | 617 | - | `dl_data_get_067` |
+| 0x1990E9C5 | 618 | - | `dl_data_get_068` |
+| 0x6E97D953 | 619 | - | `dl_data_get_069` |
+| 0x0E5050B6 (0xE5050B6) | 620 | - | `dl_data_get_070` |
+| 0x79576020 | 621 | - | `dl_data_get_071` |
+| 0xE05E319A | 622 | - | `dl_data_get_072` |
+| 0x9759010C | 623 | - | `dl_data_get_073` |
+| 0x093D94AF (0x93D94AF) | 624 | - | `dl_data_get_074` |
+| 0x7E3AA439 | 625 | - | `dl_data_get_075` |
+| 0xE733F583 | 626 | - | `dl_data_get_076` |
+| 0x9034C515 | 627 | - | `dl_data_get_077` |
+| 0x008BD884 (0x8BD884) | 628 | - | `dl_data_get_078` |
+| 0x778CE812 | 629 | - | `dl_data_get_079` |
+| 0x89C84C79 | 630 | - | `dl_data_get_080` |
+| 0xFECF7CEF | 631 | - | `dl_data_get_081` |
+| 0x67C62D55 | 632 | - | `dl_data_get_082` |
+| 0x10C11DC3 | 633 | - | `dl_data_get_083` |
+| 0x8EA58860 | 634 | - | `dl_data_get_084` |
+| 0xF9A2B8F6 | 635 | - | `dl_data_get_085` |
+| 0x60ABE94C | 636 | - | `dl_data_get_086` |
+| 0x17ACD9DA | 637 | - | `dl_data_get_087` |
+| 0x8713C44B | 638 | - | `dl_data_get_088` |
+| 0xF014F4DD | 639 | - | `dl_data_get_089` |
+| 0x90D37D38 | 640 | - | `dl_data_get_090` |
+| 0xE7D44DAE | 641 | - | `dl_data_get_091` |
+| 0x7EDD1C14 | 642 | - | `dl_data_get_092` |
+| 0x09DA2C82 (0x9DA2C82) | 643 | - | `dl_data_get_093` |
+| 0x97BEB921 | 644 | - | `dl_data_get_094` |
+| 0xE0B989B7 | 645 | - | `dl_data_get_095` |
+| 0x79B0D80D | 646 | - | `dl_data_get_096` |
+| 0x0EB7E89B (0xEB7E89B) | 647 | - | `dl_data_get_097` |
+| 0x9E08F50A | 648 | - | `dl_data_get_098` |
+| 0xE90FC59C | 649 | - | `dl_data_get_099` |
+| 0x40D3AC46 | 650 | - | `dl_data_get_100` |
+| 0x37D49CD0 | 651 | - | `dl_data_get_101` |
+| 0xAEDDCD6A | 652 | - | `dl_data_get_102` |
+| 0xD9DAFDFC | 653 | - | `dl_data_get_103` |
+| 0x47BE685F | 654 | - | `dl_data_get_104` |
+| 0x30B958C9 | 655 | - | `dl_data_get_105` |
+| 0xA9B00973 | 656 | - | `dl_data_get_106` |
+| 0xDEB739E5 | 657 | - | `dl_data_get_107` |
+| 0x4E082474 | 658 | - | `dl_data_get_108` |
+| 0x390F14E2 | 659 | - | `dl_data_get_109` |
+| 0x59C89D07 | 660 | - | `dl_data_get_110` |
+| 0x2ECFAD91 | 661 | - | `dl_data_get_111` |
+| 0xB7C6FC2B | 662 | - | `dl_data_get_112` |
+| 0xC0C1CCBD | 663 | - | `dl_data_get_113` |
+| 0x5EA5591E | 664 | - | `dl_data_get_114` |
+| 0x29A26988 | 665 | - | `dl_data_get_115` |
+| 0xB0AB3832 | 666 | - | `dl_data_get_116` |
+| 0xC7AC08A4 | 667 | - | `dl_data_get_117` |
+| 0x57131535 | 668 | - | `dl_data_get_118` |
+| 0x201425A3 | 669 | - | `dl_data_get_119` |
+| 0x72E5CEC4 | 670 | - | `dl_data_get_120` |
+| 0x05E2FE52 (0x5E2FE52) | 671 | - | `dl_data_get_121` |
+| 0x9CEBAFE8 | 672 | - | `dl_data_get_122` |
+| 0xEBEC9F7E | 673 | - | `dl_data_get_123` |
+| 0x75880ADD | 674 | - | `dl_data_get_124` |
+| 0x028F3A4B (0x28F3A4B) | 675 | - | `dl_data_get_125` |
+| 0x9B866BF1 | 676 | - | `dl_data_get_126` |
+| 0xEC815B67 | 677 | - | `dl_data_get_127` |
+| 0x7C3E46F6 | 678 | - | `dl_data_get_128` |
+| 0xF1FA3FF5 | 681 | - | `pass_colb_01` |
+| 0x68F36E4F | 682 | - | `pass_colb_02` |
+| 0x1FF45ED9 | 683 | - | `pass_colb_03` |
+| 0x8190CB7A | 684 | - | `pass_colb_04` |
+| 0xF697FBEC | 685 | - | `pass_colb_05` |
+| 0x6F9EAA56 | 686 | - | `pass_colb_06` |
+| 0x18999AC0 | 687 | - | `pass_colb_07` |
+| 0x88268751 | 688 | - | `pass_colb_08` |
+| 0xFF21B7C7 | 689 | - | `pass_colb_09` |
+| 0x9FE63E22 | 690 | - | `pass_colb_10` |
+| 0xE8E10EB4 | 691 | - | `pass_colb_11` |
+| 0x71E85F0E | 692 | - | `pass_colb_12` |
+| 0x06EF6F98 (0x6EF6F98) | 693 | - | `pass_colb_13` |
+| 0x988BFA3B | 694 | - | `pass_colb_14` |
+| 0xEF8CCAAD | 695 | - | `pass_colb_15` |
+| 0x76859B17 | 696 | - | `pass_colb_16` |
+| 0x0182AB81 (0x182AB81) | 697 | - | `pass_colb_17` |
+| 0x913DB610 | 698 | - | `pass_colb_18` |
+| 0xE63A8686 | 699 | - | `pass_colb_19` |
+| 0xB4CB6DE1 | 700 | - | `pass_colb_20` |
+| 0xC3CC5D77 | 701 | - | `pass_colb_21` |
+| 0x5AC50CCD | 702 | - | `pass_colb_22` |
+| 0x2DC23C5B | 703 | - | `pass_colb_23` |
+| 0xB3A6A9F8 | 704 | - | `pass_colb_24` |
 | 0x03313C8F (0x3313C8F) | 705 | - | - |
 | 0x9CFBEEFE | 706 | - | - |
 | 0x9A386D35 | 707 | - | - |
@@ -679,41 +679,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x3E35B747 | 723 | - | - |
 | 0xD7561272 | 724 | - | - |
 | 0x3958735E | 725 | - | - |
-| 0xEC9AF46C | 728 | - | - |
-| 0x05F95159 (0x5F95159) | 729 | - | - |
-| 0xE2417C5E | 730 | - | - |
-| 0xBAC053EA | 731 | - | - |
-| 0xA3DB62AB | 732 | - | - |
-| 0x4DD50387 | 733 | - | - |
-| 0xA4B6A6B2 | 734 | - | - |
-| 0x6610F18B | 735 | - | - |
-| 0x54269309 | 736 | - | - |
-| 0x534B5710 | 737 | - | - |
-| 0xBD45363C | 738 | - | - |
-| 0x74A55E65 | 739 | - | - |
-| 0x46933CE7 | 740 | - | - |
-| 0xCC193900 | 741 | - | - |
-| 0x2217582C | 742 | - | - |
-| 0xFE2F5B82 | 743 | - | - |
-| 0x51CE01B9 | 744 | - | - |
-| 0xBFC06095 | 745 | - | - |
-| 0x6495A722 | 746 | - | - |
+| 0xEC9AF46C | 728 | - | `t100b21` |
+| 0x05F95159 (0x5F95159) | 729 | - | `t100b27` |
+| 0xE2417C5E | 730 | - | `t100b29` |
+| 0xBAC053EA | 731 | - | `t100b41` |
+| 0xA3DB62AB | 732 | - | `t100b51` |
+| 0x4DD50387 | 733 | - | `t100b53` |
+| 0xA4B6A6B2 | 734 | - | `t100b55` |
+| 0x6610F18B | 735 | - | `t101b01` |
+| 0x54269309 | 736 | - | `t101b21` |
+| 0x534B5710 | 737 | - | `t101b25` |
+| 0xBD45363C | 738 | - | `t101b27` |
+| 0x74A55E65 | 739 | - | `t102b01` |
+| 0x46933CE7 | 740 | - | `t102b21` |
+| 0xCC193900 | 741 | - | `t103b01` |
+| 0x2217582C | 742 | - | `t103b03` |
+| 0xFE2F5B82 | 743 | - | `t103b21` |
+| 0x51CE01B9 | 744 | - | `t104b01` |
+| 0xBFC06095 | 745 | - | `t104b03` |
+| 0x6495A722 | 746 | - | `t104b25` |
 | 0x8A9BC60E | 747 | - | - |
 | 0x6D23EB09 | 748 | - | - |
 | 0x7AE3527A | 749 | - | - |
-| 0xE97266DC | 750 | - | - |
-| 0x077C07F0 (0x77C07F0) | 751 | - | - |
-| 0xDB44045E | 752 | - | - |
-| 0xFBC7C932 | 753 | - | - |
-| 0x437BAE57 | 754 | - | - |
-| 0xAD75CF7B | 755 | - | - |
+| 0xE97266DC | 750 | - | `t105b01` |
+| 0x077C07F0 (0x77C07F0) | 751 | - | `t105b03` |
+| 0xDB44045E | 752 | - | `t105b21` |
+| 0xFBC7C932 | 753 | - | `t106b01` |
+| 0x437BAE57 | 754 | - | `t107b01` |
+| 0xAD75CF7B | 755 | - | `t107b03` |
 | 0x1B18BE01 | 756 | - | - |
 | 0xF516DF2D | 757 | - | - |
-| 0xFD8888F5 | 758 | - | - |
+| 0xFD8888F5 | 758 | - | `t131b23` |
 | 0xA3A4D964 | 759 | - | - |
 | 0x9192BBE6 | 760 | - | - |
-| 0x1CD0A2EB | 761 | - | - |
-| 0x330524B5 | 762 | - | - |
+| 0x1CD0A2EB | 761 | - | `t121b01` |
+| 0x330524B5 | 762 | - | `t132b01` |
 | 0x8E61075D | 763 | - | - |
 | 0x36DD6038 | 764 | - | - |
 | 0xD8D30114 | 765 | - | - |
@@ -738,10 +738,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1908E666 | 784 | - | - |
 | 0xF2DEC3C7 | 785 | - | - |
 | 0x1BBD66F2 | 786 | - | - |
-| 0x2EE6C069 | 787 | - | - |
-| 0x21B08B5B | 788 | - | - |
-| 0x1386E9D9 | 789 | - | - |
-| 0xC4A1996E | 790 | - | - |
+| 0x2EE6C069 | 787 | - | `t121b21` |
+| 0x21B08B5B | 788 | - | `t131b01` |
+| 0x1386E9D9 | 789 | - | `t131b21` |
+| 0xC4A1996E | 790 | - | `pass_colb_25` |
 | 0x5DA8C8D4 | 791 | - | - |
 | 0x2AAFF842 | 792 | - | - |
 | 0x3754705A | 801 | - | - |
@@ -1723,38 +1723,38 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA65B7C71 | 1795 | - | - |
 | 0x38127AEA | 1797 | - | - |
 | 0x80AE1D8F | 1798 | - | - |
-| 0xDA1AC22B | 1801 | - | - |
-| 0xAD1DF2BD | 1802 | - | - |
-| 0x3414A307 | 1803 | - | - |
-| 0x43139391 | 1804 | - | - |
-| 0xDD770632 | 1805 | - | - |
-| 0xAA7036A4 | 1806 | - | - |
-| 0x3379671E | 1807 | - | - |
-| 0x447E5788 | 1808 | - | - |
-| 0xD4C14A19 | 1809 | - | - |
-| 0xA3C67A8F | 1810 | - | - |
-| 0xC301F36A | 1811 | - | - |
-| 0xB406C3FC | 1812 | - | - |
-| 0x2D0F9246 | 1813 | - | - |
-| 0x5A08A2D0 | 1814 | - | - |
-| 0xC46C3773 | 1815 | - | - |
-| 0xB36B07E5 | 1816 | - | - |
-| 0x2A62565F | 1817 | - | - |
-| 0x5D6566C9 | 1818 | - | - |
-| 0xCDDA7B58 | 1819 | - | - |
-| 0xBADD4BCE | 1820 | - | - |
-| 0xE82CA0A9 | 1821 | - | - |
-| 0x9F2B903F | 1822 | - | - |
-| 0x0622C185 (0x622C185) | 1823 | - | - |
-| 0x7125F113 | 1824 | - | - |
-| 0xEF4164B0 | 1825 | - | - |
-| 0x98465426 | 1826 | - | - |
-| 0x014F059C (0x14F059C) | 1827 | - | - |
-| 0x7648350A | 1828 | - | - |
-| 0xE6F7289B | 1829 | - | - |
-| 0x91F0180D | 1830 | - | - |
-| 0xF13791E8 | 1831 | - | - |
-| 0x8630A17E | 1832 | - | - |
+| 0xDA1AC22B | 1801 | - | `new_warp_00` |
+| 0xAD1DF2BD | 1802 | - | `new_warp_01` |
+| 0x3414A307 | 1803 | - | `new_warp_02` |
+| 0x43139391 | 1804 | - | `new_warp_03` |
+| 0xDD770632 | 1805 | - | `new_warp_04` |
+| 0xAA7036A4 | 1806 | - | `new_warp_05` |
+| 0x3379671E | 1807 | - | `new_warp_06` |
+| 0x447E5788 | 1808 | - | `new_warp_07` |
+| 0xD4C14A19 | 1809 | - | `new_warp_08` |
+| 0xA3C67A8F | 1810 | - | `new_warp_09` |
+| 0xC301F36A | 1811 | - | `new_warp_10` |
+| 0xB406C3FC | 1812 | - | `new_warp_11` |
+| 0x2D0F9246 | 1813 | - | `new_warp_12` |
+| 0x5A08A2D0 | 1814 | - | `new_warp_13` |
+| 0xC46C3773 | 1815 | - | `new_warp_14` |
+| 0xB36B07E5 | 1816 | - | `new_warp_15` |
+| 0x2A62565F | 1817 | - | `new_warp_16` |
+| 0x5D6566C9 | 1818 | - | `new_warp_17` |
+| 0xCDDA7B58 | 1819 | - | `new_warp_18` |
+| 0xBADD4BCE | 1820 | - | `new_warp_19` |
+| 0xE82CA0A9 | 1821 | - | `new_warp_20` |
+| 0x9F2B903F | 1822 | - | `new_warp_21` |
+| 0x0622C185 (0x622C185) | 1823 | - | `new_warp_22` |
+| 0x7125F113 | 1824 | - | `new_warp_23` |
+| 0xEF4164B0 | 1825 | - | `new_warp_24` |
+| 0x98465426 | 1826 | - | `new_warp_25` |
+| 0x014F059C (0x14F059C) | 1827 | - | `new_warp_26` |
+| 0x7648350A | 1828 | - | `new_warp_27` |
+| 0xE6F7289B | 1829 | - | `new_warp_28` |
+| 0x91F0180D | 1830 | - | `new_warp_29` |
+| 0xF13791E8 | 1831 | - | `new_warp_30` |
+| 0x8630A17E | 1832 | - | `new_warp_31` |
 | 0x1F39F0C4 | 1833 | - | - |
 | 0x683EC052 | 1834 | - | - |
 | 0xF65A55F1 | 1835 | - | - |
@@ -1769,29 +1769,29 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x277F5695 | 1844 | - | - |
 | 0xB91BC336 | 1845 | - | - |
 | 0xCE1CF3A0 | 1846 | - | - |
-| 0x5A640058 | 1847 | - | - |
+| 0x5A640058 | 1847 | - | `warp_t101i02` |
 | 0xBEF44C7E | 1848 | - | - |
-| 0x1F55524C | 1849 | - | - |
-| 0x18389655 | 1850 | - | - |
-| 0xFF80BB52 | 1851 | - | - |
-| 0xAC41E390 | 1852 | - | - |
-| 0x40093CE5 | 1853 | - | - |
-| 0x14FD84F5 | 1854 | - | - |
+| 0x1F55524C | 1849 | - | `warp_t101i23` |
+| 0x18389655 | 1850 | - | `warp_t101i27` |
+| 0xFF80BB52 | 1851 | - | `warp_t101i29` |
+| 0xAC41E390 | 1852 | - | `warp_t102g00` |
+| 0x40093CE5 | 1853 | - | `warp_t102d02` |
+| 0x14FD84F5 | 1854 | - | `warp_t103g00` |
 | 0xA0DCB52D | 1855 | - | - |
-| 0x5C3F3FF2 | 1856 | - | - |
-| 0x4249CAAA | 1857 | - | - |
-| 0x892ABC4C | 1858 | - | - |
-| 0x3190933F | 1859 | - | - |
-| 0x36FD5726 | 1860 | - | - |
-| 0xA2E90656 | 1861 | - | - |
-| 0x3196DB29 | 1862 | - | - |
+| 0x5C3F3FF2 | 1856 | - | `warp_t103i25` |
+| 0x4249CAAA | 1857 | - | `warp_t103i31` |
+| 0x892ABC4C | 1858 | - | `warp_t104g00` |
+| 0x3190933F | 1859 | - | `warp_t104i33` |
+| 0x36FD5726 | 1860 | - | `warp_t104i37` |
+| 0xA2E90656 | 1861 | - | `warp_t104i61` |
+| 0x3196DB29 | 1862 | - | `warp_t105g00` |
 | 0xC30C8017 | 1863 | - | - |
-| 0x7954602E | 1864 | - | - |
-| 0x232374C7 | 1865 | - | - |
+| 0x7954602E | 1864 | - | `warp_t105i25` |
+| 0x232374C7 | 1865 | - | `warp_t106g00` |
 | 0xF2E49A8A | 1866 | - | - |
-| 0x6C8C0BD9 | 1867 | - | - |
+| 0x6C8C0BD9 | 1867 | - | `warp_t106i21` |
 | 0x47A1581A | 1868 | - | - |
-| 0x9B9F13A2 | 1869 | - | - |
+| 0x9B9F13A2 | 1869 | - | `warp_t107g00` |
 | 0xC3FC03F4 | 1870 | - | - |
 | 0xB0BE965A | 1871 | - | - |
 | 0x7B406491 | 1872 | - | - |
@@ -1824,17 +1824,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC7AABF8B | 1899 | - | - |
 | 0xEA7C78F5 | 1900 | - | - |
 | 0xA76D366E | 1901 | - | - |
-| 0xC4341F1E | 1902 | - | - |
+| 0xC4341F1E | 1902 | - | `warp_t121g00` |
 | 0xD06A06F8 | 1903 | - | - |
 | 0x7566A379 | 1904 | - | - |
 | 0x49635742 | 1905 | - | - |
-| 0xF95436AE | 1906 | - | - |
+| 0xF95436AE | 1906 | - | `warp_t131g00` |
 | 0x3E6467D4 | 1907 | - | - |
 | 0xB9CCA3E7 | 1908 | - | - |
 | 0xA000F277 | 1909 | - | - |
-| 0xEBE19940 | 1910 | - | - |
+| 0xEBE19940 | 1910 | - | `warp_t132g00` |
 | 0xD707C2E1 | 1911 | - | - |
-| 0x621BD94D | 1912 | - | - |
+| 0x621BD94D | 1912 | - | `warp_t131d03` |
 | 0x4E0E935B | 1913 | - | - |
 | 0xA86EA090 | 1914 | - | - |
 | 0x15440AFC | 1927 | - | - |
@@ -1890,73 +1890,73 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x85D22055 | 1978 | - | - |
 | 0x1BB6B5F6 | 1979 | - | - |
 | 0x9681FFA8 | 1980 | - | - |
-| 0x96398E8B | 1981 | - | - |
-| 0xE13EBE1D | 1982 | - | - |
-| 0x7837EFA7 | 1983 | - | - |
-| 0x0F30DF31 (0xF30DF31) | 1984 | - | - |
-| 0x91544A92 | 1985 | - | - |
-| 0xE6537A04 | 1986 | - | - |
-| 0x7F5A2BBE | 1987 | - | - |
-| 0x085D1B28 (0x85D1B28) | 1988 | - | - |
-| 0x98E206B9 | 1989 | - | - |
-| 0xEFE5362F | 1990 | - | - |
-| 0x8F22BFCA | 1991 | - | - |
-| 0xF8258F5C | 1992 | - | - |
-| 0x612CDEE6 | 1993 | - | - |
-| 0x162BEE70 | 1994 | - | - |
-| 0x884F7BD3 | 1995 | - | - |
-| 0xFF484B45 | 1996 | - | - |
-| 0x66411AFF | 1997 | - | - |
-| 0x11462A69 | 1998 | - | - |
-| 0x81F937F8 | 1999 | - | - |
-| 0xF6FE076E | 2000 | - | - |
-| 0xA40FEC09 | 2001 | - | - |
-| 0xD308DC9F | 2002 | - | - |
-| 0x4A018D25 | 2003 | - | - |
-| 0x3D06BDB3 | 2004 | - | - |
-| 0xA3622810 | 2005 | - | - |
-| 0xD4651886 | 2006 | - | - |
-| 0x4D6C493C | 2007 | - | - |
-| 0x3A6B79AA | 2008 | - | - |
-| 0xAAD4643B | 2009 | - | - |
-| 0xDDD354AD | 2010 | - | - |
-| 0xBD14DD48 | 2011 | - | - |
-| 0xCA13EDDE | 2012 | - | - |
-| 0x531ABC64 | 2013 | - | - |
-| 0x241D8CF2 | 2014 | - | - |
-| 0xBA791951 | 2015 | - | - |
-| 0xCD7E29C7 | 2016 | - | - |
-| 0x5477787D | 2017 | - | - |
-| 0x237048EB | 2018 | - | - |
-| 0xB3CF557A | 2019 | - | - |
-| 0xC4C865EC | 2020 | - | - |
-| 0xF2554B8F | 2021 | - | - |
-| 0x85527B19 | 2022 | - | - |
-| 0x1C5B2AA3 | 2023 | - | - |
-| 0x6B5C1A35 | 2024 | - | - |
-| 0xF5388F96 | 2025 | - | - |
-| 0x823FBF00 | 2026 | - | - |
-| 0x1B36EEBA | 2027 | - | - |
-| 0x6C31DE2C | 2028 | - | - |
-| 0xFC8EC3BD | 2029 | - | - |
-| 0x8B89F32B | 2030 | - | - |
-| 0xEB4E7ACE | 2031 | - | - |
-| 0x9C494A58 | 2032 | - | - |
-| 0x05401BE2 (0x5401BE2) | 2033 | - | - |
-| 0x72472B74 | 2034 | - | - |
-| 0xEC23BED7 | 2035 | - | - |
-| 0x9B248E41 | 2036 | - | - |
-| 0x022DDFFB (0x22DDFFB) | 2037 | - | - |
-| 0x752AEF6D | 2038 | - | - |
-| 0xE595F2FC | 2039 | - | - |
-| 0x9292C26A | 2040 | - | - |
-| 0xC063290D | 2041 | - | - |
-| 0xB764199B | 2042 | - | - |
-| 0x2E6D4821 | 2043 | - | - |
-| 0x596A78B7 | 2044 | - | - |
-| 0xC70EED14 | 2045 | - | - |
-| 0xB009DD82 | 2046 | - | - |
-| 0x29008C38 | 2047 | - | - |
+| 0x96398E8B | 1981 | - | `combine_00` |
+| 0xE13EBE1D | 1982 | - | `combine_01` |
+| 0x7837EFA7 | 1983 | - | `combine_02` |
+| 0x0F30DF31 (0xF30DF31) | 1984 | - | `combine_03` |
+| 0x91544A92 | 1985 | - | `combine_04` |
+| 0xE6537A04 | 1986 | - | `combine_05` |
+| 0x7F5A2BBE | 1987 | - | `combine_06` |
+| 0x085D1B28 (0x85D1B28) | 1988 | - | `combine_07` |
+| 0x98E206B9 | 1989 | - | `combine_08` |
+| 0xEFE5362F | 1990 | - | `combine_09` |
+| 0x8F22BFCA | 1991 | - | `combine_10` |
+| 0xF8258F5C | 1992 | - | `combine_11` |
+| 0x612CDEE6 | 1993 | - | `combine_12` |
+| 0x162BEE70 | 1994 | - | `combine_13` |
+| 0x884F7BD3 | 1995 | - | `combine_14` |
+| 0xFF484B45 | 1996 | - | `combine_15` |
+| 0x66411AFF | 1997 | - | `combine_16` |
+| 0x11462A69 | 1998 | - | `combine_17` |
+| 0x81F937F8 | 1999 | - | `combine_18` |
+| 0xF6FE076E | 2000 | - | `combine_19` |
+| 0xA40FEC09 | 2001 | - | `combine_20` |
+| 0xD308DC9F | 2002 | - | `combine_21` |
+| 0x4A018D25 | 2003 | - | `combine_22` |
+| 0x3D06BDB3 | 2004 | - | `combine_23` |
+| 0xA3622810 | 2005 | - | `combine_24` |
+| 0xD4651886 | 2006 | - | `combine_25` |
+| 0x4D6C493C | 2007 | - | `combine_26` |
+| 0x3A6B79AA | 2008 | - | `combine_27` |
+| 0xAAD4643B | 2009 | - | `combine_28` |
+| 0xDDD354AD | 2010 | - | `combine_29` |
+| 0xBD14DD48 | 2011 | - | `combine_30` |
+| 0xCA13EDDE | 2012 | - | `combine_31` |
+| 0x531ABC64 | 2013 | - | `combine_32` |
+| 0x241D8CF2 | 2014 | - | `combine_33` |
+| 0xBA791951 | 2015 | - | `combine_34` |
+| 0xCD7E29C7 | 2016 | - | `combine_35` |
+| 0x5477787D | 2017 | - | `combine_36` |
+| 0x237048EB | 2018 | - | `combine_37` |
+| 0xB3CF557A | 2019 | - | `combine_38` |
+| 0xC4C865EC | 2020 | - | `combine_39` |
+| 0xF2554B8F | 2021 | - | `combine_40` |
+| 0x85527B19 | 2022 | - | `combine_41` |
+| 0x1C5B2AA3 | 2023 | - | `combine_42` |
+| 0x6B5C1A35 | 2024 | - | `combine_43` |
+| 0xF5388F96 | 2025 | - | `combine_44` |
+| 0x823FBF00 | 2026 | - | `combine_45` |
+| 0x1B36EEBA | 2027 | - | `combine_46` |
+| 0x6C31DE2C | 2028 | - | `combine_47` |
+| 0xFC8EC3BD | 2029 | - | `combine_48` |
+| 0x8B89F32B | 2030 | - | `combine_49` |
+| 0xEB4E7ACE | 2031 | - | `combine_50` |
+| 0x9C494A58 | 2032 | - | `combine_51` |
+| 0x05401BE2 (0x5401BE2) | 2033 | - | `combine_52` |
+| 0x72472B74 | 2034 | - | `combine_53` |
+| 0xEC23BED7 | 2035 | - | `combine_54` |
+| 0x9B248E41 | 2036 | - | `combine_55` |
+| 0x022DDFFB (0x22DDFFB) | 2037 | - | `combine_56` |
+| 0x752AEF6D | 2038 | - | `combine_57` |
+| 0xE595F2FC | 2039 | - | `combine_58` |
+| 0x9292C26A | 2040 | - | `combine_59` |
+| 0xC063290D | 2041 | - | `combine_60` |
+| 0xB764199B | 2042 | - | `combine_61` |
+| 0x2E6D4821 | 2043 | - | `combine_62` |
+| 0x596A78B7 | 2044 | - | `combine_63` |
+| 0xC70EED14 | 2045 | - | `combine_64` |
+| 0xB009DD82 | 2046 | - | `combine_65` |
+| 0x29008C38 | 2047 | - | `combine_66` |
 | 0x5E07BCAE | 2048 | - | - |
 | 0xCEB8A13F | 2049 | - | - |
 | 0xB9BF91A9 | 2050 | - | - |
@@ -2073,7 +2073,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEA1B3CBE | 2204 | - | - |
 | 0x23DD6425 | 2205 | - | - |
 | 0x684BAB6F | 2206 | - | - |
-| 0x3EE89730 | 2220 | - | - |
+| 0x3EE89730 | 2220 | - | `ev51_0500` |
 | 0x6D4D7131 | 2221 | - | - |
 | 0xF444208B | 2222 | - | - |
 | 0x118239FA | 2224 | - | - |
@@ -2103,29 +2103,29 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x244DE511 | 2248 | - | - |
 | 0x534AD587 | 2249 | - | - |
 | 0xCA43843D | 2250 | - | - |
-| 0x278F7E9D | 2251 | - | - |
-| 0x50884E0B | 2252 | - | - |
-| 0xC9811FB1 | 2253 | - | - |
-| 0xBE862F27 | 2254 | - | - |
-| 0x20E2BA84 | 2255 | - | - |
-| 0x57E58A12 | 2256 | - | - |
-| 0xCEECDBA8 | 2257 | - | - |
-| 0xB9EBEB3E | 2258 | - | - |
-| 0x2954F6AF | 2259 | - | - |
-| 0xEB87E5AB | 2260 | - | - |
-| 0xC27065E9 | 2261 | - | - |
-| 0x3CDB0D89 | 2262 | - | - |
+| 0x278F7E9D | 2251 | - | `appear_sasurai_npc00` |
+| 0x50884E0B | 2252 | - | `appear_sasurai_npc01` |
+| 0xC9811FB1 | 2253 | - | `appear_sasurai_npc02` |
+| 0xBE862F27 | 2254 | - | `appear_sasurai_npc03` |
+| 0x20E2BA84 | 2255 | - | `appear_sasurai_npc04` |
+| 0x57E58A12 | 2256 | - | `appear_sasurai_npc05` |
+| 0xCEECDBA8 | 2257 | - | `appear_sasurai_npc06` |
+| 0xB9EBEB3E | 2258 | - | `appear_sasurai_npc07` |
+| 0x2954F6AF | 2259 | - | `appear_sasurai_npc08` |
+| 0xEB87E5AB | 2260 | - | `passcomm_regist` |
+| 0xC27065E9 | 2261 | - | `passcomm_ex_send` |
+| 0x3CDB0D89 | 2262 | - | `passcomm_ex_recv` |
 | 0xC3C194B4 | 2263 | - | - |
 | 0x8E8D5E84 | 2264 | - | - |
-| 0x7D24ED7D | 2271 | - | - |
-| 0xE42DBCC7 | 2272 | - | - |
+| 0x7D24ED7D | 2271 | - | `territory_t101g00_01` |
+| 0xE42DBCC7 | 2272 | - | `territory_t101g00_02` |
 | 0xA3551F7A | 2273 | - | - |
 | 0x3A5C4EC0 | 2274 | - | - |
-| 0xEABBFC54 | 2275 | - | - |
+| 0xEABBFC54 | 2275 | - | `territory_t103g00_01` |
 | 0x34CA0E53 | 2276 | - | - |
-| 0x2F1CC2DA | 2277 | - | - |
-| 0xB6159360 | 2278 | - | - |
-| 0xC112A3F6 | 2279 | - | - |
+| 0x2F1CC2DA | 2277 | - | `territory_t104g00_01` |
+| 0xB6159360 | 2278 | - | `territory_t104g00_02` |
+| 0xC112A3F6 | 2279 | - | `territory_t104g00_03` |
 | 0x5F763655 | 2280 | - | - |
 | 0x287106C3 | 2281 | - | - |
 | 0xF16D30DD | 2282 | - | - |
@@ -2133,9 +2133,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1F6351F1 | 2284 | - | - |
 | 0x8107C452 | 2285 | - | - |
 | 0xF600F4C4 | 2286 | - | - |
-| 0x896BC96E | 2287 | - | - |
+| 0x896BC96E | 2287 | - | `territory_t105g00_01` |
 | 0x571A3B69 | 2288 | - | - |
-| 0xB883D3F3 | 2289 | - | - |
+| 0xB883D3F3 | 2289 | - | `territory_t106g00_01` |
 | 0x66F221F4 | 2290 | - | - |
 | 0xE8BCA8AE | 2291 | - | - |
 | 0x36CD5AA9 | 2292 | - | - |
@@ -2229,18 +2229,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x09A4B1F4 (0x9A4B1F4) | 2409 | - | - |
 | 0x60BBEF7F | 2410 | - | - |
 | 0x6C260ECC | 2413 | - | - |
-| 0x12C511C4 | 2415 | - | - |
-| 0x65C22152 | 2416 | - | - |
-| 0x827A0C55 | 2417 | - | - |
-| 0xA9575F96 | 2418 | - | - |
-| 0x06C3204F (0x6C3204F) | 2419 | - | - |
+| 0x12C511C4 | 2415 | - | `shpN006` |
+| 0x65C22152 | 2416 | - | `shpN007` |
+| 0x827A0C55 | 2417 | - | `shpN009` |
+| 0xA9575F96 | 2418 | - | `shpN039` |
+| 0x06C3204F (0x6C3204F) | 2419 | - | `shpN043` |
 | 0x9E081BC2 | 2420 | - | - |
 | 0xDB3949D6 | 2421 | - | - |
 | 0x4230186C | 2422 | - | - |
 | 0x146ABFEA | 2423 | - | - |
 | 0x563629E7 | 2424 | - | - |
 | 0xD1498D05 | 2425 | - | - |
-| 0xBE97E6E5 | 2426 | - | - |
+| 0xBE97E6E5 | 2426 | - | `shpN021` |
 | 0xB83848CB | 2427 | - | - |
 | 0x353728FA | 2428 | - | - |
 | 0xBE91567A | 2429 | - | - |
@@ -2248,7 +2248,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x42C9D6C8 | 2431 | - | - |
 | 0xDAC6AAFC | 2432 | - | - |
 | 0xFB03C683 | 2433 | - | - |
-| 0x6D1C5096 | 2434 | - | - |
+| 0x6D1C5096 | 2434 | - | `t121g00` |
 | 0x6BADB722 | 2435 | - | - |
 | 0x1CAA87B4 | 2436 | - | - |
 | 0x82CE1217 | 2437 | - | - |
@@ -2311,24 +2311,24 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA86C872B | 2495 | - | - |
 | 0xDF6BB7BD | 2496 | - | - |
 | 0x4662E607 | 2497 | - | - |
-| 0x685DC425 | 2498 | - | - |
+| 0x685DC425 | 2498 | - | `ev01_0300` |
 | 0xB81B1F7E | 2499 | - | - |
 | 0xBA5DA127 | 2500 | - | - |
-| 0x6BD9104B | 2501 | - | - |
-| 0x64082BC4 | 2502 | - | - |
-| 0x65CA41F3 | 2503 | - | - |
-| 0x18BDB5B6 | 2504 | - | - |
-| 0xD2A71D19 | 2505 | - | - |
+| 0x6BD9104B | 2501 | - | `ev01_0100` |
+| 0x64082BC4 | 2502 | - | `ev01_0800` |
+| 0x65CA41F3 | 2503 | - | `ev01_0900` |
+| 0x18BDB5B6 | 2504 | - | `ev01_0950` |
+| 0xD2A71D19 | 2505 | - | `ev01_1000` |
 | 0xAC543D32 | 2506 | - | - |
-| 0xD0E1A340 | 2507 | - | - |
+| 0xD0E1A340 | 2507 | - | `ev01_1300` |
 | 0xD46CDFF2 | 2508 | - | - |
-| 0xD62A61AB | 2509 | - | - |
-| 0xDCB44CA1 | 2510 | - | - |
-| 0xDD762696 | 2511 | - | - |
-| 0xC3966699 | 2512 | - | - |
-| 0xC2540CAE | 2513 | - | - |
-| 0xC6D9701C | 2514 | - | - |
-| 0xC49FCE45 | 2515 | - | - |
+| 0xD62A61AB | 2509 | - | `ev01_1600` |
+| 0xDCB44CA1 | 2510 | - | `ev01_1800` |
+| 0xDD762696 | 2511 | - | `ev01_1900` |
+| 0xC3966699 | 2512 | - | `ev01_2200` |
+| 0xC2540CAE | 2513 | - | `ev01_2300` |
+| 0xC6D9701C | 2514 | - | `ev01_2500` |
+| 0xC49FCE45 | 2515 | - | `ev01_2600` |
 | 0xCE01E34F | 2516 | - | - |
 | 0xCFC38978 | 2517 | - | - |
 | 0x796CBFA5 | 2518 | - | - |
@@ -2355,27 +2355,27 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x57FC2371 | 2539 | - | - |
 | 0xE27045F7 | 2540 | - | - |
 | 0x01545D65 (0x1545D65) | 2541 | - | - |
-| 0xEF0BDCBC | 2544 | - | - |
-| 0x927C28F9 | 2545 | - | - |
-| 0xEEC9B68B | 2546 | - | - |
-| 0xEB86A00E | 2547 | - | - |
-| 0xE8027460 | 2548 | - | - |
-| 0xE9C01E57 | 2549 | - | - |
-| 0xE29C596A | 2550 | - | - |
-| 0xE35E335D | 2551 | - | - |
-| 0x55F10580 | 2552 | - | - |
-| 0x57B7BBD9 | 2553 | - | - |
-| 0x5675D1EE | 2554 | - | - |
-| 0x533AC76B | 2555 | - | - |
-| 0x52F8AD5C | 2556 | - | - |
-| 0x517C7932 | 2557 | - | - |
+| 0xEF0BDCBC | 2544 | - | `ev02_0200` |
+| 0x927C28F9 | 2545 | - | `ev02_0250` |
+| 0xEEC9B68B | 2546 | - | `ev02_0300` |
+| 0xEB86A00E | 2547 | - | `ev02_0400` |
+| 0xE8027460 | 2548 | - | `ev02_0600` |
+| 0xE9C01E57 | 2549 | - | `ev02_0700` |
+| 0xE29C596A | 2550 | - | `ev02_0800` |
+| 0xE35E335D | 2551 | - | `ev02_0900` |
+| 0x55F10580 | 2552 | - | `ev02_1100` |
+| 0x57B7BBD9 | 2553 | - | `ev02_1200` |
+| 0x5675D1EE | 2554 | - | `ev02_1300` |
+| 0x533AC76B | 2555 | - | `ev02_1400` |
+| 0x52F8AD5C | 2556 | - | `ev02_1500` |
+| 0x517C7932 | 2557 | - | `ev02_1700` |
 | 0x48674873 | 2558 | - | - |
 | 0x420BBCEB | 2559 | - | - |
 | 0x3F7C48AE | 2560 | - | - |
 | 0x9E567CD7 | 2561 | - | - |
 | 0xE8B5D423 | 2562 | - | - |
 | 0x5009B346 | 2563 | - | - |
-| 0x2E4D332E | 2564 | - | - |
+| 0x2E4D332E | 2564 | - | `ev02_1450` |
 | 0xD8D52C8E | 2567 | - | - |
 | 0xEAE34E0C | 2568 | - | - |
 | 0xA5A2D8CB | 2569 | - | - |
@@ -2403,31 +2403,31 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE3218892 | 2591 | - | - |
 | 0xB39A0B97 | 2592 | - | - |
 | 0xA0EDCE4E | 2593 | - | - |
-| 0x24570F19 | 2597 | - | - |
+| 0x24570F19 | 2597 | - | `ev03_0200` |
 | 0x5920FB5C | 2598 | - | - |
-| 0x2595652E | 2599 | - | - |
-| 0x20DA73AB | 2600 | - | - |
-| 0x2118199C | 2601 | - | - |
-| 0x235EA7C5 | 2602 | - | - |
-| 0x229CCDF2 | 2603 | - | - |
-| 0x29C08ACF | 2604 | - | - |
-| 0x2802E0F8 | 2605 | - | - |
-| 0x9F6FBC12 | 2606 | - | - |
-| 0x9CEB687C | 2607 | - | - |
-| 0x9D29024B | 2608 | - | - |
-| 0x986614CE | 2609 | - | - |
-| 0x99A47EF9 | 2610 | - | - |
-| 0x9BE2C0A0 | 2611 | - | - |
-| 0x9A20AA97 | 2612 | - | - |
-| 0x917CEDAA | 2613 | - | - |
-| 0x90BE879D | 2614 | - | - |
-| 0x8C1879CB | 2615 | - | - |
-| 0x8E5EC792 | 2616 | - | - |
-| 0x8F9CADA5 | 2617 | - | - |
-| 0x8AD3BB20 | 2618 | - | - |
-| 0x8B11D117 | 2619 | - | - |
-| 0x89576F4E | 2620 | - | - |
-| 0x820B2873 | 2621 | - | - |
+| 0x2595652E | 2599 | - | `ev03_0300` |
+| 0x20DA73AB | 2600 | - | `ev03_0400` |
+| 0x2118199C | 2601 | - | `ev03_0500` |
+| 0x235EA7C5 | 2602 | - | `ev03_0600` |
+| 0x229CCDF2 | 2603 | - | `ev03_0700` |
+| 0x29C08ACF | 2604 | - | `ev03_0800` |
+| 0x2802E0F8 | 2605 | - | `ev03_0900` |
+| 0x9F6FBC12 | 2606 | - | `ev03_1000` |
+| 0x9CEB687C | 2607 | - | `ev03_1200` |
+| 0x9D29024B | 2608 | - | `ev03_1300` |
+| 0x986614CE | 2609 | - | `ev03_1400` |
+| 0x99A47EF9 | 2610 | - | `ev03_1500` |
+| 0x9BE2C0A0 | 2611 | - | `ev03_1600` |
+| 0x9A20AA97 | 2612 | - | `ev03_1700` |
+| 0x917CEDAA | 2613 | - | `ev03_1800` |
+| 0x90BE879D | 2614 | - | `ev03_1900` |
+| 0x8C1879CB | 2615 | - | `ev03_2100` |
+| 0x8E5EC792 | 2616 | - | `ev03_2200` |
+| 0x8F9CADA5 | 2617 | - | `ev03_2300` |
+| 0x8AD3BB20 | 2618 | - | `ev03_2400` |
+| 0x8B11D117 | 2619 | - | `ev03_2500` |
+| 0x89576F4E | 2620 | - | `ev03_2600` |
+| 0x820B2873 | 2621 | - | `ev03_2900` |
 | 0xFF7CDC36 | 2622 | - | - |
 | 0xAAF7F279 | 2623 | - | - |
 | 0xADFE5AA5 | 2624 | - | - |
@@ -2471,34 +2471,34 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5ADB94FD | 2667 | - | - |
 | 0x287D5B37 | 2668 | - | - |
 | 0x63698EB8 | 2669 | - | - |
-| 0x39523FA1 | 2674 | - | - |
-| 0x38905596 | 2675 | - | - |
-| 0x3DDF4313 | 2676 | - | - |
-| 0x3E5B977D | 2677 | - | - |
+| 0x39523FA1 | 2674 | - | `ev04_0200` |
+| 0x38905596 | 2675 | - | `ev04_0300` |
+| 0x3DDF4313 | 2676 | - | `ev04_0400` |
+| 0x3E5B977D | 2677 | - | `ev04_0600` |
 | 0x0C6DF5FF (0xC6DF5FF) | 2678 | - | - |
 | 0x432C6338 | 2679 | - | - |
 | 0xF6821D75 | 2680 | - | - |
-| 0x3F99FD4A | 2681 | - | - |
+| 0x3F99FD4A | 2681 | - | `ev04_0700` |
 | 0x34C5BA77 | 2682 | - | - |
 | 0x3507D040 | 2683 | - | - |
 | 0x826A8CAA | 2684 | - | - |
 | 0x81EE58C4 | 2685 | - | - |
 | 0x802C32F3 | 2686 | - | - |
-| 0x85632476 | 2687 | - | - |
+| 0x85632476 | 2687 | - | `ev04_1400` |
 | 0x9C781537 | 2688 | - | - |
 | 0xB75546F4 | 2689 | - | - |
 | 0xAE4E77B5 | 2690 | - | - |
-| 0x84A14E41 | 2691 | - | - |
-| 0x86E7F018 | 2692 | - | - |
-| 0x90DF2344 | 2693 | - | - |
-| 0x911D4973 | 2694 | - | - |
-| 0x92999D1D | 2695 | - | - |
+| 0x84A14E41 | 2691 | - | `ev04_1500` |
+| 0x86E7F018 | 2692 | - | `ev04_1600` |
+| 0x90DF2344 | 2693 | - | `ev04_2000` |
+| 0x911D4973 | 2694 | - | `ev04_2100` |
+| 0x92999D1D | 2695 | - | `ev04_2300` |
 | 0xEFEE6958 | 2696 | - | - |
-| 0x97D68B98 | 2697 | - | - |
+| 0x97D68B98 | 2697 | - | `ev04_2400` |
 | 0xEAA17FDD | 2698 | - | - |
 | 0x2EA886CA | 2699 | - | - |
 | 0x480F9FCA | 2700 | - | - |
-| 0x87259A2F | 2701 | - | - |
+| 0x87259A2F | 2701 | - | `ev04_1700` |
 | 0x0E8CCF93 (0xE8CCF93) | 2704 | - | - |
 | 0x0F4EA5A4 (0xF4EA5A4) | 2705 | - | - |
 | 0x031B4A45 (0x31B4A45) | 2706 | - | - |
@@ -2530,7 +2530,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x73FB3BD6 | 2732 | - | - |
 | 0xEF98A1F7 | 2733 | - | - |
 | 0xC4B5F234 | 2734 | - | - |
-| 0xF20EEC04 | 2735 | - | - |
+| 0xF20EEC04 | 2735 | - | `ev05_0200` |
 | 0xE2FDFDB3 | 2736 | - | - |
 | 0xE0BB43EA | 2737 | - | - |
 | 0xE17929DD | 2738 | - | - |
@@ -2567,12 +2567,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8A49B50B | 2770 | - | - |
 | 0x82912658 | 2771 | - | - |
 | 0xFE24B82A | 2772 | - | - |
-| 0x5291F726 | 2773 | - | - |
+| 0x5291F726 | 2773 | - | `ev05_9990` |
 | 0x1EFBCF19 | 2774 | - | - |
 | 0x8B8BDF3C | 2775 | - | - |
-| 0x749A9EAA | 2779 | - | - |
-| 0x7558F49D | 2780 | - | - |
-| 0x7017E218 | 2781 | - | - |
+| 0x749A9EAA | 2779 | - | `ev06_0200` |
+| 0x7558F49D | 2780 | - | `ev06_0300` |
+| 0x7017E218 | 2781 | - | `ev06_0400` |
 | 0x73933676 | 2782 | - | - |
 | 0x6A880737 | 2783 | - | - |
 | 0x41A554F4 | 2784 | - | - |
@@ -2590,22 +2590,22 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCAED3B24 | 2796 | - | - |
 | 0xC073162E | 2797 | - | - |
 | 0xDD17824F | 2798 | - | - |
-| 0xDF513C16 | 2799 | - | - |
-| 0xDA1E2A93 | 2800 | - | - |
-| 0xDBDC40A4 | 2801 | - | - |
-| 0xD99AFEFD | 2802 | - | - |
+| 0xDF513C16 | 2799 | - | `ev06_2300` |
+| 0xDA1E2A93 | 2800 | - | `ev06_2400` |
+| 0xDBDC40A4 | 2801 | - | `ev06_2500` |
+| 0xD99AFEFD | 2802 | - | `ev06_2600` |
 | 0xD85894CA | 2803 | - | - |
 | 0xD304D3F7 | 2804 | - | - |
 | 0x65ABE52A | 2805 | - | - |
 | 0x05C73EC1 (0x5C73EC1) | 2806 | - | - |
-| 0xBFC64D0F | 2812 | - | - |
-| 0xBE042738 | 2813 | - | - |
-| 0xBB4B31BD | 2814 | - | - |
-| 0xBA895B8A | 2815 | - | - |
-| 0xB8CFE5D3 | 2816 | - | - |
-| 0xB90D8FE4 | 2817 | - | - |
-| 0xB251C8D9 | 2818 | - | - |
-| 0xB393A2EE | 2819 | - | - |
+| 0xBFC64D0F | 2812 | - | `ev07_0200` |
+| 0xBE042738 | 2813 | - | `ev07_0300` |
+| 0xBB4B31BD | 2814 | - | `ev07_0400` |
+| 0xBA895B8A | 2815 | - | `ev07_0500` |
+| 0xB8CFE5D3 | 2816 | - | `ev07_0600` |
+| 0xB90D8FE4 | 2817 | - | `ev07_0700` |
+| 0xB251C8D9 | 2818 | - | `ev07_0800` |
+| 0xB393A2EE | 2819 | - | `ev07_0900` |
 | 0x04FEFE04 (0x4FEFE04) | 2820 | - | - |
 | 0x053C9433 (0x53C9433) | 2821 | - | - |
 | 0x077A2A6A (0x77A2A6A) | 2822 | - | - |
@@ -2642,21 +2642,21 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B6F78E4 | 2853 | - | - |
 | 0x9E206E61 | 2854 | - | - |
 | 0xCE9BED64 | 2855 | - | - |
-| 0x4E90FFDA | 2861 | - | - |
-| 0x4F5295ED | 2862 | - | - |
-| 0x4A1D8368 | 2863 | - | - |
+| 0x4E90FFDA | 2861 | - | `ev08_0200` |
+| 0x4F5295ED | 2862 | - | `ev08_0300` |
+| 0x4A1D8368 | 2863 | - | `ev08_0400` |
 | 0x376A772D | 2864 | - | - |
-| 0x4BDFE95F | 2865 | - | - |
-| 0x49995706 | 2866 | - | - |
-| 0xF46A26E6 | 2867 | - | - |
-| 0xF62C98BF | 2868 | - | - |
-| 0xF7EEF288 | 2869 | - | - |
-| 0xF2A1E40D | 2870 | - | - |
-| 0xF3638E3A | 2871 | - | - |
-| 0xF1253063 | 2872 | - | - |
-| 0xF0E75A54 | 2873 | - | - |
-| 0xFBBB1D69 | 2874 | - | - |
-| 0xFA79775E | 2875 | - | - |
+| 0x4BDFE95F | 2865 | - | `ev08_0500` |
+| 0x49995706 | 2866 | - | `ev08_0600` |
+| 0xF46A26E6 | 2867 | - | `ev08_1100` |
+| 0xF62C98BF | 2868 | - | `ev08_1200` |
+| 0xF7EEF288 | 2869 | - | `ev08_1300` |
+| 0xF2A1E40D | 2870 | - | `ev08_1400` |
+| 0xF3638E3A | 2871 | - | `ev08_1500` |
+| 0xF1253063 | 2872 | - | `ev08_1600` |
+| 0xF0E75A54 | 2873 | - | `ev08_1700` |
+| 0xFBBB1D69 | 2874 | - | `ev08_1800` |
+| 0xFA79775E | 2875 | - | `ev08_1900` |
 | 0x7ACADB86 | 2876 | - | - |
 | 0x7B08B1B1 | 2877 | - | - |
 | 0x794E0FE8 | 2878 | - | - |
@@ -2671,11 +2671,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE90EB287 | 2887 | - | - |
 | 0x5AEE92DF | 2888 | - | - |
 | 0xC739AA66 | 2889 | - | - |
-| 0x85CC2C7F | 2891 | - | - |
-| 0x840E4648 | 2892 | - | - |
-| 0x814150CD | 2893 | - | - |
-| 0x80833AFA | 2894 | - | - |
-| 0x885BA9A9 | 2895 | - | - |
+| 0x85CC2C7F | 2891 | - | `ev09_0200` |
+| 0x840E4648 | 2892 | - | `ev09_0300` |
+| 0x814150CD | 2893 | - | `ev09_0400` |
+| 0x80833AFA | 2894 | - | `ev09_0500` |
+| 0x885BA9A9 | 2895 | - | `ev09_0800` |
 | 0x3F36F543 | 2896 | - | - |
 | 0x3D704B1A | 2897 | - | - |
 | 0x3CB2212D | 2898 | - | - |
@@ -2689,20 +2689,20 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1D540243 | 2906 | - | - |
 | 0x158C9110 | 2907 | - | - |
 | 0xF4918C14 | 2908 | - | - |
-| 0x05761C34 (0x5761C34) | 2914 | - | - |
-| 0x00390AB1 (0x390AB1) | 2915 | - | - |
-| 0x01FB6086 (0x1FB6086) | 2916 | - | - |
-| 0x03BDDEDF (0x3BDDEDF) | 2917 | - | - |
+| 0x05761C34 (0x5761C34) | 2914 | - | `ev10_0300` |
+| 0x00390AB1 (0x390AB1) | 2915 | - | `ev10_0400` |
+| 0x01FB6086 (0x1FB6086) | 2916 | - | `ev10_0500` |
+| 0x03BDDEDF (0x3BDDEDF) | 2917 | - | `ev10_0600` |
 | 0x027FB4E8 (0x27FB4E8) | 2918 | - | - |
-| 0x0923F3D5 (0x923F3D5) | 2919 | - | - |
-| 0x08E199E2 (0x8E199E2) | 2920 | - | - |
+| 0x0923F3D5 (0x923F3D5) | 2919 | - | `ev10_0800` |
+| 0x08E199E2 (0x8E199E2) | 2920 | - | `ev10_0900` |
 | 0xBF8CC508 | 2921 | - | - |
-| 0xBE4EAF3F | 2922 | - | - |
-| 0xBC081166 | 2923 | - | - |
+| 0xBE4EAF3F | 2922 | - | `ev10_1100` |
+| 0xBC081166 | 2923 | - | `ev10_1200` |
 | 0xBDCA7B51 | 2924 | - | - |
-| 0xB8856DD4 | 2925 | - | - |
-| 0xB94707E3 | 2926 | - | - |
-| 0xBAC3D38D | 2927 | - | - |
+| 0xB8856DD4 | 2925 | - | `ev10_1400` |
+| 0xB94707E3 | 2926 | - | `ev10_1500` |
+| 0xBAC3D38D | 2927 | - | `ev10_1700` |
 | 0x225BFDB1 | 2928 | - | - |
 | 0x5F2C09F4 | 2929 | - | - |
 | 0x21DF29DF | 2930 | - | - |
@@ -2712,23 +2712,23 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2714EB34 | 2934 | - | - |
 | 0x9AE79AD4 | 2935 | - | - |
 | 0x75E9D668 | 2936 | - | - |
-| 0x34632EED | 2937 | - | - |
+| 0x34632EED | 2937 | - | `ev10_5600` |
 | 0x35A144DA | 2938 | - | - |
 | 0x3EFD03E7 | 2939 | - | - |
-| 0xCE2ACF91 | 2941 | - | - |
-| 0xCB65D914 | 2942 | - | - |
+| 0xCE2ACF91 | 2941 | - | `ev11_0300` |
+| 0xCB65D914 | 2942 | - | `ev11_0400` |
 | 0xFBB281FA | 2943 | - | - |
-| 0xC923674D | 2944 | - | - |
+| 0xC923674D | 2944 | - | `ev11_0700` |
 | 0xC27F2070 | 2945 | - | - |
 | 0x75127C9A | 2946 | - | - |
 | 0x086588DF (0x86588DF) | 2947 | - | - |
 | 0xFA70EBCD | 2948 | - | - |
 | 0xBDCBF692 | 2949 | - | - |
 | 0x7754C2C3 | 2950 | - | - |
-| 0x0A233686 (0xA233686) | 2951 | - | - |
+| 0x0A233686 (0xA233686) | 2951 | - | `ev11_1250` |
 | 0xF8365594 | 2952 | - | - |
-| 0x7696A8F4 | 2953 | - | - |
-| 0x0BE15CB1 (0xBE15CB1) | 2954 | - | - |
+| 0x7696A8F4 | 2953 | - | `ev11_1300` |
+| 0x0BE15CB1 (0xBE15CB1) | 2954 | - | `ev11_1350` |
 | 0xF9F43FA3 | 2955 | - | - |
 | 0x73D9BE71 | 2956 | - | - |
 | 0x0EAE4A34 (0xEAE4A34) | 2957 | - | - |
@@ -2756,7 +2756,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x60AE7BA8 | 2979 | - | - |
 | 0x1C1BE5DA | 2980 | - | - |
 | 0x6423071A | 2981 | - | - |
-| 0x4B3A6951 | 2987 | - | - |
+| 0x4B3A6951 | 2987 | - | `ev12_0100` |
 | 0x497CD708 | 2988 | - | - |
 | 0xE0F1CBED | 2989 | - | - |
 | 0x9FC081F1 | 2990 | - | - |
@@ -2813,7 +2813,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x598B66B1 | 3128 | - | - |
 | 0x5BCDD8E8 | 3129 | - | - |
 | 0xDD9E9A05 | 3130 | - | - |
-| 0xDFD8245C | 3131 | - | - |
+| 0xDFD8245C | 3131 | - | `ev70_1200` |
 | 0xDE1A4E6B | 3132 | - | - |
 | 0xDB5558EE | 3133 | - | - |
 | 0x5A0FB2DF | 3134 | - | - |
@@ -3173,7 +3173,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x17E2CAD5 | 3498 | - | - |
 | 0xC2D2C3ED | 3499 | - | - |
 | 0x38683AEF | 3500 | - | - |
-| 0xE490507C | 3501 | - | - |
+| 0xE490507C | 3501 | - | `ev01_btl0010` |
 | 0xCFBD03BF | 3502 | - | - |
 | 0xD6A632FE | 3503 | - | - |
 | 0x99E7A439 | 3504 | - | - |
@@ -3191,7 +3191,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x13223ACE | 3520 | - | - |
 | 0xC1EECF48 | 3521 | - | - |
 | 0xD8F5FE09 | 3522 | - | - |
-| 0xCA6678FA | 3526 | - | - |
+| 0xCA6678FA | 3526 | - | `ev03_btl0010` |
 | 0xFDB888C8 | 3527 | - | - |
 | 0x95CF38FA | 3528 | - | - |
 | 0x7470CA4E | 3529 | - | - |
@@ -3241,7 +3241,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE8FC15CC | 3590 | - | - |
 | 0x18E7D676 | 3593 | - | - |
 | 0xAA976D73 | 3594 | - | - |
-| 0x5F48F264 | 3601 | - | - |
+| 0x5F48F264 | 3601 | - | `ev09_btl0010` |
 | 0x5BC58ED6 | 3602 | - | - |
 | 0x70E8DD15 | 3603 | - | - |
 | 0x040F2432 (0x40F2432) | 3604 | - | - |
@@ -3435,11 +3435,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB483FAA3 | 3894 | - | - |
 | 0x3583C7BD | 3895 | - | - |
 | 0xE8151E38 | 3896 | - | - |
-| 0xAC7A1F21 | 3897 | - | - |
+| 0xAC7A1F21 | 3897 | - | `wl_t121g00_01` |
 | 0x60D01FBF | 3898 | - | - |
 | 0x5DF24127 | 3899 | - | - |
-| 0xFB24CBF6 | 3900 | - | - |
-| 0x63036BF8 | 3901 | - | - |
+| 0xFB24CBF6 | 3900 | - | `wanted_complete` |
+| 0x63036BF8 | 3901 | - | `week_get_wanted_reward` |
 | 0xD929B64E | 3902 | - | - |
 | 0x9E89CC9E | 3903 | - | - |
 | 0xE8C1ACD3 | 3904 | - | - |
@@ -3593,44 +3593,44 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | - |
-| 0x1827540E | 1 | - | - |
-| 0x97580970 | 2 | - | - |
-| 0xC629E7F8 | 3 | - | - |
-| 0xEE5E8CA9 | 4 | - | - |
+| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x1827540E | 1 | - | `current_area` |
+| 0x97580970 | 2 | - | `weather_condition` |
+| 0xC629E7F8 | 3 | - | `watch_mode` |
+| 0xEE5E8CA9 | 4 | - | `count_died` |
 | 0x43E0B1FC | 5 | - | - |
 | 0xB3E9494F | 7 | - | - |
-| 0x78002D2E | 8 | - | - |
-| 0x74CAA867 | 9 | - | - |
+| 0x78002D2E | 8 | - | `count_offertory box` |
+| 0x74CAA867 | 9 | - | `count_gold_egg` |
 | 0xDE415994 | 10 | - | - |
-| 0x169C1EA3 | 11 | - | - |
+| 0x169C1EA3 | 11 | - | `menu_release` |
 | 0xA70E53DC | 12 | - | - |
 | 0x99EF4DEE | 13 | - | - |
-| 0x5CAB924C | 14 | - | - |
-| 0x3ABC5212 | 15 | - | - |
-| 0xA45A65EC | 16 | - | - |
+| 0x5CAB924C | 14 | - | `passcomm_num` |
+| 0x3ABC5212 | 15 | - | `scratch_count` |
+| 0xA45A65EC | 16 | - | `gacha_use_count` |
 | 0x191A188B | 17 | - | - |
 | 0x8EC8C103 | 18 | - | - |
 | 0x497DA933 | 19 | - | - |
-| 0x0646F45E (0x646F45E) | 20 | - | - |
-| 0x81B5A9FC | 21 | - | - |
-| 0xB5891C2B | 22 | - | - |
-| 0xA938C2D5 | 23 | - | - |
+| 0x0646F45E (0x646F45E) | 20 | - | `story_chara_num` |
+| 0x81B5A9FC | 21 | - | `wanted_no` |
+| 0xB5891C2B | 22 | - | `wanted_phase` |
+| 0xA938C2D5 | 23 | - | `wanted_act_no` |
 | 0x9076E662 | 24 | - | - |
-| 0xAB951AD4 | 25 | - | - |
-| 0x329C4B6E | 26 | - | - |
-| 0x1EF9C219 | 27 | - | - |
-| 0x25BD6200 | 28 | - | - |
+| 0xAB951AD4 | 25 | - | `wanted_limit_year1` |
+| 0x329C4B6E | 26 | - | `wanted_limit_year2` |
+| 0x1EF9C219 | 27 | - | `wanted_limit_month` |
+| 0x25BD6200 | 28 | - | `wanted_limit_day` |
 | 0x42A66AF6 | 29 | - | - |
 | 0xE4ED480E | 30 | - | - |
 | 0xEC5A92F8 | 31 | - | - |
-| 0xDE3AEC45 | 32 | - | - |
+| 0xDE3AEC45 | 32 | - | `bad_time_change` |
 | 0x2F508D80 | 33 | - | - |
-| 0x870695F5 | 35 | - | - |
+| 0x870695F5 | 35 | - | `best_record_rank` |
 | 0x18CACF54 | 36 | - | - |
 | 0xF19E0A16 | 37 | - | - |
-| 0x8064E85B | 38 | - | - |
-| 0xEC346E56 | 39 | - | - |
+| 0x8064E85B | 38 | - | `bicycle_color_num` |
+| 0xEC346E56 | 39 | - | `bicycle_bell_num` |
 | 0x252CEC92 | 40 | - | - |
 | 0xB2FE351A | 41 | - | - |
 | 0x0D6B2DF9 (0xD6B2DF9) | 42 | - | - |
@@ -3649,10 +3649,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x95154C30 | 56 | - | - |
 | 0xA8611BED | 57 | - | - |
 | 0x96B29F47 | 58 | - | - |
-| 0x1041492E | 59 | - | - |
-| 0xC985A65D | 60 | - | - |
-| 0x57E133FE | 61 | - | - |
-| 0x13755E30 | 62 | - | - |
+| 0x1041492E | 59 | - | `shpN009_04` |
+| 0xC985A65D | 60 | - | `shpN039_03` |
+| 0x57E133FE | 61 | - | `shpN039_04` |
+| 0x13755E30 | 62 | - | `shpN043_07` |
 | 0xCDF1E662 | 63 | - | - |
 | 0x985F0BEF | 64 | - | - |
 | 0x8AEAA401 | 65 | - | - |
@@ -3661,13 +3661,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAFD49481 | 68 | - | - |
 | 0xD7C5200E | 69 | - | - |
 | 0x382C00B8 | 70 | - | - |
-| 0x90091C2B | 71 | - | - |
+| 0x90091C2B | 71 | - | `weatherScaduleContinueResion` |
 | 0x172D9DA5 | 72 | - | - |
 | 0xC231F5A8 | 73 | - | - |
 | 0x7F8B5102 | 74 | - | - |
 | 0x8920FFE7 | 75 | - | - |
 | 0x32815EF3 | 76 | - | - |
-| 0xAF3532A1 | 77 | - | - |
+| 0xAF3532A1 | 77 | - | `shpN021_04` |
 | 0x0CE98A12 (0xCE98A12) | 78 | - | - |
 | 0xA5CA6888 | 79 | - | - |
 | 0x720227E9 | 80 | - | - |
@@ -4131,30 +4131,30 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | - |
+| 0x4FF4F23F | 0 | - | `dummy` |
 | 0x438CB286 | 1 | - | - |
 | 0x17DC03F6 | 2 | - | - |
 | 0x629D8D39 | 23 | - | - |
 | 0xFB94DC83 | 25 | - | - |
 | 0x8C93EC15 | 28 | - | - |
 | 0x65F04920 | 29 | - | - |
-| 0x0569AC18 (0x569AC18) | 30 | - | - |
+| 0x0569AC18 (0x569AC18) | 30 | - | `t102g00` |
 | 0x702822D7 | 50 | - | - |
 | 0xE921736D | 53 | - | - |
 | 0x9E2643FB | 55 | - | - |
-| 0xBDD5CB7D | 61 | - | - |
+| 0xBDD5CB7D | 61 | - | `t103g00` |
 | 0xC89445B2 | 80 | - | - |
 | 0x269A249E | 81 | - | - |
 | 0xD18F74F3 | 82 | - | - |
-| 0x2002F3C4 | 85 | - | - |
+| 0x2002F3C4 | 85 | - | `t104g00` |
 | 0x55437D0B | 106 | - | - |
 | 0xBB4D1C27 | 108 | - | - |
 | 0x522EB912 | 110 | - | - |
 | 0xBC20D83E | 112 | - | - |
-| 0x98BE94A1 | 115 | - | - |
+| 0x98BE94A1 | 115 | - | `t105g00` |
 | 0xEDFF1A6E | 134 | - | - |
-| 0x8A0B3B4F | 136 | - | - |
-| 0x32B75C2A | 156 | - | - |
+| 0x8A0B3B4F | 136 | - | `t106g00` |
+| 0x32B75C2A | 156 | - | `t107g00` |
 | 0x6AD44C7C | 168 | - | - |
 | 0x1F95C2B3 | 182 | - | - |
 | 0xF19BA39F | 184 | - | - |
@@ -4180,17 +4180,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8AEC7BEF | 327 | - | - |
 | 0xF9EB4A06 | 332 | - | - |
 | 0x8C4D41E0 | 382 | - | - |
-| 0x507C7926 | 402 | - | - |
+| 0x507C7926 | 402 | - | `t131g00` |
 | 0x253DF7E9 | 412 | - | - |
 | 0x185DDE59 | 413 | - | - |
 | 0xF653BF75 | 414 | - | - |
-| 0x6D1C5096 | 415 | - | - |
+| 0x6D1C5096 | 415 | - | `t121g00` |
 
 ## FLAG_INFO_3 (1, 115) - GlobalTBoxFlag?
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | - |
+| 0x4FF4F23F | 0 | - | `dummy` |
 | 0x438CB286 | 1 | - | - |
 | 0x17DC03F6 | 3 | - | - |
 | 0x629D8D39 | 39 | - | - |
@@ -4202,19 +4202,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF93C8B03 | 52 | - | - |
 | 0x105F2E36 | 55 | - | - |
 | 0x6EEE528B | 59 | - | - |
-| 0x0569AC18 (0x569AC18) | 60 | - | - |
+| 0x0569AC18 (0x569AC18) | 60 | - | `t102g00` |
 | 0x702822D7 | 85 | - | - |
 | 0xE921736D | 89 | - | - |
 | 0x9E2643FB | 92 | - | - |
 | 0x5B057114 | 100 | - | - |
 | 0xC20C20AE | 106 | - | - |
-| 0xBDD5CB7D | 113 | - | - |
+| 0xBDD5CB7D | 113 | - | `t103g00` |
 | 0xC89445B2 | 146 | - | - |
 | 0x269A249E | 148 | - | - |
 | 0xD18F74F3 | 151 | - | - |
 | 0xE3B91671 | 155 | - | - |
 | 0xE4D4D268 | 163 | - | - |
-| 0x2002F3C4 | 167 | - | - |
+| 0x2002F3C4 | 167 | - | `t104g00` |
 | 0x55437D0B | 200 | - | - |
 | 0xBB4D1C27 | 203 | - | - |
 | 0x522EB912 | 206 | - | - |
@@ -4227,14 +4227,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCEE27B31 | 221 | - | - |
 | 0xA2562D66 | 223 | - | - |
 | 0x4B358853 | 225 | - | - |
-| 0x98BE94A1 | 226 | - | - |
+| 0x98BE94A1 | 226 | - | `t105g00` |
 | 0xEDFF1A6E | 258 | - | - |
 | 0x8993DF6A | 261 | - | - |
 | 0x679DBE46 | 267 | - | - |
 | 0x8EFE1B73 | 271 | - | - |
 | 0xF04F67CE | 274 | - | - |
-| 0x8A0B3B4F | 276 | - | - |
-| 0x32B75C2A | 311 | - | - |
+| 0x8A0B3B4F | 276 | - | `t106g00` |
+| 0x32B75C2A | 311 | - | `t107g00` |
 | 0x6AD44C7C | 333 | - | - |
 | 0x1F95C2B3 | 364 | - | - |
 | 0xF19BA39F | 367 | - | - |
@@ -4296,56 +4296,56 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC6D249AD | 784 | - | - |
 | 0x4AC6D306 | 785 | - | - |
 | 0x8C4D41E0 | 786 | - | - |
-| 0x507C7926 | 807 | - | - |
+| 0x507C7926 | 807 | - | `t131g00` |
 | 0x253DF7E9 | 826 | - | - |
 | 0xCB3396C5 | 829 | - | - |
 | 0x55570366 | 832 | - | - |
 | 0x185DDE59 | 835 | - | - |
 | 0xF653BF75 | 837 | - | - |
 | 0x0146EF18 (0x146EF18) | 840 | - | - |
-| 0x6D1C5096 | 847 | - | - |
+| 0x6D1C5096 | 847 | - | `t121g00` |
 | 0x7E994CDD | 869 | - | - |
 
 ## FLAG_INFO_4 (7, 235) - TempBitFlag
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | - |
-| 0x7B179115 | 1 | - | - |
-| 0xBC5BAB7F | 2 | - | - |
+| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x7B179115 | 1 | - | `home_sleep_out` |
+| 0xBC5BAB7F | 2 | - | `mj_temp_follow_pos` |
 | 0x2A9BF388 | 3 | - | - |
 | 0x5D433109 | 4 | - | - |
-| 0x0BCB1ECB (0xBCB1ECB) | 5 | - | - |
-| 0xAFFD91BF | 6 | - | - |
-| 0x323AF153 | 7 | - | - |
-| 0x6A187D8C | 8 | - | - |
+| 0x0BCB1ECB (0xBCB1ECB) | 5 | - | `forbit_fp_trigger` |
+| 0xAFFD91BF | 6 | - | `orge_time_story` |
+| 0x323AF153 | 7 | - | `disable_event_skip` |
+| 0x6A187D8C | 8 | - | `decide_event_skip` |
 | 0x19B1E1A0 | 9 | - | - |
-| 0x09D86D19 (0x9D86D19) | 10 | - | - |
-| 0x206C16EC | 11 | - | - |
+| 0x09D86D19 (0x9D86D19) | 10 | - | `tmp_coin_event` |
+| 0x206C16EC | 11 | - | `tmp_heal_event` |
 | 0x590998F0 | 12 | - | - |
-| 0x3FFD7861 | 13 | - | - |
+| 0x3FFD7861 | 13 | - | `tmp_play_hide_and_seek` |
 | 0xBFA693C6 | 14 | - | - |
-| 0x92D6A3D1 | 15 | - | - |
-| 0x74493C7E | 16 | - | - |
-| 0x60342C40 | 17 | - | - |
-| 0x06B29C0E (0x6B29C0E) | 18 | - | - |
-| 0xA495485C | 19 | - | - |
-| 0x606B51C8 | 20 | - | - |
-| 0xA494B844 | 21 | - | - |
-| 0x6242919A | 22 | - | - |
-| 0x209E3EB5 | 23 | - | - |
-| 0x141DC04D | 24 | - | - |
-| 0xC79E50EF | 25 | - | - |
-| 0x2F21650A | 26 | - | - |
-| 0xB6BBD2C2 | 27 | - | - |
-| 0x5F0C2960 | 28 | - | - |
-| 0x606EB50D | 29 | - | - |
+| 0x92D6A3D1 | 15 | - | `tmp_play_quest_game` |
+| 0x74493C7E | 16 | - | `in_dungeon` |
+| 0x60342C40 | 17 | - | `tmp_disable_save_pos` |
+| 0x06B29C0E (0x6B29C0E) | 18 | - | `tmp_member_in` |
+| 0xA495485C | 19 | - | `tmp_is_recover` |
+| 0x606B51C8 | 20 | - | `tmp_is_amm` |
+| 0xA494B844 | 21 | - | `tmp_is_cancel_nm` |
+| 0x6242919A | 22 | - | `tmp_did_add_member` |
+| 0x209E3EB5 | 23 | - | `tmp_save_call` |
+| 0x141DC04D | 24 | - | `tmp_return_title` |
+| 0xC79E50EF | 25 | - | `menu_disable` |
+| 0x2F21650A | 26 | - | `lens_disable` |
+| 0xB6BBD2C2 | 27 | - | `watch_disable` |
+| 0x5F0C2960 | 28 | - | `bicycle_disable` |
+| 0x606EB50D | 29 | - | `map_disable` |
 | 0xDE39E7F0 | 30 | - | - |
 | 0x4BFD465D | 31 | - | - |
 | 0x0F446E02 (0xF446E02) | 32 | - | - |
-| 0x27C5A226 | 33 | - | - |
-| 0x50C292B0 | 34 | - | - |
-| 0xB49BD386 | 35 | - | - |
+| 0x27C5A226 | 33 | - | `appear_train_t103_00` |
+| 0x50C292B0 | 34 | - | `appear_train_t103_01` |
+| 0xB49BD386 | 35 | - | `down_crossing_t103` |
 | 0x207F66E1 | 36 | - | - |
 | 0xEC6A64EB | 37 | - | - |
 | 0xED1BCF1E | 38 | - | - |
@@ -4353,11 +4353,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0F73058D (0xF73058D) | 40 | - | - |
 | 0xD9CB1220 | 41 | - | - |
 | 0xC42BD574 | 42 | - | - |
-| 0xCF46C0A6 | 43 | - | - |
-| 0x1485D5F0 | 44 | - | - |
-| 0x3F4F743B | 45 | - | - |
-| 0x54F4A235 | 46 | - | - |
-| 0xBF0FA9D4 | 47 | - | - |
+| 0xCF46C0A6 | 43 | - | `warp_mirror` |
+| 0x1485D5F0 | 44 | - | `open_auto_door` |
+| 0x3F4F743B | 45 | - | `confine_move` |
+| 0x54F4A235 | 46 | - | `weather_change_direct` |
+| 0xBF0FA9D4 | 47 | - | `tmp_rpg_btn_pad_intr` |
 | 0x5C71AE87 | 48 | - | - |
 | 0xF1E7285C | 49 | - | - |
 | 0xC8ED0BB8 | 50 | - | - |
@@ -4373,25 +4373,25 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x662C9C64 | 60 | - | - |
 | 0xF5F8733E | 61 | - | - |
 | 0x1464EB66 | 62 | - | - |
-| 0xB22605DC | 63 | - | - |
-| 0x7BDCEEB8 | 64 | - | - |
-| 0x6A844A8A | 65 | - | - |
-| 0x6A91478F | 66 | - | - |
-| 0x980BB54D | 67 | - | - |
-| 0xDAD320CD | 68 | - | - |
+| 0xB22605DC | 63 | - | `tmp_wanted_found` |
+| 0x7BDCEEB8 | 64 | - | `tmp_disable_party_servant` |
+| 0x6A844A8A | 65 | - | `tmp_phase_reload_oneplace` |
+| 0x6A91478F | 66 | - | `tmp_reload_minimap_icon` |
+| 0x980BB54D | 67 | - | `tmp_replace_mitibiki_tbox` |
+| 0xDAD320CD | 68 | - | `forbit_npc_rebuild` |
 | 0xCEB7AC4E | 69 | - | - |
 | 0x6ABF3B2F | 70 | - | - |
-| 0xA1747699 | 71 | - | - |
-| 0x9F29FF19 | 72 | - | - |
-| 0xC9B326BF | 73 | - | - |
-| 0xC1D4315F | 74 | - | - |
+| 0xA1747699 | 71 | - | `tmp_quest_accept_menu` |
+| 0x9F29FF19 | 72 | - | `tmp_vis_ev_simple_skip` |
+| 0xC9B326BF | 73 | - | `tmp_gaya_stop` |
+| 0xC1D4315F | 74 | - | `tmp_yokaispot_battle_encount` |
 | 0x1EAA97D1 | 75 | - | - |
 | 0x49EBC157 | 76 | - | - |
 | 0x7765AB6A | 77 | - | - |
 | 0xA82A2107 | 78 | - | - |
 | 0xFCEEEA14 | 79 | - | - |
-| 0xE17FE3B6 | 80 | - | - |
-| 0xD26BE87F | 81 | - | - |
+| 0xE17FE3B6 | 80 | - | `tmp_gacha_result_yokai` |
+| 0xD26BE87F | 81 | - | `tmp_name_change_is_reset` |
 | 0x282A4E4B | 82 | - | - |
 | 0x86D42AEB | 83 | - | - |
 | 0xD83F9214 | 84 | - | - |
@@ -4400,15 +4400,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB6B3F723 | 87 | - | - |
 | 0x731F6281 | 88 | - | - |
 | 0x1F596C6A | 89 | - | - |
-| 0xA3C46CFB | 90 | - | - |
-| 0x93C91EC1 | 91 | - | - |
+| 0xA3C46CFB | 90 | - | `tmp_force_update_ppsmsg` |
+| 0x93C91EC1 | 91 | - | `tmp_force_non_anime_ppsmsg` |
 | 0x228FD46C | 92 | - | - |
-| 0x3D12F75F | 93 | - | - |
-| 0x3EFD209C | 94 | - | - |
-| 0xA891F085 | 95 | - | - |
-| 0x3198A13F | 96 | - | - |
-| 0x469F91A9 | 97 | - | - |
-| 0x8A47C32D | 99 | - | - |
+| 0x3D12F75F | 93 | - | `update_cross_icon` |
+| 0x3EFD209C | 94 | - | `update_cross_door_icon` |
+| 0xA891F085 | 95 | - | `tmp_quest_tlk_cnt_01` |
+| 0x3198A13F | 96 | - | `tmp_quest_tlk_cnt_02` |
+| 0x469F91A9 | 97 | - | `tmp_quest_tlk_cnt_03` |
+| 0x8A47C32D | 99 | - | `tmp_watchmap_battle` |
 | 0xF654B9AF | 100 | - | - |
 | 0xB0BA8BF8 | 101 | - | - |
 | 0x29B3DA42 | 102 | - | - |
@@ -4466,16 +4466,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x31222875 | 170 | - | - |
 | 0x94864067 | 171 | - | - |
 | 0xD6D1C329 | 172 | - | - |
-| 0xE3B7B226 | 173 | - | - |
-| 0x7ABEE39C | 174 | - | - |
-| 0x0DB9D30A (0xDB9D30A) | 175 | - | - |
-| 0x93DD46A9 | 176 | - | - |
-| 0xE4DA763F | 177 | - | - |
-| 0x7DD32785 | 178 | - | - |
-| 0x0AD41713 (0xAD41713) | 179 | - | - |
-| 0x9A6B0A82 | 180 | - | - |
-| 0xED6C3A14 | 181 | - | - |
-| 0x2635ED6E | 182 | - | - |
+| 0xE3B7B226 | 173 | - | `tmp_bit_gate_ev1` |
+| 0x7ABEE39C | 174 | - | `tmp_bit_gate_ev2` |
+| 0x0DB9D30A (0xDB9D30A) | 175 | - | `tmp_bit_gate_ev3` |
+| 0x93DD46A9 | 176 | - | `tmp_bit_gate_ev4` |
+| 0xE4DA763F | 177 | - | `tmp_bit_gate_ev5` |
+| 0x7DD32785 | 178 | - | `tmp_bit_gate_ev6` |
+| 0x0AD41713 (0xAD41713) | 179 | - | `tmp_bit_gate_ev7` |
+| 0x9A6B0A82 | 180 | - | `tmp_bit_gate_ev8` |
+| 0xED6C3A14 | 181 | - | `tmp_bit_gate_ev9` |
+| 0x2635ED6E | 182 | - | `tmp_bit_gate_ev10` |
 | 0xA355B2B8 | 183 | - | - |
 | 0xA056F3BB | 184 | - | - |
 | 0xD751C32D | 185 | - | - |
@@ -4550,37 +4550,37 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | - |
-| 0x9FF789D8 | 1 | - | - |
+| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xCA4EA9AE | 2 | - | - |
-| 0xC99C90E8 | 3 | - | - |
-| 0xADBA2641 | 4 | - | - |
-| 0xDEDC17BC | 5 | - | - |
+| 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
+| 0xADBA2641 | 4 | - | `tmp_shop_id` |
+| 0xDEDC17BC | 5 | - | `tmp_shop_type` |
 | 0x0646643E (0x646643E) | 6 | - | - |
-| 0xA50927A3 | 7 | - | - |
+| 0xA50927A3 | 7 | - | `tmp_pass_idx` |
 | 0x88B8AF7B | 8 | - | - |
-| 0x619DE8E8 | 9 | - | - |
-| 0x20F64979 | 10 | - | - |
-| 0x26BF0B6E | 11 | - | - |
-| 0x8D489757 | 12 | - | - |
+| 0x619DE8E8 | 9 | - | `tmp_seek_num` |
+| 0x20F64979 | 10 | - | `tmp_seek_get_num` |
+| 0x26BF0B6E | 11 | - | `tmp_quest_time` |
+| 0x8D489757 | 12 | - | `tmp_seek_rest_num` |
 | 0x4833746A | 13 | - | - |
 | 0x8B83BF48 | 14 | - | - |
 | 0x7FBDDA81 | 15 | - | - |
-| 0x90F2EA2A | 18 | - | - |
-| 0x5D130AE2 | 19 | - | - |
-| 0x974BB3D3 | 21 | - | - |
+| 0x90F2EA2A | 18 | - | `orgeTimeDoorAppear_minite` |
+| 0x5D130AE2 | 19 | - | `orgeTimeDoorAppear_second` |
+| 0x974BB3D3 | 21 | - | `tmp_byte_quest_rank` |
 | 0xDE31ADB1 | 23 | - | - |
 | 0xCD119711 | 24 | - | - |
 | 0x8379C8D6 | 25 | - | - |
-| 0x8A0BE7F0 | 26 | - | - |
+| 0x8A0BE7F0 | 26 | - | `tmp_gate_rest_enemy` |
 | 0x578FE84E | 27 | - | - |
-| 0xAE70FC1B | 29 | - | - |
+| 0xAE70FC1B | 29 | - | `tmp_gym_category` |
 | 0x8CEC6677 | 30 | - | - |
 | 0x1331193D | 31 | - | - |
-| 0x386B243E | 32 | - | - |
+| 0x386B243E | 32 | - | `tmp_npc_talk_sel` |
 | 0xE5D4C20D | 33 | - | - |
 | 0x4436A697 | 34 | - | - |
-| 0xF023B5B1 | 35 | - | - |
+| 0xF023B5B1 | 35 | - | `tmp_train_event_type` |
 | 0x1EEFFF35 | 36 | - | - |
 | 0x99DCDE6D | 37 | - | - |
 | 0xECE60CF2 | 38 | - | - |
@@ -4595,19 +4595,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEC61F820 | 56 | - | - |
 | 0xC4F36BD5 | 57 | - | - |
 | 0xD3C595A5 | 59 | - | - |
-| 0x8AD93348 | 64 | - | - |
-| 0xB9F63984 | 65 | - | - |
-| 0x20FF683E | 66 | - | - |
-| 0x57F858A8 | 67 | - | - |
-| 0xC99CCD0B | 68 | - | - |
-| 0xD797E46B | 69 | - | - |
-| 0x8D372F06 | 70 | - | - |
-| 0x143E7EBC | 71 | - | - |
-| 0x63394E2A | 72 | - | - |
-| 0xFD5DDB89 | 73 | - | - |
-| 0xEEC4744B | 74 | - | - |
-| 0xB8C58433 | 75 | - | - |
-| 0xA3BEB26B | 76 | - | - |
+| 0x8AD93348 | 64 | - | `force_win_type` |
+| 0xB9F63984 | 65 | - | `tmp_gacha_coin_1` |
+| 0x20FF683E | 66 | - | `tmp_gacha_coin_2` |
+| 0x57F858A8 | 67 | - | `tmp_gacha_coin_3` |
+| 0xC99CCD0B | 68 | - | `tmp_gacha_coin_4` |
+| 0xD797E46B | 69 | - | `tmp_gacha_game_coin_num` |
+| 0x8D372F06 | 70 | - | `tmp_gacha_prize_1` |
+| 0x143E7EBC | 71 | - | `tmp_gacha_prize_2` |
+| 0x63394E2A | 72 | - | `tmp_gacha_prize_3` |
+| 0xFD5DDB89 | 73 | - | `tmp_gacha_prize_4` |
+| 0xEEC4744B | 74 | - | `tmp_gacha_type` |
+| 0xB8C58433 | 75 | - | `tmp_quest_rslt_update` |
+| 0xA3BEB26B | 76 | - | `tmp_quest_tlk_cnt` |
 | 0x294D7F32 | 77 | - | - |
 | 0x594331FB | 78 | - | - |
 | 0x36A3F639 | 79 | - | - |
@@ -4621,16 +4621,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x497D2A1C | 89 | - | - |
 | 0x5D1A567F | 109 | - | - |
 | 0xC939DE59 | 110 | - | - |
-| 0x594E57E6 | 111 | - | - |
-| 0xC047065C | 112 | - | - |
-| 0xB74036CA | 113 | - | - |
-| 0x2924A369 | 114 | - | - |
-| 0x5E2393FF | 115 | - | - |
-| 0xC72AC245 | 116 | - | - |
-| 0xB02DF2D3 | 117 | - | - |
-| 0x2092EF42 | 118 | - | - |
-| 0x5795DFD4 | 119 | - | - |
-| 0xBDEBD63B | 120 | - | - |
+| 0x594E57E6 | 111 | - | `tmp_byte_gate_ev1` |
+| 0xC047065C | 112 | - | `tmp_byte_gate_ev2` |
+| 0xB74036CA | 113 | - | `tmp_byte_gate_ev3` |
+| 0x2924A369 | 114 | - | `tmp_byte_gate_ev4` |
+| 0x5E2393FF | 115 | - | `tmp_byte_gate_ev5` |
+| 0xC72AC245 | 116 | - | `tmp_byte_gate_ev6` |
+| 0xB02DF2D3 | 117 | - | `tmp_byte_gate_ev7` |
+| 0x2092EF42 | 118 | - | `tmp_byte_gate_ev8` |
+| 0x5795DFD4 | 119 | - | `tmp_byte_gate_ev9` |
+| 0xBDEBD63B | 120 | - | `tmp_byte_gate_ev10` |
 
 ## FLAG_INFO_6 (23, 123) - OneDayBitFlag
 
@@ -4639,11 +4639,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6961EE31 | 1 | - | - |
 | 0x0AB1DB0B (0xAB1DB0B) | 2 | - | - |
 | 0x6BBA8466 | 4 | - | - |
-| 0x796CF99E | 5 | - | - |
+| 0x796CF99E | 5 | - | `time_warning_state` |
 | 0x5F4D2E4D | 6 | - | - |
 | 0x265E2B18 | 7 | - | - |
 | 0xB18CF290 | 8 | - | - |
-| 0x6F7D22E6 | 9 | - | - |
+| 0x6F7D22E6 | 9 | - | `day_flg_enen` |
 | 0x03F07200 (0x3F07200) | 10 | - | - |
 | 0x384A91F2 | 11 | - | - |
 | 0xAF98487A | 12 | - | - |
@@ -4846,7 +4846,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | - |
+| 0x4FF4F23F | 0 | - | `dummy` |
 | 0x9485176C | 1 | - | - |
 | 0x0D8C46D6 (0xD8C46D6) | 2 | - | - |
 | 0x7A8B7640 | 3 | - | - |
