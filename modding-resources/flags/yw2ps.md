@@ -417,137 +417,137 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD7D6B395 | 402 | Checks if the story scene ev50_6100 has been seen. | `ev50_6100` |
 | 0xE6C3814C | 403 | Checks if the story scene ev50_3400 has been seen. | `ev50_3400` |
 | 0xE5475522 | 404 | Checks if the story scene ev50_3600 has been seen. | `ev50_3600` |
-| 0xF4503F68 | 405 | - | `hlp_010` |
-| 0xDF7D6CAB | 406 | - | `hlp_020` |
-| 0xC6665DEA | 407 | - | `hlp_030` |
-| 0x8927CB2D | 408 | - | `hlp_040` |
-| 0x903CFA6C | 409 | - | `hlp_050` |
-| 0xBB11A9AF | 410 | - | `hlp_060` |
-| 0xA20A98EE | 411 | - | `hlp_070` |
-| 0x25928421 | 412 | - | `hlp_080` |
-| 0x3C89B560 | 413 | - | `hlp_090` |
-| 0xEC89641E | 414 | - | `hlp_100` |
-| 0xF592555F | 415 | - | `hlp_110` |
-| 0xDEBF069C | 416 | - | `hlp_120` |
-| 0xC7A437DD | 417 | - | `hlp_130` |
-| 0x88E5A11A | 418 | - | `hlp_140` |
-| 0x91FE905B | 419 | - | `hlp_150` |
-| 0xBAD3C398 | 420 | - | `hlp_160` |
-| 0xA3C8F2D9 | 421 | - | `hlp_170` |
-| 0x2450EE16 | 422 | - | `hlp_180` |
-| 0x3D4BDF57 | 423 | - | `hlp_190` |
-| 0xEECFDA47 | 424 | - | `hlp_200` |
-| 0xF7D4EB06 | 425 | - | `hlp_210` |
-| 0xDCF9B8C5 | 426 | - | `hlp_220` |
-| 0xC5E28984 | 427 | - | `hlp_230` |
-| 0x8AA31F43 | 428 | - | `hlp_240` |
-| 0x93B82E02 | 429 | - | `hlp_250` |
-| 0xB8957DC1 | 430 | - | `hlp_260` |
-| 0xA18E4C80 | 431 | - | `hlp_270` |
-| 0x2616504F | 432 | - | `hlp_280` |
-| 0x3F0D610E | 433 | - | `hlp_290` |
-| 0xEF0DB070 | 434 | - | `hlp_300` |
-| 0xF6168131 | 435 | - | `hlp_310` |
-| 0xDD3BD2F2 | 436 | - | `hlp_320` |
-| 0xC420E3B3 | 437 | - | `hlp_330` |
-| 0x8B617574 | 438 | - | `hlp_340` |
-| 0xA04C26B7 | 439 | - | `hlp_370` |
-| 0x973552B0 | 440 | - | `hlp_450` |
-| 0xA5033032 | 441 | - | `hlp_470` |
-| 0x8E2E63F1 | 442 | - | `hlp_440` |
-| 0xEB80CCC2 | 443 | - | `hlp_500` |
-| 0xF29BFD83 | 444 | - | `hlp_510` |
-| 0x3B801DBC | 445 | - | `hlp_490` |
-| 0xD3A20656 | 446 | - | `hlp_175` |
-| 0x8FEC09C6 | 447 | - | `hlp_540` |
-| 0x3ECF0B39 | 448 | - | `hlp_390` |
-| 0xBDDA6B44 | 449 | - | `hlp_560` |
-| 0xA4C15A05 | 450 | - | `hlp_570` |
-| 0x235946CA | 451 | - | `hlp_580` |
-| 0x3A42778B | 452 | - | `hlp_590` |
-| 0xE9C6729B | 453 | - | `hlp_600` |
-| 0xF0DD43DA | 454 | - | `hlp_610` |
-| 0xDBF01019 | 455 | - | `hlp_620` |
-| 0xC2EB2158 | 456 | - | `hlp_630` |
-| 0x8DAAB79F | 457 | - | `hlp_640` |
-| 0x3804C9D2 | 458 | - | `hlp_690` |
-| 0xBF9CD51D | 459 | - | `hlp_660` |
-| 0xE80418AC | 460 | - | `hlp_700` |
-| 0x211FF893 | 461 | - | `hlp_680` |
-| 0xA81E30F8 | 462 | - | `hlp_425` |
-| 0x735D6316 | 463 | - | `new_hlp_425` |
-| 0x2F136C86 | 464 | - | `new_hlp_010` |
-| 0x043E3F45 (0x43E3F45) | 465 | - | `new_hlp_020` |
-| 0x1D250E04 | 466 | - | `new_hlp_030` |
-| 0x526498C3 | 467 | - | `new_hlp_040` |
-| 0x4B7FA982 | 468 | - | `new_hlp_050` |
-| 0x6052FA41 | 469 | - | `new_hlp_060` |
-| 0x7949CB00 | 470 | - | `new_hlp_070` |
-| 0xFED1D7CF | 471 | - | `new_hlp_080` |
-| 0xE7CAE68E | 472 | - | `new_hlp_090` |
-| 0x37CA37F0 | 473 | - | `new_hlp_100` |
-| 0x2ED106B1 | 474 | - | `new_hlp_110` |
-| 0x05FC5572 (0x5FC5572) | 475 | - | `new_hlp_120` |
-| 0x1CE76433 | 476 | - | `new_hlp_130` |
-| 0x53A6F2F4 | 477 | - | `new_hlp_140` |
-| 0x4ABDC3B5 | 478 | - | `new_hlp_150` |
-| 0x61909076 | 479 | - | `new_hlp_160` |
-| 0x788BA137 | 480 | - | `new_hlp_170` |
-| 0xFF13BDF8 | 481 | - | `new_hlp_180` |
-| 0xE6088CB9 | 482 | - | `new_hlp_190` |
-| 0x358C89A9 | 483 | - | `new_hlp_200` |
-| 0x2C97B8E8 | 484 | - | `new_hlp_210` |
-| 0x07BAEB2B (0x7BAEB2B) | 485 | - | `new_hlp_220` |
-| 0x1EA1DA6A | 486 | - | `new_hlp_230` |
-| 0x51E04CAD | 487 | - | `new_hlp_240` |
-| 0x48FB7DEC | 488 | - | `new_hlp_250` |
-| 0x63D62E2F | 489 | - | `new_hlp_260` |
-| 0x7ACD1F6E | 490 | - | `new_hlp_270` |
-| 0xFD5503A1 | 491 | - | `new_hlp_280` |
-| 0xE44E32E0 | 492 | - | `new_hlp_290` |
-| 0x344EE39E | 493 | - | `new_hlp_300` |
-| 0x2D55D2DF | 494 | - | `new_hlp_310` |
-| 0x0678811C (0x678811C) | 495 | - | `new_hlp_320` |
-| 0x1F63B05D | 496 | - | `new_hlp_330` |
-| 0x5022269A | 497 | - | `new_hlp_340` |
-| 0x7B0F7559 | 498 | - | `new_hlp_370` |
-| 0x4C76015E | 499 | - | `new_hlp_450` |
-| 0x7E4063DC | 500 | - | `new_hlp_470` |
-| 0xF9D87F13 | 501 | - | `new_hlp_480` |
-| 0x30C39F2C | 502 | - | `new_hlp_500` |
-| 0x29D8AE6D | 503 | - | `new_hlp_510` |
-| 0xE0C34E52 | 504 | - | `new_hlp_490` |
-| 0x08E155B8 (0x8E155B8) | 505 | - | `new_hlp_175` |
-| 0x54AF5A28 | 506 | - | `new_hlp_540` |
-| 0xE58C58D7 | 507 | - | `new_hlp_390` |
-| 0x669938AA | 508 | - | `new_hlp_560` |
-| 0x7F8209EB | 509 | - | `new_hlp_570` |
-| 0xF81A1524 | 510 | - | `new_hlp_580` |
-| 0xE1012465 | 511 | - | `new_hlp_590` |
-| 0x32852175 | 512 | - | `new_hlp_600` |
-| 0x2B9E1034 | 513 | - | `new_hlp_610` |
-| 0x00B343F7 (0xB343F7) | 514 | - | `new_hlp_620` |
-| 0x19A872B6 | 515 | - | `new_hlp_630` |
-| 0x56E9E471 | 516 | - | `new_hlp_640` |
-| 0x556D301F | 517 | - | `new_hlp_440` |
-| 0x64DF86F3 | 518 | - | `new_hlp_660` |
-| 0xE3479A3C | 519 | - | `new_hlp_690` |
-| 0xFA5CAB7D | 520 | - | `new_hlp_680` |
-| 0x229B2CFD | 521 | - | `hlp_480` |
-| 0x927A4435 | 522 | - | `hlp_350` |
-| 0xB95717F6 | 523 | - | `hlp_360` |
-| 0xF35997B4 | 524 | - | `hlp_410` |
-| 0xD874C477 | 525 | - | `hlp_420` |
-| 0xC16FF536 | 526 | - | `hlp_430` |
-| 0xBC180173 | 527 | - | `hlp_460` |
-| 0x27D43A78 | 528 | - | `hlp_380` |
-| 0x493917DB | 529 | - | `new_hlp_350` |
-| 0x62144418 | 530 | - | `new_hlp_360` |
-| 0x281AC45A | 531 | - | `new_hlp_410` |
-| 0x03379799 (0x3379799) | 532 | - | `new_hlp_420` |
-| 0x1A2CA6D8 | 533 | - | `new_hlp_430` |
-| 0x675B529D | 534 | - | `new_hlp_460` |
-| 0xFC976996 | 535 | - | `new_hlp_380` |
+| 0xF4503F68 | 405 | Checks if the tutorial "Basic Controls" has been unlocked. | `hlp_010` |
+| 0xDF7D6CAB | 406 | Checks if the tutorial "Saving in Your Diary" has been unlocked. | `hlp_020` |
+| 0xC6665DEA | 407 | Checks if the tutorial "The Crank-a-kai" has been unlocked. | `hlp_030` |
+| 0x8927CB2D | 408 | Checks if the tutorial "Warping with Mirapo" has been unlocked. | `hlp_040` |
+| 0x903CFA6C | 409 | Checks if the tutorial "Catching Bugs and Fish" has been unlocked. | `hlp_050` |
+| 0xBB11A9AF | 410 | Checks if the tutorial "Using the Yo-kai Radar" has been unlocked. | `hlp_060` |
+| 0xA20A98EE | 411 | Checks if the tutorial "Discovery Meter" has been unlocked. | `hlp_070` |
+| 0x25928421 | 412 | Checks if the tutorial "Fill the Yo-kai Medallium" has been unlocked. | `hlp_080` |
+| 0x3C89B560 | 413 | Checks if the tutorial "Rest Up with Eyepo" has been unlocked. | `hlp_090` |
+| 0xEC89641E | 414 | Checks if the tutorial "Using Your Inventory" has been unlocked. | `hlp_100` |
+| 0xF592555F | 415 | Checks if the tutorial "Looking with the Yo-kai Lens" has been unlocked. | `hlp_110` |
+| 0xDEBF069C | 416 | Checks if the tutorial "Making Friends with Yo-kai" has been unlocked. | `hlp_120` |
+| 0xC7A437DD | 417 | Checks if the tutorial "Internet Downloads" has been unlocked. | `hlp_130` |
+| 0x88E5A11A | 418 | Checks if the tutorial "Watch Locks" has been unlocked. | `hlp_140` |
+| 0x91FE905B | 419 | Checks if the tutorial "Helping Others with Quests" has been unlocked. | `hlp_150` |
+| 0xBAD3C398 | 420 | Checks if the tutorial "Equipping Your Yo-kai" has been unlocked. | `hlp_160` |
+| 0xA3C8F2D9 | 421 | Checks if the tutorial "Fighting Your Friends" has been unlocked. | `hlp_170` |
+| 0x2450EE16 | 422 | Checks if the tutorial "Yo-kai Tribes" has been unlocked. | `hlp_180` |
+| 0x3D4BDF57 | 423 | Checks if the tutorial "Eight Yo-kai Tribes" has been unlocked. | `hlp_190` |
+| 0xEECFDA47 | 424 | Checks if the tutorial "StreetPass" has been unlocked. | `hlp_200` |
+| 0xF7D4EB06 | 425 | Checks if the tutorial "Entering Passwords" has been unlocked. | `hlp_210` |
+| 0xDCF9B8C5 | 426 | Checks if the tutorial "Terror Time" has been unlocked. | `hlp_220` |
+| 0xC5E28984 | 427 | Checks if the tutorial "QR Code Patterns" has been unlocked. | `hlp_230` |
+| 0x8AA31F43 | 428 | Checks if the tutorial "Yo-kai Personalities" has been unlocked. | `hlp_240` |
+| 0x93B82E02 | 429 | Checks if the tutorial "Swapping Yo-kai" has been unlocked. | `hlp_250` |
+| 0xB8957DC1 | 430 | Checks if the tutorial "Upgrading Your Watch Rank" has been unlocked. | `hlp_260` |
+| 0xA18E4C80 | 431 | Checks if the tutorial "Fusing Things Together" has been unlocked. | `hlp_270` |
+| 0x2616504F | 432 | Checks if the tutorial "Stopping Yo-kai Crime" has been unlocked. | `hlp_280` |
+| 0x3F0D610E | 433 | Checks if the tutorial "Buying from Stores" has been unlocked. | `hlp_290` |
+| 0xEF0DB070 | 434 | Checks if the tutorial "Jungle Hunter and Jungle Points" has been unlocked. | `hlp_300` |
+| 0xF6168131 | 435 | Checks if the tutorial "Yo-kai Cam Picture-Taking Guide" has been unlocked. | `hlp_310` |
+| 0xDD3BD2F2 | 436 | Checks if the tutorial "Growing through Evolution" has been unlocked. | `hlp_320` |
+| 0xC420E3B3 | 437 | Checks if the tutorial "Miradox: Moving through Time" has been unlocked. | `hlp_330` |
+| 0x8B617574 | 438 | Checks if the tutorial "Battle: Yo-kai Watch Model Zero" has been unlocked. | `hlp_340` |
+| 0xA04C26B7 | 439 | Checks if the tutorial "Trading Yo-kai Medals" has been unlocked. | `hlp_370` |
+| 0x973552B0 | 440 | Checks if the tutorial "Communicating with Friends" has been unlocked. | `hlp_450` |
+| 0xA5033032 | 441 | Checks if the tutorial "Using the Fishing Rod's Reel" has been unlocked. | `hlp_470` |
+| 0x8E2E63F1 | 442 | Checks if the tutorial "How to Use the Contacts App" has been unlocked. | `hlp_440` |
+| 0xEB80CCC2 | 443 | Checks if the tutorial "Battle: Soultimate Moves" has been unlocked. | `hlp_500` |
+| 0xF29BFD83 | 444 | Checks if the tutorial "Battle: Yo-kai Fight Their Way" has been unlocked. | `hlp_510` |
+| 0x3B801DBC | 445 | Checks if the tutorial "Changing Soultimate Moves" has been unlocked. | `hlp_490` |
+| 0xD3A20656 | 446 | Checks if the tutorial "Earning BP in Random Battles" has been unlocked. | `hlp_175` |
+| 0x8FEC09C6 | 447 | Checks if the tutorial "Battle: Inspirit" has been unlocked. | `hlp_540` |
+| 0x3ECF0B39 | 448 | Checks if the tutorial "Extra Special Flaming Moxie Training!" has been unlocked. | `hlp_390` |
+| 0xBDDA6B44 | 449 | Checks if the tutorial "Battle: Items" has been unlocked. | `hlp_560` |
+| 0xA4C15A05 | 450 | Checks if the tutorial "Battle: Pinning Enemies" has been unlocked. | `hlp_570` |
+| 0x235946CA | 451 | Checks if the tutorial "Battle: Yo-kai Wheel" has been unlocked. | `hlp_580` |
+| 0x3A42778B | 452 | Checks if the tutorial "Battle: Wisps" has been unlocked. | `hlp_590` |
+| 0xE9C6729B | 453 | Checks if the tutorial "Battle: Purification" has been unlocked. | `hlp_600` |
+| 0xF0DD43DA | 454 | Checks if the tutorial "Battle: Elemental Techniques" has been unlocked. | `hlp_610` |
+| 0xDBF01019 | 455 | Checks if the tutorial "Battle: Yo-kai Skills" has been unlocked. | `hlp_620` |
+| 0xC2EB2158 | 456 | Checks if the tutorial "Battle: Skill Levels" has been unlocked. | `hlp_630` |
+| 0x8DAAB79F | 457 | Checks if the tutorial "Battle: Unity" has been unlocked. | `hlp_640` |
+| 0x3804C9D2 | 458 | Checks if the tutorial "Psychic Blasters unlocked!" has been unlocked. | `hlp_690` |
+| 0xBF9CD51D | 459 | Checks if the tutorial "Battle: Battling Boss Yo-kai" has been unlocked. | `hlp_660` |
+| 0xE80418AC | 460 | Checks if the tutorial "Psychic Blasters" has been unlocked. | `hlp_700` |
+| 0x211FF893 | 461 | Checks if the tutorial "Equipping a Strengthened Soul" has been unlocked. | `hlp_680` |
+| 0xA81E30F8 | 462 | Checks if the tutorial "Yo-kai Watch Blasters: Practical" has been unlocked. | `hlp_425` |
+| 0x735D6316 | 463 | Checks if the tutorial "Yo-kai Watch Blasters: Practical" has been read; this hides the NEW! icon. | `new_hlp_425` |
+| 0x2F136C86 | 464 | Checks if the tutorial "Basic Controls" has been read; this hides the NEW! icon. | `new_hlp_010` |
+| 0x043E3F45 (0x43E3F45) | 465 | Checks if the tutorial "Saving in Your Diary" has been read; this hides the NEW! icon. | `new_hlp_020` |
+| 0x1D250E04 | 466 | Checks if the tutorial "The Crank-a-kai" has been read; this hides the NEW! icon. | `new_hlp_030` |
+| 0x526498C3 | 467 | Checks if the tutorial "Warping with Mirapo" has been read; this hides the NEW! icon. | `new_hlp_040` |
+| 0x4B7FA982 | 468 | Checks if the tutorial "Catching Bugs and Fish" has been read; this hides the NEW! icon. | `new_hlp_050` |
+| 0x6052FA41 | 469 | Checks if the tutorial "Using the Yo-kai Radar" has been read; this hides the NEW! icon. | `new_hlp_060` |
+| 0x7949CB00 | 470 | Checks if the tutorial "Discovery Meter" has been read; this hides the NEW! icon. | `new_hlp_070` |
+| 0xFED1D7CF | 471 | Checks if the tutorial "Fill the Yo-kai Medallium" has been read; this hides the NEW! icon. | `new_hlp_080` |
+| 0xE7CAE68E | 472 | Checks if the tutorial "Rest Up with Eyepo" has been read; this hides the NEW! icon. | `new_hlp_090` |
+| 0x37CA37F0 | 473 | Checks if the tutorial "Using Your Inventory" has been read; this hides the NEW! icon. | `new_hlp_100` |
+| 0x2ED106B1 | 474 | Checks if the tutorial "Looking with the Yo-kai Lens" has been read; this hides the NEW! icon. | `new_hlp_110` |
+| 0x05FC5572 (0x5FC5572) | 475 | Checks if the tutorial "Making Friends with Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_120` |
+| 0x1CE76433 | 476 | Checks if the tutorial "Internet Downloads" has been read; this hides the NEW! icon. | `new_hlp_130` |
+| 0x53A6F2F4 | 477 | Checks if the tutorial "Watch Locks" has been read; this hides the NEW! icon. | `new_hlp_140` |
+| 0x4ABDC3B5 | 478 | Checks if the tutorial "Helping Others with Quests" has been read; this hides the NEW! icon. | `new_hlp_150` |
+| 0x61909076 | 479 | Checks if the tutorial "Equipping Your Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_160` |
+| 0x788BA137 | 480 | Checks if the tutorial "Fighting Your Friends" has been read; this hides the NEW! icon. | `new_hlp_170` |
+| 0xFF13BDF8 | 481 | Checks if the tutorial "Yo-kai Tribes" has been read; this hides the NEW! icon. | `new_hlp_180` |
+| 0xE6088CB9 | 482 | Checks if the tutorial "Eight Yo-kai Tribes" has been read; this hides the NEW! icon. | `new_hlp_190` |
+| 0x358C89A9 | 483 | Checks if the tutorial "StreetPass" has been read; this hides the NEW! icon. | `new_hlp_200` |
+| 0x2C97B8E8 | 484 | Checks if the tutorial "Entering Passwords" has been read; this hides the NEW! icon. | `new_hlp_210` |
+| 0x07BAEB2B (0x7BAEB2B) | 485 | Checks if the tutorial "Terror Time" has been read; this hides the NEW! icon. | `new_hlp_220` |
+| 0x1EA1DA6A | 486 | Checks if the tutorial "QR Code Patterns" has been read; this hides the NEW! icon. | `new_hlp_230` |
+| 0x51E04CAD | 487 | Checks if the tutorial "Yo-kai Personalities" has been read; this hides the NEW! icon. | `new_hlp_240` |
+| 0x48FB7DEC | 488 | Checks if the tutorial "Swapping Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_250` |
+| 0x63D62E2F | 489 | Checks if the tutorial "Upgrading Your Watch Rank" has been read; this hides the NEW! icon. | `new_hlp_260` |
+| 0x7ACD1F6E | 490 | Checks if the tutorial "Fusing Things Together" has been read; this hides the NEW! icon. | `new_hlp_270` |
+| 0xFD5503A1 | 491 | Checks if the tutorial "Stopping Yo-kai Crime" has been read; this hides the NEW! icon. | `new_hlp_280` |
+| 0xE44E32E0 | 492 | Checks if the tutorial "Buying from Stores" has been read; this hides the NEW! icon. | `new_hlp_290` |
+| 0x344EE39E | 493 | Checks if the tutorial "Jungle Hunter and Jungle Points" has been read; this hides the NEW! icon. | `new_hlp_300` |
+| 0x2D55D2DF | 494 | Checks if the tutorial "Yo-kai Cam Picture-Taking Guide" has been read; this hides the NEW! icon. | `new_hlp_310` |
+| 0x0678811C (0x678811C) | 495 | Checks if the tutorial "Growing through Evolution" has been read; this hides the NEW! icon. | `new_hlp_320` |
+| 0x1F63B05D | 496 | Checks if the tutorial "Miradox: Moving through Time" has been read; this hides the NEW! icon. | `new_hlp_330` |
+| 0x5022269A | 497 | Checks if the tutorial "Battle: Yo-kai Watch Model Zero" has been read; this hides the NEW! icon. | `new_hlp_340` |
+| 0x7B0F7559 | 498 | Checks if the tutorial "Trading Yo-kai Medals" has been read; this hides the NEW! icon. | `new_hlp_370` |
+| 0x4C76015E | 499 | Checks if the tutorial "Communicating with Friends" has been read; this hides the NEW! icon. | `new_hlp_450` |
+| 0x7E4063DC | 500 | Checks if the tutorial "Using the Fishing Rod's Reel" has been read; this hides the NEW! icon. | `new_hlp_470` |
+| 0xF9D87F13 | 501 | Checks if the tutorial "Enjoying Meals" has been read; this hides the NEW! icon. | `new_hlp_480` |
+| 0x30C39F2C | 502 | Checks if the tutorial "Battle: Soultimate Moves" has been read; this hides the NEW! icon. | `new_hlp_500` |
+| 0x29D8AE6D | 503 | Checks if the tutorial "Battle: Yo-kai Fight Their Way" has been read; this hides the NEW! icon. | `new_hlp_510` |
+| 0xE0C34E52 | 504 | Checks if the tutorial "Changing Soultimate Moves" has been read; this hides the NEW! icon. | `new_hlp_490` |
+| 0x08E155B8 (0x8E155B8) | 505 | Checks if the tutorial "Earning BP in Random Battles" has been read; this hides the NEW! icon. | `new_hlp_175` |
+| 0x54AF5A28 | 506 | Checks if the tutorial "Battle: Inspirit" has been read; this hides the NEW! icon. | `new_hlp_540` |
+| 0xE58C58D7 | 507 | Checks if the tutorial "Extra Special Flaming Moxie Training!" has been read; this hides the NEW! icon. | `new_hlp_390` |
+| 0x669938AA | 508 | Checks if the tutorial "Battle: Items" has been read; this hides the NEW! icon. | `new_hlp_560` |
+| 0x7F8209EB | 509 | Checks if the tutorial "Battle: Pinning Enemies" has been read; this hides the NEW! icon. | `new_hlp_570` |
+| 0xF81A1524 | 510 | Checks if the tutorial "Battle: Yo-kai Wheel" has been read; this hides the NEW! icon. | `new_hlp_580` |
+| 0xE1012465 | 511 | Checks if the tutorial "Battle: Wisps" has been read; this hides the NEW! icon. | `new_hlp_590` |
+| 0x32852175 | 512 | Checks if the tutorial "Battle: Purification" has been read; this hides the NEW! icon. | `new_hlp_600` |
+| 0x2B9E1034 | 513 | Checks if the tutorial "Battle: Elemental Techniques" has been read; this hides the NEW! icon. | `new_hlp_610` |
+| 0x00B343F7 (0xB343F7) | 514 | Checks if the tutorial "Battle: Yo-kai Skills" has been read; this hides the NEW! icon. | `new_hlp_620` |
+| 0x19A872B6 | 515 | Checks if the tutorial "Battle: Skill Levels" has been read; this hides the NEW! icon. | `new_hlp_630` |
+| 0x56E9E471 | 516 | Checks if the tutorial "Battle: Unity" has been read; this hides the NEW! icon. | `new_hlp_640` |
+| 0x556D301F | 517 | Checks if the tutorial "How to Use the Contacts App" has been read; this hides the NEW! icon. | `new_hlp_440` |
+| 0x64DF86F3 | 518 | Checks if the tutorial "Battle: Battling Boss Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_660` |
+| 0xE3479A3C | 519 | Checks if the tutorial "Psychic Blasters unlocked!" has been read; this hides the NEW! icon. | `new_hlp_690` |
+| 0xFA5CAB7D | 520 | Checks if the tutorial "Equipping a Strengthened Soul" has been read; this hides the NEW! icon. | `new_hlp_680` |
+| 0x229B2CFD | 521 | Checks if the tutorial "Enjoying Meals" has been unlocked. | `hlp_480` |
+| 0x927A4435 | 522 | Checks if the tutorial "The Mysterious Yo-kai Hot Spot" has been unlocked. | `hlp_350` |
+| 0xB95717F6 | 523 | Checks if the tutorial "Through the Gates of Whimsy" has been unlocked. | `hlp_360` |
+| 0xF35997B4 | 524 | Checks if the tutorial "About Biking Minigames" has been unlocked. | `hlp_410` |
+| 0xD874C477 | 525 | Checks if the tutorial "Yo-kai Watch Blasters: Beginner" has been unlocked. | `hlp_420` |
+| 0xC16FF536 | 526 | Checks if the tutorial "Creating Official Teams" has been unlocked. | `hlp_430` |
+| 0xBC180173 | 527 | Checks if the tutorial "Springdale Sports Club Guide" has been unlocked. | `hlp_460` |
+| 0x27D43A78 | 528 | Checks if the tutorial "About Music Minigames" has been unlocked. | `hlp_380` |
+| 0x493917DB | 529 | Checks if the tutorial "The Mysterious Yo-kai Hot Spot" has been read; this hides the NEW! icon. | `new_hlp_350` |
+| 0x62144418 | 530 | Checks if the tutorial "Through the Gates of Whimsy" has been read; this hides the NEW! icon. | `new_hlp_360` |
+| 0x281AC45A | 531 | Checks if the tutorial "About Biking Minigames" has been read; this hides the NEW! icon. | `new_hlp_410` |
+| 0x03379799 (0x3379799) | 532 | Checks if the tutorial "Yo-kai Watch Blasters: Beginner" has been read; this hides the NEW! icon. | `new_hlp_420` |
+| 0x1A2CA6D8 | 533 | Checks if the tutorial "Creating Official Teams" has been read; this hides the NEW! icon. | `new_hlp_430` |
+| 0x675B529D | 534 | Checks if the tutorial "Springdale Sports Club Guide" has been read; this hides the NEW! icon. | `new_hlp_460` |
+| 0xFC976996 | 535 | Checks if the tutorial "About Music Minigames" has been read; this hides the NEW! icon. | `new_hlp_380` |
 | 0xDAD52F7A | 536 | - | - |
 | 0xADD21FEC | 537 | - | - |
 | 0xA99EEB20 | 538 | - | - |
@@ -667,7 +667,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x56024C7F | 652 | - | - |
 | 0x09A940C3 (0x9A940C3) | 653 | - | - |
 | 0x34C96973 | 654 | - | - |
-| 0x33474B42 | 655 | - | `new_hlp_700` |
+| 0x33474B42 | 655 | Checks if the tutorial "Psychic Blasters" has been read; this hides the NEW! icon. | `new_hlp_700` |
 | 0xC779185C | 656 | - | - |
 | 0xF54F7ADE | 657 | - | - |
 | 0xBA0EEC19 | 658 | - | - |
