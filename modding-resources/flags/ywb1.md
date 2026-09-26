@@ -936,10 +936,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B866BF1             | 1776 | - | `dl_data_get_126` |
 | 0xEC815B67             | 1777 | - | `dl_data_get_127` |
 | 0x7C3E46F6             | 1778 | - | `dl_data_get_128` |
-| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV001` |
-| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV002` |
-| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV003` |
-| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV004` |
+| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV001` |
+| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV002` |
+| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV003` |
+| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV004` |
 | 0x2B78D49C             | 1791 | Checks if you can request the BRAVE Song. | - |
 | 0xFCFB8975             | 1792 | Checks if you can request the MYSTERIOUS Song. | - |
 | 0x7289CC8C             | 1793 | Checks if you can request the TOUGH Song. | - |
@@ -978,13 +978,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x526C6576             | 1838 | - | - |
 | 0xF26749CA             | 1839 | - | - |
 | 0x0EF06F61 (0xEF06F61) | 1840 | - | - |
-| 0xED63D5C7             | 1841 | Checks if you have fought Jibanyan S that day. | `day_flg_y152900` |
-| 0x3A6252C6             | 1842 | Checks if you have fought Komasan S that day. | `day_flg_y159900` |
-| 0x23796387             | 1843 | Checks if you have fought Komajiro S that day. | `day_flg_y159910` |
-| 0x85A18FC9             | 1844 | Checks if you have fought Sir Nyansalot that day. | `day_flg_y457000` |
-| 0xDDC29F9F             | 1845 | Checks if you have fought Maginyan that day. | `day_flg_y458000` |
-| 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
-| 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
+| 0xED63D5C7             | 1841 | Checks if you have fought Jibanyan S today. | `day_flg_y152900` |
+| 0x3A6252C6             | 1842 | Checks if you have fought Komasan S today. | `day_flg_y159900` |
+| 0x23796387             | 1843 | Checks if you have fought Komajiro S today. | `day_flg_y159910` |
+| 0x85A18FC9             | 1844 | Checks if you have fought Sir Nyansalot today. | `day_flg_y457000` |
+| 0xDDC29F9F             | 1845 | Checks if you have fought Maginyan today. | `day_flg_y458000` |
+| 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol today. | - |
+| 0x138634E1             | 1847 | Checks if you have received a VIP Coin today. | - |
 | 0x4A0C9B3C             | 1860 | Checks if the Apprentice Sword has been made. | - |
 | 0xD305CA86             | 1861 | Checks if the Starling Sword has been made. | - |
 | 0xA402FA10             | 1862 | Checks if the Blunt Sword has been made. | - |
