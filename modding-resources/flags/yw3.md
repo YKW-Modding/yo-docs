@@ -3767,7 +3767,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9AEF6D93 | 229 | - | - |
 | 0xD4EF7AD3 | 230 | - | - |
 | 0x4A342DED | 231 | - | - |
-| 0xB9AC327A | 232 | - | - |
+| 0xB9AC327A | 232 | Amount of times Yo-kai have been fused. | - |
 | 0x97B46D86 | 238 | - | - |
 | 0xF2B2DE44 | 239 | - | - |
 | 0x3733CA2A | 240 | - | - |
