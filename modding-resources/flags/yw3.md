@@ -4457,7 +4457,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x19A744C2 | 159 | - | - |
 | 0x25DD6BC7 | 160 | - | - |
 | 0x8362FB87 | 161 | - | - |
-| 0xB58BF619 | 164 | - | - |
+| 0xB58BF619 | 164 | - | `tmp_alarm_sleep` |
 | 0xE86065AE | 165 | - | - |
 | 0x1F6D0372 | 166 | - | - |
 | 0x5D1430A6 | 167 | - | - |
@@ -4529,7 +4529,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x22162A37 | 237 | - | - |
 | 0x0D7B401A (0xD7B401A) | 238 | - | - |
 | 0xB079B24B | 239 | - | - |
-| 0x1DC5BCB7 | 240 | - | - |
+| 0x1DC5BCB7 | 240 | - | `tmp_alarm_set_on` |
 | 0xEC4B8AA8 | 241 | - | - |
 | 0x7B13A41A | 242 | - | - |
 | 0x0686A270 (0x686A270) | 243 | - | - |
