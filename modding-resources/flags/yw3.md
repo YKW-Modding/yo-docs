@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB | 1 | - | `game_clear1` |
 | 0x8E660701 | 2 | - | `game_clear2` |
 | 0xF9613797 | 3 | - | `game_clear3` |
@@ -306,17 +306,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5E2D816F | 337 | - | - |
 | 0xFC3A205A | 338 | - | - |
 | 0x759205A8 | 339 | - | - |
-| 0x2EB1AE75 | 340 | - | - |
-| 0xB7B8FFCF | 341 | - | - |
-| 0xC0BFCF59 | 342 | - | - |
-| 0x5EDB5AFA | 343 | - | - |
-| 0x29DC6A6C | 344 | - | - |
-| 0xB0D53BD6 | 345 | - | - |
-| 0xC7D20B40 | 346 | - | - |
-| 0x576D16D1 | 347 | - | - |
-| 0x206A2647 | 348 | - | - |
-| 0x40ADAFA2 | 349 | - | - |
-| 0x37AA9F34 | 350 | - | - |
+| 0x2EB1AE75 | 340 | - | `get_tribe_01` |
+| 0xB7B8FFCF | 341 | - | `get_tribe_02` |
+| 0xC0BFCF59 | 342 | - | `get_tribe_03` |
+| 0x5EDB5AFA | 343 | - | `get_tribe_04` |
+| 0x29DC6A6C | 344 | - | `get_tribe_05` |
+| 0xB0D53BD6 | 345 | - | `get_tribe_06` |
+| 0xC7D20B40 | 346 | - | `get_tribe_07` |
+| 0x576D16D1 | 347 | - | `get_tribe_08` |
+| 0x206A2647 | 348 | - | `get_tribe_09` |
+| 0x40ADAFA2 | 349 | - | `get_tribe_10` |
+| 0x37AA9F34 | 350 | - | `get_tribe_11` |
 | 0x736913A3 | 351 | - | - |
 | 0x61DCBC4D | 352 | - | - |
 | 0xD960DB28 | 353 | - | - |
@@ -2115,8 +2115,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEB87E5AB | 2260 | - | `passcomm_regist` |
 | 0xC27065E9 | 2261 | - | `passcomm_ex_send` |
 | 0x3CDB0D89 | 2262 | - | `passcomm_ex_recv` |
-| 0xC3C194B4 | 2263 | - | - |
-| 0x8E8D5E84 | 2264 | - | - |
+| 0xC3C194B4 | 2263 | - | `passcomm_ex_send2` |
+| 0x8E8D5E84 | 2264 | - | `passcomm_ex_recv2` |
 | 0x7D24ED7D | 2271 | - | `territory_t101g00_01` |
 | 0xE42DBCC7 | 2272 | - | `territory_t101g00_02` |
 | 0xA3551F7A | 2273 | - | - |
@@ -2825,9 +2825,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4D65AB1B | 3140 | - | `ev28_2920` |
 | 0xF3860E34 | 3141 | - | `ev12_1100` |
 | 0x44EB52DE | 3142 | - | `ev12_0800` |
-| 0xC88EE0ED | 3143 | - | - |
-| 0x5187B157 | 3144 | - | - |
-| 0x268081C1 | 3145 | - | - |
+| 0xC88EE0ED | 3143 | - | `medal_utakichi_01` |
+| 0x5187B157 | 3144 | - | `medal_utakichi_02` |
+| 0x268081C1 | 3145 | - | `medal_utakichi_03` |
 | 0x4BC7C4E3 | 3146 | - | - |
 | 0x0D1FB93A (0xD1FB93A) | 3147 | - | - |
 | 0x9F74F80A | 3148 | - | - |
@@ -3593,7 +3593,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
 | 0x97580970 | 2 | - | `weather_condition` |
 | 0xC629E7F8 | 3 | - | `watch_mode` |
@@ -3996,7 +3996,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x346FC9A5 | 479 | - | - |
 | 0xCA2B6DCE | 480 | - | - |
 | 0xBD2C5D58 | 481 | - | - |
-| 0x24250CE2 | 482 | - | - |
+| 0x24250CE2 | 482 | - | `cnt_qsa0082` |
 | 0x53223C74 | 483 | - | - |
 | 0xCD46A9D7 | 484 | - | - |
 | 0xBA419941 | 485 | - | - |
@@ -4131,7 +4131,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 2 | - | `t101g00` |
 | 0x629D8D39 | 23 | - | `t101d01` |
@@ -4178,7 +4178,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x68C4141B | 303 | - | `t412g00` |
 | 0xDC80D053 | 307 | - | `t001g00` |
 | 0x8AEC7BEF | 327 | - | `t400d01` |
-| 0xF9EB4A06 | 332 | - | - |
+| 0xF9EB4A06 | 332 | - | `zombienight` |
 | 0x8C4D41E0 | 382 | - | `t501g00` |
 | 0x507C7926 | 402 | - | `t131g00` |
 | 0x253DF7E9 | 412 | - | `t131d01` |
@@ -4190,7 +4190,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x438CB286 | 1 | - | `testmappl` |
 | 0x17DC03F6 | 3 | - | `t101g00` |
 | 0x629D8D39 | 39 | - | `t101d01` |
@@ -4310,7 +4310,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115 | 1 | - | `home_sleep_out` |
 | 0xBC5BAB7F | 2 | - | `mj_temp_follow_pos` |
 | 0x2A9BF388 | 3 | - | - |
@@ -4550,7 +4550,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xCA4EA9AE | 2 | - | - |
 | 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
@@ -4846,7 +4846,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x9485176C | 1 | - | - |
 | 0x0D8C46D6 (0xD8C46D6) | 2 | - | - |
 | 0x7A8B7640 | 3 | - | - |
