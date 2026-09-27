@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB | 1 | Checks if you have beaten Dame Demona during the story. | `game_clear1` |
 | 0x8E660701 | 2 | Checks if you have beaten Kat Kraydel during the postgame story. | `game_clear2` |
 | 0x5B9AFA16 | 3 | - | - |
@@ -417,137 +417,137 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD7D6B395 | 402 | Checks if the story scene ev50_6100 has been seen. | `ev50_6100` |
 | 0xE6C3814C | 403 | Checks if the story scene ev50_3400 has been seen. | `ev50_3400` |
 | 0xE5475522 | 404 | Checks if the story scene ev50_3600 has been seen. | `ev50_3600` |
-| 0xF4503F68 | 405 | - | `hlp_010` |
-| 0xDF7D6CAB | 406 | - | `hlp_020` |
-| 0xC6665DEA | 407 | - | `hlp_030` |
-| 0x8927CB2D | 408 | - | `hlp_040` |
-| 0x903CFA6C | 409 | - | `hlp_050` |
-| 0xBB11A9AF | 410 | - | `hlp_060` |
-| 0xA20A98EE | 411 | - | `hlp_070` |
-| 0x25928421 | 412 | - | `hlp_080` |
-| 0x3C89B560 | 413 | - | `hlp_090` |
-| 0xEC89641E | 414 | - | `hlp_100` |
-| 0xF592555F | 415 | - | `hlp_110` |
-| 0xDEBF069C | 416 | - | `hlp_120` |
-| 0xC7A437DD | 417 | - | `hlp_130` |
-| 0x88E5A11A | 418 | - | `hlp_140` |
-| 0x91FE905B | 419 | - | `hlp_150` |
-| 0xBAD3C398 | 420 | - | `hlp_160` |
-| 0xA3C8F2D9 | 421 | - | `hlp_170` |
-| 0x2450EE16 | 422 | - | `hlp_180` |
-| 0x3D4BDF57 | 423 | - | `hlp_190` |
-| 0xEECFDA47 | 424 | - | `hlp_200` |
-| 0xF7D4EB06 | 425 | - | `hlp_210` |
-| 0xDCF9B8C5 | 426 | - | `hlp_220` |
-| 0xC5E28984 | 427 | - | `hlp_230` |
-| 0x8AA31F43 | 428 | - | `hlp_240` |
-| 0x93B82E02 | 429 | - | `hlp_250` |
-| 0xB8957DC1 | 430 | - | `hlp_260` |
-| 0xA18E4C80 | 431 | - | `hlp_270` |
-| 0x2616504F | 432 | - | `hlp_280` |
-| 0x3F0D610E | 433 | - | `hlp_290` |
-| 0xEF0DB070 | 434 | - | `hlp_300` |
-| 0xF6168131 | 435 | - | `hlp_310` |
-| 0xDD3BD2F2 | 436 | - | `hlp_320` |
-| 0xC420E3B3 | 437 | - | `hlp_330` |
-| 0x8B617574 | 438 | - | `hlp_340` |
-| 0xA04C26B7 | 439 | - | `hlp_370` |
-| 0x973552B0 | 440 | - | `hlp_450` |
-| 0xA5033032 | 441 | - | `hlp_470` |
-| 0x8E2E63F1 | 442 | - | `hlp_440` |
-| 0xEB80CCC2 | 443 | - | `hlp_500` |
-| 0xF29BFD83 | 444 | - | `hlp_510` |
-| 0x3B801DBC | 445 | - | `hlp_490` |
-| 0xD3A20656 | 446 | - | `hlp_175` |
-| 0x8FEC09C6 | 447 | - | `hlp_540` |
-| 0x3ECF0B39 | 448 | - | `hlp_390` |
-| 0xBDDA6B44 | 449 | - | `hlp_560` |
-| 0xA4C15A05 | 450 | - | `hlp_570` |
-| 0x235946CA | 451 | - | `hlp_580` |
-| 0x3A42778B | 452 | - | `hlp_590` |
-| 0xE9C6729B | 453 | - | `hlp_600` |
-| 0xF0DD43DA | 454 | - | `hlp_610` |
-| 0xDBF01019 | 455 | - | `hlp_620` |
-| 0xC2EB2158 | 456 | - | `hlp_630` |
-| 0x8DAAB79F | 457 | - | `hlp_640` |
-| 0x3804C9D2 | 458 | - | `hlp_690` |
-| 0xBF9CD51D | 459 | - | `hlp_660` |
-| 0xE80418AC | 460 | - | `hlp_700` |
-| 0x211FF893 | 461 | - | `hlp_680` |
-| 0xA81E30F8 | 462 | - | `hlp_425` |
-| 0x735D6316 | 463 | - | `new_hlp_425` |
-| 0x2F136C86 | 464 | - | `new_hlp_010` |
-| 0x043E3F45 (0x43E3F45) | 465 | - | `new_hlp_020` |
-| 0x1D250E04 | 466 | - | `new_hlp_030` |
-| 0x526498C3 | 467 | - | `new_hlp_040` |
-| 0x4B7FA982 | 468 | - | `new_hlp_050` |
-| 0x6052FA41 | 469 | - | `new_hlp_060` |
-| 0x7949CB00 | 470 | - | `new_hlp_070` |
-| 0xFED1D7CF | 471 | - | `new_hlp_080` |
-| 0xE7CAE68E | 472 | - | `new_hlp_090` |
-| 0x37CA37F0 | 473 | - | `new_hlp_100` |
-| 0x2ED106B1 | 474 | - | `new_hlp_110` |
-| 0x05FC5572 (0x5FC5572) | 475 | - | `new_hlp_120` |
-| 0x1CE76433 | 476 | - | `new_hlp_130` |
-| 0x53A6F2F4 | 477 | - | `new_hlp_140` |
-| 0x4ABDC3B5 | 478 | - | `new_hlp_150` |
-| 0x61909076 | 479 | - | `new_hlp_160` |
-| 0x788BA137 | 480 | - | `new_hlp_170` |
-| 0xFF13BDF8 | 481 | - | `new_hlp_180` |
-| 0xE6088CB9 | 482 | - | `new_hlp_190` |
-| 0x358C89A9 | 483 | - | `new_hlp_200` |
-| 0x2C97B8E8 | 484 | - | `new_hlp_210` |
-| 0x07BAEB2B (0x7BAEB2B) | 485 | - | `new_hlp_220` |
-| 0x1EA1DA6A | 486 | - | `new_hlp_230` |
-| 0x51E04CAD | 487 | - | `new_hlp_240` |
-| 0x48FB7DEC | 488 | - | `new_hlp_250` |
-| 0x63D62E2F | 489 | - | `new_hlp_260` |
-| 0x7ACD1F6E | 490 | - | `new_hlp_270` |
-| 0xFD5503A1 | 491 | - | `new_hlp_280` |
-| 0xE44E32E0 | 492 | - | `new_hlp_290` |
-| 0x344EE39E | 493 | - | `new_hlp_300` |
-| 0x2D55D2DF | 494 | - | `new_hlp_310` |
-| 0x0678811C (0x678811C) | 495 | - | `new_hlp_320` |
-| 0x1F63B05D | 496 | - | `new_hlp_330` |
-| 0x5022269A | 497 | - | `new_hlp_340` |
-| 0x7B0F7559 | 498 | - | `new_hlp_370` |
-| 0x4C76015E | 499 | - | `new_hlp_450` |
-| 0x7E4063DC | 500 | - | `new_hlp_470` |
-| 0xF9D87F13 | 501 | - | `new_hlp_480` |
-| 0x30C39F2C | 502 | - | `new_hlp_500` |
-| 0x29D8AE6D | 503 | - | `new_hlp_510` |
-| 0xE0C34E52 | 504 | - | `new_hlp_490` |
-| 0x08E155B8 (0x8E155B8) | 505 | - | `new_hlp_175` |
-| 0x54AF5A28 | 506 | - | `new_hlp_540` |
-| 0xE58C58D7 | 507 | - | `new_hlp_390` |
-| 0x669938AA | 508 | - | `new_hlp_560` |
-| 0x7F8209EB | 509 | - | `new_hlp_570` |
-| 0xF81A1524 | 510 | - | `new_hlp_580` |
-| 0xE1012465 | 511 | - | `new_hlp_590` |
-| 0x32852175 | 512 | - | `new_hlp_600` |
-| 0x2B9E1034 | 513 | - | `new_hlp_610` |
-| 0x00B343F7 (0xB343F7) | 514 | - | `new_hlp_620` |
-| 0x19A872B6 | 515 | - | `new_hlp_630` |
-| 0x56E9E471 | 516 | - | `new_hlp_640` |
-| 0x556D301F | 517 | - | `new_hlp_440` |
-| 0x64DF86F3 | 518 | - | `new_hlp_660` |
-| 0xE3479A3C | 519 | - | `new_hlp_690` |
-| 0xFA5CAB7D | 520 | - | `new_hlp_680` |
-| 0x229B2CFD | 521 | - | `hlp_480` |
-| 0x927A4435 | 522 | - | `hlp_350` |
-| 0xB95717F6 | 523 | - | `hlp_360` |
-| 0xF35997B4 | 524 | - | `hlp_410` |
-| 0xD874C477 | 525 | - | `hlp_420` |
-| 0xC16FF536 | 526 | - | `hlp_430` |
-| 0xBC180173 | 527 | - | `hlp_460` |
-| 0x27D43A78 | 528 | - | `hlp_380` |
-| 0x493917DB | 529 | - | `new_hlp_350` |
-| 0x62144418 | 530 | - | `new_hlp_360` |
-| 0x281AC45A | 531 | - | `new_hlp_410` |
-| 0x03379799 (0x3379799) | 532 | - | `new_hlp_420` |
-| 0x1A2CA6D8 | 533 | - | `new_hlp_430` |
-| 0x675B529D | 534 | - | `new_hlp_460` |
-| 0xFC976996 | 535 | - | `new_hlp_380` |
+| 0xF4503F68 | 405 | Checks if the tutorial "Basic Controls" has been unlocked. | `hlp_010` |
+| 0xDF7D6CAB | 406 | Checks if the tutorial "Saving in Your Diary" has been unlocked. | `hlp_020` |
+| 0xC6665DEA | 407 | Checks if the tutorial "The Crank-a-kai" has been unlocked. | `hlp_030` |
+| 0x8927CB2D | 408 | Checks if the tutorial "Warping with Mirapo" has been unlocked. | `hlp_040` |
+| 0x903CFA6C | 409 | Checks if the tutorial "Catching Bugs and Fish" has been unlocked. | `hlp_050` |
+| 0xBB11A9AF | 410 | Checks if the tutorial "Using the Yo-kai Radar" has been unlocked. | `hlp_060` |
+| 0xA20A98EE | 411 | Checks if the tutorial "Discovery Meter" has been unlocked. | `hlp_070` |
+| 0x25928421 | 412 | Checks if the tutorial "Fill the Yo-kai Medallium" has been unlocked. | `hlp_080` |
+| 0x3C89B560 | 413 | Checks if the tutorial "Rest Up with Eyepo" has been unlocked. | `hlp_090` |
+| 0xEC89641E | 414 | Checks if the tutorial "Using Your Inventory" has been unlocked. | `hlp_100` |
+| 0xF592555F | 415 | Checks if the tutorial "Looking with the Yo-kai Lens" has been unlocked. | `hlp_110` |
+| 0xDEBF069C | 416 | Checks if the tutorial "Making Friends with Yo-kai" has been unlocked. | `hlp_120` |
+| 0xC7A437DD | 417 | Checks if the tutorial "Internet Downloads" has been unlocked. | `hlp_130` |
+| 0x88E5A11A | 418 | Checks if the tutorial "Watch Locks" has been unlocked. | `hlp_140` |
+| 0x91FE905B | 419 | Checks if the tutorial "Helping Others with Quests" has been unlocked. | `hlp_150` |
+| 0xBAD3C398 | 420 | Checks if the tutorial "Equipping Your Yo-kai" has been unlocked. | `hlp_160` |
+| 0xA3C8F2D9 | 421 | Checks if the tutorial "Fighting Your Friends" has been unlocked. | `hlp_170` |
+| 0x2450EE16 | 422 | Checks if the tutorial "Yo-kai Tribes" has been unlocked. | `hlp_180` |
+| 0x3D4BDF57 | 423 | Checks if the tutorial "Eight Yo-kai Tribes" has been unlocked. | `hlp_190` |
+| 0xEECFDA47 | 424 | Checks if the tutorial "StreetPass" has been unlocked. | `hlp_200` |
+| 0xF7D4EB06 | 425 | Checks if the tutorial "Entering Passwords" has been unlocked. | `hlp_210` |
+| 0xDCF9B8C5 | 426 | Checks if the tutorial "Terror Time" has been unlocked. | `hlp_220` |
+| 0xC5E28984 | 427 | Checks if the tutorial "QR Code Patterns" has been unlocked. | `hlp_230` |
+| 0x8AA31F43 | 428 | Checks if the tutorial "Yo-kai Personalities" has been unlocked. | `hlp_240` |
+| 0x93B82E02 | 429 | Checks if the tutorial "Swapping Yo-kai" has been unlocked. | `hlp_250` |
+| 0xB8957DC1 | 430 | Checks if the tutorial "Upgrading Your Watch Rank" has been unlocked. | `hlp_260` |
+| 0xA18E4C80 | 431 | Checks if the tutorial "Fusing Things Together" has been unlocked. | `hlp_270` |
+| 0x2616504F | 432 | Checks if the tutorial "Stopping Yo-kai Crime" has been unlocked. | `hlp_280` |
+| 0x3F0D610E | 433 | Checks if the tutorial "Buying from Stores" has been unlocked. | `hlp_290` |
+| 0xEF0DB070 | 434 | Checks if the tutorial "Jungle Hunter and Jungle Points" has been unlocked. | `hlp_300` |
+| 0xF6168131 | 435 | Checks if the tutorial "Yo-kai Cam Picture-Taking Guide" has been unlocked. | `hlp_310` |
+| 0xDD3BD2F2 | 436 | Checks if the tutorial "Growing through Evolution" has been unlocked. | `hlp_320` |
+| 0xC420E3B3 | 437 | Checks if the tutorial "Miradox: Moving through Time" has been unlocked. | `hlp_330` |
+| 0x8B617574 | 438 | Checks if the tutorial "Battle: Yo-kai Watch Model Zero" has been unlocked. | `hlp_340` |
+| 0xA04C26B7 | 439 | Checks if the tutorial "Trading Yo-kai Medals" has been unlocked. | `hlp_370` |
+| 0x973552B0 | 440 | Checks if the tutorial "Communicating with Friends" has been unlocked. | `hlp_450` |
+| 0xA5033032 | 441 | Checks if the tutorial "Using the Fishing Rod's Reel" has been unlocked. | `hlp_470` |
+| 0x8E2E63F1 | 442 | Checks if the tutorial "How to Use the Contacts App" has been unlocked. | `hlp_440` |
+| 0xEB80CCC2 | 443 | Checks if the tutorial "Battle: Soultimate Moves" has been unlocked. | `hlp_500` |
+| 0xF29BFD83 | 444 | Checks if the tutorial "Battle: Yo-kai Fight Their Way" has been unlocked. | `hlp_510` |
+| 0x3B801DBC | 445 | Checks if the tutorial "Changing Soultimate Moves" has been unlocked. | `hlp_490` |
+| 0xD3A20656 | 446 | Checks if the tutorial "Earning BP in Random Battles" has been unlocked. | `hlp_175` |
+| 0x8FEC09C6 | 447 | Checks if the tutorial "Battle: Inspirit" has been unlocked. | `hlp_540` |
+| 0x3ECF0B39 | 448 | Checks if the tutorial "Extra Special Flaming Moxie Training!" has been unlocked. | `hlp_390` |
+| 0xBDDA6B44 | 449 | Checks if the tutorial "Battle: Items" has been unlocked. | `hlp_560` |
+| 0xA4C15A05 | 450 | Checks if the tutorial "Battle: Pinning Enemies" has been unlocked. | `hlp_570` |
+| 0x235946CA | 451 | Checks if the tutorial "Battle: Yo-kai Wheel" has been unlocked. | `hlp_580` |
+| 0x3A42778B | 452 | Checks if the tutorial "Battle: Wisps" has been unlocked. | `hlp_590` |
+| 0xE9C6729B | 453 | Checks if the tutorial "Battle: Purification" has been unlocked. | `hlp_600` |
+| 0xF0DD43DA | 454 | Checks if the tutorial "Battle: Elemental Techniques" has been unlocked. | `hlp_610` |
+| 0xDBF01019 | 455 | Checks if the tutorial "Battle: Yo-kai Skills" has been unlocked. | `hlp_620` |
+| 0xC2EB2158 | 456 | Checks if the tutorial "Battle: Skill Levels" has been unlocked. | `hlp_630` |
+| 0x8DAAB79F | 457 | Checks if the tutorial "Battle: Unity" has been unlocked. | `hlp_640` |
+| 0x3804C9D2 | 458 | Checks if the tutorial "Psychic Blasters unlocked!" has been unlocked. | `hlp_690` |
+| 0xBF9CD51D | 459 | Checks if the tutorial "Battle: Battling Boss Yo-kai" has been unlocked. | `hlp_660` |
+| 0xE80418AC | 460 | Checks if the tutorial "Psychic Blasters" has been unlocked. | `hlp_700` |
+| 0x211FF893 | 461 | Checks if the tutorial "Equipping a Strengthened Soul" has been unlocked. | `hlp_680` |
+| 0xA81E30F8 | 462 | Checks if the tutorial "Yo-kai Watch Blasters: Practical" has been unlocked. | `hlp_425` |
+| 0x735D6316 | 463 | Checks if the tutorial "Yo-kai Watch Blasters: Practical" has been read; this hides the NEW! icon. | `new_hlp_425` |
+| 0x2F136C86 | 464 | Checks if the tutorial "Basic Controls" has been read; this hides the NEW! icon. | `new_hlp_010` |
+| 0x043E3F45 (0x43E3F45) | 465 | Checks if the tutorial "Saving in Your Diary" has been read; this hides the NEW! icon. | `new_hlp_020` |
+| 0x1D250E04 | 466 | Checks if the tutorial "The Crank-a-kai" has been read; this hides the NEW! icon. | `new_hlp_030` |
+| 0x526498C3 | 467 | Checks if the tutorial "Warping with Mirapo" has been read; this hides the NEW! icon. | `new_hlp_040` |
+| 0x4B7FA982 | 468 | Checks if the tutorial "Catching Bugs and Fish" has been read; this hides the NEW! icon. | `new_hlp_050` |
+| 0x6052FA41 | 469 | Checks if the tutorial "Using the Yo-kai Radar" has been read; this hides the NEW! icon. | `new_hlp_060` |
+| 0x7949CB00 | 470 | Checks if the tutorial "Discovery Meter" has been read; this hides the NEW! icon. | `new_hlp_070` |
+| 0xFED1D7CF | 471 | Checks if the tutorial "Fill the Yo-kai Medallium" has been read; this hides the NEW! icon. | `new_hlp_080` |
+| 0xE7CAE68E | 472 | Checks if the tutorial "Rest Up with Eyepo" has been read; this hides the NEW! icon. | `new_hlp_090` |
+| 0x37CA37F0 | 473 | Checks if the tutorial "Using Your Inventory" has been read; this hides the NEW! icon. | `new_hlp_100` |
+| 0x2ED106B1 | 474 | Checks if the tutorial "Looking with the Yo-kai Lens" has been read; this hides the NEW! icon. | `new_hlp_110` |
+| 0x05FC5572 (0x5FC5572) | 475 | Checks if the tutorial "Making Friends with Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_120` |
+| 0x1CE76433 | 476 | Checks if the tutorial "Internet Downloads" has been read; this hides the NEW! icon. | `new_hlp_130` |
+| 0x53A6F2F4 | 477 | Checks if the tutorial "Watch Locks" has been read; this hides the NEW! icon. | `new_hlp_140` |
+| 0x4ABDC3B5 | 478 | Checks if the tutorial "Helping Others with Quests" has been read; this hides the NEW! icon. | `new_hlp_150` |
+| 0x61909076 | 479 | Checks if the tutorial "Equipping Your Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_160` |
+| 0x788BA137 | 480 | Checks if the tutorial "Fighting Your Friends" has been read; this hides the NEW! icon. | `new_hlp_170` |
+| 0xFF13BDF8 | 481 | Checks if the tutorial "Yo-kai Tribes" has been read; this hides the NEW! icon. | `new_hlp_180` |
+| 0xE6088CB9 | 482 | Checks if the tutorial "Eight Yo-kai Tribes" has been read; this hides the NEW! icon. | `new_hlp_190` |
+| 0x358C89A9 | 483 | Checks if the tutorial "StreetPass" has been read; this hides the NEW! icon. | `new_hlp_200` |
+| 0x2C97B8E8 | 484 | Checks if the tutorial "Entering Passwords" has been read; this hides the NEW! icon. | `new_hlp_210` |
+| 0x07BAEB2B (0x7BAEB2B) | 485 | Checks if the tutorial "Terror Time" has been read; this hides the NEW! icon. | `new_hlp_220` |
+| 0x1EA1DA6A | 486 | Checks if the tutorial "QR Code Patterns" has been read; this hides the NEW! icon. | `new_hlp_230` |
+| 0x51E04CAD | 487 | Checks if the tutorial "Yo-kai Personalities" has been read; this hides the NEW! icon. | `new_hlp_240` |
+| 0x48FB7DEC | 488 | Checks if the tutorial "Swapping Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_250` |
+| 0x63D62E2F | 489 | Checks if the tutorial "Upgrading Your Watch Rank" has been read; this hides the NEW! icon. | `new_hlp_260` |
+| 0x7ACD1F6E | 490 | Checks if the tutorial "Fusing Things Together" has been read; this hides the NEW! icon. | `new_hlp_270` |
+| 0xFD5503A1 | 491 | Checks if the tutorial "Stopping Yo-kai Crime" has been read; this hides the NEW! icon. | `new_hlp_280` |
+| 0xE44E32E0 | 492 | Checks if the tutorial "Buying from Stores" has been read; this hides the NEW! icon. | `new_hlp_290` |
+| 0x344EE39E | 493 | Checks if the tutorial "Jungle Hunter and Jungle Points" has been read; this hides the NEW! icon. | `new_hlp_300` |
+| 0x2D55D2DF | 494 | Checks if the tutorial "Yo-kai Cam Picture-Taking Guide" has been read; this hides the NEW! icon. | `new_hlp_310` |
+| 0x0678811C (0x678811C) | 495 | Checks if the tutorial "Growing through Evolution" has been read; this hides the NEW! icon. | `new_hlp_320` |
+| 0x1F63B05D | 496 | Checks if the tutorial "Miradox: Moving through Time" has been read; this hides the NEW! icon. | `new_hlp_330` |
+| 0x5022269A | 497 | Checks if the tutorial "Battle: Yo-kai Watch Model Zero" has been read; this hides the NEW! icon. | `new_hlp_340` |
+| 0x7B0F7559 | 498 | Checks if the tutorial "Trading Yo-kai Medals" has been read; this hides the NEW! icon. | `new_hlp_370` |
+| 0x4C76015E | 499 | Checks if the tutorial "Communicating with Friends" has been read; this hides the NEW! icon. | `new_hlp_450` |
+| 0x7E4063DC | 500 | Checks if the tutorial "Using the Fishing Rod's Reel" has been read; this hides the NEW! icon. | `new_hlp_470` |
+| 0xF9D87F13 | 501 | Checks if the tutorial "Enjoying Meals" has been read; this hides the NEW! icon. | `new_hlp_480` |
+| 0x30C39F2C | 502 | Checks if the tutorial "Battle: Soultimate Moves" has been read; this hides the NEW! icon. | `new_hlp_500` |
+| 0x29D8AE6D | 503 | Checks if the tutorial "Battle: Yo-kai Fight Their Way" has been read; this hides the NEW! icon. | `new_hlp_510` |
+| 0xE0C34E52 | 504 | Checks if the tutorial "Changing Soultimate Moves" has been read; this hides the NEW! icon. | `new_hlp_490` |
+| 0x08E155B8 (0x8E155B8) | 505 | Checks if the tutorial "Earning BP in Random Battles" has been read; this hides the NEW! icon. | `new_hlp_175` |
+| 0x54AF5A28 | 506 | Checks if the tutorial "Battle: Inspirit" has been read; this hides the NEW! icon. | `new_hlp_540` |
+| 0xE58C58D7 | 507 | Checks if the tutorial "Extra Special Flaming Moxie Training!" has been read; this hides the NEW! icon. | `new_hlp_390` |
+| 0x669938AA | 508 | Checks if the tutorial "Battle: Items" has been read; this hides the NEW! icon. | `new_hlp_560` |
+| 0x7F8209EB | 509 | Checks if the tutorial "Battle: Pinning Enemies" has been read; this hides the NEW! icon. | `new_hlp_570` |
+| 0xF81A1524 | 510 | Checks if the tutorial "Battle: Yo-kai Wheel" has been read; this hides the NEW! icon. | `new_hlp_580` |
+| 0xE1012465 | 511 | Checks if the tutorial "Battle: Wisps" has been read; this hides the NEW! icon. | `new_hlp_590` |
+| 0x32852175 | 512 | Checks if the tutorial "Battle: Purification" has been read; this hides the NEW! icon. | `new_hlp_600` |
+| 0x2B9E1034 | 513 | Checks if the tutorial "Battle: Elemental Techniques" has been read; this hides the NEW! icon. | `new_hlp_610` |
+| 0x00B343F7 (0xB343F7) | 514 | Checks if the tutorial "Battle: Yo-kai Skills" has been read; this hides the NEW! icon. | `new_hlp_620` |
+| 0x19A872B6 | 515 | Checks if the tutorial "Battle: Skill Levels" has been read; this hides the NEW! icon. | `new_hlp_630` |
+| 0x56E9E471 | 516 | Checks if the tutorial "Battle: Unity" has been read; this hides the NEW! icon. | `new_hlp_640` |
+| 0x556D301F | 517 | Checks if the tutorial "How to Use the Contacts App" has been read; this hides the NEW! icon. | `new_hlp_440` |
+| 0x64DF86F3 | 518 | Checks if the tutorial "Battle: Battling Boss Yo-kai" has been read; this hides the NEW! icon. | `new_hlp_660` |
+| 0xE3479A3C | 519 | Checks if the tutorial "Psychic Blasters unlocked!" has been read; this hides the NEW! icon. | `new_hlp_690` |
+| 0xFA5CAB7D | 520 | Checks if the tutorial "Equipping a Strengthened Soul" has been read; this hides the NEW! icon. | `new_hlp_680` |
+| 0x229B2CFD | 521 | Checks if the tutorial "Enjoying Meals" has been unlocked. | `hlp_480` |
+| 0x927A4435 | 522 | Checks if the tutorial "The Mysterious Yo-kai Hot Spot" has been unlocked. | `hlp_350` |
+| 0xB95717F6 | 523 | Checks if the tutorial "Through the Gates of Whimsy" has been unlocked. | `hlp_360` |
+| 0xF35997B4 | 524 | Checks if the tutorial "About Biking Minigames" has been unlocked. | `hlp_410` |
+| 0xD874C477 | 525 | Checks if the tutorial "Yo-kai Watch Blasters: Beginner" has been unlocked. | `hlp_420` |
+| 0xC16FF536 | 526 | Checks if the tutorial "Creating Official Teams" has been unlocked. | `hlp_430` |
+| 0xBC180173 | 527 | Checks if the tutorial "Springdale Sports Club Guide" has been unlocked. | `hlp_460` |
+| 0x27D43A78 | 528 | Checks if the tutorial "About Music Minigames" has been unlocked. | `hlp_380` |
+| 0x493917DB | 529 | Checks if the tutorial "The Mysterious Yo-kai Hot Spot" has been read; this hides the NEW! icon. | `new_hlp_350` |
+| 0x62144418 | 530 | Checks if the tutorial "Through the Gates of Whimsy" has been read; this hides the NEW! icon. | `new_hlp_360` |
+| 0x281AC45A | 531 | Checks if the tutorial "About Biking Minigames" has been read; this hides the NEW! icon. | `new_hlp_410` |
+| 0x03379799 (0x3379799) | 532 | Checks if the tutorial "Yo-kai Watch Blasters: Beginner" has been read; this hides the NEW! icon. | `new_hlp_420` |
+| 0x1A2CA6D8 | 533 | Checks if the tutorial "Creating Official Teams" has been read; this hides the NEW! icon. | `new_hlp_430` |
+| 0x675B529D | 534 | Checks if the tutorial "Springdale Sports Club Guide" has been read; this hides the NEW! icon. | `new_hlp_460` |
+| 0xFC976996 | 535 | Checks if the tutorial "About Music Minigames" has been read; this hides the NEW! icon. | `new_hlp_380` |
 | 0xDAD52F7A | 536 | - | - |
 | 0xADD21FEC | 537 | - | - |
 | 0xA99EEB20 | 538 | - | - |
@@ -555,7 +555,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xAE6E90AE | 540 | - | - |
 | 0xA6771E9A | 541 | - | `edy_y147000_01` |
 | 0x0C3CAFE3 (0xC3CAFE3) | 542 | - | - |
-| 0x1C327562 | 543 | - | - |
+| 0x1C327562 | 543 | - | `edy_y218010_01` |
 | 0xE15501D3 | 544 | - | - |
 | 0xE228F358 | 545 | - | `ev51_0510_010` |
 | 0xC905A09B | 546 | - | `ev51_0510_020` |
@@ -595,7 +595,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB5438FE3 | 580 | - | - |
 | 0x8B0D480D | 581 | - | - |
 | 0x60850F27 | 582 | - | - |
-| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | - |
+| 0xCD64AD12 | 583 | Checks if you have unlocked the Trophy Room. | `t106i23_open` |
 | 0xBAE3EE5F | 584 | - | - |
 | 0xB17D48A1 | 585 | - | - |
 | 0x76C15718 | 586 | Checks if 4F at the Springdale Business Tower has been unlocked. | `office building_floor_4` |
@@ -667,7 +667,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x56024C7F | 652 | - | - |
 | 0x09A940C3 (0x9A940C3) | 653 | - | - |
 | 0x34C96973 | 654 | - | - |
-| 0x33474B42 | 655 | - | `new_hlp_700` |
+| 0x33474B42 | 655 | Checks if the tutorial "Psychic Blasters" has been read; this hides the NEW! icon. | `new_hlp_700` |
 | 0xC779185C | 656 | - | - |
 | 0xF54F7ADE | 657 | - | - |
 | 0xBA0EEC19 | 658 | - | - |
@@ -722,7 +722,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBCC52EF2 | 707 | - | - |
 | 0x2A4F4CDE | 708 | - | - |
 | 0xE6E54C40 | 709 | - | - |
-| 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) that day. | `day_flg_y211010` |
+| 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) today. | `day_flg_y211010` |
 | 0x48E8BEC7 | 711 | - | - |
 | 0xD1E1EF7D | 712 | - | - |
 | 0xA6E6DFEB | 713 | - | - |
@@ -1637,14 +1637,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB70F6B34 | 1622 | - | - |
 | 0x296BFE97 | 1623 | - | - |
 | 0x5E6CCE01 | 1624 | - | - |
-| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | - |
-| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | - |
-| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | - |
-| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | - |
-| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | - |
-| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | - |
-| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | - |
-| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | - |
+| 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | `flg_race_01_01` |
+| 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | `flg_race_01_02` |
+| 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | `flg_race_02_01` |
+| 0xCE854AB0 | 1628 | Checks if you can buy the Wedding Bell. | `flg_race_02_02` |
+| 0xEF307C6F | 1629 | Checks if you can buy the Forest Cycle. | `flg_race_03_01` |
+| 0x76392DD5 | 1630 | Checks if you can buy the Trumpet Bell. | `flg_race_03_02` |
+| 0x72E744D6 | 1631 | Checks if you can buy the Sinister Cycle. | `flg_race_04_01` |
+| 0xEBEE156C | 1632 | Checks if you can buy the Jibanyan Bell. | `flg_race_04_02` |
 | 0xFC1AB67F | 1633 | - | - |
 | 0x6513E7C5 | 1634 | - | - |
 | 0x1214D753 | 1635 | - | - |
@@ -2132,13 +2132,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1F6351F1 | 2117 | - | - |
 | 0x4779B929 | 2118 | - | - |
 | 0x896BC96E | 2119 | - | `territory_t105g00_01` |
-| 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S that day. | `day_flg_y152900` |
-| 0x3A6252C6 | 2121 | Checks if you have fought Komasan S that day. | `day_flg_y159900` |
-| 0x23796387 | 2122 | Checks if you have fought Komajiro S that day. | `day_flg_y159910` |
+| 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S today. | `day_flg_y152900` |
+| 0x3A6252C6 | 2121 | Checks if you have fought Komasan S today. | `day_flg_y159900` |
+| 0x23796387 | 2122 | Checks if you have fought Komajiro S today. | `day_flg_y159910` |
 | 0x571A3B69 | 2123 | - | - |
-| 0x7AAF26B6 | 2124 | Checks if you have fought Darkyubi that day. | `day_flg_y134020` |
-| 0xF6858D9A | 2125 | Checks if you have fought Illuminoct that day. | `day_flg_y221020` |
-| 0x32AD77FA | 2126 | Checks if you have fought Moximous N/Moximous K that day. | `day_flg_y355000` |
+| 0x7AAF26B6 | 2124 | Checks if you have fought Darkyubi today. | `day_flg_y134020` |
+| 0xF6858D9A | 2125 | Checks if you have fought Illuminoct today. | `day_flg_y221020` |
+| 0x32AD77FA | 2126 | Checks if you have fought Moximous N/Moximous K today. | `day_flg_y355000` |
 | 0xB883D3F3 | 2127 | - | `territory_t106g00_01` |
 | 0x218A8249 | 2128 | - | `territory_t106g00_02` |
 | 0x568DB2DF | 2129 | - | `territory_t106g00_03` |
@@ -2521,7 +2521,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0112CCBA (0x112CCBA) | 2506 | - | - |
 | 0x93BD8617 | 2507 | - | - |
 | 0xF642F7DE | 2508 | - | - |
-| 0x22B4C3EC | 2509 | Checks if you have fought Awevil that day. | `day_flg_y210010` |
+| 0x22B4C3EC | 2509 | Checks if you have fought Awevil today. | `day_flg_y210010` |
 | 0x796CF99E | 2510 | - | `time_warning_state` |
 | 0x8B049510 | 2511 | - | - |
 | 0xE45B36FC | 2512 | - | - |
@@ -2535,41 +2535,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x06C03313 (0x6C03313) | 2520 | - | - |
 | 0xBE7C5476 | 2521 | - | - |
 | 0x758AAEEF | 2522 | - | - |
-| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious that day. | `day_flg_y191010` |
+| 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious today. | `day_flg_y191010` |
 | 0x5510BEB5 | 2524 | - | - |
 | 0xCC19EF0F | 2525 | - | - |
 | 0xBB1EDF99 | 2526 | - | - |
 | 0x257A4A3A | 2527 | - | - |
-| 0x6F7D22E6 | 2528 | - | - |
-| 0xB83BCEE1 | 2529 | Checks if the oni misfortune reward for the day has already been claimed.  | - |
+| 0x6F7D22E6 | 2528 | Checks if the Infinite Tunnel has been visited today. | `day_flg_enen` |
+| 0xB83BCEE1 | 2529 | Checks if the Oni Misfortune reward for the day has already been claimed.  | - |
 | 0xECAF7455 | 2530 | - | - |
-| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander that day. | - |
-| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag that day. | - |
+| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander today. | - |
+| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag today. | - |
 | 0x901AEA27 | 2533 | - | - |
 | 0x0E7E7F84 (0xE7E7F84) | 2534 | - | - |
-| 0x6404FE11 | 2535 | Checks if you have fought Hovernyan that day. | `day_flg_y236000` |
-| 0x921A66F3 | 2536 | Checks if you have fought Darknyan that day. | `day_flg_y342000` |
-| 0x0FCD5E4A (0xFCD5E4A) | 2537 | Checks if you have fought Robonyan F that day. | `day_flg_y345000` |
-| 0x1D78F1A4 | 2538 | Checks if you have fought Sailornyan that day. | `day_flg_y346000` |
-| 0xA5C496C1 | 2539 | Checks if you have fought Machonyan that day. | `day_flg_y347000` |
-| 0xFDA78697 | 2540 | Checks if you have fought Jibakoma that day. | `day_flg_y348000` |
-| 0x451BE1F2 | 2541 | Checks if you have fought Jetnyan that day. | `day_flg_y349000` |
-| 0x057387C8 (0x57387C8) | 2542 | Checks if you have fought Wondernyan that day. | `day_flg_y350000` |
-| 0x166A2C94 | 2543 | Checks if you have fought Robokapp that day. | `day_flg_y719000` |
-| 0x2CC219CE | 2544 | Checks if you have fought Robokoma that day. | `day_flg_y720000` |
-| 0x947E7EAB | 2545 | Checks if you have fought Robogramps that day. | `day_flg_y721000` |
-| 0x86CBD145 | 2546 | Checks if you have fought Robomutt that day. | `day_flg_y722000` |
-| 0x3E77B620 | 2547 | Checks if you have fought Robonoko that day. | `day_flg_y723000` |
-| 0xA3A08E99 | 2548 | Checks if you have fought Robodraggie that day. | `day_flg_y724000` |
-| 0x1B1CE9FC | 2549 | Checks if you have fought Melonyan that day. | `day_flg_y725000` |
-| 0x0207D8BD (0x207D8BD) | 2550 | Checks if you have fought Oranyan that day. | `day_flg_y725010` |
-| 0x292A8B7E | 2551 | Checks if you have fought Kiwinyan that day. | `day_flg_y725020` |
-| 0x3031BA3F | 2552 | Checks if you have fought Grapenyan that day. | `day_flg_y725030` |
-| 0x7F702CF8 | 2553 | Checks if you have fought Strawbnyan that day. | `day_flg_y725040` |
-| 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan that day. | `day_flg_y725050` |
+| 0x6404FE11 | 2535 | Checks if you have fought Hovernyan today. | `day_flg_y236000` |
+| 0x921A66F3 | 2536 | Checks if you have fought Darknyan today. | `day_flg_y342000` |
+| 0x0FCD5E4A (0xFCD5E4A) | 2537 | Checks if you have fought Robonyan F today. | `day_flg_y345000` |
+| 0x1D78F1A4 | 2538 | Checks if you have fought Sailornyan today. | `day_flg_y346000` |
+| 0xA5C496C1 | 2539 | Checks if you have fought Machonyan today. | `day_flg_y347000` |
+| 0xFDA78697 | 2540 | Checks if you have fought Jibakoma today. | `day_flg_y348000` |
+| 0x451BE1F2 | 2541 | Checks if you have fought Jetnyan today. | `day_flg_y349000` |
+| 0x057387C8 (0x57387C8) | 2542 | Checks if you have fought Wondernyan today. | `day_flg_y350000` |
+| 0x166A2C94 | 2543 | Checks if you have fought Robokapp today. | `day_flg_y719000` |
+| 0x2CC219CE | 2544 | Checks if you have fought Robokoma today. | `day_flg_y720000` |
+| 0x947E7EAB | 2545 | Checks if you have fought Robogramps today. | `day_flg_y721000` |
+| 0x86CBD145 | 2546 | Checks if you have fought Robomutt today. | `day_flg_y722000` |
+| 0x3E77B620 | 2547 | Checks if you have fought Robonoko today. | `day_flg_y723000` |
+| 0xA3A08E99 | 2548 | Checks if you have fought Robodraggie today. | `day_flg_y724000` |
+| 0x1B1CE9FC | 2549 | Checks if you have fought Melonyan today. | `day_flg_y725000` |
+| 0x0207D8BD (0x207D8BD) | 2550 | Checks if you have fought Oranyan today. | `day_flg_y725010` |
+| 0x292A8B7E | 2551 | Checks if you have fought Kiwinyan today. | `day_flg_y725020` |
+| 0x3031BA3F | 2552 | Checks if you have fought Grapenyan today. | `day_flg_y725030` |
+| 0x7F702CF8 | 2553 | Checks if you have fought Strawbnyan today. | `day_flg_y725040` |
+| 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan today. | `day_flg_y725050` |
 | 0x54FBB2FF | 2555 | - | - |
 | 0xCA9F275C | 2556 | - | - |
-| 0xAB68A865 | 2557 | Checks if you have increased your cranks from High Gnomey that day. | `day_flg_y287000` |
+| 0xAB68A865 | 2557 | Checks if you have used the High Gnomey baffle board today. | `day_flg_y287000` |
 | 0x3070CFD6 | 2558 | - | - |
 | 0x2E4FCD24 | 2559 | - | - |
 
@@ -2577,10 +2577,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
-| 0x97580970 | 2 | Can either be 0, 1 or 2 - handled in `ywPlayData::SetBtlTempEnv`. | `weather_condition` |
-| 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar and clock | `watch_mode` |
+| 0x97580970 | 2 | Can either be 0, 1 or 2. 0 = Sunny, 1 = Rainy | `weather_condition` |
+| 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar & clock | `watch_mode` |
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | 0 = None, 1 = Gargaros, 2 = Ogralus, 3 = Orcanos | `orgeTimeMode` |
 | 0xDE40DAA8 | 6 | - | `orgeTimeGoalId` |
@@ -2591,7 +2591,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA6D7BB27 | 12 | Checks which Yo-kai side you have selected. 0 = Undecided, 1 = Bony, 2 = Fleshy. | - |
 | 0xEE5E8CA9 | 13 | - | `count_died` |
 | 0x5CAB924C | 14 | - | `passcomm_num` |
-| 0x3ABC5212 | 15 | - | - |
+| 0x3ABC5212 | 15 | - | `scratch_count` |
 | 0xA45A65EC | 16 | Stores how many Crank-a-kai attempts are left. | `gacha_use_count` |
 | 0x9B568822 | 17 | - | `count_t104i23` |
 | 0x3C28BE20 | 18 | - | `count_battle` |
@@ -3163,7 +3163,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
-| 0x4FF4F23F | 0 | - | `dummy` |
+| 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x213DF173 | 1 | Uptown Springdale #1a | `tb_t101g00_a_01` |
 | 0xB834A0C9 | 2 | Uptown Springdale #2a | `tb_t101g00_a_02` |
 | 0xCF33905F | 3 | Uptown Springdale #3a | `tb_t101g00_a_03` |
@@ -3720,7 +3720,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115 | 1 | - | `home_sleep_out` |
 | 0xBC5BAB7F | 2 | - | `mj_temp_follow_pos` |
 | 0x2A9BF388 | 3 | - | - |
@@ -3889,7 +3889,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 |---------|------|-------| ---- |
-| 0x98CE5C36 | 0 | - | `tmp_dummy` |
+| 0x98CE5C36 | 0 | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8 | 1 | - | `tmp_event_select` |
 | 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
 | 0xADBA2641 | 4 | - | `tmp_shop_id` |

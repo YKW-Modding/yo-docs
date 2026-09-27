@@ -13,7 +13,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x4FF4F23F             | 0    | - | `dummy` |
+| 0x4FF4F23F             | 0    | Dummy flag. Should be zero. | `dummy` |
 | 0x176F56BB             | 1    | Checks if you have beaten Whisped Cream during the story. | `game_clear1` |
 | 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
 | 0xF24F1BCA             | 17   | Checks if you have gotten the Music App. | - |
@@ -286,124 +286,124 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFD6EF57E             | 399  | Checks if the story scene ev13_9100 has been seen. | `ev13_9100` |
 | 0xFEEA2110             | 400  | Checks if the story scene ev13_9300 has been seen. | `ev13_9300` |
 | 0x65D16866             | 401  | - | - |
-| 0xDD3BD2F2             | 403  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been seen. | `hlp_320` |
-| 0x403A239C             | 404  | - | - |
-| 0xF4503F68             | 405  | Checks if the tutorial "Basic Controls" has been seen. | `hlp_010` |
-| 0xF7464BAF             | 406  | - | - |
-| 0xDF7D6CAB             | 407  | Checks if the tutorial "Choose your team in the Lounge" has been seen. | `hlp_020` |
-| 0x71D23901             | 408  | - | - |
-| 0xC6665DEA             | 409  | Checks if the tutorial "Select a Mission and move out!" has been seen. | `hlp_030` |
-| 0xBA8EEAA4             | 410  | - | - |
-| 0x8927CB2D             | 411  | Checks if the tutorial "Let's level up a Yo-kai!" has been seen. | `hlp_040` |
-| 0xA78BDA1C             | 412  | - | - |
-| 0x903CFA6C             | 413  | Checks if the tutorial "Bring along Yo-kai Friends" has been seen. | `hlp_050` |
-| 0x6CD709B9             | 414  | - | - |
-| 0xBB11A9AF             | 415  | Checks if the tutorial "Go shopping on the 2F!" has been seen. | `hlp_060` |
-| 0xEA437B17             | 416  | - | - |
-| 0xA20A98EE             | 417  | Checks if the tutorial "Powering up Yo-kai with Equipment" has been seen. | `hlp_070` |
-| 0x211FA8B2             | 418  | - | - |
-| 0x25928421             | 419  | Checks if the tutorial "Gather Materials to make Equipment!" has been seen. | `hlp_080` |
-| 0xD0491A67             | 420  | - | - |
-| 0x3C89B560             | 421  | Checks if the tutorial "Passing by! Wayfarer Coliseum" has been seen. | `hlp_090` |
-| 0x1B15C9C2             | 422  | - | - |
-| 0xEC89641E             | 423  | Checks if the tutorial "Blasters House Rank Up" has been seen. | `hlp_100` |
-| 0x9A6D93BE             | 424  | - | - |
-| 0xF592555F             | 425  | Checks if the tutorial "Play cooperatively with everyone!" has been seen. | `hlp_110` |
-| 0x5131401B             | 426  | - | - |
-| 0xDEBF069C             | 427  | Checks if the tutorial "Talk with everyone over chat" has been seen. | `hlp_120` |
-| 0xD7A532B5             | 428  | - | - |
-| 0xC7A437DD             | 429  | Checks if the tutorial "Befriend your family and friends!" has been seen. | `hlp_130` |
-| 0x1CF9E110             | 430  | - | - |
-| 0x88E5A11A             | 431  | Checks if the tutorial "Story Missions" has been seen. | `hlp_140` |
-| 0x01FCD1A8 (0x1FCD1A8) | 432  | - | - |
-| 0x91FE905B             | 433  | Checks if the tutorial "What you can do in the Entrance" has been seen. | `hlp_150` |
-| 0xCAA0020D             | 434  | - | - |
-| 0xBAD3C398             | 435  | Checks if the tutorial "Turn the Crank-a-kai!" has been seen. | `hlp_160` |
-| 0x4C3470A3             | 436  | - | - |
-| 0xA3C8F2D9             | 437  | Checks if the tutorial "Patrol Missions" has been seen. | `hlp_170` |
-| 0x8768A306             | 438  | - | - |
-| 0x2450EE16             | 439  | Checks if the tutorial "Evolve Yo-kai & make them stronger!" has been seen. | `hlp_180` |
-| 0x763E11D3             | 440  | - | - |
-| 0x3D4BDF57             | 441  | Checks if the tutorial "Big Boss Missions" has been seen. | `hlp_190` |
-| 0xBD62C276             | 442  | - | - |
-| 0xEECFDA47             | 443  | Checks if the tutorial "Collect Ultra Orbs to try Ultra Mode!" has been seen. | `hlp_200` |
-| 0xAB858923             | 444  | - | - |
-| 0xF7D4EB06             | 445  | Checks if the tutorial "Try a Challenge Mission!" has been seen. | `hlp_210` |
-| 0x60D95A86             | 446  | - | - |
-| 0xDCF9B8C5             | 447  | Checks if the tutorial "Use Soulcery on your Yo-kai!" has been seen. | `hlp_220` |
-| 0xE64D2828             | 448  | - | - |
-| 0xC5E28984             | 449  | Checks if the tutorial "Receive precious mementos!" has been seen. | `hlp_230` |
-| 0x2D11FB8D             | 450  | - | - |
-| 0x8AA31F43             | 451  | Checks if the tutorial "Gather Insignias!" has been seen. | `hlp_240` |
-| 0x3014CB35             | 452  | - | - |
-| 0x93B82E02             | 453  | Checks if the tutorial "Change costumes in the Secret Closet" has been seen. | `hlp_250` |
-| 0xFB481890             | 454  | - | - |
-| 0xEA42A6F5             | 455  | Checks if the tutorial "Yo-kai Stats" has been seen. | `hlp_400` |
-| 0xC855BC19             | 456  | - | - |
-| 0xF35997B4             | 457  | Checks if the tutorial "Yo-kai Roles" has been seen. | `hlp_410` |
-| 0x03096FBC (0x3096FBC) | 458  | - | - |
-| 0xD874C477             | 459  | Checks if the tutorial "Select Your Yo-kai Moves" has been seen. | `hlp_420` |
-| 0x859D1D12             | 460  | - | - |
-| 0xC16FF536             | 461  | Checks if the tutorial "Yo-kai Skills" has been seen. | `hlp_430` |
-| 0x4EC1CEB7             | 462  | - | - |
-| 0x8E2E63F1             | 463  | Checks if the tutorial "About Yo-kai Tribes" has been seen. | `hlp_440` |
-| 0x53C4FE0F             | 464  | - | - |
-| 0x973552B0             | 465  | Checks if the tutorial "8 Different Yo-kai Tribes" has been seen. | `hlp_450` |
-| 0x98982DAA             | 466  | - | - |
-| 0xBC180173             | 467  | Checks if the tutorial "Yo-kai Elements" has been seen. | `hlp_460` |
-| 0x1E0C5F04             | 468  | - | - |
-| 0xE9C6729B             | 469  | Checks if the tutorial "Use the Yo-kai Pad!" has been seen. | `hlp_600` |
-| 0x5FCAAD30             | 470  | - | - |
-| 0xF0DD43DA             | 471  | Checks if the tutorial "Yo-kai Medallium Collection" has been seen. | `hlp_610` |
-| 0x94967E95             | 472  | - | - |
-| 0xDBF01019             | 473  | Checks if the tutorial "Use your Diary to save!" has been seen. | `hlp_620` |
-| 0x12020C3B             | 474  | - | - |
-| 0xC2EB2158             | 475  | Checks if the tutorial "Collect groups of Yo-kai" has been seen. | `hlp_630` |
-| 0xD95EDF9E             | 476  | - | - |
-| 0x8DAAB79F             | 477  | Checks if the tutorial "Record many things in the notebook!" has been seen. | `hlp_640` |
-| 0xC45BEF26             | 478  | - | - |
-| 0x94B186DE             | 479  | Checks if the tutorial "Exchange Yo-kai Medals!" has been seen. | `hlp_650` |
-| 0x0F073C83 (0xF073C83) | 480  | - | - |
-| 0xE3585F91             | 481  | Checks if the tutorial "About Missions" has been seen. | `hlp_800` |
-| 0x0FF5D66D (0xFF5D66D) | 482  | - | - |
-| 0xFA436ED0             | 483  | Checks if the tutorial "About Attacking - Moves" has been seen. | `hlp_810` |
-| 0xC4A905C8             | 484  | - | - |
-| 0xD16E3D13             | 485  | Checks if the tutorial "Gather items" has been seen. | `hlp_820` |
-| 0x423D7766             | 486  | - | - |
-| 0xC8750C52             | 487  | Checks if the tutorial "Mission Objectives" has been seen. | `hlp_830` |
-| 0x8961A4C3             | 488  | - | - |
-| 0xB81FF8DD             | 489  | Checks if the tutorial "Escape through the sliding doors!" has been seen. | `hlp_835` |
-| 0x41812BB3             | 490  | - | - |
-| 0x87349A95             | 491  | Checks if the tutorial "Revive downed allies!" has been seen. | `hlp_840` |
-| 0x9464947B             | 492  | - | - |
-| 0x9E2FABD4             | 493  | Checks if the tutorial "Switch to control a Yo-kai Friend!" has been seen. | `hlp_850` |
-| 0x5F3847DE             | 494  | - | - |
-| 0xB502F817             | 495  | Checks if the tutorial "Friend Chance!" has been seen. | `hlp_860` |
-| 0xD9AC3570             | 496  | - | - |
-| 0xAC19C956             | 497  | Checks if the tutorial "Good and Bad Inspirits" has been seen. | `hlp_870` |
-| 0x12F0E6D5             | 498  | - | - |
-| 0x2B81D599             | 499  | Checks if the tutorial "Soultimate Moves are powerful!" has been seen. | `hlp_880` |
-| 0xE3A65400             | 500  | - | - |
-| 0x329AE4D8             | 501  | Checks if the tutorial "Select treasure and Koma Battle!" has been seen. | `hlp_890` |
-| 0x28FA87A5             | 502  | - | - |
-| 0xE29A35A6             | 503  | Checks if the tutorial "Grab a Great Orb, then Great Change!" has been seen. | `hlp_900` |
-| 0xA982DDD9             | 504  | - | - |
-| 0xFB8104E7             | 505  | Checks if the tutorial "Treasure Drop Selector" has been seen. | `hlp_910` |
-| 0x62DE0E7C             | 506  | - | - |
-| 0xD0AC5724             | 507  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been seen. | `hlp_920` |
-| 0xE44A7CD2             | 508  | - | - |
-| 0xB8957DC1             | 509  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been seen. | `hlp_260` |
-| 0x7DDC6A3E             | 510  | - | - |
-| 0xA18E4C80             | 511  | Checks if the tutorial "True Challenge Missions!" has been seen. | `hlp_270` |
-| 0xB680B99B             | 512  | - | - |
-| 0x2616504F             | 513  | Checks if the tutorial "Put on a song to change the mood!" has been seen. | `hlp_280` |
-| 0x47D60B4E             | 514  | - | - |
-| 0x3F0D610E             | 515  | Checks if the tutorial "Get into the VIP Room with VIP Link!" has been seen. | `hlp_290` |
-| 0x8C8AD8EB             | 516  | - | - |
-| 0xEF0DB070             | 517  | Checks if the tutorial "Inside the VIP Room!" has been seen. | `hlp_300` |
-| 0x0DF28297 (0xDF28297) | 518  | - | - |
-| 0xF6168131             | 519  | Checks if the tutorial "Super Link with Iron Oni Force!" has been seen. | `hlp_310` |
-| 0xC6AE5132             | 520  | - | - |
+| 0xDD3BD2F2             | 403  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been unlocked. | `hlp_320` |
+| 0x403A239C             | 404  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been read; this hides the NEW! icon. | `hlp_320_new` |
+| 0xF4503F68             | 405  | Checks if the tutorial "Basic Controls" has been unlocked. | `hlp_010` |
+| 0xF7464BAF             | 406  | Checks if the tutorial "Basic Controls" has been read; this hides the NEW! icon. | `hlp_010_new` |
+| 0xDF7D6CAB             | 407  | Checks if the tutorial "Choose your team in the Lounge" has been unlocked. | `hlp_020` |
+| 0x71D23901             | 408  | Checks if the tutorial "Choose your team in the Lounge" has been read; this hides the NEW! icon. | `hlp_020_new` |
+| 0xC6665DEA             | 409  | Checks if the tutorial "Select a Mission and move out!" has been unlocked. | `hlp_030` |
+| 0xBA8EEAA4             | 410  | Checks if the tutorial "Select a Mission and move out!" has been read; this hides the NEW! icon. | `hlp_030_new` |
+| 0x8927CB2D             | 411  | Checks if the tutorial "Let's level up a Yo-kai!" has been unlocked. | `hlp_040` |
+| 0xA78BDA1C             | 412  | Checks if the tutorial "Let's level up a Yo-kai!" has been read; this hides the NEW! icon. | `hlp_040_new` |
+| 0x903CFA6C             | 413  | Checks if the tutorial "Bring along Yo-kai Friends" has been unlocked. | `hlp_050` |
+| 0x6CD709B9             | 414  | Checks if the tutorial "Bring along Yo-kai Friends" has been read; this hides the NEW! icon. | `hlp_050_new` |
+| 0xBB11A9AF             | 415  | Checks if the tutorial "Go shopping on the 2F!" has been unlocked. | `hlp_060` |
+| 0xEA437B17             | 416  | Checks if the tutorial "Go shopping on the 2F!" has been read; this hides the NEW! icon. | `hlp_060_new` |
+| 0xA20A98EE             | 417  | Checks if the tutorial "Powering up Yo-kai with Equipment" has been unlocked. | `hlp_070` |
+| 0x211FA8B2             | 418  | Checks if the tutorial "Powering up Yo-kai with Equipment" has been read; this hides the NEW! icon. | `hlp_070_new` |
+| 0x25928421             | 419  | Checks if the tutorial "Gather Materials to make Equipment!" has been unlocked. | `hlp_080` |
+| 0xD0491A67             | 420  | Checks if the tutorial "Gather Materials to make Equipment!" has been read; this hides the NEW! icon. | `hlp_080_new` |
+| 0x3C89B560             | 421  | Checks if the tutorial "Passing by! Wayfarer Coliseum" has been unlocked. | `hlp_090` |
+| 0x1B15C9C2             | 422  | Checks if the tutorial "Passing by! Wayfarer Coliseum" has been read; this hides the NEW! icon. | `hlp_090_new` |
+| 0xEC89641E             | 423  | Checks if the tutorial "Blasters House Rank Up" has been unlocked. | `hlp_100` |
+| 0x9A6D93BE             | 424  | Checks if the tutorial "Blasters House Rank Up" has been read; this hides the NEW! icon. | `hlp_100_new` |
+| 0xF592555F             | 425  | Checks if the tutorial "Play cooperatively with everyone!" has been unlocked. | `hlp_110` |
+| 0x5131401B             | 426  | Checks if the tutorial "Play cooperatively with everyone!" has been read; this hides the NEW! icon. | `hlp_110_new` |
+| 0xDEBF069C             | 427  | Checks if the tutorial "Talk with everyone over chat" has been unlocked. | `hlp_120` |
+| 0xD7A532B5             | 428  | Checks if the tutorial "Talk with everyone over chat" has been read; this hides the NEW! icon. | `hlp_120_new` |
+| 0xC7A437DD             | 429  | Checks if the tutorial "Befriend your family and friends!" has been unlocked. | `hlp_130` |
+| 0x1CF9E110             | 430  | Checks if the tutorial "Befriend your family and friends!" has been read; this hides the NEW! icon. | `hlp_130_new` |
+| 0x88E5A11A             | 431  | Checks if the tutorial "Story Missions" has been unlocked. | `hlp_140` |
+| 0x01FCD1A8 (0x1FCD1A8) | 432  | Checks if the tutorial "Story Missions" has been read; this hides the NEW! icon. | `hlp_140_new` |
+| 0x91FE905B             | 433  | Checks if the tutorial "What you can do in the Entrance" has been unlocked. | `hlp_150` |
+| 0xCAA0020D             | 434  | Checks if the tutorial "What you can do in the Entrance" has been read; this hides the NEW! icon. | `hlp_150_new` |
+| 0xBAD3C398             | 435  | Checks if the tutorial "Turn the Crank-a-kai!" has been unlocked. | `hlp_160` |
+| 0x4C3470A3             | 436  | Checks if the tutorial "Turn the Crank-a-kai!" has been read; this hides the NEW! icon. | `hlp_160_new` |
+| 0xA3C8F2D9             | 437  | Checks if the tutorial "Patrol Missions" has been unlocked. | `hlp_170` |
+| 0x8768A306             | 438  | Checks if the tutorial "Patrol Missions" has been read; this hides the NEW! icon. | `hlp_170_new` |
+| 0x2450EE16             | 439  | Checks if the tutorial "Evolve Yo-kai & make them stronger!" has been unlocked. | `hlp_180` |
+| 0x763E11D3             | 440  | Checks if the tutorial "Evolve Yo-kai & make them stronger!" has been read; this hides the NEW! icon. | `hlp_180_new` |
+| 0x3D4BDF57             | 441  | Checks if the tutorial "Big Boss Missions" has been unlocked. | `hlp_190` |
+| 0xBD62C276             | 442  | Checks if the tutorial "Big Boss Missions" has been read; this hides the NEW! icon. | `hlp_190_new` |
+| 0xEECFDA47             | 443  | Checks if the tutorial "Collect Ultra Orbs to try Ultra Mode!" has been unlocked. | `hlp_200` |
+| 0xAB858923             | 444  | Checks if the tutorial "Collect Ultra Orbs to try Ultra Mode!" has been read; this hides the NEW! icon. | `hlp_200_new` |
+| 0xF7D4EB06             | 445  | Checks if the tutorial "Try a Challenge Mission!" has been unlocked. | `hlp_210` |
+| 0x60D95A86             | 446  | Checks if the tutorial "Try a Challenge Mission!" has been read; this hides the NEW! icon. | `hlp_210_new` |
+| 0xDCF9B8C5             | 447  | Checks if the tutorial "Use Soulcery on your Yo-kai!" has been unlocked. | `hlp_220` |
+| 0xE64D2828             | 448  | Checks if the tutorial "Use Soulcery on your Yo-kai!" has been read; this hides the NEW! icon. | `hlp_220_new` |
+| 0xC5E28984             | 449  | Checks if the tutorial "Receive precious mementos!" has been unlocked. | `hlp_230` |
+| 0x2D11FB8D             | 450  | Checks if the tutorial "Receive precious mementos!" has been read; this hides the NEW! icon. | `hlp_230_new` |
+| 0x8AA31F43             | 451  | Checks if the tutorial "Gather Insignias!" has been unlocked. | `hlp_240` |
+| 0x3014CB35             | 452  | Checks if the tutorial "Gather Insignias!" has been read; this hides the NEW! icon. | `hlp_240_new` |
+| 0x93B82E02             | 453  | Checks if the tutorial "Change costumes in the Secret Closet" has been unlocked. | `hlp_250` |
+| 0xFB481890             | 454  | Checks if the tutorial "Change costumes in the Secret Closet" has been read; this hides the NEW! icon. | `hlp_250_new` |
+| 0xEA42A6F5             | 455  | Checks if the tutorial "Yo-kai Stats" has been unlocked. | `hlp_400` |
+| 0xC855BC19             | 456  | Checks if the tutorial "Yo-kai Stats" has been read; this hides the NEW! icon. | `hlp_400_new` |
+| 0xF35997B4             | 457  | Checks if the tutorial "Yo-kai Roles" has been unlocked. | `hlp_410` |
+| 0x03096FBC (0x3096FBC) | 458  | Checks if the tutorial "Yo-kai Roles" has been read; this hides the NEW! icon. | `hlp_410_new` |
+| 0xD874C477             | 459  | Checks if the tutorial "Select Your Yo-kai Moves" has been unlocked. | `hlp_420` |
+| 0x859D1D12             | 460  | Checks if the tutorial "Select Your Yo-kai Moves" has been read; this hides the NEW! icon. | `hlp_420_new` |
+| 0xC16FF536             | 461  | Checks if the tutorial "Yo-kai Skills" has been unlocked. | `hlp_430` |
+| 0x4EC1CEB7             | 462  | Checks if the tutorial "Yo-kai Skills" has been read; this hides the NEW! icon. | `hlp_430_new` |
+| 0x8E2E63F1             | 463  | Checks if the tutorial "About Yo-kai Tribes" has been unlocked. | `hlp_440` |
+| 0x53C4FE0F             | 464  | Checks if the tutorial "About Yo-kai Tribes" has been read; this hides the NEW! icon. | `hlp_440_new` |
+| 0x973552B0             | 465  | Checks if the tutorial "8 Different Yo-kai Tribes" has been unlocked. | `hlp_450` |
+| 0x98982DAA             | 466  | Checks if the tutorial "8 Different Yo-kai Tribes" has been read; this hides the NEW! icon. | `hlp_450_new` |
+| 0xBC180173             | 467  | Checks if the tutorial "Yo-kai Elements" has been unlocked. | `hlp_460` |
+| 0x1E0C5F04             | 468  | Checks if the tutorial "Yo-kai Elements" has been read; this hides the NEW! icon. | `hlp_460_new` |
+| 0xE9C6729B             | 469  | Checks if the tutorial "Use the Yo-kai Pad!" has been unlocked. | `hlp_600` |
+| 0x5FCAAD30             | 470  | Checks if the tutorial "Use the Yo-kai Pad!" has been read; this hides the NEW! icon. | `hlp_600_new` |
+| 0xF0DD43DA             | 471  | Checks if the tutorial "Yo-kai Medallium Collection" has been unlocked. | `hlp_610` |
+| 0x94967E95             | 472  | Checks if the tutorial "Yo-kai Medallium Collection" has been read; this hides the NEW! icon. | `hlp_610_new` |
+| 0xDBF01019             | 473  | Checks if the tutorial "Use your Diary to save!" has been unlocked. | `hlp_620` |
+| 0x12020C3B             | 474  | Checks if the tutorial "Use your Diary to save!" has been read; this hides the NEW! icon. | `hlp_620_new` |
+| 0xC2EB2158             | 475  | Checks if the tutorial "Collect groups of Yo-kai" has been unlocked. | `hlp_630` |
+| 0xD95EDF9E             | 476  | Checks if the tutorial "Collect groups of Yo-kai" has been read; this hides the NEW! icon. | `hlp_630_new` |
+| 0x8DAAB79F             | 477  | Checks if the tutorial "Record many things in the notebook!" has been unlocked. | `hlp_640` |
+| 0xC45BEF26             | 478  | Checks if the tutorial "Record many things in the notebook!" has been read; this hides the NEW! icon. | `hlp_640_new` |
+| 0x94B186DE             | 479  | Checks if the tutorial "Exchange Yo-kai Medals!" has been unlocked. | `hlp_650` |
+| 0x0F073C83 (0xF073C83) | 480  | Checks if the tutorial "Exchange Yo-kai Medals!" has been read; this hides the NEW! icon. | `hlp_650_new` |
+| 0xE3585F91             | 481  | Checks if the tutorial "About Missions" has been unlocked. | `hlp_800` |
+| 0x0FF5D66D (0xFF5D66D) | 482  | Checks if the tutorial "About Missions" has been read; this hides the NEW! icon. | `hlp_800_new` |
+| 0xFA436ED0             | 483  | Checks if the tutorial "About Attacking - Moves" has been unlocked. | `hlp_810` |
+| 0xC4A905C8             | 484  | Checks if the tutorial "About Attacking - Moves" has been read; this hides the NEW! icon. | `hlp_810_new` |
+| 0xD16E3D13             | 485  | Checks if the tutorial "Gather items" has been unlocked. | `hlp_820` |
+| 0x423D7766             | 486  | Checks if the tutorial "Gather items" has been read; this hides the NEW! icon. | `hlp_820_new` |
+| 0xC8750C52             | 487  | Checks if the tutorial "Mission Objectives" has been unlocked. | `hlp_830` |
+| 0x8961A4C3             | 488  | Checks if the tutorial "Mission Objectives" has been read; this hides the NEW! icon. | `hlp_830_new` |
+| 0xB81FF8DD             | 489  | Checks if the tutorial "Escape through the sliding doors!" has been unlocked. | `hlp_835` |
+| 0x41812BB3             | 490  | Checks if the tutorial "Escape through the sliding doors!" has been read; this hides the NEW! icon. | `hlp_835_new` |
+| 0x87349A95             | 491  | Checks if the tutorial "Revive downed allies!" has been unlocked. | `hlp_840` |
+| 0x9464947B             | 492  | Checks if the tutorial "Revive downed allies!" has been read; this hides the NEW! icon. | `hlp_840_new` |
+| 0x9E2FABD4             | 493  | Checks if the tutorial "Switch to control a Yo-kai Friend!" has been unlocked. | `hlp_850` |
+| 0x5F3847DE             | 494  | Checks if the tutorial "Switch to control a Yo-kai Friend!" has been read; this hides the NEW! icon. | `hlp_850_new` |
+| 0xB502F817             | 495  | Checks if the tutorial "Friend Chance!" has been unlocked. | `hlp_860` |
+| 0xD9AC3570             | 496  | Checks if the tutorial "Friend Chance!" has been read; this hides the NEW! icon. | `hlp_860_new` |
+| 0xAC19C956             | 497  | Checks if the tutorial "Good and Bad Inspirits" has been unlocked. | `hlp_870` |
+| 0x12F0E6D5             | 498  | Checks if the tutorial "Good and Bad Inspirits" has been read; this hides the NEW! icon. | `hlp_870_new` |
+| 0x2B81D599             | 499  | Checks if the tutorial "Soultimate Moves are powerful!" has been unlocked. | `hlp_880` |
+| 0xE3A65400             | 500  | Checks if the tutorial "Soultimate Moves are powerful!" has been read; this hides the NEW! icon. | `hlp_880_new` |
+| 0x329AE4D8             | 501  | Checks if the tutorial "Select treasure and Koma Battle!" has been unlocked. | `hlp_890` |
+| 0x28FA87A5             | 502  | Checks if the tutorial "Select treasure and Koma Battle!" has been read; this hides the NEW! icon. | `hlp_890_new` |
+| 0xE29A35A6             | 503  | Checks if the tutorial "Grab a Great Orb, then Great Change!" has been unlocked. | `hlp_900` |
+| 0xA982DDD9             | 504  | Checks if the tutorial "Grab a Great Orb, then Great Change!" has been read; this hides the NEW! icon. | `hlp_900_new` |
+| 0xFB8104E7             | 505  | Checks if the tutorial "Treasure Drop Selector" has been unlocked. | `hlp_910` |
+| 0x62DE0E7C             | 506  | Checks if the tutorial "Treasure Drop Selector" has been read; this hides the NEW! icon. | `hlp_910_new` |
+| 0xD0AC5724             | 507  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been unlocked. | `hlp_920` |
+| 0xE44A7CD2             | 508  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been read; this hides the NEW! icon. | `hlp_920_new` |
+| 0xB8957DC1             | 509  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been unlocked. | `hlp_260` |
+| 0x7DDC6A3E             | 510  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been read; this hides the NEW! icon. | `hlp_260_new` |
+| 0xA18E4C80             | 511  | Checks if the tutorial "True Challenge Missions!" has been unlocked. | `hlp_270` |
+| 0xB680B99B             | 512  | Checks if the tutorial "True Challenge Missions!" has been read; this hides the NEW! icon. | `hlp_270_new` |
+| 0x2616504F             | 513  | Checks if the tutorial "Put on a song to change the mood!" has been unlocked. | `hlp_280` |
+| 0x47D60B4E             | 514  | Checks if the tutorial "Put on a song to change the mood!" has been read; this hides the NEW! icon. | `hlp_280_new` |
+| 0x3F0D610E             | 515  | Checks if the tutorial "Get into the VIP Room with VIP Link!" has been unlocked. | `hlp_290` |
+| 0x8C8AD8EB             | 516  | Checks if the tutorial "Get into the VIP Room with VIP Link!" has been read; this hides the NEW! icon. | `hlp_290_new` |
+| 0xEF0DB070             | 517  | Checks if the tutorial "Inside the VIP Room!" has been unlocked. | `hlp_300` |
+| 0x0DF28297 (0xDF28297) | 518  | Checks if the tutorial "Inside the VIP Room!" has been read; this hides the NEW! icon. | `hlp_300_new` |
+| 0xF6168131             | 519  | Checks if the tutorial "Super Link with Iron Oni Force!" has been unlocked. | `hlp_310` |
+| 0xC6AE5132             | 520  | Checks if the tutorial "Super Link with Iron Oni Force!" has been read; this hides the NEW! icon. | `hlp_310_new` |
 | 0xD0AB2B47             | 521  | Checks if the story scene ev16_0100 has been seen. | `ev16_0100` |
 | 0xD2ED951E             | 522  | Checks if the story scene mv_photo106/ev16_0200 has been seen. | `ev16_0200` |
 | 0xD32FFF29             | 523  | Checks if the story scene ev16_0300 has been seen. | `ev16_0300` |
@@ -936,10 +936,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B866BF1             | 1776 | - | `dl_data_get_126` |
 | 0xEC815B67             | 1777 | - | `dl_data_get_127` |
 | 0x7C3E46F6             | 1778 | - | `dl_data_get_128` |
-| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV001` |
-| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV002` |
-| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV003` |
-| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for that day. | `shpV004` |
+| 0x190CFB17             | 1781 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV001` |
+| 0x8005AAAD             | 1782 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV002` |
+| 0xF7029A3B             | 1783 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV003` |
+| 0x69660F98             | 1784 | Checks if you can still buy limited-stocks items for the VIP Shop for today. | `shpV004` |
 | 0x2B78D49C             | 1791 | Checks if you can request the BRAVE Song. | - |
 | 0xFCFB8975             | 1792 | Checks if you can request the MYSTERIOUS Song. | - |
 | 0x7289CC8C             | 1793 | Checks if you can request the TOUGH Song. | - |
@@ -978,13 +978,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x526C6576             | 1838 | - | - |
 | 0xF26749CA             | 1839 | - | - |
 | 0x0EF06F61 (0xEF06F61) | 1840 | - | - |
-| 0xED63D5C7             | 1841 | Checks if you have fought Jibanyan S that day. | `day_flg_y152900` |
-| 0x3A6252C6             | 1842 | Checks if you have fought Komasan S that day. | `day_flg_y159900` |
-| 0x23796387             | 1843 | Checks if you have fought Komajiro S that day. | `day_flg_y159910` |
-| 0x85A18FC9             | 1844 | Checks if you have fought Sir Nyansalot that day. | `day_flg_y457000` |
-| 0xDDC29F9F             | 1845 | Checks if you have fought Maginyan that day. | `day_flg_y458000` |
-| 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
-| 0x138634E1             | 1847 | Checks if you have received a VIP Coin that day. | - |
+| 0xED63D5C7             | 1841 | Checks if you have fought Jibanyan S today. | `day_flg_y152900` |
+| 0x3A6252C6             | 1842 | Checks if you have fought Komasan S today. | `day_flg_y159900` |
+| 0x23796387             | 1843 | Checks if you have fought Komajiro S today. | `day_flg_y159910` |
+| 0x85A18FC9             | 1844 | Checks if you have fought Sir Nyansalot today. | `day_flg_y457000` |
+| 0xDDC29F9F             | 1845 | Checks if you have fought Maginyan today. | `day_flg_y458000` |
+| 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol today. | - |
+| 0x138634E1             | 1847 | Checks if you have received a VIP Coin today. | - |
 | 0x4A0C9B3C             | 1860 | Checks if the Apprentice Sword has been made. | - |
 | 0xD305CA86             | 1861 | Checks if the Starling Sword has been made. | - |
 | 0xA402FA10             | 1862 | Checks if the Blunt Sword has been made. | - |
@@ -1444,7 +1444,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x4FF4F23F             | 0    | - | `dummy` |
+| 0x4FF4F23F             | 0    | Dummy flag. Should be zero. | `dummy` |
 | 0x0646F45E (0x646F45E) | 1    | Checks how many Yo-kai you can befriend at once. | `story_chara_num` |
 | 0xA45A65EC             | 2    | Checks how many Crank-a-kai pulls you have. | `gacha_use_count` |
 | 0x9076E662             | 3    | - | - |
@@ -1535,13 +1535,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID | Slot | Notes | Name |
 | ---------- | ---- | ----- | ---- |
-| 0x4FF4F23F | 0    | - | `dummy` |
+| 0x4FF4F23F | 0    | Dummy flag. Should be zero. | `dummy` |
 
 ## FLAG_INFO_3 (7, 94) - TempBitFlag
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x98CE5C36             | 0    | - | `tmp_dummy` |
+| 0x98CE5C36             | 0    | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x7B179115             | 1    | - | `home_sleep_out` |
 | 0x852EB369             | 2    | - | - |
 | 0xDDEB9A08             | 3    | - | - |
@@ -1640,7 +1640,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
-| 0x98CE5C36             | 0    | - | `tmp_dummy` |
+| 0x98CE5C36             | 0    | Dummy flag. Should be zero. | `tmp_dummy` |
 | 0x9FF789D8             | 1    | - | `tmp_event_select` |
 | 0xC99C90E8             | 3    | - | `tmp_shop_sell` |
 | 0xADBA2641             | 4    | - | `tmp_shop_id` |
@@ -1664,6 +1664,6 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEEC4744B             | 74   | - | `tmp_gacha_type` |
 | 0xED46195D             | 75   | - | - |
 | 0x6A234EC1             | 76   | - | - |
-| 0x04BD4BDE (0x4BD4BDE) | 108  | - | - |
+| 0x04BD4BDE (0x4BD4BDE) | 108  | - | `tmp_mission_route` |
 | 0x13DC9CD3             | 109  | - | - |
 | 0xC939DE59             | 110  | - | - |
