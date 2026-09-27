@@ -230,7 +230,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9155BB74 | 238 | - | - |
 | 0xE6528BE2 | 239 | - | - |
 | 0x78361E41 | 240 | - | - |
-| 0xF5A512BB | 241 | - | - |
+| 0xF5A512BB | 241 | - | `t405d21_shortcut_01` |
 | 0xB9140B6C | 242 | - | - |
 | 0x94EAABB5 | 243 | - | - |
 | 0x4CEC744E | 244 | - | `t102g00_summer_fes` |
@@ -399,7 +399,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5B35D2E5 | 439 | - | - |
 | 0x264226A0 | 440 | - | - |
 | 0x499C4D40 | 441 | - | - |
-| 0xD0F6D917 | 442 | - | - |
+| 0xD0F6D917 | 442 | - | `red_box_open` |
 | 0x95CC345C | 443 | - | - |
 | 0xEAACEABF | 444 | - | - |
 | 0xE261D9FE | 445 | - | - |
@@ -2275,7 +2275,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x98DB8B45 | 2458 | - | - |
 | 0x9979114E | 2459 | - | - |
 | 0x54DFF822 | 2460 | - | - |
-| 0x6D52C4E7 | 2461 | - | - |
+| 0x6D52C4E7 | 2461 | - | `forecast_usa_w2_tornado` |
 | 0xE77E4448 | 2462 | - | - |
 | 0xD6965ED5 | 2463 | - | - |
 | 0x3F91BECC | 2464 | - | - |
@@ -3539,7 +3539,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x805525CE | 3999 | - | - |
 | 0xA04E068D | 4000 | - | - |
 | 0xE7278AA1 | 4001 | - | - |
-| 0x8B63554E | 4002 | - | - |
+| 0x8B63554E | 4002 | - | `hlp_0920` |
 | 0xCC0AD962 | 4003 | - | - |
 | 0x9841CD30 | 4004 | - | - |
 | 0xDF28411C | 4005 | - | - |
@@ -3583,7 +3583,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC5B7A433 | 4043 | - | - |
 | 0x9BC5195E | 4044 | - | - |
 | 0xDCAC9572 | 4045 | - | - |
-| 0x9278640F | 4046 | - | - |
+| 0x9278640F | 4046 | - | `hlp_0930` |
 | 0xD511E823 | 4047 | - | - |
 | 0xDD39F2C8 | 4048 | - | - |
 | 0x9A507EE4 | 4049 | - | - |
@@ -3631,8 +3631,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF19E0A16 | 37 | - | - |
 | 0x8064E85B | 38 | - | `bicycle_color_num` |
 | 0xEC346E56 | 39 | - | `bicycle_bell_num` |
-| 0x252CEC92 | 40 | - | - |
-| 0xB2FE351A | 41 | - | - |
+| 0x252CEC92 | 40 | - | `climb_pole_lv_m` |
+| 0xB2FE351A | 41 | - | `climb_pole_lv_f` |
 | 0x0D6B2DF9 (0xD6B2DF9) | 42 | - | - |
 | 0x294693FB | 43 | - | - |
 | 0xB46E7C16 | 44 | - | - |
@@ -3672,13 +3672,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA5CA6888 | 79 | - | - |
 | 0x720227E9 | 80 | - | `shpN125_07` |
 | 0xC2CAB58D | 81 | - | - |
-| 0x472B3CE5 | 82 | - | - |
+| 0x472B3CE5 | 82 | - | `good_boy_a_usa` |
 | 0xD07F1A63 | 83 | - | - |
-| 0x008B4635 (0x8B4635) | 84 | - | - |
+| 0x008B4635 (0x8B4635) | 84 | - | `good_boy_b_usa` |
 | 0x0932C38E (0x932C38E) | 85 | - | - |
-| 0xDEE99529 | 86 | - | - |
+| 0xDEE99529 | 86 | - | `bad_boy_a_usa` |
 | 0x1B876C60 | 87 | - | - |
-| 0x9949EFF9 | 88 | - | - |
+| 0x9949EFF9 | 88 | - | `bad_boy_b_usa` |
 | 0xCFB3C384 | 89 | - | - |
 | 0x85177784 | 90 | - | `shpN125_15` |
 | 0x7659A559 | 99 | - | - |
@@ -3702,9 +3702,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5ADD67A0 | 117 | - | - |
 | 0x2DDA5736 | 118 | - | - |
 | 0x7F2BBC51 | 119 | - | - |
-| 0xDF0B0383 | 121 | - | - |
-| 0x46025239 | 122 | - | - |
-| 0x310562AF | 123 | - | - |
+| 0xDF0B0383 | 121 | - | `ev_branch_01` |
+| 0x46025239 | 122 | - | `ev_branch_02` |
+| 0x310562AF | 123 | - | `ev_branch_03` |
 | 0x52042509 | 127 | - | - |
 | 0xBA359BAC | 128 | - | - |
 | 0x233CCA16 | 129 | - | - |
@@ -4349,7 +4349,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x207F66E1 | 36 | - | - |
 | 0xEC6A64EB | 37 | - | - |
 | 0xED1BCF1E | 38 | - | - |
-| 0x96A69288 | 39 | - | - |
+| 0x96A69288 | 39 | - | `tmp_is_zombie_night` |
 | 0x0F73058D (0xF73058D) | 40 | - | - |
 | 0xD9CB1220 | 41 | - | - |
 | 0xC42BD574 | 42 | - | - |
@@ -4446,8 +4446,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x852EB369 | 148 | - | - |
 | 0xF9005B99 | 149 | - | - |
 | 0xFB8F928D | 150 | - | - |
-| 0x3BFB7FB2 | 151 | - | - |
-| 0x2ED5FE4C | 152 | - | - |
+| 0x3BFB7FB2 | 151 | - | `tmp_flg_cart_ride_on` |
+| 0x2ED5FE4C | 152 | - | `tmp_flg_horse_ride_on` |
 | 0x4F25635B | 153 | - | - |
 | 0x590AF9D0 | 154 | - | - |
 | 0xC003A86A | 155 | - | - |
@@ -4482,13 +4482,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE8400A0B | 186 | - | - |
 | 0x43715B17 | 187 | - | - |
 | 0xDA6EA82D | 188 | - | - |
-| 0x986A1761 | 189 | - | - |
+| 0x986A1761 | 189 | - | `tmp_red_box_change_orge` |
 | 0xA6D3D410 | 190 | - | - |
 | 0x61A00BF3 | 191 | - | - |
 | 0xF9778AC8 | 192 | - | - |
 | 0xDAE46CEB | 193 | - | - |
 | 0x144EDCFF | 194 | - | - |
-| 0xF3D87115 | 195 | - | - |
+| 0xF3D87115 | 195 | - | `tmp_raft_god_tower` |
 | 0xE4917CA5 | 196 | - | - |
 | 0xAEED3571 | 197 | - | - |
 | 0xF33C93C0 | 198 | - | - |
@@ -4496,7 +4496,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x81A62D9A | 200 | - | - |
 | 0xC37B64AA | 201 | - | - |
 | 0x2A6DBB55 | 202 | - | - |
-| 0x4A1FBB57 | 203 | - | - |
+| 0x4A1FBB57 | 203 | - | `tmp_dark_zone` |
 | 0x207466AF | 204 | - | - |
 | 0x092105C0 (0x92105C0) | 205 | - | - |
 | 0xF0120834 | 206 | - | - |
