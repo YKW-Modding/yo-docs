@@ -64,7 +64,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x640273DE | 48 | Checks if Wisps will always appear. | `appear_wanderer_soul` |
 | 0xAB79508A | 49 | Checks if QR Code services have been unlocked. | `qr_release` |
 | 0xB6C85212 | 50 | Checks if password services have been unlocked. | `password_release` |
-| 0xD03ED610 | 51 | - | `gate_release` |
+| 0xD03ED610 | 51 | Checks if Gates of Whimsy have been unlocked. | `gate_release` |
 | 0x4CE86506 | 52 | Checks if Yo-kai Cam services have been unlocked. | `present_lens_release` |
 | 0x482C8429 | 53 | Checks if rotating the Yo-kai Wheel has been unlocked. | `battle_member_selection` |
 | 0x3E1E067A | 54 | Checks if Pinning in battle has been unlocked. | `battle_aim` |
