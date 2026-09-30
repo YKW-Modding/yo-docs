@@ -1,11 +1,11 @@
 ---
-title: Adding Yo-kai to YW4
+title: Adding Yo-kai (YW4)
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
 
-# Adding Yo-kai to YO-KAI WATCH 4
+# Adding Yo-kai (YW4)
 **Original guide by 8227light on Discord**
 
 Before I begin this guide, note that **at this time, you must have a model already in the game's format.** There is no model importer, so you can only have existing Yo-kai or a texture edit of an existing Yo-kai.

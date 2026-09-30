@@ -209,7 +209,7 @@ The list is in alphabetical order.
 | y151600 | Buher (Yo-criminal) | 0xD395A9C1 |
 | y152000 | Jibanyan | 0xC5AD7A9D |
 | y152600 | Doppelnyan (Yo-criminal) | 0xC120062F |
-| y152900 | Jibanyan (in cutscene) | 0xCA7C4112 |
+| y152900 | Jibanyan S | 0xCA7C4112 |
 | y153000 | Thornyan | 0x7D111DF8 |
 | y154000 | Baddinyan | 0xE0C62541 |
 | y155000 | Robonyan | 0x587A4224 |
@@ -230,8 +230,8 @@ The list is in alphabetical order.
 | y159010 | Komajiro (Bony Spirits; Counter-Clockwise Swirls) | 0x0BB7CCDD (0xBB7CCDD) |
 | y159050 | Komajiro (Fleshy Souls; Clockwise Swirls) | 0x6FDB09D9 |
 | y159600 | Komasham (Yo-criminal) | 0x1621812E |
-| y159900 | Komasan (in cutscene) | 0x1D7DC613 |
-| y159910 | Komajiro (in cutscene) | 0x0466F752 (0x466F752) |
+| y159900 | Komasan S | 0x1D7DC613 |
+| y159910 | Komajiro S | 0x0466F752 (0x466F752) |
 | y160000 | Komane | 0x2804C8C6 |
 | y160020 | Komiger (Bony Spirits/normal swirls ) | 0x1A32AA44 |
 | y160050 | Komiger (Fleshy Souls/rotated swirls) | 0x55733C83 |

@@ -22,7 +22,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x14C903F2 | 6 | - | - |
 | 0x14889257 | 7 | - | - |
 | 0x360A3623 | 8 | - | - |
-| 0x6F281CF3 | 9 | - | - |
+| 0x6F281CF3 | 9 | Checks if you have received the Movie Materials app. | - |
 | 0x83CA72FE | 10 | - | - |
 | 0xB9CDBFB0 | 11 | - | - |
 | 0xB29365A2 | 12 | - | - |
@@ -64,7 +64,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x640273DE | 48 | Checks if Wisps will always appear. | `appear_wanderer_soul` |
 | 0xAB79508A | 49 | Checks if QR Code services have been unlocked. | `qr_release` |
 | 0xB6C85212 | 50 | Checks if password services have been unlocked. | `password_release` |
-| 0xD03ED610 | 51 | - | `gate_release` |
+| 0xD03ED610 | 51 | Checks if Gates of Whimsy have been unlocked. | `gate_release` |
 | 0x4CE86506 | 52 | Checks if Yo-kai Cam services have been unlocked. | `present_lens_release` |
 | 0x482C8429 | 53 | Checks if rotating the Yo-kai Wheel has been unlocked. | `battle_member_selection` |
 | 0x3E1E067A | 54 | Checks if Pinning in battle has been unlocked. | `battle_aim` |
@@ -85,7 +85,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x066351C6 (0x66351C6) | 69 | - | - |
 | 0xE2B828E5 | 70 | - | - |
 | 0x21EFC7C8 | 71 | Checks if you have received the Music App. | - |
-| 0xA68AEF18 | 72 | - | - |
+| 0xA68AEF18 | 72 | Checks if you have received the Movies app. | - |
 | 0xDA23D924 | 73 | - | - |
 | 0x5473D9AE | 74 | - | - |
 | 0x167470F5 | 75 | - | - |
