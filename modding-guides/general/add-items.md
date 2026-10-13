@@ -58,7 +58,7 @@ parent: General Modding
 
 6. Set your tags to `YW1`
 
-7. Generate a ItemID from a CRC-32 website such as [this](https://emn178.github.io/online-tools/crc/)
+7. Generate an ItemID from a CRC-32 website such as [this](https://emn178.github.io/online-tools/crc/)
 * Tyoe anything you'd like it should turn out as something like `0x50ED2AAD` (this example website dosen't show the `0x` but add it anyway). Now add that as your `ItemID`
 
 9. Add The `NounTextID` we made in the previous step.
@@ -122,7 +122,7 @@ Yo-kai Watch 1 `ItemType`(s):
 
 17. Open `ItemIndex` and add 1 to the entry group value (`ChildCount` of the tree).
 
-18. Duplicate a entry. Set the `ItemID` to the `ItemID` you created. Set the `InventorySort` to your `InventorySort`, and the `MainItemIndex` to the last entry's `MainItemIndex` + 1.
+18. Duplicate an entry. Set the `ItemID` to the `ItemID` you created. Set the `InventorySort` to your `InventorySort`, and the `MainItemIndex` to the last entry's `MainItemIndex` + 1.
 
 
 If it's a consumable:
