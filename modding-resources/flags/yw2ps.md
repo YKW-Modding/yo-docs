@@ -19,10 +19,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5B9AFA16 | 3 | - | - |
 | 0xACAA3D15 | 4 | - | - |
 | 0x032EA1A4 (0x32EA1A4) | 5 | - | - |
-| 0x14C903F2 | 6 | - | - |
-| 0x14889257 | 7 | - | - |
+| 0x14C903F2 | 6 | - | `commu_ganso` |
+| 0x14889257 | 7 | - | `commu_honke` |
 | 0x360A3623 | 8 | - | - |
-| 0x6F281CF3 | 9 | Checks if you have received the Movie Materials app. | - |
+| 0x6F281CF3 | 9 | Checks if the Movie Materials app is unlocked. | - |
 | 0x83CA72FE | 10 | - | - |
 | 0xB9CDBFB0 | 11 | Is set to 1 after traveling through a Miradox under normal circumstances. The purpose of this flag is currently unknown. | - |
 | 0xB29365A2 | 12 | - | - |
@@ -77,24 +77,24 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x053DA610 (0x53DA610) | 61 | This flag is set to 1 when the game says you've unlocked story after Key Quests, but is set to 0 once you do the unlocked story. The purpose of this flag is currently unknown. | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
-| 0x4152B1B4 | 64 | - | - |
+| 0x4152B1B4 | 64 | - | `fusion_release` |
 | 0x23129852 | 65 | Checks if Soulcery has been unlocked. | `kon_release` |
-| 0x22BEF6EF | 66 | - | - |
-| 0x1D0822F7 | 67 | Checks if viewing your Yo-kai Medals has been unlocked. | `medal_release` |
-| 0x7F2211BC | 68 | - | `dictionary_release` |
-| 0x066351C6 (0x66351C6) | 69 | - | - |
-| 0xE2B828E5 | 70 | - | - |
-| 0x21EFC7C8 | 71 | Checks if you have received the Music App. | - |
-| 0xA68AEF18 | 72 | Checks if you have received the Movies app. | - |
-| 0xDA23D924 | 73 | - | - |
+| 0x22BEF6EF | 66 | Checks if the Yo-kai Spots app is unlocked. | - |
+| 0x1D0822F7 | 67 | Checks if the Medals app is unlocked. | `medal_release` |
+| 0x7F2211BC | 68 | Checks if the Medallium has been unlocked. | `dictionary_release` |
+| 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | - |
+| 0xE2B828E5 | 70 | Checks if the Critter Collection app is unlocked. | - |
+| 0x21EFC7C8 | 71 | Checks if the Music app is unlocked. | `apps_sound_release` |
+| 0xA68AEF18 | 72 | Checks if the Movies app is unlocked. | `apps_event_release` |
+| 0xDA23D924 | 73 | Check if the Summon app is unlocked. | `apps_watch_release` |
 | 0x5473D9AE | 74 | - | - |
-| 0x167470F5 | 75 | - | - |
-| 0x10D06EA0 | 76 | - | - |
-| 0x794B1F0D | 77 | - | - |
-| 0xD05D1E41 | 78 | - | - |
-| 0x6826BCB0 | 79 | - | - |
-| 0x7B97F16C | 80 | - | - |
-| 0xE434FFFF | 81 | - | - |
+| 0x167470F5 | 75 | Checks if the Blasters app is unlocked. | - |
+| 0x10D06EA0 | 76 | Checks if the Yo-kai Cam app is unlocked. | - |
+| 0x794B1F0D | 77 | Checks if the Battle app is unlocked. | - |
+| 0xD05D1E41 | 78 | Checks if the Medal Swap app is unlocked. | `apps_trade_release` |
+| 0x6826BCB0 | 79 | Checks if the Weather app is unlocked. | `apps_weather_release` |
+| 0x7B97F16C | 80 | Checks if the Trophies app is unlocked. | `apps_trophy_release` |
+| 0xE434FFFF | 81 | Checks if the Contacts/Friends app is unlocked. | - |
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |
 | 0x7D2EC7B5 | 84 | - | - |
@@ -105,7 +105,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
 | 0x8A81D006 | 90 | Checks if the Yo-kai Medallium has been completed. | `dictionary_comp_notice` |
 | 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
-| 0xE32CCA14 | 92 | - | - |
+| 0xE32CCA14 | 92 | - | `creature_dictionary_comp_notice` |
 | 0x1600AB7C | 93 | Checks if all the Yo-kai Spots have been found. | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
 | 0xF831790F | 95 | - | - |
@@ -2579,7 +2579,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | Dummy flag. Should be zero. | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
-| 0x97580970 | 2 | Can either be 0, 1 or 2. 0 = Sunny, 1 = Rainy | `weather_condition` |
+| 0x97580970 | 2 | 0 = Auto, 1 = Force Sunny, 2 = Force Rainy | `weather_condition` |
 | 0xC629E7F8 | 3 | 0 = Not unlocked, 1 = Radar only, 2 = Clock only, 3 = Radar & clock | `watch_mode` |
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | 0 = None, 1 = Gargaros, 2 = Ogralus, 3 = Orcanos | `orgeTimeMode` |
@@ -3896,12 +3896,12 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDEDC17BC | 5 | - | `tmp_shop_type` |
 | 0x0646643E (0x646643E) | 6 | - | - |
 | 0xA50927A3 | 7 | - | `tmp_pass_idx` |
-| 0x88B8AF7B | 8 | - | - |
+| 0x88B8AF7B | 8 | - | `tmp_seek_type` |
 | 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. | `tmp_seek_num` |
 | 0x20F64979 | 10 | Total Amount of NPCs found in the current Hide & Seek match. | `tmp_seek_get_num` |
 | 0x26BF0B6E | 11 | - | `tmp_quest_time` |
 | 0x8D489757 | 12 | - | `tmp_seek_rest_num` |
-| 0x4833746A | 13 | Hide & Seek Mode? 2 = In Hide & Seek | - |
+| 0x4833746A | 13 | Hide & Seek Music? | `tmp_seek_music` |
 | 0xFE216783 | 14 | - | `scenario_flag_01` |
 | 0x67283639 | 15 | - | `scenario_flag_02` |
 | 0x102F06AF | 16 | - | `scenario_flag_03` |
