@@ -77,9 +77,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x053DA610 (0x53DA610) | 61 | This flag is set to 1 when the game says you've unlocked story after Key Quests, but is set to 0 once you do the unlocked story. The purpose of this flag is currently unknown. | - |
 | 0x8BAAE62D | 62 | Typhoon: Advisory Active (Story Weather Event) | - |
 | 0x8CA83098 | 63 | Wicked Yo-kai: Warning Active (Story Weather Event) | - |
-| 0x4152B1B4 | 64 | - | `fusion_release` |
+| 0x4152B1B4 | 64 | Checks if Fusion is unlocked. | `fusion_release` |
 | 0x23129852 | 65 | Checks if Soulcery has been unlocked. | `kon_release` |
-| 0x22BEF6EF | 66 | Checks if the Yo-kai Spots app is unlocked. | - |
+| 0x22BEF6EF | 66 | Checks if the Yo-kai Spots app is unlocked. | `apps_y_spot_release` |
 | 0x1D0822F7 | 67 | Checks if the Medals app is unlocked. | `medal_release` |
 | 0x7F2211BC | 68 | Checks if the Medallium has been unlocked. | `dictionary_release` |
 | 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | - |
@@ -88,9 +88,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA68AEF18 | 72 | Checks if the Movies app is unlocked. | `apps_event_release` |
 | 0xDA23D924 | 73 | Check if the Summon app is unlocked. | `apps_watch_release` |
 | 0x5473D9AE | 74 | - | - |
-| 0x167470F5 | 75 | Checks if the Blasters app is unlocked. | - |
+| 0x167470F5 | 75 | Checks if the Blasters app is unlocked. | `apps_hunter_release` |
 | 0x10D06EA0 | 76 | Checks if the Yo-kai Cam app is unlocked. | - |
-| 0x794B1F0D | 77 | Checks if the Battle app is unlocked. | - |
+| 0x794B1F0D | 77 | Checks if the Battle app is unlocked. | `apps_vs_release` |
 | 0xD05D1E41 | 78 | Checks if the Medal Swap app is unlocked. | `apps_trade_release` |
 | 0x6826BCB0 | 79 | Checks if the Weather app is unlocked. | `apps_weather_release` |
 | 0x7B97F16C | 80 | Checks if the Trophies app is unlocked. | `apps_trophy_release` |
@@ -2643,7 +2643,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x90091C2B | 68 | - | `weatherScaduleContinueResion` |
 | 0x4463988F | 71 | Positive Karma | `good_boy` |
 | 0x3DDE318A | 72 | Negative Karma | `bad_boy` |
-| 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? | - |
+| 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? | `enen_phase` |
 | 0x760AB692 | 76 | - | - |
 | 0xABD3BC2C | 77 | - | - |
 | 0x0CE98A12 (0xCE98A12) | 78 | - | - |
@@ -3894,7 +3894,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC99C90E8 | 3 | - | `tmp_shop_sell` |
 | 0xADBA2641 | 4 | - | `tmp_shop_id` |
 | 0xDEDC17BC | 5 | - | `tmp_shop_type` |
-| 0x0646643E (0x646643E) | 6 | - | - |
+| 0x0646643E (0x646643E) | 6 | Set when purchasing from the Bicycle Shop. | `tmp_to_eyshower` |
 | 0xA50927A3 | 7 | - | `tmp_pass_idx` |
 | 0x88B8AF7B | 8 | - | `tmp_seek_type` |
 | 0x619DE8E8 | 9 | Total Amount of NPCs hiding in the current Hide & Seek match. | `tmp_seek_num` |
@@ -3920,11 +3920,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1EEFFF35 | 36 | - | - |
 | 0x363A9ADE | 37 | - | - |
 | 0xAE70FC1B | 38 | - | `tmp_gym_category` |
-| 0x8CEC6677 | 39 | - | - |
-| 0xCD119711 | 40 | - | - |
-| 0xDE31ADB1 | 41 | - | - |
+| 0x8CEC6677 | 39 | - | `tmp_gym_state` |
+| 0xCD119711 | 40 | - | `tmp_enen_end` |
+| 0xDE31ADB1 | 41 | - | `tmp_enen_battle` |
 | 0xF023B5B1 | 42 | - | `tmp_train_event_type` |
-| 0x8379C8D6 | 43 | - | - |
+| 0x8379C8D6 | 43 | - | `tmp_enen_reward` |
 | 0x72CC0C86 | 45 | - | - |
 | 0xE2EECD77 | 46 | - | - |
 | 0xE65769F4 | 49 | - | - |
