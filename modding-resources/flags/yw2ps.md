@@ -101,10 +101,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | - |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
-| 0x7FA66054 | 88 | - | `sound_comp_notice` |
-| 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
+| 0x7FA66054 | 88 | Checks if you have completed the Music App. | `sound_comp_notice` |
+| 0x04FA47F4 (0x4FA47F4) | 89 | Checks if you have completed the Movies App. | `event_comp_notice` |
 | 0x8A81D006 | 90 | Checks if the Yo-kai Medallium has been completed. | `dictionary_comp_notice` |
-| 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
+| 0x62D2B8A6 | 91 | Checks if you have completed the Yo-criminals app. | `wanted_comp_notice` |
 | 0xE32CCA14 | 92 | Checks if the Critter Collection has been completed. | `creature_dictionary_comp_notice` |
 | 0x1600AB7C | 93 | Checks if all the Yo-kai Spots have been found. | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
