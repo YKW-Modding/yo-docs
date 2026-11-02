@@ -62,9 +62,9 @@ grand_parent: Modding Resources
 | 0xAE5458C0 | - | Music Lover | 52 | Unlocked every song in the\nMusic app. | 0 (Bronze) | 0 | `AAAAABgFNSo9RUMACgEoAAYCNCHvx8gyAAAAAXg=` |
 | 0xE6A77114 | - | Film Buff | 53 | Unlocked every video in the\nMovies app. | 0 (Bronze) | 0 | `AAAAABgFNSo9RUMACgEoAAYCNKaK7xgyAAAAAXg=` |
 | 0x6D58EEB1 | - | Yo-kai Detective | 54 | Found every Yo-kai Spot. | 1 (Silver) | 0 | 0 |
-| 0x67011226 | - | Terror Time Champion | 55 | Defeated Gargaros. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNGcBEiYyAAAAAXg=` |
-| 0x918C613A | - | Terror Time Conqueror | 56 | Defeated Ogralus. | 1 (Silver) | 0 | `AAAAABgFNScybUcACgEoAAYCNJGMYToyAAAAAXg=` |
-| 0x567615BD | - | Terror Time Superstar | 57 | Defeated Orcanos. | 2 (Gold) | 0 | `AAAAABgFNScybUcACgEoAAYCNFZ2Fb0yAAAAAXg=` |
+| 0x67011226 | `tro_red_ogre` | Terror Time Champion | 55 | Defeated Gargaros. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNGcBEiYyAAAAAXg=` |
+| 0x918C613A | `tro_blue_ogre` | Terror Time Conqueror | 56 | Defeated Ogralus. | 1 (Silver) | 0 | `AAAAABgFNScybUcACgEoAAYCNJGMYToyAAAAAXg=` |
+| 0x567615BD | `tro_black_ogre` | Terror Time Superstar | 57 | Defeated Orcanos. | 2 (Gold) | 0 | `AAAAABgFNScybUcACgEoAAYCNFZ2Fb0yAAAAAXg=` |
 | 0xF6355C6D | `tro_ogre_power` | Oni Orb Aficionado | 58 | Collected 600 Oni Orbs in\nYo-kai Watch Blasters. | 1 (Silver) | 600 | `AAAAABgFNSo9RUMACgEoAAYCNBZ0cPUyAAAAAXg=` |
 | 0xAB04F013 | - | "Treasure" Hunter | 59 | Delivered every item of vintage\nmemorabilia to the museum. | 0 (Bronze) | 0 | `AAAAABgFNb4EpZgACgEoAAYCNIZ9O7IyAAAA/3g=` |
 | 0x5150A487 | `tro_can_goal` | Can Kicker | 60 | Kicked a can into every goal. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNKsE8BMyAAAAAXg=` |
@@ -74,9 +74,9 @@ grand_parent: Modding Resources
 | 0x27C2684E | `tro_music_game_02` | Magnificent Marcher | 64 | Completed the Kaos March\nchallenge on Hard. | 0 (Bronze) | 0 | `AAAAABgFNSo9RUMACgEoAAYCNOsnX5AyAAAAAXg=` |
 | 0xCEA1CD7B | `tro_music_game_04` | Groove Machine | 65 | Completed the Groovalicious\nHustle challenge on Hard. | 0 (Bronze) | 0 | `AAAAABgFNSo9RUMACgEoAAYCNOY5L9cyAAAAAXg=` |
 | 0x50C558D8 | `tro_music_game_03` | Deft Doppelgänger | 66 | Completed the Septuple Step\nchallenge on Hard. | 0 (Bronze) | 0 | `AAAAABgFNSo9RUMACgEoAAYCNATlNK4yAAAAAXg=` |
-| 0xB1707C98 | - | Gargaros's Nemesis | 67 | Defeated Gargaros 50 times. | 1 (Silver) | 50 | `AAAAABgFNScybUcACgEoAAYCNLFwfJgyAAAAAXg=` |
-| 0xC6E1C781 | - | Ogralus's Nemesis | 68 | Defeated Ogralus 50 times. | 2 (Gold) | 50 | `AAAAABgFNScybUcACgEoAAYCNMbhx4EyAAAAAXg=` |
-| 0x1D922B47 | - | Orcanos's Nemesis | 69 | Defeated Orcanos 50 times. | 2 (Gold) | 50 | `AAAAABgFNScybUcACgEoAAYCNB2SK0cyAAAAAXg=` |
+| 0xB1707C98 | `tro_red_ogre_many` | Gargaros's Nemesis | 67 | Defeated Gargaros 50 times. | 1 (Silver) | 50 | `AAAAABgFNScybUcACgEoAAYCNLFwfJgyAAAAAXg=` |
+| 0xC6E1C781 | `tro_blue_ogre_many` | Ogralus's Nemesis | 68 | Defeated Ogralus 50 times. | 2 (Gold) | 50 | `AAAAABgFNScybUcACgEoAAYCNMbhx4EyAAAAAXg=` |
+| 0x1D922B47 | `tro_black_ogre_many` | Orcanos's Nemesis | 69 | Defeated Orcanos 50 times. | 2 (Gold) | 50 | `AAAAABgFNScybUcACgEoAAYCNB2SK0cyAAAAAXg=` |
 | 0x71468FFE | `tro_first` | Bold Beginner | 70 | Installed the Trophies app on\nyour Yo-kai Pad. | 0 (Bronze) | 0 | `AAAAABgFNScybUcACgEoAAYCNHFGj/4yAAAAAXg=` |
 | 0x6153BF30 | `tro_koke` | Klutzy Kid | 71 | Fell over 30 times. | 0 (Bronze) | 30 | `AAAAABgFNScybUcACgEoAAYCNGFTvzAyAAAAAXg=` |
 | 0xF3E66A9D | `tro_red_box` | Red Head | 72 | Opened 10 red boxes. | 0 (Bronze) | 10 | `AAAAABgFNScybUcACgEoAAYCNPPmap0yAAAAAXg=` |
