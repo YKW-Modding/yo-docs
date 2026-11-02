@@ -101,11 +101,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | - |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
-| 0x7FA66054 | 88 | - | `sound_comp_notice` |
-| 0x04FA47F4 (0x4FA47F4) | 89 | - | `event_comp_notice` |
+| 0x7FA66054 | 88 | Checks if you have completed the Music App. | `sound_comp_notice` |
+| 0x04FA47F4 (0x4FA47F4) | 89 | Checks if you have completed the Movies App. | `event_comp_notice` |
 | 0x8A81D006 | 90 | Checks if the Yo-kai Medallium has been completed. | `dictionary_comp_notice` |
-| 0x62D2B8A6 | 91 | - | `wanted_comp_notice` |
-| 0xE32CCA14 | 92 | - | `creature_dictionary_comp_notice` |
+| 0x62D2B8A6 | 91 | Checks if you have completed the Yo-criminals app. | `wanted_comp_notice` |
+| 0xE32CCA14 | 92 | Checks if the Critter Collection has been completed. | `creature_dictionary_comp_notice` |
 | 0x1600AB7C | 93 | Checks if all the Yo-kai Spots have been found. | `yspot_comp_notice` |
 | 0x33F7918D | 94 | - | - |
 | 0xF831790F | 95 | - | - |
@@ -2589,7 +2589,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x74CAA867 | 9 | - | `count_gold_egg` |
 | 0xDF0B0383 | 11 | Checks what doughnut you have selected. 1 = Spirit Doughnuts, 2 = Soul Doughnuts  | - |
 | 0xA6D7BB27 | 12 | Checks which Yo-kai side you have selected. 0 = Undecided, 1 = Bony, 2 = Fleshy. | - |
-| 0xEE5E8CA9 | 13 | - | `count_died` |
+| 0xEE5E8CA9 | 13 | Counts the amount of death. After reaching 255 it caps out instead of overflowing. | `count_died` |
 | 0x5CAB924C | 14 | - | `passcomm_num` |
 | 0x3ABC5212 | 15 | - | `scratch_count` |
 | 0xA45A65EC | 16 | Stores how many Crank-a-kai attempts are left. | `gacha_use_count` |
@@ -2614,8 +2614,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x870695F5 | 35 | - | `best_record_rank` |
 | 0x18CACF54 | 36 | - | - |
 | 0xF19E0A16 | 37 | - | - |
-| 0x8064E85B | 38 | - | `bicycle_color_num` |
-| 0xEC346E56 | 39 | - | `bicycle_bell_num` |
+| 0x8064E85B | 38 | Checks which Cycle the player has. | `bicycle_color_num` |
+| 0xEC346E56 | 39 | Checks which bicycle bell the player has. | `bicycle_bell_num` |
 | 0x3238D758 | 40 | - | `climb_pole_lv` |
 | 0x0CC76FEE (0xCC76FEE) | 41 | - | - |
 | 0x95CE3E54 | 42 | - | - |
@@ -2643,7 +2643,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x90091C2B | 68 | - | `weatherScaduleContinueResion` |
 | 0x4463988F | 71 | Positive Karma | `good_boy` |
 | 0x3DDE318A | 72 | Negative Karma | `bad_boy` |
-| 0x8920FFE7 | 73 | Infinite Tunnel Clear Count? | `enen_phase` |
+| 0x8920FFE7 | 73 | Infinite Tunnel Phase; starting from 0, it increases every tunnel clear, maxing out at 20. | `enen_phase` |
 | 0x760AB692 | 76 | - | - |
 | 0xABD3BC2C | 77 | - | - |
 | 0x0CE98A12 (0xCE98A12) | 78 | - | - |
