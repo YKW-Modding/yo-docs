@@ -1,0 +1,50 @@
+---
+title: YW2 Shops
+layout: default
+parent: Shops
+grand_parent: Modding Resources
+---
+
+# YW2 Shops
+IDs will be padded to 32-bit integers, with the unpadded variants in brackets when neeeded.
+
+## Normal Shops
+
+| $keyShopName        |  Description                                                                                                                 |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `shpKP001`          | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP").             |
+| `shpB001`           | Unused blank shop.                                                                                                           |
+| `shpB002`           | Unused blank shop.                                                                                                           |
+| `shpBB001`          | Unused blank shop.                                                                                                           |
+| `shpBC001`          | Unused blank shop.                                                                                                           |
+| `shpBC002`          | Unused blank shop.                                                                                                           |
+| `shpM001`           | Vending Machine #1; Y-Cola & Soul Tea                                                                                        |
+| `shpM002`           | Vending Machine #2; Y-Cola & Spiritizer Y                                                                                    |
+| `shpM003`           | Vending Machine #3; Soul Tea & Spiritizer Y                                                                                  |
+| `shpN001`           | Everymart - Uptown Springdale                                                                                                |
+| `shpN002`           | Everymart - Blossom Heights                                                                                                  |
+| `shpN003`           | Everymart - Downtown Springdale                                                                                              |
+| `shpN004`           | Everymart - Shopper's Row                                                                                                    |
+| `shpN005`           | Everymart - Breezy Hills                                                                                                     |
+| `shpN006`           | Banter Bakery                                                                                                                |
+| `shpN007`           | Fish Place                                                                                                                   |
+| `shpN008`           | Candy Stop                                                                                                                   |
+| `shpN009`           | Springdale Hot Springs's Milk Shop                                                                                           |
+| `shpN010`           | Nom Burger                                                                                                                   |
+| `shpN011`           | Chloro-Phill Good                                                                                                            |
+| `shpN012`           | North-Wind Ramen                                                                                                             |
+| `shpN013`           | Sun Pavillion                                                                                                                |
+| `shpN014`           | Greene's Greens (Shopper's Row)                                                                                              |
+| `shpN015`           | Frank's (Shoppers Row)                                                                                                       |
+| `shpN016`           | Whatta Find                                                                                                                  |
+| `shpN017`           | Settle In Bookstore                                                                                                          |
+| `shpN018`           | Old Talisman Seller (Mt. Wildwood)                                                                                           |
+| `shpN019`           | Jungle Hunter's Black Syrup Seller                                                                                           |
+| `shpN020`           | Belly Buster Curry                                                                                                           |
+| `shpN021`           | Cafe Shanista                                                                                                                |
+| `shpN022`           | Sushi Springdale                                                                                                             |
+| `shpN023`           | Rusty's Mart                                                                                                                 |
+| `shpN024`           | Mountain Market                                                                                                              |
+| `shpN025`           | Old Lady - Old Springdale                                                                                                    |
+| `shpN026`           | Greene's Greens (Old Springdale)                                                                                             |
+| `shpN027`           | Man - Old Springdale, Shopper's Row                                                                                          |
