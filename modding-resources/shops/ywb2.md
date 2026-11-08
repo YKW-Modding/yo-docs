@@ -14,15 +14,15 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `another_shop`      | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP").             |
 | `shpN001`           | Dimmy's Shop                                                                                                                 |
-| `shpN201`           | Infinite Shop                                                                                                                      |
-| `shpN202`           | Infinite Shop                                                                                                                      |
-| `shpN203`           | Infinite Shop                                                                                                                      |
-| `shpN204`           | Infinite Shop                                                                                                                      |
-| `shpN205`           | Infinite Shop                                                                                                                      |
-| `shpN206`           | Infinite Shop                                                                                                                      |
-| `shpN207`           | Infinite Shop                                                                                                                      |
-| `shpN208`           | Infinite Shop                                                                                                                      |
-| `shpN209`           | Infinite Shop                                                                                                                      |
-| `shpN210`           | Infinite Shop                                                                                                                      |
+| `shpN201`           | Infinite Shop - First Layer                                                                                                  |
+| `shpN202`           | Infinite Shop - Second Layer                                                                                                 |
+| `shpN203`           | Infinite Shop - Third Layer                                                                                                  |
+| `shpN204`           | Infinite Shop - Fourth Layer                                                                                                 |
+| `shpN205`           | Infinite Shop - Fifth Layer                                                                                                  |
+| `shpN206`           | Infinite Shop - Sixth Layer                                                                                                  |
+| `shpN207`           | Infinite Shop - Seventh Layer                                                                                                |
+| `shpN208`           | Infinite Shop - Eighth Layer                                                                                                 |
+| `shpN209`           | Infinite Shop - Ninth Layer                                                                                                  |
+| `shpN210`           | Infinite Shop - Tenth Layer                                                                                                  |
 | `shpR001`           | Unused?                                                                                                                      |
 | `shpTUB001`         | Treasure Yo-ki/Aura Shop                                                                                                     |
