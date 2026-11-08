@@ -11,6 +11,9 @@ The list is in alphabetical order.
 
 | $keyMapID  | Name                     |
 | ---------- | ------------------------ |
+| t001i61    | Busters House            |
 | t001i91    | Gloombell Forest (Intro) |
-| t601i01    | Busters Camp - Beach     |
-| t601i03    | Busters Camp - Altar     |
+| t601i01    | Busters Camp             |
+| t601i03    | Busters Camp             |
+| t601i04    | Busters Camp             |
+| t691i01    | Infinite Shop            |
