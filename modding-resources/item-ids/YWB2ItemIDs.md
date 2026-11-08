@@ -9,7 +9,52 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 The English names are from the YWB2 Fan Translation.
 
-## Consumable
+## Battle
+| JP Name    | EN Name              | $keyItemID     |
+| ---------- | -------------------- | ---------- |
+| チョコボー      | Chocobar             | 0x1E4DC8A4 |
+| うめおにぎり     | Plum Rice Ball       | 0x80295D07 |
+| あいじょう天むす   | Shrimp Rice Ball     | 0x694AF832 |
+| まんたんおにぎり   | Deluxe Rice Ball     | 0xF043A988 |
+| スタミナム      | Staminum             | 0x6E273C2B |
+| スタミナムアルファ  | Staminum Alpha       | 0x8744991E |
+| スタミナムグレート  | Staminum Omega       | 0x17FB848F |
+| ちからのおふだ    | Strength Talisman    | 0x60FCB419 |
+| パワフルなおふだ   | Super Str. Talisman  | 0x003B3DFC |
+| 超力のおふだ     | Ultra Str. Talisman  | 0x773C0D6A |
+| ようりょくのおふだ  | Spirit Talisman      | 0xEE355CD0 |
+| ずのう的なおふだ   | Sup. Spirit Talisman | 0x99326C46 |
+| 知力のおふだ     | Ult. Spirit Talisman | 0x0756F9E5 |
+| まもりのおふだ    | Defense Talisman     | 0x7051C973 |
+| 動じないおふだ    | Sup. Def. Talisman   | 0xE95898C9 |
+| 守護のおふだ     | Ultra Def. Talisman  | 0x9E5FA85F |
+| みがわり人形     | Getaway Plush        | 0x0EE0B5CE |
+| みがわりパペット   | Getaway Puppet       | 0x79E78558 |
+| みがわりだるま    | Getaway Daruma       | 0x2B166E3F |
+| でんぱくトラップ   | Signibble Trap       | 0xDC033E52 |
+| でんじんトラップ   | Signiton Trap        | 0x5C115EA9 |
+| はつでんしんトラップ | Statiking Trap       | 0xC5180F13 |
+| メラメラボム     | Blaze Bomb           | 0x450A6FE8 |
+| スーパーメラメラボム | Super Blaze Bomb     | 0xB21F3F85 |
+| ウルトラメラメラボム | Ultra Blaze Bomb     | 0x2C7BAA26 |
+| フォースバスター   | Force Buster         | 0x5B7C9AB0 |
+| フォースバスターＧ  | Force Buster G       | 0xC275CB0A |
+| フォースバスターＧＸ | Force Buster GX      | 0xB572FB9C |
+| ロボニャンパンチ   | Robo Fist            | 0xAB040EC4 |
+| ロボニャンパンチＦ  | Robo Fist F          | 0x25CDE60D |
+| ゴルニャンパンチ   | Golden Fist          | 0x52CAD69B |
+| ジミーフィールド   | Dimmy Field          | 0x35609B67 |
+| カゲローフィールド  | Blandon Field        | 0x4267ABF1 |
+| カイムフィールド   | Nul Field            | 0xDB6EFA4B |
+| まるみえ地図     | Extensive Map        | 0x7D4CC9B9 |
+| ワナミエール     | Trap Tonic           | 0x6457F8F8 |
+| ラブフェモロン    | Charm Fragrance      | 0x4F7AAB3B |
+| ゲキラブフェモロン  | Allure Fragrance     | 0x387D9BAD |
+| オニラブフェモロン  | Enthrall Fragrance   | 0xA174CA17 |
+| キレキレ玉      | Berserker’s Orb      | 0x56619A7A |
+| カチカチ玉      | Defender’s Orb       | 0xD1F986B5 |
+
+## Consume
 | JP Name     | EN Name                   | $keyItemID |
 | ----------- | ------------------------- | ---------- |
 | 鉄のこけし       | Iron Doll                 | 0x94A84D8C |
@@ -406,6 +451,98 @@ The English names are from the YWB2 Fan Translation.
 | ちらし寿司       | Sushi Rice               | 0x35B7470D |
 | 紅白まんじゅう     | Red/White Manju          | 0xABD3D2AE |
 | 刺身船盛り       | Boatload of Sashimi      | 0xDCD4E238 |
+
+## Flag Manage
+(Records and Songs)
+
+| JP Name    | EN Name              | $keyItemID     |
+| ---------- | -------------------- | ---------- |
+| ドンカムレコード   | Bowels Record        | 0x8F422B6F |
+| アメコメレコード   | Comix Record         | 0x164B7AD5 |
+| ニャニャンレコード  | Nyanyan Record       | 0x614C4A43 |
+| アッチィレコード   | Atti Record          | 0xFF28DFE0 |
+| コトオワレコード   | Year’s End Record    | 0x882FEF76 |
+| ＣＧＢレコード    | Crazy Band Record    | 0x1126BECC |
+| たべものレコード   | Food Record          | 0x66218E5A |
+| ミスイヌレコード   | Draining Dog Rec.    | 0xF69E93CB |
+| ヘヤノスミスレコード | Horrorsmith Record   | 0x8199A35D |
+| サマウォレコード   | Summer Watch Rec.    | 0xE15E2AB8 |
+| ツイトルズレコード  | Clovers Record       | 0x96591A2E |
+| ピントクルレコード  | Cornfused Record     | 0x0F504B94 |
+| ミズかきレコード   | Water Boyz Record    | 0x78577B02 |
+| いろクロレコード   | Various Cloverz Rec. | 0xE633EEA1 |
+| モグモグレコード   | Nomnom Record        | 0x9134DE37 |
+| レツオニレコード   | Oni Backers Rec.     | 0x083D8F8D |
+| タロニャンレコードＡ | Kintaronyan Rec. A   | 0x7F3ABF1B |
+| タロニャンレコードＢ | Kintaronyan Rec. B   | 0xEF85A28A |
+| オールスターレコード | All Stars Record     | 0x9882921C |
+| メラメラレコード   | Blazion Record       | 0xAE1FBC7F |
+| ブリーズレコード   | Sgt. Burly Record    | 0xD9188CE9 |
+| フユニャンレコード  | Hovernyan Record     | 0x4011DD53 |
+| バクロレコード    | Tattletell Record    | 0x3716EDC5 |
+| ピントコーンレコード | Cornfused Record     | 0xA9727866 |
+| グレるレコード    | Roughraff Record     | 0xDE7548F0 |
+| ジバニャンレコード  | Jibanyan Record      | 0x477C194A |
+| コマさんレコード   | Komasan Record       | 0x307B29DC |
+| ひも爺レコード    | Hungramps Record     | 0xA0C4344D |
+| ヒキコウモリレコード | Hidabat Record       | 0xD7C304DB |
+| ドンヨリレコード   | Dismarelda Record    | 0xB7048D3E |
+| ナガバナレコード   | Babblong Record      | 0xC003BDA8 |
+| ＵＳＡピョンレコード | Usapyon Record       | 0x590AEC12 |
+| ブシニャンレコード  | Shogunyan Record     | 0x2E0DDC84 |
+| うた吉レコード    | Lucky Song           | 0xB0694927 |
+
+## Hidden Treasure
+| JP Name    | EN Name                 | $keyItemID |
+| ---------- | ----------------------- | ---------- |
+| アゲランクの秘宝 | Prestigio. Treasure | 0x14D04FE9 |
+| レベウプの秘宝 | Insightful Treasure | 0x8DD91E53 |
+
+## Reform
+| JP Name    | EN Name                 | $keyItemID |
+| ---------- | ----------------------- | ---------- |
+| ふつうのキャンプ | Normal Camp | 0x112858C6 |
+| ナチュラルホーム | Natural Home | 0x8821097C |
+| エターナル・ドヤ | Eternal Doya | 0xFF2639EA |
+| フューチャーボーイ | Future Boy | 0x6142AC49 |
+
+## Treasure Jewel
+| JP Name    | EN Name                 | $keyItemID |
+| ---------- | ----------------------- | ---------- |
+| トレジャージュエル（小） | Treasure Jewel (Small) | 0xD30D7F2C |
+| トレジャージュエル（中） | Treasure Jewel (Medium) | 0x4A042E96 |
+| トレジャージュエル（大） | Treasure Jewel (Large) | 0x3D031E00 |
+
+## Ogreball
+(Oni Orbs)
+
+| JP Name    | EN Name                 | $keyItemID |
+| ---------- | ----------------------- | ---------- |
+| 鬼玉赤（小） | Red Oni Orb (Small) | 0x56D27B3D |
+| 鬼玉赤（中） | Red Oni Orb (Medium) | 0xCFDB2A87 |
+| 鬼玉赤（大） | Red Oni Orb (Large) | 0xB8DC1A11 |
+
+## B-Yo-ki/B-Auras
+| JP Name  | EN Name                    | $keyItemID |
+| -------- | -------------------------- | ---------- |
+| 火のB妖気（小） | Fire B-Yo-ki (Small)       | 0xBB610C0  |
+| 水のB妖気（小） | Water B-Yo-ki (Small)      | 0x92BF417A |
+| 雷のB妖気（小） | Lightning B-Yo-ki (Small)  | 0xE5B871EC |
+| 土のB妖気（小） | Earth B-Yo-ki (Small)      | 0x7BDCE44F |
+| 氷のB妖気（小） | Ice B-Yo-ki (Small)        | 0xCDBD4D9  |
+| 風のB妖気（小） | Wind B-Yo-ki (Small)       | 0x95D28563 |
+| 火のB妖気（中） | Fire B-Yo-ki (Medium)      | 0x9F0AE99  |
+| 水のB妖気（中） | Water B-Yo-ki (Medium)     | 0x90F9FF23 |
+| 雷のB妖気（中） | Lightning B-Yo-ki (Medium) | 0xE7FECFB5 |
+| 土のB妖気（中） | Earth B-Yo-ki (Medium)     | 0x799A5A16 |
+| 氷のB妖気（中） | Ice B-Yo-ki (Medium)       | 0xE9D6A80  |
+| 風のB妖気（中） | Wind B-Yo-ki (Medium)      | 0x97943B3A |
+| 火のB妖気（大） | Fire B-Yo-ki (Large)       | 0x832C4AE  |
+| 水のB妖気（大） | Water B-Yo-ki (Large)      | 0x913B9514 |
+| 雷のB妖気（大） | Lightning B-Yo-ki (Large)  | 0xE63CA582 |
+| 土のB妖気（大） | Earth B-Yo-ki (Large)      | 0x78583021 |
+| 氷のB妖気（大） | Ice B-Yo-ki (Large)        | 0xF5F00B7  |
+| 風のB妖気（大） | Wind B-Yo-ki (Large)       | 0x9656510D |
 
 ## Equipment
 | JP Name    | EN Name               | $keyItemID | enchant |
@@ -891,25 +1028,3 @@ The English names are from the YWB2 Fan Translation.
 | N/A        | N/A                   | 0xE46761F0 | 30      |
 | N/A        | N/A                   | 0x7D6E304A | 30      |
 | N/A        | N/A                   | 0xA6900DC  | 30      |
-
-## B-Yo-ki/B-Auras
-| JP Name  | EN Name                    | $keyItemID |
-| -------- | -------------------------- | ---------- |
-| 火のB妖気（小） | Fire B-Yo-ki (Small)       | 0xBB610C0  |
-| 水のB妖気（小） | Water B-Yo-ki (Small)      | 0x92BF417A |
-| 雷のB妖気（小） | Lightning B-Yo-ki (Small)  | 0xE5B871EC |
-| 土のB妖気（小） | Earth B-Yo-ki (Small)      | 0x7BDCE44F |
-| 氷のB妖気（小） | Ice B-Yo-ki (Small)        | 0xCDBD4D9  |
-| 風のB妖気（小） | Wind B-Yo-ki (Small)       | 0x95D28563 |
-| 火のB妖気（中） | Fire B-Yo-ki (Medium)      | 0x9F0AE99  |
-| 水のB妖気（中） | Water B-Yo-ki (Medium)     | 0x90F9FF23 |
-| 雷のB妖気（中） | Lightning B-Yo-ki (Medium) | 0xE7FECFB5 |
-| 土のB妖気（中） | Earth B-Yo-ki (Medium)     | 0x799A5A16 |
-| 氷のB妖気（中） | Ice B-Yo-ki (Medium)       | 0xE9D6A80  |
-| 風のB妖気（中） | Wind B-Yo-ki (Medium)      | 0x97943B3A |
-| 火のB妖気（大） | Fire B-Yo-ki (Large)       | 0x832C4AE  |
-| 水のB妖気（大） | Water B-Yo-ki (Large)      | 0x913B9514 |
-| 雷のB妖気（大） | Lightning B-Yo-ki (Large)  | 0xE63CA582 |
-| 土のB妖気（大） | Earth B-Yo-ki (Large)      | 0x78583021 |
-| 氷のB妖気（大） | Ice B-Yo-ki (Large)        | 0xF5F00B7  |
-| 風のB妖気（大） | Wind B-Yo-ki (Large)       | 0x9656510D |
