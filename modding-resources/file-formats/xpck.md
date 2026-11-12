@@ -36,7 +36,7 @@ All offsets are stored in units of 4 bytes (32-bit words). Meaning, to derive th
 
 | Offset | Size | Type    | Name             | Notes                                                                                                                   |
 | ------ | ---- | ------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 0x00   | 4    | char[4] | magic (`XPCK`)   | Magic. Must always be equal to `0x4B435058` (ASCII representation of `XPCK`).                                           |
+| 0x00   | 4    | char[4] | magic (`XPCK`)   | Magic. Must always be equal to `0x4B435058`.                                                                            |
 | 0x04   | 2    | u16     | fileCountData    | `fileCount = fileCountData & 0xFFF;`, `fileIdxBits = fileCountData >> 12;`                                              |
 | 0x06   | 2    | u16     | infoOffset       | `infoOffset << 2` defines the start of the File Entry table.                                                            |
 | 0x08   | 2    | u16     | nameTableOffset  | `nameTableOffset << 2` defines the start of the *compressed* Name Table.                                                |
@@ -45,7 +45,7 @@ All offsets are stored in units of 4 bytes (32-bit words). Meaning, to derive th
 | 0x0E   | 2    | u16     | nameTableSize    | Size of the *compressed* Name Table section in 32-bit words; `nameTableSize << 2` is equivalent to the size in bytes.   |
 | 0x10   | 4    | u32     | dataSize         | Size of the file data section in 32-bit words; `dataSize << 2` is equivalent to the size in bytes.                      |
 
-Note that fileIdxBits can be calculated using the following formula: `ceil(log2(fileCount))`. It appears to be unused, so in theory, one may ignore this field. It is unknown what occurs in the case `fileCount == 0` as no such samples exist within the 3DS Yo-kai Watch games.
+Note that `fileIdxBits` can be calculated using the following formula: `ceil(log2(fileCount))`. It appears to be unused, so in theory, one may ignore this field. It is unknown what occurs in the case `fileCount == 0` as no such samples exist within the 3DS Yo-kai Watch games.
 
 ## File Entry Table
 The file entry table is located at the offset referenced by `infoOffset << 2`, with there being `fileCount` entries - each of size `0xC`. Therefore the size (in bytes) can be calculated as: `fileCount * 0xC`. Aditionally, entries are sorted by their `hash` value in ascending order when written.
