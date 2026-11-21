@@ -10,7 +10,6 @@ has_children: true
 
 **Filetype:** Collision File<br/>
 **File Extension(s):** `.xcl`<br/>
-**Signature:** N/A<br/>
 **Platform(s):** Nintendo 3DS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
