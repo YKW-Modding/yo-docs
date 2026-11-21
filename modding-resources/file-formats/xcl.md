@@ -10,7 +10,6 @@ has_children: true
 
 **Filetype:** Collision File<br/>
 **File Extension(s):** `.xcl`<br/>
-**Signature:** N/A<br/>
 **Platform(s):** Nintendo 3DS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
@@ -18,26 +17,10 @@ has_children: true
 **String Encoding:** ASCII
 
 `.xcl` (X CoLlision) is a proprietary collision format developed by Level-5.
-It is used in only 3 games: Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2. 
 Later games use a different engine (and therefore no longer `.xcl`) and earlier games used `.prm` (mesh) collisions.
 
 XCL files have no strings or file signature (magic).
-
-## Compression
-
-XCL files are compressed in their entirety, not on a per-struct basis, using Level5's proprietary compression container, which we (and by we, I mean me) refer to as L5CC.
-This is not unique to XCL, however, I do feel like it's worth explaining the structure:
-
-The container is composed of 4 bytes of metadata, followed by the compressed blob. The method is encoded in the low 3 bits, and the decompressed size is stored in the high 29 bits. A reader must support the following methods; any other value is invalid.
-
-* Uncompressed (`0x0`)
-* LZ10 (`0x1`)
-* Huffman 4-bit (`0x2`)
-* Huffman 8-bit (`0x3`)
-* RLE (`0x4`)
-* ZLib (`0x5`)
-
-Level-5 never emits ZLib, the exact compression algorithms and the algorithm used to decide on method is known, although is not important enough to cover here. For decompression implementation, see sources such as Kuriimu2.
+XCL files are compressed in their entirety, not on a per-struct basis, using L5CC.
 
 ## Versions
 
@@ -202,13 +185,13 @@ Offsets are relative to `rawDataOffset` (V2) or `0x60` (V1).
 | Triangle buffer |
 | SurfaceTagEntry table |
 | Remap array |
-| *(pad to a 4-byte boundary)* |
+| *(4-byte alignment pad)* |
 | Surface zone table |
 | CollAttrDesc array |
 | Run slots |
 | Cell grid |
 | Triangle-index list |
-| *(pad to a 4-byte boundary)* |
+| *(4-byte alignment pad)* |
 | SegmentData* |
 
 \*Only for V2 XCL files with a TypeID 5 chunk.

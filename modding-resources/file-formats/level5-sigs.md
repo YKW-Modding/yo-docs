@@ -7,9 +7,6 @@ has_children: false
 ---
 # Platform Signatures
 
-**Filetype:** N/A<br/>
-**File Extensions:** N/A<br/>
-**Signature:** N/A<br/>
 **Platform(s):** Nintendo 3DS, Android, NX, PSP, PS Vita, Windows, iOS<br/>
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
