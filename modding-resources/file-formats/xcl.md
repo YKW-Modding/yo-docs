@@ -55,7 +55,7 @@ A V2 XCL is structured like so:
 
 ### Header
 
-The header contains offsets to each section of the file. Unlike V1, it does not point directly to data such as vertices; it defers that to later sections, in a way that is both forwards and backwards compatible. Even though, they did not use XCL for long enough to significantly benefit from this in practice, this is a much better design in theory.
+The header contains offsets to each section of the file. Unlike V1, it does not point directly to data such as vertices; it defers that to later sections, in a way that is both forwards and backwards compatible. Even though they did not use XCL for long enough to significantly benefit from this in practice, this is a much better design in theory.
 
 ```cpp
 struct XCLV2Header {
@@ -81,13 +81,14 @@ It is unknown whether the ordering is a requirement, although this is rather lik
 All offsets here are relative to `chunkDataOffset`.
 
 ```cpp
-#pragma pack(1)
+#pragma pack(push, 1)
 struct ChunkEntry {
     u16 typeID; // please see later sections for the content of each TypeID
     u32 chunkOff; // relative offset from chunkDataOffset
     u16 reserved;
     u32 chunkSize; // size of the chunk in bytes
 };
+#pragma pack(pop)
 ```
 
 The absolute offset of a chunk is therefore `chunkDataOffset + chunkOff`.
@@ -140,7 +141,6 @@ struct XCLV2Type3 {
 TypeID 4 contains acceleration data. All offsets in this block are relative to `rawDataOffset`.
 
 ```cpp
-#pragma pack(1)
 struct XCLV2Type4 {
     u32 collAttrDescEnd;
     u32 runSlotCount; // also equal to the number of non-sentinel cells
@@ -349,7 +349,7 @@ struct Cell {
  */
 ```
 
-The grid divides the AABB into `cellCols` by  `cellRows` equal rectangles, these are called tiles.
+The grid divides the AABB into `cellCols` by `cellRows` equal rectangles, these are called tiles.
 
 Cells are stored in row-major order; in short, cell `i` therefore refers to the tile at:
 
@@ -421,7 +421,7 @@ segment 3: [52, 56, 57]
 
 ##### Segment names
 
-Each hash is the CRC-32B of an area code of the form `[A-Z]{1,3}[0-9]{0,2}`. There's not many (57) so I've listed them all below:
+Each hash is the CRC-32B of an area code of the form `[A-Z]{1,3}[0-9]{0,2}`. There aren't many (57) so I've listed them all below:
 
 ```yml
 P01  P02  P03  P04  P05  P06  P07  P08  P10  P11  P21
@@ -465,7 +465,7 @@ All offsets stored in the header are relative to `0x60` (end of header).
 struct XCLV1Header {
     u16 dataCount; // 1 (or 0 in empty files)
     u16 zero;
-    u32 dataSize; // fileSize - 0x60 (testmap2 is an exception here; ignored for obvious reasons)
+    u32 dataSize; // fileSize - 0x60 (testmap2 is an exception here; ignored as it's an unused test map)
     u32 reserved;
     u32 triBufferOffset; // vertCount * 12
     u16 vertCount;
