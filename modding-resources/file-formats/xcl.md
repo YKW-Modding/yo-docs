@@ -30,11 +30,11 @@ There are two known versions of XCL, referred to here as V1 and V2.
 The rest of the documentation assumes the file is already decompressed.
 
 To detect the version, read the `u16` at offset `0x00` of the decompressed data.
-If it's `1`:
-  - The file is V1
+
+If it's `1`: the file is V1.
 
 If it's `0` read the `u16` at offset `0x02`.
-  - If it's one, then the file is V2
+  - If it's one, then the file is V2.
   - If it's 0, it's an empty V1.
 
 Neither are version fields; this works by coincidence.
