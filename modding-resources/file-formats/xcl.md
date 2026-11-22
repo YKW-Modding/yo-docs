@@ -21,6 +21,9 @@ Later games use a different engine (and therefore no longer `.xcl`) and earlier 
 XCL files have no strings or file signature (magic).
 XCL files are compressed in their entirety, not on a per-struct basis, using L5CC.
 
+> [!CAUTION]
+> Floats in this file should *never* be NaN, Infinity or -Infinity, although they can be -0.
+
 ## Versions
 
 There are two known versions of XCL, referred to here as V1 and V2.
@@ -35,9 +38,6 @@ If it's `0` read the `u16` at offset `0x02`.
   - If it's 0, it's an empty V1.
 
 Neither are version fields; this works by coincidence.
-
-## Floating-point Values
-Floats in this file should *never* be NaN, Infinity or -Infinity, although they can be -0.
 
 ## V2
 
