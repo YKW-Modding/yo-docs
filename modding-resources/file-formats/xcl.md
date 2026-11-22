@@ -81,13 +81,14 @@ It is unknown whether the ordering is a requirement, although this is rather lik
 All offsets here are relative to `chunkDataOffset`.
 
 ```cpp
-#pragma pack(1)
+#pragma pack(push, 1)
 struct ChunkEntry {
     u16 typeID; // please see later sections for the content of each TypeID
     u32 chunkOff; // relative offset from chunkDataOffset
     u16 reserved;
     u32 chunkSize; // size of the chunk in bytes
 };
+#pragma pack(pop)
 ```
 
 The absolute offset of a chunk is therefore `chunkDataOffset + chunkOff`.
@@ -140,7 +141,6 @@ struct XCLV2Type3 {
 TypeID 4 contains acceleration data. All offsets in this block are relative to `rawDataOffset`.
 
 ```cpp
-#pragma pack(1)
 struct XCLV2Type4 {
     u32 collAttrDescEnd;
     u32 runSlotCount; // also equal to the number of non-sentinel cells
