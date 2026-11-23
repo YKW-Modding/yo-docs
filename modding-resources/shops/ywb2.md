@@ -12,7 +12,6 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 
 | $keyShopName        |  Description                                                            |
 | ------------------- | ----------------------------------------------------------------------- |
-| `another_shop`      | Treasure Yo-ki/Aura Shop, controls actual shop details                  |
 | `shpN001`           | Dimmy's Shop                                                            |
 | `shpN201`           | Infinite Shop - First Layer                                             |
 | `shpN202`           | Infinite Shop - Second Layer                                            |
@@ -26,3 +25,9 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 | `shpN210`           | Infinite Shop - Tenth Layer                                             |
 | `shpR001`           | Unused?                                                                 |
 | `shpTUB001`         | Treasure Yo-ki/Aura Shop, only controls what is in the shop's selection |
+
+## Special Shops
+
+| $keyShopName        |  Description                                                            |
+| ------------------- | ----------------------------------------------------------------------- |
+| `another_shop`      | Treasure Yo-ki/Aura Shop, controls actual shop details                  |

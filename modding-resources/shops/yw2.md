@@ -12,7 +12,7 @@ IDs will be padded to 32-bit integers, with the unpadded variants in brackets wh
 
 | $keyShopName        |  Description                                                                                                                 |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `shpKP001`          | The BP/KP shop (Called BP in localised versions of the game, and KP in japanese versions hence the prefix "KP").             |
+| `shpKP001`          | The BP/KP shop (BP in localised versions, KP in Japanese hence the prefix "KP").                                             |
 | `shpB001`           | Unused blank shop.                                                                                                           |
 | `shpB002`           | Unused blank shop.                                                                                                           |
 | `shpBB001`          | Unused blank shop.                                                                                                           |
