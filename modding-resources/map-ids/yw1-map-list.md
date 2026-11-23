@@ -14,23 +14,23 @@ The list is in alphabetical order.
 
 | $keyMapID| Name   | Type    |
 |----------|--------|---------|
-| e100g002 |Mt. Wildwood Sacred Tree (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
+| e100g002 |Mount Wildwood Sacred Tree (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
 | e100g099 |*Unknown (Uptown Springdale???, not in JP ver)*|"Big" Map (EVENT)|
-| e101g001 |Uptown Springdale (???)|"Big" Map (EVENT)|
-| e101g003 |The Fish Place Crosswalk (Jibanyan Cutscene)|"Big" Map (EVENT)|
-| e101g004 |Outside Springdale Elementary (???)|"Big" Map (EVENT)|
-| e101g005 |Uptown Springdale (???)|"Big" Map (EVENT)|
-| e100i011 |Nate's House (Jibanyan Summoning Cutscene)|Interior (EVENT)|
-| e101i031 |Katie's House (Jibanyan Summoning Cutscene)|Interior (EVENT)|
-| e101i581 |Mt. Wildwood Night Time (???, has some interior)|Interior (EVENT)|
-| e102g001 |Mt. Wildwood (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
-| e102g002 |Mt. Wildwood (Ending Cutscene)|"Big" Map (EVENT)|
-| e103g001 |Blossom Heights (???)|"Big" Map (EVENT)|
-| e104d331 |Construction Site Rooftop (Kyubi/Massiface Cutscene)|Dungeon (EVENT)|
-| e104g001 |Springdale Central Station (Wazzat Cutscene)|"Big" Map (EVENT)|
-| e105d411 |Gourd Pond Museum (Mirapo Cutscene) *(Unsure)*|Dungeon (EVENT)|
+| e101g001 |Uptown Springdale: Cutscene (Chapter 1 Initial Pan)|"Big" Map (EVENT)|
+| e101g003 |Uptown Springdale: Cutscene (Jibanyan's Truck Fight)|"Big" Map (EVENT)|
+| e101g004 |Uptown Springdale: Cutscene (Slimamander's Defeat)|"Big" Map (EVENT)|
+| e101g005 |Uptown Springdale: Cutscene|"Big" Map (EVENT)|
+| e100i011 |Adams House - 1F: Cutscene (Jibanyan's Summoning)|Interior (EVENT)|
+| e101i031 |Forester House - 1F: Cutscene (Jibanyan's Summoning)|Interior (EVENT)|
+| e101i581 |Springdale Elementary - Roof: Cutscene (Rooftop Fireworks)|Interior (EVENT)|
+| e102g001 |Mount Wildwood: Cutscene (Freeing Whisper)|"Big" Map (EVENT)|
+| e102g002 |Mount Wildwood: Cutscene (Sealing the Elevator)|"Big" Map (EVENT)|
+| e103g001 |Blossom Heights: Cutscene (???)|"Big" Map (EVENT)|
+| e104d331 |Construction Site - 3F: Cutscene (Massiface Appears)|Dungeon (EVENT)|
+| e104g001 |Downtown Springdale: Cutscene (Wazzats Everywhere)|"Big" Map (EVENT)|
+| e105d411 |Nocturne Hospital - 1F: Cutscene (McKraken's Speech)|Dungeon (EVENT)|
 | t100b01  |Uptown Springdale (Bush)|Battle Background|
-| t100b02  |Mt. Wildwood (Bush)|Battle Background|
+| t100b02  |Mount Wildwood (Bush)|Battle Background|
 | t100b03  |Catfish Pond|Battle Background|
 | t100b04  |Uptown Springdale (River)|Battle Background|
 | t100b05  |Breezy Hills Gourd Pond|Battle Background|
@@ -45,7 +45,7 @@ The list is in alphabetical order.
 | t100b51  |Unusual Space|Battle Background|
 | t100b52  |Unusual Space (S Rank)|Battle Background|
 | t100b53  |PvP Arena|Battle Background|
-| t100d00  |Underground Waterway |Dungeon|
+| t100d00  |Springdale Underground Waterway|Dungeon|
 | t100g00  |*Unknown (textures only + language versions)*|"Big" Map|
 | t100w011 |Tree|Watchmap|
 | t100w021 |Bush/Grass|Watchmap|
@@ -75,30 +75,30 @@ The list is in alphabetical order.
 | t101d03  |The Catwalk|Dungeon|
 | t101d05  |Desolate Lane|Dungeon|
 | t101g00  |Uptown Springdale|"Big" Map|
-| t101i01  |Nate's House F1|Interior|
-| t101i02  |Nate's House F2|Interior|
-| t101i03  |Katie's House F1|Interior|
-| t101i04  |Katie's House F2|Interior|
+| t101i01  |Adams House - 1F|Interior|
+| t101i02  |Adams House - 2F|Interior|
+| t101i03  |Forester House - 1F|Interior|
+| t101i04  |Forester House - 2F|Interior|
 | t101i21  |Banter Bakery|Interior|
 | t101i23  |Everymart Uptown|Interior|
-| t101i25  |Springdale Community Centre|Interior|
+| t101i25  |Springdale Community Center|Interior|
 | t101i27  |Piggleston Bank|Interior|
 | t101i29  |Lambert Post Office|Interior|
 | t101i31  |Jungle Hunter|Interior|
-| t101i51  |Springdale Elementary 1F South|Interior|
-| t101i52  |Springdale Elementary 1F North|Interior|
-| t101i53  |Springdale Elementary 2F|Interior|
-| t101i55  |Springdale Elementary 3F|Interior|
-| t101i58  |Springdale Elementary Roof|Interior|
-| t101i59  |Springdale Elementary Gym|Interior|
+| t101i51  |Springdale Elementary - 1F South|Interior|
+| t101i52  |Springdale Elementary - 1F North|Interior|
+| t101i53  |Springdale Elementary - 2F|Interior|
+| t101i55  |Springdale Elementary - 3F|Interior|
+| t101i58  |Springdale Elementary - Roof|Interior|
+| t101i59  |Springdale Elementary - Gym|Interior|
 | t102b01  |Mt. Wildwood (Shrine)|Battle Background|
 | t102b03  |Mt. Wildwood (Final Boss)|Battle Background|
 | t102b21  |Abandoned Tunnel|Battle Background|
 | t102b23  |Abandoned Tunnel (Boss)|Battle Background|
 | t102d31  |Abandoned Tunnel West|Dungeon|
 | t102d32  |Abandoned Tunnel East|Dungeon|
-| t102g00  |Mt. Wildwood|"Big" Map|
-| t102i21  |Mt. Wildwood Cave|Interior|
+| t102g00  |Mount Wildwood|"Big" Map|
+| t102i21  |Shrine Behind the Waterfall|Interior|
 | t103b01  |Blossom Heights (Town)|Battle Background|
 | t103b03  |Blossom Heights (Bamboo Forest)|Battle Background|
 | t103b05  |Hot Springs Baths|Battle Background|
@@ -110,42 +110,42 @@ The list is in alphabetical order.
 | t103d01  |Trucked Away Lot|Dungeon|
 | t103d03  |Hidden Side Street|Dungeon|
 | t103d11  |Secret Byway|Dungeon|
-| t103d31  |Old Mansion Main House|Dungeon|
-| t103d33  |Old Mansion Side House|Dungeon|
-| t103d35  |Old Mansion Main House Attic|Dungeon|
-| t103d36  |Old Mansion Side House Attic|Dungeon|
-| t103d41  |Infinite Inferno 1st Circle|Dungeon|
-| t103d42  |Infinite Inferno 2nd Circle|Dungeon|
-| t103d43  |Infinite Inferno 3rd Circle|Dungeon|
-| t103d44  |Infinite Inferno 4th Circle|Dungeon|
-| t103d45  |Infinite Inferno 5th Circle|Dungeon|
-| t103d46  |Infinite Inferno 6th Circle|Dungeon|
-| t103d47  |Infinite Inferno 7th Circle|Dungeon|
-| t103d48  |Infinite Inferno 8th Circle|Dungeon|
+| t103d31  |Old Mansion - Main House|Dungeon|
+| t103d33  |Old Mansion - Side House|Dungeon|
+| t103d35  |Old Mansion - Main House Attic|Dungeon|
+| t103d36  |Old Mansion - Side House Attic|Dungeon|
+| t103d41  |Infinite Inferno - 1st Circle|Dungeon|
+| t103d42  |Infinite Inferno - 2nd Circle|Dungeon|
+| t103d43  |Infinite Inferno - 3rd Circle|Dungeon|
+| t103d44  |Infinite Inferno - 4th Circle|Dungeon|
+| t103d45  |Infinite Inferno - 5th Circle|Dungeon|
+| t103d46  |Infinite Inferno - 6th Circle|Dungeon|
+| t103d47  |Infinite Inferno - 7th Circle|Dungeon|
+| t103d48  |Infinite Inferno - 8th Circle|Dungeon|
 | t103g00  |Blossom Heights|"Big" Map|
-| t103i01  |Bernstein House 1F|Interior|
-| t103i02  |Bernstein House 2F|Interior|
-| t103i03  |Bernstein House 3F|Interior|
+| t103i01  |Bernstein House - 1F|Interior|
+| t103i02  |Bernstein House - 2F|Interior|
+| t103i03  |Bernstein House - 3F|Interior|
 | t103i21  |Timers & More|Interior|
 | t103i23  |Candy Stop|Interior|
 | t103i25  |Everymart Blossom Heights|Interior|
-| t103i27  |Hot Springs Lobby|Interior|
-| t103i28  |Hot Springs Baths|Interior|
+| t103i27  |Hot Springs - Lobby|Interior|
+| t103i28  |Hot Springs - Baths|Interior|
 | t103i31  |Shoten Temple|Interior|
 | t103i33  |Prayer's Peak Tunnel|Interior|
 | t103i35  |*(UNUSED!) Chloro-Phil Good*|Interior|
-| t103i51  |Byrd House|Interior|
-| t103i53  |Byrd House Hidden Room|Interior|
-| t103i60  |Wayfarer Manor 101|Interior|
-| t103i61  |Wayfarer Manor 102|Interior|
-| t103i62  |Wayfarer Manor 103|Interior|
-| t103i63  |Wayfarer Manor 104|Interior|
-| t103i64  |Wayfarer Manor 105|Interior|
-| t103i65  |Wayfarer Manor 201|Interior|
-| t103i66  |Wayfarer Manor 202|Interior|
-| t103i67  |Wayfarer Manor 203|Interior|
-| t103i68  |Wayfarer Manor 204|Interior|
-| t103i69  |Wayfarer Manor VIP Room|Interior|
+| t103i51  |Byrd House - Main Room|Interior|
+| t103i53  |Byrd House - Hidden Room|Interior|
+| t103i60  |Wayfarer Manor - Room 101|Interior|
+| t103i61  |Wayfarer Manor - Room 102|Interior|
+| t103i62  |Wayfarer Manor - Room 103|Interior|
+| t103i63  |Wayfarer Manor - Room 104|Interior|
+| t103i64  |Wayfarer Manor - Room 105|Interior|
+| t103i65  |Wayfarer Manor - Room 201|Interior|
+| t103i66  |Wayfarer Manor - Room 202|Interior|
+| t103i67  |Wayfarer Manor - Room 203|Interior|
+| t103i68  |Wayfarer Manor - Room 204|Interior|
+| t103i69  |Wayfarer Manor - VIP Room|Interior|
 | t104b01  |Downtown Springdale (Town)|Battle Background|
 | t104b03  |Downtown Springdale (Sea)|Battle Background|
 | t104b21  |Construction Site|Battle Background|
@@ -153,48 +153,48 @@ The list is in alphabetical order.
 | t104d01  |Academy Shortcut|Dungeon|
 | t104d03  |Behind Frostia's Place|Dungeon|
 | t104d05  |Delivery Bay|Dungeon|
-| t104d11  |Springdale Business Tower 4F|Dungeon|
-| t104d13  |Springdale Business Tower 13F|Dungeon|
-| t104d31  |Construction Site 1F|Dungeon|
-| t104d32  |Construction Site 2F|Dungeon|
-| t104d33  |Construction Site 3F|Dungeon|
+| t104d11  |Springdale Business Tower - 4F|Dungeon|
+| t104d13  |Springdale Business Tower - 13F|Dungeon|
+| t104d31  |Construction Site - 1F|Dungeon|
+| t104d32  |Construction Site - 2F|Dungeon|
+| t104d33  |Construction Site - 3F|Dungeon|
 | t104g00  |Downtown Springdale|"Big" Map|
 | t104i21  |Seabreeze Tunnel|Interior|
 | t104i23  |Frostia's Place|Interior|
 | t104i25  |Arcadia Arcade|Interior|
 | t104i27  |Nom Burger|Interior|
-| t104i29  |Fortune Hospital 1F|Interior|
+| t104i29  |Fortune Hospital - 1F|Interior|
 | t104i30  |*(UNUSED!) Fortune Hospital 2F*|Interior|
 | t104i31  |Foundation Academy|Interior|
-| t104i33  |Everymart Downtown Springdale|Interior|
+| t104i33  |Everymart Downtown|Interior|
 | t104i35  |*(UNUSED + EMPTY!) Café Shanista*|Interior|
-| t104i51  |Springdale Business Tower 1F|Interior|
-| t104i53  |Springdale Business Tower 7F|Interior|
+| t104i51  |Springdale Business Tower - 1F|Interior|
+| t104i53  |Springdale Business Tower - 7F|Interior|
 | t104i61  |Springdale Central Station|Interior|
 | t105b01  |Shopper's Row (Exterior)|Battle Background|
 | t105b03  |Shopper's Row (Interior)|Battle Background|
 | t105b21  |Nocturne Hospital|Battle Background|
 | t105b23  |Nocturne Hospital (Boss)|Battle Background|
 | t105d01  |Shopping Street Narrows|Dungeon|
-| t105d11  |Tranquility Apts. (A-103)|Dungeon|
-| t105d12  |Tranquility Apts. (A-204)|Dungeon|
-| t105d13  |Tranquility Apts. (A-301)|Dungeon|
-| t105d14  |Tranquility Apts. (B-102)|Dungeon|
-| t105d15  |Tranquility Apts. (B-201)|Dungeon|
-| t105d16  |Tranquility Apts. (B-203)|Dungeon|
-| t105d17  |Tranquility Apts. (B-301)|Dungeon|
-| t105d18  |Tranquility Apts. (C-101)|Dungeon|
-| t105d19  |Tranquility Apts. (C-103)|Dungeon|
-| t105d20  |Tranquility Apts. (C-202)|Dungeon|
-| t105d21  |Tranquility Apts. (C-204)|Dungeon|
-| t105d22  |Tranquility Apts. (C-303)|Dungeon|
-| t105d23  |Tranquility Apts. (A-202)|Dungeon|
-| t105d24  |Tranquility Apts. (B-104)|Dungeon|
-| t105d25  |Tranquility Apts. (C-304)|Dungeon|
-| t105d26  |Tranquility Apts. (C-301)|Dungeon|
-| t105d41  |Nocturne Hospital 1F|Dungeon|
-| t105d43  |Nocturne Hospital 2F|Dungeon|
-| t105d45  |Nocturne Hospital 3F|Dungeon|
+| t105d11  |Tranquility Apts. - A-103|Dungeon|
+| t105d12  |Tranquility Apts. - A-204|Dungeon|
+| t105d13  |Tranquility Apts. - A-301|Dungeon|
+| t105d14  |Tranquility Apts. - B-102|Dungeon|
+| t105d15  |Tranquility Apts. - B-201|Dungeon|
+| t105d16  |Tranquility Apts. - B-203|Dungeon|
+| t105d17  |Tranquility Apts. - B-301|Dungeon|
+| t105d18  |Tranquility Apts. - C-101|Dungeon|
+| t105d19  |Tranquility Apts. - C-103|Dungeon|
+| t105d20  |Tranquility Apts. - C-202|Dungeon|
+| t105d21  |Tranquility Apts. - C-204|Dungeon|
+| t105d22  |Tranquility Apts. - C-303|Dungeon|
+| t105d23  |Tranquility Apts. - A-202|Dungeon|
+| t105d24  |Tranquility Apts. - B-104|Dungeon|
+| t105d25  |Tranquility Apts. - C-304|Dungeon|
+| t105d26  |Tranquility Apts. - C-301|Dungeon|
+| t105d41  |Nocturne Hospital - 1F|Dungeon|
+| t105d43  |Nocturne Hospital - 2F|Dungeon|
+| t105d45  |Nocturne Hospital - 3F|Dungeon|
 | t105g00  |Shopper's Row|"Big" Map|
 | t105i20  |Springdale Flower Road|Interior|
 | t105i21  |Settle In Bookstore|Interior|
@@ -218,17 +218,17 @@ The list is in alphabetical order.
 | t106b41  |Hungry Pass|Battle Background|
 | t106b43  |Yo-Kai World (Boss)|Battle Background|
 | t106d11  |Rugged Path|Dungeon|
-| t106d31  |Gourd Pond Museum 1F|Dungeon|
-| t106d32  |Gourd Pond Museum 2F|Dungeon|
-| t106d33  |Gourd Pond Museum Vault|Dungeon|
-| t106d41  |Yo-Kai World Entrance|Dungeon|
-| t106d42  |Yo-Kai World|Dungeon|
-| t106d43  |Liar Mountain|Dungeon|
-| t106d44  |Hooligan Road|Dungeon|
-| t106d45  |Hungry Pass|Dungeon|
+| t106d31  |Gourd Pond Museum - 1F|Dungeon|
+| t106d32  |Gourd Pond Museum - 2F|Dungeon|
+| t106d33  |Gourd Pond Museum - Vault|Dungeon|
+| t106d41  |Yo-kai World - World's Edge|Dungeon|
+| t106d42  |Yo-kai World - Entry Hall|Dungeon|
+| t106d43  |Yo-kai World - Liar Mountain|Dungeon|
+| t106d44  |Yo-kai World - Hooligan Road|Dungeon|
+| t106d45  |Yo-kai World - Hungry Pass|Dungeon|
 | t106g00  |Breezy Hills|"Big" Map|
-| t106i01  |Archer House 1F|Interior|
-| t106i02  |Archer House 2F|Interior|
+| t106i01  |Archer House - 1F|Interior|
+| t106i02  |Archer House - 2F|Interior|
 | t106i05  |Stone House|Interior|
 | t106i21  |Everymart Breezy Hills|Interior|
 | t106i23  |Trophy Room|Interior|
