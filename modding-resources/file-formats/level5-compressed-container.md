@@ -1,6 +1,6 @@
 ---
 title: Level-5 Compressed Container
-parent: File Format Specs
+parent: File Format Specifications
 grandparent: Modding Resources
 layout: default
 has_children: true
