@@ -17,15 +17,15 @@ grand_parent: Modding Resources
 | ai437        |                                  |                                           |
 | ai451a       |                                  |                                           |
 | ai453        |                                  |                                           |
-| ai602        |                                  |                                           |
-| ai606        |                                  |                                           |
-| ai611        |                                  |                                           |
-| ai612        |                                  |                                           |
-| ai615        |                                  |                                           |
-| ai700        |                                  | Dormitory                                 |
-| ai711        |                                  | Dormitory                                 |
-| ai719        |                                  | Dormitory                                 |
-| ai723        |                                  | Dormitory                                 |
+| ai602        |                                  | Y Times Editorial Department              |
+| ai606        |                                  | Bodybuilding Club                         |
+| ai611        |                                  | Y-Tube Research Club                      |
+| ai612        |                                  | Justice Hackers Research Club             |
+| ai615        |                                  | Gacha Club                                |
+| ai700        |                                  | Dormitory - YSP Club Rooms                |
+| ai711        |                                  | Dormitory - Bathroom                      |
+| ai719        |                                  | Dormitory - Sauna                         |
+| ai723        |                                  | Dormitory - Lobby                         |
 | ai801        |                                  | Discipline Tower                          |
 | ai802        |                                  | Discipline Tower                          |
 | ai803        |                                  | Discipline Tower                          |
