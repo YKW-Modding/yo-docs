@@ -1,12 +1,12 @@
 ---
-title: YW4 Map List
+title: Gakuen Map List
 layout: default
 parent: Map IDs
 grand_parent: Modding Resources
 
 ---
 
-# YW4 Map List
+# Gakuen Map List
 > AUTHOR: @8227light
 
 
