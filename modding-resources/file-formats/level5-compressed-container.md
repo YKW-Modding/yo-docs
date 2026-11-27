@@ -12,7 +12,7 @@ has_children: true
 **Endianness:** Little-endian<br/>
 **Used in:** Yo-kai Watch 1, Yo-kai Watch 2, Yo-kai Watch Blasters, Yo-kai Watch 3, Yo-kai Watch Busters 2<br/>
 
-The Level5 Compressed Container is a structure used within Level5's proprietary formats to store compressed data (e.g., `ARC0`) as implemented by:
+The Level-5 Compressed Container is a structure used within Level-5's proprietary formats to store compressed data (e.g., `ARC0`) as implemented by:
 ```cpp
 void lxpUncompress(void *outBuffer, uint32_t& outDecompressedSize, uint32_t outBufferSize, const void *compressedContainer) {}
 uint32_t lxpUncompress_Size(void *compressionHeader) {}
@@ -33,9 +33,10 @@ All compressed data is stored using this structure. It starts with a 32-bit head
 | 6  | Invalid       |
 | 7  | Invalid       |
 
+> [!WARNING]
 > Compression method IDs 6 and 7 are considered invalid and should not appear in a valid L5CC. Ideally treat these as errors.
-
-ZLib, although implemented in the versions of `lxp` used, is unused in the Yo-kai Watch franchise.
+> 
+> Furthermore, ZLib, although implemented in late versions of `lxp`, is unused in the Yo-kai Watch franchise. Because of its late implementation, several Yo-kai Watch games do not support it. For instance, Yo-kai Watch 2 does not.
 
 ## Official Algorithms
 I have figured out the algorithms used by Level-5s tooling for producing the blobs (likely makes use of Nintendo code, although this is entirely clean-room on my end) via analysis of compressed blobs.
@@ -44,7 +45,7 @@ I have figured out the algorithms used by Level-5s tooling for producing the blo
 > To clarify, decoding rules describe the structure of valid L5CC data, while the encoding rules aim to reproduce the behaviour of Level-5's original tooling to the byte. An implementation does not necessarily need to reproduce the original encoder's compression choices (in fact, all tools made before this specification do not). However, doing so is useful for both round-trip verification of file formats, and for providing a general reference for how a good encoder should compress files.
 
 ### Method Choice
-This is by far the simplest. First, all algorithms (aside from Uncompressed and ZLib) are computed over the blob. The smallest one is picked, ties go to the algorithm with the lowest ID.
+This is by far the simplest. First, all algorithms (aside from Uncompressed and ZLib) are computed over the blob. The smallest resulting stream is selected (note that ties go to the algorithm with the lowest ID).
 Next, if the finished blob (including the L5CC header) is no larger than the raw data, the winner is used, otherwise method 0 (Uncompressed) is used.
 
 ### Uncompressed (0)
@@ -96,10 +97,10 @@ The encoded bits are stored in 32-bit little-endian words, with bits consumed MS
 Now, for the encoder rules. Perform the following steps, in order, to mimic the original encoder:
 
 1. Count the frequency of each nibble across both nibbles of every input byte.
-2. Create one node for each used symbol, in ascending symbol order. Then repeatedly merge the two nodes with the lowest weights. The lighter node becomes the bit-0 child, while the other becomes the bit-1 child. If their weights are equal, the node appearing earlier in the list should be chosen first. Each merged node is appended to the end of the list. Because of this, leaves always precede merged nodes, and ties are resolved by symbol order for leaves and creation order for merged nodes.
+2. Create one node for each used symbol, in ascending symbol order. Then repeatedly merge the two nodes with the lowest weights. The node with the lower weight becomes the bit-0 child, while the other becomes the bit-1 child. If their weights are equal, the node appearing earlier in the list should be chosen first. Each merged node is appended to the end of the list. Because of this, leaves always precede merged nodes, and ties are resolved by symbol order for leaves and creation order for merged nodes.
 3. Serialize the tree in breadth-first order, starting from the root. Each internal node is assigned a pair index in visitation order, starting at 0. The `c` value is then calculated using the formula described above.
   - If the number of tree pairs is even, append two bytes of padding (all-zeros!). This ensures that the entire block is 4-byte aligned.
-4. Finally, encode each input byte as two consecutive symbols: its low nibble and its high nibble, in that order. Each symbol's Huffman code is written from root to leaf, with bit-0 branches represented by `0` and bit-1 branches by `1`. Bits fill each 32-bit word from bit `31` downwards. Each word is stored in LE order as one would expect. The final word is zero-padded if necessary.
+4. Finally, encode each input byte as two consecutive symbols: its low nibble and its high nibble, in that order. Each symbol's Huffman code is written from root to leaf, with bit-0 branches represented by `0` and bit-1 branches by `1`. Bits fill each 32-bit word from bit `31` downwards. Each word is stored in little-endian order as one would expect. The final word is zero-padded if necessary.
 
 ### Huffman-8 (3)
 
@@ -168,3 +169,9 @@ The encoder used by Level-5 is a greedy encoder; at each position it takes the l
 
 Because a single token can't cover > 130 repeats, a longer run is therefore cut at 130 and the leftover bytes are scanned again from the cut point like any other input.
 For instance, 133 identical bytes become two run tokens of 130 and 3, while 131 becomes a 130-run + a literal.
+
+### ZLib (5)
+The compressed stream is a standard ZLib-wrapped DEFLATE stream, as defined by [RFC 1950](https://www.rfc-editor.org/rfc/rfc1950). Decompression is performed using zlib's `inflate` API in Level-5 games which support this method. As implied above, the stream includes the standard ZLib header and trailing Adler-32 checksum. The decompressed size is provided by the L5CC header.
+
+> [!CAUTION]
+> Many Yo-kai Watch games do NOT implement ZLib. Only use ZLib in supporting games such as Yo-kai Watch 1 for Smartphone.

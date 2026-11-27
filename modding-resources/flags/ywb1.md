@@ -5,7 +5,7 @@ parent: Flag IDs
 grand_parent: Modding Resources
 ---
 
-# YO-KAI WATCH BLASTERS FlagIDs
+# Yo-kai Watch Blasters FlagIDs
 
 IDs in padded hex for convenience (with non-padded versions in brackets, when the ID is padded!)
 
