@@ -6,7 +6,7 @@ parent: YO-KAI WATCH 4++ RomFS Legend
 grand_parent: RomFS Legend
 ---
 
-# data
+# data/
 
 This contains:
 * `common/` - This folder tree mainly consists of non-texture files.
