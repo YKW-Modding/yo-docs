@@ -11,7 +11,7 @@ The English names are from the YWB2 Fan Translation.
 
 ## Battle
 
-| JP Name    | EN Name              | $keyItemID     |
+| Japanese    | English              | $keyItemID     |
 | ---------- | -------------------- | ---------- |
 | チョコボー      | Chocobar             | 0x1E4DC8A4 |
 | うめおにぎり     | Plum Rice Ball       | 0x80295D07 |
