@@ -112,7 +112,7 @@ struct XCLV2Type1 {
 
 #### TypeID 2
 
-TypeID 2 contains grid data. All offsets in this block are relative to `rawDataOffset`.
+TypeID 2 contains surface metadata, including surface tags, remapping, and surface zones. All offsets in this block are relative to `rawDataOffset`.
 
 ```cpp
 struct XCLV2Type2 {
@@ -138,7 +138,7 @@ struct XCLV2Type3 {
 
 #### TypeID 4
 
-TypeID 4 contains acceleration data. All offsets in this block are relative to `rawDataOffset`.
+TypeID 4 contains grid and acceleration data, including cells, run slots, and the triangle-index list. All offsets in this block are relative to `rawDataOffset`.
 
 ```cpp
 struct XCLV2Type4 {
