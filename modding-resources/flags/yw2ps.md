@@ -1475,17 +1475,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x633C48DB | 1460 | Checks if the bonus quest scene mv_photo73/yw2_evec_1920 has been seen. | `yw2_evec_1920` |
 | 0x7E58DCBA | 1461 | Checks if the bonus quest scene mv_photo76/yw2_evec_2020 has been seen. | `yw2_evec_2020` |
 | 0x7F9AB68D | 1462 | Checks if the bonus quest scene mv_photo79/yw2_evec_2120 has been seen. | `yw2_evec_2120` |
-| 0x84E69E77 | 1463 | Checks if the Stealth Soul has been made. | - |
-| 0xF3E1AEE1 | 1464 | Checks if the Soldier's Soul has  been made. | - |
-| 0x6AE8FF5B | 1465 | Checks if the Stout Soul has been made. | - |
-| 0x1DEFCFCD | 1466 | Checks if the Stubborn Soul has been made. | - |
-| 0x838B5A6E | 1467 | Checks if the Scatter Soul has been made. | - |
-| 0xF48C6AF8 | 1468 | Checks if the Stinging Soul has been made. | - |
-| 0x6D853B42 | 1469 | Checks if the Speed Soul has been made. | - |
-| 0x1A820BD4 | 1470 | Checks if the Slippery Soul has been made. | - |
-| 0x8A3D1645 | 1471 | Checks if the Surly Soul has been made. | - |
-| 0xFD3A26D3 | 1472 | Checks if the Scorching Soul has been made. | - |
-| 0x9DFDAF36 | 1473 | Checks if the Soaking Soul has been made. | - |
+| 0x84E69E77 | 1463 | Checks if the Stealth Soul has been made. | `combine_soul_000` |
+| 0xF3E1AEE1 | 1464 | Checks if the Soldier's Soul has  been made. | `combine_soul_001` |
+| 0x6AE8FF5B | 1465 | Checks if the Stout Soul has been made. | `combine_soul_002` |
+| 0x1DEFCFCD | 1466 | Checks if the Stubborn Soul has been made. | `combine_soul_003` |
+| 0x838B5A6E | 1467 | Checks if the Scatter Soul has been made. | `combine_soul_004` |
+| 0xF48C6AF8 | 1468 | Checks if the Stinging Soul has been made. | `combine_soul_005` |
+| 0x6D853B42 | 1469 | Checks if the Speed Soul has been made. | `combine_soul_006` |
+| 0x1A820BD4 | 1470 | Checks if the Slippery Soul has been made. | `combine_soul_007` |
+| 0x8A3D1645 | 1471 | Checks if the Surly Soul has been made. | `combine_soul_008` |
+| 0xFD3A26D3 | 1472 | Checks if the Scorching Soul has been made. | `combine_soul_009` |
+| 0x9DFDAF36 | 1473 | Checks if the Soaking Soul has been made. | `combine_soul_010` |
 | 0x59764EF5 | 1474 | Checks if the story scene mv_photo14/ev50_2000 has been seen. | `ev50_2000` |
 | 0x58B424C2 | 1475 | Checks if the story scene mv_photo15/ev50_2100 has been seen. | `ev50_2100` |
 | 0x5AF29A9B | 1476 | Checks if the story scene mv_photo16/ev50_2200 has been seen. | `ev50_2200` |
@@ -1546,9 +1546,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x58656858 | 1531 | Checks if the story scene ev51_5160 has been seen. | `ev51_5160` |
 | 0x0DBB1BB0 (0xDBB1BB0) | 1532 | Checks if the story scene ev51_5300 has been seen. | `ev51_5300` |
 | 0x2FB114B4 | 1533 | - | - |
-| 0xEAFA9FA0 | 1534 | Checks if the Sparking Soul has been made. | - |
-| 0x73F3CE1A | 1535 | Checks if the Spacedust Soul has been made. | - |
-| 0x04F4FE8C (0x4F4FE8C) | 1536 | Checks if the Subzero Soul has been made. | - |
+| 0xEAFA9FA0 | 1534 | Checks if the Sparking Soul has been made. | `combine_soul_011` |
+| 0x73F3CE1A | 1535 | Checks if the Spacedust Soul has been made. | `combine_soul_012` |
+| 0x04F4FE8C (0x4F4FE8C) | 1536 | Checks if the Subzero Soul has been made. | `combine_soul_013` |
 | 0x4C3C7F6C | 1537 | Checks if the password W1K1BUTL3R has been entered. | - |
 | 0xD5352ED6 | 1538 | Checks if the password W0LF1TD0WN has been entered. | - |
 | 0x6FFD3FD4 | 1539 | - | - |
@@ -2086,19 +2086,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCE2CD4FD | 2071 | - | - |
 | 0x63036BF8 | 2072 | Checks if you've gotten the reward for that week's Yo-criminal. | `week_get_wanted_reward` |
 | 0xFB24CBF6 | 2073 | - | `wanted_complete` |
-| 0x9A906B2F | 2074 | Checks if the Spin Soul has been made. | - |
-| 0xED975BB9 | 2075 | Checks if the Searing Soul has been made. | - |
-| 0x749E0A03 | 2076 | Checks if the Sodden Soul has been made. | - |
-| 0x03993A95 (0x3993A95) | 2077 | Checks if the Storm Soul has been made. | - |
-| 0x93262704 | 2078 | Checks if the Sprouting Soul has been made. | - |
-| 0xE4211792 | 2079 | Checks if the Snow Soul has been made. | - |
-| 0xB6D0FCF5 | 2080 | Checks if the Squall Soul has been made. | - |
-| 0xC1D7CC63 | 2081 | Checks if the Supernatural Soul has been made. | - |
-| 0x58DE9DD9 | 2082 | Checks if the Sinister Soul has been made. | - |
-| 0x2FD9AD4F | 2083 | Checks if the Shielding Soul has been made. | - |
-| 0xB1BD38EC | 2084 | Checks if the Summoner's Soul has been made. | - |
-| 0xC6BA087A | 2085 | Checks if the Surrender Soul has been made. | - |
-| 0x5FB359C0 | 2086 | Checks if the Superstar Soul has been made. | - |
+| 0x9A906B2F | 2074 | Checks if the Spin Soul has been made. | `combine_soul_014` |
+| 0xED975BB9 | 2075 | Checks if the Searing Soul has been made. | `combine_soul_015` |
+| 0x749E0A03 | 2076 | Checks if the Sodden Soul has been made. | `combine_soul_016` |
+| 0x03993A95 (0x3993A95) | 2077 | Checks if the Storm Soul has been made. | `combine_soul_017` |
+| 0x93262704 | 2078 | Checks if the Sprouting Soul has been made. | `combine_soul_018` |
+| 0xE4211792 | 2079 | Checks if the Snow Soul has been made. | `combine_soul_019` |
+| 0xB6D0FCF5 | 2080 | Checks if the Squall Soul has been made. | `combine_soul_020` |
+| 0xC1D7CC63 | 2081 | Checks if the Supernatural Soul has been made. | `combine_soul_021` |
+| 0x58DE9DD9 | 2082 | Checks if the Sinister Soul has been made. | `combine_soul_022` |
+| 0x2FD9AD4F | 2083 | Checks if the Shielding Soul has been made. | `combine_soul_023` |
+| 0xB1BD38EC | 2084 | Checks if the Summoner's Soul has been made. | `combine_soul_024` |
+| 0xC6BA087A | 2085 | Checks if the Surrender Soul has been made. | `combine_soul_025` |
+| 0x5FB359C0 | 2086 | Checks if the Superstar Soul has been made. | `combine_soul_026` |
 | 0x7D24ED7D | 2087 | Checks if you have unlocked the discount at Uptown Springdale Everymart. | `territory_t101g00_01` |
 | 0xE42DBCC7 | 2088 | - | `territory_t101g00_02` |
 | 0x932A8C51 | 2089 | - | `territory_t101g00_03` |
