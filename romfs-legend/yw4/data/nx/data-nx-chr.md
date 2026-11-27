@@ -1,10 +1,12 @@
 ---
-title: data/nx/chr
+title: chr
 layout: default
-parent: data/nx
-grand_parent: data
+parent: nx-ps4/
+grand_parent: data/
 ---
 
-# data/nx/chr
+# chr
 
-This directory contains the texture for all of the chr models in the game. There are a lot of IDs, so they won't be listed here, but you can find the list of IDs in the Modding Resources section [here](../../../../modding-resources/character-ids/ykw4-character-ids.html).
+This folder contains the textures applied to every chr model.
+
+A full list of IDs for this folder can be found at [this game's ParamID page](https://ykw-modding.github.io/yo-docs/modding-resources/param-ids/yw4-param-ids.html).
