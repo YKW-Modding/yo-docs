@@ -1,5 +1,5 @@
 ---
-title: YO-KAI WATCH 4 RomFS Legend
+title: YO-KAI WATCH 4++ RomFS Legend
 layout: default
 has_children: true
 parent: RomFS Legend
