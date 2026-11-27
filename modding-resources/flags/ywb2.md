@@ -1888,22 +1888,22 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x61EBB71C | 2081 | - | - |
 | 0x16EC878A | 2082 | - | - |
 | 0xBC46986F | 2084 | - | - |
-| 0x0764C128 (0x764C128) | 2085 | - | - |
-| 0x3552A3AA | 2086 | - | - |
+| 0x0764C128 (0x764C128) | 2085 | - | `get_flg_y134000` |
+| 0x3552A3AA | 2086 | - | `get_flg_y134020` |
 | 0x7D474489 | 2087 | - | - |
-| 0x8B4E6A04 | 2088 | - | - |
-| 0xB9780886 | 2089 | - | - |
+| 0x8B4E6A04 | 2088 | - | `get_flg_y221000` |
+| 0xB9780886 | 2089 | - | `get_flg_y221020` |
 | 0xCB260C3E | 2090 | - | - |
 | 0xE319F47D | 2091 | - | - |
 | 0xCCCC7223 | 2092 | - | - |
 | 0xADBB0BFA | 2093 | - | - |
 | 0x3FFECEE2 | 2094 | - | - |
-| 0xA229F65B | 2095 | - | - |
+| 0xA229F65B | 2095 | - | `get_flg_y474000` |
 | 0x1C090F17 | 2096 | - | - |
 | 0x9857C158 | 2097 | - | - |
 | 0x20EBA63D | 2098 | - | - |
 | 0xA68BB43D | 2099 | - | - |
-| 0x0B6802AB (0xB6802AB) | 2100 | - | - |
+| 0x0B6802AB (0xB6802AB) | 2100 | - | `get_flg_y767000` |
 | 0xA629E017 | 2101 | - | - |
 | 0xB49C4FF9 | 2102 | - | - |
 | 0x91F71025 | 2103 | - | - |
@@ -3281,34 +3281,34 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x40617A64 | 3890 | - | - |
 | 0xD9682BDE | 3891 | - | - |
 | 0x5DF24127 | 3899 | - | `ev51_9110` |
-| 0x07DDD67E (0x7DDD67E) | 3947 | - | - |
-| 0x9ED487C4 | 3948 | - | - |
-| 0xE9D3B752 | 3949 | - | - |
-| 0x77B722F1 | 3950 | - | - |
-| 0x00B01267 (0xB01267) | 3951 | - | - |
-| 0x99B943DD | 3952 | - | - |
-| 0xEEBE734B | 3953 | - | - |
-| 0x7E016EDA | 3954 | - | - |
-| 0x09065E4C (0x9065E4C) | 3955 | - | - |
-| 0x69C1D7A9 | 3956 | - | - |
-| 0x1EC6E73F | 3957 | - | - |
-| 0x87CFB685 | 3958 | - | - |
-| 0xF0C88613 | 3959 | - | - |
-| 0x6EAC13B0 | 3960 | - | - |
-| 0x19AB2326 | 3961 | - | - |
-| 0x80A2729C | 3962 | - | - |
-| 0xF7A5420A | 3963 | - | - |
-| 0x671A5F9B | 3964 | - | - |
-| 0x101D6F0D | 3965 | - | - |
-| 0x42EC846A | 3966 | - | - |
-| 0x35EBB4FC | 3967 | - | - |
-| 0xACE2E546 | 3975 | - | - |
-| 0xDBE5D5D0 | 3976 | - | - |
-| 0x45814073 | 3977 | - | - |
-| 0x328670E5 | 3978 | - | - |
-| 0xAB8F215F | 3979 | - | - |
-| 0xDC8811C9 | 3980 | - | - |
-| 0x4C370C58 | 3981 | - | - |
+| 0x07DDD67E (0x7DDD67E) | 3947 | - | `regist_flg_001` |
+| 0x9ED487C4 | 3948 | - | `regist_flg_002` |
+| 0xE9D3B752 | 3949 | - | `regist_flg_003` |
+| 0x77B722F1 | 3950 | - | `regist_flg_004` |
+| 0x00B01267 (0xB01267) | 3951 | - | `regist_flg_005` |
+| 0x99B943DD | 3952 | - | `regist_flg_006` |
+| 0xEEBE734B | 3953 | - | `regist_flg_007` |
+| 0x7E016EDA | 3954 | - | `regist_flg_008` |
+| 0x09065E4C (0x9065E4C) | 3955 | - | `regist_flg_009` |
+| 0x69C1D7A9 | 3956 | - | `regist_flg_010` |
+| 0x1EC6E73F | 3957 | - | `regist_flg_011` |
+| 0x87CFB685 | 3958 | - | `regist_flg_012` |
+| 0xF0C88613 | 3959 | - | `regist_flg_013` |
+| 0x6EAC13B0 | 3960 | - | `regist_flg_014` |
+| 0x19AB2326 | 3961 | - | `regist_flg_015` |
+| 0x80A2729C | 3962 | - | `regist_flg_016` |
+| 0xF7A5420A | 3963 | - | `regist_flg_017` |
+| 0x671A5F9B | 3964 | - | `regist_flg_018` |
+| 0x101D6F0D | 3965 | - | `regist_flg_019` |
+| 0x42EC846A | 3966 | - | `regist_flg_020` |
+| 0x35EBB4FC | 3967 | - | `regist_flg_021` |
+| 0xACE2E546 | 3975 | - | `regist_flg_022` |
+| 0xDBE5D5D0 | 3976 | - | `regist_flg_023` |
+| 0x45814073 | 3977 | - | `regist_flg_024` |
+| 0x328670E5 | 3978 | - | `regist_flg_025` |
+| 0xAB8F215F | 3979 | - | `regist_flg_026` |
+| 0xDC8811C9 | 3980 | - | `regist_flg_027` |
+| 0x4C370C58 | 3981 | - | `regist_flg_028` |
 | 0x2E3EB9D8 | 3995 | - | - |
 | 0xF50F1B53 | 3996 | - | - |
 | 0xBA401561 | 3997 | - | - |
@@ -3552,7 +3552,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9949EFF9 | 88 | - | `bad_boy_b_usa` |
 | 0xCFB3C384 | 89 | - | - |
 | 0x85177784 | 90 | - | `shpN125_15` |
-| 0x97671A6A | 99 | - | - |
+| 0x97671A6A | 99 | - | `sub_mission_clear_count` |
 | 0x5ED0A9CE | 100 | - | - |
 | 0xC7D9F874 | 101 | - | - |
 | 0xB0DEC8E2 | 102 | - | - |
@@ -3568,7 +3568,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x63DF8F1D | 112 | - | - |
 | 0xFAD6DEA7 | 113 | - | - |
 | 0x8DD1EE31 | 114 | - | - |
-| 0x34943666 | 115 | - | - |
+| 0x34943666 | 115 | - | `sub_mission_daily_count` |
 | 0xDF0B0383 | 121 | - | `ev_branch_01` |
 | 0x46025239 | 122 | - | `ev_branch_02` |
 | 0x310562AF | 123 | - | `ev_branch_03` |
@@ -3914,11 +3914,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9C084E0E | 586 | - | - |
 | 0xE4B45B9C | 587 | - | - |
 | 0x79A94917 | 588 | - | - |
-| 0xC4E5A702 | 590 | - | - |
-| 0x5DECF6B8 | 591 | - | - |
-| 0x2AEBC62E | 592 | - | - |
-| 0xB48F538D | 593 | - | - |
-| 0x73F387C4 | 595 | - | - |
+| 0xC4E5A702 | 590 | - | `sub_mission_change_day_1` |
+| 0x5DECF6B8 | 591 | - | `sub_mission_change_day_2` |
+| 0x2AEBC62E | 592 | - | `sub_mission_change_day_3` |
+| 0xB48F538D | 593 | - | `sub_mission_change_day_4` |
+| 0x73F387C4 | 595 | - | `sub_mission_count_day` |
 | 0xD8223CEF | 599 | - | - |
 | 0xCC00FDCC | 600 | - | - |
 | 0x77390382 | 601 | - | - |
@@ -4487,7 +4487,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2C604DE4 | 24 | - | - |
 | 0x16C878BE | 25 | - | - |
 | 0x53F48A0B | 26 | - | - |
-| 0xEDD47347 | 27 | - | - |
+| 0xEDD47347 | 27 | - | `day_flg_y474000` |
 | 0x32BAC195 | 28 | - | - |
 | 0x84DB8922 | 29 | - | - |
 | 0x48994434 | 30 | - | - |
