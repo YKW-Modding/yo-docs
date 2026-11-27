@@ -9,7 +9,7 @@ grand_parent: YO-KAI WATCH 4++ RomFS Legend
 # nx-ps4/
 
 This folder contains every texture. The folder contains:
-* `chr/` - Textures applied to the chr models.
+* `chr` - Textures applied to the chr models.
 * `effect/` - Textures applied to various effect types.
 * `event/` - Textures applied to special items in events.
 * `font/` - Textures applied to different fonts.
