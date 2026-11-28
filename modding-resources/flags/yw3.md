@@ -1978,29 +1978,29 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2E8AF00C | 2066 | - | `combine_85` |
 | 0xB783A1B6 | 2067 | - | `combine_86` |
 | 0xC0849120 | 2068 | - | `combine_87` |
-| 0x84E69E77 | 2069 | - | - |
-| 0xF3E1AEE1 | 2070 | - | - |
-| 0x6AE8FF5B | 2071 | - | - |
-| 0x1DEFCFCD | 2072 | - | - |
-| 0x838B5A6E | 2073 | - | - |
-| 0xF48C6AF8 | 2074 | - | - |
-| 0x6D853B42 | 2075 | - | - |
-| 0x1A820BD4 | 2076 | - | - |
-| 0x8A3D1645 | 2077 | - | - |
-| 0xFD3A26D3 | 2078 | - | - |
-| 0x9DFDAF36 | 2079 | - | - |
-| 0xEAFA9FA0 | 2080 | - | - |
-| 0x73F3CE1A | 2081 | - | - |
-| 0x04F4FE8C (0x4F4FE8C) | 2082 | - | - |
-| 0x9A906B2F | 2083 | - | - |
-| 0xED975BB9 | 2084 | - | - |
-| 0x749E0A03 | 2085 | - | - |
-| 0x03993A95 (0x3993A95) | 2086 | - | - |
-| 0x93262704 | 2087 | - | - |
-| 0xE4211792 | 2088 | - | - |
-| 0xB6D0FCF5 | 2089 | - | - |
-| 0xC1D7CC63 | 2090 | - | - |
-| 0x58DE9DD9 | 2091 | - | - |
+| 0x84E69E77 | 2069 | - | `combine_soul_000` |
+| 0xF3E1AEE1 | 2070 | - | `combine_soul_001` |
+| 0x6AE8FF5B | 2071 | - | `combine_soul_002` |
+| 0x1DEFCFCD | 2072 | - | `combine_soul_003` |
+| 0x838B5A6E | 2073 | - | `combine_soul_004` |
+| 0xF48C6AF8 | 2074 | - | `combine_soul_005` |
+| 0x6D853B42 | 2075 | - | `combine_soul_006` |
+| 0x1A820BD4 | 2076 | - | `combine_soul_007` |
+| 0x8A3D1645 | 2077 | - | `combine_soul_008` |
+| 0xFD3A26D3 | 2078 | - | `combine_soul_009` |
+| 0x9DFDAF36 | 2079 | - | `combine_soul_010` |
+| 0xEAFA9FA0 | 2080 | - | `combine_soul_011` |
+| 0x73F3CE1A | 2081 | - | `combine_soul_012` |
+| 0x04F4FE8C (0x4F4FE8C) | 2082 | - | `combine_soul_013` |
+| 0x9A906B2F | 2083 | - | `combine_soul_014` |
+| 0xED975BB9 | 2084 | - | `combine_soul_015` |
+| 0x749E0A03 | 2085 | - | `combine_soul_016` |
+| 0x03993A95 (0x3993A95) | 2086 | - | `combine_soul_017` |
+| 0x93262704 | 2087 | - | `combine_soul_018` |
+| 0xE4211792 | 2088 | - | `combine_soul_019` |
+| 0xB6D0FCF5 | 2089 | - | `combine_soul_020` |
+| 0xC1D7CC63 | 2090 | - | `combine_soul_021` |
+| 0x58DE9DD9 | 2091 | - | `combine_soul_022` |
 | 0x503B8CB1 | 2092 | - | `combine_88` |
 | 0x273CBC27 | 2093 | - | `combine_89` |
 | 0x8C13CEDD | 2101 | - | - |

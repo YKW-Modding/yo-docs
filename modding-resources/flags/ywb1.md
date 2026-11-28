@@ -736,27 +736,27 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9292C26A             | 1559 | Checks if Feargus has been fused. | `combine_59` |
 | 0xC063290D             | 1560 | Checks if Scaremaiden has been fused. | `combine_60` |
 | 0xB764199B             | 1561 | Checks if Wrongnek has been fused. | `combine_61` |
-| 0x84E69E77             | 1571 | Checks if the Spiteful Soul has been made. | - |
-| 0xF3E1AEE1             | 1572 | Checks if the Serene Soul has been made. | - |
-| 0x6AE8FF5B             | 1573 | Checks if the Slick Soul has been made. | - |
-| 0x1DEFCFCD             | 1574 | Checks if the Sneaky Soul has been made. | - |
-| 0x838B5A6E             | 1575 | Checks if the Survivor Soul has been made. | - |
-| 0xF48C6AF8             | 1576 | Checks if the Sickly Soul has been made. | - |
-| 0x6D853B42             | 1577 | Checks if the Skillful Soul has been made. | - |
-| 0x1A820BD4             | 1578 | Checks if the Searing Soul has been made. | - |
-| 0x8A3D1645             | 1579 | Checks if the Sodden Soul has been made. | - |
-| 0xFD3A26D3             | 1580 | Checks if the Storm Soul has been made. | - |
-| 0x9DFDAF36             | 1581 | Checks if the Sprouting Soul has been made. | - |
-| 0xEAFA9FA0             | 1582 | Checks if the Snow Soul has been made. | - |
-| 0x73F3CE1A             | 1583 | Checks if the Squall Soul has been made. | - |
-| 0x04F4FE8C (0x4F4FE8C) | 1584 | Appears to be an old check for an unused fusion file where you could fuse a Goldy Bones Soul. | - |
-| 0x9A906B2F             | 1585 | Checks if the Unstoppable Soul has been made. | - |
-| 0xED975BB9             | 1586 | Checks if the Steel Soul has been made. | - |
-| 0x749E0A03             | 1587 | Checks if the Steadfast Soul has been made. | - |
-| 0x03993A95 (0x3993A95) | 1588 | Checks if the Spiky Soul has been made. | - |
-| 0x93262704             | 1589 | Checks if the Summoner's Soul has been made. | - |
-| 0xE4211792             | 1590 | Checks if the Selfless Soul has been made. | - |
-| 0xB6D0FCF5             | 1591 | Checks if the Superstar Soul has been made. | - |
+| 0x84E69E77             | 1571 | Checks if the Spiteful Soul has been made. | `combine_soul_000` |
+| 0xF3E1AEE1             | 1572 | Checks if the Serene Soul has been made. | `combine_soul_001` |
+| 0x6AE8FF5B             | 1573 | Checks if the Slick Soul has been made. | `combine_soul_002` |
+| 0x1DEFCFCD             | 1574 | Checks if the Sneaky Soul has been made. | `combine_soul_003` |
+| 0x838B5A6E             | 1575 | Checks if the Survivor Soul has been made. | `combine_soul_004` |
+| 0xF48C6AF8             | 1576 | Checks if the Sickly Soul has been made. | `combine_soul_005` |
+| 0x6D853B42             | 1577 | Checks if the Skillful Soul has been made. | `combine_soul_006` |
+| 0x1A820BD4             | 1578 | Checks if the Searing Soul has been made. | `combine_soul_007` |
+| 0x8A3D1645             | 1579 | Checks if the Sodden Soul has been made. | `combine_soul_008` |
+| 0xFD3A26D3             | 1580 | Checks if the Storm Soul has been made. | `combine_soul_009` |
+| 0x9DFDAF36             | 1581 | Checks if the Sprouting Soul has been made. | `combine_soul_010` |
+| 0xEAFA9FA0             | 1582 | Checks if the Snow Soul has been made. | `combine_soul_011` |
+| 0x73F3CE1A             | 1583 | Checks if the Squall Soul has been made. | `combine_soul_012` |
+| 0x04F4FE8C (0x4F4FE8C) | 1584 | Appears to be an old check for an unused fusion file where you could fuse a Goldy Bones Soul. | `combine_soul_013` |
+| 0x9A906B2F             | 1585 | Checks if the Unstoppable Soul has been made. | `combine_soul_014` |
+| 0xED975BB9             | 1586 | Checks if the Steel Soul has been made. | `combine_soul_015` |
+| 0x749E0A03             | 1587 | Checks if the Steadfast Soul has been made. | `combine_soul_016` |
+| 0x03993A95 (0x3993A95) | 1588 | Checks if the Spiky Soul has been made. | `combine_soul_017` |
+| 0x93262704             | 1589 | Checks if the Summoner's Soul has been made. | `combine_soul_018` |
+| 0xE4211792             | 1590 | Checks if the Selfless Soul has been made. | `combine_soul_019` |
+| 0xB6D0FCF5             | 1591 | Checks if the Superstar Soul has been made. | `combine_soul_020` |
 | 0xB18AEAF6             | 1595 | Checks if the password SE4TQR572X has been used. | - |
 | 0x2883BB4C             | 1596 | Checks if the password F8NAMZEV1C has been used. | - |
 | 0x5F848BDA             | 1597 | Checks if the password 65JQWZVVVH has been used. | - |

@@ -10,7 +10,8 @@ These will be sorted into the different types - with IDs in hex for convenience.
 The English names are from the YWB2 Fan Translation.
 
 ## Battle
-| JP Name    | EN Name              | $keyItemID     |
+
+| Japanese    | English              | $keyItemID     |
 | ---------- | -------------------- | ---------- |
 | チョコボー      | Chocobar             | 0x1E4DC8A4 |
 | うめおにぎり     | Plum Rice Ball       | 0x80295D07 |
@@ -55,6 +56,7 @@ The English names are from the YWB2 Fan Translation.
 | カチカチ玉      | Defender’s Orb       | 0xD1F986B5 |
 
 ## Consume
+
 | JP Name     | EN Name                   | $keyItemID |
 | ----------- | ------------------------- | ---------- |
 | 鉄のこけし       | Iron Doll                 | 0x94A84D8C |
@@ -342,8 +344,8 @@ The English names are from the YWB2 Fan Translation.
 | 妖気のつぶ       | Yo-ki Fragment            | 0x4864DFA6 |
 | 金のタマゴ       | Golden Egg                | 0xD16D8E1C |
 
-## Important
-(Key Items)
+## Important (Key Items)
+
 | JP Name     | EN Name                   | $keyItemID |
 | ----------- | ------------------------ | ---------- |
 | 妖怪マグナム      | Yo-kai Magnum            | 0xAA75D45C |
@@ -452,8 +454,7 @@ The English names are from the YWB2 Fan Translation.
 | 紅白まんじゅう     | Red/White Manju          | 0xABD3D2AE |
 | 刺身船盛り       | Boatload of Sashimi      | 0xDCD4E238 |
 
-## Flag Manage
-(Records and Songs)
+## Flag Manage (Records and Songs)
 
 | JP Name    | EN Name              | $keyItemID     |
 | ---------- | -------------------- | ---------- |
@@ -493,12 +494,14 @@ The English names are from the YWB2 Fan Translation.
 | うた吉レコード    | Lucky Song           | 0xB0694927 |
 
 ## Hidden Treasure
+
 | JP Name    | EN Name                 | $keyItemID |
 | ---------- | ----------------------- | ---------- |
 | アゲランクの秘宝 | Prestigio. Treasure | 0x14D04FE9 |
 | レベウプの秘宝 | Insightful Treasure | 0x8DD91E53 |
 
 ## Reform
+
 | JP Name    | EN Name                 | $keyItemID |
 | ---------- | ----------------------- | ---------- |
 | ふつうのキャンプ | Normal Camp | 0x112858C6 |
@@ -507,14 +510,14 @@ The English names are from the YWB2 Fan Translation.
 | フューチャーボーイ | Future Boy | 0x6142AC49 |
 
 ## Treasure Jewel
+
 | JP Name    | EN Name                 | $keyItemID |
 | ---------- | ----------------------- | ---------- |
 | トレジャージュエル（小） | Treasure Jewel (Small) | 0xD30D7F2C |
 | トレジャージュエル（中） | Treasure Jewel (Medium) | 0x4A042E96 |
 | トレジャージュエル（大） | Treasure Jewel (Large) | 0x3D031E00 |
 
-## Ogreball
-(Oni Orbs)
+## Ogreball (Oni Orbs)
 
 | JP Name    | EN Name                 | $keyItemID |
 | ---------- | ----------------------- | ---------- |
@@ -523,6 +526,7 @@ The English names are from the YWB2 Fan Translation.
 | 鬼玉赤（大） | Red Oni Orb (Large) | 0xB8DC1A11 |
 
 ## B-Yo-ki/B-Auras
+
 | JP Name  | EN Name                    | $keyItemID |
 | -------- | -------------------------- | ---------- |
 | 火のB妖気（小） | Fire B-Yo-ki (Small)       | 0xBB610C0  |
@@ -545,6 +549,7 @@ The English names are from the YWB2 Fan Translation.
 | 風のB妖気（大） | Wind B-Yo-ki (Large)       | 0x9656510D |
 
 ## Equipment
+
 | JP Name    | EN Name               | $keyItemID | enchant |
 | ---------- | --------------------- | ---------- | ------- |
 | 見習いの刀      | Apprentice Sword      | 0x18D34D8F | 10      |
