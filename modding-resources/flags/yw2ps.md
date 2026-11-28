@@ -30,7 +30,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2A329223 | 14 | Checks if the time of day is stopped. | `time_lock` |
 | 0x9FC6CB55 | 15 | Checks if sleeping is disabled. | `disable_time_sleep` |
 | 0x65D5B885 | 16 | Checks if Leadoni can lead you to a chest. | `exist_mitibiki_tbox` |
-| 0xF874059B | 17 | - | - |
+| 0xF874059B | 17 | - | `warp_mirror_release` |
 | 0xA5011B7E | 18 | Checks if crosswalk events are enabled. | `enable_cross_walk` |
 | 0xB443AA77 | 19 | Checks if Terror Time has been unlocked. | `enable_orge_time` |
 | 0x0B87DB54 (0xB87DB54) | 20 | Checks if Terror Time is active. | `in_orge_time` |
@@ -82,7 +82,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x22BEF6EF | 66 | Checks if the Yo-kai Spots app is unlocked. | `apps_y_spot_release` |
 | 0x1D0822F7 | 67 | Checks if the Medals app is unlocked. | `medal_release` |
 | 0x7F2211BC | 68 | Checks if the Medallium has been unlocked. | `dictionary_release` |
-| 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | - |
+| 0x066351C6 (0x66351C6) | 69 | Checks if the Yo-Criminals app is unlocked. | `enable_wanted` |
 | 0xE2B828E5 | 70 | Checks if the Critter Collection app is unlocked. | - |
 | 0x21EFC7C8 | 71 | Checks if the Music app is unlocked. | `apps_sound_release` |
 | 0xA68AEF18 | 72 | Checks if the Movies app is unlocked. | `apps_event_release` |
@@ -98,7 +98,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB42589B1 | 82 | - | - |
 | 0x187D3371 | 83 | - | - |
 | 0x7D2EC7B5 | 84 | - | - |
-| 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | - |
+| 0x5EDE5FB0 | 85 | Checks if you have fought players locally or online. | `vs_release` |
 | 0xAFF78D0C | 86 | - | - |
 | 0xAB5B9E4E | 87 | - | - |
 | 0x7FA66054 | 88 | Checks if you have completed the Music App. | `sound_comp_notice` |
@@ -228,7 +228,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x3B1481F8 | 213 | Checks if the story scene ev04_0100 has been seen. | `ev04_0100` |
 | 0x39523FA1 | 214 | Checks if the story scene ev04_0200 has been seen. | `ev04_0200` |
 | 0x38905596 | 215 | Checks if the story scene ev04_0300 has been seen. | `ev04_0300` |
-| 0x6CC8B62D | 216 | - | - |
+| 0x6CC8B62D | 216 | - | `ev04_manju` |
 | 0x3DDF4313 | 217 | Checks if the story scene ev04_0400 has been seen. | `ev04_0400` |
 | 0x40A8B756 | 218 | Checks if the story scene ev04_0450 has been seen. | `ev04_0450` |
 | 0x3C1D2924 | 219 | Checks if the story scene ev04_0500 has been seen. | `ev04_0500` |
@@ -395,7 +395,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4B5264F1 | 380 | Checks if the story scene ev10_5550 has been seen. | `ev10_5550` |
 | 0x34632EED | 381 | Checks if the story scene ev10_5600 has been seen. | `ev10_5600` |
 | 0xA42B6D21 | 382 | Checks if the story scene ev10_9990 has been seen. | `ev10_9990` |
-| 0x9C266F1D | 383 | - | - |
+| 0x9C266F1D | 383 | - | `ev04_save04` |
 | 0x13BD0655 | 384 | Checks if the story scene ev04_0330 has been seen. | `ev04_0330` |
 | 0x45E7A1D3 | 385 | Checks if the story scene ev04_0350 has been seen. | `ev04_0350` |
 | 0xDF7B0067 | 386 | Checks if the story scene ev02_0120 has been seen. | `ev02_0120` |
@@ -404,16 +404,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCDAE1BFF | 389 | Checks if the story scene ev11_0100 has been seen. | `ev11_0100` |
 | 0xCFE8A5A6 | 390 | Checks if the story scene ev11_0200 has been seen. | `ev11_0200` |
 | 0xCE2ACF91 | 391 | Checks if the story scene ev11_0300 has been seen. | `ev11_0300` |
-| 0x2A239215 | 392 | - | - |
-| 0xB32AC3AF | 393 | - | - |
-| 0xC42DF339 | 394 | - | - |
+| 0x2A239215 | 392 | - | `ev02_save01` |
+| 0xB32AC3AF | 393 | - | `ev02_save02` |
+| 0xC42DF339 | 394 | - | `ev02_save03` |
 | 0x7D4EFEF4 | 395 | Checks if the story scene ev10_0450 has been seen. | `ev10_0450` |
 | 0xF525C17F | 396 | Checks if the story scene ev10_4050 has been seen. | `ev10_4050` |
 | 0x9220DC27 | 397 | Checks if the story scene ev07_0730 has been seen. | `ev07_0730` |
 | 0xC47A7BA1 | 398 | Checks if the story scene ev07_0750 has been seen. | `ev07_0750` |
-| 0xEC4C9B92 | 399 | - | - |
-| 0x7545CA28 | 400 | - | - |
-| 0x0242FABE (0x242FABE) | 401 | - | - |
+| 0xEC4C9B92 | 399 | - | `ev04_save01` |
+| 0x7545CA28 | 400 | - | `ev04_save02` |
+| 0x0242FABE (0x242FABE) | 401 | - | `ev04_save03` |
 | 0xD7D6B395 | 402 | Checks if the story scene ev50_6100 has been seen. | `ev50_6100` |
 | 0xE6C3814C | 403 | Checks if the story scene ev50_3400 has been seen. | `ev50_3400` |
 | 0xE5475522 | 404 | Checks if the story scene ev50_3600 has been seen. | `ev50_3600` |
@@ -602,7 +602,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x03BF23DF (0x3BF23DF) | 587 | Checks if 13F at the Springdale Business Tower has been unlocked. | `office building_floor_13` |
 | 0x3B5A580B | 588 | - | - |
 | 0x66B60907 | 589 | - | - |
-| 0x9380A713 | 590 | - | - |
+| 0x9380A713 | 590 | - | `day_flg_x191000` |
 | 0x5E3694FC | 591 | - | - |
 | 0xC73FC546 | 592 | - | - |
 | 0x69E864CE | 593 | - | - |
@@ -649,15 +649,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA3E4A264 | 634 | Checks if the story scene mv_photo85/ev06_2250 has been seen. | `ev06_2250` |
 | 0xC3A8DE90 | 635 | Checks if the story scene ev50_5400 has been seen. | `ev50_5400` |
 | 0xCDAF963C | 636 | Checks if the story scene mv_photo86/ev10_0380 has been seen. | `ev10_0380` |
-| 0xC113488D | 637 | - | - |
-| 0xC0D122BA | 638 | - | - |
-| 0xC59E343F | 639 | - | - |
-| 0xC45C5E08 | 640 | - | - |
-| 0xC61AE051 | 641 | - | - |
-| 0xC7D88A66 | 642 | - | - |
-| 0xCC84CD5B | 643 | - | - |
-| 0xCD46A76C | 644 | - | - |
-| 0x7A2BFB86 | 645 | - | - |
+| 0xC113488D | 637 | - | `ev60_0200` |
+| 0xC0D122BA | 638 | - | `ev60_0300` |
+| 0xC59E343F | 639 | - | `ev60_0400` |
+| 0xC45C5E08 | 640 | - | `ev60_0500` |
+| 0xC61AE051 | 641 | - | `ev60_0600` |
+| 0xC7D88A66 | 642 | - | `ev60_0700` |
+| 0xCC84CD5B | 643 | - | `ev60_0800` |
+| 0xCD46A76C | 644 | - | `ev60_0900` |
+| 0x7A2BFB86 | 645 | - | `ev60_1000` |
 | 0x736913A3 | 646 | - | - |
 | 0x61DCBC4D | 647 | - | - |
 | 0xD960DB28 | 648 | - | - |
@@ -723,331 +723,331 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2A4F4CDE | 708 | - | - |
 | 0xE6E54C40 | 709 | - | - |
 | 0x9A08A489 | 710 | Checks if you have claimed your reward from Nokotopia's chief (Pandanoko) today. | `day_flg_y211010` |
-| 0x48E8BEC7 | 711 | - | - |
-| 0xD1E1EF7D | 712 | - | - |
-| 0xA6E6DFEB | 713 | - | - |
-| 0x38824A48 | 714 | - | - |
-| 0x4F857ADE | 715 | - | - |
-| 0xD68C2B64 | 716 | - | - |
-| 0xA18B1BF2 | 717 | - | - |
-| 0x31340663 | 718 | - | - |
-| 0x463336F5 | 719 | - | - |
-| 0x26F4BF10 | 720 | - | - |
-| 0x51F38F86 | 721 | - | - |
-| 0xC8FADE3C | 722 | - | - |
-| 0xBFFDEEAA | 723 | - | - |
-| 0x21997B09 | 724 | - | - |
-| 0x569E4B9F | 725 | - | - |
-| 0xCF971A25 | 726 | - | - |
-| 0xB8902AB3 | 727 | - | - |
-| 0x282F3722 | 728 | - | - |
-| 0x5F2807B4 | 729 | - | - |
-| 0x0DD9ECD3 (0xDD9ECD3) | 730 | - | - |
-| 0x7ADEDC45 | 731 | - | - |
-| 0xE3D78DFF | 732 | - | - |
-| 0x94D0BD69 | 733 | - | - |
-| 0x0AB428CA (0xAB428CA) | 734 | - | - |
-| 0x7DB3185C | 735 | - | - |
-| 0xE4BA49E6 | 736 | - | - |
-| 0x93BD7970 | 737 | - | - |
-| 0x030264E1 (0x30264E1) | 738 | - | - |
-| 0x74055477 | 739 | - | - |
-| 0x14C2DD92 | 740 | - | - |
-| 0x81798581 | 741 | - | - |
-| 0xFACCBCBE | 742 | - | - |
-| 0x8DCB8C28 | 743 | - | - |
-| 0x13AF198B | 744 | - | - |
-| 0x64A8291D | 745 | - | - |
-| 0xFDA178A7 | 746 | - | - |
-| 0x8AA64831 | 747 | - | - |
-| 0x1A1955A0 | 748 | - | - |
-| 0x6D1E6536 | 749 | - | - |
-| 0x5B834B55 | 750 | - | - |
-| 0x2C847BC3 | 751 | - | - |
-| 0xB58D2A79 | 752 | - | - |
-| 0xC28A1AEF | 753 | - | - |
-| 0x5CEE8F4C | 754 | - | - |
-| 0x2BE9BFDA | 755 | - | - |
-| 0xB2E0EE60 | 756 | - | - |
-| 0xC5E7DEF6 | 757 | - | - |
-| 0x5558C367 | 758 | - | - |
-| 0x225FF3F1 | 759 | - | - |
-| 0x42987A14 | 760 | - | - |
-| 0x359F4A82 | 761 | - | - |
-| 0xAC961B38 | 762 | - | - |
-| 0xDB912BAE | 763 | - | - |
-| 0xAA54D642 | 764 | - | - |
-| 0x32F28E9B | 765 | - | - |
-| 0xB34FE703 | 766 | - | - |
-| 0xDCFCEFB7 | 767 | - | - |
-| 0x4C43F226 | 768 | - | - |
-| 0x3B44C2B0 | 769 | - | - |
-| 0x69B529D7 | 770 | - | - |
-| 0x1EB21941 | 771 | - | - |
-| 0x87BB48FB | 772 | - | - |
-| 0xF0BC786D | 773 | - | - |
-| 0x6ED8EDCE | 774 | - | - |
-| 0x19DFDD58 | 775 | - | - |
-| 0x80D68CE2 | 776 | - | - |
-| 0xF7D1BC74 | 777 | - | - |
-| 0x676EA1E5 | 778 | - | - |
-| 0x10699173 | 779 | - | - |
-| 0x70AE1896 | 780 | - | - |
-| 0x07A92800 (0x7A92800) | 781 | - | - |
-| 0x9EA079BA | 782 | - | - |
-| 0xE9A7492C | 783 | - | - |
-| 0x77C3DC8F | 784 | - | - |
-| 0x00C4EC19 (0xC4EC19) | 785 | - | - |
-| 0x99CDBDA3 | 786 | - | - |
-| 0xEECA8D35 | 787 | - | - |
-| 0xFC0E71C4 | 788 | - | - |
-| 0xE5154085 | 789 | - | - |
-| 0xCE381346 | 790 | - | - |
-| 0x803134CF | 791 | - | - |
-| 0x19386575 | 792 | - | - |
-| 0x6E3F55E3 | 793 | - | - |
-| 0xF05BC040 | 794 | - | - |
-| 0x875CF0D6 | 795 | - | - |
-| 0x1E55A16C | 796 | - | - |
-| 0x695291FA | 797 | - | - |
-| 0xD7232207 | 798 | - | - |
-| 0x50BB3EC8 | 799 | - | - |
-| 0x49A00F89 | 800 | - | - |
-| 0x992A058E | 801 | - | - |
-| 0x00235434 (0x235434) | 802 | - | - |
-| 0x772464A2 | 803 | - | - |
-| 0xE940F101 | 804 | - | - |
-| 0x9E47C197 | 805 | - | - |
-| 0x074E902D (0x74E902D) | 806 | - | - |
-| 0x7049A0BB | 807 | - | - |
-| 0xE0F6BD2A | 808 | - | - |
-| 0x97F18DBC | 809 | - | - |
-| 0x3E2DE466 | 810 | - | - |
-| 0x492AD4F0 | 811 | - | - |
-| 0xD023854A | 812 | - | - |
-| 0xA724B5DC | 813 | - | - |
-| 0x3940207F | 814 | - | - |
-| 0x4E4710E9 | 815 | - | - |
-| 0xD74E4153 | 816 | - | - |
-| 0xA04971C5 | 817 | - | - |
-| 0x30F66C54 | 818 | - | - |
-| 0x47F15CC2 | 819 | - | - |
-| 0x2736D527 | 820 | - | - |
-| 0x5031E5B1 | 821 | - | - |
-| 0xC938B40B | 822 | - | - |
-| 0xBE3F849D | 823 | - | - |
-| 0x205B113E | 824 | - | - |
-| 0x575C21A8 | 825 | - | - |
-| 0xCE557012 | 826 | - | - |
-| 0x99A0DEF7 | 827 | - | - |
-| 0x80BBEFB6 | 828 | - | - |
-| 0xAB96BC75 | 829 | - | - |
-| 0xB28D8D34 | 830 | - | - |
-| 0x7B1CB672 | 831 | - | - |
-| 0xE215E7C8 | 832 | - | - |
-| 0x9512D75E | 833 | - | - |
-| 0x0B7642FD (0xB7642FD) | 834 | - | - |
-| 0x7C71726B | 835 | - | - |
-| 0xE57823D1 | 836 | - | - |
-| 0x927F1347 | 837 | - | - |
-| 0x02C00ED6 (0x2C00ED6) | 838 | - | - |
-| 0x75C73E40 | 839 | - | - |
-| 0x1500B7A5 | 840 | - | - |
+| 0x48E8BEC7 | 711 | - | `yspot_find_001` |
+| 0xD1E1EF7D | 712 | - | `yspot_find_002` |
+| 0xA6E6DFEB | 713 | - | `yspot_find_003` |
+| 0x38824A48 | 714 | - | `yspot_find_004` |
+| 0x4F857ADE | 715 | - | `yspot_find_005` |
+| 0xD68C2B64 | 716 | - | `yspot_find_006` |
+| 0xA18B1BF2 | 717 | - | `yspot_find_007` |
+| 0x31340663 | 718 | - | `yspot_find_008` |
+| 0x463336F5 | 719 | - | `yspot_find_009` |
+| 0x26F4BF10 | 720 | - | `yspot_find_010` |
+| 0x51F38F86 | 721 | - | `yspot_find_011` |
+| 0xC8FADE3C | 722 | - | `yspot_find_012` |
+| 0xBFFDEEAA | 723 | - | `yspot_find_013` |
+| 0x21997B09 | 724 | - | `yspot_find_014` |
+| 0x569E4B9F | 725 | - | `yspot_find_015` |
+| 0xCF971A25 | 726 | - | `yspot_find_016` |
+| 0xB8902AB3 | 727 | - | `yspot_find_017` |
+| 0x282F3722 | 728 | - | `yspot_find_018` |
+| 0x5F2807B4 | 729 | - | `yspot_find_019` |
+| 0x0DD9ECD3 (0xDD9ECD3) | 730 | - | `yspot_find_020` |
+| 0x7ADEDC45 | 731 | - | `yspot_find_021` |
+| 0xE3D78DFF | 732 | - | `yspot_find_022` |
+| 0x94D0BD69 | 733 | - | `yspot_find_023` |
+| 0x0AB428CA (0xAB428CA) | 734 | - | `yspot_find_024` |
+| 0x7DB3185C | 735 | - | `yspot_find_025` |
+| 0xE4BA49E6 | 736 | - | `yspot_find_026` |
+| 0x93BD7970 | 737 | - | `yspot_find_027` |
+| 0x030264E1 (0x30264E1) | 738 | - | `yspot_find_028` |
+| 0x74055477 | 739 | - | `yspot_find_029` |
+| 0x14C2DD92 | 740 | - | `yspot_find_030` |
+| 0x81798581 | 741 | - | `ev71_5010` |
+| 0xFACCBCBE | 742 | - | `yspot_find_032` |
+| 0x8DCB8C28 | 743 | - | `yspot_find_033` |
+| 0x13AF198B | 744 | - | `yspot_find_034` |
+| 0x64A8291D | 745 | - | `yspot_find_035` |
+| 0xFDA178A7 | 746 | - | `yspot_find_036` |
+| 0x8AA64831 | 747 | - | `yspot_find_037` |
+| 0x1A1955A0 | 748 | - | `yspot_find_038` |
+| 0x6D1E6536 | 749 | - | `yspot_find_039` |
+| 0x5B834B55 | 750 | - | `yspot_find_040` |
+| 0x2C847BC3 | 751 | - | `yspot_find_041` |
+| 0xB58D2A79 | 752 | - | `yspot_find_042` |
+| 0xC28A1AEF | 753 | - | `yspot_find_043` |
+| 0x5CEE8F4C | 754 | - | `yspot_find_044` |
+| 0x2BE9BFDA | 755 | - | `yspot_find_045` |
+| 0xB2E0EE60 | 756 | - | `yspot_find_046` |
+| 0xC5E7DEF6 | 757 | - | `yspot_find_047` |
+| 0x5558C367 | 758 | - | `yspot_find_048` |
+| 0x225FF3F1 | 759 | - | `yspot_find_049` |
+| 0x42987A14 | 760 | - | `yspot_find_050` |
+| 0x359F4A82 | 761 | - | `yspot_find_051` |
+| 0xAC961B38 | 762 | - | `yspot_find_052` |
+| 0xDB912BAE | 763 | - | `yspot_find_053` |
+| 0xAA54D642 | 764 | - | `ev71_5020` |
+| 0x32F28E9B | 765 | - | `yspot_find_055` |
+| 0xB34FE703 | 766 | - | `ev71_5030` |
+| 0xDCFCEFB7 | 767 | - | `yspot_find_057` |
+| 0x4C43F226 | 768 | - | `yspot_find_058` |
+| 0x3B44C2B0 | 769 | - | `yspot_find_059` |
+| 0x69B529D7 | 770 | - | `yspot_find_060` |
+| 0x1EB21941 | 771 | - | `yspot_find_061` |
+| 0x87BB48FB | 772 | - | `yspot_find_062` |
+| 0xF0BC786D | 773 | - | `yspot_find_063` |
+| 0x6ED8EDCE | 774 | - | `yspot_find_064` |
+| 0x19DFDD58 | 775 | - | `yspot_find_065` |
+| 0x80D68CE2 | 776 | - | `yspot_find_066` |
+| 0xF7D1BC74 | 777 | - | `yspot_find_067` |
+| 0x676EA1E5 | 778 | - | `yspot_find_068` |
+| 0x10699173 | 779 | - | `yspot_find_069` |
+| 0x70AE1896 | 780 | - | `yspot_find_070` |
+| 0x07A92800 (0x7A92800) | 781 | - | `yspot_find_071` |
+| 0x9EA079BA | 782 | - | `yspot_find_072` |
+| 0xE9A7492C | 783 | - | `yspot_find_073` |
+| 0x77C3DC8F | 784 | - | `yspot_find_074` |
+| 0x00C4EC19 (0xC4EC19) | 785 | - | `yspot_find_075` |
+| 0x99CDBDA3 | 786 | - | `yspot_find_076` |
+| 0xEECA8D35 | 787 | - | `yspot_find_077` |
+| 0xFC0E71C4 | 788 | - | `ev71_5040` |
+| 0xE5154085 | 789 | - | `ev71_5050` |
+| 0xCE381346 | 790 | - | `ev71_5060` |
+| 0x803134CF | 791 | - | `yspot_find_081` |
+| 0x19386575 | 792 | - | `yspot_find_082` |
+| 0x6E3F55E3 | 793 | - | `yspot_find_083` |
+| 0xF05BC040 | 794 | - | `yspot_find_084` |
+| 0x875CF0D6 | 795 | - | `yspot_find_085` |
+| 0x1E55A16C | 796 | - | `yspot_find_086` |
+| 0x695291FA | 797 | - | `yspot_find_087` |
+| 0xD7232207 | 798 | - | `ev71_5070` |
+| 0x50BB3EC8 | 799 | - | `ev71_5080` |
+| 0x49A00F89 | 800 | - | `ev71_5090` |
+| 0x992A058E | 801 | - | `yspot_find_091` |
+| 0x00235434 (0x235434) | 802 | - | `yspot_find_092` |
+| 0x772464A2 | 803 | - | `yspot_find_093` |
+| 0xE940F101 | 804 | - | `yspot_find_094` |
+| 0x9E47C197 | 805 | - | `yspot_find_095` |
+| 0x074E902D (0x74E902D) | 806 | - | `yspot_find_096` |
+| 0x7049A0BB | 807 | - | `yspot_find_097` |
+| 0xE0F6BD2A | 808 | - | `yspot_find_098` |
+| 0x97F18DBC | 809 | - | `yspot_find_099` |
+| 0x3E2DE466 | 810 | - | `yspot_find_100` |
+| 0x492AD4F0 | 811 | - | `yspot_find_101` |
+| 0xD023854A | 812 | - | `yspot_find_102` |
+| 0xA724B5DC | 813 | - | `yspot_find_103` |
+| 0x3940207F | 814 | - | `yspot_find_104` |
+| 0x4E4710E9 | 815 | - | `yspot_find_105` |
+| 0xD74E4153 | 816 | - | `yspot_find_106` |
+| 0xA04971C5 | 817 | - | `yspot_find_107` |
+| 0x30F66C54 | 818 | - | `yspot_find_108` |
+| 0x47F15CC2 | 819 | - | `yspot_find_109` |
+| 0x2736D527 | 820 | - | `yspot_find_110` |
+| 0x5031E5B1 | 821 | - | `yspot_find_111` |
+| 0xC938B40B | 822 | - | `yspot_find_112` |
+| 0xBE3F849D | 823 | - | `yspot_find_113` |
+| 0x205B113E | 824 | - | `yspot_find_114` |
+| 0x575C21A8 | 825 | - | `yspot_find_115` |
+| 0xCE557012 | 826 | - | `yspot_find_116` |
+| 0x99A0DEF7 | 827 | - | `ev71_5100` |
+| 0x80BBEFB6 | 828 | - | `ev71_5110` |
+| 0xAB96BC75 | 829 | - | `ev71_5120` |
+| 0xB28D8D34 | 830 | - | `ev71_5130` |
+| 0x7B1CB672 | 831 | - | `yspot_find_121` |
+| 0xE215E7C8 | 832 | - | `yspot_find_122` |
+| 0x9512D75E | 833 | - | `yspot_find_123` |
+| 0x0B7642FD (0xB7642FD) | 834 | - | `yspot_find_124` |
+| 0x7C71726B | 835 | - | `yspot_find_125` |
+| 0xE57823D1 | 836 | - | `yspot_find_126` |
+| 0x927F1347 | 837 | - | `yspot_find_127` |
+| 0x02C00ED6 (0x2C00ED6) | 838 | - | `yspot_find_128` |
+| 0x75C73E40 | 839 | - | `yspot_find_129` |
+| 0x1500B7A5 | 840 | - | `yspot_find_130` |
 | 0x5FBD8C1E | 841 | Checks if the story scene mv_photo88/ev50_2500 has been seen. | `ev50_2500` |
 | 0x46A6BD5F | 842 | Checks if the story scene mv_photo89/ev50_2510 has been seen. | `ev50_2510` |
 | 0x6D8BEE9C | 843 | Checks if the story scene mv_photo90/ev50_2520 has been seen. | `ev50_2520` |
 | 0x7490DFDD | 844 | Checks if the story scene mv_photo91/ev50_2530 has been seen. | `ev50_2530` |
 | 0x3BD1491A | 845 | Checks if the story scene mv_photo92/ev50_2540 has been seen. | `ev50_2540` |
-| 0x20190D1F | 846 | - | - |
-| 0xB9105CA5 | 847 | - | - |
-| 0xCE176C33 | 848 | - | - |
-| 0x5073F990 | 849 | - | - |
-| 0x2774C906 | 850 | - | - |
-| 0xBE7D98BC | 851 | - | - |
-| 0xC97AA82A | 852 | - | - |
-| 0x59C5B5BB | 853 | - | - |
-| 0x2EC2852D | 854 | - | - |
-| 0x4E050CC8 | 855 | - | - |
-| 0x39023C5E | 856 | - | - |
-| 0xA00B6DE4 | 857 | - | - |
-| 0xD70C5D72 | 858 | - | - |
-| 0x4968C8D1 | 859 | - | - |
-| 0x3E6FF847 | 860 | - | - |
-| 0xA766A9FD | 861 | - | - |
-| 0xD061996B | 862 | - | - |
-| 0x40DE84FA | 863 | - | - |
-| 0x37D9B46C | 864 | - | - |
-| 0x65285F0B | 865 | - | - |
-| 0x122F6F9D | 866 | - | - |
-| 0x8B263E27 | 867 | - | - |
-| 0xFC210EB1 | 868 | - | - |
-| 0x62459B12 | 869 | - | - |
-| 0x1542AB84 | 870 | - | - |
-| 0x8C4BFA3E | 871 | - | - |
-| 0xFB4CCAA8 | 872 | - | - |
-| 0x6BF3D739 | 873 | - | - |
-| 0x1CF4E7AF | 874 | - | - |
-| 0x7C336E4A | 875 | - | - |
-| 0xFDCC1BF3 | 876 | - | - |
-| 0x923D0F66 | 877 | - | - |
-| 0xE53A3FF0 | 878 | - | - |
-| 0x7B5EAA53 | 879 | - | - |
-| 0x0C599AC5 (0xC599AC5) | 880 | - | - |
-| 0x9550CB7F | 881 | - | - |
-| 0xE257FBE9 | 882 | - | - |
-| 0x72E8E678 | 883 | - | - |
-| 0x05EFD6EE (0x5EFD6EE) | 884 | - | - |
-| 0x3372F88D | 885 | - | - |
-| 0x4475C81B | 886 | - | - |
-| 0xDD7C99A1 | 887 | - | - |
-| 0xAA7BA937 | 888 | - | - |
-| 0x341F3C94 | 889 | - | - |
-| 0x43180C02 | 890 | - | - |
-| 0xDA115DB8 | 891 | - | - |
-| 0xAD166D2E | 892 | - | - |
-| 0x3DA970BF | 893 | - | - |
-| 0x4AAE4029 | 894 | - | - |
-| 0x2A69C9CC | 895 | - | - |
-| 0x5D6EF95A | 896 | - | - |
-| 0xC467A8E0 | 897 | - | - |
-| 0xB3609876 | 898 | - | - |
-| 0xE4D72AB2 | 899 | - | - |
-| 0xCFFA7971 | 900 | - | - |
-| 0xD6E14830 | 901 | - | - |
-| 0xB40D5C6F | 902 | - | - |
-| 0x24B241FE | 903 | - | - |
-| 0x53B57168 | 904 | - | - |
-| 0x01449A0F (0x1449A0F) | 905 | - | - |
-| 0x7643AA99 | 906 | - | - |
-| 0xEF4AFB23 | 907 | - | - |
-| 0x984DCBB5 | 908 | - | - |
-| 0x06295E16 (0x6295E16) | 909 | - | - |
-| 0x712E6E80 | 910 | - | - |
-| 0xE8273F3A | 911 | - | - |
-| 0x9F200FAC | 912 | - | - |
-| 0x0F9F123D (0xF9F123D) | 913 | - | - |
-| 0x789822AB | 914 | - | - |
-| 0x185FAB4E | 915 | - | - |
-| 0x6F589BD8 | 916 | - | - |
-| 0xF651CA62 | 917 | - | - |
-| 0x8156FAF4 | 918 | - | - |
-| 0x1F326F57 | 919 | - | - |
-| 0x68355FC1 | 920 | - | - |
-| 0xF13C0E7B | 921 | - | - |
-| 0x863B3EED | 922 | - | - |
-| 0x517954FF | 923 | - | - |
-| 0x486265BE | 924 | - | - |
-| 0x9BE660AE | 925 | - | - |
-| 0xE8C08717 | 926 | - | - |
-| 0x71C9D6AD | 927 | - | - |
-| 0x06CEE63B (0x6CEE63B) | 928 | - | - |
-| 0x98AA7398 | 929 | - | - |
-| 0xEFAD430E | 930 | - | - |
-| 0x76A412B4 | 931 | - | - |
-| 0x01A32222 (0x1A32222) | 932 | - | - |
+| 0x20190D1F | 846 | - | `yspot_end_001` |
+| 0xB9105CA5 | 847 | - | `yspot_end_002` |
+| 0xCE176C33 | 848 | - | `yspot_end_003` |
+| 0x5073F990 | 849 | - | `yspot_end_004` |
+| 0x2774C906 | 850 | - | `yspot_end_005` |
+| 0xBE7D98BC | 851 | - | `yspot_end_006` |
+| 0xC97AA82A | 852 | - | `yspot_end_007` |
+| 0x59C5B5BB | 853 | - | `yspot_end_008` |
+| 0x2EC2852D | 854 | - | `yspot_end_009` |
+| 0x4E050CC8 | 855 | - | `yspot_end_010` |
+| 0x39023C5E | 856 | - | `yspot_end_011` |
+| 0xA00B6DE4 | 857 | - | `yspot_end_012` |
+| 0xD70C5D72 | 858 | - | `yspot_end_013` |
+| 0x4968C8D1 | 859 | - | `yspot_end_014` |
+| 0x3E6FF847 | 860 | - | `yspot_end_015` |
+| 0xA766A9FD | 861 | - | `yspot_end_016` |
+| 0xD061996B | 862 | - | `yspot_end_017` |
+| 0x40DE84FA | 863 | - | `yspot_end_018` |
+| 0x37D9B46C | 864 | - | `yspot_end_019` |
+| 0x65285F0B | 865 | - | `yspot_end_020` |
+| 0x122F6F9D | 866 | - | `yspot_end_021` |
+| 0x8B263E27 | 867 | - | `yspot_end_022` |
+| 0xFC210EB1 | 868 | - | `yspot_end_023` |
+| 0x62459B12 | 869 | - | `yspot_end_024` |
+| 0x1542AB84 | 870 | - | `yspot_end_025` |
+| 0x8C4BFA3E | 871 | - | `yspot_end_026` |
+| 0xFB4CCAA8 | 872 | - | `yspot_end_027` |
+| 0x6BF3D739 | 873 | - | `yspot_end_028` |
+| 0x1CF4E7AF | 874 | - | `yspot_end_029` |
+| 0x7C336E4A | 875 | - | `yspot_end_030` |
+| 0xFDCC1BF3 | 876 | - | `ev71_5140` |
+| 0x923D0F66 | 877 | - | `yspot_end_032` |
+| 0xE53A3FF0 | 878 | - | `yspot_end_033` |
+| 0x7B5EAA53 | 879 | - | `yspot_end_034` |
+| 0x0C599AC5 (0xC599AC5) | 880 | - | `yspot_end_035` |
+| 0x9550CB7F | 881 | - | `yspot_end_036` |
+| 0xE257FBE9 | 882 | - | `yspot_end_037` |
+| 0x72E8E678 | 883 | - | `yspot_end_038` |
+| 0x05EFD6EE (0x5EFD6EE) | 884 | - | `yspot_end_039` |
+| 0x3372F88D | 885 | - | `yspot_end_040` |
+| 0x4475C81B | 886 | - | `yspot_end_041` |
+| 0xDD7C99A1 | 887 | - | `yspot_end_042` |
+| 0xAA7BA937 | 888 | - | `yspot_end_043` |
+| 0x341F3C94 | 889 | - | `yspot_end_044` |
+| 0x43180C02 | 890 | - | `yspot_end_045` |
+| 0xDA115DB8 | 891 | - | `yspot_end_046` |
+| 0xAD166D2E | 892 | - | `yspot_end_047` |
+| 0x3DA970BF | 893 | - | `yspot_end_048` |
+| 0x4AAE4029 | 894 | - | `yspot_end_049` |
+| 0x2A69C9CC | 895 | - | `yspot_end_050` |
+| 0x5D6EF95A | 896 | - | `yspot_end_051` |
+| 0xC467A8E0 | 897 | - | `yspot_end_052` |
+| 0xB3609876 | 898 | - | `yspot_end_053` |
+| 0xE4D72AB2 | 899 | - | `ev71_5150` |
+| 0xCFFA7971 | 900 | - | `ev71_5160` |
+| 0xD6E14830 | 901 | - | `ev71_5170` |
+| 0xB40D5C6F | 902 | - | `yspot_end_057` |
+| 0x24B241FE | 903 | - | `yspot_end_058` |
+| 0x53B57168 | 904 | - | `yspot_end_059` |
+| 0x01449A0F (0x1449A0F) | 905 | - | `yspot_end_060` |
+| 0x7643AA99 | 906 | - | `yspot_end_061` |
+| 0xEF4AFB23 | 907 | - | `yspot_end_062` |
+| 0x984DCBB5 | 908 | - | `yspot_end_063` |
+| 0x06295E16 (0x6295E16) | 909 | - | `yspot_end_064` |
+| 0x712E6E80 | 910 | - | `yspot_end_065` |
+| 0xE8273F3A | 911 | - | `yspot_end_066` |
+| 0x9F200FAC | 912 | - | `yspot_end_067` |
+| 0x0F9F123D (0xF9F123D) | 913 | - | `yspot_end_068` |
+| 0x789822AB | 914 | - | `yspot_end_069` |
+| 0x185FAB4E | 915 | - | `yspot_end_070` |
+| 0x6F589BD8 | 916 | - | `yspot_end_071` |
+| 0xF651CA62 | 917 | - | `yspot_end_072` |
+| 0x8156FAF4 | 918 | - | `yspot_end_073` |
+| 0x1F326F57 | 919 | - | `yspot_end_074` |
+| 0x68355FC1 | 920 | - | `yspot_end_075` |
+| 0xF13C0E7B | 921 | - | `yspot_end_076` |
+| 0x863B3EED | 922 | - | `yspot_end_077` |
+| 0x517954FF | 923 | - | `ev71_5180` |
+| 0x486265BE | 924 | - | `ev71_5190` |
+| 0x9BE660AE | 925 | - | `ev71_5200` |
+| 0xE8C08717 | 926 | - | `yspot_end_081` |
+| 0x71C9D6AD | 927 | - | `yspot_end_082` |
+| 0x06CEE63B (0x6CEE63B) | 928 | - | `yspot_end_083` |
+| 0x98AA7398 | 929 | - | `yspot_end_084` |
+| 0xEFAD430E | 930 | - | `yspot_end_085` |
+| 0x76A412B4 | 931 | - | `yspot_end_086` |
+| 0x01A32222 (0x1A32222) | 932 | - | `yspot_end_087` |
 | 0x8C19564B | 933 | - | `tlk_qs0124_01` |
 | 0x5CF9DE02 | 934 | - | - |
 | 0x2C13E210 | 935 | - | - |
-| 0xF1DBB656 | 936 | - | - |
-| 0x68D2E7EC | 937 | - | - |
-| 0x1FD5D77A | 938 | - | - |
-| 0x81B142D9 | 939 | - | - |
-| 0xF6B6724F | 940 | - | - |
-| 0x6FBF23F5 | 941 | - | - |
-| 0x18B81363 | 942 | - | - |
-| 0x88070EF2 | 943 | - | - |
-| 0xFF003E64 | 944 | - | - |
-| 0x56DC57BE | 945 | - | - |
-| 0x21DB6728 | 946 | - | - |
-| 0xB8D23692 | 947 | - | - |
-| 0xCFD50604 | 948 | - | - |
-| 0x51B193A7 | 949 | - | - |
-| 0x26B6A331 | 950 | - | - |
-| 0xBFBFF28B | 951 | - | - |
-| 0xC8B8C21D | 952 | - | - |
-| 0x5807DF8C | 953 | - | - |
-| 0x2F00EF1A | 954 | - | - |
-| 0x4FC766FF | 955 | - | - |
-| 0x38C05669 | 956 | - | - |
-| 0xA1C907D3 | 957 | - | - |
-| 0xD6CE3745 | 958 | - | - |
-| 0x48AAA2E6 | 959 | - | - |
-| 0x3FAD9270 | 960 | - | - |
-| 0xA6A4C3CA | 961 | - | - |
-| 0x46532CCD | 962 | - | - |
-| 0x411CEECD | 963 | - | - |
-| 0x361BDE5B | 964 | - | - |
-| 0x64EA353C | 965 | - | - |
-| 0x13ED05AA | 966 | - | - |
-| 0x8AE45410 | 967 | - | - |
-| 0xFDE36486 | 968 | - | - |
-| 0x6387F125 | 969 | - | - |
-| 0x1480C1B3 | 970 | - | - |
-| 0x8D899009 | 971 | - | - |
-| 0xFA8EA09F | 972 | - | - |
-| 0x6A31BD0E | 973 | - | - |
-| 0x1D368D98 | 974 | - | - |
-| 0x7DF1047D | 975 | - | - |
-| 0x345D20B5 | 976 | - | - |
-| 0xAD54710F | 977 | - | - |
-| 0xDA534199 | 978 | - | - |
-| 0x4437D43A | 979 | - | - |
-| 0x3330E4AC | 980 | - | - |
-| 0xAA39B516 | 981 | - | - |
-| 0xDD3E8580 | 982 | - | - |
-| 0x4D819811 | 983 | - | - |
-| 0x3A86A887 | 984 | - | - |
-| 0x687743E0 | 985 | - | - |
-| 0x1F707376 | 986 | - | - |
-| 0x867922CC | 987 | - | - |
-| 0xF17E125A | 988 | - | - |
-| 0x6F1A87F9 | 989 | - | - |
-| 0x181DB76F | 990 | - | - |
-| 0x8114E6D5 | 991 | - | - |
+| 0xF1DBB656 | 936 | - | `yspot_end_091` |
+| 0x68D2E7EC | 937 | - | `yspot_end_092` |
+| 0x1FD5D77A | 938 | - | `yspot_end_093` |
+| 0x81B142D9 | 939 | - | `yspot_end_094` |
+| 0xF6B6724F | 940 | - | `yspot_end_095` |
+| 0x6FBF23F5 | 941 | - | `yspot_end_096` |
+| 0x18B81363 | 942 | - | `yspot_end_097` |
+| 0x88070EF2 | 943 | - | `yspot_end_098` |
+| 0xFF003E64 | 944 | - | `yspot_end_099` |
+| 0x56DC57BE | 945 | - | `yspot_end_100` |
+| 0x21DB6728 | 946 | - | `yspot_end_101` |
+| 0xB8D23692 | 947 | - | `yspot_end_102` |
+| 0xCFD50604 | 948 | - | `yspot_end_103` |
+| 0x51B193A7 | 949 | - | `yspot_end_104` |
+| 0x26B6A331 | 950 | - | `yspot_end_105` |
+| 0xBFBFF28B | 951 | - | `yspot_end_106` |
+| 0xC8B8C21D | 952 | - | `yspot_end_107` |
+| 0x5807DF8C | 953 | - | `yspot_end_108` |
+| 0x2F00EF1A | 954 | - | `yspot_end_109` |
+| 0x4FC766FF | 955 | - | `yspot_end_110` |
+| 0x38C05669 | 956 | - | `yspot_end_111` |
+| 0xA1C907D3 | 957 | - | `yspot_end_112` |
+| 0xD6CE3745 | 958 | - | `yspot_end_113` |
+| 0x48AAA2E6 | 959 | - | `yspot_end_114` |
+| 0x3FAD9270 | 960 | - | `yspot_end_115` |
+| 0xA6A4C3CA | 961 | - | `yspot_end_116` |
+| 0x46532CCD | 962 | - | `ev71_1460` |
+| 0x411CEECD | 963 | - | `yspot_end_118` |
+| 0x361BDE5B | 964 | - | `yspot_end_119` |
+| 0x64EA353C | 965 | - | `yspot_end_120` |
+| 0x13ED05AA | 966 | - | `yspot_end_121` |
+| 0x8AE45410 | 967 | - | `yspot_end_122` |
+| 0xFDE36486 | 968 | - | `yspot_end_123` |
+| 0x6387F125 | 969 | - | `yspot_end_124` |
+| 0x1480C1B3 | 970 | - | `yspot_end_125` |
+| 0x8D899009 | 971 | - | `yspot_end_126` |
+| 0xFA8EA09F | 972 | - | `yspot_end_127` |
+| 0x6A31BD0E | 973 | - | `yspot_end_128` |
+| 0x1D368D98 | 974 | - | `yspot_end_129` |
+| 0x7DF1047D | 975 | - | `yspot_end_130` |
+| 0x345D20B5 | 976 | - | `yspot_find_151` |
+| 0xAD54710F | 977 | - | `yspot_find_152` |
+| 0xDA534199 | 978 | - | `yspot_find_153` |
+| 0x4437D43A | 979 | - | `yspot_find_154` |
+| 0x3330E4AC | 980 | - | `yspot_find_155` |
+| 0xAA39B516 | 981 | - | `yspot_find_156` |
+| 0xDD3E8580 | 982 | - | `yspot_find_157` |
+| 0x4D819811 | 983 | - | `yspot_find_158` |
+| 0x3A86A887 | 984 | - | `yspot_find_159` |
+| 0x687743E0 | 985 | - | `yspot_find_160` |
+| 0x1F707376 | 986 | - | `yspot_find_161` |
+| 0x867922CC | 987 | - | `yspot_find_162` |
+| 0xF17E125A | 988 | - | `yspot_find_163` |
+| 0x6F1A87F9 | 989 | - | `yspot_find_164` |
+| 0x181DB76F | 990 | - | `yspot_find_165` |
+| 0x8114E6D5 | 991 | - | `yspot_find_166` |
 | 0xED5D8C4B | 992 | - | - |
-| 0x66ACCBD2 | 993 | - | - |
-| 0x11ABFB44 | 994 | - | - |
-| 0x716C72A1 | 995 | - | - |
-| 0x066B4237 (0x66B4237) | 996 | - | - |
-| 0x9F62138D | 997 | - | - |
-| 0xE865231B | 998 | - | - |
-| 0x7601B6B8 | 999 | - | - |
-| 0x0106862E (0x106862E) | 1000 | - | - |
-| 0x980FD794 | 1001 | - | - |
-| 0xEF08E702 | 1002 | - | - |
-| 0x7FB7FA93 | 1003 | - | - |
-| 0x08B0CA05 (0x8B0CA05) | 1004 | - | - |
-| 0xF6F46E6E | 1005 | - | - |
-| 0x5CAC936D | 1006 | - | - |
-| 0xC5A5C2D7 | 1007 | - | - |
-| 0xB2A2F241 | 1008 | - | - |
-| 0x2CC667E2 | 1009 | - | - |
-| 0x5BC15774 | 1010 | - | - |
-| 0xC2C806CE | 1011 | - | - |
-| 0xB5CF3658 | 1012 | - | - |
-| 0x25702BC9 | 1013 | - | - |
-| 0x52771B5F | 1014 | - | - |
-| 0x0086F038 (0x86F038) | 1015 | - | - |
-| 0x7781C0AE | 1016 | - | - |
-| 0xEE889114 | 1017 | - | - |
-| 0x998FA182 | 1018 | - | - |
-| 0x07EB3421 (0x7EB3421) | 1019 | - | - |
-| 0x70EC04B7 | 1020 | - | - |
-| 0xE9E5550D | 1021 | - | - |
-| 0x9EE2659B | 1022 | - | - |
-| 0x0E5D780A (0xE5D780A) | 1023 | - | - |
-| 0x795A489C | 1024 | - | - |
-| 0x199DC179 | 1025 | - | - |
-| 0x6E9AF1EF | 1026 | - | - |
-| 0xF793A055 | 1027 | - | - |
-| 0x809490C3 | 1028 | - | - |
-| 0x1EF00560 | 1029 | - | - |
-| 0x69F735F6 | 1030 | - | - |
-| 0xF0FE644C | 1031 | - | - |
-| 0x87F954DA | 1032 | - | - |
-| 0x1746494B | 1033 | - | - |
-| 0x604179DD | 1034 | - | - |
-| 0x9E05DDB6 | 1035 | - | - |
+| 0x66ACCBD2 | 993 | - | `yspot_find_168` |
+| 0x11ABFB44 | 994 | - | `yspot_find_169` |
+| 0x716C72A1 | 995 | - | `yspot_find_170` |
+| 0x066B4237 (0x66B4237) | 996 | - | `yspot_find_171` |
+| 0x9F62138D | 997 | - | `yspot_find_172` |
+| 0xE865231B | 998 | - | `yspot_find_173` |
+| 0x7601B6B8 | 999 | - | `yspot_find_174` |
+| 0x0106862E (0x106862E) | 1000 | - | `yspot_find_175` |
+| 0x980FD794 | 1001 | - | `yspot_find_176` |
+| 0xEF08E702 | 1002 | - | `yspot_find_177` |
+| 0x7FB7FA93 | 1003 | - | `yspot_find_178` |
+| 0x08B0CA05 (0x8B0CA05) | 1004 | - | `yspot_find_179` |
+| 0xF6F46E6E | 1005 | - | `yspot_find_180` |
+| 0x5CAC936D | 1006 | - | `yspot_end_151` |
+| 0xC5A5C2D7 | 1007 | - | `yspot_end_152` |
+| 0xB2A2F241 | 1008 | - | `yspot_end_153` |
+| 0x2CC667E2 | 1009 | - | `yspot_end_154` |
+| 0x5BC15774 | 1010 | - | `yspot_end_155` |
+| 0xC2C806CE | 1011 | - | `yspot_end_156` |
+| 0xB5CF3658 | 1012 | - | `yspot_end_157` |
+| 0x25702BC9 | 1013 | - | `yspot_end_158` |
+| 0x52771B5F | 1014 | - | `yspot_end_159` |
+| 0x0086F038 (0x86F038) | 1015 | - | `yspot_end_160` |
+| 0x7781C0AE | 1016 | - | `yspot_end_161` |
+| 0xEE889114 | 1017 | - | `yspot_end_162` |
+| 0x998FA182 | 1018 | - | `yspot_end_163` |
+| 0x07EB3421 (0x7EB3421) | 1019 | - | `yspot_end_164` |
+| 0x70EC04B7 | 1020 | - | `yspot_end_165` |
+| 0xE9E5550D | 1021 | - | `yspot_end_166` |
+| 0x9EE2659B | 1022 | - | `yspot_end_167` |
+| 0x0E5D780A (0xE5D780A) | 1023 | - | `yspot_end_168` |
+| 0x795A489C | 1024 | - | `yspot_end_169` |
+| 0x199DC179 | 1025 | - | `yspot_end_170` |
+| 0x6E9AF1EF | 1026 | - | `yspot_end_171` |
+| 0xF793A055 | 1027 | - | `yspot_end_172` |
+| 0x809490C3 | 1028 | - | `yspot_end_173` |
+| 0x1EF00560 | 1029 | - | `yspot_end_174` |
+| 0x69F735F6 | 1030 | - | `yspot_end_175` |
+| 0xF0FE644C | 1031 | - | `yspot_end_176` |
+| 0x87F954DA | 1032 | - | `yspot_end_177` |
+| 0x1746494B | 1033 | - | `yspot_end_178` |
+| 0x604179DD | 1034 | - | `yspot_end_179` |
+| 0x9E05DDB6 | 1035 | - | `yspot_end_180` |
 | 0x3A6BA89D | 1036 | - | - |
 | 0x75FCA82E | 1037 | Checks if the password I4S9S2I6 has been used. | - |
 | 0xECF5F994 | 1038 | Checks if the password I3V5N9O6 has been used. | - |
@@ -1210,7 +1210,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0DF59D4F (0xDF59D4F) | 1195 | - | `tlk_qs0084_01` |
 | 0xA7FC55C4 | 1196 | - | `tlk_qs0086_01` |
 | 0x3EF5047E | 1197 | - | `tlk_qs0086_02` |
-| 0x1437657E | 1198 | Checks if you have slept to the next morning during the Oden of the Soul questline. | - |
+| 0x1437657E | 1198 | Checks if you have slept to the next morning during the Oden of the Soul questline. | `day_oden` |
 | 0xCFEF0E53 | 1199 | - | `tlk_qs0009_01` |
 | 0x56E65FE9 | 1200 | - | `tlk_qs0009_02` |
 | 0x472322F7 | 1201 | - | `tlk_qs0088_01` |
@@ -1235,18 +1235,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xCBB92C9B | 1220 | - | `tlk_qs0114_01` |
 | 0x52B07D21 | 1221 | - | `tlk_qs0114_02` |
 | 0x25B74DB7 | 1222 | - | `tlk_qs0114_03` |
-| 0x223FE9C9 | 1223 | - | - |
-| 0x3B24D888 | 1224 | - | - |
+| 0x223FE9C9 | 1223 | - | `ev71_1420` |
+| 0x3B24D888 | 1224 | - | `ev71_1430` |
 | 0x6D3F8C9B | 1225 | - | - |
 | 0xA0708CC0 | 1226 | - | `tlk_qs0067_01` |
 | 0x3979DD7A | 1227 | - | `tlk_qs0067_02` |
-| 0xB6A775B3 | 1228 | - | - |
-| 0xAC38909C | 1229 | - | - |
-| 0xC5C3D04E | 1230 | - | - |
-| 0x3DEF1A63 | 1231 | - | - |
-| 0x712A58CA | 1232 | - | - |
-| 0x77E19A21 | 1233 | - | - |
-| 0x1B0091D1 | 1234 | - | - |
+| 0xB6A775B3 | 1228 | - | `ev71_0010` |
+| 0xAC38909C | 1229 | - | `ev71_0200` |
+| 0xC5C3D04E | 1230 | - | `ev71_0840` |
+| 0x3DEF1A63 | 1231 | - | `ev71_1130` |
+| 0x712A58CA | 1232 | - | `ev71_1340` |
+| 0x77E19A21 | 1233 | - | `ev71_1640` |
+| 0x1B0091D1 | 1234 | - | `ev71_7330` |
 | 0x9C058221 | 1235 | - | - |
 | 0x6C7F0FF0 | 1236 | - | `btl_qs0051_02` |
 | 0x8CEF8D94 | 1237 | Checks if the story scene ev70_5890 has been seen. | `ev70_5890` |
@@ -1257,15 +1257,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4415DBE9 | 1242 | - | `ev51_1200_050` |
 | 0x38A0459B | 1243 | - | `ev51_1200_100` |
 | 0x0308863D (0x308863D) | 1244 | Checks if the story scene ev70_0240 has been seen. | `ev70_0240` |
-| 0x24E43A21 | 1245 | - | - |
-| 0xBDED6B9B | 1246 | - | - |
-| 0xCAEA5B0D | 1247 | - | - |
-| 0x548ECEAE | 1248 | - | - |
-| 0x2389FE38 | 1249 | - | - |
-| 0xBA80AF82 | 1250 | - | - |
-| 0xCD879F14 | 1251 | - | - |
-| 0x5D388285 | 1252 | - | - |
-| 0x2A3FB213 | 1253 | - | - |
+| 0x24E43A21 | 1245 | - | `quest_ev_flg_01` |
+| 0xBDED6B9B | 1246 | - | `quest_ev_flg_02` |
+| 0xCAEA5B0D | 1247 | - | `quest_ev_flg_03` |
+| 0x548ECEAE | 1248 | - | `quest_ev_flg_04` |
+| 0x2389FE38 | 1249 | - | `quest_ev_flg_05` |
+| 0xBA80AF82 | 1250 | - | `quest_ev_flg_06` |
+| 0xCD879F14 | 1251 | - | `quest_ev_flg_07` |
+| 0x5D388285 | 1252 | - | `quest_ev_flg_08` |
+| 0x2A3FB213 | 1253 | - | `quest_ev_flg_09` |
 | 0xC3392454 | 1254 | - | - |
 | 0x5A3075EE | 1255 | - | - |
 | 0x0F3D7429 (0xF3D7429) | 1256 | Checks if a locked door in the Springdale Underground Waterway has been unlocked. | `door_t100d00_01` |
@@ -1330,8 +1330,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x10FC1AD9 | 1315 | Checks if the story scene mv_photo95/ev50_2570 has been seen. | `ev50_2570` |
 | 0x97640616 | 1316 | Checks if the story scene mv_photo96/ev50_2580 has been seen. | `ev50_2580` |
 | 0x8E7F3757 | 1317 | Checks if the story scene mv_photo97/ev50_2590 has been seen. | `ev50_2590` |
-| 0x441726E2 | 1318 | - | - |
-| 0xDD1E7758 | 1319 | - | - |
+| 0x441726E2 | 1318 | - | `enc_ura_03_101` |
+| 0xDD1E7758 | 1319 | - | `enc_ura_03_102` |
 | 0xF637FAF2 | 1320 | - | - |
 | 0x6F3EAB48 | 1321 | - | - |
 | 0xC5C25E05 | 1322 | Checks if the Infinite Inferno has been cleared. | `ev50_btl0180` |
@@ -1551,42 +1551,42 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x04F4FE8C (0x4F4FE8C) | 1536 | Checks if the Subzero Soul has been made. | `combine_soul_013` |
 | 0x4C3C7F6C | 1537 | Checks if the password W1K1BUTL3R has been entered. | - |
 | 0xD5352ED6 | 1538 | Checks if the password W0LF1TD0WN has been entered. | - |
-| 0x6FFD3FD4 | 1539 | - | - |
-| 0xF199AA77 | 1540 | - | - |
-| 0x869E9AE1 | 1541 | - | - |
-| 0x1F97CB5B | 1542 | - | - |
-| 0x6890FBCD | 1543 | - | - |
-| 0xF82FE65C | 1544 | - | - |
-| 0x8F28D6CA | 1545 | - | - |
-| 0xEFEF5F2F | 1546 | - | - |
-| 0x98E86FB9 | 1547 | - | - |
-| 0x01E13E03 (0x1E13E03) | 1548 | - | - |
-| 0x76E60E95 | 1549 | - | - |
-| 0xE8829B36 | 1550 | - | - |
-| 0x9F85ABA0 | 1551 | - | - |
-| 0x068CFA1A (0x68CFA1A) | 1552 | - | - |
-| 0x718BCA8C | 1553 | - | - |
-| 0xE134D71D | 1554 | - | - |
+| 0x6FFD3FD4 | 1539 | - | `yspot_find_183` |
+| 0xF199AA77 | 1540 | - | `yspot_find_184` |
+| 0x869E9AE1 | 1541 | - | `yspot_find_185` |
+| 0x1F97CB5B | 1542 | - | `yspot_find_186` |
+| 0x6890FBCD | 1543 | - | `yspot_find_187` |
+| 0xF82FE65C | 1544 | - | `yspot_find_188` |
+| 0x8F28D6CA | 1545 | - | `yspot_find_189` |
+| 0xEFEF5F2F | 1546 | - | `yspot_find_190` |
+| 0x98E86FB9 | 1547 | - | `yspot_find_191` |
+| 0x01E13E03 (0x1E13E03) | 1548 | - | `yspot_find_192` |
+| 0x76E60E95 | 1549 | - | `yspot_find_193` |
+| 0xE8829B36 | 1550 | - | `yspot_find_194` |
+| 0x9F85ABA0 | 1551 | - | `yspot_find_195` |
+| 0x068CFA1A (0x68CFA1A) | 1552 | - | `yspot_find_196` |
+| 0x718BCA8C | 1553 | - | `yspot_find_197` |
+| 0xE134D71D | 1554 | - | `yspot_find_198` |
 | 0xDA6CD404 | 1555 | - | - |
-| 0xE902ED20 | 1556 | - | - |
-| 0x700BBC9A | 1557 | - | - |
-| 0x070C8C0C (0x70C8C0C) | 1558 | - | - |
-| 0x996819AF | 1559 | - | - |
-| 0xEE6F2939 | 1560 | - | - |
-| 0x77667883 | 1561 | - | - |
-| 0x00614815 (0x614815) | 1562 | - | - |
-| 0x90DE5584 | 1563 | - | - |
-| 0xE7D96512 | 1564 | - | - |
-| 0x871EECF7 | 1565 | - | - |
-| 0xF019DC61 | 1566 | - | - |
-| 0x69108DDB | 1567 | - | - |
-| 0x1E17BD4D | 1568 | - | - |
-| 0x807328EE | 1569 | - | - |
-| 0xF7741878 | 1570 | - | - |
-| 0x6E7D49C2 | 1571 | - | - |
-| 0x197A7954 | 1572 | - | - |
-| 0x89C564C5 | 1573 | - | - |
-| 0x55CC16C7 | 1574 | - | - |
+| 0xE902ED20 | 1556 | - | `yspot_end_181` |
+| 0x700BBC9A | 1557 | - | `yspot_end_182` |
+| 0x070C8C0C (0x70C8C0C) | 1558 | - | `yspot_end_183` |
+| 0x996819AF | 1559 | - | `yspot_end_184` |
+| 0xEE6F2939 | 1560 | - | `yspot_end_185` |
+| 0x77667883 | 1561 | - | `yspot_end_186` |
+| 0x00614815 (0x614815) | 1562 | - | `yspot_end_187` |
+| 0x90DE5584 | 1563 | - | `yspot_end_188` |
+| 0xE7D96512 | 1564 | - | `yspot_end_189` |
+| 0x871EECF7 | 1565 | - | `yspot_end_190` |
+| 0xF019DC61 | 1566 | - | `yspot_end_191` |
+| 0x69108DDB | 1567 | - | `yspot_end_192` |
+| 0x1E17BD4D | 1568 | - | `yspot_end_193` |
+| 0x807328EE | 1569 | - | `yspot_end_194` |
+| 0xF7741878 | 1570 | - | `yspot_end_195` |
+| 0x6E7D49C2 | 1571 | - | `yspot_end_196` |
+| 0x197A7954 | 1572 | - | `yspot_end_197` |
+| 0x89C564C5 | 1573 | - | `yspot_end_198` |
+| 0x55CC16C7 | 1574 | - | `day_flg_x001000` |
 | 0x743EC219 | 1575 | Checks if the password I4T9G9S9 has been used. | - |
 | 0xED3793A3 | 1576 | Checks if the password T5L5I4L3 has been used. | - |
 | 0x9A30A335 | 1577 | Checks if the password V7U6I9B5 has been used. | - |
@@ -1632,11 +1632,11 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFE5C6631 | 1617 | Checks if the password O4O2L9L8 has been used. | - |
 | 0x6038F392 | 1618 | Checks if the password O0V3U7U5 has been used. | - |
 | 0x8E75EB4C | 1619 | Checks if the story scene ev13_0900 has been seen. | `ev13_0900` |
-| 0x59010A18 | 1620 | - | - |
-| 0xC0085BA2 | 1621 | - | - |
-| 0xB70F6B34 | 1622 | - | - |
-| 0x296BFE97 | 1623 | - | - |
-| 0x5E6CCE01 | 1624 | - | - |
+| 0x59010A18 | 1620 | - | `day_flg_qs0091` |
+| 0xC0085BA2 | 1621 | - | `day_flg_qs0092` |
+| 0xB70F6B34 | 1622 | - | `day_flg_qs0093` |
+| 0x296BFE97 | 1623 | - | `day_flg_qs0094` |
+| 0x5E6CCE01 | 1624 | - | `day_flg_qs0095` |
 | 0x4539B4E4 | 1625 | Checks if you can buy the Cirrus Cycle. | `flg_race_01_01` |
 | 0xDC30E55E | 1626 | Checks if you can buy the Door Bell. | `flg_race_01_02` |
 | 0x578C1B0A | 1627 | Checks if you can buy the Seaside Cycle. | `flg_race_02_01` |
@@ -1761,8 +1761,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x91F0180D | 1746 | - | `new_warp_29` |
 | 0xF13791E8 | 1747 | - | `new_warp_30` |
 | 0x8630A17E | 1748 | - | `new_warp_31` |
-| 0x00E91114 (0xE91114) | 1749 | - | - |
-| 0x99E040AE | 1750 | - | - |
+| 0x00E91114 (0xE91114) | 1749 | - | `warp_t001d01` |
+| 0x99E040AE | 1750 | - | `warp_t001d02` |
 | 0x5A640058 | 1751 | Checks if the Mirapo at Adams House 2F is unlocked. (Warp #00) | `warp_t101i02` |
 | 0xB307A56D | 1752 | Checks if the Mirapo at Forester House 2F is unlocked. (Warp #01) | `warp_t101i04` |
 | 0x1F55524C | 1753 | Checks if the Mirapo at Uptown Springdale Everymart is unlocked. (Warp #02) | `warp_t101i23` |
@@ -2003,17 +2003,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE261D9FE | 1988 | - | - |
 | 0x7E3D8F19 | 1989 | - | - |
 | 0xEFAFA129 | 1990 | Checks if you have unlocked the Groovalicious Hustle rhythm game. | - |
-| 0x1A657FD3 | 1991 | - | - |
-| 0x31482C10 | 1992 | - | - |
+| 0x1A657FD3 | 1991 | - | `ev71_2510` |
+| 0x31482C10 | 1992 | - | `ev71_2520` |
 | 0x8411BFA3 | 1993 | - | - |
-| 0xA8457222 | 1994 | - | - |
-| 0xCF1DBA9B | 1995 | - | - |
+| 0xA8457222 | 1994 | - | `eraberu_use_ex` |
+| 0xCF1DBA9B | 1995 | - | `eraberu_use_ex2` |
 | 0xD929B64E | 1996 | - | - |
 | 0xE8C1ACD3 | 1997 | - | - |
-| 0x28531D51 | 1998 | - | - |
+| 0x28531D51 | 1998 | - | `ev71_2530` |
 | 0x4EB6A767 | 1999 | - | - |
-| 0x67128B96 | 2000 | - | - |
-| 0x7E09BAD7 | 2001 | - | - |
+| 0x67128B96 | 2000 | - | `ev71_2540` |
+| 0x7E09BAD7 | 2001 | - | `ev71_2550` |
 | 0x8B1199E9 | 2002 | - | - |
 | 0x2D66925D | 2003 | - | - |
 | 0x1C8E88C0 | 2004 | - | - |
@@ -2130,7 +2130,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF16D30DD | 2115 | - | - |
 | 0x68646167 | 2116 | - | - |
 | 0x1F6351F1 | 2117 | - | - |
-| 0x4779B929 | 2118 | - | - |
+| 0x4779B929 | 2118 | - | `day_flg_x002000` |
 | 0x896BC96E | 2119 | - | `territory_t105g00_01` |
 | 0xED63D5C7 | 2120 | Checks if you have fought Jibanyan S today. | `day_flg_y152900` |
 | 0x3A6252C6 | 2121 | Checks if you have fought Komasan S today. | `day_flg_y159900` |
@@ -2148,7 +2148,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x88FC40D8 | 2133 | - | - |
 | 0x1698D57B | 2134 | - | - |
 | 0x6871A0EB | 2135 | - | - |
-| 0x411DA171 | 2136 | - | - |
+| 0x411DA171 | 2136 | - | `day_flg_x461000` |
 | 0x31DF2538 | 2137 | - | - |
 | 0x1EF4D847 | 2138 | - | `territory_t107g00_01` |
 | 0xC0852A40 | 2139 | - | - |
@@ -2173,7 +2173,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDDA08002 | 2158 | - | `territory_t201g00_02` |
 | 0x03D17205 (0x3D17205) | 2159 | - | - |
 | 0x19F1ED79 | 2160 | - | - |
-| 0xEEE77038 | 2161 | - | - |
+| 0xEEE77038 | 2161 | - | `warp_t001d03` |
 | 0xFFD40738 | 2162 | - | - |
 | 0x773388C1 | 2163 | - | - |
 | 0xEE3AD97B | 2164 | - | - |
@@ -2287,7 +2287,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4AE86950 | 2272 | Checks if you've collected all Stamp Rally Stamps. | `station_stamp_complete` |
 | 0x69CC7255 | 2273 | Checks if you've unlocked Rudy in the Friends/Contacts app. | - |
 | 0x123304A7 | 2274 | - | - |
-| 0xE6DEEF0D | 2275 | - | - |
+| 0xE6DEEF0D | 2275 | - | `day_flg_x003010` |
 | 0x1F16E509 | 2276 | - | - |
 | 0x861FB4B3 | 2277 | - | - |
 | 0xF1188425 | 2278 | - | - |
@@ -2328,16 +2328,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE524533C | 2313 | - | - |
 | 0x922363AA | 2314 | - | - |
 | 0xF2E4EA4F | 2315 | - | - |
-| 0x5A01DC81 | 2316 | - | - |
-| 0xC3088D3B | 2317 | - | - |
-| 0xB40FBDAD | 2318 | - | - |
-| 0x2A6B280E | 2319 | - | - |
-| 0x5D6C1898 | 2320 | - | - |
-| 0xC4654922 | 2321 | - | - |
-| 0xB36279B4 | 2322 | - | - |
-| 0x23DD6425 | 2323 | - | - |
-| 0x54DA54B3 | 2324 | - | - |
-| 0x341DDD56 | 2325 | - | - |
+| 0x5A01DC81 | 2316 | - | `tournament01` |
+| 0xC3088D3B | 2317 | - | `tournament02` |
+| 0xB40FBDAD | 2318 | - | `tournament03` |
+| 0x2A6B280E | 2319 | - | `tournament04` |
+| 0x5D6C1898 | 2320 | - | `tournament05` |
+| 0xC4654922 | 2321 | - | `tournament06` |
+| 0xB36279B4 | 2322 | - | `tournament07` |
+| 0x23DD6425 | 2323 | - | `tournament08` |
+| 0x54DA54B3 | 2324 | - | `tournament09` |
+| 0x341DDD56 | 2325 | - | `tournament10` |
 | 0x8C13CEDD | 2326 | - | - |
 | 0x151A9F67 | 2327 | - | - |
 | 0x621DAFF1 | 2328 | - | - |
@@ -2348,41 +2348,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF5CF7679 | 2333 | - | - |
 | 0x82C846EF | 2334 | - | - |
 | 0xE20FCF0A | 2335 | - | - |
-| 0xEF015E9E | 2336 | - | - |
-| 0x76080F24 | 2337 | - | - |
-| 0x010F3FB2 (0x10F3FB2) | 2338 | - | - |
-| 0x9F6BAA11 | 2339 | - | - |
-| 0xE86C9A87 | 2340 | - | - |
-| 0x7165CB3D | 2341 | - | - |
-| 0x0662FBAB (0x662FBAB) | 2342 | - | - |
-| 0x96DDE63A | 2343 | - | - |
-| 0xE1DAD6AC | 2344 | - | - |
-| 0x811D5F49 | 2345 | - | - |
-| 0xF61A6FDF | 2346 | - | - |
-| 0x6F133E65 | 2347 | - | - |
-| 0x18140EF3 | 2348 | - | - |
-| 0x86709B50 | 2349 | - | - |
-| 0xF177ABC6 | 2350 | - | - |
-| 0x687EFA7C | 2351 | - | - |
-| 0x1F79CAEA | 2352 | - | - |
-| 0x8FC6D77B | 2353 | - | - |
-| 0xF8C1E7ED | 2354 | - | - |
-| 0xAA300C8A | 2355 | - | - |
-| 0xDD373C1C | 2356 | - | - |
-| 0x443E6DA6 | 2357 | - | - |
-| 0x33395D30 | 2358 | - | - |
-| 0xAD5DC893 | 2359 | - | - |
-| 0xDA5AF805 | 2360 | - | - |
-| 0x4353A9BF | 2361 | - | - |
-| 0x34549929 | 2362 | - | - |
-| 0xA4EB84B8 | 2363 | - | - |
-| 0xD3ECB42E | 2364 | - | - |
-| 0xB32B3DCB | 2365 | - | - |
-| 0xC42C0D5D | 2366 | - | - |
-| 0x5D255CE7 | 2367 | - | - |
-| 0x2A226C71 | 2368 | - | - |
-| 0xB446F9D2 | 2369 | - | - |
-| 0xC341C944 | 2370 | - | - |
+| 0xEF015E9E | 2336 | - | `mission01` |
+| 0x76080F24 | 2337 | - | `mission02` |
+| 0x010F3FB2 (0x10F3FB2) | 2338 | - | `mission03` |
+| 0x9F6BAA11 | 2339 | - | `mission04` |
+| 0xE86C9A87 | 2340 | - | `mission05` |
+| 0x7165CB3D | 2341 | - | `mission06` |
+| 0x0662FBAB (0x662FBAB) | 2342 | - | `mission07` |
+| 0x96DDE63A | 2343 | - | `mission08` |
+| 0xE1DAD6AC | 2344 | - | `mission09` |
+| 0x811D5F49 | 2345 | - | `mission10` |
+| 0xF61A6FDF | 2346 | - | `mission11` |
+| 0x6F133E65 | 2347 | - | `mission12` |
+| 0x18140EF3 | 2348 | - | `mission13` |
+| 0x86709B50 | 2349 | - | `mission14` |
+| 0xF177ABC6 | 2350 | - | `mission15` |
+| 0x687EFA7C | 2351 | - | `mission16` |
+| 0x1F79CAEA | 2352 | - | `mission17` |
+| 0x8FC6D77B | 2353 | - | `mission18` |
+| 0xF8C1E7ED | 2354 | - | `mission19` |
+| 0xAA300C8A | 2355 | - | `mission20` |
+| 0xDD373C1C | 2356 | - | `mission21` |
+| 0x443E6DA6 | 2357 | - | `mission22` |
+| 0x33395D30 | 2358 | - | `mission23` |
+| 0xAD5DC893 | 2359 | - | `mission24` |
+| 0xDA5AF805 | 2360 | - | `mission25` |
+| 0x4353A9BF | 2361 | - | `mission26` |
+| 0x34549929 | 2362 | - | `mission27` |
+| 0xA4EB84B8 | 2363 | - | `mission28` |
+| 0xD3ECB42E | 2364 | - | `mission29` |
+| 0xB32B3DCB | 2365 | - | `mission30` |
+| 0xC42C0D5D | 2366 | - | `mission31` |
+| 0x5D255CE7 | 2367 | - | `mission32` |
+| 0x2A226C71 | 2368 | - | `mission33` |
+| 0xB446F9D2 | 2369 | - | `mission34` |
+| 0xC341C944 | 2370 | - | `mission35` |
 | 0x655BC91E | 2371 | - | - |
 | 0x22FBB3CE | 2372 | - | - |
 | 0x1F9B9A7E | 2373 | - | - |
@@ -2460,8 +2460,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x39D73E33 | 2445 | Checks if the story scene ev11_1370 has been seen. | `ev11_1370` |
 | 0xBE4F22FC | 2446 | Checks if the story scene ev11_1380 has been seen. | `ev11_1380` |
 | 0xA75413BD | 2447 | Checks if the story scene ev11_1390 has been seen. | `ev11_1390` |
-| 0x5A7E1E58 | 2448 | - | - |
-| 0x7F3F19D5 | 2449 | - | - |
+| 0x5A7E1E58 | 2448 | - | `eraberu_add_ex` |
+| 0x7F3F19D5 | 2449 | - | `eraberu_add_ex2` |
 | 0x0D6F7563 (0xD6F7563) | 2450 | - | - |
 | 0xC82B69C1 | 2451 | - | - |
 | 0x5122387B | 2452 | - | - |
@@ -2493,7 +2493,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x64918DFE | 2478 | Checks if you have permission to fight Machonyan. | - |
 | 0x3E9B7DD6 | 2479 | Checks if you have been given a Red Box. | - |
 | 0x14744422 | 2480 | - | - |
-| 0x57486B3C | 2481 | - | - |
+| 0x57486B3C | 2481 | - | `ev75_0440` |
 | 0x0CAD1F54 (0xCAD1F54) | 2482 | - | - |
 | 0x43EC8993 | 2483 | - | - |
 | 0x5AF7B8D2 | 2484 | Checks if you are inside a Gate of Whimsy. | - |
@@ -2503,7 +2503,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFF03413F | 2488 | - | - |
 | 0x67C9D091 | 2489 | - | - |
 | 0xEA34F92D | 2490 | - | - |
-| 0xE3C80E18 | 2491 | - | - |
+| 0xE3C80E18 | 2491 | - | `red_box_return` |
 | 0x784F378E | 2492 | - | - |
 | 0x0010E493 (0x10E493) | 2493 | - | - |
 | 0xA667EF27 | 2494 | - | - |
@@ -2518,7 +2518,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x404E2463 | 2503 | Checks if you have unlocked Groovalicious in the Friends/Contacts app. | - |
 | 0xB2E1EF95 | 2504 | - | - |
 | 0x4EF18959 | 2505 | - | - |
-| 0x0112CCBA (0x112CCBA) | 2506 | - | - |
+| 0x0112CCBA (0x112CCBA) | 2506 | - | `ev75_0420` |
 | 0x93BD8617 | 2507 | - | - |
 | 0xF642F7DE | 2508 | - | - |
 | 0x22B4C3EC | 2509 | Checks if you have fought Awevil today. | `day_flg_y210010` |
@@ -2527,7 +2527,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xE45B36FC | 2512 | - | - |
 | 0x03F07200 (0x3F07200) | 2513 | - | - |
 | 0x76F4EDA1 | 2514 | - | `day_flg_climb_pole` |
-| 0x298C46BA | 2515 | - | - |
+| 0x298C46BA | 2515 | - | `day_flg_qs0073` |
 | 0x5F4D2E4D | 2516 | - | - |
 | 0xA33047EA | 2517 | - | - |
 | 0x5BBDD171 | 2518 | - | - |
@@ -2536,17 +2536,17 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBE7C5476 | 2521 | - | - |
 | 0x758AAEEF | 2522 | - | - |
 | 0x2CEC9DE6 | 2523 | Checks if you have fought Neighfarious today. | `day_flg_y191010` |
-| 0x5510BEB5 | 2524 | - | - |
+| 0x5510BEB5 | 2524 | - | `day_flg_t121i10_01` |
 | 0xCC19EF0F | 2525 | - | - |
 | 0xBB1EDF99 | 2526 | - | - |
 | 0x257A4A3A | 2527 | - | - |
 | 0x6F7D22E6 | 2528 | Checks if the Infinite Tunnel has been visited today. | `day_flg_enen` |
 | 0xB83BCEE1 | 2529 | Checks if the Oni Misfortune reward for the day has already been claimed.  | - |
-| 0xECAF7455 | 2530 | - | - |
-| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander today. | - |
-| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag today. | - |
-| 0x901AEA27 | 2533 | - | - |
-| 0x0E7E7F84 (0xE7E7F84) | 2534 | - | - |
+| 0xECAF7455 | 2530 | - | `day_flg_qs0041` |
+| 0xF0DD63C2 | 2531 | Checks if you have fought Slimamander today. | `day_flg_qs0108` |
+| 0x7E148B0B | 2532 | Checks if you have fought SV Snaggerjag today. | `day_flg_qs0113` |
+| 0x901AEA27 | 2533 | - | `day_flg_qs0111` |
+| 0x0E7E7F84 (0xE7E7F84) | 2534 | - | `day_flg_qs0116` |
 | 0x6404FE11 | 2535 | Checks if you have fought Hovernyan today. | `day_flg_y236000` |
 | 0x921A66F3 | 2536 | Checks if you have fought Darknyan today. | `day_flg_y342000` |
 | 0x0FCD5E4A (0xFCD5E4A) | 2537 | Checks if you have fought Robonyan F today. | `day_flg_y345000` |
@@ -2567,10 +2567,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x3031BA3F | 2552 | Checks if you have fought Grapenyan today. | `day_flg_y725030` |
 | 0x7F702CF8 | 2553 | Checks if you have fought Strawbnyan today. | `day_flg_y725040` |
 | 0x666B1DB9 | 2554 | Checks if you have fought Watermelnyan today. | `day_flg_y725050` |
-| 0x54FBB2FF | 2555 | - | - |
-| 0xCA9F275C | 2556 | - | - |
+| 0x54FBB2FF | 2555 | - | `day_flg_qs0023` |
+| 0xCA9F275C | 2556 | - | `day_flg_qs0024` |
 | 0xAB68A865 | 2557 | Checks if you have used the High Gnomey baffle board today. | `day_flg_y287000` |
-| 0x3070CFD6 | 2558 | - | - |
+| 0x3070CFD6 | 2558 | - | `day_flg_qs0084` |
 | 0x2E4FCD24 | 2559 | - | - |
 
 ## FLAG_INFO_1 (6, 581) - GlobalByteFlag
@@ -2646,8 +2646,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8920FFE7 | 73 | Infinite Tunnel Phase; starting from 0, it increases every tunnel clear, maxing out at 20. | `enen_phase` |
 | 0x760AB692 | 76 | - | - |
 | 0xABD3BC2C | 77 | - | - |
-| 0x0CE98A12 (0xCE98A12) | 78 | - | - |
-| 0xA5CA6888 | 79 | - | - |
+| 0x0CE98A12 (0xCE98A12) | 78 | - | `talk_y152000` |
+| 0xA5CA6888 | 79 | - | `posi_y152000` |
 | 0x9B2A9EC6 | 80 | - | - |
 | 0x0DF1B999 (0xDF1B999) | 81 | - | - |
 | 0x26B6A60C | 91 | - | `new_yspot_00` |
@@ -2924,9 +2924,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA9A4CE33 | 379 | - | - |
 | 0x30AD9F89 | 380 | - | - |
 | 0x1C05A99C | 381 | - | `shpN047_14` |
-| 0x6B02990A | 382 | - | - |
-| 0xF20BC8B0 | 383 | - | - |
-| 0x850CF826 | 384 | - | - |
+| 0x6B02990A | 382 | - | `shpN047_15` |
+| 0xF20BC8B0 | 383 | - | `shpN047_16` |
+| 0x850CF826 | 384 | - | `shpN047_17` |
 | 0x8141AA54 | 385 | - | - |
 | 0xBF2034F7 | 386 | - | - |
 | 0x266FFC2B | 388 | - | - |
@@ -3664,16 +3664,16 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9F8043E7 | 499 | Gold-Gleaming Hwy. - Eastbound #2a | `tb_t101d05c_a_02` |
 | 0x248C6980 | 500 | - | - |
 | 0x1632876D | 501 | - | - |
-| 0xFF2BA2CC | 502 | - | - |
-| 0x6622F376 | 503 | - | - |
-| 0x1125C3E0 | 504 | - | - |
-| 0x8F415643 | 505 | - | - |
-| 0xF84666D5 | 506 | - | - |
-| 0x614F376F | 507 | - | - |
-| 0x164807F9 | 508 | - | - |
-| 0x86F71A68 | 509 | - | - |
-| 0xF1F02AFE | 510 | - | - |
-| 0x66F67A18 | 511 | - | - |
+| 0xFF2BA2CC | 502 | - | `gate_tbox1` |
+| 0x6622F376 | 503 | - | `gate_tbox2` |
+| 0x1125C3E0 | 504 | - | `gate_tbox3` |
+| 0x8F415643 | 505 | - | `gate_tbox4` |
+| 0xF84666D5 | 506 | - | `gate_tbox5` |
+| 0x614F376F | 507 | - | `gate_tbox6` |
+| 0x164807F9 | 508 | - | `gate_tbox7` |
+| 0x86F71A68 | 509 | - | `gate_tbox8` |
+| 0xF1F02AFE | 510 | - | `gate_tbox9` |
+| 0x66F67A18 | 511 | - | `gate_tbox10` |
 | 0x795148B2 | 512 | Sawayama Castle Town #1a | `tb_t301g00_a_01` |
 | 0xE0581908 | 513 | Sawayama Castle Town #2a | `tb_t301g00_a_02` |
 | 0x975F299E | 514 | Sawayama Castle Town #3a | `tb_t301g00_a_03` |
@@ -3844,8 +3844,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7EE824B8 | 121 | - | - |
 | 0xE0D7F5AA | 122 | - | - |
 | 0x1E28CA87 | 123 | - | - |
-| 0xD798B2CF | 126 | - | - |
-| 0x4E91E375 | 127 | - | - |
+| 0xD798B2CF | 126 | - | `check_soft1` |
+| 0x4E91E375 | 127 | - | `check_soft2` |
 | 0x76EE5AAB | 128 | - | - |
 | 0xEFE70B11 | 129 | - | - |
 | 0x9DD9E1A8 | 130 | - | - |
@@ -3926,7 +3926,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF023B5B1 | 42 | - | `tmp_train_event_type` |
 | 0x8379C8D6 | 43 | - | `tmp_enen_reward` |
 | 0x72CC0C86 | 45 | - | - |
-| 0xE2EECD77 | 46 | - | - |
+| 0xE2EECD77 | 46 | - | `tmp_guts_success_count` |
 | 0xE65769F4 | 49 | - | - |
 | 0x50D97E20 | 50 | - | - |
 | 0x08BAAEBB (0x8BAAEBB) | 51 | - | - |
