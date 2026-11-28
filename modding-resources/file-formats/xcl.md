@@ -26,7 +26,7 @@ XCL files are compressed in their entirety, not on a per-struct basis, using L5C
 
 ## Versions
 
-There are two known versions of XCL, referred to here as V1 and V2.
+There are two known versions of XCL, referred to here as V1 and V2. V1 was introduced in Yo-kai Watch Blasters, while V2 was introduced in Yo-kai Watch 3.
 The rest of the documentation assumes the file is already decompressed.
 
 To detect the version, read the `u16` at offset `0x00` of the decompressed data.
@@ -358,19 +358,38 @@ tx = i % cellCols
 tz = floor(i / cellCols)
 ```
 
-A tile covers `[aabbMinX + tx * W / cellCols, aabbMinX + (tx + 1) * W / cellCols]` on X and the equivalent range on Z, whereby `W = aabbMaxX - aabbMinX` and the Z span is `aabbMaxZ - aabbMinZ`. The only tiles which no triangle refers to are sentinel cells.
+Tile bounds are computed from the stored cell size, not by dividing the AABB. Bound `k` on X is `aabbMinX + k * cellSizeX`, so tile `tx` covers `[bound(tx), bound(tx + 1)]`, and Z works the same way with `aabbMinZ` and `cellSizeZ`. The outer edge of the last column and row is clamped to the AABB maximum. The only tiles which no triangle refers to are sentinel cells.
 
-The stored `cellSizeX` / `cellSizeZ` only approximately match `W / cellCols` (equal ~90% of the time).
+The stored `cellSizeX` / `cellSizeZ` only approximately match `(aabbMaxX - aabbMinX) / cellCols` and `(aabbMaxZ - aabbMinZ) / cellRows` respectively (equal ~90% of the time); the exact arithmetic is described below.
 
 A triangle is listed in every tile that its XZ projection makes contact with. Y is meaningless here, and boundaries are closed (aka touching a tile's edge counts). A large triangle therefore appears in many cells, and a cell can list triangles whose centers are in other tiles.
 
-To rebuild a cell list, test each triangle's XZ projection against each tile rectangle with an exact 2D overlap test (separating axis theorem) in float64.
+Level-5 updated the tool that writes these lists somewhere after Yo-kai Watch Blasters and early into Yo-kai Watch 3 (I believe early since `testmap2` in YW3 uses the YWB code, being the only file that does this).
 
-Although, I should mention *one* exception I've noticed:
+> [!NOTE]
+> To clarify, as implied above, the writer is distinguished by game *NOT* version. V1 YW3 `.xcl` files use YW3's code not YWB's.
 
-The original writer sometimes lists a few *extra* triangles that miss a tile by usually at most ~0.0139 units (although there are exceptions ~15 units). Never fewer.
-This mostly affects triangles with an edge nearly parallel to a tile boundary so a floor edge 0.0078 below a row boundary, for example, brings in the whole adjacent row of tiles.
-Perpendicular near-misses are always excluded correctly. This looks like a float32 scanline rasterizer artifact in the original writer (?), although I haven't tried to perfectly mimic this when creating custom `.xcl`s, nor have looked into it much.
+Both writers work on a per triangle basis. The tiles under the triangle's bounding box are found first, and that range is extended by one tile so that tiles the box only touches are also tested. Each tile in that range is then checked against the triangle with a separating axis test (on the X and Z axes and the three edge normals), where touching does indeed count as overlap.
+
+Zero-length edges are skipped, and the last column and row clamp their outer edge to the AABB maximum. YW3's writer has an `eps` tile inflation of `0.01` on all sides, YWB has none. YWB uses `f32(aabbMin + k * cellSize)` for tile bound `k`, while YW3 uses `aabbMin + k * cellSize` (as float64).
+
+YW3's inflation only adds triangles - it can't remove any. On the X and Z axes, a gap of up to `eps` still counts as overlap. On an edge axis with (unit) normal `(nx, nz)`, the inflated tile's projection is wider by `eps * (abs(nx) + abs(nz))` at each end, so the allowed gap depends on the edge's angle. At most, it can reach `eps * sqrt(2)` (~0.0141) for a 45 degree edge.
+
+> [!NOTE]
+> In case you were wondering, the `0.01` inflation appears very much intentional.
+> 
+> As for why, I believe the grid is a broadphase, so it just needs to never miss a collider. Listing a triangle in a tile it barely grazes really only leads to an extra check at runtime. However, leaving it out could let something slip through a seam, and Yo-kai Watch had enough OOB glitches.
+> Take a typical `cellSize` of ~39.4. In this case, `0.01` is about 0.03% of a tile, so it costs next to nothing in practice anyway.
+
+Because YWB's float32 bounds sit a few millionths of a unit off the float64 grid, a triangle that only touches a tile can land on either side; this is the only case where a list has fewer triangles than an exact test would give. There are exactly 39 such occurrences in YWB.
+
+The stored `cellSizeX` / `cellSizeZ` actually depends on the format instead of the game. V2 files compute it entirely in float32 (so `f32(f32(span) / count)`), while V1 files divide the double span and only round the quotient, so `f32(span / count)`.
+
+The two usually yield the same result. They only differ if the span isn't exactly representable in float32, the count isn't a power of two (as dividing by a power of two is just an exponent shift), and the quotient sits close enough to a rounding boundary that rounding the span first tips it over. When they do differ it's always by exactly 1 ulp.
+
+Because of the conditions above, only a minority of files can actually show which one was used, but all of them follow the version. All 106 decidable V2 files use the two-step form, and all 15 decidable V1 files use the single-rounded one. That includes YW3's V1 files, even though they use YW3's tile code. There isn't a single file which mixes the two between its axes.
+
+Therefore, I conclude Level-5 likely changed the tile code first, and the cell size arithmetic later, around when V2 was introduced. I doubt the cell size change was deliberate. A 1 ulp difference is probably just whatever width the span was held in by each build.
 
 #### Triangle-index list
 
