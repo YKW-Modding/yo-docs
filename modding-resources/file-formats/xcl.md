@@ -358,9 +358,9 @@ tx = i % cellCols
 tz = floor(i / cellCols)
 ```
 
-A tile covers `[aabbMinX + tx * W / cellCols, aabbMinX + (tx + 1) * W / cellCols]` on X and the equivalent range on Z, whereby `W = aabbMaxX - aabbMinX` and the Z span is `aabbMaxZ - aabbMinZ`. The only tiles which no triangle refers to are sentinel cells.
+Tile bounds are computed from the stored cell size, not by dividing the AABB. Bound `k` on X is `aabbMinX + k * cellSizeX`, so tile `tx` covers `[bound(tx), bound(tx + 1)]`, and Z works the same way with `aabbMinZ` and `cellSizeZ`. The outer edge of the last column and row is clamped to the AABB maximum. The only tiles which no triangle refers to are sentinel cells.
 
-The stored `cellSizeX` / `cellSizeZ` only approximately match `W / cellCols` (equal ~90% of the time).
+The stored `cellSizeX` / `cellSizeZ` only approximately match `(aabbMaxX - aabbMinX) / cellCols` and `(aabbMaxZ - aabbMinZ) / cellRows` respectively (equal ~90% of the time); the exact arithmetic is described below.
 
 A triangle is listed in every tile that its XZ projection makes contact with. Y is meaningless here, and boundaries are closed (aka touching a tile's edge counts). A large triangle therefore appears in many cells, and a cell can list triangles whose centers are in other tiles.
 
@@ -381,7 +381,7 @@ YW3's inflation only adds triangles - it can't remove any. On the X and Z axes, 
 > As for why, I believe the grid is a broadphase, so it just needs to never miss a collider. Listing a triangle in a tile it barely grazes really only leads to an extra check at runtime. However, leaving it out could let something slip through a seam, and Yo-kai Watch had enough OOB glitches.
 > Take a typical `cellSize` of ~39.4. In this case, `0.01` is about 0.03% of a tile, so it costs next to nothing in practice anyway.
 
-Because YWB's float32 bounds sit a few millionths of a unit off the float64 grid, a triangle that only touches a tile can land on either side; this is the only case where a list has fewer triangles than an exact test would give. This happens exactly 39 times in YWB.
+Because YWB's float32 bounds sit a few millionths of a unit off the float64 grid, a triangle that only touches a tile can land on either side; this is the only case where a list has fewer triangles than an exact test would give. There are exactly 39 such occurrences in YWB.
 
 The stored `cellSizeX` / `cellSizeZ` actually depends on the format instead of the game. V2 files compute it entirely in float32 (so `f32(f32(span) / count)`), while V1 files divide the double span and only round the quotient, so `f32(span / count)`.
 
