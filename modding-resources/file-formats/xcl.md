@@ -26,7 +26,7 @@ XCL files are compressed in their entirety, not on a per-struct basis, using L5C
 
 ## Versions
 
-There are two known versions of XCL, referred to here as V1 and V2.
+There are two known versions of XCL, referred to here as V1 and V2. V1 was introduced in Yo-kai Watch Blasters, while V2 was introduced in Yo-kai Watch 3.
 The rest of the documentation assumes the file is already decompressed.
 
 To detect the version, read the `u16` at offset `0x00` of the decompressed data.
